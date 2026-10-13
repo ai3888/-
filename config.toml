@@ -1,0 +1,73 @@
+# 项目雷达配置。改完提交到仓库，下次定时运行就会生效。
+
+# 你关注的方向：交给 GPT 判断相关度用，不影响规则打分
+interests = "AI 应用与 Agent、开发者工具、可以自己部署的（self-hosted）工具"
+
+# ---------------------------------------------------------------- 1. 去哪找
+# 每个 [[queries]] 是一条 GitHub 搜索，语法和 GitHub 网页搜索框一样：
+# https://docs.github.com/search-github/searching-on-github/searching-for-repositories
+# {days_ago:N} 会被替换成 N 天前的日期。结果按星数从高到低取。
+
+[[queries]]
+name = "近 90 天新项目"
+q = "created:>{days_ago:90} stars:>100"
+
+[[queries]]
+name = "LLM"
+q = "topic:llm pushed:>{days_ago:14} stars:>300"
+
+[[queries]]
+name = "AI Agent"
+q = "topic:ai-agents pushed:>{days_ago:14} stars:>200"
+
+[[queries]]
+name = "开发者工具"
+q = "topic:developer-tools pushed:>{days_ago:14} stars:>300"
+
+[[queries]]
+name = "自部署"
+q = "topic:self-hosted pushed:>{days_ago:14} stars:>300"
+
+[search]
+pages_per_query = 1   # 每页 100 个
+detail_top_k = 40     # 粗排后取前多少个去查提交数、贡献者、发版、近期涨星（每个约 4~6 次 API 调用）
+
+# ---------------------------------------------------------------- 2. 排除什么
+[filters]
+exclude_forks = true
+exclude_archived = true
+require_description = true
+max_days_since_push = 30   # 超过这么多天没更新的不要
+# 名字、简介或 topics 里含这些词的不要（不区分大小写）
+exclude_keywords = ["awesome", "tutorial", "course", "interview", "leetcode", "cheatsheet", "roadmap", "教程", "面试", "刷题"]
+
+# ---------------------------------------------------------------- 3. 怎么打分（会按比例换算成 100 分）
+[weights]
+growth = 40      # 涨星速度：最近每天涨多少星
+activity = 20    # 开发活跃度：近 30 天提交数 + 最近有没有 push
+community = 20   # 社区：贡献者人数 + fork 比例（有人真的在用、在改）
+quality = 20     # 规范度：有许可证、有 topics、有主页、有正式发版
+
+[full_marks]     # 达到这个值该项拿满分（对数刻度，小数值之间也有区分）
+stars_per_day = 50
+commits_30d = 60
+contributors = 20
+fork_ratio = 0.1   # fork 数 ≥ 星数的 10%
+
+# ---------------------------------------------------------------- 4. 分档
+[tiers]
+potential_max_age_days = 90   # 创建不超过这么多天，才有资格算「潜力股」
+potential_min_score = 55      # 潜力股分数线
+watch_min_score = 65          # 「值得关注」分数线（不限创建时间）
+max_report = 15               # 每次报告最多几个
+cooldown_days = 14            # 推荐过的项目，多少天内不重复推荐
+
+# ---------------------------------------------------------------- 5. GPT 复核
+# 需要在仓库 Settings → Secrets 里加 OPENAI_API_KEY；不加就只用规则打分。
+[llm]
+model = "gpt-4o-mini"   # 换成你账号能用的模型；也可以用仓库变量 OPENAI_MODEL 覆盖
+readme_chars = 1500     # 每个项目给 GPT 看多少字的 README
+
+# ---------------------------------------------------------------- 6. 通知
+[notify]
+create_issue = false    # 改成 true：每次运行在本仓库开一个 issue，GitHub App / 邮件会提醒你

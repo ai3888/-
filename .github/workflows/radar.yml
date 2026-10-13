@@ -1,0 +1,45 @@
+name: 项目雷达
+
+on:
+  schedule:
+    - cron: "17 1 * * *"   # 每天 UTC 01:17，约北京时间 09:17（GitHub 定时任务可能晚几分钟）
+  workflow_dispatch:        # 允许在 Actions 页面手动点「Run workflow」
+
+permissions:
+  contents: write   # 提交报告
+  issues: write     # config.toml 里 create_issue = true 时开 issue
+
+concurrency:
+  group: radar
+
+jobs:
+  scout:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 抓取、打分、生成报告
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: ${{ vars.OPENAI_BASE_URL }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+        run: python scout.py
+
+      - name: 提交报告
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports data
+          if git diff --cached --quiet; then
+            echo "没有变化"
+            exit 0
+          fi
+          git commit -m "radar: $(date -u +%F) 报告"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
