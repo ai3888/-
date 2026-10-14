@@ -29,7 +29,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 NOW = datetime.now(timezone.utc)
-TODAY = NOW.date()
+# 日期按北京时间算：每天早上 6 点多运行，这时 UTC 还是前一天
+TODAY = NOW.astimezone(timezone(timedelta(hours=8))).date()
 
 NETWORK_ERRORS = (urllib.error.URLError, TimeoutError, ConnectionError, ValueError, KeyError)
 
@@ -469,7 +470,15 @@ def main():
         print("\n" + report)
         return
 
-    # 6. 写报告、记住推荐过的项目。同一天跑多次时另存为 -2、-3，不覆盖之前的
+    # 6. 给 AI 日报素材（ai_news.py）留一份结构化结果，每次都覆盖
+    keys = ("name", "url", "description", "language", "license", "topics", "stars", "forks", "stars_per_day",
+            "growth_basis", "age_days", "contributors", "commits_30d", "score", "tier", "flags")
+    (ROOT / "data").mkdir(exist_ok=True)
+    (ROOT / "data" / "radar_latest.json").write_text(json.dumps(
+        {"date": TODAY.isoformat(), "items": [{k: r.get(k) for k in keys} for r in picked]},
+        ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+
+    # 7. 写报告、记住推荐过的项目。同一天跑多次时另存为 -2、-3，不覆盖之前的
     reports = ROOT / "reports"
     reports.mkdir(exist_ok=True)
     path = reports / f"{TODAY}.md"

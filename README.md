@@ -33,7 +33,7 @@
    - Variables 里可以添加 `OPENAI_MODEL`（模型名，默认 `gpt-4o-mini`）和 `OPENAI_BASE_URL`（使用中转服务时填写，例如 `https://xxx.com/v1`）
    - 不配置也能运行，只是没有 GPT 点评
 2. **手动跑一次试试**：Actions → 项目雷达 → Run workflow。跑完后仓库里会多出 `reports/` 目录。
-3. **之后每天北京时间 9 点多自动运行**。想在手机上收到提醒，就把 `config.toml` 里的 `create_issue` 改成 `true`，每次运行都会开一个 issue，GitHub App 和邮件会通知你。
+3. **之后每天北京时间 6 点多自动运行**（和 AI 日报素材一起）。想在手机上收到提醒，就把 `config.toml` 里的 `create_issue` 改成 `true`，每次运行都会开一个 issue，GitHub App 和邮件会通知你。
 
 如果第 2 步提交报告时报 403，到 Settings → Actions → General → Workflow permissions 选择「Read and write permissions」。
 
@@ -64,16 +64,19 @@ Accept: application/vnd.github.raw
 
 不想跑脚本的话，可以让 GPT 自己定时执行：[`gpt-task.md`](gpt-task.md) 是写给 GPT 的完整任务说明，包括方向、步骤、判断标准和输出格式。先填好其中的「我的方向」，再让 GPT 每次运行时读取这个文件。
 
-## AI 资讯雷达（建设中）
+## AI 日报（每天早上 8 点）
 
-除了 GitHub 项目，还会每天从论文、社区、博客、油管等免费来源收集 AI 动态。现在完成的是第一步「接入」：
+1. 每天北京时间 6:37，GitHub 自动运行「每日 AI 雷达」：先跑上面的项目雷达，再从 [`ai_news.toml`](ai_news.toml) 里的来源（HF 每日论文、Hacker News、OpenRouter、各家官方博客、Newsletter、量子位、油管频道）抓取最新内容，用代码去重、算热度，生成日报素材 [`reports/ai-news/latest.md`](reports/ai-news/latest.md)，每天的存档在 `reports/ai-news/` 里
+2. 素材分三块：大家都在讨论的（同一件事在几个不同来源出现）、新东西（官方发布、新模型、开源项目和 Skill、Show HN 新工具）、论文（按 HF 点赞数排序）
+3. 素材最前面是给 GPT 的写作说明，来自 [`ai_news_guide.md`](ai_news_guide.md)。想改日报的标准或格式，改这个文件就行
+4. 早上 8 点，ChatGPT 的定时任务读素材、写日报推送给你
 
-- 来源都在 [`ai_news.toml`](ai_news.toml) 里，可以增删，也可以用 `enabled = false` 关掉
+流程里不调用任何付费模型：抓取和排序由代码完成，挑选和写日报交给 ChatGPT 里的 GPT。
+
+其他：
+
 - 改了来源后，GitHub 会自动跑一次「AI 资讯雷达 · 接入检查」，在运行页面的 Summary 里列出每个来源能不能用
-- 流程本身不调用任何付费模型：代码负责抓取和筛选，判断和写日报交给 ChatGPT 里的 GPT
-- 可选：仓库 Secrets 里加 `GEMINI_API_KEY`，用来看油管视频内容（目前部分 Google 账号的项目会被拒绝访问）
-
-后面会加上：每天生成一份筛选好的「AI 动态素材」文件，再由 GPT 定时读取、写成日报。
+- 可选：仓库 Secrets 里加 `GEMINI_API_KEY`，接入检查会顺便测试 Gemini 能不能看油管视频（目前部分 Google 账号的项目会被拒绝访问）
 
 ## 在自己电脑上运行
 
@@ -85,10 +88,11 @@ export OPENAI_API_KEY=sk-...           # 可选
 python3 scout.py --dry-run             # 只打印报告，不写文件
 ```
 
-AI 资讯雷达的接入检查：
+AI 日报素材：
 
 ```bash
 export GEMINI_API_KEY=...              # 可选
 python3 ai_news.py --check             # 检查每个来源，不写文件
-python3 ai_news.py                     # 抓取并存到 data/news/raw/日期.json
+python3 ai_news.py --dry-run           # 只打印今天的素材，不写文件
+python3 ai_news.py                     # 生成 reports/ai-news/日期.md 和 latest.md
 ```

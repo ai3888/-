@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
-"""AI 资讯雷达 · 接入层：从各个免费来源抓取最新的 AI 内容，整理成统一格式。
+"""AI 资讯雷达：从各个免费来源抓取最新的 AI 内容，去重、算热度，生成每天给 GPT 读的「日报素材」。
 
-目前只做「接入」这一步。后面的去重筛选、Gemini 初筛、GPT 判断和日报，都建立在这份数据上。
-来源在 ai_news.toml 里配置。只依赖 Python 3.11+ 标准库，不需要 pip install。
+流程里不调用任何付费模型：抓取、去重、排序全部由代码完成，挑选和写日报交给 ChatGPT 里的 GPT。
+来源在 ai_news.toml 里配置，给 GPT 的写作说明在 ai_news_guide.md 里。只依赖 Python 3.11+ 标准库。
 
 用法：
-    python ai_news.py            # 抓取所有来源，存到 data/news/raw/日期.json
-    python ai_news.py --check    # 检查每个来源和 API Key 能不能用，不写文件
-"""
+    python ai_news.py              # 抓取并生成 reports/ai-news/日期.md 和 latest.md
+    python ai_news.py --dry-run    # 只打印素材，不写文件
+    python ai_news.py --check      # 检查每个来源能不能用，不写文件"""
 
 from __future__ import annotations
 
@@ -32,7 +32,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data" / "news"
 NOW = datetime.now(timezone.utc)
-TODAY = NOW.date()
+BEIJING = timezone(timedelta(hours=8))
+TODAY = NOW.astimezone(BEIJING).date()  # 日报按北京时间算日期
 
 # 有些网站会拦截不像浏览器的请求
 USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36"
@@ -331,7 +332,7 @@ def fetch_feed(feed):
             errors.append(describe_error(e))
             continue
         items = [make_item("feed", f"url:{e['url'] or e['id']}", e["title"], e["url"], e["published"], e["summary"],
-                           feed=feed["name"], author=e["author"])
+                           feed=feed["name"], kind=feed.get("kind", "newsletter"), author=e["author"])
                  for e in entries if e["url"] or e["id"]]
         return items, "" if url == urls[0] else f"主地址失败（{errors[0]}），用的备用地址"
     raise ValueError("；".join(errors))
@@ -386,6 +387,304 @@ def build_jobs(cfg, cache):
         for ch in yt.get("channels", []):
             jobs.append((f"油管 {ch}", lambda ch=ch: fetch_youtube(ch, cache), yt_since))
     return jobs
+
+
+# ---------------------------------------------------------------- 日报素材（给 GPT 读）
+
+SOURCE_NAMES = {"hf_papers": "HF 每日论文", "arxiv": "arXiv", "hackernews": "Hacker News", "openrouter": "OpenRouter"}
+
+
+def source_label(item):
+    extra = item.get("extra", {})
+    if item["source"] == "feed":
+        return extra.get("feed", "博客")
+    if item["source"] == "youtube":
+        return f"油管 {extra.get('channel', '')}".strip()
+    return SOURCE_NAMES.get(item["source"], item["source"])
+
+
+def canonical_key(item):
+    """同一篇论文、同一个网址只算一条：论文统一成 arXiv 编号，网址去掉 www 和跟踪参数。"""
+    if item["id"].startswith("arxiv:"):
+        return item["id"]
+    url = item.get("url") or ""
+    if m := re.search(r"(?:arxiv\.org/(?:abs|pdf)|huggingface\.co/papers)/(\d{4}\.\d{4,5})", url):
+        return f"arxiv:{m.group(1)}"
+    if not url.startswith("http"):
+        return item["id"]
+    parts = urllib.parse.urlsplit(url)
+    query = urllib.parse.urlencode([(k, v) for k, v in urllib.parse.parse_qsl(parts.query)
+                                    if not k.startswith("utm_") and k not in ("ref", "source")])
+    return parts.netloc.lower().removeprefix("www.") + parts.path.rstrip("/") + (f"?{query}" if query else "")
+
+
+def merge_items(items):
+    """不同来源指向同一个东西时合并成一条，记下所有来源（比如 HN 上在讨论 OpenAI 博客里的同一篇文章）。"""
+    merged = {}
+    for it in items:
+        key = canonical_key(it)
+        if key not in merged:
+            merged[key] = {**it, "key": key, "sources": [source_label(it)],
+                           "metrics": dict(it["metrics"]), "extra": dict(it.get("extra", {}))}
+            continue
+        m = merged[key]
+        if m["source"] == "hackernews" and it["source"] != "hackernews":  # 标题和链接优先用原始出处的
+            m.update(title=it["title"], url=it["url"], source=it["source"])
+        if it["published"] and (not m["published"] or it["published"] < m["published"]):
+            m["published"] = it["published"]  # 发布时间取最早的，方便判断是不是刚冒出来
+        if (label := source_label(it)) not in m["sources"]:
+            m["sources"].append(label)
+        for k, v in it["metrics"].items():
+            if isinstance(v, (int, float)) and v > (m["metrics"].get(k) or 0):
+                m["metrics"][k] = v
+        for k, v in it.get("extra", {}).items():
+            m["extra"].setdefault(k, v)
+        if len(it["summary"]) > len(m["summary"]):
+            m["summary"] = it["summary"]
+    return list(merged.values())
+
+
+STOPWORDS = set("""
+a an the and or but of to in on at by for from with without into onto over under about after before between
+during via vs than then this that these those it its is are was were be been being am do does did done has have
+had having can could will would should may might must not no yes all any some more most less very just only also
+even still yet so too as if when where why how what which who whose while until up down out off new now today
+week weeks year years day days time first last next one two three own same other another your you we our us my
+me he she they them their his her ask show hn launch launches launched introducing announcing announces announced
+release released releases update updates updated using use uses used make makes made build builds building built
+get gets got way ways thing things here there based part ai ais llm llms model models agent agents agentic open
+source data paper papers learning machine deep language large video videos news ainews podcast episode inside
+better best good great big small fast faster free tool tools app apps system systems work works working people
+company companies don doesn isn can't won't i'm we're you're dont doesnt isnt really why's what's it's
+""".split())
+TERM_TOKEN = re.compile(r"[a-z][a-z0-9]*(?:[.\-+][a-z0-9]+)*|\d+(?:\.\d+)*")
+VERSION = re.compile(r"v?\d+(?:\.\d+)*[a-z]?")
+
+
+def title_terms(title):
+    """标题里的关键词，名字后面跟版本号的连起来算，比如 gemini 4、qwen 3.5。中文标题里的英文名也能认出来。"""
+    toks = TERM_TOKEN.findall(title.lower())
+    terms = set()
+    for i, t in enumerate(toks):
+        if t in STOPWORDS or VERSION.fullmatch(t) or len(t) < 3:
+            continue
+        terms.add(t)
+        if i + 1 < len(toks) and VERSION.fullmatch(toks[i + 1]):
+            terms.add(f"{t} {toks[i + 1]}")
+    return terms
+
+
+def heat(e):
+    m = e["metrics"]
+    return (m.get("points") or 0) + (m.get("comments") or 0)
+
+
+def hot_topics(entries, limit):
+    """借鉴 TrendRadar：同一件事在越多不同来源出现，说明讨论越广。
+
+    论文标题术语太多，不参与关键词匹配；论文只有在被别处直接链接时（网址合并）才算多来源。
+    """
+    pool = [e for e in entries if e["source"] not in ("hf_papers", "arxiv")]
+    by_term = {}
+    for e in pool:
+        for t in title_terms(e["title"]):
+            by_term.setdefault(t, {})[e["key"]] = e
+    too_common = max(6, len(pool) * 0.15)  # 出现得太多的词（比如 openai）说明不了是同一件事
+    scored = []
+    for term, group in by_term.items():
+        sources = {s for e in group.values() for s in e["sources"]}
+        if len(sources) >= 2 and len(group) <= too_common:
+            scored.append((len(sources), sum(heat(e) for e in group.values()), term, group))
+    scored.sort(key=lambda x: (x[0], x[1]), reverse=True)
+
+    clusters = []
+    for _, _, term, group in scored:
+        keys = set(group)
+        for c in clusters:
+            if keys <= c["entries"].keys() or len(keys & c["entries"].keys()) / len(keys | c["entries"].keys()) >= 0.5:
+                c["terms"].append(term)
+                c["entries"].update(group)
+                break
+        else:
+            clusters.append({"terms": [term], "entries": dict(group)})
+    # 网址相同、本身就来自多个来源的条目（比如 HN 在讨论某篇官方博客），也单独算一个话题
+    clustered = {k for c in clusters for k in c["entries"]}
+    for e in entries:
+        if len(e["sources"]) >= 2 and e["key"] not in clustered:
+            clusters.append({"terms": [e["title"]], "entries": {e["key"]: e}})
+    for c in clusters:
+        c["sources"] = sorted({s for e in c["entries"].values() for s in e["sources"]})
+        c["heat"] = sum(heat(e) for e in c["entries"].values())
+    clusters.sort(key=lambda c: (len(c["sources"]), c["heat"]), reverse=True)
+    return clusters[:limit]
+
+
+def md_title(s):
+    return (s or "（无标题）").replace("[", "［").replace("]", "］")
+
+
+def fmt_entry(e, summary_chars=300):
+    m = e["metrics"]
+    facts = []
+    if m.get("points"):
+        facts.append(f"HN {m['points']} 分")
+    if m.get("upvotes"):
+        facts.append(f"{m['upvotes']} 人点赞")
+    if m.get("comments"):
+        facts.append(f"{m['comments']} 条评论")
+    if m.get("views"):
+        facts.append(f"播放 {m['views']:,}")
+    if e["published"]:
+        facts.append(f"发布于 {e['published'].astimezone(BEIJING):%m-%d %H:%M}")
+    lines = [f"- [{md_title(e['title'])}]({e['url']}) — 来源：{'、'.join(e['sources'])}"
+             + (f"（{'，'.join(facts)}）" if facts else "")]
+    extra = e.get("extra", {})
+    if (disc := extra.get("discussion")) and disc != e["url"]:
+        lines.append(f"  - HN 讨论：{disc}")
+    if extra.get("github"):
+        lines.append(f"  - 代码：{extra['github']}")
+    if e["summary"]:
+        lines.append(f"  - 简介：{e['summary'][:summary_chars]}")
+    return lines
+
+
+def fmt_model(e):
+    pricing = e.get("extra", {}).get("pricing") or {}
+
+    def per_million(v):
+        try:
+            x = float(v) * 1e6
+        except (TypeError, ValueError):
+            return "未知"
+        return "免费" if x == 0 else f"${x:g}"
+
+    ctx = e["metrics"].get("context_length")
+    facts = [f"上线于 {e['published'].astimezone(BEIJING):%m-%d}"] if e["published"] else []
+    if ctx:
+        facts.append(f"上下文 {ctx:,} token")
+    if pricing:
+        facts.append(f"每百万 token 输入 {per_million(pricing.get('prompt'))}、输出 {per_million(pricing.get('completion'))}")
+    lines = [f"- [{md_title(e['title'])}]({e['url']}) — {'，'.join(facts)}"]
+    if e["summary"]:
+        lines.append(f"  - 简介：{e['summary'][:300]}")
+    return lines
+
+
+def fmt_repo(r):
+    rate = f"每天 +{r.get('stars_per_day')} 星" + ("" if r.get("growth_basis") == "recent" else "，按总星数平均")
+    facts = [f"⭐ {r.get('stars', 0):,}（{rate}）", f"创建 {r.get('age_days')} 天"]
+    facts += [x for x in (r.get("language"), r.get("license")) if x]
+    if r.get("contributors") is not None:
+        facts.append(f"{r['contributors']} 位贡献者")
+    tier_name = {"potential": "潜力股", "watch": "值得关注"}.get(r.get("tier"), "")
+    facts.append(f"雷达评分 {r.get('score')}" + (f"（{tier_name}）" if tier_name else ""))
+    lines = [f"- [{r['name']}]({r['url']}) — {' · '.join(facts)}"]
+    if r.get("description"):
+        lines.append(f"  - 简介：{r['description'][:300]}")
+    if r.get("flags"):
+        lines.append(f"  - 风险：{'；'.join(r['flags'])}")
+    return lines
+
+
+def read_guide():
+    """写作说明放在素材最前面；开头给人看的引用说明去掉。"""
+    path = ROOT / "ai_news_guide.md"
+    if not path.exists():
+        return ""
+    lines = path.read_text(encoding="utf-8").splitlines()
+    return "\n".join(line for line in lines if not line.startswith(">")).strip()
+
+
+def build_digest(cfg, items, statuses, radar, seen):
+    """返回 (素材 Markdown, 放进素材的条目 key)。"""
+    dcfg = cfg.get("digest", {})
+    cooldown = dcfg.get("cooldown_days", 7)
+    recent_cut = (TODAY - timedelta(days=cooldown)).isoformat()
+    # 前几天的素材里已经出现过的不再放；今天早些时候跑过的不算（同一天重跑结果不变）
+    entries = [e for e in merge_items(items)
+               if not (recent_cut <= seen.get(e["key"], "") < TODAY.isoformat())]
+    used = set()
+
+    def take(es):
+        used.update(e["key"] for e in es)
+        return es
+
+    clusters = hot_topics(entries, dcfg.get("max_hot_topics", 10))
+    for c in clusters:
+        take(list(c["entries"].values()))
+    in_clusters = set(used)
+    singles = take(sorted((e for e in entries if e["source"] == "hackernews" and e["key"] not in in_clusters
+                           and not e["title"].lower().startswith("show hn")),
+                          key=heat, reverse=True)[: dcfg.get("max_hot_single", 8)])
+    limit = dcfg.get("max_per_section", 10)
+    official = take(sorted((e for e in entries if e.get("extra", {}).get("kind") == "official"),
+                           key=lambda e: e["published"] or NOW, reverse=True)[:limit])
+    models = take(sorted((e for e in entries if e["source"] == "openrouter"),
+                         key=lambda e: e["published"] or NOW, reverse=True)[:limit])
+    show_hn = take(sorted((e for e in entries if e["source"] == "hackernews"
+                           and e["title"].lower().startswith("show hn")), key=heat, reverse=True)[:limit])
+    papers = take(sorted((e for e in entries if e["source"] == "hf_papers"),
+                         key=lambda e: (e["metrics"].get("upvotes") or 0, bool(e.get("extra", {}).get("github"))),
+                         reverse=True)[: dcfg.get("max_papers", 12)])
+    others = take(sorted((e for e in entries if e["source"] == "feed" and e["key"] not in used
+                          and e.get("extra", {}).get("kind") != "official"),
+                         key=lambda e: e["published"] or NOW, reverse=True)[:15])
+    repos = radar.get("items", [])[:limit]
+
+    ok = [s for s in statuses if s["ok"]]
+    failed = [s["name"] for s in statuses if not s["ok"]]
+    out = [f"# AI 日报素材 · {TODAY}", "",
+           f"> 生成于 {NOW.astimezone(BEIJING):%Y-%m-%d %H:%M}（北京时间）。{len(ok)}/{len(statuses)} 个来源抓取成功"
+           + (f"，失败：{'、'.join(failed)}" if failed else "") + "。"
+           f"本次候选：热议话题 {len(clusters)} 个、高热度单条讨论 {len(singles)} 条、"
+           f"新东西 {len(official) + len(models) + len(repos) + len(show_hn)} 条、论文 {len(papers)} 篇。", ""]
+    if guide := read_guide():
+        out += [guide, "", "---", ""]
+
+    out += ["# 今日素材", "", "## 素材一：大家都在讨论的", "",
+            "### 多个来源同时提到的话题", "",
+            "按「出现在几个不同来源」排序，来源越多说明讨论越广。关键词是程序自动找的，可能把不相关的内容归到一起，请自己判断。", ""]
+    if not clusters:
+        out += ["今天没有多个来源同时提到的话题。", ""]
+    for i, c in enumerate(clusters, 1):
+        out += [f"#### {i}. 关键词：{' / '.join(c['terms'][:3])} — {len(c['sources'])} 个来源：{'、'.join(c['sources'])}", ""]
+        for e in sorted(c["entries"].values(), key=heat, reverse=True)[:6]:
+            out += fmt_entry(e, 200)
+        out += [""]
+    out += ["### 只在一个地方出现、但很热的讨论（Hacker News，按分数排序）", ""]
+    for e in singles:
+        out += fmt_entry(e, 200)
+    out += ["", "## 素材二：新东西", "", "### 官方发布", ""]
+    for e in official or []:
+        out += fmt_entry(e)
+    if not official:
+        out += ["今天没有。"]
+    out += ["", "### 新上线的模型（OpenRouter）", ""]
+    for e in models:
+        out += fmt_model(e)
+    if not models:
+        out += ["今天没有。"]
+    out += ["", f"### 开源项目和 Skill（GitHub 项目雷达 {radar.get('date', '')}，已按涨星速度等打过分）", ""]
+    for r in repos:
+        out += fmt_repo(r)
+    if not repos:
+        out += ["今天没有。"]
+    out += ["", "### 新工具（Show HN：作者自己发出来的新项目）", ""]
+    for e in show_hn:
+        out += fmt_entry(e, 200)
+    if not show_hn:
+        out += ["今天没有。"]
+    out += ["", "## 素材三：论文（HF 每日论文，社区投票精选，按点赞数排序）", ""]
+    for e in papers:
+        out += fmt_entry(e, 500)
+    if not papers:
+        out += ["今天没有。"]
+    out += ["", "## 附：博客和 Newsletter 的其他新文章", ""]
+    for e in others:
+        out += fmt_entry(e, 150)
+    if not others:
+        out += ["今天没有。"]
+    return "\n".join(out) + "\n", used
 
 
 # ---------------------------------------------------------------- Gemini 检查（--check）
@@ -472,9 +771,10 @@ def render_check(statuses, key_rows):
 # ---------------------------------------------------------------- 主流程
 
 def main():
-    ap = argparse.ArgumentParser(description="AI 资讯雷达 · 接入层")
+    ap = argparse.ArgumentParser(description="AI 资讯雷达：生成每天给 GPT 读的日报素材")
     ap.add_argument("--config", default=str(ROOT / "ai_news.toml"))
-    ap.add_argument("--check", action="store_true", help="只检查每个来源和 API Key 能不能用，不写文件")
+    ap.add_argument("--check", action="store_true", help="只检查每个来源能不能用，不写文件")
+    ap.add_argument("--dry-run", action="store_true", help="只打印素材，不写文件")
     args = ap.parse_args()
 
     with open(args.config, "rb") as f:
@@ -496,15 +796,35 @@ def main():
                 f.write(report)
         return
 
-    out = DATA / "raw" / f"{TODAY}.json"
-    out.parent.mkdir(parents=True, exist_ok=True)
-    payload = {"fetched_at": NOW.isoformat(), "sources": statuses, "items": items}
-    out.write_text(json.dumps(payload, ensure_ascii=False, indent=1, default=lambda o: o.isoformat()) + "\n",
-                   encoding="utf-8")
-    cache_path.write_text(json.dumps(cache, ensure_ascii=False, indent=1, sort_keys=True) + "\n", encoding="utf-8")
-    ok = sum(1 for s in statuses if s["ok"])
-    print(f"[完成] {ok}/{len(statuses)} 个来源成功，共 {len(items)} 条，存到 {out.relative_to(ROOT)}")
+    radar_path = ROOT / "data" / "radar_latest.json"
+    radar = json.loads(radar_path.read_text(encoding="utf-8")) if radar_path.exists() else {}
+    seen_path = DATA / "seen.json"
+    seen = json.loads(seen_path.read_text(encoding="utf-8")) if seen_path.exists() else {}
+    digest, used = build_digest(cfg, items, statuses, radar, seen)
+    if args.dry_run:
+        print(digest)
+        print(f"[素材] {len(digest):,} 字", file=sys.stderr)
+        return
 
+    reports = ROOT / "reports" / "ai-news"
+    reports.mkdir(parents=True, exist_ok=True)
+    (reports / f"{TODAY}.md").write_text(digest, encoding="utf-8")
+    (reports / "latest.md").write_text(digest, encoding="utf-8")
+    for key in used:
+        seen.setdefault(key, TODAY.isoformat())
+    keep_after = (TODAY - timedelta(days=30)).isoformat()
+    DATA.mkdir(parents=True, exist_ok=True)
+    seen_path.write_text(json.dumps({k: v for k, v in sorted(seen.items()) if v >= keep_after},
+                                    ensure_ascii=False, indent=0) + "\n", encoding="utf-8")
+    cache_path.write_text(json.dumps(cache, ensure_ascii=False, indent=1, sort_keys=True) + "\n", encoding="utf-8")
+
+    raw = DATA / "raw" / f"{TODAY}.json"  # 原始数据只留在本地排查用，不提交（见 .gitignore）
+    raw.parent.mkdir(parents=True, exist_ok=True)
+    raw.write_text(json.dumps({"fetched_at": NOW.isoformat(), "sources": statuses, "items": items},
+                              ensure_ascii=False, indent=1, default=lambda o: o.isoformat()) + "\n", encoding="utf-8")
+    ok = sum(1 for s in statuses if s["ok"])
+    print(f"[完成] {ok}/{len(statuses)} 个来源成功，抓到 {len(items)} 条，素材 {len(digest):,} 字："
+          f"{(reports / 'latest.md').relative_to(ROOT)}")
 
 if __name__ == "__main__":
     main()

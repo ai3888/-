@@ -1,8 +1,10 @@
-name: 项目雷达
+name: 每日 AI 雷达
 
+# 每天早上先跑 GitHub 项目雷达，再生成 AI 日报素材（reports/ai-news/latest.md），
+# ChatGPT 的定时任务 8 点读素材写日报。
 on:
   schedule:
-    - cron: "17 1 * * *"   # 每天 UTC 01:17，约北京时间 09:17（GitHub 定时任务可能晚几分钟）
+    - cron: "37 22 * * *"  # 每天 UTC 22:37，即北京时间 06:37。GitHub 定时任务有时会晚几十分钟，留足余量
   workflow_dispatch:        # 允许在 Actions 页面手动点「Run workflow」
 
 permissions:
@@ -23,7 +25,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: 抓取、打分、生成报告
+      - name: GitHub 项目雷达
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -31,7 +33,12 @@ jobs:
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
         run: python scout.py
 
+      - name: 生成 AI 日报素材
+        if: ${{ !cancelled() }}   # 项目雷达出错也照样生成素材
+        run: python ai_news.py
+
       - name: 提交报告
+        if: ${{ !cancelled() }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -40,6 +47,6 @@ jobs:
             echo "没有变化"
             exit 0
           fi
-          git commit -m "radar: $(date -u +%F) 报告"
+          git commit -m "daily: $(TZ=Asia/Shanghai date +%F) 项目雷达和 AI 日报素材"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"
