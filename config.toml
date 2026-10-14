@@ -28,6 +28,18 @@ q = "topic:developer-tools pushed:>{days_ago:14} stars:>300"
 name = "自部署"
 q = "topic:self-hosted pushed:>{days_ago:14} stars:>300"
 
+[[queries]]
+name = "Agent Skill"
+q = "topic:agent-skills pushed:>{days_ago:14} stars:>50"
+
+[[queries]]
+name = "Claude Skill"
+q = "topic:claude-skills pushed:>{days_ago:14} stars:>50"
+
+[[queries]]
+name = "MCP"
+q = "topic:mcp pushed:>{days_ago:14} stars:>200"
+
 [search]
 pages_per_query = 1   # 每页 100 个
 detail_top_k = 40     # 粗排后取前多少个去查提交数、贡献者、发版、近期涨星（每个约 4~6 次 API 调用）

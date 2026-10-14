@@ -29,7 +29,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 NOW = datetime.now(timezone.utc)
-TODAY = NOW.date()
+# 日期按北京时间算：每天早上 6 点多运行，这时 UTC 还是前一天
+TODAY = NOW.astimezone(timezone(timedelta(hours=8))).date()
 
 NETWORK_ERRORS = (urllib.error.URLError, TimeoutError, ConnectionError, ValueError, KeyError)
 
@@ -109,27 +110,6 @@ class GitHub:
         m = re.search(r'[?&]page=(\d+)>; rel="last"', headers.get("Link") or "")
         return int(m.group(1)) if m else len(content or [])
 
-    def recent_star_rate(self, name, stars):
-        """看最近加星的那批人的时间，估算现在每天涨多少星。
-
-        从最后一页往前翻，直到样本覆盖满 1 天或翻了 3 页。
-        GitHub 只能翻到第 400 页（4 万星），更大的项目返回 None，退回用平均值。
-        """
-        last_page = math.ceil(stars / 100)
-        if stars == 0 or last_page > 400:
-            return None
-        times = []
-        for page in range(last_page, max(last_page - 3, 0), -1):
-            data, _ = self.request(f"/repos/{name}/stargazers", {"per_page": 100, "page": page},
-                                   accept="application/vnd.github.star+json")
-            times += [datetime.fromisoformat(s["starred_at"]) for s in data or []]
-            if times and (NOW - min(times)).total_seconds() >= 86400:
-                break
-        if not times:
-            return None
-        span_days = max(1.0, (NOW - min(times)).total_seconds() / 86400)
-        return len(times) / span_days
-
     def readme(self, name):
         return self.request(f"/repos/{name}/readme", accept="application/vnd.github.raw", raw=True)[0]
 
@@ -201,10 +181,32 @@ def fetch_details(gh, rec):
     rec["commits_30d"] = safe(lambda: gh.count(f"/repos/{name}/commits", since=since), f"{name} 提交数")
     rec["contributors"] = safe(lambda: gh.count(f"/repos/{name}/contributors", anon=1), f"{name} 贡献者")
     rec["has_release"] = safe(lambda: bool(gh.get(f"/repos/{name}/releases", per_page=1)), f"{name} 发版")
-    rate = safe(lambda: gh.recent_star_rate(name, rec["stars"]), f"{name} 近期涨星")
-    if rate is not None:
-        rec["stars_per_day"] = round(rate, 1)
-        rec["growth_basis"] = "recent"
+
+
+def apply_star_history(candidates, history):
+    """用「这次的星数 − 前几天记下的星数」算最近每天涨多少星，再把这次的星数记下来。
+
+    GitHub 从 2026 年 7 月起只对仓库管理员和协作者开放「谁在什么时候点了星」的接口，
+    所以改成每天自己记一次星数。第一次见到的项目没有记录，先按「总星数 ÷ 天数」估算。
+    """
+    today = TODAY.isoformat()
+    for name, rec in candidates.items():
+        h = history.get(name)
+        if h and h["date"] < today:  # 上次记录在之前的某一天：它变成「前一次」，今天重新记
+            h = {"date": today, "stars": rec["stars"], "prev_date": h["date"], "prev_stars": h["stars"]}
+        elif h:  # 今天已经记过（同一天重跑）：只更新今天的星数，保留前一次
+            h["stars"] = rec["stars"]
+        else:
+            h = {"date": today, "stars": rec["stars"]}
+        history[name] = h
+        if "prev_date" in h:
+            days = (TODAY - datetime.fromisoformat(h["prev_date"]).date()).days
+            if 1 <= days <= 7:
+                rec["stars_per_day"] = round(max(0, rec["stars"] - h["prev_stars"]) / days, 1)
+                rec["growth_basis"] = "recent"
+    keep_after = (TODAY - timedelta(days=14)).isoformat()
+    for name in [n for n, h in history.items() if h["date"] < keep_after]:
+        del history[name]
 
 
 # ---------------------------------------------------------------- 打分
@@ -403,7 +405,7 @@ def render_report(picked, stats, usage):
         "---",
         "",
         "<sub>分数 = 涨星速度 + 开发活跃度 + 社区 + 规范度（权重见 config.toml），每个风险提示扣 10 分。"
-        "「平均」表示用总星数 ÷ 天数估算，没有标注的是按最近加星时间算出的真实增速。"
+        "「平均」表示用总星数 ÷ 天数估算（第一次见到的项目），没有标注的是和前几天记下的星数比出来的真实增速。"
         f"本次调用 GitHub API {stats['api_calls']} 次。"
         + (f"GPT（{usage['model']}）用了 {usage.get('prompt_tokens')} 输入 + {usage.get('completion_tokens')} 输出 token。"
            if usage else "未使用 GPT。")
@@ -442,6 +444,10 @@ def main():
             rec = candidates.setdefault(item["full_name"], slim(item))
             rec["sources"].append(q["name"])
 
+    # 每个候选今天的星数记下来，和前几天的记录比，得到最近的涨星速度
+    history = state.setdefault("star_history", {})
+    apply_star_history(candidates, history)
+
     # 2. 过滤：规则 + 冷却期内推荐过的不再推荐
     pool = [r for r in candidates.values()
             if passes(r, cfg["filters"]) and reported.get(r["name"], "") < cooldown_cutoff]
@@ -469,25 +475,36 @@ def main():
         print("\n" + report)
         return
 
-    # 6. 写报告、记住推荐过的项目。同一天跑多次时另存为 -2、-3，不覆盖之前的
+    # 6. 给 AI 日报素材（ai_news.py）留一份结构化结果，每次都覆盖
+    keys = ("name", "url", "description", "language", "license", "topics", "stars", "forks", "stars_per_day",
+            "growth_basis", "age_days", "contributors", "commits_30d", "score", "tier", "flags")
+    (ROOT / "data").mkdir(exist_ok=True)
+    (ROOT / "data" / "radar_latest.json").write_text(json.dumps(
+        {"date": TODAY.isoformat(), "items": [{k: r.get(k) for k in keys} for r in picked]},
+        ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+
+    # 7. 写报告、记住推荐过的项目。同一天跑多次时另存为 -2、-3，不覆盖之前的
     reports = ROOT / "reports"
     reports.mkdir(exist_ok=True)
     path = reports / f"{TODAY}.md"
-    if path.exists() and not picked:
-        print("[完成] 今天已经有报告，这次没有新项目，不再生成。")
-        return
-    n = 2
-    while path.exists():
-        path = reports / f"{TODAY}-{n}.md"
-        n += 1
-    path.write_text(report, encoding="utf-8")
-    (reports / "latest.md").write_text(report, encoding="utf-8")
+    skip_report = path.exists() and not picked
+    if not skip_report:
+        n = 2
+        while path.exists():
+            path = reports / f"{TODAY}-{n}.md"
+            n += 1
+        path.write_text(report, encoding="utf-8")
+        (reports / "latest.md").write_text(report, encoding="utf-8")
     for r in picked:
         reported[r["name"]] = TODAY.isoformat()
     keep_after = (TODAY - timedelta(days=180)).isoformat()
     state["reported"] = {k: v for k, v in sorted(reported.items()) if v >= keep_after}
+    state["star_history"] = dict(sorted(history.items()))  # 不出报告也要存，明天算涨星要用
     state_path.parent.mkdir(exist_ok=True)
     state_path.write_text(json.dumps(state, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    if skip_report:
+        print("[完成] 今天已经有报告，这次没有新项目，不再生成。")
+        return
     print(f"[完成] 入选 {len(picked)} 个，报告：{path.relative_to(ROOT)}")
 
     repo = os.environ.get("GITHUB_REPOSITORY")

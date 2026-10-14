@@ -1,0 +1,120 @@
+# AI 资讯雷达 · 数据来源和素材配置。改完提交到仓库，下次运行就会生效。
+# 每个来源都可以用 enabled = false 关掉。给 GPT 的写作说明在 ai_news_guide.md 里。
+
+[fetch]
+lookback_hours = 48   # 只收最近多少小时内发布的内容（留出余量，覆盖定时任务的延迟和周末）
+
+[digest]              # 每天给 GPT 读的素材
+cooldown_days = 7     # 前几天的素材里出现过的内容，多少天内不再放
+max_hot_topics = 10   # 「多个来源同时提到的话题」最多几个
+max_hot_single = 8    # 「只在一个地方出现、但很热的讨论」最多几条
+max_per_section = 10  # 新东西里每一小类最多几条
+max_papers = 12       # 论文最多几篇
+
+# ---------------------------------------------------------------- 论文
+
+[hf_papers]           # Hugging Face 每日精选论文，带点赞数（热度信号）
+enabled = true
+
+[arxiv]               # arXiv 当天全部新论文（官方 RSS），一天 1500 多篇
+# 不调用模型就没法逐篇判断，所以先关掉，论文用上面的 HF 每日论文（社区投票精选）。
+# ai-news-brief 等项目也是这样做的。以后接上能用的模型再打开。
+enabled = false
+categories = ["cs.AI", "cs.CL", "cs.LG"]   # 想看计算机视觉就加 "cs.CV"
+
+# ---------------------------------------------------------------- 社区
+
+[hackernews]
+enabled = true
+min_points = 50       # 至少多少分的帖子
+ai_only = true        # 只要标题里带下面关键词的
+# 4 个字母以内的按整词匹配（AI 不会匹配到 said），更长的按包含匹配。宁可多收，后面还有筛选
+keywords = [
+  "AI", "AGI", "LLM", "GPT", "RAG", "MCP", "RLHF",
+  "Claude", "Gemini", "OpenAI", "Anthropic", "DeepMind", "DeepSeek", "Qwen", "Llama", "Mistral", "Grok", "xAI",
+  "Hugging Face", "Copilot", "Cursor", "ChatGPT", "chatbot",
+  "language model", "machine learning", "deep learning", "neural", "transformer", "diffusion",
+  "agent", "agentic", "fine-tun", "inference", "embedding", "reasoning", "benchmark", "open-weight", "open weights",
+  "GPU", "CUDA", "NVIDIA",
+]
+
+# ---------------------------------------------------------------- 新模型
+
+[openrouter]          # 新模型通常最先在这里上线
+enabled = true
+
+# ---------------------------------------------------------------- 油管
+# 填频道的 @handle（频道网址 youtube.com/@xxx 里的那段），或者 UC 开头的频道 ID
+# 日报里不单独列视频，只用来判断「大家都在讨论什么」（同一件事有几个来源在说）
+
+[youtube]
+enabled = true
+lookback_hours = 72   # 油管更新慢一些，看最近 3 天
+channels = [
+  "@AndrejKarpathy",
+  "@TwoMinutePapers",
+  "@YannicKilcher",
+  "@aiexplained-official",
+  "@DwarkeshPatel",
+  "@MachineLearningStreetTalk",
+  "@LatentSpacePod",
+  "@GoogleDeepMind",
+  "@OpenAI",
+  "@anthropic-ai",
+]
+
+# ---------------------------------------------------------------- 博客和 Newsletter（RSS）
+# url 可以写一个地址，也可以写多个（前一个失败就用下一个）
+# kind：official 是官方发布（放进「新东西」），newsletter 是个人博客和 Newsletter，media 是媒体
+# Anthropic 官网没有 RSS，之后单独处理。Qwen 原来的博客 2025 年 9 月后不再更新，已去掉
+# AINews 原来的 news.smol.ai 2026 年 9 月起停更，现在每天发在 Latent Space 里
+
+[[feeds]]
+name = "OpenAI"
+kind = "official"
+url = "https://openai.com/news/rss.xml"
+
+[[feeds]]
+name = "Google DeepMind"
+kind = "official"
+url = "https://deepmind.google/blog/rss.xml"
+
+[[feeds]]
+name = "Google AI 博客"
+kind = "official"
+url = "https://blog.google/technology/ai/rss/"
+
+[[feeds]]
+name = "Hugging Face 博客"
+kind = "official"
+url = "https://huggingface.co/blog/feed.xml"
+
+[[feeds]]
+name = "Import AI"
+url = "https://jack-clark.net/feed/"   # Substack 的地址会拦截 GitHub 的服务器
+
+[[feeds]]
+name = "Interconnects"
+url = "https://www.interconnects.ai/feed"
+
+[[feeds]]
+name = "Ahead of AI"
+url = "https://magazine.sebastianraschka.com/feed"
+
+[[feeds]]
+name = "Latent Space（含每天的 AINews：汇总推特、Reddit、Discord 的讨论）"
+url = "https://www.latent.space/feed"
+
+[[feeds]]
+name = "Simon Willison"
+url = "https://simonwillison.net/atom/entries/"
+
+[[feeds]]
+name = "Lilian Weng"
+url = "https://lilianweng.github.io/index.xml"
+lookback_hours = 720   # 更新很少，看最近 30 天
+
+[[feeds]]
+name = "量子位"
+kind = "media"
+url = "https://www.qbitai.com/feed"

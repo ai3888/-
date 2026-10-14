@@ -1,0 +1,30 @@
+name: AI 资讯雷达 · 接入检查
+
+# 检查每个数据来源（以及可选的 Gemini）能不能用，结果显示在运行页面的 Summary 里。不写文件、不提交。
+on:
+  workflow_dispatch:        # 允许在 Actions 页面手动点「Run workflow」
+  push:                     # 改了来源配置或代码时自动检查一次
+    paths:
+      - ai_news.py
+      - ai_news.toml
+      - .github/workflows/ai-news-check.yml
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 检查数据来源
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+        run: python ai_news.py --check
