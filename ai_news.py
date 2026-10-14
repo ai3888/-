@@ -26,6 +26,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
+from collections import Counter
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -277,7 +278,7 @@ def fetch_openrouter(cfg, since):
         make_item("openrouter", f"openrouter:{m['id']}", m.get("name") or m["id"], f"https://openrouter.ai/{m['id']}",
                   datetime.fromtimestamp(m["created"], timezone.utc), m.get("description") or "",
                   {"context_length": m.get("context_length")}, pricing=m.get("pricing"))
-        for m in models if m.get("created")
+        for m in models if m.get("created") and ":" not in m["id"]  # :free、:batch 等是同一个模型的变体
     ]
     return items, f"平台上共 {len(models)} 个模型"
 
@@ -445,7 +446,7 @@ def merge_items(items):
 
 
 STOPWORDS = set("""
-a an the and or but of to in on at by for from with without into onto over under about after before between
+top a an the and or but of to in on at by for from with without into onto over under about after before between
 during via vs than then this that these those it its is are was were be been being am do does did done has have
 had having can could will would should may might must not no yes all any some more most less very just only also
 even still yet so too as if when where why how what which who whose while until up down out off new now today
@@ -479,42 +480,58 @@ def heat(e):
     return (m.get("points") or 0) + (m.get("comments") or 0)
 
 
+def is_specific(term):
+    """带版本号的名字（gemini 4、gpt-5.5、dyna-2）基本能确定说的是同一个东西。"""
+    return bool(re.search(r"\d", term))
+
+
+def same_topic(a, b):
+    shared = a & b
+    return len(shared) >= 2 or any(is_specific(t) for t in shared)
+
+
 def hot_topics(entries, limit):
     """借鉴 TrendRadar：同一件事在越多不同来源出现，说明讨论越广。
 
-    论文标题术语太多，不参与关键词匹配；论文只有在被别处直接链接时（网址合并）才算多来源。
+    两条内容的标题至少共享 2 个关键词，或者共享 1 个带版本号的名字，才算同一件事；
+    只共享一个普通单词（比如 engineer）不算。论文标题术语太多，不参与关键词匹配，
+    只有被别处直接链接时（网址合并）才算多来源。
     """
     pool = [e for e in entries if e["source"] not in ("hf_papers", "arxiv")]
-    by_term = {}
-    for e in pool:
-        for t in title_terms(e["title"]):
-            by_term.setdefault(t, {})[e["key"]] = e
+    df = Counter(t for e in pool for t in title_terms(e["title"]))
     too_common = max(6, len(pool) * 0.15)  # 出现得太多的词（比如 openai）说明不了是同一件事
-    scored = []
-    for term, group in by_term.items():
-        sources = {s for e in group.values() for s in e["sources"]}
-        if len(sources) >= 2 and len(group) <= too_common:
-            scored.append((len(sources), sum(heat(e) for e in group.values()), term, group))
-    scored.sort(key=lambda x: (x[0], x[1]), reverse=True)
+    terms = {e["key"]: {t for t in title_terms(e["title"]) if df[t] <= too_common} for e in pool}
+
+    parent = {e["key"]: e["key"] for e in pool}
+
+    def find(k):
+        while parent[k] != k:
+            parent[k] = parent[parent[k]]
+            k = parent[k]
+        return k
+
+    for i, a in enumerate(pool):
+        for b in pool[i + 1:]:
+            if same_topic(terms[a["key"]], terms[b["key"]]):
+                parent[find(a["key"])] = find(b["key"])
+    groups = {}
+    for e in pool:
+        groups.setdefault(find(e["key"]), {})[e["key"]] = e
+    # 论文被 HN 等直接链接时，网址合并后本身就有多个来源，也算一个话题
+    for e in entries:
+        if e["key"] not in parent and len(e["sources"]) >= 2:
+            groups[e["key"]] = {e["key"]: e}
 
     clusters = []
-    for _, _, term, group in scored:
-        keys = set(group)
-        for c in clusters:
-            if keys <= c["entries"].keys() or len(keys & c["entries"].keys()) / len(keys | c["entries"].keys()) >= 0.5:
-                c["terms"].append(term)
-                c["entries"].update(group)
-                break
-        else:
-            clusters.append({"terms": [term], "entries": dict(group)})
-    # 网址相同、本身就来自多个来源的条目（比如 HN 在讨论某篇官方博客），也单独算一个话题
-    clustered = {k for c in clusters for k in c["entries"]}
-    for e in entries:
-        if len(e["sources"]) >= 2 and e["key"] not in clustered:
-            clusters.append({"terms": [e["title"]], "entries": {e["key"]: e}})
-    for c in clusters:
-        c["sources"] = sorted({s for e in c["entries"].values() for s in e["sources"]})
-        c["heat"] = sum(heat(e) for e in c["entries"].values())
+    for group in groups.values():
+        sources = sorted({s for e in group.values() for s in e["sources"]})
+        if len(sources) < 2:
+            continue
+        counts = Counter(t for k in group for t in terms.get(k, ()))
+        label = sorted((t for t, n in counts.items() if n >= 2),
+                       key=lambda t: (counts[t], is_specific(t), len(t)), reverse=True)[:3]
+        clusters.append({"terms": label or [next(iter(group.values()))["title"]], "entries": group,
+                         "sources": sources, "heat": sum(heat(e) for e in group.values())})
     clusters.sort(key=lambda c: (len(c["sources"]), c["heat"]), reverse=True)
     return clusters[:limit]
 
@@ -629,7 +646,9 @@ def build_digest(cfg, items, statuses, radar, seen):
     others = take(sorted((e for e in entries if e["source"] == "feed" and e["key"] not in used
                           and e.get("extra", {}).get("kind") != "official"),
                          key=lambda e: e["published"] or NOW, reverse=True)[:15])
-    repos = radar.get("items", [])[:limit]
+    # 老牌大项目（星太多，测不出最近的涨星速度）不算「正在兴起」，除非是 90 天内的新项目
+    repos = [r for r in radar.get("items", [])
+             if r.get("growth_basis") == "recent" or (r.get("age_days") or 9999) <= 90][:limit]
 
     ok = [s for s in statuses if s["ok"]]
     failed = [s["name"] for s in statuses if not s["ok"]]
