@@ -16,6 +16,7 @@ import email.utils
 import gzip
 import html
 import json
+import math
 import os
 import re
 import sys
@@ -194,19 +195,30 @@ def parse_feed(data):
 # 每个函数返回 (条目列表, 备注)。出错直接抛异常，由 run_source 统一记录。
 
 def fetch_hf_papers(cfg, since):
-    data = get_json("https://huggingface.co/api/daily_papers?limit=100")
-    items = []
-    for d in data:
-        p = d.get("paper") or {}
-        pid = p.get("id") or d.get("id")
-        if not pid:
-            continue
-        items.append(make_item(
-            "hf_papers", f"arxiv:{pid}", d.get("title") or p.get("title"), f"https://huggingface.co/papers/{pid}",
-            parse_time(d.get("publishedAt") or p.get("publishedAt")), p.get("summary") or d.get("summary"),
-            {"upvotes": p.get("upvotes", 0), "comments": d.get("numComments", 0)},
-            arxiv=f"https://arxiv.org/abs/{pid}", github=p.get("githubRepo")))
-    return items, ""
+    """按日期取每天的榜单（今天往前，天数和时间窗口一致）。榜单本身就是「最近的」，不再按时间过滤。"""
+    days = max(1, math.ceil((NOW - since).total_seconds() / 86400))
+    dates = [(NOW - timedelta(days=n)).date().isoformat() for n in range(days)]
+    items, seen = [], set()
+    for day in dates:
+        try:
+            data = get_json(f"https://huggingface.co/api/daily_papers?date={day}&limit=100")
+        except urllib.error.HTTPError as e:
+            if e.code in (400, 404):  # 当天的榜单还没出来
+                continue
+            raise
+        for d in data:
+            p = d.get("paper") or {}
+            pid = p.get("id") or d.get("id")
+            if not pid or pid in seen:
+                continue
+            seen.add(pid)
+            items.append(make_item(
+                "hf_papers", f"arxiv:{pid}", d.get("title") or p.get("title"), f"https://huggingface.co/papers/{pid}",
+                parse_time(p.get("submittedOnDailyAt") or d.get("publishedAt") or p.get("publishedAt")),
+                p.get("summary") or d.get("summary"),
+                {"upvotes": p.get("upvotes", 0), "comments": d.get("numComments", 0)},
+                arxiv=f"https://arxiv.org/abs/{pid}", github=p.get("githubRepo"), date=day))
+    return items, f"{dates[-1]} 到 {dates[0]} 的榜单"
 
 
 def fetch_arxiv(cfg, since):
@@ -225,7 +237,7 @@ def fetch_arxiv(cfg, since):
         cats_of = [c.text.strip() for c in kids(e["el"], "category") if c.text]
         items.append(make_item("arxiv", f"arxiv:{m.group(0)}", e["title"], f"https://arxiv.org/abs/{m.group(0)}",
                                e["published"], abstract, categories=cats_of))
-    return items, f"另有 {updates} 篇是旧论文的新版本，已跳过" if updates else ""
+    return items, "当天公布的一批" + (f"，另有 {updates} 篇是旧论文的新版本，已跳过" if updates else "")
 
 
 def keyword_matcher(words):
@@ -358,7 +370,7 @@ def build_jobs(cfg, cache):
 
     jobs = []
     if (c := section("hf_papers")) is not None:
-        jobs.append(("HF 每日论文", lambda c=c: fetch_hf_papers(c, since), since))
+        jobs.append(("HF 每日论文", lambda c=c: fetch_hf_papers(c, since), None))
     if (c := section("arxiv")) is not None:
         jobs.append(("arXiv 新论文", lambda c=c: fetch_arxiv(c, since), None))
     if (c := section("hackernews")) is not None:
@@ -464,7 +476,7 @@ def render_check(statuses, key_rows):
             continue
         latest = s.get("latest") or {}
         newest = f"{latest.get('date', '')} {cell(latest.get('title'), 50)}" if latest else "—"
-        window = "当天这批" if s["window_hours"] is None else f"{s['window_hours']} 小时内"
+        window = "本次" if s["window_hours"] is None else f"{s['window_hours']} 小时内"
         state = "✅ 正常" if s["recent"] else ("⚠️ 能连上，但这段时间没有新内容" if s["total"] else "⚠️ 能连上，但一条都没有")
         lines.append(f"| {s['name']} | {state} | {window} {s['recent']} 条 | {newest} | {cell(s.get('note'), 120)} |")
     ok = sum(1 for s in statuses if s["ok"])

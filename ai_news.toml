@@ -55,11 +55,8 @@ channels = [
 
 # ---------------------------------------------------------------- 博客和 Newsletter（RSS）
 # url 可以写一个地址，也可以写多个（前一个失败就用下一个）
-# Anthropic 官网没有 RSS，之后单独处理
-
-[[feeds]]
-name = "AI News（每天汇总推特、Reddit、Discord）"
-url = ["https://news.smol.ai/rss.xml", "https://buttondown.com/ainews/rss"]
+# Anthropic 官网没有 RSS，之后单独处理。Qwen 原来的博客 2025 年 9 月后不再更新，已去掉
+# AINews 原来的 news.smol.ai 2026 年 9 月起停更，现在每天发在 Latent Space 里
 
 [[feeds]]
 name = "OpenAI"
@@ -78,12 +75,8 @@ name = "Hugging Face 博客"
 url = "https://huggingface.co/blog/feed.xml"
 
 [[feeds]]
-name = "Qwen 博客"
-url = "https://qwenlm.github.io/blog/index.xml"
-
-[[feeds]]
 name = "Import AI"
-url = ["https://importai.substack.com/feed", "https://jack-clark.net/feed/"]
+url = "https://jack-clark.net/feed/"   # Substack 的地址会拦截 GitHub 的服务器
 
 [[feeds]]
 name = "Interconnects"
@@ -94,7 +87,7 @@ name = "Ahead of AI"
 url = "https://magazine.sebastianraschka.com/feed"
 
 [[feeds]]
-name = "Latent Space"
+name = "Latent Space（含每天的 AINews：汇总推特、Reddit、Discord 的讨论）"
 url = "https://www.latent.space/feed"
 
 [[feeds]]
