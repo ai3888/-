@@ -388,48 +388,8 @@ def build_jobs(cfg, cache):
     return jobs
 
 
-# ---------------------------------------------------------------- API Key 检查（--check）
-
-def check_openai():
-    key = os.environ.get("OPENAI_API_KEY")
-    if not key:
-        return "⏳ 还没配置（仓库 Secrets 里添加 OPENAI_API_KEY）"
-    base = (os.environ.get("OPENAI_BASE_URL") or "https://api.openai.com/v1").rstrip("/")
-    model = os.environ.get("OPENAI_MODEL") or "gpt-4o-mini"
-    auth = {"Authorization": f"Bearer {key}"}
-    try:
-        ids = sorted(m.get("id", "") for m in get_json(f"{base}/models", headers=auth, retries=0).get("data", []))
-        print("[OpenAI] 这个 Key 能用的 GPT 模型：" + (", ".join(i for i in ids if i.startswith("gpt")) or "（无）"))
-    except NETWORK_ERRORS as e:
-        return f"❌ Key 不能用：{describe_error(e)}"
-    # 查模型列表不要钱，但看不出有没有充值，所以再发一句很短的话试试（不到 0.001 美分）
-    try:
-        post_json(f"{base}/chat/completions", {"model": model, "messages": [{"role": "user", "content": "只回复：好"}]}, auth)
-    except NETWORK_ERRORS as e:
-        return f"⚠️ Key 有效，但调用 {model} 失败：{describe_error(e)}（如果提示额度不足，需要先在 OpenAI 后台充值）"
-    return f"✅ 可用，已成功调用 {model}"
-
-
-# 国内平台的接口格式和 OpenAI 一样，换个地址就能用，支付宝/微信就能充值
-COMPAT_PROVIDERS = [
-    # (显示名, Secret 名, 接口地址, 默认模型)
-    ("智谱 GLM（免费模型）", "ZHIPU_API_KEY", "https://open.bigmodel.cn/api/paas/v4", "glm-4.7-flash"),
-    ("DeepSeek", "DEEPSEEK_API_KEY", "https://api.deepseek.com", "deepseek-chat"),
-]
-
-
-def check_compatible(env, base, default_model):
-    key = os.environ.get(env)
-    if not key:
-        return f"⏳ 还没配置（仓库 Secrets 里添加 {env}）"
-    model = os.environ.get(env.removesuffix("_API_KEY") + "_MODEL") or default_model
-    try:
-        post_json(f"{base}/chat/completions", {"model": model, "messages": [{"role": "user", "content": "只回复：好"}]},
-                  {"Authorization": f"Bearer {key}"})
-    except NETWORK_ERRORS as e:
-        return f"❌ 调用 {model} 失败：{describe_error(e)}"
-    return f"✅ 可用，已成功调用 {model}"
-
+# ---------------------------------------------------------------- Gemini 检查（--check）
+# 流程本身不调用任何付费模型。Gemini 只用来看油管视频，目前账号被 Google 限制，先保留检查，解封了马上能知道
 
 def pick_gemini_model(names):
     """没指定模型时，挑版本最新的正式版 Flash-Lite（免费额度最宽松）。"""
@@ -502,10 +462,10 @@ def render_check(statuses, key_rows):
         lines.append(f"| {s['name']} | {state} | {window} {s['recent']} 条 | {newest} | {cell(s.get('note'), 120)} |")
     ok = sum(1 for s in statuses if s["ok"])
     lines += ["", f"共 {len(statuses)} 个来源：{ok} 个能用，{len(statuses) - ok} 个失败。", ""]
-    lines += ["## API Key", "", "| 检查项 | 结果 |", "|---|---|"]
+    lines += ["## Gemini（看油管视频用，可选）", "", "| 检查项 | 结果 |", "|---|---|"]
     lines += [f"| {name} | {cell(result, 300)} |" for name, result in key_rows]
     lines += ["", "<sub>✅ 正常；⚠️ 能连上但最近没新内容（博客更新慢是正常的）；❌ 连不上，需要换地址或换方法。"
-              "检查 Key 时各发了一句很短的测试，费用不到 0.001 美分。</sub>", ""]
+              "检查 Gemini 时发了一句很短的测试，用的是免费额度。</sub>", ""]
     return "\n".join(lines)
 
 
@@ -529,9 +489,7 @@ def main():
         statuses.append(status)
 
     if args.check:
-        key_rows = [("OpenAI", check_openai())]
-        key_rows += [(name, check_compatible(env, base, model)) for name, env, base, model in COMPAT_PROVIDERS]
-        report = render_check(statuses, key_rows + check_gemini())
+        report = render_check(statuses, check_gemini())
         print("\n" + report)
         if summary := os.environ.get("GITHUB_STEP_SUMMARY"):  # 显示在 GitHub Actions 运行页面上
             with open(summary, "a", encoding="utf-8") as f:

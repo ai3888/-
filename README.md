@@ -70,14 +70,10 @@ Accept: application/vnd.github.raw
 
 - 来源都在 [`ai_news.toml`](ai_news.toml) 里，可以增删，也可以用 `enabled = false` 关掉
 - 改了来源后，GitHub 会自动跑一次「AI 资讯雷达 · 接入检查」，在运行页面的 Summary 里列出每个来源能不能用
-- 模型的 Key 在仓库 Settings → Secrets and variables → Actions → Secrets 里添加，配了哪个检查哪个：
-  - `ZHIPU_API_KEY`：[智谱开放平台](https://open.bigmodel.cn) 的免费模型，用来给论文粗分类
-  - `DEEPSEEK_API_KEY`：[DeepSeek 开放平台](https://platform.deepseek.com)，做最终判断，国内支付方式充值，用量很小
-  - `OPENAI_API_KEY`：GPT，需要能在 OpenAI 后台充值
-  - `GEMINI_API_KEY`：能直接看油管视频，但部分 Google 账号的项目会被拒绝访问
-- 加好 Key 后，到 Actions → AI 资讯雷达 · 接入检查，打开最近一次运行，点 Re-run all jobs 重新检查
+- 流程本身不调用任何付费模型：代码负责抓取和筛选，判断和写日报交给 ChatGPT 里的 GPT
+- 可选：仓库 Secrets 里加 `GEMINI_API_KEY`，用来看油管视频内容（目前部分 Google 账号的项目会被拒绝访问）
 
-后面会加上去重筛选、模型初筛、最终判断和每日报告。
+后面会加上：每天生成一份筛选好的「AI 动态素材」文件，再由 GPT 定时读取、写成日报。
 
 ## 在自己电脑上运行
 
@@ -93,6 +89,6 @@ AI 资讯雷达的接入检查：
 
 ```bash
 export GEMINI_API_KEY=...              # 可选
-python3 ai_news.py --check             # 检查每个来源和 Key，不写文件
+python3 ai_news.py --check             # 检查每个来源，不写文件
 python3 ai_news.py                     # 抓取并存到 data/news/raw/日期.json
 ```
