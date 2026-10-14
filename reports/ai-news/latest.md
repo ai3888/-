@@ -1,6 +1,6 @@
 # AI 日报素材 · 2026-10-14
 
-> 生成于 2026-10-14 22:36（北京时间）。24/24 个来源抓取成功。本次候选：热议话题 3 个、高热度单条讨论 8 条、新东西 20 条、论文 12 篇。
+> 生成于 2026-10-14 22:41（北京时间）。24/24 个来源抓取成功。本次候选：热议话题 3 个、高热度单条讨论 8 条、新东西 23 条、论文 12 篇。
 
 # 写作说明（给 GPT）
 
@@ -96,7 +96,7 @@
 
 #### 1. 关键词：gemini 4 / gemini / argon — 6 个来源：Google AI 博客、Google DeepMind、Hacker News、Latent Space（含每天的 AINews：汇总推特、Reddit、Discord 的讨论）、OpenRouter、油管 Google DeepMind
 
-- [Gemini 4 Argon](https://deepmind.google/models/gemini/) — 来源：Hacker News（HN 1374 分，977 条评论，发布于 10-14 00:03）
+- [Gemini 4 Argon](https://deepmind.google/models/gemini/) — 来源：Hacker News（HN 1374 分，980 条评论，发布于 10-14 00:03）
   - HN 讨论：https://news.ycombinator.com/item?id=50073879
   - 简介：See also: Gemini 4 Argon for Robotics - https://news.ycombinator.com/item?id=50074869
 - [Gemini 4 Argon for Robotics](https://developers.googleblog.com/gemini-4-argon-for-robotics/) — 来源：Hacker News（HN 225 分，52 条评论，发布于 10-14 00:55）
@@ -114,7 +114,7 @@
   - 简介：LFM2.5-24B-A2B is a mixture-of-experts reasoning model from Liquid AI with 24B total and 2.45B active parameters. It always reasons before answering and is built for agents that call tools. Liquid...
 - [Run fast, private agents on-device with LFM2.5-24B-A2B](https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b) — 来源：Hugging Face 博客（发布于 10-14 01:05）
 
-#### 3. 关键词：dyna-2 / robotics / physical — 2 个来源：Latent Space（含每天的 AINews：汇总推特、Reddit、Discord 的讨论）、油管 Latent Space
+#### 3. 关键词：dyna-2 / physical / robotics — 2 个来源：Latent Space（含每天的 AINews：汇总推特、Reddit、Discord 的讨论）、油管 Latent Space
 
 - [Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics](https://www.latent.space/p/dyna) — 来源：Latent Space（含每天的 AINews：汇总推特、Reddit、Discord 的讨论）（发布于 10-14 06:25）
   - 简介：Watch along AIE NYC and join us at AIE CODE in SF next month! This episode includes a live demo of the Taku robot that is best enjoyed on YouTube . Last month, Dyna made waves by announcing Dyna-2 , a
@@ -123,9 +123,9 @@
 
 ### 只在一个地方出现、但很热的讨论（Hacker News，按分数排序）
 
-- [Redesigning source control at Anthropic](https://www.anthropic.com/engineering/redesigning-source-control) — 来源：Hacker News（HN 829 分，890 条评论，发布于 10-13 23:49）
+- [Redesigning source control at Anthropic](https://www.anthropic.com/engineering/redesigning-source-control) — 来源：Hacker News（HN 831 分，890 条评论，发布于 10-13 23:49）
   - HN 讨论：https://news.ycombinator.com/item?id=50073633
-- [AI is a tool and using it well takes skill](https://yyhh.org/blog/2026/10/ai-is-a-tool/) — 来源：Hacker News（HN 739 分，573 条评论，发布于 10-13 05:40）
+- [AI is a tool and using it well takes skill](https://yyhh.org/blog/2026/10/ai-is-a-tool/) — 来源：Hacker News（HN 741 分，573 条评论，发布于 10-13 05:40）
   - HN 讨论：https://news.ycombinator.com/item?id=50063427
 - [OpenAI engineer arrested in bugging of executive conference room](https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/) — 来源：Hacker News（HN 616 分，512 条评论，发布于 10-14 04:23）
   - HN 讨论：https://news.ycombinator.com/item?id=50078141
@@ -137,7 +137,7 @@
 - [Character.ai has initiated voluntary Chapter 11 bankruptcy](https://blog.character.ai/an-update-on-character-ai/) — 来源：Hacker News（HN 327 分，281 条评论，发布于 10-13 15:28）
   - HN 讨论：https://news.ycombinator.com/item?id=50068036
   - 简介：https://www.theverge.com/ai-artificial-intelligence/1009802/... https://techcrunch.com/2026/10/13/just-5-years-in-interactiv... https://www.reuters.com/legal/litigation/characterai-files-b... https://
-- [We turned EmbeddingGemma 2 into a speech-to-text model](https://eg2.haku.sh/) — 来源：Hacker News（HN 421 分，94 条评论，发布于 10-13 19:27）
+- [We turned EmbeddingGemma 2 into a speech-to-text model](https://eg2.haku.sh/) — 来源：Hacker News（HN 422 分，94 条评论，发布于 10-13 19:27）
   - HN 讨论：https://news.ycombinator.com/item?id=50069971
 - [I posted to HN, and then my website was flooded with AI bot traffic](https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic) — 来源：Hacker News（HN 334 分，176 条评论，发布于 10-13 23:25）
   - HN 讨论：https://news.ycombinator.com/item?id=50073221
@@ -176,7 +176,12 @@
 
 ### 开源项目和 Skill（GitHub 项目雷达 2026-10-14，已按涨星速度等打过分）
 
-今天没有。
+- [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) — ⭐ 32,872（每天 +1264.3 星，按总星数平均） · 创建 26 天 · Python · Apache-2.0 · 159 位贡献者 · 雷达评分 99（潜力股）
+  - 简介：Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.
+- [jev-chat/jev-chat-jarvis](https://github.com/jev-chat/jev-chat-jarvis) — ⭐ 7,740（每天 +336.5 星，按总星数平均） · 创建 23 天 · Kotlin · MIT · 16 位贡献者 · 雷达评分 99（潜力股）
+  - 简介：The chat decision assistant: before you reply, Jev reads the chat, judges intent and risk, and drafts replies you fill in with one tap. You press send. Android · Windows · macOS · iOS | 聊天辅助决策工具：先看懂对方再回复，发不发由你。
+- [Human-Agent-Society/reef](https://github.com/Human-Agent-Society/reef) — ⭐ 7,593（每天 +172.6 星，按总星数平均） · 创建 44 天 · Python · Apache-2.0 · 40 位贡献者 · 雷达评分 99（潜力股）
+  - 简介：Infrastructure for continually self‑improving agents
 
 ### 新工具（Show HN：作者自己发出来的新项目）
 
@@ -184,14 +189,14 @@
   - HN 讨论：https://news.ycombinator.com/item?id=50069337
 - [Show HN: SolidCraft – Open-Source Parametric CAD in Rust (With MCP Support)](https://github.com/bherbruck/solidcraft) — 来源：Hacker News（HN 138 分，50 条评论，发布于 10-13 08:11）
   - HN 讨论：https://news.ycombinator.com/item?id=50064840
-- [Show HN: I built a tool to track what AI leaders say and how their views change](https://blumify.io/people) — 来源：Hacker News（HN 111 分，73 条评论，发布于 10-14 09:09）
+- [Show HN: I built a tool to track what AI leaders say and how their views change](https://blumify.io/people) — 来源：Hacker News（HN 112 分，73 条评论，发布于 10-14 09:09）
   - HN 讨论：https://news.ycombinator.com/item?id=50081151
 - [Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine](https://pulseos.finance) — 来源：Hacker News（HN 109 分，69 条评论，发布于 10-14 07:13）
   - HN 讨论：https://news.ycombinator.com/item?id=50080275
   - 简介：Hi HN, I'm Niz. Pulse Local is a budgeting app for Mac (Apple Silicon, beta) that answers questions about your spending with models that run on your machine. Local mode needs no account. The ledger an
 - [Show HN: An experimental pattern-first DAW that supports MCP](https://github.com/andrewfader/blokkily) — 来源：Hacker News（HN 83 分，40 条评论，发布于 10-13 07:21）
   - HN 讨论：https://news.ycombinator.com/item?id=50064438
-- [Show HN: Parsimony – an open-source benchmark for how much code AI models add](https://parsimony.lasu.dev/) — 来源：Hacker News（HN 71 分，15 条评论，发布于 10-14 03:50）
+- [Show HN: Parsimony – an open-source benchmark for how much code AI models add](https://parsimony.lasu.dev/) — 来源：Hacker News（HN 71 分，16 条评论，发布于 10-14 03:50）
   - HN 讨论：https://news.ycombinator.com/item?id=50077619
   - 简介：Existing benchmarks measure solve rate and token output/cost, but don't punish excess code, which makes a codebase harder to work with in the long term. I wanted to measure this since it matters most 
 
@@ -206,13 +211,13 @@
 - [AgentSWE: Can Coding Agents Build the Agent You Actually Want?](https://huggingface.co/papers/2610.13361) — 来源：HF 每日论文（206 人点赞，2 条评论，发布于 10-13 08:00）
   - 代码：https://github.com/VectorSpaceLab/AgentSWE
   - 简介：As the production of software passes into the hands of software itself, coding agents are increasingly commissioned to build agents fitted to their users' own workflows. This delegation carries a quiet assumption, that the delivered agent will faithfully serve the requirement it was built for, rather than merely appear to. No existing benchmark tests that assumption. We introduce AgentSWE, a benchmark for agent software engineering spanning three stages of the agent development lifecycle: Creati
-- [VideoJev: System One Model for Video Understanding and Interaction](https://huggingface.co/papers/2610.18615) — 来源：HF 每日论文（160 人点赞，1 条评论，发布于 10-14 08:00）
+- [VideoJev: System One Model for Video Understanding and Interaction](https://huggingface.co/papers/2610.18615) — 来源：HF 每日论文（162 人点赞，1 条评论，发布于 10-14 08:00）
   - 代码：https://github.com/MCG-NJU/VideoJev
   - 简介：Visual agents must turn video observations into timely decisions to track progress and choose what to do next. Building on the emerging System One paradigm, we introduce VideoJev, a family of models that cast video understanding and interaction as structured decision tasks. We adapt pretrained multimodal large language models (MLLMs) by replacing autoregressive answer decoding with a shared head that scores temporal intervals and textual options against video evidence. These scores yield event s
-- [Jeva: System One Models from First Principles](https://huggingface.co/papers/2610.18773) — 来源：HF 每日论文（144 人点赞，1 条评论，发布于 10-14 08:00）
+- [Jeva: System One Models from First Principles](https://huggingface.co/papers/2610.18773) — 来源：HF 每日论文（145 人点赞，1 条评论，发布于 10-14 08:00）
   - 代码：https://github.com/LiQiiiii/Jeva
   - 简介：System one models enable direct, low-latency decision-making. Yet recent practice of predicting an answer from serialized text does not, by itself, respect the structure of a decision problem. We argue that current designs underemphasize four important structural requirements. (i) null-aware: Models should distinguish answer absence from uncertainty among candidates; (ii) permutation-invariant: Reordering alternatives should not change the decision; (iii) option-scalable: Growing candidate sets 
-- [Agent-Reflex: Teaching Language Agents to Act Reflectively](https://huggingface.co/papers/2610.17953) — 来源：HF 每日论文（138 人点赞，1 条评论，发布于 10-14 08:00）
+- [Agent-Reflex: Teaching Language Agents to Act Reflectively](https://huggingface.co/papers/2610.17953) — 来源：HF 每日论文（140 人点赞，1 条评论，发布于 10-14 08:00）
   - 代码：https://github.com/RUC-NLPIR/Agent-Reflex
   - 简介：Large language models have evolved from single-turn chatbots into interactive agents capable of long-horizon reasoning. In real deployments, MCP tool services can return noisy feedback and users may intervene to correct the agent, but existing methods provide limited supervision for reflection learning and failure recovery. To bridge this gap, we propose Agent-Reflex, a general training framework for incentivizing proactive reflection in agents. Specifically, Agent-Reflex comprises three stages.
 - [Scaling Agentic Data for Long-Horizon Terminal Intelligence](https://huggingface.co/papers/2610.13166) — 来源：HF 每日论文（138 人点赞，2 条评论，发布于 10-13 08:00）
@@ -226,12 +231,12 @@
 - [AesCode: Aesthetic Code Generation with Decoupled Cross-Modal Rewards](https://huggingface.co/papers/2610.18860) — 来源：HF 每日论文（75 人点赞，1 条评论，发布于 10-14 08:00）
   - 代码：https://github.com/microsoft/AesCode
   - 简介：Generating information-rich visual artifacts such as slides, posters, and dashboards as code is appealing because the outputs are structured, editable, and verifiable. Yet code models cannot see how their choices of layout and color come together on the canvas, often limiting spatial planning and aesthetic quality. Image generators excel at visual design but can misrender requested content, making their outputs unreliable targets for direct reproduction. We therefore introduce AesCode, which gen
+- [GreenWAM: A World Foundation Model for Robotics](https://huggingface.co/papers/2610.18774) — 来源：HF 每日论文（74 人点赞，1 条评论，发布于 10-14 08:00）
+  - 代码：https://github.com/greenvla/GreenWAM
+  - 简介：A robot needs a world model that predicts how its actions will change the scene and a policy that chooses those actions. Models are usually built and evaluated for only one of these roles, and every robot records its actions in its own format. We ask whether one robot world model can serve both roles across different bodies, and what makes this work. We present GreenWAM, a world foundation model for robotics, together with the recipe that produces it: (1) a shared anatomical action space that de
 - [GroundAnything: Reconciling Parallel Decoding with Precise Visual Grounding at Flash Speed](https://huggingface.co/papers/2609.39600) — 来源：HF 每日论文（73 人点赞，2 条评论，发布于 10-13 08:00）
   - 代码：https://github.com/groundingpi/GroundAnything
   - 简介：Autoregressive (AR) grounding models serialize spatial predictions, introducing sequential latency and imposing a causal order on output tokens. We view grounding as visual evidence extraction: objects, locations, and spatial relations are jointly constrained by the image and query, yet their dependencies do not imply an intrinsic left-to-right generation order. This distinction makes bidirectional diffusion a natural fit, allowing spatial hypotheses to emerge in parallel and be jointly refined 
-- [GreenWAM: A World Foundation Model for Robotics](https://huggingface.co/papers/2610.18774) — 来源：HF 每日论文（72 人点赞，1 条评论，发布于 10-14 08:00）
-  - 代码：https://github.com/greenvla/GreenWAM
-  - 简介：A robot needs a world model that predicts how its actions will change the scene and a policy that chooses those actions. Models are usually built and evaluated for only one of these roles, and every robot records its actions in its own format. We ask whether one robot world model can serve both roles across different bodies, and what makes this work. We present GreenWAM, a world foundation model for robotics, together with the recipe that produces it: (1) a shared anatomical action space that de
 
 ## 附：博客和 Newsletter 的其他新文章
 

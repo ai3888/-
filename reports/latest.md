@@ -1,129 +1,131 @@
 # GitHub 项目雷达 · 2026-10-14
 
-> 搜到 636 个候选 → 过滤后 539 个 → 详细检查 40 个 → 入选 15 个
+> 搜到 636 个候选 → 过滤后 524 个 → 详细检查 40 个 → 入选 15 个
+
+## 🚀 潜力股（新项目、涨得快）
+
+### [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) · 99 分
+
+⭐ 32,872（+1264.3/天，平均） · 🍴 2,948 · 👥 159 位贡献者 · 📝 30 天 2154 次提交 · Python · Apache-2.0 · 创建 26 天
+
+> Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.
+
+<sub>来源：近 90 天新项目</sub>
+
+### [jev-chat/jev-chat-jarvis](https://github.com/jev-chat/jev-chat-jarvis) · 99 分
+
+⭐ 7,740（+336.5/天，平均） · 🍴 1,266 · 👥 16 位贡献者 · 📝 30 天 140 次提交 · Kotlin · MIT · 创建 23 天
+
+> The chat decision assistant: before you reply, Jev reads the chat, judges intent and risk, and drafts replies you fill in with one tap. You press send. Android · Windows · macOS · iOS | 聊天辅助决策工具：先看懂对方再回复，发不发由你。
+
+<sub>来源：近 90 天新项目</sub>
+
+### [Human-Agent-Society/reef](https://github.com/Human-Agent-Society/reef) · 99 分
+
+⭐ 7,593（+172.6/天，平均） · 🍴 708 · 👥 40 位贡献者 · 📝 30 天 191 次提交 · Python · Apache-2.0 · 创建 44 天
+
+> Infrastructure for continually self‑improving agents
+
+<sub>来源：近 90 天新项目</sub>
 
 ## 👀 值得关注
 
-### [bytedance/deer-flow](https://github.com/bytedance/deer-flow) · 100 分
+### [ruvnet/ruflo](https://github.com/ruvnet/ruflo) · 100 分
 
-⭐ 83,856（+159.7/天，平均） · 🍴 11,681 · 👥 551 位贡献者 · 📝 30 天 855 次提交 · Python · MIT · 创建 525 天
+⭐ 74,639（+149.9/天，平均） · 🍴 8,875 · 👥 53 位贡献者 · 📝 30 天 2089 次提交 · TypeScript · MIT · 创建 498 天
 
-> An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.
-
-<sub>来源：LLM、AI Agent</sub>
-
-### [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) · 100 分
-
-⭐ 67,059（+54.6/天，平均） · 🍴 7,493 · 👥 266 位贡献者 · 📝 30 天 157 次提交 · JavaScript · MIT · 创建 1228 天
-
-> Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience
-
-<sub>来源：LLM、AI Agent</sub>
-
-### [BerriAI/litellm](https://github.com/BerriAI/litellm) · 100 分
-
-⭐ 61,232（+52.1/天，平均） · 🍴 12,329 · 👥 1794 位贡献者 · 📝 30 天 5142 次提交 · Python · NOASSERTION · 创建 1175 天
-
-> The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]
-
-<sub>来源：LLM</sub>
-
-### [MemPalace/mempalace](https://github.com/MemPalace/mempalace) · 100 分
-
-⭐ 59,564（+310.2/天，平均） · 🍴 7,563 · 👥 162 位贡献者 · 📝 30 天 112 次提交 · Python · MIT · 创建 192 天
-
-> The best-benchmarked open-source AI memory system. And it's free.
-
-<sub>来源：LLM、MCP</sub>
-
-### [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) · 100 分
-
-⭐ 41,975（+177.1/天，平均） · 🍴 4,131 · 👥 193 位贡献者 · 📝 30 天 19819 次提交 · Rust · GPL-3.0 · 创建 237 天
-
-> The fastest, cheapest, most efficient open-source agent harness. Run more than 500 agents on a $10 VPS.
-
-<sub>来源：LLM、AI Agent、MCP</sub>
-
-### [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG) · 100 分
-
-⭐ 40,130（+54.1/天，平均） · 🍴 5,693 · 👥 352 位贡献者 · 📝 30 天 185 次提交 · Python · MIT · 创建 742 天
-
-> [EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation
-
-<sub>来源：LLM</sub>
-
-### [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) · 100 分
-
-⭐ 35,469（+181/天，平均） · 🍴 5,751 · 👥 195 位贡献者 · 📝 30 天 854 次提交 · Python · MIT · 创建 196 天
-
-> "Vibe-Trading: Your Personal Trading Agent"
-
-<sub>来源：LLM、MCP</sub>
-
-### [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) · 100 分
-
-⭐ 35,411（+123.4/天，平均） · 🍴 3,861 · 👥 891 位贡献者 · 📝 30 天 6860 次提交 · TypeScript · MIT · 创建 287 天
-
-> ⌥ Coding agent with the IDE wired in. Built by Stencil Labs.
-
-<sub>来源：LLM、MCP</sub>
-
-### [Tencent/WeKnora](https://github.com/Tencent/WeKnora) · 100 分
-
-⭐ 33,935（+75.6/天，平均） · 🍴 4,517 · 👥 298 位贡献者 · 📝 30 天 468 次提交 · Go · NOASSERTION · 创建 449 天
-
-> Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.
-
-<sub>来源：LLM</sub>
-
-### [decolua/9router](https://github.com/decolua/9router) · 100 分
-
-⭐ 30,790（+109.2/天，平均） · 🍴 5,913 · 👥 361 位贡献者 · 📝 30 天 179 次提交 · JavaScript · MIT · 创建 282 天
-
-> Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.
-
-<sub>来源：LLM、AI Agent</sub>
-
-### [openai/openai-agents-python](https://github.com/openai/openai-agents-python) · 100 分
-
-⭐ 30,030（+51.6/天，平均） · 🍴 4,889 · 👥 407 位贡献者 · 📝 30 天 229 次提交 · Python · MIT · 创建 582 天
-
-> A lightweight, powerful framework for multi-agent workflows
-
-<sub>来源：LLM</sub>
-
-### [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) · 100 分
-
-⭐ 28,479（+60/天，平均） · 🍴 3,203 · 👥 610 位贡献者 · 📝 30 天 1075 次提交 · TypeScript · Apache-2.0 · 创建 475 天
-
-> An open-source AI coding agent that lives in your terminal.
-
-<sub>来源：LLM、开发者工具、MCP</sub>
-
-### [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) · 100 分
-
-⭐ 107,351（+197.3/天，平均） · 🍴 14,712 · 👥 700 位贡献者 · 📝 30 天 80 次提交 · TypeScript · Apache-2.0 · 创建 544 天
-
-> An open-source AI agent that brings the power of Gemini directly into your terminal.
+> 🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated
 
 <sub>来源：AI Agent</sub>
 
-### [infiniflow/ragflow](https://github.com/infiniflow/ragflow) · 100 分
+### [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) · 100 分
 
-⭐ 92,207（+88.9/天，平均） · 🍴 10,987 · 👥 877 位贡献者 · 📝 30 天 849 次提交 · Go · Apache-2.0 · 创建 1037 天
+⭐ 59,685（+55.1/天，平均） · 🍴 8,724 · 👥 349 位贡献者 · 📝 30 天 111 次提交 · Python · MIT · 创建 1083 天
 
-> RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs
+> Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
 
 <sub>来源：AI Agent</sub>
 
-### [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) · 100 分
+### [aaif-goose/goose](https://github.com/aaif-goose/goose) · 100 分
 
-⭐ 76,414（+314.5/天，平均） · 🍴 11,030 · 👥 823 位贡献者 · 📝 30 天 1925 次提交 · TypeScript · MIT · 创建 243 天
+⭐ 55,279（+70.8/天，平均） · 🍴 6,429 · 👥 659 位贡献者 · 📝 30 天 161 次提交 · Rust · Apache-2.0 · 创建 781 天
 
-> Never stop coding. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by hundreds of contributors
+> an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
 
 <sub>来源：AI Agent、MCP</sub>
 
+### [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) · 100 分
+
+⭐ 54,684（+201.8/天，平均） · 🍴 8,104 · 👥 52 位贡献者 · 📝 30 天 553 次提交 · JavaScript · MIT · 创建 271 天
+
+> Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.
+
+<sub>来源：AI Agent、Agent Skill、Claude Skill</sub>
+
+### [HKUDS/nanobot](https://github.com/HKUDS/nanobot) · 100 分
+
+⭐ 49,017（+192.2/天，平均） · 🍴 8,630 · 👥 478 位贡献者 · 📝 30 天 451 次提交 · Python · MIT · 创建 255 天
+
+> Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps
+
+<sub>来源：AI Agent、自部署、MCP</sub>
+
+### [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) · 100 分
+
+⭐ 41,385（+143.2/天，平均） · 🍴 5,214 · 👥 225 位贡献者 · 📝 30 天 709 次提交 · Python · Apache-2.0 · 创建 289 天
+
+> DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.
+
+<sub>来源：AI Agent</sub>
+
+### [nanocoai/nanoclaw](https://github.com/nanocoai/nanoclaw) · 100 分
+
+⭐ 30,943（+121.3/天，平均） · 🍴 12,765 · 👥 174 位贡献者 · 📝 30 天 164 次提交 · TypeScript · MIT · 创建 255 天
+
+> A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK
+
+<sub>来源：AI Agent、Claude Skill</sub>
+
+### [pascalorg/editor](https://github.com/pascalorg/editor) · 100 分
+
+⭐ 24,868（+68.7/天，平均） · 🍴 3,086 · 👥 52 位贡献者 · 📝 30 天 413 次提交 · TypeScript · MIT · 创建 362 天
+
+> Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents.
+
+<sub>来源：AI Agent、Agent Skill、MCP</sub>
+
+### [NVIDIA/NemoClaw](https://github.com/NVIDIA/NemoClaw) · 100 分
+
+⭐ 22,743（+107.3/天，平均） · 🍴 3,138 · 👥 187 位贡献者 · 📝 30 天 449 次提交 · TypeScript · Apache-2.0 · 创建 212 天
+
+> Run agents like Hermes, LangChain Deep Agents, and OpenClaw more securely inside NVIDIA OpenShell with managed inference
+
+<sub>来源：AI Agent</sub>
+
+### [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) · 100 分
+
+⭐ 20,223（+115.6/天，平均） · 🍴 1,991 · 👥 29 位贡献者 · 📝 30 天 244 次提交 · Python · MIT · 创建 175 天
+
+> Give your agent CAD superpowers.
+
+<sub>来源：AI Agent</sub>
+
+### [unslothai/unsloth](https://github.com/unslothai/unsloth) · 99 分
+
+⭐ 77,994（+74.4/天，平均） · 🍴 7,201 · 👥 414 位贡献者 · 📝 30 天 2458 次提交 · Python · Apache-2.0 · 创建 1049 天
+
+> Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX and more.
+
+<sub>来源：LLM、自部署</sub>
+
+### [mem0ai/mem0](https://github.com/mem0ai/mem0) · 99 分
+
+⭐ 67,172（+55.4/天，平均） · 🍴 7,904 · 👥 410 位贡献者 · 📝 30 天 46 次提交 · Python · Apache-2.0 · 创建 1212 天
+
+> The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.
+
+<sub>来源：LLM、AI Agent</sub>
+
 ---
 
-<sub>分数 = 涨星速度 + 开发活跃度 + 社区 + 规范度（权重见 config.toml），每个风险提示扣 10 分。「平均」表示用总星数 ÷ 天数估算，没有标注的是按最近加星时间算出的真实增速。本次调用 GitHub API 150 次。未使用 GPT。</sub>
+<sub>分数 = 涨星速度 + 开发活跃度 + 社区 + 规范度（权重见 config.toml），每个风险提示扣 10 分。「平均」表示用总星数 ÷ 天数估算（第一次见到的项目），没有标注的是和前几天记下的星数比出来的真实增速。本次调用 GitHub API 128 次。未使用 GPT。</sub>
