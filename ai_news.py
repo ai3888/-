@@ -410,37 +410,6 @@ def check_openai():
     return f"✅ 可用，已成功调用 {model}"
 
 
-GITHUB_MODELS = "https://models.github.ai"
-# 先都试一遍，看哪些能用，再决定初筛和终审各用哪个
-GITHUB_MODEL_CANDIDATES = ["openai/gpt-5-mini", "openai/gpt-4.1-mini", "openai/gpt-4.1", "openai/gpt-4o-mini"]
-
-
-def check_github_models():
-    """GitHub Models：用仓库自带的 GITHUB_TOKEN 免费调用 GPT 等模型，不用另外申请 Key，也不用充值。"""
-    token = os.environ.get("GITHUB_TOKEN")
-    if not token:
-        return "⏳ 没有 GITHUB_TOKEN（在 GitHub Actions 里运行时会自动提供）"
-    auth = {"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json",
-            "X-GitHub-Api-Version": "2022-11-28"}
-    try:
-        catalog = get_json(f"{GITHUB_MODELS}/catalog/models", headers=auth, retries=0)
-        print("[GitHub Models] 模型目录：" + ", ".join(
-            f"{m.get('id')}（{m.get('rate_limit_tier')}）" for m in catalog if isinstance(m, dict)))
-    except NETWORK_ERRORS as e:
-        print(f"[GitHub Models] 读取模型目录失败：{describe_error(e)}")
-    ok, failed = [], []
-    for model in GITHUB_MODEL_CANDIDATES:
-        try:
-            post_json(f"{GITHUB_MODELS}/inference/chat/completions",
-                      {"model": model, "messages": [{"role": "user", "content": "只回复：好"}]}, auth)
-            ok.append(model)
-        except NETWORK_ERRORS as e:
-            failed.append(f"{model}（{describe_error(e)}）")
-    if not ok:
-        return "❌ 全部调用失败：" + "；".join(failed)
-    return "✅ 免费可用：" + "、".join(ok) + (f"。不可用：{'；'.join(failed)}" if failed else "")
-
-
 def pick_gemini_model(names):
     """没指定模型时，挑版本最新的正式版 Flash-Lite（免费额度最宽松）。"""
     def version(n):
@@ -539,9 +508,7 @@ def main():
         statuses.append(status)
 
     if args.check:
-        report = render_check(statuses, [("OpenAI", check_openai()),
-                                          ("GitHub Models（免费，不用充值）", check_github_models()),
-                                          *check_gemini()])
+        report = render_check(statuses, [("OpenAI", check_openai()), *check_gemini()])
         print("\n" + report)
         if summary := os.environ.get("GITHUB_STEP_SUMMARY"):  # 显示在 GitHub Actions 运行页面上
             with open(summary, "a", encoding="utf-8") as f:
