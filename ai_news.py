@@ -410,6 +410,27 @@ def check_openai():
     return f"✅ 可用，已成功调用 {model}"
 
 
+# 国内平台的接口格式和 OpenAI 一样，换个地址就能用，支付宝/微信就能充值
+COMPAT_PROVIDERS = [
+    # (显示名, Secret 名, 接口地址, 默认模型)
+    ("智谱 GLM（免费模型）", "ZHIPU_API_KEY", "https://open.bigmodel.cn/api/paas/v4", "glm-4.7-flash"),
+    ("DeepSeek", "DEEPSEEK_API_KEY", "https://api.deepseek.com", "deepseek-chat"),
+]
+
+
+def check_compatible(env, base, default_model):
+    key = os.environ.get(env)
+    if not key:
+        return f"⏳ 还没配置（仓库 Secrets 里添加 {env}）"
+    model = os.environ.get(env.removesuffix("_API_KEY") + "_MODEL") or default_model
+    try:
+        post_json(f"{base}/chat/completions", {"model": model, "messages": [{"role": "user", "content": "只回复：好"}]},
+                  {"Authorization": f"Bearer {key}"})
+    except NETWORK_ERRORS as e:
+        return f"❌ 调用 {model} 失败：{describe_error(e)}"
+    return f"✅ 可用，已成功调用 {model}"
+
+
 def pick_gemini_model(names):
     """没指定模型时，挑版本最新的正式版 Flash-Lite（免费额度最宽松）。"""
     def version(n):
@@ -508,7 +529,9 @@ def main():
         statuses.append(status)
 
     if args.check:
-        report = render_check(statuses, [("OpenAI", check_openai()), *check_gemini()])
+        key_rows = [("OpenAI", check_openai())]
+        key_rows += [(name, check_compatible(env, base, model)) for name, env, base, model in COMPAT_PROVIDERS]
+        report = render_check(statuses, key_rows + check_gemini())
         print("\n" + report)
         if summary := os.environ.get("GITHUB_STEP_SUMMARY"):  # 显示在 GitHub Actions 运行页面上
             with open(summary, "a", encoding="utf-8") as f:

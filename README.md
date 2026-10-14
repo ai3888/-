@@ -70,12 +70,14 @@ Accept: application/vnd.github.raw
 
 - 来源都在 [`ai_news.toml`](ai_news.toml) 里，可以增删，也可以用 `enabled = false` 关掉
 - 改了来源后，GitHub 会自动跑一次「AI 资讯雷达 · 接入检查」，在运行页面的 Summary 里列出每个来源能不能用
-- 需要两个 Key，都在仓库 Settings → Secrets and variables → Actions → Secrets 里添加：
-  - `GEMINI_API_KEY`：在 [Google AI Studio](https://aistudio.google.com/apikey) 免费申请，用来看油管视频和给论文粗分类
-  - `OPENAI_API_KEY`：GPT 做最终判断，需要先在 OpenAI 后台充值
+- 模型的 Key 在仓库 Settings → Secrets and variables → Actions → Secrets 里添加，配了哪个检查哪个：
+  - `ZHIPU_API_KEY`：[智谱开放平台](https://open.bigmodel.cn) 的免费模型，用来给论文粗分类
+  - `DEEPSEEK_API_KEY`：[DeepSeek 开放平台](https://platform.deepseek.com)，做最终判断，国内支付方式充值，用量很小
+  - `OPENAI_API_KEY`：GPT，需要能在 OpenAI 后台充值
+  - `GEMINI_API_KEY`：能直接看油管视频，但部分 Google 账号的项目会被拒绝访问
 - 加好 Key 后，到 Actions → AI 资讯雷达 · 接入检查，打开最近一次运行，点 Re-run all jobs 重新检查
 
-后面会加上去重筛选、Gemini 初筛、GPT 判断和每日报告。
+后面会加上去重筛选、模型初筛、最终判断和每日报告。
 
 ## 在自己电脑上运行
 
