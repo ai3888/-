@@ -1,131 +1,129 @@
 # GitHub 项目雷达 · 2026-10-14
 
-> 搜到 636 个候选 → 过滤后 524 个 → 详细检查 40 个 → 入选 15 个
+> 搜到 435 个候选 → 过滤后 392 个 → 详细检查 40 个 → 入选 15 个
 
 ## 🚀 潜力股（新项目、涨得快）
 
-### [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) · 99 分
+### [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) · 100 分
 
-⭐ 32,872（+1264.3/天，平均） · 🍴 2,948 · 👥 159 位贡献者 · 📝 30 天 2154 次提交 · Python · Apache-2.0 · 创建 26 天
+⭐ 249,012（+4082.2/天，平均） · 🍴 29,956 · 👥 55 位贡献者 · 📝 30 天 3890 次提交 · TypeScript · MIT · 创建 61 天
 
-> Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.
+> DeepSeek Harness: Everything is a Plugin.
 
-<sub>来源：近 90 天新项目</sub>
+<sub>来源：近 90 天新项目、AI Agent</sub>
 
-### [jev-chat/jev-chat-jarvis](https://github.com/jev-chat/jev-chat-jarvis) · 99 分
+### [storytold/photocraft](https://github.com/storytold/photocraft) · 100 分
 
-⭐ 7,740（+336.5/天，平均） · 🍴 1,266 · 👥 16 位贡献者 · 📝 30 天 140 次提交 · Kotlin · MIT · 创建 23 天
+⭐ 58,060（+4466.2/天，平均） · 🍴 9,811 · 👥 283 位贡献者 · 📝 30 天 2152 次提交 · Rust · Apache-2.0 · 创建 13 天
 
-> The chat decision assistant: before you reply, Jev reads the chat, judges intent and risk, and drafts replies you fill in with one tap. You press send. Android · Windows · macOS · iOS | 聊天辅助决策工具：先看懂对方再回复，发不发由你。
-
-<sub>来源：近 90 天新项目</sub>
-
-### [Human-Agent-Society/reef](https://github.com/Human-Agent-Society/reef) · 99 分
-
-⭐ 7,593（+172.6/天，平均） · 🍴 708 · 👥 40 位贡献者 · 📝 30 天 191 次提交 · Python · Apache-2.0 · 创建 44 天
-
-> Infrastructure for continually self‑improving agents
+> PhotoCraft: An open-source, photo editor written by scratch in pure Rust
 
 <sub>来源：近 90 天新项目</sub>
 
-## 👀 值得关注
+### [hypit-ai/hypit](https://github.com/hypit-ai/hypit) · 100 分
 
-### [ruvnet/ruflo](https://github.com/ruvnet/ruflo) · 100 分
+⭐ 21,977（+289.2/天，平均） · 🍴 2,422 · 👥 23 位贡献者 · 📝 30 天 307 次提交 · TypeScript · NOASSERTION · 创建 76 天
 
-⭐ 74,639（+149.9/天，平均） · 🍴 8,875 · 👥 53 位贡献者 · 📝 30 天 2089 次提交 · TypeScript · MIT · 创建 498 天
+> Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views.
 
-> 🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated
+<sub>来源：近 90 天新项目、LLM、AI Agent</sub>
 
-<sub>来源：AI Agent</sub>
+### [yc-software/qm](https://github.com/yc-software/qm) · 100 分
 
-### [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) · 100 分
+⭐ 15,406（+202.7/天，平均） · 🍴 1,907 · 👥 24 位贡献者 · 📝 30 天 556 次提交 · TypeScript · MIT · 创建 76 天
 
-⭐ 59,685（+55.1/天，平均） · 🍴 8,724 · 👥 349 位贡献者 · 📝 30 天 111 次提交 · Python · MIT · 创建 1083 天
+> Multiplayer agent harness for work.
 
-> Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
+<sub>来源：近 90 天新项目</sub>
 
-<sub>来源：AI Agent</sub>
+### [storytold/pdfcraft](https://github.com/storytold/pdfcraft) · 100 分
 
-### [aaif-goose/goose](https://github.com/aaif-goose/goose) · 100 分
+⭐ 12,805（+985/天，平均） · 🍴 4,880 · 👥 175 位贡献者 · 📝 30 天 959 次提交 · Rust · Apache-2.0 · 创建 13 天
 
-⭐ 55,279（+70.8/天，平均） · 🍴 6,429 · 👥 659 位贡献者 · 📝 30 天 161 次提交 · Rust · Apache-2.0 · 创建 781 天
+> PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust
 
-> an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
+<sub>来源：近 90 天新项目</sub>
 
-<sub>来源：AI Agent、MCP</sub>
+### [storytold/filmcraft](https://github.com/storytold/filmcraft) · 100 分
 
-### [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) · 100 分
+⭐ 12,578（+967.5/天，平均） · 🍴 5,090 · 👥 104 位贡献者 · 📝 30 天 1946 次提交 · Rust · Apache-2.0 · 创建 13 天
 
-⭐ 54,684（+201.8/天，平均） · 🍴 8,104 · 👥 52 位贡献者 · 📝 30 天 553 次提交 · JavaScript · MIT · 创建 271 天
+> FilmCraft: An open-source, nonlinear video editor written by scratch in pure Rust
 
-> Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.
+<sub>来源：近 90 天新项目</sub>
 
-<sub>来源：AI Agent、Agent Skill、Claude Skill</sub>
+### [storytold/lightcraft](https://github.com/storytold/lightcraft) · 100 分
 
-### [HKUDS/nanobot](https://github.com/HKUDS/nanobot) · 100 分
+⭐ 12,027（+925.2/天，平均） · 🍴 4,366 · 👥 123 位贡献者 · 📝 30 天 2196 次提交 · Rust · Apache-2.0 · 创建 13 天
 
-⭐ 49,017（+192.2/天，平均） · 🍴 8,630 · 👥 478 位贡献者 · 📝 30 天 451 次提交 · Python · MIT · 创建 255 天
+> LightCraft: An open-source non-destructive photo editor written by scratch in pure Rust
 
-> Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps
+<sub>来源：近 90 天新项目</sub>
 
-<sub>来源：AI Agent、自部署、MCP</sub>
+### [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) · 100 分
 
-### [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) · 100 分
+⭐ 11,082（+127.4/天，平均） · 🍴 1,353 · 👥 89 位贡献者 · 📝 30 天 1070 次提交 · JavaScript · AGPL-3.0 · 创建 87 天
 
-⭐ 41,385（+143.2/天，平均） · 🍴 5,214 · 👥 225 位贡献者 · 📝 30 天 709 次提交 · Python · Apache-2.0 · 创建 289 天
+> Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.
 
-> DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.
+<sub>来源：近 90 天新项目、自部署</sub>
 
-<sub>来源：AI Agent</sub>
+### [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) · 100 分
 
-### [nanocoai/nanoclaw](https://github.com/nanocoai/nanoclaw) · 100 分
+⭐ 9,598（+129.7/天，平均） · 🍴 1,230 · 👥 44 位贡献者 · 📝 30 天 759 次提交 · TypeScript · Apache-2.0 · 创建 74 天
 
-⭐ 30,943（+121.3/天，平均） · 🍴 12,765 · 👥 174 位贡献者 · 📝 30 天 164 次提交 · TypeScript · MIT · 创建 255 天
+> Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent, plus a `genoffice` CLI and agent skill so Claude Code, Codex and Cursor can create and edit real .docx/.xlsx/.pptx files locally. Bring your own key. macOS, Windows & Linux.
 
-> A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK
+<sub>来源：近 90 天新项目</sub>
 
-<sub>来源：AI Agent、Claude Skill</sub>
+### [storytold/vectorcraft](https://github.com/storytold/vectorcraft) · 100 分
 
-### [pascalorg/editor](https://github.com/pascalorg/editor) · 100 分
+⭐ 8,507（+654.4/天，平均） · 🍴 3,999 · 👥 111 位贡献者 · 📝 30 天 2778 次提交 · Rust · Apache-2.0 · 创建 13 天
 
-⭐ 24,868（+68.7/天，平均） · 🍴 3,086 · 👥 52 位贡献者 · 📝 30 天 413 次提交 · TypeScript · MIT · 创建 362 天
+> VectorCraft: An open-source, vector art tool written by scratch in pure Rust
 
-> Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents.
+<sub>来源：近 90 天新项目</sub>
 
-<sub>来源：AI Agent、Agent Skill、MCP</sub>
+### [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) · 100 分
 
-### [NVIDIA/NemoClaw](https://github.com/NVIDIA/NemoClaw) · 100 分
+⭐ 6,453（+111.3/天，平均） · 🍴 882 · 👥 40 位贡献者 · 📝 30 天 212 次提交 · TypeScript · MIT · 创建 58 天
 
-⭐ 22,743（+107.3/天，平均） · 🍴 3,138 · 👥 187 位贡献者 · 📝 30 天 449 次提交 · TypeScript · Apache-2.0 · 创建 212 天
+> Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.
 
-> Run agents like Hermes, LangChain Deep Agents, and OpenClaw more securely inside NVIDIA OpenShell with managed inference
+<sub>来源：近 90 天新项目</sub>
 
-<sub>来源：AI Agent</sub>
+### [storytold/effectcraft](https://github.com/storytold/effectcraft) · 100 分
 
-### [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) · 100 分
+⭐ 6,259（+521.6/天，平均） · 🍴 3,212 · 👥 79 位贡献者 · 📝 30 天 1870 次提交 · Rust · Apache-2.0 · 创建 12 天
 
-⭐ 20,223（+115.6/天，平均） · 🍴 1,991 · 👥 29 位贡献者 · 📝 30 天 244 次提交 · Python · MIT · 创建 175 天
+> EffectCraft: An open-source motion graphics and compositing tool written by scratch in pure Rust
 
-> Give your agent CAD superpowers.
+<sub>来源：近 90 天新项目</sub>
 
-<sub>来源：AI Agent</sub>
+### [jub0t/concat](https://github.com/jub0t/concat) · 100 分
 
-### [unslothai/unsloth](https://github.com/unslothai/unsloth) · 99 分
+⭐ 5,242（+107/天，平均） · 🍴 494 · 👥 24 位贡献者 · 📝 30 天 590 次提交 · Rust · AGPL-3.0 · 创建 49 天
 
-⭐ 77,994（+74.4/天，平均） · 🍴 7,201 · 👥 414 位贡献者 · 📝 30 天 2458 次提交 · Python · Apache-2.0 · 创建 1049 天
+> ⭐ Concat: The truly free, and open-source cross-platform CapCut replacement. Supports MCPs & API.
 
-> Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX and more.
+<sub>来源：近 90 天新项目</sub>
 
-<sub>来源：LLM、自部署</sub>
+### [Louis-CFM/coucou](https://github.com/Louis-CFM/coucou) · 100 分
 
-### [mem0ai/mem0](https://github.com/mem0ai/mem0) · 99 分
+⭐ 5,127（+320.4/天，平均） · 🍴 854 · 👥 31 位贡献者 · 📝 30 天 512 次提交 · Swift · MIT · 创建 16 天
 
-⭐ 67,172（+55.4/天，平均） · 🍴 7,904 · 👥 410 位贡献者 · 📝 30 天 46 次提交 · Python · Apache-2.0 · 创建 1212 天
+> A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.
 
-> The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.
+<sub>来源：近 90 天新项目</sub>
 
-<sub>来源：LLM、AI Agent</sub>
+### [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) · 100 分
+
+⭐ 4,785（+76/天，平均） · 🍴 802 · 👥 124 位贡献者 · 📝 30 天 2497 次提交 · TypeScript · Apache-2.0 · 创建 63 天
+
+> Open-source Grok Bot alternative with a virtual machine that bots can use
+
+<sub>来源：近 90 天新项目</sub>
 
 ---
 
-<sub>分数 = 涨星速度 + 开发活跃度 + 社区 + 规范度（权重见 config.toml），每个风险提示扣 10 分。「平均」表示用总星数 ÷ 天数估算（第一次见到的项目），没有标注的是和前几天记下的星数比出来的真实增速。本次调用 GitHub API 128 次。未使用 GPT。</sub>
+<sub>分数 = 涨星速度 + 开发活跃度 + 社区 + 规范度（权重见 config.toml），每个风险提示扣 10 分。「平均」表示用总星数 ÷ 天数估算，没有标注的是按最近加星时间算出的真实增速。本次调用 GitHub API 147 次。未使用 GPT。</sub>
