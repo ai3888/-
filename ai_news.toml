@@ -131,11 +131,6 @@ kind = "official"
 url = "https://research.google/blog/rss/"
 
 [[feeds]]
-name = "Microsoft AI"
-kind = "official"
-url = "https://blogs.microsoft.com/ai/feed/"
-
-[[feeds]]
 name = "NVIDIA 深度学习博客"
 kind = "official"
 url = "https://blogs.nvidia.com/blog/category/deep-learning/feed/"
@@ -200,13 +195,9 @@ kind = "media"
 url = "https://www.technologyreview.com/topic/artificial-intelligence/feed/"
 
 [[feeds]]
-name = "VentureBeat AI"
-kind = "media"
-url = "https://venturebeat.com/category/ai/feed"
-
-[[feeds]]
 name = "量子位"
 kind = "media"
 url = "https://www.qbitai.com/feed"
 
 # 机器之心、新智元没有官方 RSS，第三方转换服务不稳定，暂不接入
+# Microsoft AI 博客的 RSS 已停用（410），VentureBeat 会拦截 GitHub 的服务器（429），都已去掉
