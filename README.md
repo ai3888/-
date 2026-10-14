@@ -64,6 +64,19 @@ Accept: application/vnd.github.raw
 
 不想跑脚本的话，可以让 GPT 自己定时执行：[`gpt-task.md`](gpt-task.md) 是写给 GPT 的完整任务说明，包括方向、步骤、判断标准和输出格式。先填好其中的「我的方向」，再让 GPT 每次运行时读取这个文件。
 
+## AI 资讯雷达（建设中）
+
+除了 GitHub 项目，还会每天从论文、社区、博客、油管等免费来源收集 AI 动态。现在完成的是第一步「接入」：
+
+- 来源都在 [`ai_news.toml`](ai_news.toml) 里，可以增删，也可以用 `enabled = false` 关掉
+- 改了来源后，GitHub 会自动跑一次「AI 资讯雷达 · 接入检查」，在运行页面的 Summary 里列出每个来源能不能用
+- 需要两个 Key，都在仓库 Settings → Secrets and variables → Actions → Secrets 里添加：
+  - `GEMINI_API_KEY`：在 [Google AI Studio](https://aistudio.google.com/apikey) 免费申请，用来看油管视频和给论文粗分类
+  - `OPENAI_API_KEY`：GPT 做最终判断，需要先在 OpenAI 后台充值
+- 加好 Key 后，到 Actions → AI 资讯雷达 · 接入检查，打开最近一次运行，点 Re-run all jobs 重新检查
+
+后面会加上去重筛选、Gemini 初筛、GPT 判断和每日报告。
+
 ## 在自己电脑上运行
 
 需要 Python 3.11 或更高版本，不用安装任何依赖：
@@ -72,4 +85,12 @@ Accept: application/vnd.github.raw
 export GITHUB_TOKEN=你的GitHub令牌     # 不设置也能跑，但 GitHub 限流很严
 export OPENAI_API_KEY=sk-...           # 可选
 python3 scout.py --dry-run             # 只打印报告，不写文件
+```
+
+AI 资讯雷达的接入检查：
+
+```bash
+export GEMINI_API_KEY=...              # 可选
+python3 ai_news.py --check             # 检查每个来源和 Key，不写文件
+python3 ai_news.py                     # 抓取并存到 data/news/raw/日期.json
 ```
