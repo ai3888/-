@@ -66,7 +66,7 @@ Accept: application/vnd.github.raw
 
 ## AI 日报（每天早上 8 点）
 
-1. 每天北京时间 6:37，GitHub 自动运行「每日 AI 雷达」：先跑上面的项目雷达，再从 [`ai_news.toml`](ai_news.toml) 里的来源（HF 每日论文、Hacker News、OpenRouter、各家官方博客、Newsletter、量子位、油管频道）抓取最新内容，用代码去重、算热度，生成日报素材 [`reports/ai-news/latest.md`](reports/ai-news/latest.md)，每天的存档在 `reports/ai-news/` 里
+1. 每天北京时间 6:37，GitHub 自动运行「每日 AI 雷达」：先跑上面的项目雷达，再从 [`ai_news.toml`](ai_news.toml) 里的来源（HF 每日论文、Hacker News、OpenRouter、OpenAI/Google/Anthropic/Meta 等官方博客、Newsletter、科技媒体、量子位、油管频道）抓取最新内容，用代码去重、算热度，生成日报素材 [`reports/ai-news/latest.md`](reports/ai-news/latest.md)，每天的存档在 `reports/ai-news/` 里
 2. 素材分三块：大家都在讨论的（同一件事在几个不同来源出现）、新东西（官方发布、新模型、开源项目和 Skill、Show HN 新工具）、论文（按 HF 点赞数排序）
 3. 素材最前面是给 GPT 的写作说明，来自 [`ai_news_guide.md`](ai_news_guide.md)。想改日报的标准或格式，改这个文件就行
 4. 早上 8 点，ChatGPT 的定时任务读素材、写日报推送给你
