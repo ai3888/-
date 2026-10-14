@@ -11,6 +11,7 @@ on:
 
 permissions:
   contents: read
+  models: read      # 用仓库自带的 GITHUB_TOKEN 免费调用 GitHub Models
 
 jobs:
   check:
@@ -30,4 +31,5 @@ jobs:
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python ai_news.py --check
