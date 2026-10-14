@@ -66,7 +66,8 @@ channels = [
 # ---------------------------------------------------------------- 博客和 Newsletter（RSS）
 # url 可以写一个地址，也可以写多个（前一个失败就用下一个）
 # kind：official 是官方发布（放进「新东西」），newsletter 是个人博客和 Newsletter，media 是媒体
-# Anthropic 官网没有 RSS，之后单独处理。Qwen 原来的博客 2025 年 9 月后不再更新，已去掉
+# 没有官方 RSS 的（Anthropic、Meta AI、Mistral、xAI、Cursor 等），用开源项目 Olshansk/rss-feeds
+# 每小时从官网生成的 RSS。Qwen 原来的博客 2025 年 9 月后不再更新，已去掉
 # AINews 原来的 news.smol.ai 2026 年 9 月起停更，现在每天发在 Latent Space 里
 
 [[feeds]]
@@ -90,6 +91,71 @@ kind = "official"
 url = "https://huggingface.co/blog/feed.xml"
 
 [[feeds]]
+name = "Anthropic 新闻"
+kind = "official"
+url = "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml"
+
+[[feeds]]
+name = "Anthropic 工程博客"
+kind = "official"
+url = "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_engineering.xml"
+
+[[feeds]]
+name = "Anthropic 研究"
+kind = "official"
+url = "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_research.xml"
+
+[[feeds]]
+name = "Claude 博客"
+kind = "official"
+url = "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_claude.xml"
+
+[[feeds]]
+name = "Meta AI"
+kind = "official"
+url = "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_meta_ai.xml"
+
+[[feeds]]
+name = "Mistral"
+kind = "official"
+url = "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_mistral.xml"
+
+[[feeds]]
+name = "xAI"
+kind = "official"
+url = "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_xainews.xml"
+
+[[feeds]]
+name = "Google Research"
+kind = "official"
+url = "https://research.google/blog/rss/"
+
+[[feeds]]
+name = "Microsoft AI"
+kind = "official"
+url = "https://blogs.microsoft.com/ai/feed/"
+
+[[feeds]]
+name = "NVIDIA 深度学习博客"
+kind = "official"
+url = "https://blogs.nvidia.com/blog/category/deep-learning/feed/"
+
+[[feeds]]
+name = "Apple 机器学习"
+kind = "official"
+url = "https://machinelearning.apple.com/rss.xml"
+
+[[feeds]]
+name = "Cursor"
+kind = "official"
+url = "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_cursor.xml"
+
+[[feeds]]
+name = "Ollama"
+kind = "official"
+url = "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_ollama.xml"
+
+[[feeds]]
 name = "Import AI"
 url = "https://jack-clark.net/feed/"   # Substack 的地址会拦截 GitHub 的服务器
 
@@ -106,6 +172,10 @@ name = "Latent Space（含每天的 AINews：汇总推特、Reddit、Discord 的
 url = "https://www.latent.space/feed"
 
 [[feeds]]
+name = "The Batch（吴恩达团队）"
+url = "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_the_batch.xml"
+
+[[feeds]]
 name = "Simon Willison"
 url = "https://simonwillison.net/atom/entries/"
 
@@ -115,6 +185,28 @@ url = "https://lilianweng.github.io/index.xml"
 lookback_hours = 720   # 更新很少，看最近 30 天
 
 [[feeds]]
+name = "TechCrunch AI"
+kind = "media"
+url = "https://techcrunch.com/category/artificial-intelligence/feed/"
+
+[[feeds]]
+name = "The Verge AI"
+kind = "media"
+url = "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+
+[[feeds]]
+name = "MIT 科技评论 AI"
+kind = "media"
+url = "https://www.technologyreview.com/topic/artificial-intelligence/feed/"
+
+[[feeds]]
+name = "VentureBeat AI"
+kind = "media"
+url = "https://venturebeat.com/category/ai/feed"
+
+[[feeds]]
 name = "量子位"
 kind = "media"
 url = "https://www.qbitai.com/feed"
+
+# 机器之心、新智元没有官方 RSS，第三方转换服务不稳定，暂不接入
