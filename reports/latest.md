@@ -1,128 +1,128 @@
-# GitHub 项目雷达 · 2026-10-15
+# GitHub 项目雷达 · 2026-10-16
 
-> 搜到 637 个候选 → 过滤后 556 个 → 详细检查 40 个 → 入选 15 个
+> 搜到 635 个候选 → 过滤后 539 个 → 详细检查 40 个 → 入选 15 个
 
 ## 👀 值得关注
 
-### [affaan-m/ECC](https://github.com/affaan-m/ECC) · 100 分
+### [langgenius/dify](https://github.com/langgenius/dify) · 100 分
 
-⭐ 279,445（+416/天） · 🍴 41,582 · 👥 449 位贡献者 · 📝 30 天 1035 次提交 · JavaScript · MIT · 创建 269 天
+⭐ 158,591（+105/天） · 🍴 25,054 · 👥 1554 位贡献者 · 📝 30 天 887 次提交 · TypeScript · NOASSERTION · 创建 1282 天
 
-> The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+> Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.
 
-<sub>来源：LLM、AI Agent、开发者工具、MCP</sub>
+<sub>来源：LLM、MCP</sub>
 
-### [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) · 100 分
+### [langchain-ai/langchain](https://github.com/langchain-ai/langchain) · 100 分
 
-⭐ 253,789（+105/天） · 🍴 55,060 · 👥 4507 位贡献者 · 📝 30 天 18163 次提交 · Python · MIT · 创建 449 天
+⭐ 147,886（+55/天） · 🍴 24,818 · 👥 3745 位贡献者 · 📝 30 天 225 次提交 · Python · MIT · 创建 1459 天
 
-> The agent that grows with you
+> The agent engineering platform.
 
 <sub>来源：LLM、AI Agent</sub>
 
-### [morluto/rea](https://github.com/morluto/rea) · 100 分
+### [browser-use/browser-use](https://github.com/browser-use/browser-use) · 100 分
 
-⭐ 240,256（+9493/天） · 🍴 59,741 · 👥 217 位贡献者 · 📝 30 天 2470 次提交 · TypeScript · MIT · 创建 183 天
+⭐ 118,096（+107/天） · 🍴 13,096 · 👥 381 位贡献者 · 📝 30 天 57 次提交 · Python · MIT · 创建 714 天
 
-> Reverse engineer anything with agents, from app behavior down to native binaries.
+> Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.
 
-<sub>来源：LLM、AI Agent、开发者工具、Agent Skill、MCP</sub>
+<sub>来源：LLM、AI Agent、MCP</sub>
 
-### [ollama/ollama](https://github.com/ollama/ollama) · 100 分
+### [vllm-project/vllm](https://github.com/vllm-project/vllm) · 100 分
 
-⭐ 183,177（+48/天） · 🍴 18,278 · 👥 627 位贡献者 · 📝 30 天 139 次提交 · Go · MIT · 创建 1206 天
+⭐ 93,869（+70/天） · 🍴 23,423 · 👥 3772 位贡献者 · 📝 30 天 1785 次提交 · Python · Apache-2.0 · 创建 1344 天
 
-> Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
-
-<sub>来源：LLM</sub>
-
-### [open-webui/open-webui](https://github.com/open-webui/open-webui) · 100 分
-
-⭐ 155,698（+57/天） · 🍴 22,667 · 👥 889 位贡献者 · 📝 30 天 930 次提交 · Python · NOASSERTION · 创建 1104 天
-
-> User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
-
-<sub>来源：LLM、自部署、MCP</sub>
-
-### [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) · 100 分
-
-⭐ 126,530（+145/天） · 🍴 12,210 · 👥 343 位贡献者 · 📝 30 天 611 次提交 · Python · Apache-2.0 · 创建 194 天
-
-> Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.
-
-<sub>来源：LLM、AI Agent、开发者工具、MCP</sub>
-
-### [paperclipai/paperclip](https://github.com/paperclipai/paperclip) · 100 分
-
-⭐ 102,143（+196/天） · 🍴 17,111 · 👥 224 位贡献者 · 📝 30 天 766 次提交 · TypeScript · MIT · 创建 226 天
-
-> The open-source app everyone uses to manage agents at work
-
-<sub>来源：LLM、AI Agent、Agent Skill、Claude Skill、MCP</sub>
-
-### [Tencent/WeKnora](https://github.com/Tencent/WeKnora) · 100 分
-
-⭐ 33,993（+57/天） · 🍴 4,522 · 👥 299 位贡献者 · 📝 30 天 470 次提交 · Go · NOASSERTION · 创建 449 天
-
-> Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.
+> A high-throughput and memory-efficient inference and serving engine for LLMs
 
 <sub>来源：LLM</sub>
 
-### [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) · 100 分
+### [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) · 100 分
 
-⭐ 76,596（+180/天） · 🍴 11,065 · 👥 824 位贡献者 · 📝 30 天 1928 次提交 · TypeScript · MIT · 创建 243 天
+⭐ 90,998（+82/天） · 🍴 12,062 · 👥 580 位贡献者 · 📝 30 天 351 次提交 · TypeScript · MIT · 创建 946 天
 
-> Never stop coding. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by hundreds of contributors
+> 🙌 OpenHands: AI-Driven Development
 
-<sub>来源：AI Agent、MCP</sub>
+<sub>来源：LLM、开发者工具</sub>
 
-### [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) · 100 分
+### [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) · 100 分
 
-⭐ 54,752（+68/天） · 🍴 8,110 · 👥 53 位贡献者 · 📝 30 天 564 次提交 · JavaScript · MIT · 创建 272 天
+⭐ 85,622（+75/天） · 🍴 8,892 · 👥 103 位贡献者 · 📝 30 天 93 次提交 · Python · Apache-2.0 · 创建 889 天
 
-> Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.
+> Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it yourself, or use Crawl4AI Cloud with one key.
 
-<sub>来源：AI Agent、Agent Skill、Claude Skill</sub>
+<sub>来源：LLM、AI Agent、MCP</sub>
 
-### [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) · 100 分
+### [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) · 100 分
 
-⭐ 20,332（+109/天） · 🍴 2,003 · 👥 29 位贡献者 · 📝 30 天 237 次提交 · Python · MIT · 创建 175 天
+⭐ 67,162（+75/天） · 🍴 7,507 · 👥 270 位贡献者 · 📝 30 天 168 次提交 · JavaScript · MIT · 创建 1229 天
 
-> Give your agent CAD superpowers.
+> Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience
+
+<sub>来源：LLM、AI Agent</sub>
+
+### [BerriAI/litellm](https://github.com/BerriAI/litellm) · 100 分
+
+⭐ 61,333（+70/天） · 🍴 12,388 · 👥 1814 位贡献者 · 📝 30 天 4780 次提交 · Python · NOASSERTION · 创建 1176 天
+
+> The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]
+
+<sub>来源：LLM</sub>
+
+### [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) · 100 分
+
+⭐ 42,057（+64/天） · 🍴 4,140 · 👥 193 位贡献者 · 📝 30 天 20415 次提交 · Rust · GPL-3.0 · 创建 239 天
+
+> The fastest, cheapest, most efficient open-source agent harness. Run more than 500 agents on a $10 VPS.
+
+<sub>来源：LLM、AI Agent、MCP</sub>
+
+### [langfuse/langfuse](https://github.com/langfuse/langfuse) · 100 分
+
+⭐ 35,878（+49/天） · 🍴 3,995 · 👥 223 位贡献者 · 📝 30 天 870 次提交 · TypeScript · NOASSERTION · 创建 1246 天
+
+> 🪢 Open source agent evals & observability: Trace, evaluate, and improve LLM applications with one open platform.
+
+<sub>来源：LLM、自部署</sub>
+
+### [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) · 100 分
+
+⭐ 35,580（+87/天） · 🍴 5,772 · 👥 195 位贡献者 · 📝 30 天 866 次提交 · Python · MIT · 创建 197 天
+
+> "Vibe-Trading: Your Personal Trading Agent"
+
+<sub>来源：LLM、MCP</sub>
+
+### [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) · 100 分
+
+⭐ 35,560（+118/天） · 🍴 3,893 · 👥 913 位贡献者 · 📝 30 天 7259 次提交 · TypeScript · MIT · 创建 288 天
+
+> ⌥ Coding agent with the IDE wired in. Built by Stencil Labs.
+
+<sub>来源：LLM、MCP</sub>
+
+### [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) · 100 分
+
+⭐ 33,326（+64/天） · 🍴 3,676 · 👥 169 位贡献者 · 📝 30 天 161 次提交 · Python · Apache-2.0 · 创建 1007 天
+
+> Build and run agents you can see, understand and trust.
+
+<sub>来源：LLM、MCP</sub>
+
+### [decolua/9router](https://github.com/decolua/9router) · 100 分
+
+⭐ 30,870（+58/天） · 🍴 5,976 · 👥 375 位贡献者 · 📝 30 天 217 次提交 · JavaScript · MIT · 创建 283 天
+
+> Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.
+
+<sub>来源：LLM、AI Agent</sub>
+
+### [infiniflow/ragflow](https://github.com/infiniflow/ragflow) · 100 分
+
+⭐ 92,285（+54/天） · 🍴 10,997 · 👥 877 位贡献者 · 📝 30 天 837 次提交 · Go · Apache-2.0 · 创建 1038 天
+
+> RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs
 
 <sub>来源：AI Agent</sub>
-
-### [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) · 100 分
-
-⭐ 106,675（+156/天） · 🍴 11,097 · 👥 93 位贡献者 · 📝 30 天 176 次提交 · JavaScript · MIT · 创建 241 天
-
-> Production-grade engineering skills for AI coding agents.
-
-<sub>来源：Agent Skill</sub>
-
-### [nexu-io/open-design](https://github.com/nexu-io/open-design) · 100 分
-
-⭐ 101,167（+50/天） · 🍴 11,643 · 👥 449 位贡献者 · 📝 30 天 114 次提交 · TypeScript · Apache-2.0 · 创建 169 天
-
-> The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.
-
-<sub>来源：Agent Skill</sub>
-
-### [krillinai/OpenCreator](https://github.com/krillinai/OpenCreator) · 100 分
-
-⭐ 13,054（+79/天） · 🍴 1,398 · 👥 35 位贡献者 · 📝 30 天 267 次提交 · TypeScript · Apache-2.0 · 创建 666 天
-
-> Formerly KrillinAI, VideoTranslation and Dubbing Tool. Open-source AI workspace for creators, powered by Codex. Video downloading, video translation, create videos, images, voice, avatars, and edits with Agents in one place. Suitable for your Social Media like YouTube, TikTok, Instagram, etc.
-
-<sub>来源：Agent Skill</sub>
-
-### [every-app/open-seo](https://github.com/every-app/open-seo) · 100 分
-
-⭐ 23,621（+52/天） · 🍴 3,136 · 👥 20 位贡献者 · 📝 30 天 237 次提交 · TypeScript · MIT · 创建 229 天
-
-> Open source alternative to Semrush and Ahrefs
-
-<sub>来源：MCP</sub>
 
 ---
 
