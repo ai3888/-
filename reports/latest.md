@@ -1,130 +1,130 @@
-# GitHub 项目雷达 · 2026-10-18
+# GitHub 项目雷达 · 2026-10-19
 
-> 搜到 635 个候选 → 过滤后 511 个 → 详细检查 40 个 → 入选 15 个
+> 搜到 633 个候选 → 过滤后 495 个 → 详细检查 40 个 → 入选 15 个
 
 ## 🚀 潜力股（新项目、涨得快）
 
-### [jev-chat/jev-chat-jarvis](https://github.com/jev-chat/jev-chat-jarvis) · 99 分
+### [tangency-labs/solidcraft](https://github.com/tangency-labs/solidcraft) · 100 分
 
-⭐ 7,865（+50/天） · 🍴 1,275 · 👥 17 位贡献者 · 📝 30 天 142 次提交 · Kotlin · MIT · 创建 26 天
+⭐ 5,603（+509.4/天，平均） · 🍴 659 · 👥 106 位贡献者 · 📝 30 天 1533 次提交 · Rust · Apache-2.0 · 创建 11 天
 
-> The chat decision assistant: before you reply, Jev reads the chat, judges intent and risk, and drafts replies you fill in with one tap. You press send. Android · Windows · macOS · iOS | 聊天辅助决策工具：先看懂对方再回复，发不发由你。
+> SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.
+
+<sub>来源：近 90 天新项目</sub>
+
+### [yetone/magpie](https://github.com/yetone/magpie) · 98 分
+
+⭐ 15,903（+880/天） · 🍴 1,147 · 👥 131 位贡献者 · 📝 30 天 3929 次提交 · Go · MIT · 创建 25 天
+
+> Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.
+
+<sub>来源：近 90 天新项目</sub>
+
+### [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) · 97 分
+
+⭐ 24,379（+52/天） · 🍴 2,799 · 👥 54 位贡献者 · 📝 30 天 21 次提交 · Python · MIT · 创建 68 天
+
+> A privacy-first app that strips AI watermarks from content you own.
+
+<sub>来源：近 90 天新项目</sub>
+
+### [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) · 97 分
+
+⭐ 15,963（+898/天） · 🍴 1,229 · 👥 13 位贡献者 · 📝 30 天 153 次提交 · JavaScript · MIT · 创建 10 天
+
+> An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.
 
 <sub>来源：近 90 天新项目</sub>
 
 ## 👀 值得关注
 
-### [bytedance/deer-flow](https://github.com/bytedance/deer-flow) · 100 分
+### [topoteretes/cognee](https://github.com/topoteretes/cognee) · 100 分
 
-⭐ 84,026（+66/天） · 🍴 11,714 · 👥 559 位贡献者 · 📝 30 天 851 次提交 · Python · MIT · 创建 528 天
+⭐ 32,495（+54/天） · 🍴 3,395 · 👥 328 位贡献者 · 📝 30 天 802 次提交 · Python · Apache-2.0 · 创建 1159 天
 
-> An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.
+> Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory with small models for free
 
-<sub>来源：LLM、AI Agent</sub>
+<sub>来源：AI Agent、Agent Skill</sub>
 
-### [kestra-io/kestra](https://github.com/kestra-io/kestra) · 100 分
+### [coollabsio/coolify](https://github.com/coollabsio/coolify) · 99 分
 
-⭐ 29,716（+55/天） · 🍴 3,422 · 👥 720 位贡献者 · 📝 30 天 664 次提交 · Java · Apache-2.0 · 创建 2611 天
+⭐ 63,152（+61/天） · 🍴 5,686 · 👥 766 位贡献者 · 📝 30 天 691 次提交 · PHP · Apache-2.0 · 创建 2092 天
 
-> Event Driven Orchestration & Scheduling Platform for Mission Critical Applications
+> An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own servers.
 
-<sub>来源：AI Agent</sub>
+<sub>来源：自部署</sub>
 
-### [HarnessMD/munder-difflin](https://github.com/HarnessMD/munder-difflin) · 100 分
+### [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) · 99 分
 
-⭐ 8,850（+48/天） · 🍴 1,227 · 👥 60 位贡献者 · 📝 30 天 169 次提交 · TypeScript · MIT · 创建 139 天
+⭐ 46,857（+80/天） · 🍴 3,872 · 👥 189 位贡献者 · 📝 30 天 1073 次提交 · C · MIT · 创建 236 天
 
-> an open-source alternative to the dots, bots and muses of the world, run an office of claude code/codex like agents on your laptop, sandboxes or anywhere, uses your existing subscriptions
+> High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 162 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.
+
+<sub>来源：开发者工具、MCP</sub>
+
+### [superplanehq/superplane](https://github.com/superplanehq/superplane) · 99 分
+
+⭐ 7,987（+115/天） · 🍴 656 · 👥 77 位贡献者 · 📝 30 天 588 次提交 · Go · NOASSERTION · 创建 529 天
+
+> Open source factory for one-shot engineering
 
 <sub>来源：开发者工具</sub>
 
-### [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) · 100 分
+### [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) · 98 分
 
-⭐ 88,294（+184/天） · 🍴 9,089 · 👥 42 位贡献者 · 📝 30 天 146 次提交 · Python · BSD-3-Clause · 创建 734 天
+⭐ 75,895（+307/天） · 🍴 5,900 · 👥 337 位贡献者 · 📝 30 天 515 次提交 · Python · Apache-2.0 · 创建 284 天
 
-> 🕷️ A Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev
+> Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.
 
-<sub>来源：MCP</sub>
+<sub>来源：LLM、MCP</sub>
 
-### [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) · 100 分
+### [aaif-goose/goose](https://github.com/aaif-goose/goose) · 98 分
 
-⭐ 53,733（+49/天） · 🍴 6,861 · 👥 149 位贡献者 · 📝 30 天 201 次提交 · TypeScript · Apache-2.0 · 创建 401 天
+⭐ 55,418（+41/天） · 🍴 6,460 · 👥 664 位贡献者 · 📝 30 天 148 次提交 · Rust · Apache-2.0 · 创建 786 天
 
-> Chrome DevTools for coding agents
+> an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
 
-<sub>来源：MCP</sub>
+<sub>来源：AI Agent、MCP</sub>
 
-### [LibreChat-AI/LibreChat](https://github.com/LibreChat-AI/LibreChat) · 100 分
+### [herdrdev/herdr](https://github.com/herdrdev/herdr) · 98 分
 
-⭐ 45,890（+69/天） · 🍴 9,431 · 👥 420 位贡献者 · 📝 30 天 679 次提交 · TypeScript · MIT · 创建 1343 天
+⭐ 44,640（+129/天） · 🍴 3,553 · 👥 91 位贡献者 · 📝 30 天 166 次提交 · Rust · Apache-2.0 · 创建 205 天
 
-> Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active
+> the runtime your coding agents live on
 
-<sub>来源：MCP</sub>
+<sub>来源：AI Agent、开发者工具</sub>
 
-### [unslothai/unsloth](https://github.com/unslothai/unsloth) · 99 分
+### [mvschwarz/openrig](https://github.com/mvschwarz/openrig) · 98 分
 
-⭐ 78,192（+60/天） · 🍴 7,224 · 👥 416 位贡献者 · 📝 30 天 2502 次提交 · Python · Apache-2.0 · 创建 1053 天
+⭐ 7,795（+107/天） · 🍴 621 · 👥 69 位贡献者 · 📝 30 天 1021 次提交 · TypeScript · Apache-2.0 · 创建 200 天
 
-> Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX and more.
+> Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.
 
-<sub>来源：LLM、自部署</sub>
+<sub>来源：Agent Skill</sub>
 
-### [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) · 99 分
+### [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot) · 98 分
 
-⭐ 66,605（+131/天） · 🍴 55,365 · 👥 133 位贡献者 · 📝 30 天 47 次提交 · Python · MIT · 创建 280 天
+⭐ 42,124（+60/天） · 🍴 3,083 · 👥 379 位贡献者 · 📝 30 天 156 次提交 · Python · AGPL-3.0 · 创建 1410 天
 
-> LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.
+> AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨
+
+<sub>来源：LLM、MCP</sub>
+
+### [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) · 97 分
+
+⭐ 29,568（+61/天） · 🍴 2,952 · 👥 31 位贡献者 · 📝 30 天 24 次提交 · TypeScript · NOASSERTION · 创建 194 天
+
+> TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.
 
 <sub>来源：LLM</sub>
 
-### [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) · 99 分
+### [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) · 97 分
 
-⭐ 101,409（+171/天） · 🍴 8,891 · 👥 281 位贡献者 · 📝 30 天 720 次提交 · TypeScript · Apache-2.0 · 创建 412 天
+⭐ 52,646（+438/天） · 🍴 4,666 · 👥 59 位贡献者 · 📝 30 天 29 次提交 · Python · MIT · 创建 364 天
 
-> Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More
+> Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.
 
-<sub>来源：AI Agent、Claude Skill</sub>
-
-### [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) · 99 分
-
-⭐ 20,436（+60/天） · 🍴 1,797 · 👥 103 位贡献者 · 📝 30 天 978 次提交 · Python · Apache-2.0 · 创建 210 天
-
-> Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.
-
-<sub>来源：Agent Skill、MCP</sub>
-
-### [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) · 99 分
-
-⭐ 65,954（+671/天） · 🍴 5,954 · 👥 105 位贡献者 · 📝 30 天 1288 次提交 · TypeScript · Apache-2.0 · 创建 221 天
-
-> Write HTML. Render video. Built for agents.
-
-<sub>来源：MCP</sub>
-
-### [t8y2/dbx](https://github.com/t8y2/dbx) · 99 分
-
-⭐ 27,053（+54/天） · 🍴 2,451 · 👥 367 位贡献者 · 📝 30 天 1819 次提交 · Rust · Apache-2.0 · 创建 171 天
-
-> 25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。
-
-<sub>来源：MCP</sub>
-
-### [mem0ai/mem0](https://github.com/mem0ai/mem0) · 98 分
-
-⭐ 67,358（+47/天） · 🍴 7,939 · 👥 410 位贡献者 · 📝 30 天 42 次提交 · Python · Apache-2.0 · 创建 1215 天
-
-> The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.
-
-<sub>来源：LLM、AI Agent</sub>
-
-### [78/xiaozhi-esp32](https://github.com/78/xiaozhi-esp32) · 98 分
-
-⭐ 31,358（+74/天） · 🍴 7,333 · 👥 163 位贡献者 · 📝 30 天 35 次提交 · C++ · MIT · 创建 777 天
-
-> An MCP-based chatbot | 一个基于MCP的聊天机器人
-
-<sub>来源：MCP</sub>
+<sub>来源：Agent Skill、Claude Skill</sub>
 
 ---
 
