@@ -1,128 +1,128 @@
-# GitHub 项目雷达 · 2026-10-20
+# GitHub 项目雷达 · 2026-10-21
 
-> 搜到 631 个候选 → 过滤后 476 个 → 详细检查 40 个 → 入选 15 个
+> 搜到 630 个候选 → 过滤后 459 个 → 详细检查 40 个 → 入选 15 个
 
 ## 🚀 潜力股（新项目、涨得快）
 
-### [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) · 100 分
+### [elie222/rakazo](https://github.com/elie222/rakazo) · 100 分
 
-⭐ 5,044（+2522/天，平均） · 🍴 609 · 👥 70 位贡献者 · 📝 30 天 312 次提交 · Java · NOASSERTION · 创建 2 天
+⭐ 4,929（+72.5/天，平均） · 🍴 892 · 👥 121 位贡献者 · 📝 30 天 578 次提交 · TypeScript · Apache-2.0 · 创建 68 天
 
-> Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.
-
-<sub>来源：近 90 天新项目</sub>
-
-### [qingjian-team/qingjian](https://github.com/qingjian-team/qingjian) · 98 分
-
-⭐ 6,888（+69/天） · 🍴 559 · 👥 50 位贡献者 · 📝 30 天 304 次提交 · Rust · GPL-3.0 · 创建 42 天
-
-> 青简 Qingjian：用 Rust 写的拼音输入法，候选词旁多一条正在学的语言的译词
+> Open-source Grok Bot alternative. Choose your own model and sandbox.
 
 <sub>来源：近 90 天新项目</sub>
 
-### [zhu1090093659/dsh-web](https://github.com/zhu1090093659/dsh-web) · 97 分
+### [QingYunA/answer-me-with-html](https://github.com/QingYunA/answer-me-with-html) · 97 分
 
-⭐ 9,040（+73/天） · 🍴 575 · 👥 155 位贡献者 · 📝 30 天 750 次提交 · TypeScript · Apache-2.0 · 创建 68 天
+⭐ 4,098（+199/天） · 🍴 275 · 👥 20 位贡献者 · 📝 30 天 261 次提交 · JavaScript · MIT · 创建 18 天
 
-> DeepSeek Harness (DSH) Web 插件聚合生态 · 万物皆插件，通过创意工坊分发｜｜DeepSeek Harness (DSH) Web Plugin Aggregation Ecosystem · Everything is a plugin, distributed via the Creative Workshop
+> Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。
+
+<sub>来源：Claude Skill</sub>
+
+### [crmne/spotifast](https://github.com/crmne/spotifast) · 97 分
+
+⭐ 8,565（+54/天） · 🍴 491 · 👥 103 位贡献者 · 📝 30 天 433 次提交 · Rust · MIT · 创建 54 天
+
+> Spotify, native and fast. One lightweight Rust app for your whole library, local playback, and Spotify Connect on Linux, macOS, and Windows.
+
+<sub>来源：近 90 天新项目</sub>
+
+### [KnifeLemon/Filee](https://github.com/KnifeLemon/Filee) · 97 分
+
+⭐ 7,958（+1599/天） · 🍴 493 · 👥 20 位贡献者 · 📝 30 天 617 次提交 · C# · MIT · 创建 21 天
+
+> Free, open-source file converter. Convert 244+ formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.
 
 <sub>来源：近 90 天新项目</sub>
 
 ## 👀 值得关注
 
-### [sgl-project/sglang](https://github.com/sgl-project/sglang) · 100 分
+### [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) · 98 分
 
-⭐ 37,446（+163/天） · 🍴 9,699 · 👥 2088 位贡献者 · 📝 30 天 1900 次提交 · Python · Apache-2.0 · 创建 1015 天
+⭐ 21,432（+47/天） · 🍴 3,482 · 👥 18 位贡献者 · 📝 30 天 45 次提交 · Shell · MIT · 创建 228 天
 
-> SGLang is a high-performance serving framework for large language models and multimodal models.
-
-<sub>来源：LLM</sub>
-
-### [OrchestratorInc/agent-orchestrator](https://github.com/OrchestratorInc/agent-orchestrator) · 100 分
-
-⭐ 13,380（+54/天，平均） · 🍴 1,842 · 👥 131 位贡献者 · 📝 30 天 556 次提交 · Go · Apache-2.0 · 创建 248 天
-
-> Open-source (Apache-2.0) orchestrator for Claude Code, Codex & 30+ coding agents. Plan, run and supervise agent teams from task to merged PR. Desktop (macOS, Windows, Linux) + iPhone & Android apps.
-
-<sub>来源：AI Agent、开发者工具</sub>
-
-### [rmyndharis/OpenWA](https://github.com/rmyndharis/OpenWA) · 100 分
-
-⭐ 15,678（+125/天） · 🍴 3,669 · 👥 80 位贡献者 · 📝 30 天 2859 次提交 · TypeScript · MIT · 创建 259 天
-
-> Free, Open Source, Self-Hosted WhatsApp API Gateway
-
-<sub>来源：自部署</sub>
-
-### [mudler/LocalAI](https://github.com/mudler/LocalAI) · 99 分
-
-⭐ 49,719（+98/天） · 🍴 4,516 · 👥 265 位贡献者 · 📝 30 天 603 次提交 · Go · MIT · 创建 1311 天
-
-> LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.
-
-<sub>来源：LLM、MCP</sub>
-
-### [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) · 99 分
-
-⭐ 59,883（+46/天） · 🍴 8,799 · 👥 351 位贡献者 · 📝 30 天 98 次提交 · Python · MIT · 创建 1088 天
-
-> Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
+> 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上位机/机械设计）。搭配编排器 agency-orchestrator，一句话即可让多位专家按 DAG 自动协作。
 
 <sub>来源：AI Agent</sub>
 
-### [PDFMathTranslate/PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate) · 99 分
+### [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) · 98 分
 
-⭐ 37,678（+47/天） · 🍴 3,374 · 👥 59 位贡献者 · 📝 30 天 688 次提交 · Python · AGPL-3.0 · 创建 773 天
+⭐ 46,939（+52/天） · 🍴 3,255 · 👥 463 位贡献者 · 📝 30 天 180 次提交 · Python · GPL-3.0 · 创建 1711 天
 
-> [EMNLP 2025 Demo] PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/MCP/Docker/Zotero
-
-<sub>来源：MCP</sub>
-
-### [huggingface/transformers](https://github.com/huggingface/transformers) · 98 分
-
-⭐ 167,866（+43/天） · 🍴 34,910 · 👥 4176 位贡献者 · 📝 30 天 353 次提交 · Python · Apache-2.0 · 创建 2912 天
-
-> 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.
+> A community-supported supercharged document management system: scan, index and archive all your documents
 
 <sub>来源：LLM</sub>
 
-### [lidge-jun/opencodex](https://github.com/lidge-jun/opencodex) · 98 分
+### [alibaba/open-code-review](https://github.com/alibaba/open-code-review) · 98 分
 
-⭐ 17,626（+61/天） · 🍴 1,359 · 👥 255 位贡献者 · 📝 30 天 1657 次提交 · TypeScript · MIT · 创建 122 天
+⭐ 47,726（+68/天） · 🍴 3,477 · 👥 203 位贡献者 · 📝 30 天 70 次提交 · Go · Apache-2.0 · 创建 155 天
 
-> Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code
+> Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.
 
-<sub>来源：开发者工具</sub>
+<sub>来源：Agent Skill</sub>
 
-### [HKUDS/nanobot](https://github.com/HKUDS/nanobot) · 98 分
+### [tt-a1i/archify](https://github.com/tt-a1i/archify) · 97 分
 
-⭐ 49,190（+39/天） · 🍴 8,649 · 👥 496 位贡献者 · 📝 30 天 513 次提交 · Python · MIT · 创建 260 天
+⭐ 86,405（+568/天） · 🍴 5,843 · 👥 93 位贡献者 · 📝 30 天 1179 次提交 · JavaScript · MIT · 创建 188 天
 
-> Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps
+> Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.
 
-<sub>来源：AI Agent、自部署、MCP</sub>
+<sub>来源：LLM、AI Agent、开发者工具、Agent Skill、Claude Skill</sub>
 
-### [linshenkx/prompt-optimizer](https://github.com/linshenkx/prompt-optimizer) · 97 分
+### [rtk-ai/rtk](https://github.com/rtk-ai/rtk) · 97 分
 
-⭐ 38,579（+126/天） · 🍴 4,389 · 👥 33 位贡献者 · 📝 30 天 22 次提交 · TypeScript · NOASSERTION · 创建 614 天
+⭐ 84,086（+98/天） · 🍴 5,342 · 👥 189 位贡献者 · 📝 30 天 357 次提交 · Rust · Apache-2.0 · 创建 271 天
 
-> An AI prompt optimizer for writing better prompts and getting better AI results.
+> CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
+
+<sub>来源：LLM、开发者工具</sub>
+
+### [openai/openai-agents-python](https://github.com/openai/openai-agents-python) · 97 分
+
+⭐ 30,182（+37/天） · 🍴 4,935 · 👥 408 位贡献者 · 📝 30 天 201 次提交 · Python · MIT · 创建 588 天
+
+> A lightweight, powerful framework for multi-agent workflows
 
 <sub>来源：LLM</sub>
 
-### [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) · 97 分
+### [mastra-ai/mastra](https://github.com/mastra-ai/mastra) · 97 分
 
-⭐ 39,310（+52/天） · 🍴 3,416 · 👥 16 位贡献者 · 📝 30 天 49 次提交 · Python · MIT · 创建 566 天
+⭐ 28,958（+37/天） · 🍴 3,021 · 👥 700 位贡献者 · 📝 30 天 2049 次提交 · TypeScript · NOASSERTION · 创建 805 天
 
-> 📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG
+> Mastra is the modern TypeScript framework for AI-powered applications and agents.
 
-<sub>来源：LLM、AI Agent</sub>
+<sub>来源：LLM、MCP</sub>
 
-### [mksglu/context-mode](https://github.com/mksglu/context-mode) · 97 分
+### [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) · 97 分
 
-⭐ 31,061（+322/天） · 🍴 2,335 · 👥 112 位贡献者 · 📝 30 天 50 次提交 · TypeScript · NOASSERTION · 创建 238 天
+⭐ 99,840（+503/天） · 🍴 6,768 · 👥 21 位贡献者 · 📝 30 天 75 次提交 · JavaScript · MIT · 创建 243 天
 
-> Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.
+> Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages
+
+<sub>来源：AI Agent、Agent Skill</sub>
+
+### [stablyai/orca](https://github.com/stablyai/orca) · 97 分
+
+⭐ 99,673（+1481/天） · 🍴 6,318 · 👥 453 位贡献者 · 📝 30 天 3984 次提交 · TypeScript · MIT · 创建 217 天
+
+> Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.
+
+<sub>来源：AI Agent</sub>
+
+### [getmaxun/maxun](https://github.com/getmaxun/maxun) · 97 分
+
+⭐ 17,962（+43/天） · 🍴 1,555 · 👥 57 位贡献者 · 📝 30 天 95 次提交 · TypeScript · AGPL-3.0 · 创建 1093 天
+
+> Turn any website into a structured API. Extract, automate, search and monitor the web.
+
+<sub>来源：自部署</sub>
+
+### [farion1231/cc-switch](https://github.com/farion1231/cc-switch) · 97 分
+
+⭐ 146,793（+455/天） · 🍴 9,692 · 👥 291 位贡献者 · 📝 30 天 681 次提交 · Rust · MIT · 创建 442 天
+
+> A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io
 
 <sub>来源：MCP</sub>
 
