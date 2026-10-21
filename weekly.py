@@ -527,13 +527,20 @@ def ensure_archive(path, dry_run):
 KIT = ROOT / "weekly" / "项目文件"
 
 
+HANDBOOK_HEAD = "# 抖音长文写作手册\n\n这份手册依次是写作说明、风格材料和连载档案。本周素材我会另外上传。"
+
+
 def write_kit(src, archive):
-    """装进 Claude / ChatGPT 项目用的三份文件：写作说明贴进项目说明，风格材料和连载档案作为项目文件上传。"""
+    """装进 Claude / ChatGPT 项目用的文件：写作说明贴进项目说明，风格材料和连载档案作为项目文件上传。
+    写作手册.md 是三样合在一起的版本，方便整份交给 AI。"""
     KIT.mkdir(parents=True, exist_ok=True)
+    parts = [HANDBOOK_HEAD]
     for name, path in (("写作说明.md", ROOT / "weekly_guide.md"),
                        ("风格材料.md", resolve(src.get("style", "weekly_style.md"))),
                        ("连载档案.md", archive)):
-        (KIT / name).write_text(read_part(path) + "\n", encoding="utf-8")
+        parts.append(read_part(path))
+        (KIT / name).write_text(parts[-1] + "\n", encoding="utf-8")
+    (KIT / "写作手册.md").write_text("\n\n---\n\n".join(parts) + "\n", encoding="utf-8")
     return KIT
 
 
@@ -749,7 +756,7 @@ def main():
     archive = ensure_archive(resolve(src.get("archive", "weekly/连载档案.md")), args.dry_run)
     if args.cmd == "kit":
         print(f"[完成] 项目文件在 {write_kit(src, archive)}：写作说明.md 贴进项目说明，"
-              "风格材料.md 和连载档案.md 作为项目文件上传", file=sys.stderr)
+              "风格材料.md 和连载档案.md 作为项目文件上传；写作手册.md 是三样合在一起的版本", file=sys.stderr)
         return
 
     until_d = args.until or date.today()
