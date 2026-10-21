@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """每周素材包：把这一周跟 AI 的对话记录、随手记和代码提交收在一起，整理成一个给 AI 读的文件，用来写抖音长文。
 
-收集、去重、压缩全部由代码完成，不调用任何模型。生成的文件最前面是写作说明（weekly_guide.md），
-直接发给 ChatGPT / Claude，就能拿到本周回顾、选题和初稿。配置在 weekly.toml。只依赖 Python 3.11+ 标准库。
+收集、去重、压缩全部由代码完成，不调用任何模型。生成的文件依次是写作说明（weekly_guide.md）、
+风格材料（weekly_style.md）、连载档案（weekly/连载档案.md）和本周素材，直接发给 ChatGPT / Claude：
+第一轮整理事实、提确认问题，确认后第二轮写初稿。配置在 weekly.toml。只依赖 Python 3.11+ 标准库。
 
 用法：
     python3 weekly.py                                  # 打包最近 7 天，写到 weekly/out/日期.md
@@ -500,13 +501,25 @@ def load_commits(folders, since, until, author):
 
 # ---------------------------------------------------------------- 生成素材
 
-def read_guide():
-    """写作说明放在素材最前面；开头给人看的引用说明去掉。"""
-    path = ROOT / "weekly_guide.md"
-    if not path.exists():
+def read_part(path):
+    """写作说明、风格材料、连载档案都放在素材前面；以「>」开头的给人看的说明去掉。"""
+    if not path.is_file():
         return ""
-    lines = path.read_text(encoding="utf-8").splitlines()
+    lines = read_text(path).splitlines()
     return re.sub(r"\n{3,}", "\n\n", "\n".join(line for line in lines if not line.startswith(">"))).strip()
+
+
+def ensure_archive(path, dry_run):
+    """连载档案第一次用时从模板复制一份，之后由我每篇定稿时更新。"""
+    template = ROOT / "weekly_archive_template.md"
+    if path.is_file():
+        return path
+    if dry_run or not template.is_file():
+        return template
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(read_text(template), encoding="utf-8")
+    print(f"[新建] 连载档案：{path}（先把里面的【待填】和「待确认」改掉，以后每篇定稿后更新）", file=sys.stderr)
+    return path
 
 
 def words(pairs):
@@ -668,7 +681,7 @@ def render(since_d, until_d, convs, notes, commits, texts, images, level, folded
                   "> 我一起上传了的话你能看到图片；没上传就只有文件名和时间。写初稿时可以按文件名建议哪里配哪张图。", ""]
         lines += [f"- {day_label(i['time'].date())} {i['time']:%H:%M} {i['name']}" for i in images]
 
-    lines += ["", "---", "", "（素材到这里结束。请按最前面写作说明里的格式输出。）"]
+    lines += ["", "---", "", "（素材到这里结束。请按最前面写作说明的第 4 节，先做第一轮，然后停下来等我确认。）"]
     return re.sub(r"\n{3,}", "\n\n", "\n".join(lines)).strip() + "\n"
 
 
@@ -750,8 +763,11 @@ def main():
 
     budget = cfg.get("max_chars", 40000)
     material, level, folded = fit(budget, since_d, until_d, convs, notes, commits, texts, images)
-    guide = read_guide()
-    doc = f"{guide}\n\n---\n\n{material}" if guide else material
+    parts = [read_part(ROOT / "weekly_guide.md"),
+             read_part(resolve(src.get("style", "weekly_style.md"))),
+             read_part(ensure_archive(resolve(src.get("archive", "weekly/连载档案.md")), args.dry_run)),
+             material]
+    doc = "\n\n---\n\n".join(part for part in parts if part)
     squeezed = "、".join(([f"压缩到第 {level + 1}/{len(LEVELS)} 档"] if level else [])
                         + ([f"{folded} 个小对话折叠成了一行"] if folded else [])
                         + ([f"还是比 max_chars 多了 {len(material) - budget:,} 字，可以少打包几天"]
@@ -766,7 +782,7 @@ def main():
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(doc, encoding="utf-8")
     print(f"[完成] 素材 {len(material):,} 字{'（' + squeezed + '）' if squeezed else ''}，写到了 {out}", file=sys.stderr)
-    print("下一步：把这个文件拖进 ChatGPT 或 Claude 的对话框，说一句「按文件开头的说明来」。", file=sys.stderr)
+    print("下一步：把这个文件拖进 ChatGPT 或 Claude 的对话框，说一句「按开头的写作说明，先做第一轮」。", file=sys.stderr)
 
 
 if __name__ == "__main__":

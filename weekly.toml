@@ -2,13 +2,15 @@
 # 路径可以用 ~ 表示你的用户目录；写相对路径时，从这个仓库的文件夹算起。
 
 days = 7            # 默认打包最近几天（包括今天）
-max_chars = 40000   # 素材最多多少字（不算写作说明）。超了会自动压缩：先缩短 AI 的回答，再缩短我的消息，最后把小对话折叠成一行
+max_chars = 40000   # 素材最多多少字（不算写作说明、风格材料和连载档案）。超了会自动压缩：先缩短 AI 的回答，再缩短我的消息，最后把小对话折叠成一行
                     # 中文大约 1 个字 1 个 token。用的 AI 一次读不完，就把这个数调小
 
 # ---------------------------------------------------------------- 1. 从哪里收集
 [sources]
 inbox = "weekly/inbox"               # 放 ChatGPT / Claude / DeepSeek 的导出（zip 或 json）、复制下来的聊天记录（txt / md）
 notes = "weekly/notes.md"            # 随手记，用 python3 weekly.py note "内容" 添加
+style = "weekly_style.md"            # 风格材料：只学结构、节奏和用词，不提供本周经历
+archive = "weekly/连载档案.md"        # 连载档案：第一次打包时从 weekly_archive_template.md 复制一份，以后每篇定稿后更新
 claude_code = "~/.claude/projects"   # Claude Code 的本地记录，自动读取；没用过就自动跳过
 codex = "~/.codex/sessions"          # Codex CLI 的本地记录，同上
 
