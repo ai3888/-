@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """每周素材包：把这一周跟 AI 的对话记录、随手记和代码提交收在一起，整理成一个给 AI 读的文件，用来写抖音长文。
 
-收集、去重、压缩全部由代码完成，不调用任何模型。生成的文件依次是写作说明（weekly_guide.md）、
-风格材料（weekly_style.md）、连载档案（weekly/连载档案.md）和本周素材，直接发给 ChatGPT / Claude：
-第一轮整理事实、提确认问题，确认后第二轮写初稿。配置在 weekly.toml。只依赖 Python 3.11+ 标准库。
+收集、去重、压缩全部由代码完成，不调用任何模型。AI 要用四样材料：写作说明（weekly_guide.md）、
+风格材料（weekly_style.md）、连载档案（weekly/连载档案.md）和本周素材。前三样装进 Claude / ChatGPT 的项目，
+每周只上传本周素材；不用项目时，加 --bundle 打成一个文件。配置在 weekly.toml。只依赖 Python 3.11+ 标准库。
 
 用法：
-    python3 weekly.py                                  # 打包最近 7 天，写到 weekly/out/日期.md
+    python3 weekly.py kit                              # 生成装进项目用的三份文件，在 weekly/项目文件/
+    python3 weekly.py                                  # 打包最近 7 天，写到 weekly/out/本周素材-日期.md
+    python3 weekly.py --bundle                         # 四样材料打成一个文件，不用项目时用
     python3 weekly.py --days 14                        # 打包最近 14 天
     python3 weekly.py --since 2026-10-13 --until 2026-10-19
     python3 weekly.py --dry-run                        # 只打印，不写文件
@@ -522,6 +524,19 @@ def ensure_archive(path, dry_run):
     return path
 
 
+KIT = ROOT / "weekly" / "项目文件"
+
+
+def write_kit(src, archive):
+    """装进 Claude / ChatGPT 项目用的三份文件：写作说明贴进项目说明，风格材料和连载档案作为项目文件上传。"""
+    KIT.mkdir(parents=True, exist_ok=True)
+    for name, path in (("写作说明.md", ROOT / "weekly_guide.md"),
+                       ("风格材料.md", resolve(src.get("style", "weekly_style.md"))),
+                       ("连载档案.md", archive)):
+        (KIT / name).write_text(read_part(path) + "\n", encoding="utf-8")
+    return KIT
+
+
 def words(pairs):
     return "、".join(f"「{w}」×{n}" for w, n in pairs)
 
@@ -718,8 +733,10 @@ def main():
     ap.add_argument("--since", type=date.fromisoformat, help="从哪天开始，例如 2026-10-13")
     ap.add_argument("--until", type=date.fromisoformat, help="到哪天为止（包括这天），默认今天")
     ap.add_argument("--dry-run", action="store_true", help="只打印素材，不写文件")
+    ap.add_argument("--bundle", action="store_true", help="把写作说明、风格材料、连载档案和素材打成一个文件（不用项目时用）")
     sub = ap.add_subparsers(dest="cmd")
     sub.add_parser("note", help="记一条随手记").add_argument("text", nargs="*")
+    sub.add_parser("kit", help="生成装进 Claude / ChatGPT 项目用的三份文件")
     args = ap.parse_args()
 
     with open(args.config, "rb") as f:
@@ -728,6 +745,11 @@ def main():
     notes_path = resolve(src.get("notes", "weekly/notes.md"))
     if args.cmd == "note":
         add_note(notes_path, " ".join(args.text))
+        return
+    archive = ensure_archive(resolve(src.get("archive", "weekly/连载档案.md")), args.dry_run)
+    if args.cmd == "kit":
+        print(f"[完成] 项目文件在 {write_kit(src, archive)}：写作说明.md 贴进项目说明，"
+              "风格材料.md 和连载档案.md 作为项目文件上传", file=sys.stderr)
         return
 
     until_d = args.until or date.today()
@@ -763,11 +785,11 @@ def main():
 
     budget = cfg.get("max_chars", 40000)
     material, level, folded = fit(budget, since_d, until_d, convs, notes, commits, texts, images)
-    parts = [read_part(ROOT / "weekly_guide.md"),
-             read_part(resolve(src.get("style", "weekly_style.md"))),
-             read_part(ensure_archive(resolve(src.get("archive", "weekly/连载档案.md")), args.dry_run)),
-             material]
-    doc = "\n\n---\n\n".join(part for part in parts if part)
+    doc = material
+    if args.bundle:
+        parts = [read_part(ROOT / "weekly_guide.md"), read_part(resolve(src.get("style", "weekly_style.md"))),
+                 read_part(archive), material]
+        doc = "\n\n---\n\n".join(part for part in parts if part)
     squeezed = "、".join(([f"压缩到第 {level + 1}/{len(LEVELS)} 档"] if level else [])
                         + ([f"{folded} 个小对话折叠成了一行"] if folded else [])
                         + ([f"还是比 max_chars 多了 {len(material) - budget:,} 字，可以少打包几天"]
@@ -778,11 +800,16 @@ def main():
         print(f"[素材] {len(material):,} 字{'（' + squeezed + '）' if squeezed else ''}", file=sys.stderr)
         return
 
-    out = ROOT / "weekly" / "out" / f"{until_d}.md"
+    out = ROOT / "weekly" / "out" / f"{'素材包' if args.bundle else '本周素材'}-{until_d}.md"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(doc, encoding="utf-8")
     print(f"[完成] 素材 {len(material):,} 字{'（' + squeezed + '）' if squeezed else ''}，写到了 {out}", file=sys.stderr)
-    print("下一步：把这个文件拖进 ChatGPT 或 Claude 的对话框，说一句「按开头的写作说明，先做第一轮」。", file=sys.stderr)
+    if args.bundle:
+        print("下一步：把这个文件拖进 ChatGPT 或 Claude 的对话框，说一句「按开头的写作说明，先做第一轮」。", file=sys.stderr)
+    else:
+        print(f"下一步：在 Claude 或 ChatGPT 的项目里开一个新对话，上传这个文件，说一句「开始第一轮」。\n"
+              f"项目文件已同步到 {write_kit(src, archive)}；写作说明、风格材料或连载档案改过的话，记得在项目里换成新版。",
+              file=sys.stderr)
 
 
 if __name__ == "__main__":
