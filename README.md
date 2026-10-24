@@ -78,6 +78,12 @@ Accept: application/vnd.github.raw
 - 改了来源后，GitHub 会自动跑一次「AI 资讯雷达 · 接入检查」，在运行页面的 Summary 里列出每个来源能不能用
 - 可选：仓库 Secrets 里加 `GEMINI_API_KEY`，接入检查会顺便测试 Gemini 能不能看油管视频（目前部分 Google 账号的项目会被拒绝访问）
 
+## 第二大脑（AI 聊天记忆库）
+
+把你和 ChatGPT、Claude 等 AI 的聊天记录存成自己的记忆库，按主题整理成分支，再写一份「关于我」。换一个 AI 或接新的 API 时，让它先读记忆库的 `index.md`，不用从头解释。
+
+记忆库里是私人聊天，只能放私有仓库。这个仓库是公开的，所以 [`second-brain/`](second-brain/) 里只有代码，用法见 [`second-brain/README.md`](second-brain/README.md)。
+
 ## 在自己电脑上运行
 
 需要 Python 3.11 或更高版本，不用安装任何依赖：

@@ -1,2 +1,7 @@
 __pycache__/
 data/news/raw/
+
+# 第二大脑的聊天记录是隐私。这个仓库是公开的，只放代码，记忆库要放私有仓库（见 second-brain/README.md）
+second-brain/memory/
+second-brain/inbox/*
+!second-brain/inbox/.gitkeep

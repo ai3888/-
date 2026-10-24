@@ -1,0 +1,60 @@
+name: 第二大脑
+
+# 往 inbox/ 上传聊天导出文件后自动导入、整理，结果提交到 memory/。
+# 每天再跑一次，把上次没整理完的接着整理；也可以在 Actions 页面手动运行。
+on:
+  push:
+    paths: ["inbox/**"]
+  schedule:
+    - cron: "13 20 * * *"   # 每天 UTC 20:13，即北京时间 04:13
+  workflow_dispatch:
+
+permissions:
+  contents: write   # 提交记忆库
+
+concurrency:
+  group: memory
+
+jobs:
+  memory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: 确认仓库是私有的
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "$(gh api "repos/${GITHUB_REPOSITORY}" --jq .private)" != "true" ]; then
+            echo "::error::这个仓库是公开的，聊天记录会被所有人看到。请先改成私有：Settings → General → Danger Zone → Change visibility"
+            exit 1
+          fi
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 导入 inbox 里的聊天记录
+        run: python memory.py import inbox --consume
+
+      - name: 整理
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: ${{ vars.OPENAI_BASE_URL }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+        run: python memory.py organize
+
+      - name: 提交
+        if: ${{ !cancelled() }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A inbox memory
+          if git diff --cached --quiet; then
+            echo "没有变化"
+            exit 0
+          fi
+          git commit -m "memory: $(TZ=Asia/Shanghai date '+%F %H:%M') 更新记忆库"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
