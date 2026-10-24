@@ -1,6 +1,6 @@
 # 第二大脑
 
-把你和各个 AI 的聊天记录存成一个属于自己的记忆库：每段对话都存下来，按主题整理成分支，再写一份「关于我」。换一个 AI、或者用 API 接新模型时，先让它读 `memory/index.md`，它就知道你是谁、聊过什么，不用你从头解释。
+把你和各个 AI 的聊天记录、还有你的资料，存成一个属于自己的记忆库：每段对话都存下来，按主题整理成分支，再写一份「关于我」；PDF、图片、文档这些文件原样保管。换一个 AI、或者用 API 接新模型时，先让它读 `memory/index.md`，它就知道你是谁、聊过什么，不用你从头解释。
 
 记忆库就是一堆 Markdown 文件，不绑定任何一家 AI，谁都能读。
 
@@ -14,10 +14,11 @@
 ## 怎么运作
 
 ```
-inbox/                    ← 你放进来的导出文件
+inbox/                    ← 你放进来的导出文件和资料
   │  python memory.py import inbox
   ▼
 memory/conversations/     每段对话一个 Markdown（原文，按来源和月份分文件夹）
+memory/files/             其他文件原样存放（PDF、图片、文档……），按月份分文件夹
   │  python memory.py organize   GPT 给每段对话写一句话摘要和要点、归到分支、记下关于你的信息
   ▼
 memory/index.md           入口：给 AI 的说明 + 关于我 + 所有分支（每个附一句话）
@@ -42,6 +43,8 @@ AI 读的时候一层层往下：先读 `index.md`（几千字），需要细节
    | Claude | Settings → Privacy → Export data，邮件里下载 zip | zip，或者里面的 `conversations.json` |
    | 自己用 API 聊的 | 存成 OpenAI 消息格式（见下方） | `.json` 或 `.jsonl` |
    | 其他 AI（DeepSeek、Kimi、豆包……） | 把对话复制下来 | 一段对话一个 `.md` 或 `.txt`，第一行 `# 标题` |
+   | 笔记 | 直接写 | `.md` 或 `.txt`，和对话一样会被整理进分支 |
+   | 其他资料（PDF、图片、Word、Excel……） | 直接上传 | 原样存进 `memory/files/`，在 `index.md` 里列出来，但不会读里面的内容 |
 
 4. **上传**：打开新仓库的 `inbox` 文件夹 → Add file → Upload files。网页上传单个文件最大 25MB，导出的 zip 太大时，解压后只把 `conversations.json` 重新压缩成 zip 再传（纯文字压缩后会小很多）
 5. **等几分钟**：Actions 自动导入、整理，原文件删掉，结果提交到 `memory/`。第一次对话多的话，每次最多整理 300 段，剩下的每天凌晨接着整理，也可以在 Actions 页面手动点 Run workflow
@@ -98,4 +101,5 @@ python3 memory.py context 投资 美股 > 给AI的背景.txt
 - 整理时，对话内容会发给你配置的模型服务。不想发出去就不配置 key，只存原文。
 - ChatGPT、Claude 的网页版和 App 没有提供读取聊天记录的接口，没法每聊一句就自动存进来，目前只能定期导出。
 - 分支的大类在 `memory.toml` 的 `suggested_branches` 里改。改完想把所有对话重新归类：`python memory.py organize --redo`。
-- 认不出来的导出文件会在运行日志里提示，原文件留在 `inbox/` 不删。
+- 认不出来是聊天记录的文件都当资料存进 `memory/files/`，内容一样的只存一份。GitHub 不收超过 100MB 的文件，大的视频、安装包别往这里放。
+- 整理时只记你自己说的或明确认可的事，AI 的建议不会记成「关于我」；还没采纳的建议在要点里标「AI 建议：」。
