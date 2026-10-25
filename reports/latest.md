@@ -1,130 +1,130 @@
-# GitHub 项目雷达 · 2026-10-25
+# GitHub 项目雷达 · 2026-10-26
 
-> 搜到 622 个候选 → 过滤后 394 个 → 详细检查 40 个 → 入选 15 个
+> 搜到 622 个候选 → 过滤后 383 个 → 详细检查 40 个 → 入选 15 个
 
 ## 🚀 潜力股（新项目、涨得快）
 
-### [dataelement/dsh-desktop](https://github.com/dataelement/dsh-desktop) · 95 分
+### [ly05010419/MacNativeGames](https://github.com/ly05010419/MacNativeGames) · 95 分
 
-⭐ 16,777（+264/天） · 🍴 556 · 👥 27 位贡献者 · 📝 30 天 193 次提交 · JavaScript · MIT · 创建 72 天
+⭐ 5,453（+681.6/天，平均） · 🍴 791 · 👥 66 位贡献者 · 📝 30 天 696 次提交 · C · MIT · 创建 8 天
 
-> DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版
+> Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.
 
 <sub>来源：近 90 天新项目</sub>
 
-### [lexmount/moli](https://github.com/lexmount/moli) · 94 分
+### [Human-Agent-Society/reef](https://github.com/Human-Agent-Society/reef) · 94 分
 
-⭐ 20,487（+174/天） · 🍴 548 · 👥 24 位贡献者 · 📝 30 天 1173 次提交 · Rust · Apache-2.0 · 创建 75 天
+⭐ 7,725（+30/天） · 🍴 724 · 👥 42 位贡献者 · 📝 30 天 186 次提交 · Python · Apache-2.0 · 创建 55 天
 
-> Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust
+> Infrastructure for continually self‑improving agents
 
-<sub>来源：近 90 天新项目、AI Agent</sub>
+<sub>来源：近 90 天新项目</sub>
 
-### [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) · 92 分
+### [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) · 94 分
 
-⭐ 6,624（+501/天） · 🍴 739 · 👥 2 位贡献者 · 📝 30 天 51 次提交 · JavaScript · MIT · 创建 28 天
+⭐ 68,971（+334/天） · 🍴 5,972 · 👥 21 位贡献者 · 📝 30 天 234 次提交 · HTML · CC-BY-4.0 · 创建 48 天
 
-> A toolbox of film styles made in code for Claude Code: 59 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：59 种现成风格，也能做出你自己的
+> 高性价比人生指南: 长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。
+
+<sub>来源：近 90 天新项目</sub>
+
+### [ARahim3/DigUp](https://github.com/ARahim3/DigUp) · 91 分
+
+⭐ 5,775（+59/天） · 🍴 438 · 👥 12 位贡献者 · 📝 30 天 198 次提交 · Swift · MIT · 创建 17 天
+
+> Search your computer by what's in your files: photos, PDFs, documents, recordings, videos and code. On-device on Mac, Windows and Linux, built on Google DeepMind's EmbeddingGemma 2.
+
+<sub>来源：近 90 天新项目</sub>
+
+### [miqdadbadjuber/anti-slop](https://github.com/miqdadbadjuber/anti-slop) · 90 分
+
+⭐ 7,169（+94/天） · 🍴 487 · 👥 7 位贡献者 · 📝 30 天 21 次提交 · JavaScript · MIT · 创建 79 天
+
+> Rules for an AI coding agent to filter out generic AI-generated UI designs, text, and code.
 
 <sub>来源：近 90 天新项目、Agent Skill</sub>
 
-### [monid-ai/monid](https://github.com/monid-ai/monid) · 92 分
+### [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) · 90 分
 
-⭐ 6,441（+341/天） · 🍴 772 · 👥 11 位贡献者 · 📝 30 天 10 次提交 · TypeScript · MIT · 创建 59 天
+⭐ 8,951（+72/天） · 🍴 990 · 👥 136 位贡献者 · 📝 30 天 291 次提交 · Python · MIT · 创建 25 天
 
-> Monid - OpenRouter for agent tools. Join our community at https://discord.gg/rQzztcgJV8
+> Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.
 
-<sub>来源：近 90 天新项目、开发者工具</sub>
+<sub>来源：近 90 天新项目</sub>
 
 ## 👀 值得关注
 
-### [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) · 98 分
+### [liketrek/TREK](https://github.com/liketrek/TREK) · 99 分
 
-⭐ 47,561（+40/天） · 🍴 10,407 · 👥 193 位贡献者 · 📝 30 天 1184 次提交 · Python · MIT · 创建 1539 天
+⭐ 15,047（+130/天） · 🍴 1,299 · 👥 94 位贡献者 · 📝 30 天 1632 次提交 · TypeScript · AGPL-3.0 · 创建 220 天
 
-> Open-source personal AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent, multi-model, multi-channel. Lightweight, extensible, one-line install.
+> A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more.
 
-<sub>来源：LLM、AI Agent、MCP</sub>
+<sub>来源：自部署</sub>
 
-### [xerj-org/xerj](https://github.com/xerj-org/xerj) · 98 分
+### [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain) · 97 分
 
-⭐ 15,292（+131.8/天，平均） · 🍴 1,063 · 👥 79 位贡献者 · 📝 30 天 1411 次提交 · Rust · Apache-2.0 · 创建 116 天
+⭐ 4,910（+36/天） · 🍴 602 · 👥 52 位贡献者 · 📝 30 天 120 次提交 · Python · MIT · 创建 215 天
 
-> Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.
+> Persistent memory for Claude Code, Codex and 6 other AI agents, stored as plain markdown in your Obsidian vault. New: Crew, one shared logbook so Claude Code, Codex, Cursor and Grok Bot know what each other did. 48 commands: semantic search, self-rewriting notes, key-less research, scheduled agents.
+
+<sub>来源：Agent Skill</sub>
+
+### [CloakHQ/CloakBrowser](https://github.com/CloakHQ/CloakBrowser) · 94 分
+
+⭐ 32,492（+34/天） · 🍴 2,696 · 👥 24 位贡献者 · 📝 30 天 50 次提交 · Python · MIT · 创建 245 天
+
+> Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 50+ tests passed.
 
 <sub>来源：AI Agent</sub>
 
-### [iib0011/omni-tools](https://github.com/iib0011/omni-tools) · 98 分
+### [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) · 94 分
 
-⭐ 10,420（+53/天） · 🍴 735 · 👥 69 位贡献者 · 📝 30 天 79 次提交 · TypeScript · MIT · 创建 862 天
+⭐ 102,458（+729/天） · 🍴 9,077 · 👥 38 位贡献者 · 📝 30 天 68 次提交 · Python · MIT · 创建 243 天
 
-> Self-hosted collection of powerful web-based tools for everyday tasks. No ads, no tracking, just fast, accessible utilities right from your browser!
+> Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.
 
-<sub>来源：开发者工具、自部署</sub>
+<sub>来源：MCP</sub>
 
-### [upstash/context7](https://github.com/upstash/context7) · 96 分
+### [michael-denyer/pstack-claude](https://github.com/michael-denyer/pstack-claude) · 94 分
 
-⭐ 63,611（+60/天） · 🍴 3,134 · 👥 143 位贡献者 · 📝 30 天 106 次提交 · TypeScript · MIT · 创建 576 天
+⭐ 3,421（+46/天） · 🍴 319 · 👥 24 位贡献者 · 📝 30 天 164 次提交 · JavaScript · MIT · 创建 152 天
 
-> Context7 Platform -- Up-to-date docs for AI agents
+> Claude Code, Codex, Copilot, Pi, OpenCode, Muse, Gemini, and Prime Agent versions of Poteto's pstack. Rigorous agent workflows with Cursor primitives translated for other harnesses.
 
-<sub>来源：LLM、MCP</sub>
+<sub>来源：Agent Skill、Claude Skill</sub>
 
-### [Gaurav-Gosain/tuios](https://github.com/Gaurav-Gosain/tuios) · 96 分
+### [wanshuiyin/Auto-claude-code-research-in-sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) · 94 分
 
-⭐ 5,796（+139/天） · 🍴 271 · 👥 56 位贡献者 · 📝 30 天 2787 次提交 · Go · MIT · 创建 413 天
+⭐ 18,060（+53/天） · 🍴 1,491 · 👥 106 位贡献者 · 📝 30 天 80 次提交 · Python · MIT · 创建 229 天
 
-> A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent. Official only at tuios.dev and this repo. tuios has no X/Twitter account.
+> ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in — works with Claude Code, Codex, OpenClaw, or any LLM agent.
 
-<sub>来源：开发者工具</sub>
+<sub>来源：MCP</sub>
 
-### [comet-ml/opik](https://github.com/comet-ml/opik) · 95 分
+### [AgriciDaniel/claude-obsidian](https://github.com/AgriciDaniel/claude-obsidian) · 92 分
 
-⭐ 22,888（+34/天） · 🍴 1,892 · 👥 184 位贡献者 · 📝 30 天 536 次提交 · Python · Apache-2.0 · 创建 1263 天
+⭐ 15,815（+29/天） · 🍴 1,571 · 👥 11 位贡献者 · 📝 30 天 69 次提交 · Python · MIT · 创建 201 天
 
-> Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.
-
-<sub>来源：LLM</sub>
-
-### [Gentleman-Programming/gentle-ai](https://github.com/Gentleman-Programming/gentle-ai) · 95 分
-
-⭐ 7,992（+29/天） · 🍴 862 · 👥 95 位贡献者 · 📝 30 天 891 次提交 · Go · MIT · 创建 238 天
-
-> Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.
-
-<sub>来源：开发者工具、Agent Skill</sub>
-
-### [ahujasid/mcp-for-blender](https://github.com/ahujasid/mcp-for-blender) · 92 分
-
-⭐ 32,243（+101/天） · 🍴 2,920 · 👥 45 位贡献者 · 📝 30 天 32 次提交 · Python · MIT · 创建 596 天
-
-> Community plugin to control Blender 3D with any LLM of your choice. Not affiliated with the official Blender Foundation.
-
-<sub>来源：LLM、MCP</sub>
-
-### [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) · 92 分
-
-⭐ 60,719（+376/天） · 🍴 3,932 · 👥 62 位贡献者 · 📝 30 天 196 次提交 · HTML · MIT · 创建 191 天
-
-> Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.
+> Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.
 
 <sub>来源：Agent Skill</sub>
 
-### [tigerless-labs/autoharness](https://github.com/tigerless-labs/autoharness) · 92 分
+### [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) · 91 分
 
-⭐ 10,695（+58/天） · 🍴 620 · 👥 39 位贡献者 · 📝 30 天 171 次提交 · Python · MIT · 创建 137 天
+⭐ 33,112（+77/天） · 🍴 4,720 · 👥 46 位贡献者 · 📝 30 天 10 次提交 · C++ · NOASSERTION · 创建 787 天
 
-> Autoharness — a self-learning skill layer for Claude Code — distills skills from your real sessions, updates them as you work, and prunes the ones that stop getting used. No daemon, no benchmark.
+> FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.
 
-<sub>来源：Agent Skill</sub>
+<sub>来源：AI Agent</sub>
 
-### [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) · 91 分
+### [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) · 90 分
 
-⭐ 37,299（+69/天） · 🍴 5,460 · 👥 13 位贡献者 · 📝 30 天 7 次提交 · TypeScript · MIT · 创建 225 天
+⭐ 68,067（+91/天） · 🍴 6,772 · 👥 5 位贡献者 · 📝 30 天 290 次提交 · HTML · MIT · 创建 359 天
 
-> Clone any website with one command using AI coding agents
+> from vibe coding to agentic engineering - practice makes claude perfect
 
-<sub>来源：AI Agent、开发者工具</sub>
+<sub>来源：AI Agent</sub>
 
 ---
 
