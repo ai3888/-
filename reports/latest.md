@@ -1,130 +1,128 @@
-# GitHub 项目雷达 · 2026-10-26
+# GitHub 项目雷达 · 2026-10-27
 
-> 搜到 622 个候选 → 过滤后 383 个 → 详细检查 40 个 → 入选 15 个
-
-## 🚀 潜力股（新项目、涨得快）
-
-### [ly05010419/MacNativeGames](https://github.com/ly05010419/MacNativeGames) · 95 分
-
-⭐ 5,453（+681.6/天，平均） · 🍴 791 · 👥 66 位贡献者 · 📝 30 天 696 次提交 · C · MIT · 创建 8 天
-
-> Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.
-
-<sub>来源：近 90 天新项目</sub>
-
-### [Human-Agent-Society/reef](https://github.com/Human-Agent-Society/reef) · 94 分
-
-⭐ 7,725（+30/天） · 🍴 724 · 👥 42 位贡献者 · 📝 30 天 186 次提交 · Python · Apache-2.0 · 创建 55 天
-
-> Infrastructure for continually self‑improving agents
-
-<sub>来源：近 90 天新项目</sub>
-
-### [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) · 94 分
-
-⭐ 68,971（+334/天） · 🍴 5,972 · 👥 21 位贡献者 · 📝 30 天 234 次提交 · HTML · CC-BY-4.0 · 创建 48 天
-
-> 高性价比人生指南: 长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。
-
-<sub>来源：近 90 天新项目</sub>
-
-### [ARahim3/DigUp](https://github.com/ARahim3/DigUp) · 91 分
-
-⭐ 5,775（+59/天） · 🍴 438 · 👥 12 位贡献者 · 📝 30 天 198 次提交 · Swift · MIT · 创建 17 天
-
-> Search your computer by what's in your files: photos, PDFs, documents, recordings, videos and code. On-device on Mac, Windows and Linux, built on Google DeepMind's EmbeddingGemma 2.
-
-<sub>来源：近 90 天新项目</sub>
-
-### [miqdadbadjuber/anti-slop](https://github.com/miqdadbadjuber/anti-slop) · 90 分
-
-⭐ 7,169（+94/天） · 🍴 487 · 👥 7 位贡献者 · 📝 30 天 21 次提交 · JavaScript · MIT · 创建 79 天
-
-> Rules for an AI coding agent to filter out generic AI-generated UI designs, text, and code.
-
-<sub>来源：近 90 天新项目、Agent Skill</sub>
-
-### [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) · 90 分
-
-⭐ 8,951（+72/天） · 🍴 990 · 👥 136 位贡献者 · 📝 30 天 291 次提交 · Python · MIT · 创建 25 天
-
-> Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.
-
-<sub>来源：近 90 天新项目</sub>
+> 搜到 626 个候选 → 过滤后 376 个 → 详细检查 40 个 → 入选 15 个
 
 ## 👀 值得关注
 
-### [liketrek/TREK](https://github.com/liketrek/TREK) · 99 分
+### [ParadevAI/Paradev](https://github.com/ParadevAI/Paradev) · 97 分
 
-⭐ 15,047（+130/天） · 🍴 1,299 · 👥 94 位贡献者 · 📝 30 天 1632 次提交 · TypeScript · AGPL-3.0 · 创建 220 天
+⭐ 15,587（+42.1/天，平均） · 🍴 1,380 · 👥 136 位贡献者 · 📝 30 天 618 次提交 · TypeScript · NOASSERTION · 创建 370 天
 
-> A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more.
+> Paradev (formerly Superset) is an agentic IDE to orchestrate 100+ coding agents in parallel. Run any agent with your own subscription.
+
+<sub>来源：AI Agent、开发者工具</sub>
+
+### [karakeep-app/karakeep](https://github.com/karakeep-app/karakeep) · 96 分
+
+⭐ 30,043（+67/天） · 🍴 1,598 · 👥 205 位贡献者 · 📝 30 天 124 次提交 · TypeScript · AGPL-3.0 · 创建 993 天
+
+> A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search
 
 <sub>来源：自部署</sub>
 
-### [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain) · 97 分
+### [streamlit/streamlit](https://github.com/streamlit/streamlit) · 96 分
 
-⭐ 4,910（+36/天） · 🍴 602 · 👥 52 位贡献者 · 📝 30 天 120 次提交 · Python · MIT · 创建 215 天
+⭐ 46,143（+33/天） · 🍴 4,433 · 👥 338 位贡献者 · 📝 30 天 383 次提交 · Python · Apache-2.0 · 创建 2620 天
 
-> Persistent memory for Claude Code, Codex and 6 other AI agents, stored as plain markdown in your Obsidian vault. New: Crew, one shared logbook so Claude Code, Codex, Cursor and Grok Bot know what each other did. 48 commands: semantic search, self-rewriting notes, key-less research, scheduled agents.
+> Streamlit — A faster way to build and share data apps.
 
-<sub>来源：Agent Skill</sub>
+<sub>来源：开发者工具</sub>
 
-### [CloakHQ/CloakBrowser](https://github.com/CloakHQ/CloakBrowser) · 94 分
+### [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) · 95 分
 
-⭐ 32,492（+34/天） · 🍴 2,696 · 👥 24 位贡献者 · 📝 30 天 50 次提交 · Python · MIT · 创建 245 天
+⭐ 70,366（+36/天） · 🍴 5,798 · 👥 369 位贡献者 · 📝 30 天 7835 次提交 · TypeScript · NOASSERTION · 创建 327 天
 
-> Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 50+ tests passed.
+> OmO: Just type "mass ulw" keyword with your prompt. Now you are the master of graph engineering.
 
-<sub>来源：AI Agent</sub>
+<sub>来源：AI Agent、Claude Skill</sub>
 
-### [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) · 94 分
+### [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) · 95 分
 
-⭐ 102,458（+729/天） · 🍴 9,077 · 👥 38 位贡献者 · 📝 30 天 68 次提交 · Python · MIT · 创建 243 天
+⭐ 187,779（+30/天） · 🍴 45,902 · 👥 867 位贡献者 · 📝 30 天 588 次提交 · Python · NOASSERTION · 创建 1320 天
 
-> Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.
+> AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
 
-<sub>来源：MCP</sub>
+<sub>来源：LLM</sub>
 
-### [michael-denyer/pstack-claude](https://github.com/michael-denyer/pstack-claude) · 94 分
+### [superdesigndev/treg](https://github.com/superdesigndev/treg) · 94 分
 
-⭐ 3,421（+46/天） · 🍴 319 · 👥 24 位贡献者 · 📝 30 天 164 次提交 · JavaScript · MIT · 创建 152 天
+⭐ 6,233（+181/天） · 🍴 531 · 👥 22 位贡献者 · 📝 30 天 1267 次提交 · Python · NOASSERTION · 创建 103 天
 
-> Claude Code, Codex, Copilot, Pi, OpenCode, Muse, Gemini, and Prime Agent versions of Poteto's pstack. Rigorous agent workflows with Cursor primitives translated for other harnesses.
+> OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn
+
+<sub>来源：开发者工具</sub>
+
+### [knadh/listmonk](https://github.com/knadh/listmonk) · 94 分
+
+⭐ 23,998（+28/天） · 🍴 2,718 · 👥 291 位贡献者 · 📝 30 天 234 次提交 · Go · AGPL-3.0 · 创建 2679 天
+
+> High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.
+
+<sub>来源：自部署</sub>
+
+### [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) · 94 分
+
+⭐ 27,676（+32/天） · 🍴 2,302 · 👥 67 位贡献者 · 📝 30 天 53 次提交 · Python · MIT · 创建 296 天
+
+> Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Install from npm, the Claude Code plugin marketplace, or npx skills. Codex, Cursor, OpenCode, 60+ agents.
 
 <sub>来源：Agent Skill、Claude Skill</sub>
 
-### [wanshuiyin/Auto-claude-code-research-in-sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) · 94 分
+### [dreammis/social-auto-upload](https://github.com/dreammis/social-auto-upload) · 93 分
 
-⭐ 18,060（+53/天） · 🍴 1,491 · 👥 106 位贡献者 · 📝 30 天 80 次提交 · Python · MIT · 创建 229 天
+⭐ 15,829（+37/天） · 🍴 2,682 · 👥 42 位贡献者 · 📝 30 天 16 次提交 · Python · MIT · 创建 1057 天
 
-> ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in — works with Claude Code, Codex, OpenClaw, or any LLM agent.
-
-<sub>来源：MCP</sub>
-
-### [AgriciDaniel/claude-obsidian](https://github.com/AgriciDaniel/claude-obsidian) · 92 分
-
-⭐ 15,815（+29/天） · 🍴 1,571 · 👥 11 位贡献者 · 📝 30 天 69 次提交 · Python · MIT · 创建 201 天
-
-> Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.
+> 自动化上传视频到社交媒体：抖音、小红书、视频号、tiktok、youtube、bilibili
 
 <sub>来源：Agent Skill</sub>
 
-### [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) · 91 分
+### [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt) · 93 分
 
-⭐ 33,112（+77/天） · 🍴 4,720 · 👥 46 位贡献者 · 📝 30 天 10 次提交 · C++ · NOASSERTION · 创建 787 天
+⭐ 18,705（+30/天） · 🍴 1,769 · 👥 80 位贡献者 · 📝 30 天 36 次提交 · Python · MIT · 创建 171 天
 
-> FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.
+> SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.
+
+<sub>来源：Agent Skill</sub>
+
+### [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) · 92 分
+
+⭐ 38,668（+42/天） · 🍴 3,320 · 👥 71 位贡献者 · 📝 30 天 11 次提交 · TypeScript · Apache-2.0 · 创建 584 天
+
+> Playwright MCP server
+
+<sub>来源：MCP</sub>
+
+### [BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban) · 90 分
+
+⭐ 28,471（+57.1/天，平均） · 🍴 3,042 · 👥 66 位贡献者 · 📝 30 天 2 次提交 · Rust · Apache-2.0 · 创建 499 天
+
+> Get 10X more out of Claude Code, Codex or any coding agent
 
 <sub>来源：AI Agent</sub>
 
-### [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) · 90 分
+### [citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) · 90 分
 
-⭐ 68,067（+91/天） · 🍴 6,772 · 👥 5 位贡献者 · 📝 30 天 290 次提交 · HTML · MIT · 创建 359 天
+⭐ 19,752（+293/天） · 🍴 1,098 · 👥 11 位贡献者 · 📝 30 天 18 次提交 · JavaScript · MIT · 创建 193 天
 
-> from vibe coding to agentic engineering - practice makes claude perfect
+> The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.
 
-<sub>来源：AI Agent</sub>
+<sub>来源：Agent Skill</sub>
+
+### [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) · 90 分
+
+⭐ 70,275（+73/天） · 🍴 11,382 · 👥 26 位贡献者 · 📝 30 天 91 次提交 · Python · CC0-1.0 · 创建 541 天
+
+> Documented system prompts from Anthropic - Claude Fable 5.1, Opus 5.5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.
+
+<sub>来源：LLM、AI Agent</sub>
+
+### [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) · 89 分
+
+⭐ 33,800（+40/天） · 🍴 3,506 · 👥 116 位贡献者 · 📝 30 天 3 次提交 · TypeScript · Apache-2.0 · 创建 445 天
+
+> Open-source 24/7 Cowork app for OpenClaw, Hermes, Claude Code, Codex, OpenCode and 20+ more CLI Agent | Customize your assistants | Team them up｜Star if you like it!
+
+<sub>来源：LLM</sub>
 
 ---
 
