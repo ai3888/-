@@ -41,8 +41,10 @@ AI 读的时候一层层往下：先读 `index.md`（几千字），需要细节
    |---|---|---|
    | ChatGPT | Settings → Data controls → Export data，邮件里下载 zip | zip，或者里面的 `conversations.json` |
    | Claude | Settings → Privacy → Export data，邮件里下载 zip | zip，或者里面的 `conversations.json` |
+   | DeepSeek | 网页版设置里导出全部对话 | zip，或者里面的 `conversations.json`（按开源项目 Conversation Export Workbench 的格式说明支持，还没用真实导出验证过，读不出来会提示） |
+   | Gemini、Grok、Qwen、Perplexity 等 | 装浏览器扩展 [AI Chat Exporter](https://github.com/Covai-Labs/ace)，打开对话导出 JSON | `.json`，一段对话一个文件；ChatGPT、Claude 的单段对话也能这样导，和官方导出的同一段会自动对上 |
    | 自己用 API 聊的 | 存成 OpenAI 消息格式（见下方） | `.json` 或 `.jsonl` |
-   | 其他 AI（DeepSeek、Kimi、豆包……） | 把对话复制下来 | 一段对话一个 `.md` 或 `.txt`，第一行 `# 标题` |
+   | Kimi、豆包等其他 AI | 把对话复制下来，或者把 `gpt-prompt.md` 贴给它，让它「存档」 | 一段对话一个 `.md` 或 `.txt`，第一行 `# 标题` |
    | 笔记 | 直接写 | `.md` 或 `.txt`，和对话一样会被整理进分支 |
    | 其他资料（PDF、图片、Word、Excel……） | 直接上传 | 原样存进 `memory/files/`，在 `index.md` 里列出来，但不会读里面的内容 |
 
@@ -109,7 +111,8 @@ python3 memory.py context 投资 美股 > 给AI的背景.txt
 ## 说明
 
 - 整理时，对话内容会发给你配置的模型服务。不想发出去就不配置 key，只存原文。
-- ChatGPT、Claude 的网页版和 App 没有提供读取聊天记录的接口，没法每聊一句就自动存进来，目前只能定期导出。
+- 各家 AI 的网页版和 App 都没有提供读取聊天记录的接口，没法每聊一句就自动存进来，目前只能定期导出，或者聊完说「存档」。
+- 认出是聊天记录、但一段对话都没读出来的文件（比如导出格式变了），也当资料存进 `memory/files/`，不会被删掉。
 - 分支的大类在 `memory.toml` 的 `suggested_branches` 里改。改完想把所有对话重新归类：`python memory.py organize --redo`。
 - 认不出来是聊天记录的文件都当资料存进 `memory/files/`，内容一样的只存一份。GitHub 不收超过 100MB 的文件，大的视频、安装包别往这里放。
 - 整理时只记你自己说的或明确认可的事，AI 的建议不会记成「关于我」；还没采纳的建议在要点里标「AI 建议：」。

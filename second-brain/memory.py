@@ -38,7 +38,8 @@ ROOT = Path(__file__).resolve().parent
 BJ = timezone(timedelta(hours=8))
 NOW = datetime.now(BJ)
 
-SOURCE_NAMES = {"chatgpt": "ChatGPT", "claude": "Claude", "api": "API", "manual": "手动添加", "card": "存档卡片"}
+SOURCE_NAMES = {"chatgpt": "ChatGPT", "claude": "Claude", "deepseek": "DeepSeek", "gemini": "Gemini", "grok": "Grok",
+                "qwen": "Qwen", "perplexity": "Perplexity", "api": "API", "manual": "手动添加", "card": "存档卡片"}
 PROFILE_SECTIONS = ["基本情况", "正在做的事", "常用工具", "偏好和习惯", "目标", "不喜欢 / 不要做的"]
 NETWORK_ERRORS = (urllib.error.URLError, TimeoutError, ConnectionError)
 MAX_FILE_MB = 95  # GitHub 不收超过 100MB 的文件
@@ -73,8 +74,8 @@ def conversation(source, cid, title, created, updated, msgs):
             "created": created, "updated": updated, "messages": msgs}
 
 
-def chatgpt_thread(conv):
-    """ChatGPT 的对话是一棵树（改过问题、重新生成都会分叉），取最后显示的那一支。"""
+def mapping_thread(conv):
+    """ChatGPT、DeepSeek 的对话是一棵树（改过问题、重新生成都会分叉），取最后显示的那一支。"""
     mapping = conv.get("mapping") or {}
     node, chain, seen = conv.get("current_node"), [], set()
     if node not in mapping:  # 没有 current_node：从根往下，每次走最新的分叉
@@ -93,8 +94,14 @@ def chatgpt_thread(conv):
     return chain[::-1]
 
 
-def chatgpt_message(node):
+def mapping_message(node):
     m = node.get("message") or {}
+    if m.get("fragments") is not None:  # DeepSeek：一条消息分成提问、回答、思考、搜索几段，只要提问和回答
+        roles = {"REQUEST": "user", "RESPONSE": "assistant"}
+        frags = [f for f in m["fragments"] if isinstance(f, dict) and f.get("type") in roles]
+        if not frags:
+            return None
+        return roles[frags[0]["type"]], "\n".join(str(f.get("content") or "") for f in frags), to_time(m.get("inserted_at"))
     role = (m.get("author") or {}).get("role")
     content = m.get("content") or {}
     if (role not in ("user", "assistant") or m.get("recipient", "all") != "all"
@@ -105,11 +112,27 @@ def chatgpt_message(node):
     return role, "\n".join(parts), to_time(m.get("create_time"))
 
 
-def parse_chatgpt(convs):
+def parse_mapping(convs):
+    """ChatGPT 和 DeepSeek 的官方导出。DeepSeek 的格式参考开源项目 Conversation Export Workbench 的说明。"""
     for c in convs:
-        msgs = [m for m in map(chatgpt_message, chatgpt_thread(c)) if m]
-        yield conversation("chatgpt", c.get("conversation_id") or c.get("id"), c.get("title"),
-                           c.get("create_time"), c.get("update_time"), msgs)
+        nodes = mapping_thread(c)
+        source = "deepseek" if any("fragments" in (n.get("message") or {}) for n in nodes) else "chatgpt"
+        msgs = [m for m in map(mapping_message, nodes) if m]
+        yield conversation(source, c.get("conversation_id") or c.get("id"), c.get("title"),
+                           c.get("create_time") or c.get("inserted_at"), c.get("update_time") or c.get("updated_at"), msgs)
+
+
+def parse_ace(convs):
+    """浏览器扩展 AI Chat Exporter（ACE）导出的 JSON，Gemini、Grok、Qwen 这类没有方便的官方导出的平台用它。
+    用对话网址的最后一段当 id，和官方导出的同一段对话能对上。"""
+    for c in convs:
+        src = c["source"]
+        platform = re.sub(r"\W+", "", str(src.get("platform") or "").lower()) or "ai"
+        url = str(src.get("url") or "").split("?")[0].rstrip("/")
+        msgs = [(m.get("role"), m.get("content"), to_time(m.get("timestamp")))
+                for m in c.get("messages") or [] if isinstance(m, dict) and m.get("role") in ("user", "assistant")]
+        yield conversation(platform, url.rsplit("/", 1)[-1] if url else None, src.get("title"),
+                           None, c.get("exportedAt"), msgs)
 
 
 def parse_claude(convs):
@@ -178,8 +201,10 @@ def parse_json(data):
     items = [x for x in (data if isinstance(data, list) else [data]) if isinstance(x, dict)]
     if not items:
         return None
+    if "schemaVersion" in items[0] and isinstance(items[0].get("source"), dict):
+        return parse_ace(items)
     if "mapping" in items[0]:
-        return parse_chatgpt(items)
+        return parse_mapping(items)
     if "chat_messages" in items[0]:
         return parse_claude(items)
     if "messages" in items[0]:
@@ -439,7 +464,9 @@ def cmd_import(args, cfg, store):
     added = changed = same = 0
     consumed = []
     for f, found in read_inputs(args.paths):
-        if found is None:  # 不是认得的聊天记录，当资料存起来
+        if found == []:
+            print(f"[导入] {f}：像是聊天记录，但一段对话都没读出来，可能导出格式变了，先当资料存起来")
+        if not found:  # 不是认得的聊天记录，当资料存起来
             if save_file(store, db, f):
                 consumed.append(f)
             continue
