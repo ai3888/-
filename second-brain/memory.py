@@ -56,7 +56,7 @@ def to_time(v):
             dt = datetime.fromtimestamp(v / 1000 if v > 1e11 else v, BJ)
         else:
             dt = datetime.fromisoformat(str(v))
-            dt = (dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)).astimezone(BJ)
+            dt = (dt if dt.tzinfo else dt.replace(tzinfo=BJ)).astimezone(BJ)  # 没写时区的（比如卡片里的日期）按北京时间
     except (ValueError, OverflowError, OSError):
         return ""
     return dt.strftime("%Y-%m-%d %H:%M")
