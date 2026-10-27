@@ -38,7 +38,7 @@ ROOT = Path(__file__).resolve().parent
 BJ = timezone(timedelta(hours=8))
 NOW = datetime.now(BJ)
 
-SOURCE_NAMES = {"chatgpt": "ChatGPT", "claude": "Claude", "api": "API", "manual": "手动添加"}
+SOURCE_NAMES = {"chatgpt": "ChatGPT", "claude": "Claude", "api": "API", "manual": "手动添加", "card": "存档卡片"}
 PROFILE_SECTIONS = ["基本情况", "正在做的事", "常用工具", "偏好和习惯", "目标", "不喜欢 / 不要做的"]
 NETWORK_ERRORS = (urllib.error.URLError, TimeoutError, ConnectionError)
 MAX_FILE_MB = 95  # GitHub 不收超过 100MB 的文件
@@ -144,11 +144,33 @@ def parse_messages(convs):
         yield conversation("api", c.get("id"), c.get("title"), c.get("created_at"), c.get("updated_at"), msgs)
 
 
+def parse_card(text):
+    """GPT 按 gpt-prompt.md 写的存档卡片，自带分支和摘要，已经整理好了。不是卡片返回 None。"""
+    head = text.split("\n## ", 1)[0]
+    meta = dict(re.findall(r"^[-*] (日期|分支|摘要)[：:]\s*(.+?)\s*$", head, re.M))
+    if not (meta.get("分支") and meta.get("摘要")):
+        return None
+    sections, current = {}, None
+    for line in text.splitlines():
+        line = line.strip()
+        if line.startswith("## "):
+            current = line[3:].strip()
+        elif current and line.startswith(("- ", "* ")):
+            sections.setdefault(current, []).append(line[2:])
+    return {"date": meta.get("日期"), "branch": meta["分支"], "summary": meta["摘要"],
+            "points": sections.get("要点", []), "facts": sections.get("关于我", [])}
+
+
 def parse_text(name, text):
     """一个 .md / .txt 文件算一段对话，用文件名当 id：改了内容用同一个文件名再导入，会更新原来那段。"""
     m = re.search(r"^#\s+(.+)$", text, re.M)
     stem = Path(name).stem
-    return conversation("manual", stem, m.group(1) if m else stem, None, None, [("note", text, "")])
+    card = parse_card(text)
+    c = conversation("card" if card else "manual", stem, m.group(1) if m else stem,
+                     card and card["date"], None, [("note", text, "")])
+    if card:
+        c["card"] = card
+    return c
 
 
 def parse_json(data):
@@ -278,9 +300,24 @@ def group_branches(convs):
     return by_branch
 
 
+def profile_view(db):
+    """合并好的「关于我」，加上还没合并的新信息。没配 key 时，存档卡片里「偏好和习惯：……」这样的信息按开头归类显示。"""
+    view = {s: list(db["profile"].get(s) or []) for s in PROFILE_SECTIONS}
+    view["其他"] = []
+    for f in sorted((f for f in db["facts"] if not f["in_profile"]), key=lambda f: f["date"], reverse=True):
+        prefix, sep, rest = f["fact"].partition("：")
+        prefix = prefix.strip()
+        section = next((s for s in PROFILE_SECTIONS if sep and len(prefix) >= 2 and s.startswith(prefix)), None)
+        text = rest.strip() if section else f["fact"]
+        target = view[section or "其他"]
+        if text and text not in target and len(target) < 20:
+            target.append(text)
+    return view
+
+
 def profile_lines(profile, level):
     lines = []
-    for s in PROFILE_SECTIONS:
+    for s in [*PROFILE_SECTIONS, "其他"]:
         if profile.get(s):
             lines += [f"{'#' * level} {s}", ""] + [f"- {x}" for x in profile[s]] + [""]
     return lines
@@ -313,7 +350,7 @@ def render_index(db, by_branch):
         f" · {len(by_branch)} 个分支", "",
         "## 关于我", "",
     ]
-    lines += profile_lines(db["profile"], 3) or ["（还没整理）", ""]
+    lines += profile_lines(profile_view(db), 3) or ["（还没整理）", ""]
 
     lines += ["## 分支", ""]
     tops = {}
@@ -322,7 +359,7 @@ def render_index(db, by_branch):
     for top, items in sorted(tops.items(), key=lambda kv: -sum(len(es) for _, es in kv[1])):
         lines += [f"### {top}（{sum(len(es) for _, es in items)} 段）", ""]
         for b, es in sorted(items, key=lambda x: -len(x[1])):
-            one_line = db["branches"].get(b, {}).get("one_line", "")
+            one_line = db["branches"].get(b, {}).get("one_line") or es[0].get("summary", "")
             lines.append(f"- {link(b, branch_file(b))}（{len(es)} 段，最近 {es[0]['updated'][:10]}）"
                          + (f"：{one_line}" if one_line else ""))
         lines.append("")
@@ -365,7 +402,7 @@ def render_all(store, db):
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(render_branch(b, es, db["branches"].get(b, {})), "utf-8")
     profile = ["# 关于我", "", f"根据聊天记录自动整理，更新于 {NOW:%Y-%m-%d}。", ""]
-    (store / "profile.md").write_text("\n".join(profile + (profile_lines(db["profile"], 2) or ["（还没整理）"])), "utf-8")
+    (store / "profile.md").write_text("\n".join(profile + (profile_lines(profile_view(db), 2) or ["（还没整理）"])), "utf-8")
     (store / "index.md").write_text(render_index(db, by_branch), "utf-8")
 
 
@@ -426,6 +463,8 @@ def cmd_import(args, cfg, store):
             entry.update(path=path, title=c["title"], source=c["source"], created=c["created"],
                          updated=c["updated"], messages=len(c["messages"]), hash=digest)
             convs[c["key"]] = entry
+            if c.get("card"):  # 存档卡片已经整理好了，直接归到分支，不用调用 GPT
+                apply_result(db, c["key"], c["card"], cfg, card=True)
         print(f"[导入] {f}：{len(found)} 段对话")
         consumed.append(f)
     save_db(store, db)
@@ -542,19 +581,20 @@ def summarize_branch(llm, cfg, branch, es, old):
     return llm.ask(BRANCH_PROMPT.format(language=cfg.get("language", "简体中文")), user)
 
 
-def apply_result(db, key, res, cfg):
-    """把一段对话的整理结果写进 db，返回受影响的分支（旧分支和新分支）。"""
+def apply_result(db, key, res, cfg, card=False):
+    """把一段对话的整理结果写进 db，返回受影响的分支（旧分支和新分支）。存档卡片可以写得长一些。"""
+    max_points, max_facts = (20, 50) if card else (5, 8)
     e = db["conversations"][key]
     old_branch = e.get("branch", "")
     e["skip"] = bool(res.get("skip"))
     e["branch"] = "" if e["skip"] else clean_branch(res.get("branch"), cfg.get("max_depth", 2))
     e["summary"] = str(res.get("summary") or "").strip()[:200]
-    e["points"] = as_list(res.get("points"), 5)
+    e["points"] = as_list(res.get("points"), max_points)
     e["organized_hash"] = e["hash"]
     # 同一段对话重新整理时，旧的「关于我」信息换成新的
     db["facts"] = [f for f in db["facts"] if f["key"] != key]
     db["facts"] += [{"fact": x, "date": e["updated"][:10], "key": key, "in_profile": False}
-                    for x in as_list(res.get("facts"), 8)]
+                    for x in as_list(res.get("facts"), max_facts)]
     return {old_branch, e["branch"]} - {""}
 
 
@@ -563,7 +603,8 @@ def cmd_organize(args, cfg, store):
     convs = db["conversations"]
     if args.redo:
         for e in convs.values():
-            e.pop("organized_hash", None)
+            if e["source"] != "card":  # 存档卡片的分支是 GPT 当场定的，不重新归类
+                e.pop("organized_hash", None)
     llm = LLM(cfg)
     if not llm.key:
         print("[整理] 没有设置 OPENAI_API_KEY，只存原文，不整理。")

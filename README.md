@@ -82,7 +82,7 @@ Accept: application/vnd.github.raw
 
 把你和 ChatGPT、Claude 等 AI 的聊天记录存成自己的记忆库，按主题整理成分支，再写一份「关于我」。换一个 AI 或接新的 API 时，让它先读记忆库的 `index.md`，不用从头解释。
 
-记忆库里是私人聊天，只能放私有仓库。这个仓库是公开的，所以 [`second-brain/`](second-brain/) 里只有代码，用法见 [`second-brain/README.md`](second-brain/README.md)。
+记忆库里是私人聊天，只能放私有仓库。这个仓库是公开的，所以 [`second-brain/`](second-brain/) 里只有代码，用法见 [`second-brain/README.md`](second-brain/README.md)。不用 API 的话，可以把 [`second-brain/gpt-prompt.md`](second-brain/gpt-prompt.md) 交给 ChatGPT，让它把对话整理成存档卡片。
 
 ## 在自己电脑上运行
 
