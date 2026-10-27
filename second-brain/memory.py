@@ -363,6 +363,12 @@ def render_branch(branch, es, info):
     return "\n".join(lines)
 
 
+def latest(db):
+    """最近一条记录的时间。不用当前时间，内容没变时重新生成的文件也不变，每天的定时运行不会多出空提交。"""
+    times = [e["updated"] for e in db["conversations"].values()] + [x["added"] for x in db["files"].values()]
+    return max(times, default="")
+
+
 def render_index(db, by_branch):
     convs = db["conversations"]
     sources = Counter(SOURCE_NAMES.get(e["source"], e["source"]) for e in convs.values())
@@ -371,7 +377,7 @@ def render_index(db, by_branch):
         "> **给 AI 的说明**：这是用户（正在和你对话的人）的个人记忆库，整理自 TA 和各个 AI 的聊天记录。",
         "> 先读这一页：「关于我」是用户的基本情况和偏好，「分支」是聊过的主题。需要细节时按链接读分支文件，分支里有每段对话的原文链接。",
         "> 直接用这些背景回答，不用让用户重新解释；记录可能过时，以用户现在说的为准。", "",
-        f"更新于 {NOW:%Y-%m-%d %H:%M} · {len(convs)} 段对话（{'、'.join(f'{k} {v}' for k, v in sources.most_common()) or '无'}）"
+        f"最近一条记录 {latest(db) or '无'} · {len(convs)} 段对话（{'、'.join(f'{k} {v}' for k, v in sources.most_common()) or '无'}）"
         f" · {len(by_branch)} 个分支", "",
         "## 关于我", "",
     ]
@@ -426,7 +432,7 @@ def render_all(store, db):
         path = store / branch_file(b)
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(render_branch(b, es, db["branches"].get(b, {})), "utf-8")
-    profile = ["# 关于我", "", f"根据聊天记录自动整理，更新于 {NOW:%Y-%m-%d}。", ""]
+    profile = ["# 关于我", "", f"根据聊天记录自动整理，最近一条记录 {latest(db)[:10] or '无'}。", ""]
     (store / "profile.md").write_text("\n".join(profile + (profile_lines(profile_view(db), 2) or ["（还没整理）"])), "utf-8")
     (store / "index.md").write_text(render_index(db, by_branch), "utf-8")
 
