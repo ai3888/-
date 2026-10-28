@@ -1,10 +1,10 @@
 name: 第二大脑
 
-# 往 inbox/ 上传聊天导出文件后自动导入、整理，结果提交到 memory/。
+# 往 inbox/ 上传聊天导出文件后自动导入、整理，结果提交到 memory/。改了分支设定（branches.toml）也会重新生成。
 # 每天再跑一次，把上次没整理完的接着整理；也可以在 Actions 页面手动运行。
 on:
   push:
-    paths: ["inbox/**"]
+    paths: ["inbox/**", "branches.toml", "memory.toml"]
   schedule:
     - cron: "13 20 * * *"   # 每天 UTC 20:13，即北京时间 04:13
   workflow_dispatch:
@@ -50,7 +50,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A inbox memory
+          git add -A inbox memory $(ls branches.toml 2>/dev/null)
           if git diff --cached --quiet; then
             echo "没有变化"
             exit 0

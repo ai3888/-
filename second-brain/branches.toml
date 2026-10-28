@@ -1,0 +1,17 @@
+# 预设分支。每个分支写一句说明（about）和平时的叫法（aliases）。
+# 卡片里写了别名，会自动归到正式名字下；改名时把旧名字写进 aliases，旧卡片会跟过去。
+# 想一次设定很多分支：对 GPT 说「列分支」，把它给的 branches.toml 上传到 inbox/ 就会替换这个文件。
+
+[[branches]]
+name = "关于我"
+about = "我的基本情况、偏好和习惯（也汇总在 index.md 的「关于我」）"
+
+[[branches]]
+name = "AI 工具/第二大脑"
+about = "把和各个 AI 的聊天、资料存进私有仓库 ai3888/memory，按主题整理"
+aliases = ["第二大脑", "记忆库", "memory"]
+
+[[branches]]
+name = "AI 工具/项目雷达"
+about = "公开仓库 ai3888/-：每天找潜力开源项目、生成 AI 日报素材"
+aliases = ["项目雷达", "AI 日报", "日报"]

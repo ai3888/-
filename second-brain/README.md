@@ -62,6 +62,23 @@ AI 读的时候一层层往下：先读 `index.md`（几千字），需要细节
 
 卡片已经整理好了，程序直接归到分支，不再调用 API。其他 AI（Claude、DeepSeek……）照着 `gpt-prompt.md` 写的卡片也一样能用。
 
+## 分支：提前定好，互不影响
+
+分支设定在 `branches.toml`，每个分支写一句说明和别的叫法：
+
+```toml
+[[branches]]
+name = "AI 工具/第二大脑"
+about = "把和各个 AI 的聊天、资料存进私有仓库，按主题整理"
+aliases = ["第二大脑", "记忆库"]
+```
+
+- 预设的分支没有内容也会列在 `index.md` 里，AI 一看就知道东西该归到哪
+- 卡片里写的是别名（「记忆库」「项目/第二大脑」），会自动归到正式名字下，不会分裂成好几个分支
+- 想改名：把旧名字写进新分支的 `aliases`，旧卡片会跟过去
+- 各分支互不影响：`index.md` 和 `gpt-prompt.md` 都写明了，聊哪个主题就以哪个分支为准，别的分支只能当参考并说明出处
+- 想一次设定很多分支：对 GPT 说「**列分支**」，它会按你的情况写一份 `branches.toml`，上传到 `inbox/` 就自动替换。格式不对的话不会替换，文件留在 `inbox/`，运行日志里会说明原因
+
 ## 让 AI 读你的记忆
 
 - **能调用网络 API 的**（GPTs 的 Action、Agent、自己写的程序）：建一个只读 token：GitHub 头像 → Settings → Developer settings → Fine-grained tokens → Generate new token，Repository access 只选这个私有仓库，Permissions 里 Contents 选 Read-only。然后：

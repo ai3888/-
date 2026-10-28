@@ -43,6 +43,7 @@ SOURCE_NAMES = {"chatgpt": "ChatGPT", "claude": "Claude", "deepseek": "DeepSeek"
 PROFILE_SECTIONS = ["基本情况", "正在做的事", "常用工具", "偏好和习惯", "目标", "不喜欢 / 不要做的"]
 NETWORK_ERRORS = (urllib.error.URLError, TimeoutError, ConnectionError)
 MAX_FILE_MB = 95  # GitHub 不收超过 100MB 的文件
+BRANCHES_FILE = "branches.toml"  # 预设分支，和 memory.toml 放在一起
 
 
 # ---------------------------------------------------------------- 读导出文件
@@ -230,8 +231,8 @@ def parse_blob(name, raw):
     return None if parsed is None else [c for c in parsed if c["messages"]]
 
 
-def read_inputs(paths):
-    """逐个文件读出对话，yield (文件, 对话列表或 None)。zip 会解开找里面的 json / jsonl / md / txt。"""
+def expand(paths):
+    """文件和文件夹展开成文件列表，跳过隐藏文件。"""
     files = []
     for p in map(Path, paths):
         if p.is_dir():
@@ -240,6 +241,11 @@ def read_inputs(paths):
             files.append(p)
         else:
             print(f"[导入] 找不到 {p}")
+    return files
+
+
+def read_inputs(files):
+    """逐个文件读出对话，yield (文件, 对话列表或 None)。zip 会解开找里面的 json / jsonl / md / txt。"""
     for f in files:
         if f.suffix.lower() != ".zip":
             yield f, parse_blob(f.name, f.read_bytes())
@@ -261,15 +267,19 @@ def read_inputs(paths):
 
 # ---------------------------------------------------------------- 记忆库文件
 
-def load_db(store):
+def load_db(store, cfg):
     d = store / "_data"
 
     def read(name, default):
         p = d / f"{name}.json"
         return json.loads(p.read_text("utf-8")) if p.exists() else default
 
-    return {"conversations": read("conversations", {}), "facts": read("facts", []),
-            "branches": read("branches", {}), "profile": read("profile", {}), "files": read("files", {})}
+    db = {"conversations": read("conversations", {}), "facts": read("facts", []),
+          "branches": read("branches", {}), "profile": read("profile", {}), "files": read("files", {})}
+    for e in db["conversations"].values():  # 预设分支改了名字、加了别名，旧记录跟着归过去
+        if e.get("branch"):
+            e["branch"] = resolve_branch(e["branch"], cfg)
+    return db
 
 
 def save_db(store, db):
@@ -294,6 +304,36 @@ def clean_branch(value, max_depth):
     segs = [re.sub(r'[\\:*?"<>|()\[\]{}#%\n\r\t]', "", s).strip().strip(".")[:30]
             for s in str(value or "").split("/")]
     return "/".join([s for s in segs if s][:max_depth]) or "未分类"
+
+
+def branch_key(name):
+    return re.sub(r"\s+", "", str(name)).lower()
+
+
+def preset_branches(cfg):
+    """branches.toml 里预设的分支：{正式名字: {"about": 这个分支放什么, "aliases": [别的叫法]}}。"""
+    presets = {}
+    for b in cfg.get("branches") or []:
+        if isinstance(b, dict) and b.get("name"):
+            presets[clean_branch(b["name"], cfg.get("max_depth", 2))] = {
+                "about": str(b.get("about") or "").strip(),
+                "aliases": [str(a).strip() for a in b.get("aliases") or [] if str(a).strip()]}
+    return presets
+
+
+def resolve_branch(value, cfg):
+    """清理分支名，再换成预设分支的正式名字：写成「记忆库」「AI工具/第二大脑」「项目/第二大脑」都归到「AI 工具/第二大脑」。
+    先比完整名字和别名，再比最后一段；最后一段对得上好几个预设分支时不换，免得归错。"""
+    branch = clean_branch(value, cfg.get("max_depth", 2))
+    full, tail = {}, {}
+    for name, p in preset_branches(cfg).items():
+        for alias in [name, *p["aliases"]]:
+            full.setdefault(branch_key(alias), name)
+            tail.setdefault(branch_key(alias.split("/")[-1]), set()).add(name)
+    if branch_key(branch) in full:
+        return full[branch_key(branch)]
+    hits = tail.get(branch_key(branch.split("/")[-1]), set())
+    return next(iter(hits)) if len(hits) == 1 else branch
 
 
 def as_list(value, limit):
@@ -348,12 +388,20 @@ def profile_lines(profile, level):
     return lines
 
 
-def render_branch(branch, es, info):
+def render_branch(branch, es, info, preset):
     up = "../" * (branch.count("/") + 1)
-    lines = [f"# {branch}", "", f"{link('← 回到索引', up + 'index.md')} · {len(es)} 段对话 · 最近 {es[0]['updated'][:10]}", ""]
+    stats = f"{len(es)} 段对话 · 最近 {es[0]['updated'][:10]}" if es else "还没有内容"
+    lines = [f"# {branch}", "", f"{link('← 回到索引', up + 'index.md')} · {stats}", ""]
+    if preset.get("about"):
+        lines.append(f"> 这个分支放：{preset['about']}")
+    if preset.get("aliases"):
+        lines.append(f"> 也叫：{'、'.join(preset['aliases'])}")
+    if preset:
+        lines.append("")
     if info.get("summary"):
         lines += [info["summary"], ""]
-    lines += ["## 对话（新的在前）", ""]
+    if es:
+        lines += ["## 对话（新的在前）", ""]
     for e in es:
         lines += [f"### {e['updated'][:10]} · {link(e['title'], up + e['path'])}", ""]
         if e.get("summary"):
@@ -369,8 +417,10 @@ def latest(db):
     return max(times, default="")
 
 
-def render_index(db, by_branch):
+def render_index(db, by_branch, cfg):
     convs = db["conversations"]
+    presets = preset_branches(cfg)
+    names = list(dict.fromkeys([*presets, *by_branch]))  # 预设的分支没有内容也列出来
     sources = Counter(SOURCE_NAMES.get(e["source"], e["source"]) for e in convs.values())
     lines = [
         "# 我的第二大脑", "",
@@ -378,23 +428,32 @@ def render_index(db, by_branch):
         "> 先读这一页：「关于我」是用户的基本情况和偏好，「分支」是聊过的主题。需要细节时按链接读分支文件，分支里有每段对话的原文链接。",
         "> 直接用这些背景回答，不用让用户重新解释；记录可能过时，以用户现在说的为准。", "",
         f"最近一条记录 {latest(db) or '无'} · {len(convs)} 段对话（{'、'.join(f'{k} {v}' for k, v in sources.most_common()) or '无'}）"
-        f" · {len(by_branch)} 个分支", "",
+        f" · {len(names)} 个分支", "",
         "## 关于我", "",
     ]
     lines += profile_lines(profile_view(db), 3) or ["（还没整理）", ""]
 
-    lines += ["## 分支", ""]
+    lines += ["## 分支", "",
+              "> 聊某个主题时，以那个分支的记录为准。别的分支只能当参考：用到时说明来自哪个分支，"
+              "不要把别的分支的数字、决定当成这个分支的。", ""]
     tops = {}
-    for b, es in by_branch.items():
-        tops.setdefault(b.split("/")[0], []).append((b, es))
-    for top, items in sorted(tops.items(), key=lambda kv: -sum(len(es) for _, es in kv[1])):
-        lines += [f"### {top}（{sum(len(es) for _, es in items)} 段）", ""]
-        for b, es in sorted(items, key=lambda x: -len(x[1])):
-            one_line = db["branches"].get(b, {}).get("one_line") or es[0].get("summary", "")
-            lines.append(f"- {link(b, branch_file(b))}（{len(es)} 段，最近 {es[0]['updated'][:10]}）"
-                         + (f"：{one_line}" if one_line else ""))
+    for b in names:
+        tops.setdefault(b.split("/")[0], []).append(b)
+
+    def count(b):
+        return len(by_branch.get(b, []))
+
+    for top, items in sorted(tops.items(), key=lambda kv: -sum(map(count, kv[1]))):
+        lines += [f"### {top}（{sum(map(count, items))} 段）", ""]
+        for b in sorted(items, key=lambda x: -count(x)):
+            es = by_branch.get(b, [])
+            about = presets.get(b, {}).get("about", "")
+            status = db["branches"].get(b, {}).get("one_line") or (es[0].get("summary", "") if es else "")
+            desc = "｜".join(x for x in [about, (f"最近：{status}" if about else status) if status else ""] if x)
+            stats = f"（{len(es)} 段，最近 {es[0]['updated'][:10]}）" if es else "（还没有内容）"
+            lines.append(f"- {link(b, branch_file(b))}{stats}" + (f"：{desc}" if desc else ""))
         lines.append("")
-    if not by_branch:
+    if not names:
         lines += ["（还没整理）", ""]
 
     organized = [e for e in convs.values() if e.get("organized_hash") == e["hash"] and not e.get("skip")]
@@ -424,17 +483,18 @@ def render_index(db, by_branch):
     return "\n".join(lines)
 
 
-def render_all(store, db):
+def render_all(store, db, cfg):
     """branches/、profile.md、index.md 每次都从 _data 整个重写，分支改名、合并后不会留下旧文件。"""
     by_branch = group_branches(db["conversations"])
+    presets = preset_branches(cfg)
     shutil.rmtree(store / "branches", ignore_errors=True)
-    for b, es in by_branch.items():
+    for b in dict.fromkeys([*presets, *by_branch]):
         path = store / branch_file(b)
         path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_text(render_branch(b, es, db["branches"].get(b, {})), "utf-8")
+        path.write_text(render_branch(b, by_branch.get(b, []), db["branches"].get(b, {}), presets.get(b, {})), "utf-8")
     profile = ["# 关于我", "", f"根据聊天记录自动整理，最近一条记录 {latest(db)[:10] or '无'}。", ""]
     (store / "profile.md").write_text("\n".join(profile + (profile_lines(profile_view(db), 2) or ["（还没整理）"])), "utf-8")
-    (store / "index.md").write_text(render_index(db, by_branch), "utf-8")
+    (store / "index.md").write_text(render_index(db, by_branch, cfg), "utf-8")
 
 
 # ---------------------------------------------------------------- 导入
@@ -464,12 +524,30 @@ def save_file(store, db, f):
     return True
 
 
+def update_branches(f, cfg):
+    """inbox 里的 branches.toml：格式检查没问题，就替换现在的分支设定。返回是否替换了。"""
+    try:
+        items = tomllib.loads(f.read_text("utf-8-sig")).get("branches")
+    except (tomllib.TOMLDecodeError, UnicodeDecodeError) as e:
+        print(f"[分支] {f} 格式不对，没有替换，文件留在原处：{e}")
+        return False
+    if not isinstance(items, list) or not items or not all(isinstance(b, dict) and b.get("name") for b in items):
+        print(f"[分支] {f} 里要有 [[branches]]，每个都写 name，没有替换，文件留在原处")
+        return False
+    shutil.copyfile(f, cfg["_branches_file"])
+    cfg["branches"] = items
+    print(f"[分支] 换成新的分支设定，共 {len(items)} 个分支")
+    return True
+
+
 def cmd_import(args, cfg, store):
-    db = load_db(store)
+    files = expand(args.paths)
+    consumed = [f for f in files if f.name == BRANCHES_FILE and update_branches(f, cfg)]
+    files = [f for f in files if f.name != BRANCHES_FILE]
+    db = load_db(store, cfg)  # 分支设定换了以后再读，旧记录按新的设定归类
     convs = db["conversations"]
     added = changed = same = 0
-    consumed = []
-    for f, found in read_inputs(args.paths):
+    for f, found in read_inputs(files):
         if found == []:
             print(f"[导入] {f}：像是聊天记录，但一段对话都没读出来，可能导出格式变了，先当资料存起来")
         if not found:  # 不是认得的聊天记录，当资料存起来
@@ -501,7 +579,7 @@ def cmd_import(args, cfg, store):
         print(f"[导入] {f}：{len(found)} 段对话")
         consumed.append(f)
     save_db(store, db)
-    render_all(store, db)
+    render_all(store, db, cfg)
     if args.consume:  # 记忆库存好以后再删原文件
         for f in consumed:
             f.unlink()
@@ -620,7 +698,7 @@ def apply_result(db, key, res, cfg, card=False):
     e = db["conversations"][key]
     old_branch = e.get("branch", "")
     e["skip"] = bool(res.get("skip"))
-    e["branch"] = "" if e["skip"] else clean_branch(res.get("branch"), cfg.get("max_depth", 2))
+    e["branch"] = "" if e["skip"] else resolve_branch(res.get("branch"), cfg)
     e["summary"] = str(res.get("summary") or "").strip()[:200]
     e["points"] = as_list(res.get("points"), max_points)
     e["organized_hash"] = e["hash"]
@@ -632,7 +710,7 @@ def apply_result(db, key, res, cfg, card=False):
 
 
 def cmd_organize(args, cfg, store):
-    db = load_db(store)
+    db = load_db(store, cfg)
     convs = db["conversations"]
     if args.redo:
         for e in convs.values():
@@ -641,7 +719,7 @@ def cmd_organize(args, cfg, store):
     llm = LLM(cfg)
     if not llm.key:
         print("[整理] 没有设置 OPENAI_API_KEY，只存原文，不整理。")
-        render_all(store, db)
+        render_all(store, db, cfg)
         return
 
     lc = cfg.get("llm", {})
@@ -668,12 +746,15 @@ def cmd_organize(args, cfg, store):
                 print("[整理] 到时间了，剩下的下次接着整理。")
                 break
             wave = todo[i: i + workers]
-            branch_list = "\n".join(f"- {b}（{len(es)} 段）" for b, es in sorted(group_branches(convs).items()))
+            presets, grouped = preset_branches(cfg), group_branches(convs)
+            branch_list = "\n".join(
+                f"- {b}（{len(grouped.get(b, []))} 段）" + (f"：{presets[b]['about']}" if presets.get(b, {}).get("about") else "")
+                for b in sorted(set(presets) | set(grouped)))
             for key, (res, err) in zip(wave, pool.map(lambda k, bl=branch_list: safe_summarize(k, bl), wave)):
                 if err:
                     if err.fatal:
                         save_db(store, db)
-                        render_all(store, db)
+                        render_all(store, db, cfg)
                         raise SystemExit(f"[整理] 调用失败，停止：{err}")
                     failed, streak = failed + 1, streak + 1
                     print(f"[整理] {convs[key]['title']}：失败 {err}")
@@ -725,7 +806,7 @@ def cmd_organize(args, cfg, store):
             print(f"[关于我] 失败 {e}")
 
     save_db(store, db)
-    render_all(store, db)
+    render_all(store, db, cfg)
     left = sum(1 for e in convs.values() if e.get("organized_hash") != e["hash"])
     print(f"[完成] 整理 {done} 段，失败 {failed} 段，还剩 {left} 段。"
           f"用量：输入 {llm.tokens[0]} token，输出 {llm.tokens[1]} token")
@@ -735,16 +816,17 @@ def cmd_organize(args, cfg, store):
 
 def cmd_context(args, cfg, store):
     """index.md 加上和关键词最相关的几个分支，打印出来，可以直接贴给任何 AI 或放进 API 的 system prompt。"""
-    db = load_db(store)
+    db = load_db(store, cfg)
     if not db["conversations"]:
         raise SystemExit("记忆库是空的，先运行 python memory.py import inbox")
     max_chars = cfg.get("context", {}).get("max_chars", 12000)
     out = "以下是我的个人记忆库摘录，请当作背景，回答时直接用上，不用我再解释。\n\n" + (store / "index.md").read_text("utf-8")
     terms = [t.lower() for t in args.terms]
     scored = []
+    presets = preset_branches(cfg)
     for b, es in group_branches(db["conversations"]).items():
-        info = db["branches"].get(b, {})
-        hay = " ".join([b, info.get("one_line", ""), info.get("summary", "")]
+        info, preset = db["branches"].get(b, {}), presets.get(b, {})
+        hay = " ".join([b, info.get("one_line", ""), info.get("summary", ""), preset.get("about", ""), *preset.get("aliases", [])]
                        + [f"{e['title']} {e.get('summary', '')} {' '.join(e.get('points', []))}" for e in es]).lower()
         score = sum(hay.count(t) for t in terms)
         if score:
@@ -773,7 +855,12 @@ def main():
 
     with open(args.config, "rb") as f:
         cfg = tomllib.load(f)
-    store = Path(args.config).resolve().parent / cfg.get("store", "memory")
+    base = Path(args.config).resolve().parent
+    cfg["_branches_file"] = base / BRANCHES_FILE
+    if cfg["_branches_file"].exists():
+        with open(cfg["_branches_file"], "rb") as f:
+            cfg["branches"] = tomllib.load(f).get("branches") or []
+    store = base / cfg.get("store", "memory")
     {"import": cmd_import, "organize": cmd_organize, "context": cmd_context}[args.cmd](args, cfg, store)
 
 
