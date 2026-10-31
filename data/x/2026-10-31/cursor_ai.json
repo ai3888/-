@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/cursor_ai",
+ "collected_at": "2026-10-31T13:11:15.461Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 7,
+ "posts": [
+  {
+   "id": "2116074289053175808",
+   "url": "https://x.com/cursor_ai/status/2116074289053175808",
+   "author": "cursor_ai",
+   "name": "Cursor",
+   "time": "2026-10-30T07:46:39.000Z",
+   "text": "We identified a security incident affecting a modified Claude Code VS Code extension accessed through our Cursor IDE extension marketplace, impacting at most 5,000 users. This malicious version of the extension was not developed by Anthropic. It does not impact other extensions",
+   "likes": 6852,
+   "reposts": 1740,
+   "replies": 512,
+   "views": 1192902,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

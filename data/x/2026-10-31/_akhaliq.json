@@ -1,0 +1,63 @@
+{
+ "page": "https://x.com/_akhaliq",
+ "collected_at": "2026-10-31T13:14:11.241Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2116226251941642405",
+   "url": "https://x.com/_akhaliq/status/2116226251941642405",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-10-30T17:50:30.000Z",
+   "text": "A-RSI\n\nAdaptive Task Refresh for Zero-Data Multimodal Self-Improvement\n\npaper: \nhttps://\nhuggingface.co/papers/2610.38\n568\n…",
+   "likes": 54,
+   "reposts": 5,
+   "replies": 10,
+   "views": 11716,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/papers/2610.38 568 …"
+   ]
+  },
+  {
+   "id": "2116165005129507300",
+   "url": "https://x.com/_akhaliq/status/2116165005129507300",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-10-30T13:47:08.000Z",
+   "text": "Look Only When Needed\n\nCertificate-Guided Visual Routing for Efficient Diffusion VLMs\n\npaper: \nhttps://\nhuggingface.co/papers/2610.36\n671\n…",
+   "likes": 101,
+   "reposts": 22,
+   "replies": 14,
+   "views": 16311,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/papers/2610.36 671 …"
+   ]
+  },
+  {
+   "id": "2116157881812680984",
+   "url": "https://x.com/_akhaliq/status/2116157881812680984",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-10-30T13:18:49.000Z",
+   "text": "Intrinsic Distribution Matching\n\npaper: \nhttps://\nhuggingface.co/papers/2610.39\n633\n…",
+   "likes": 35,
+   "reposts": 8,
+   "replies": 8,
+   "views": 12043,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/papers/2610.39 633 …"
+   ]
+  }
+ ]
+}

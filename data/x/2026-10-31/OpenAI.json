@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/OpenAI",
+ "collected_at": "2026-10-31T13:09:50.596Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2116253388883345623",
+   "url": "https://x.com/OpenAI/status/2116253388883345623",
+   "author": "OpenAI",
+   "name": "OpenAI",
+   "time": "2026-10-30T19:38:20.000Z",
+   "text": "There are many futures. Which do you want to build?",
+   "likes": 9201,
+   "reposts": 1065,
+   "replies": 762,
+   "views": 1743681,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2116186509384815084",
+   "url": "https://x.com/OpenAI/status/2116186509384815084",
+   "author": "OpenAI",
+   "name": "OpenAI",
+   "time": "2026-10-30T15:12:35.000Z",
+   "text": "Privacy should advance as fast as intelligence. OpenAI Private Intelligence gives businesses stronger controls over their data while using our most capable models.\n\nWe’re building these protections in close collaboration with some of our largest customers to help businesses apply",
+   "likes": 2707,
+   "reposts": 377,
+   "replies": 480,
+   "views": 342240,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

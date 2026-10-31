@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/AnthropicAI",
+ "collected_at": "2026-10-31T13:09:56.516Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2116349211549843666",
+   "url": "https://x.com/AnthropicAI/status/2116349211549843666",
+   "author": "AnthropicAI",
+   "name": "Anthropic",
+   "time": "2026-10-31T01:59:06.000Z",
+   "text": "新的人类学研究：自动化对微妙的不一致现象的研究。\n\n“红队策略”是模型安全测试中的重要环节，但其实施受到研究人员时间的限制。为了尝试实现自动化操作，我们让数千个 Claude 代理去执行逃避训练数据的任务。",
+   "likes": 2767,
+   "reposts": 476,
+   "replies": 402,
+   "views": 328456,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/MistralAI",
+ "collected_at": "2026-10-31T13:10:14.731Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2116105034673058023",
+   "url": "https://x.com/MistralAI/status/2116105034673058023",
+   "author": "MistralAI",
+   "name": "Mistral AI",
+   "time": "2026-10-30T09:48:50.000Z",
+   "text": "Three weeks of training camp for Le Chonk. No days off.\n\nThanks for putting it to the test, \n@ThibaultJaigu\n and \n@RequestyAI\n.",
+   "likes": 936,
+   "reposts": 78,
+   "replies": 105,
+   "views": 41971,
+   "context": "",
+   "quoted": "Impressed by the new @MistralAI large-4 update! The model update is much better at coding and performs as the 2nd best OSS model on our coding benchmark",
+   "card": "",
+   "links": []
+  }
+ ]
+}
