@@ -44,6 +44,7 @@ PROFILE_SECTIONS = ["基本情况", "正在做的事", "常用工具", "偏好�
 NETWORK_ERRORS = (urllib.error.URLError, TimeoutError, ConnectionError)
 MAX_FILE_MB = 95  # GitHub 不收超过 100MB 的文件
 BRANCHES_FILE = "branches.toml"  # 预设分支，和 memory.toml 放在一起
+BUNDLE_FILE = "记忆包.md"  # 工作说明 + 记忆打成一个文件，给连不上仓库的 AI 上传
 
 
 # ---------------------------------------------------------------- 读导出文件
@@ -494,7 +495,31 @@ def render_all(store, db, cfg):
         path.write_text(render_branch(b, by_branch.get(b, []), db["branches"].get(b, {}), presets.get(b, {})), "utf-8")
     profile = ["# 关于我", "", f"根据聊天记录自动整理，最近一条记录 {latest(db)[:10] or '无'}。", ""]
     (store / "profile.md").write_text("\n".join(profile + (profile_lines(profile_view(db), 2) or ["（还没整理）"])), "utf-8")
-    (store / "index.md").write_text(render_index(db, by_branch, cfg), "utf-8")
+    index = render_index(db, by_branch, cfg)
+    (store / "index.md").write_text(index, "utf-8")
+    (store / BUNDLE_FILE).write_text(render_bundle(store, db, cfg, index, by_branch), "utf-8")
+
+
+def render_bundle(store, db, cfg, index, by_branch):
+    """DeepSeek、Kimi、豆包这类连不上仓库、也点不开链接的 AI，上传这一个文件就有工作说明、关于我和各分支的内容。
+    最近有更新的分支先放，超出篇幅的只列名字。"""
+    max_chars = cfg.get("bundle", {}).get("max_chars", 60000)
+    guide = cfg["_base"] / "gpt-prompt.md"
+    text = "\n".join([
+        "# 第二大脑 · 记忆包", "",
+        "> 给连不上 GitHub 仓库的 AI 用：前半部分是工作说明（怎么存档、卡片格式），后半部分是我的记忆（关于我和各个分支）。读完照着做。", "",
+        *(["---", "", guide.read_text("utf-8").strip(), ""] if guide.exists() else []),
+        "---", "", index.strip(), ""])
+    left = []
+    for b in sorted(by_branch, key=lambda b: by_branch[b][0]["updated"], reverse=True):
+        part = (store / branch_file(b)).read_text("utf-8").strip()
+        if len(text) + len(part) > max_chars:
+            left.append(b)
+            continue
+        text += f"\n---\n\n{part}\n"
+    if left:
+        text += f"\n---\n\n> 篇幅有限，这些分支没放进来，需要时去仓库看：{'、'.join(left)}\n"
+    return text
 
 
 # ---------------------------------------------------------------- 导入
@@ -856,6 +881,7 @@ def main():
     with open(args.config, "rb") as f:
         cfg = tomllib.load(f)
     base = Path(args.config).resolve().parent
+    cfg["_base"] = base
     cfg["_branches_file"] = base / BRANCHES_FILE
     if cfg["_branches_file"].exists():
         with open(cfg["_branches_file"], "rb") as f:

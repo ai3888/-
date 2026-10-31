@@ -91,6 +91,7 @@ aliases = ["第二大脑", "记忆库"]
 
   分支和原文同理，把路径换成 `memory/` 加上 `index.md` 里的链接。
 - **ChatGPT / Claude 的项目（Projects）**：把 `index.md` 和 `profile.md` 上传成项目文件。
+- **DeepSeek、Kimi、豆包等连不上仓库的 AI**：上传 `memory/记忆包.md` 这一个文件就行。它把工作说明、关于我和各分支的内容合在一起，每次更新记忆库时自动重新生成。
 - **任何 AI，复制粘贴**：`python memory.py context 关键词`，会打印 `index.md` 加上和关键词相关的分支，贴到对话开头。
 - **用 API 接新模型**：把 `index.md` 的内容放进 system prompt。
 

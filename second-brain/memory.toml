@@ -20,3 +20,6 @@ branch_entries = 40     # 写分支总结时看最近多少段对话
 
 [context]
 max_chars = 12000       # context 命令最多输出多少字
+
+[bundle]
+max_chars = 60000       # memory/记忆包.md 最多多少字，超出的分支只列名字
