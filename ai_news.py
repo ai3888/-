@@ -339,6 +339,95 @@ def fetch_feed(feed):
     raise ValueError("；".join(errors))
 
 
+X_DIR = ROOT / "data" / "x"
+X_DATE = re.compile(r"\d{4}-\d{2}-\d{2}")
+
+
+def to_count(v):
+    """点赞数之类的数字。DeepSeek 自己抄的时候可能写成 "1,234" 或 "1.2K"，都认。"""
+    if isinstance(v, bool):
+        return 0
+    if isinstance(v, (int, float)):
+        return max(0, int(v))
+    m = re.fullmatch(r"(\d+(?:\.\d+)?)\s*([kKmM万]?)", str(v or "").replace(",", "").strip())
+    return int(float(m.group(1)) * {"k": 1e3, "m": 1e6, "万": 1e4}.get(m.group(2).lower(), 1)) if m else 0
+
+
+def fetch_x(cfg, since):
+    """读 DeepSeek 用 ego 浏览器从 X 上抓下来的帖子。
+
+    X 没有免费接口，GitHub 的服务器也上不了 X，所以不在这里抓：DeepSeek 在你自己的电脑上抓好，
+    存成 data/x/日期/*.json（x_extract.js 的输出）或 data/x/日期.json，推到仓库，这里只读文件。
+    同一条帖子在几个文件里出现时，取数字最大的那次（越晚抓，点赞越多）。
+    """
+    first_day = (since.astimezone(BEIJING).date() - timedelta(days=1)).isoformat()  # 文件按抓取那天命名
+    dated = sorted(p for p in X_DIR.glob("*") if X_DATE.fullmatch(p.name.removesuffix(".json")))
+    if not dated:
+        raise ValueError("data/x/ 里还没有数据：DeepSeek 还没跑过（设置方法见 README「X 上的 AI 动态」）")
+    recent = [p for p in dated if p.name[:10] >= first_day]
+    if not recent:
+        raise ValueError(f"最近没有新数据，最新的是 {dated[-1].name}：DeepSeek 没跑，或者跑完没推送到仓库")
+    files = [f for p in recent for f in (sorted(p.glob("*.json")) if p.is_dir() else [p])]
+
+    skip, posts, bad, not_logged_in = set(), {}, [], 0
+    for f in files:
+        try:
+            data = json.loads(f.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            bad.append(str(f.relative_to(X_DIR)))
+            continue
+        if f.name == "_skip.json":  # DeepSeek 标出来的无关帖子、广告和引流帖
+            ids = data.get("ids") if isinstance(data, dict) else data
+            skip.update(str(x) for x in (ids if isinstance(ids, list) else []))
+            continue
+        if isinstance(data, dict) and data.get("logged_in") is False:
+            not_logged_in += 1
+        rows = data.get("posts") if isinstance(data, dict) else data
+        for p in rows if isinstance(rows, list) else []:
+            if not isinstance(p, dict):
+                continue
+            m = re.search(r"(?:x|twitter)\.com/([^/?#]+)/status/(\d+)", str(p.get("url") or ""))
+            pid = str(p.get("id") or (m and m.group(2)) or "")
+            handle = str(p.get("author") or (m and m.group(1)) or "").lstrip("@")
+            if not pid.isdigit() or not handle:
+                continue
+            metrics = {k: to_count(p.get(k)) for k in ("likes", "reposts", "replies", "views")}
+            old = posts.get(pid)
+            if old is None or sum(metrics.values()) > sum(old[1].values()):
+                posts[pid] = (p, metrics, handle)
+
+    min_likes = cfg.get("min_likes", 0)
+    items, undated, low = [], 0, 0
+    for pid, (p, metrics, handle) in posts.items():
+        if pid in skip:
+            continue
+        published = parse_time(str(p.get("time") or ""))
+        if published is None:  # 没有发布时间就判断不了是不是最近的
+            undated += 1
+            continue
+        if metrics["likes"] < min_likes:
+            low += 1
+            continue
+        text = str(p.get("text") or "").strip()
+        title = " ".join(text.split())[:140] or clean_text(str(p.get("card") or ""), 140) or "（只有图片或视频）"
+        items.append(make_item(
+            "x", f"x:{pid}", title, f"https://x.com/{handle}/status/{pid}", published,
+            text.replace("<", "＜"), metrics, handle=handle, name=clean_text(str(p.get("name") or ""), 80),
+            context=clean_text(str(p.get("context") or ""), 80), quoted=clean_text(str(p.get("quoted") or ""), 300),
+            card=clean_text(str(p.get("card") or ""), 200),
+            links="、".join(clean_text(str(x), 120) for x in (p.get("links") or [])[:5] if x)))
+
+    skipped = [f"{label} {n} 条" for label, n in (("DeepSeek 标为无关的", len(skip & posts.keys())),
+                                                 (f"点赞不到 {min_likes} 的", low), ("没有发布时间的", undated)) if n]
+    notes = [f"{len(files)} 个文件（最新的是 {dated[-1].name}），{len(posts)} 条帖子"
+             + (f"，已跳过：{'、'.join(skipped)}" if skipped else "")]
+    notes += [f"⚠️ {not_logged_in} 个页面没登录 X"] if not_logged_in else []
+    notes += [f"⚠️ 不是有效的 JSON：{'、'.join(bad[:3])}" + (f" 等 {len(bad)} 个" if len(bad) > 3 else "")] if bad else []
+    if not posts and (bad or not_logged_in):
+        raise ValueError("；".join(notes))
+    return items, "；".join(notes)
+
+
 # ---------------------------------------------------------------- 运行
 
 def run_source(name, fn, since):
@@ -387,6 +476,9 @@ def build_jobs(cfg, cache):
         yt_since = NOW - timedelta(hours=yt.get("lookback_hours", hours))
         for ch in yt.get("channels", []):
             jobs.append((f"油管 {ch}", lambda ch=ch: fetch_youtube(ch, cache), yt_since))
+    if (c := section("x")) is not None:
+        x_since = NOW - timedelta(hours=c.get("lookback_hours", hours))
+        jobs.append(("X（DeepSeek + ego 浏览器）", lambda c=c, s=x_since: fetch_x(c, s), x_since))
     return jobs
 
 
@@ -401,6 +493,8 @@ def source_label(item):
         return extra.get("feed", "博客")
     if item["source"] == "youtube":
         return f"油管 {extra.get('channel', '')}".strip()
+    if item["source"] == "x":
+        return f"X @{extra.get('handle', '')}"
     return SOURCE_NAMES.get(item["source"], item["source"])
 
 
@@ -480,6 +574,12 @@ def heat(e):
     return (m.get("points") or 0) + (m.get("comments") or 0)
 
 
+def x_heat(e):
+    """X 上的互动数，只用来给 X 的帖子排序（和 HN 分数不是一个量级，不混在一起比）。"""
+    m = e["metrics"]
+    return (m.get("likes") or 0) + (m.get("reposts") or 0) + (m.get("replies") or 0)
+
+
 def is_specific(term):
     """带版本号的名字（gemini 4、gpt-5.5、dyna-2）基本能确定说的是同一个东西。"""
     return bool(re.search(r"\d", term))
@@ -549,8 +649,11 @@ def fmt_entry(e, summary_chars=300):
         facts.append(f"{m['upvotes']} 人点赞")
     if m.get("comments"):
         facts.append(f"{m['comments']} 条评论")
+    for key, unit in (("likes", "赞"), ("reposts", "转发"), ("replies", "回复")):
+        if m.get(key):
+            facts.append(f"{m[key]:,} {unit}")
     if m.get("views"):
-        facts.append(f"播放 {m['views']:,}")
+        facts.append(f"{'浏览' if e['source'] == 'x' else '播放'} {m['views']:,}")
     if e["published"]:
         facts.append(f"发布于 {e['published'].astimezone(BEIJING):%m-%d %H:%M}")
     lines = [f"- [{md_title(e['title'])}]({e['url']}) — 来源：{'、'.join(e['sources'])}"
@@ -560,8 +663,13 @@ def fmt_entry(e, summary_chars=300):
         lines.append(f"  - HN 讨论：{disc}")
     if extra.get("github"):
         lines.append(f"  - 代码：{extra['github']}")
-    if e["summary"]:
-        lines.append(f"  - 简介：{e['summary'][:summary_chars]}")
+    if e["summary"] and e["summary"] != e["title"]:
+        lines.append(f"  - {'原文' if e['source'] == 'x' else '简介'}：{e['summary'][:summary_chars]}")
+    if e["source"] == "x":
+        for key, label in (("context", "X 上的标注"), ("quoted", "引用的帖子"), ("card", "附带的链接卡片"),
+                           ("links", "帖子里的链接")):
+            if extra.get(key):
+                lines.append(f"  - {label}：{extra[key][:200]}")
     return lines
 
 
@@ -633,6 +741,8 @@ def build_digest(cfg, items, statuses, radar, seen):
     singles = take(sorted((e for e in entries if e["source"] == "hackernews" and e["key"] not in in_clusters
                            and not e["title"].lower().startswith("show hn")),
                           key=heat, reverse=True)[: dcfg.get("max_hot_single", 8)])
+    x_posts = take(sorted((e for e in entries if e["source"] == "x" and e["key"] not in in_clusters),
+                          key=x_heat, reverse=True)[: dcfg.get("max_x", 10)])
     limit = dcfg.get("max_per_section", 10)
     official = take(sorted((e for e in entries if e.get("extra", {}).get("kind") == "official"),
                            key=lambda e: e["published"] or NOW, reverse=True)[:limit])
@@ -655,7 +765,7 @@ def build_digest(cfg, items, statuses, radar, seen):
     out = [f"# AI 日报素材 · {TODAY}", "",
            f"> 生成于 {NOW.astimezone(BEIJING):%Y-%m-%d %H:%M}（北京时间）。{len(ok)}/{len(statuses)} 个来源抓取成功"
            + (f"，失败：{'、'.join(failed)}" if failed else "") + "。"
-           f"本次候选：热议话题 {len(clusters)} 个、高热度单条讨论 {len(singles)} 条、"
+           f"本次候选：热议话题 {len(clusters)} 个、高热度单条讨论 {len(singles)} 条、X 帖子 {len(x_posts)} 条、"
            f"新东西 {len(official) + len(models) + len(repos) + len(show_hn)} 条、论文 {len(papers)} 篇。", ""]
     if guide := read_guide():
         out += [guide, "", "---", ""]
@@ -667,12 +777,18 @@ def build_digest(cfg, items, statuses, radar, seen):
         out += ["今天没有多个来源同时提到的话题。", ""]
     for i, c in enumerate(clusters, 1):
         out += [f"#### {i}. 关键词：{' / '.join(c['terms'][:3])} — {len(c['sources'])} 个来源：{'、'.join(c['sources'])}", ""]
-        for e in sorted(c["entries"].values(), key=heat, reverse=True)[:6]:
+        for e in sorted(c["entries"].values(), key=lambda e: (heat(e), x_heat(e)), reverse=True)[:6]:
             out += fmt_entry(e, 200)
         out += [""]
     out += ["### 只在一个地方出现、但很热的讨论（Hacker News，按分数排序）", ""]
     for e in singles:
         out += fmt_entry(e, 200)
+    if (x_status := next((s for s in statuses if s["name"].startswith("X（")), None)) is not None:
+        out += ["", "### X 上互动最多的帖子（DeepSeek 用 ego 浏览器抓取，按点赞、转发、回复数排序）", ""]
+        for e in x_posts:
+            out += fmt_entry(e, 300)
+        if not x_posts:
+            out += ["今天没有。" if x_status["ok"] else f"今天没拿到 X 的数据：{x_status['error']}"]
     out += ["", "## 素材二：新东西", "", "### 官方发布", ""]
     for e in official or []:
         out += fmt_entry(e)

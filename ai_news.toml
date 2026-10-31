@@ -8,6 +8,7 @@ lookback_hours = 48   # 只收最近多少小时内发布的内容（留出余�
 cooldown_days = 7     # 前几天的素材里出现过的内容，多少天内不再放
 max_hot_topics = 10   # 「多个来源同时提到的话题」最多几个
 max_hot_single = 8    # 「只在一个地方出现、但很热的讨论」最多几条
+max_x = 10            # 「X 上互动最多的帖子」最多几条
 max_per_section = 10  # 新东西里每一小类最多几条
 max_papers = 12       # 论文最多几篇
 
@@ -61,6 +62,36 @@ channels = [
   "@GoogleDeepMind",
   "@OpenAI",
   "@anthropic-ai",
+]
+
+# ---------------------------------------------------------------- X（推特）
+# X 没有免费接口，GitHub 的服务器也上不了 X。所以这部分由你自己电脑上的 DeepSeek 用 ego 浏览器去看
+# （任务说明在 x_task.md），看完把帖子存到 data/x/日期/ 推到仓库，这里只读这些文件。设置方法见 README。
+# 下面的 lists、accounts、searches 是给 DeepSeek 看的：想看哪些页面就改这里
+
+[x]
+enabled = true
+lookback_hours = 48   # 只用最近多少小时内发的帖子
+min_likes = 10        # 点赞少于这个数的不放进素材
+# 最省事的办法：在 X 上建一个列表（List），把想看的账号都加进去，把列表网址填在这里。
+# 填了列表，DeepSeek 就只看列表，不再一个个打开下面的账号：快很多，花的 token 少，也不容易被 X 限流
+lists = []            # 例如 ["https://x.com/i/lists/1234567890"]
+accounts = [
+  # 官方
+  "OpenAI", "AnthropicAI", "GoogleDeepMind", "AIatMeta", "MistralAI", "xai",
+  "deepseek_ai", "Alibaba_Qwen", "Kimi_Moonshot", "huggingface", "OpenRouterAI", "cursor_ai",
+  # 研究者和工程师
+  "karpathy", "sama", "demishassabis", "ylecun", "AndrewYNg", "JeffDean", "OfficialLoganK", "DrJimFan",
+  "ClementDelangue", "simonw", "swyx", "natolambert", "rasbt", "emollick",
+  # 论文、榜单和爆料
+  "_akhaliq", "omarsar0", "lmarena_ai", "ArtificialAnlys", "testingcatalog",
+  # 中文
+  "dotey", "op7418",
+]
+# X 搜索，写法和 X 搜索框一样（min_faves 是至少多少赞）。DeepSeek 会自动加上 since:昨天的日期
+searches = [
+  '(LLM OR "AI model" OR "open source model" OR "open weights") min_faves:1000 -filter:replies',
+  '(大模型 OR 开源模型 OR 智能体 OR AI) lang:zh min_faves:300 -filter:replies',
 ]
 
 # ---------------------------------------------------------------- 博客和 Newsletter（RSS）
