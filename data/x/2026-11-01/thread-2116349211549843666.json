@@ -1,0 +1,28 @@
+{
+ "page": "https://x.com/AnthropicAI/status/2116349211549843666",
+ "collected_at": "2026-11-01T00:52:54.822Z",
+ "logged_in": true,
+ "thread_of": "2116349211549843666",
+ "hours": 30,
+ "found_on_page": 28,
+ "posts": [
+  {
+   "id": "2116349211549843666",
+   "url": "https://x.com/AnthropicAI/status/2116349211549843666",
+   "author": "AnthropicAI",
+   "name": "Anthropic",
+   "time": "2026-10-31T01:59:06.000Z",
+   "text": "新的人类研究：自动化微妙的涌现错位研究。\n\n红队是模型安全测试的重要组成部分，但也受限于研究人员的时间。为了看看能否实现自动化，我们让成千上万的 Claude 代理承担规避训练数据监控器的任务。\n\n这些代理人开发的训练数据对监控员来说看似无害（比如一位资深摔跤手指导新手，或关于职业养蜂的问答），但实际上这会教导错误的行为。\n\n这些例子可以直接用于改进未来的训练数据监控器。这项研究只是第一步，但表明未来的红队工作可以通过更好的模型和更多的计算量进一步提升。\n\n阅读完整文章请访问 Alignment Science Blog： \nhttps://\nalignment.anthropic.com/2026/automated\n-em-search/\n…",
+   "likes": 3499,
+   "reposts": 641,
+   "replies": 528,
+   "views": 0,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// alignment.anthropic.com/2026/automated -em-search/ …"
+   ]
+  }
+ ]
+}

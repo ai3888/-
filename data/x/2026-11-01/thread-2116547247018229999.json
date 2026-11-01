@@ -1,0 +1,45 @@
+{
+ "page": "https://x.com/omarsar0/status/2116547247018229999",
+ "collected_at": "2026-11-01T00:54:00.036Z",
+ "logged_in": true,
+ "thread_of": "2116547247018229999",
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2116547247018229999",
+   "url": "https://x.com/omarsar0/status/2116547247018229999",
+   "author": "omarsar0",
+   "name": "elvis",
+   "time": "2026-10-31T15:06:01.000Z",
+   "text": "Banger paper from IBM on decision gates for agents.\n\nThey add a runtime gate to tool-using agents and keep the models and tools the same.\n\nJevAct is a check that sits between the agent and its tools. An LLM first turns the domain policy into code checks and yes/no questions. Before a selected tool call runs, the code checks the facts in the tool records, and a Jev-like decision model answers the questions about the conversation. If the call fails a check, it goes back to the agent with feedback so the agent can revise it.\n\nOn τ²-bench Telecom, Opus 4.6's success across all three runs rose from 39.5% to 80.7%.\n\nOn Telecom, all eight agents improved by 16.9 points on average in three-run success. All nine improved on BFCL. Airline results were smaller and mixed.\n\nThey show that the gains come from the harness.\n\n\nhttps://\narxiv.org/abs/2610.38620\n\nChat with Paper: \nhttps://\nacademy.dair.ai/papers/think-b\nefore-you-act-decision-gate-for-llm-agents-2610.38620\n…",
+   "likes": 157,
+   "reposts": 38,
+   "replies": 74,
+   "views": 0,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2610.38620",
+    "https:// academy.dair.ai/papers/think-b efore-you-act-decision-gate-for-llm-agents-2610.38620 …"
+   ]
+  },
+  {
+   "id": "2116563910992204137",
+   "url": "https://x.com/omarsar0/status/2116563910992204137",
+   "author": "omarsar0",
+   "name": "elvis",
+   "time": "2026-10-31T16:12:14.000Z",
+   "text": "How are you measuring things?",
+   "likes": 1,
+   "reposts": 0,
+   "replies": 2,
+   "views": 174,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

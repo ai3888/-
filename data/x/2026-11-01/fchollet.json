@@ -1,0 +1,57 @@
+{
+ "page": "https://x.com/fchollet",
+ "collected_at": "2026-11-01T00:47:53.999Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 11,
+ "posts": [
+  {
+   "id": "2116627718347591988",
+   "url": "https://x.com/fchollet/status/2116627718347591988",
+   "author": "fchollet",
+   "name": "François Chollet",
+   "time": "2026-10-31T20:25:47.000Z",
+   "text": "Dopamine does not spike highest for guaranteed rewards. It spikes highest at reward prediction error. If you want to have fun in life, you should stop avoiding risk and uncertainty.",
+   "likes": 3968,
+   "reposts": 496,
+   "replies": 181,
+   "views": 295985,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2116601154335605189",
+   "url": "https://x.com/fchollet/status/2116601154335605189",
+   "author": "fchollet",
+   "name": "François Chollet",
+   "time": "2026-10-31T18:40:14.000Z",
+   "text": "ㅤ\nAt the risk of pointing out the obvious: Cohere,…",
+   "likes": 3,
+   "reposts": 0,
+   "replies": 1,
+   "views": 0,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2116560976221020643",
+   "url": "https://x.com/fchollet/status/2116560976221020643",
+   "author": "fchollet",
+   "name": "François Chollet",
+   "time": "2026-10-31T16:00:35.000Z",
+   "text": "This is basically true for anyone who isn't a prog…",
+   "likes": 3,
+   "reposts": 0,
+   "replies": 0,
+   "views": 0,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

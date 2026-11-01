@@ -1,0 +1,61 @@
+{
+ "page": "https://x.com/search?q=url%3Agithub.com%20(LLM%20OR%20agent%20OR%20model%20OR%20inference%20OR%20training)%20min_faves%3A200%20-filter%3Areplies%20since%3A2026-10-31&src=typed_query",
+ "collected_at": "2026-11-01T00:51:22.692Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 3,
+ "posts": [
+  {
+   "id": "2116539149159366920",
+   "url": "https://x.com/GymlinZhu/status/2116539149159366920",
+   "author": "GymlinZhu",
+   "name": "Melvin",
+   "time": "2026-10-31T14:33:51.000Z",
+   "text": "开源叶天地的中继服务器解决方案  \n\n你只需要准备一个 Cloudflare 账户，然后把下面的仓库扔给你的编码代理，就能自部署中继服务器。\n理论上，任何 HTTP/WS 服务都可以通过隧道传输。\n\nCC \n@yetone",
+   "likes": 258,
+   "reposts": 29,
+   "replies": 15,
+   "views": 20806,
+   "context": "",
+   "quoted": "",
+   "card": "GitHub - nanami-0713/relay-kit: Out-of-the-box E2E relay server (relay-e2e/v1) for Cloudflare...",
+   "links": []
+  },
+  {
+   "id": "2116634303073321237",
+   "url": "https://x.com/lvwerra/status/2116634303073321237",
+   "author": "lvwerra",
+   "name": "Leandro von Werra",
+   "time": "2026-10-31T20:51:57.000Z",
+   "text": "另一个 DeepSeek 掉落：dsh-superagent\n\n一个代理框架，能通过仓库的 GitHub 问题和 PR 并行运行，同时与多个代理并行，旨在尽可能少地消耗人力注意力，同时尽可能提供价值。\n\n \nhttps://\ngithub.com/deepseek-ai/ds\nh-superagent-prototype\n…",
+   "likes": 276,
+   "reposts": 36,
+   "replies": 22,
+   "views": 13402,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/deepseek-ai/ds h-superagent-prototype …"
+   ]
+  },
+  {
+   "id": "2116546169216139746",
+   "url": "https://x.com/sammy_capital/status/2116546169216139746",
+   "author": "sammy_capital",
+   "name": "Sammy",
+   "time": "2026-10-31T15:01:44.000Z",
+   "text": "",
+   "likes": 271,
+   "reposts": 44,
+   "replies": 2,
+   "views": 10818,
+   "context": "",
+   "quoted": "REA hit #1 on GitHub trending, and most people still run it inside a single chat Split it into 4 subagents and one command takes a program you own from sealed binary to a tested rebuild with a match rate Set it up once, aim it at the next one:",
+   "card": "",
+   "links": [
+    "https://github.com/morluto/rea"
+   ]
+  }
+ ]
+}

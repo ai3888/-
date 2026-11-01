@@ -1,0 +1,92 @@
+{
+ "page": "https://x.com/QwenAIFans/status/2116461419046592787",
+ "collected_at": "2026-11-01T00:53:26.753Z",
+ "logged_in": true,
+ "thread_of": "2116461419046592787",
+ "hours": 30,
+ "found_on_page": 15,
+ "posts": [
+  {
+   "id": "2116461419046592787",
+   "url": "https://x.com/QwenAIFans/status/2116461419046592787",
+   "author": "QwenAIFans",
+   "name": "Qwen AI Fans",
+   "time": "2026-10-31T09:24:58.000Z",
+   "text": "Microsoft 开源 4B 计算机操作员，骨干 Qwen3-4B\n\nMage-VL-Cowork：点击鼠标或打开终端。OSWorld 大约是 66%，超过了 Qwen3.6-27B，后者几乎是 Qwen 的 7 倍。大约 9.5GB，Apache-2.0。\n\n友情提醒：需要启用 trust_remote_code，运行在沙盒中。你愿意试试吗？\n\n来源：Hugging Face  \n \nhttps://\nhuggingface.co/microsoft/Mage\n-VL-Cowork\n…",
+   "likes": 138,
+   "reposts": 16,
+   "replies": 6,
+   "views": 0,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/microsoft/Mage -VL-Cowork …"
+   ]
+  },
+  {
+   "id": "2116473312910135309",
+   "url": "https://x.com/QwenAIFans/status/2116473312910135309",
+   "author": "QwenAIFans",
+   "name": "Qwen AI Fans",
+   "time": "2026-10-31T10:12:14.000Z",
+   "text": "If the minimum permissions list could be made public in a version, it would save a lot of trouble for people trying it out locally.",
+   "likes": 1,
+   "reposts": 0,
+   "replies": 1,
+   "views": 268,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2116554555236434371",
+   "url": "https://x.com/QwenAIFans/status/2116554555236434371",
+   "author": "QwenAIFans",
+   "name": "Qwen AI Fans",
+   "time": "2026-10-31T15:35:04.000Z",
+   "text": "沙箱里先跑几条办公任务很稳。trust_remote_code 开了也别直接上生产。",
+   "likes": 0,
+   "reposts": 0,
+   "replies": 0,
+   "views": 131,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2116473242831528412",
+   "url": "https://x.com/QwenAIFans/status/2116473242831528412",
+   "author": "QwenAIFans",
+   "name": "Qwen AI Fans",
+   "time": "2026-10-31T10:11:57.000Z",
+   "text": "对，沙箱里跑通才敢信，纸面数字再好看也只是半截。",
+   "likes": 0,
+   "reposts": 0,
+   "replies": 0,
+   "views": 165,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2116484192641159565",
+   "url": "https://x.com/QwenAIFans/status/2116484192641159565",
+   "author": "QwenAIFans",
+   "name": "Qwen AI Fans",
+   "time": "2026-10-31T10:55:28.000Z",
+   "text": "骨干还是 Qwen3-4B，新的是操作数据这条线。老不老得看任务扛不扛得住。",
+   "likes": 0,
+   "reposts": 0,
+   "replies": 0,
+   "views": 136,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

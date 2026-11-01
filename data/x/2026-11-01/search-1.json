@@ -1,0 +1,80 @@
+{
+ "page": "https://x.com/search?q=url%3Aarxiv.org%20min_faves%3A100%20-filter%3Areplies%20since%3A2026-10-31&src=typed_query",
+ "collected_at": "2026-11-01T00:51:00.857Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2116579703524032846",
+   "url": "https://x.com/pengding00/status/2116579703524032846",
+   "author": "pengding00",
+   "name": "Peng Ding",
+   "time": "2026-10-31T17:15:00.000Z",
+   "text": "终于，我的“线性模型”书的实体书到了......一些同事告诉我，在人工智能时代仍然需要书籍。 arXiv 版本： \nhttps://\narxiv.org/abs/2401.00649",
+   "likes": 206,
+   "reposts": 26,
+   "replies": 1,
+   "views": 5210,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2401.00649"
+   ]
+  },
+  {
+   "id": "2116625472465650002",
+   "url": "https://x.com/chloeallegra228/status/2116625472465650002",
+   "author": "chloeallegra228",
+   "name": "square",
+   "time": "2026-10-31T20:16:52.000Z",
+   "text": "图形代数几何\n\n我对这部电影兴奋得不合理。",
+   "likes": 202,
+   "reposts": 25,
+   "replies": 12,
+   "views": 8822,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org 图示代数几何：从理想与簇到量子演算 我们介绍图形代数几何（GAG），这是一类图解语言，扩展了图形线性代数程序。我们在这个语系内构建了几种语言，并证明......",
+   "links": []
+  },
+  {
+   "id": "2116454358988595273",
+   "url": "https://x.com/HildeKuehne/status/2116454358988595273",
+   "author": "HildeKuehne",
+   "name": "Hilde Kuehne",
+   "time": "2026-10-31T08:56:55.000Z",
+   "text": "新论文提醒  如何构建循环 VLM ...\n\n我们通过简单的修剪后循环策略，将现有的预训练 VLM 转化为循环模型。\n  纸张： \nhttps://\narxiv.org/abs/2610.22075\n 项目页面： \nhttps://\nmadhavesdios.github.io/recurrent-vlms",
+   "likes": 140,
+   "reposts": 14,
+   "replies": 3,
+   "views": 6539,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org 从预训练骨干链中改造循环视觉语言模型 最新研究表明，深度重现可以被后期适应到预训练的语言模型中。在本研究中，我们将这一范式应用于视觉理解，利用深度重现来减少......",
+   "links": [
+    "https:// arxiv.org/abs/2610.22075",
+    "https:// madhavesdios.github.io/recurrent-vlms"
+   ]
+  },
+  {
+   "id": "2116541758175662572",
+   "url": "https://x.com/0xSmartContract/status/2116541758175662572",
+   "author": "0xSmartContract",
+   "name": "Smart Contract",
+   "time": "2026-10-31T14:44:13.000Z",
+   "text": "",
+   "likes": 195,
+   "reposts": 23,
+   "replies": 14,
+   "views": 23941,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https://arxiv.org/pdf/2606.05608v1…"
+   ]
+  }
+ ]
+}

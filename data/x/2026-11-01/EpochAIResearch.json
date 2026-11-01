@@ -1,0 +1,43 @@
+{
+ "page": "https://x.com/EpochAIResearch",
+ "collected_at": "2026-11-01T00:49:29.574Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2116254070944170440",
+   "url": "https://x.com/EpochAIResearch/status/2116254070944170440",
+   "author": "EpochAIResearch",
+   "name": "Epoch AI",
+   "time": "2026-10-30T19:41:03.000Z",
+   "text": "自 2023 年以来，大型语言模型（LLM）在生物学预印本中的使用量呈指数增长。三年内，承认 LLM 使用的预印本比例几乎与承认专业 AI 工具使用的比例持平，分别为 17%，而 9 月份为 19%。",
+   "likes": 167,
+   "reposts": 26,
+   "replies": 9,
+   "views": 9932,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2116254083485233226",
+   "url": "https://x.com/EpochAIResearch/status/2116254083485233226",
+   "author": "EpochAIResearch",
+   "name": "Epoch AI",
+   "time": "2026-10-30T19:41:06.000Z",
+   "text": "Read the full Data Insight and methodology from \n@tara_abrishami\n: \nhttps://\nepoch.ai/data-insights/\nbiorxiv-llms-vs-ai-tools\n…\n\nOur new AI use in research explorer tracks LLM use acknowledgments in preprints in biology, physics, statistics, and math. Acknowledgments of LLM use are increasing across all fields.",
+   "likes": 11,
+   "reposts": 2,
+   "replies": 1,
+   "views": 2183,
+   "context": "",
+   "quoted": "",
+   "card": "LLM use is acknowledged almost as often as specialized AI tools in biology preprints",
+   "links": [
+    "https:// epoch.ai/data-insights/ biorxiv-llms-vs-ai-tools …"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "page": "https://x.com/search?q=url%3Ahuggingface.co%20min_faves%3A100%20-filter%3Areplies%20since%3A2026-10-31&src=typed_query",
+ "collected_at": "2026-11-01T00:51:12.030Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 2,
+ "posts": [
+  {
+   "id": "2116618294090437055",
+   "url": "https://x.com/aisearchio/status/2116618294090437055",
+   "author": "aisearchio",
+   "name": "AI Search",
+   "time": "2026-10-31T19:48:20.000Z",
+   "text": "MOSS 图像生成和编辑都在同一个模型中。\n\n而且速度非常快。只需两步，几秒钟内就能生成图像。\n\n \nhttps://\nhuggingface.co/akhaliq/MOSS-I\nmage-IDM-2-Steps\n…",
+   "likes": 213,
+   "reposts": 15,
+   "replies": 5,
+   "views": 7780,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/akhaliq/MOSS-I mage-IDM-2-Steps …"
+   ]
+  },
+  {
+   "id": "2116461419046592787",
+   "url": "https://x.com/QwenAIFans/status/2116461419046592787",
+   "author": "QwenAIFans",
+   "name": "Qwen AI Fans",
+   "time": "2026-10-31T09:24:58.000Z",
+   "text": "Microsoft 开源 4B 计算机操作员，骨干 Qwen3-4B\n\nMage-VL-Cowork：点击鼠标或打开终端。OSWorld 大约是 66%，超过了 Qwen3.6-27B，后者几乎是 Qwen 的 7 倍。大约 9.5GB，Apache-2.0。\n\n友情提示：需要启用 trust_remote_code，快进去",
+   "likes": 135,
+   "reposts": 16,
+   "replies": 6,
+   "views": 7125,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

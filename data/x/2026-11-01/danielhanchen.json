@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/danielhanchen",
+ "collected_at": "2026-11-01T00:48:53.117Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2116341441610092932",
+   "url": "https://x.com/danielhanchen/status/2116341441610092932",
+   "author": "danielhanchen",
+   "name": "Daniel Han",
+   "time": "2026-10-31T01:28:14.000Z",
+   "text": "我们所有基准都跑 128K——LCB 和 Aider 都完成了——结果更加明显",
+   "likes": 83,
+   "reposts": 8,
+   "replies": 11,
+   "views": 9688,
+   "context": "",
+   "quoted": "我们注意到 Unsloth 最近发布的比较结果与 DeepSeek-V4.1-Flash-1017 的结果不一致。所以如果还不明显的话：我们当然没有修改任何超参数来支持我们的模型。我们使用了适合该模型的标准设置",
+   "card": "",
+   "links": []
+  }
+ ]
+}

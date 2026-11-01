@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/AnthropicAI",
+ "collected_at": "2026-11-01T00:45:28.400Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2116349211549843666",
+   "url": "https://x.com/AnthropicAI/status/2116349211549843666",
+   "author": "AnthropicAI",
+   "name": "Anthropic",
+   "time": "2026-10-31T01:59:06.000Z",
+   "text": "新的人类研究：自动化微妙的涌现错位研究。\n\n红队是模型安全测试的重要组成部分，但也受限于研究人员的时间。为了验证是否能实现自动化，我们让成千上万的 Claude 代理执行规避训练数据的任务",
+   "likes": 3492,
+   "reposts": 640,
+   "replies": 528,
+   "views": 449971,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "page": "https://x.com/testingcatalog/status/2116500778814697819",
+ "collected_at": "2026-11-01T00:53:37.238Z",
+ "logged_in": true,
+ "thread_of": "2116500778814697819",
+ "hours": 30,
+ "found_on_page": 34,
+ "posts": [
+  {
+   "id": "2116500778814697819",
+   "url": "https://x.com/testingcatalog/status/2116500778814697819",
+   "author": "testingcatalog",
+   "name": "AI News | TestingCatalog",
+   "time": "2026-10-31T12:01:23.000Z",
+   "text": "Rock Matrix 拥有开源的 EdgeRock-4B，这是一个小型文本和图像推理模型，具有固定容量的内存。\n\nEdgeRock-4B 通过完整保存最后 1,024 个代币，并将重要的旧信息保存到独立银行，从而保持对 KV 缓存的关注。\n\n标准语言模型会记录它们读取的每一个令牌，因此长时间的聊天和推理会随着时间占用更多 GPU 内存。\n\nRock Matrix 报告称，AIME 2024–2026 的平均 pass@1 为 82.9%，而其测试的最强有界状态模型为 18.8%。",
+   "likes": 101,
+   "reposts": 19,
+   "replies": 63,
+   "views": 0,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2116500789523067095",
+   "url": "https://x.com/testingcatalog/status/2116500789523067095",
+   "author": "testingcatalog",
+   "name": "AI News | TestingCatalog",
+   "time": "2026-10-31T12:01:25.000Z",
+   "text": "EdgeRock-4B 也在笔记本上本地运行。在 MacBook Pro（M5 Pro，28GB 内存）上，Mac GPU 上运行 Rock Matrix 的 PyTorch 运行时，它一步步解决了 17 × 23 个问题，4.6 秒后开始接听，每秒产生大约 9 个令牌。",
+   "likes": 9,
+   "reposts": 1,
+   "replies": 5,
+   "views": 3426,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2116500794715320616",
+   "url": "https://x.com/testingcatalog/status/2116500794715320616",
+   "author": "testingcatalog",
+   "name": "AI News | TestingCatalog",
+   "time": "2026-10-31T12:01:26.000Z",
+   "text": "EdgeRock-4B 基于 Qwen3.5-4B，其八个全注意力层转换为固定容量历史设计，结合了重复状态、本地注意力和岩石记忆锚点（RMA），用于检索选定的远距离细节。\n\n其注意力 KV 缓存上限为 72",
+   "likes": 8,
+   "reposts": 1,
+   "replies": 0,
+   "views": 2448,
+   "context": "",
+   "quoted": "",
+   "card": "GitHub - rockmatrix-ai/EdgeRock: EdgeRock: Strong Reasoning at Constant Memory. Multimodal models...",
+   "links": []
+  }
+ ]
+}

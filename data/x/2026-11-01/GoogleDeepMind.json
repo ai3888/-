@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/GoogleDeepMind",
+ "collected_at": "2026-11-01T00:45:34.201Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2116524000977285321",
+   "url": "https://x.com/GoogleDeepMind/status/2116524000977285321",
+   "author": "GoogleDeepMind",
+   "name": "Google DeepMind",
+   "time": "2026-10-31T13:33:39.000Z",
+   "text": "We built PlanAssist to help UK Government planning officers speed up building and renovations across the country.\n\nBuilt with Gemini, it has shown it can cut the time planning officers spend assessing householder applications by up to 58%. It is now being made available to 12",
+   "likes": 917,
+   "reposts": 184,
+   "replies": 236,
+   "views": 88265,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/giffmana",
+ "collected_at": "2026-11-01T00:47:15.432Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2116599971176935519",
+   "url": "https://x.com/giffmana/status/2116599971176935519",
+   "author": "giffmana",
+   "name": "Lucas Beyer (bl16)",
+   "time": "2026-10-31T18:35:32.000Z",
+   "text": "I like to think that i know reasonably well what to expect from floats on gpus, but the consistency in this one still surprised me!",
+   "likes": 201,
+   "reposts": 9,
+   "replies": 12,
+   "views": 13838,
+   "context": "",
+   "quoted": "1/4 New writeup: you can fingerprint the exact GPU you're running on with a default torch.index_add_ call, even among identical GPUs. This works because floating-point maths depends on order, and every GPU has its own. This fingerprint survives reboots and can't be faked.",
+   "card": "",
+   "links": []
+  }
+ ]
+}

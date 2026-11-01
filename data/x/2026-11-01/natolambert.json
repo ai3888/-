@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/natolambert",
+ "collected_at": "2026-11-01T00:47:33.631Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2116271281351881120",
+   "url": "https://x.com/natolambert/status/2116271281351881120",
+   "author": "natolambert",
+   "name": "Nathan Lambert",
+   "time": "2026-10-30T20:49:26.000Z",
+   "text": "Was reading the score-centering RL paper to add some notes on it the my book, and they have a great table in the appendix on the different importance sampling based train-inference mismatch methods in RL. These have been the biggest focus of RL algorithm research since the GRPO",
+   "likes": 421,
+   "reposts": 35,
+   "replies": 31,
+   "views": 22376,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2116271282786296204",
+   "url": "https://x.com/natolambert/status/2116271282786296204",
+   "author": "natolambert",
+   "name": "Nathan Lambert",
+   "time": "2026-10-30T20:49:26.000Z",
+   "text": "",
+   "likes": 18,
+   "reposts": 0,
+   "replies": 0,
+   "views": 3003,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org Score Centering Stabilizes Off-policy Reinforcement Learning Reinforcement learning (RL) of large language models is notoriously sensitive to small differences between training and inference",
+   "links": []
+  }
+ ]
+}
