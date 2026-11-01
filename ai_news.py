@@ -493,8 +493,8 @@ def source_label(item):
         return extra.get("feed", "博客")
     if item["source"] == "youtube":
         return f"油管 {extra.get('channel', '')}".strip()
-    if item["source"] == "x":
-        return f"X @{extra.get('handle', '')}"
+    if item["source"] == "x":  # X 整体算一个来源，和 Hacker News 一样；显示时再带上账号名
+        return "X"
     return SOURCE_NAMES.get(item["source"], item["source"])
 
 
@@ -612,6 +612,10 @@ def hot_topics(entries, limit):
 
     for i, a in enumerate(pool):
         for b in pool[i + 1:]:
+            # X 的帖子比标题长得多，两条帖子之间很容易碰巧共享几个普通词，所以 X 和 X 之间不配对，
+            # 只看 X 上的帖子和别的来源是不是在说同一件事。X 上自己的热度看「X 上互动最多的帖子」
+            if a["source"] == "x" and b["source"] == "x":
+                continue
             if same_topic(terms[a["key"]], terms[b["key"]]):
                 parent[find(a["key"])] = find(b["key"])
     groups = {}
@@ -656,7 +660,9 @@ def fmt_entry(e, summary_chars=300):
         facts.append(f"{'浏览' if e['source'] == 'x' else '播放'} {m['views']:,}")
     if e["published"]:
         facts.append(f"发布于 {e['published'].astimezone(BEIJING):%m-%d %H:%M}")
-    lines = [f"- [{md_title(e['title'])}]({e['url']}) — 来源：{'、'.join(e['sources'])}"
+    sources = [f"X @{e['extra']['handle']}" if s == "X" and e.get("extra", {}).get("handle") else s
+               for s in e["sources"]]
+    lines = [f"- [{md_title(e['title'])}]({e['url']}) — 来源：{'、'.join(sources)}"
              + (f"（{'，'.join(facts)}）" if facts else "")]
     extra = e.get("extra", {})
     if (disc := extra.get("discussion")) and disc != e["url"]:
