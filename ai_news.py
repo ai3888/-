@@ -353,12 +353,23 @@ def to_count(v):
     return int(float(m.group(1)) * {"k": 1e3, "m": 1e6, "万": 1e4}.get(m.group(2).lower(), 1)) if m else 0
 
 
+def x_post_id(p):
+    """帖子编号和作者。DeepSeek 自己抄的时候可能只写了网址，或者账号名前面带了 @。"""
+    m = re.search(r"(?:x|twitter)\.com/([^/?#]+)/status/(\d+)", str(p.get("url") or ""))
+    pid = str(p.get("id") or (m and m.group(2)) or "")
+    handle = str(p.get("author") or (m and m.group(1)) or "").lstrip("@")
+    return (pid, handle) if pid.isdigit() and handle else (None, None)
+
+
 def fetch_x(cfg, since):
     """读 DeepSeek 用 ego 浏览器从 X 上抓下来的帖子。
 
     X 没有免费接口，GitHub 的服务器也上不了 X，所以不在这里抓：DeepSeek 在你自己的电脑上抓好，
-    存成 data/x/日期/*.json（x_extract.js 的输出）或 data/x/日期.json，推到仓库，这里只读文件。
-    同一条帖子在几个文件里出现时，取数字最大的那次（越晚抓，点赞越多）。
+    存成 data/x/日期/*.json（x_extract.js 的输出），推到仓库，这里只读文件。
+    - _picks.json：DeepSeek 按内容质量挑出来、打过分的帖子。有这个文件时，只用挑中的帖子
+    - thread-编号.json：长帖串的全文，接到第一条帖子后面
+    - _skip.json：旧版任务标出来的无关帖子（没有 _picks.json 时才用）
+    同一条帖子在几个文件里出现时，数字取最大的，正文取最长的。
     """
     first_day = (since.astimezone(BEIJING).date() - timedelta(days=1)).isoformat()  # 文件按抓取那天命名
     dated = sorted(p for p in X_DIR.glob("*") if X_DATE.fullmatch(p.name.removesuffix(".json")))
@@ -369,45 +380,67 @@ def fetch_x(cfg, since):
         raise ValueError(f"最近没有新数据，最新的是 {dated[-1].name}：DeepSeek 没跑，或者跑完没推送到仓库")
     files = [f for p in recent for f in (sorted(p.glob("*.json")) if p.is_dir() else [p])]
 
-    skip, posts, bad, not_logged_in = set(), {}, [], 0
+    picks, pick_files, skip, posts, threads, bad, not_logged_in = {}, 0, set(), {}, {}, [], 0
     for f in files:
         try:
             data = json.loads(f.read_text(encoding="utf-8"))
         except (OSError, ValueError):
             bad.append(str(f.relative_to(X_DIR)))
             continue
-        if f.name == "_skip.json":  # DeepSeek 标出来的无关帖子、广告和引流帖
+        if f.name == "_picks.json":
+            pick_files += 1
+            for r in data if isinstance(data, list) else []:
+                pid = str(r.get("id") or "") if isinstance(r, dict) else ""
+                score = min(to_count(r.get("score")), 5) if pid.isdigit() else 0
+                if score and score > picks.get(pid, {}).get("score", 0):
+                    picks[pid] = {"score": score, "type": clean_text(str(r.get("type") or ""), 20),
+                                  "why": clean_text(str(r.get("why") or ""), 300)}
+            continue
+        if f.name == "_skip.json":
             ids = data.get("ids") if isinstance(data, dict) else data
             skip.update(str(x) for x in (ids if isinstance(ids, list) else []))
             continue
         if isinstance(data, dict) and data.get("logged_in") is False:
             not_logged_in += 1
+        thread_of = str(data.get("thread_of") or "") if isinstance(data, dict) else ""
         rows = data.get("posts") if isinstance(data, dict) else data
         for p in rows if isinstance(rows, list) else []:
-            if not isinstance(p, dict):
+            pid, handle = x_post_id(p) if isinstance(p, dict) else (None, None)
+            if pid is None:
                 continue
-            m = re.search(r"(?:x|twitter)\.com/([^/?#]+)/status/(\d+)", str(p.get("url") or ""))
-            pid = str(p.get("id") or (m and m.group(2)) or "")
-            handle = str(p.get("author") or (m and m.group(1)) or "").lstrip("@")
-            if not pid.isdigit() or not handle:
+            if thread_of and pid != thread_of:  # 长帖串后面的几条，最后接到第一条后面
+                threads.setdefault(thread_of, {})[pid] = (p, handle)
                 continue
             metrics = {k: to_count(p.get(k)) for k in ("likes", "reposts", "replies", "views")}
-            old = posts.get(pid)
-            if old is None or sum(metrics.values()) > sum(old[1].values()):
-                posts[pid] = (p, metrics, handle)
+            if (old := posts.get(pid)) is not None:
+                metrics = {k: max(v, old[1][k]) for k, v in metrics.items()}
+                if len(str(old[0].get("text") or "")) > len(str(p.get("text") or "")):
+                    p = {**p, "text": old[0]["text"]}  # 主页上的长帖会被截断，帖子页面上的才是全文
+            posts[pid] = (p, metrics, handle)
 
+    for main_id, parts in threads.items():
+        if main_id not in posts:
+            continue
+        p, metrics, handle = posts[main_id]
+        tail = [str(q.get("text") or "").strip() for q, h in sorted(parts.values(), key=lambda x: str(x[0].get("time")))
+                if h.lower() == handle.lower()]
+        if tail := [t for t in tail if t]:
+            posts[main_id] = ({**p, "text": "\n\n".join([str(p.get("text") or "").strip()] + tail)}, metrics, handle)
+
+    use_picks = pick_files > 0
     min_likes = cfg.get("min_likes", 0)
     items, undated, low = [], 0, 0
     for pid, (p, metrics, handle) in posts.items():
-        if pid in skip:
+        if (pid not in picks) if use_picks else (pid in skip):
             continue
         published = parse_time(str(p.get("time") or ""))
         if published is None:  # 没有发布时间就判断不了是不是最近的
             undated += 1
             continue
-        if metrics["likes"] < min_likes:
+        if not use_picks and metrics["likes"] < min_likes:
             low += 1
             continue
+        pick = picks.get(pid, {})
         text = str(p.get("text") or "").strip()
         title = " ".join(text.split())[:140] or clean_text(str(p.get("card") or ""), 140) or "（只有图片或视频）"
         items.append(make_item(
@@ -415,12 +448,18 @@ def fetch_x(cfg, since):
             text.replace("<", "＜"), metrics, handle=handle, name=clean_text(str(p.get("name") or ""), 80),
             context=clean_text(str(p.get("context") or ""), 80), quoted=clean_text(str(p.get("quoted") or ""), 300),
             card=clean_text(str(p.get("card") or ""), 200),
-            links="、".join(clean_text(str(x), 120) for x in (p.get("links") or [])[:5] if x)))
+            links="、".join(clean_text(str(x), 120) for x in (p.get("links") or [])[:5] if x),
+            x_score=pick.get("score"), x_type=pick.get("type"), x_why=pick.get("why"),
+            thread=len(threads.get(pid, {}))))
 
-    skipped = [f"{label} {n} 条" for label, n in (("DeepSeek 标为无关的", len(skip & posts.keys())),
-                                                 (f"点赞不到 {min_likes} 的", low), ("没有发布时间的", undated)) if n]
-    notes = [f"{len(files)} 个文件（最新的是 {dated[-1].name}），{len(posts)} 条帖子"
-             + (f"，已跳过：{'、'.join(skipped)}" if skipped else "")]
+    if use_picks:
+        summary = f"DeepSeek 按内容质量挑出 {sum(1 for i in items if i['extra'].get('x_score'))} 条"
+    else:
+        dropped = [f"{label} {n} 条" for label, n in (("DeepSeek 标为无关的", len(skip & posts.keys())),
+                                                     (f"点赞不到 {min_likes} 的", low)) if n]
+        summary = "⚠️ DeepSeek 没有打分（没有 _picks.json），按点赞数排序" + (f"，已跳过：{'、'.join(dropped)}" if dropped else "")
+    notes = [f"{len(files)} 个文件（最新的是 {dated[-1].name}），{len(posts)} 条帖子，{summary}"]
+    notes += [f"没有发布时间的 {undated} 条"] if undated else []
     notes += [f"⚠️ {not_logged_in} 个页面没登录 X"] if not_logged_in else []
     notes += [f"⚠️ 不是有效的 JSON：{'、'.join(bad[:3])}" + (f" 等 {len(bad)} 个" if len(bad) > 3 else "")] if bad else []
     if not posts and (bad or not_logged_in):
@@ -575,9 +614,14 @@ def heat(e):
 
 
 def x_heat(e):
-    """X 上的互动数，只用来给 X 的帖子排序（和 HN 分数不是一个量级，不混在一起比）。"""
+    """X 上的互动数，只在 DeepSeek 没打分时给 X 的帖子排序（和 HN 分数不是一个量级，不混在一起比）。"""
     m = e["metrics"]
     return (m.get("likes") or 0) + (m.get("reposts") or 0) + (m.get("replies") or 0)
+
+
+def x_rank(e):
+    """先看 DeepSeek 按内容质量打的分，同分再看互动数。"""
+    return (e.get("extra", {}).get("x_score") or 0, x_heat(e))
 
 
 def is_specific(term):
@@ -669,8 +713,11 @@ def fmt_entry(e, summary_chars=300):
         lines.append(f"  - HN 讨论：{disc}")
     if extra.get("github"):
         lines.append(f"  - 代码：{extra['github']}")
+    if extra.get("x_score"):
+        lines.append(f"  - DeepSeek 的判断：{extra.get('x_type') or '未分类'}，{extra['x_score']}/5 分。{extra.get('x_why', '')}")
     if e["summary"] and e["summary"] != e["title"]:
-        lines.append(f"  - {'原文' if e['source'] == 'x' else '简介'}：{e['summary'][:summary_chars]}")
+        label = ("原文（整串帖子）" if extra.get("thread") else "原文") if e["source"] == "x" else "简介"
+        lines.append(f"  - {label}：{e['summary'][:summary_chars]}")
     if e["source"] == "x":
         for key, label in (("context", "X 上的标注"), ("quoted", "引用的帖子"), ("card", "附带的链接卡片"),
                            ("links", "帖子里的链接")):
@@ -748,7 +795,7 @@ def build_digest(cfg, items, statuses, radar, seen):
                            and not e["title"].lower().startswith("show hn")),
                           key=heat, reverse=True)[: dcfg.get("max_hot_single", 8)])
     x_posts = take(sorted((e for e in entries if e["source"] == "x" and e["key"] not in in_clusters),
-                          key=x_heat, reverse=True)[: dcfg.get("max_x", 10)])
+                          key=x_rank, reverse=True)[: dcfg.get("max_x", 12)])
     limit = dcfg.get("max_per_section", 10)
     official = take(sorted((e for e in entries if e.get("extra", {}).get("kind") == "official"),
                            key=lambda e: e["published"] or NOW, reverse=True)[:limit])
@@ -790,9 +837,11 @@ def build_digest(cfg, items, statuses, radar, seen):
     for e in singles:
         out += fmt_entry(e, 200)
     if (x_status := next((s for s in statuses if s["name"].startswith("X（")), None)) is not None:
-        out += ["", "### X 上互动最多的帖子（DeepSeek 用 ego 浏览器抓取，按点赞、转发、回复数排序）", ""]
+        scored = any(e["extra"].get("x_score") for e in x_posts)
+        out += ["", "### X 上值得看的（DeepSeek 按内容质量挑出来的，按评分排序，不看点赞数）" if scored else
+                "### X 上互动最多的帖子（DeepSeek 今天没有按质量打分，只按点赞、转发、回复数排序，质量没有把关）", ""]
         for e in x_posts:
-            out += fmt_entry(e, 300)
+            out += fmt_entry(e, 800 if scored else 300)
         if not x_posts:
             out += ["今天没有。" if x_status["ok"] else f"今天没拿到 X 的数据：{x_status['error']}"]
     out += ["", "## 素材二：新东西", "", "### 官方发布", ""]

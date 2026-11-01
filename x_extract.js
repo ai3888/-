@@ -1,10 +1,12 @@
 // 在 x.com 的页面里执行这段代码（列表、账号主页、搜索结果都行），返回这个页面上最近的帖子（JSON 文字）。
+// 在单条帖子的页面（x.com/账号/status/编号）上执行时，返回这条帖子和作者自己接在后面的整串内容（长帖串）。
 // 给 DeepSeek 用：用 ego 浏览器打开页面后，在页面里执行整段代码，把返回的文字原样存成文件。详见 x_task.md。
 // 代码会自己往下翻几屏，只读页面，不点任何按钮。点赞、转发、回复、浏览数取自按钮的无障碍标签，界面是中文还是英文都能认。
 (async () => {
   const HOURS = 30;                // 只要最近多少小时内发的帖子（每天跑一次，多留几个小时余量）
   const MAX_SCROLLS_LIST = 15;     // 列表里账号多、帖子多，多翻几屏
   const MAX_SCROLLS_OTHER = 3;     // 账号主页和搜索结果
+  const MAX_SCROLLS_THREAD = 5;    // 单条帖子的页面：往下翻，把作者的整串帖子读完
 
   const cutoff = Date.now() - HOURS * 3600 * 1000;
   const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -58,7 +60,10 @@
   // 等帖子加载出来（最多 15 秒）
   for (let i = 0; i < 30 && !articles().length; i++) await sleep(500);
 
-  const maxScrolls = location.pathname.includes('/lists/') ? MAX_SCROLLS_LIST : MAX_SCROLLS_OTHER;
+  const status = location.pathname.match(/^\/([^/]+)\/status\/(\d+)/);
+  const threadOf = status ? status[2] : '';
+  const maxScrolls = status ? MAX_SCROLLS_THREAD
+    : location.pathname.includes('/lists/') ? MAX_SCROLLS_LIST : MAX_SCROLLS_OTHER;
   const seen = new Map();
   for (let i = 0; ; i++) {
     let fresh = 0;
@@ -79,11 +84,15 @@
     }
   }
 
-  const posts = [...seen.values()].filter((p) => Date.parse(p.time) >= cutoff);
+  // 帖子页面上只留作者本人的（别人的回复不要），不按时间筛；其他页面只留最近的
+  const posts = [...seen.values()].filter((p) => status
+    ? p.author.toLowerCase() === status[1].toLowerCase()
+    : Date.parse(p.time) >= cutoff);
   return JSON.stringify({
     page: location.href,
     collected_at: new Date().toISOString(),
     logged_in: loggedIn(),
+    thread_of: threadOf || undefined,
     hours: HOURS,
     found_on_page: seen.size,
     posts,

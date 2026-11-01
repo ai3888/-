@@ -8,7 +8,7 @@ lookback_hours = 48   # 只收最近多少小时内发布的内容（留出余�
 cooldown_days = 7     # 前几天的素材里出现过的内容，多少天内不再放
 max_hot_topics = 10   # 「多个来源同时提到的话题」最多几个
 max_hot_single = 8    # 「只在一个地方出现、但很热的讨论」最多几条
-max_x = 10            # 「X 上互动最多的帖子」最多几条
+max_x = 12            # 「X 上值得看的」最多几条
 max_per_section = 10  # 新东西里每一小类最多几条
 max_papers = 12       # 论文最多几篇
 
@@ -72,26 +72,44 @@ channels = [
 [x]
 enabled = true
 lookback_hours = 48   # 只用最近多少小时内发的帖子
-min_likes = 10        # 点赞少于这个数的不放进素材
+min_likes = 10        # 只在 DeepSeek 没打分的时候用：点赞少于这个数的不放进素材
+# 你最关心的方向。DeepSeek 按内容质量给帖子打分时，和这些方向越相关分越高。按自己的需要改
+focus = [
+  "新模型和训练方法（预训练、强化学习、推理能力）",
+  "Agent 和 AI 编程",
+  "开源模型、推理部署和端侧模型",
+  "评测和基准",
+  "可解释性和安全研究",
+]
 # 最省事的办法：在 X 上建一个列表（List），把想看的账号都加进去，把列表网址填在这里。
 # 填了列表，DeepSeek 就只看列表，不再一个个打开下面的账号：快很多，花的 token 少，也不容易被 X 限流
 lists = []            # 例如 ["https://x.com/i/lists/1234567890"]
+# 选账号的原则：发一手内容、讲技术细节的人优先；只发观点、口号和宣传的不要
 accounts = [
-  # 官方
-  "OpenAI", "AnthropicAI", "GoogleDeepMind", "AIatMeta", "MistralAI", "xai",
-  "deepseek_ai", "Alibaba_Qwen", "Kimi_Moonshot", "huggingface", "OpenRouterAI", "cursor_ai",
-  # 研究者和工程师
-  "karpathy", "sama", "demishassabis", "ylecun", "AndrewYNg", "JeffDean", "OfficialLoganK", "DrJimFan",
-  "ClementDelangue", "simonw", "swyx", "natolambert", "rasbt", "emollick",
-  # 论文、榜单和爆料
-  "_akhaliq", "omarsar0", "lmarena_ai", "ArtificialAnlys", "testingcatalog",
+  # 一手发布：实验室和研究机构（新模型、新论文的原始出处）
+  "OpenAI", "AnthropicAI", "GoogleDeepMind", "GoogleResearch", "AIatMeta", "allen_ai",
+  "deepseek_ai", "Alibaba_Qwen", "Kimi_Moonshot", "MistralAI",
+  # 研究者：自己做研究、会讲技术细节的人
+  "karpathy", "_jasonwei", "polynoamial", "srush_nlp", "tri_dao", "giffmana", "YiTayML",
+  "natolambert", "rasbt", "NeelNanda5", "fchollet", "sainingxie", "DrJimFan", "JeffDean",
+  # 论文速递
+  "_akhaliq", "arankomatsuzaki", "omarsar0",
+  # 开源和工程实践
+  "simonw", "danielhanchen", "ggerganov", "reach_vb", "swyx",
+  # 评测和行业数据
+  "EpochAIResearch", "ArtificialAnlys", "lmarena_ai",
+  # 产品动态（只留有具体信息的）
+  "testingcatalog",
   # 中文
-  "dotey", "op7418",
+  "dotey",
 ]
-# X 搜索，写法和 X 搜索框一样（min_faves 是至少多少赞）。DeepSeek 会自动加上 since:昨天的日期
+# X 搜索，写法和 X 搜索框一样，DeepSeek 会自动加上 since:昨天的日期。
+# 不按关键词搜热门帖（那样搜出来大多是梗和口水），而是搜「分享了论文、模型、代码」的帖子：
+# url:arxiv.org 是帖子里带 arXiv 论文链接，min_faves 是至少多少赞（只用来去掉没人看的）
 searches = [
-  '(LLM OR "AI model" OR "open source model" OR "open weights") min_faves:1000 -filter:replies',
-  '(大模型 OR 开源模型 OR 智能体 OR AI) lang:zh min_faves:300 -filter:replies',
+  "url:arxiv.org min_faves:100 -filter:replies",
+  "url:huggingface.co min_faves:100 -filter:replies",
+  "url:github.com (LLM OR agent OR model OR inference OR training) min_faves:200 -filter:replies",
 ]
 
 # ---------------------------------------------------------------- 博客和 Newsletter（RSS）
