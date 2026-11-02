@@ -1,0 +1,58 @@
+{
+ "page": "https://x.com/MistralAI/status/2117229259425038344",
+ "collected_at": "2026-11-02T14:42:29.847Z",
+ "logged_in": true,
+ "thread_of": "2117229259425038344",
+ "hours": 30,
+ "found_on_page": 27,
+ "posts": [
+  {
+   "id": "2117229259425038344",
+   "url": "https://x.com/MistralAI/status/2117229259425038344",
+   "author": "MistralAI",
+   "name": "Mistral AI",
+   "time": "2026-11-02T12:16:06.000Z",
+   "text": "We asked Mistral Large 4 to show what happens when you break a molecule. \n\nWith a short prompt, it wrote a quantum chemistry SCF solver from scratch, validated its output, and built a 3D view around it. \n\nLe Chonk also understand chemistry enough to independently choose how to break the molecule and what orbitals to show, without further input.",
+   "likes": 671,
+   "reposts": 92,
+   "replies": 69,
+   "views": 0,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117229262679797822",
+   "url": "https://x.com/MistralAI/status/2117229262679797822",
+   "author": "MistralAI",
+   "name": "Mistral AI",
+   "time": "2026-11-02T12:16:07.000Z",
+   "text": "Step : the solver:\nIt computes single-electron orbitals, which predict where electrons can be found. \n\nStep : the visualisation. \nDrag the slider: the bond fades, the orbitals split onto the two fragments, the energy climbs. You watch the molecule break.",
+   "likes": 56,
+   "reposts": 0,
+   "replies": 3,
+   "views": 4626,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117229264915349673",
+   "url": "https://x.com/MistralAI/status/2117229264915349673",
+   "author": "MistralAI",
+   "name": "Mistral AI",
+   "time": "2026-11-02T12:16:07.000Z",
+   "text": "For those of us who don’t do quantum chemistry before coffee : \n\nthis is how chemists predict how a molecule behaves on a computer, before testing it in a lab. It’s a first step toward new drugs, materials or batteries. \n\nLe Chonk wrote the tool from scratch, and it gets the",
+   "likes": 57,
+   "reposts": 0,
+   "replies": 3,
+   "views": 3895,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

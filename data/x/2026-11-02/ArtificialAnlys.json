@@ -1,8 +1,41 @@
 {
  "page": "https://x.com/ArtificialAnlys",
- "collected_at": "2026-11-02T02:36:25.335Z",
+ "collected_at": "2026-11-02T14:40:19.887Z",
  "logged_in": true,
  "hours": 30,
- "found_on_page": 6,
- "posts": []
+ "found_on_page": 8,
+ "posts": [
+  {
+   "id": "2117255658613735918",
+   "url": "https://x.com/ArtificialAnlys/status/2117255658613735918",
+   "author": "ArtificialAnlys",
+   "name": "Artificial Analysis",
+   "time": "2026-11-02T14:01:00.000Z",
+   "text": "We are collaborating with Silicon Data to bring market-based GPU pricing into AA-AgentPerf, our datacenter system performance benchmark\n\nOur users and partners want to know how much agent work they can support per dollar of compute. \n@silicondata\n's rental price indices allow us to",
+   "likes": 40,
+   "reposts": 10,
+   "replies": 19,
+   "views": 8710,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117255659016409365",
+   "url": "https://x.com/ArtificialAnlys/status/2117255659016409365",
+   "author": "ArtificialAnlys",
+   "name": "Artificial Analysis",
+   "time": "2026-11-02T14:01:00.000Z",
+   "text": "See more at",
+   "likes": 2,
+   "reposts": 0,
+   "replies": 0,
+   "views": 1844,
+   "context": "",
+   "quoted": "",
+   "card": "Datacenter Inference Systems | Artificial Analysis",
+   "links": []
+  }
+ ]
 }

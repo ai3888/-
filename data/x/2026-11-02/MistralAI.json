@@ -1,8 +1,41 @@
 {
  "page": "https://x.com/MistralAI",
- "collected_at": "2026-11-02T02:33:36.283Z",
+ "collected_at": "2026-11-02T14:37:27.345Z",
  "logged_in": true,
  "hours": 30,
- "found_on_page": 6,
- "posts": []
+ "found_on_page": 7,
+ "posts": [
+  {
+   "id": "2117229259425038344",
+   "url": "https://x.com/MistralAI/status/2117229259425038344",
+   "author": "MistralAI",
+   "name": "Mistral AI",
+   "time": "2026-11-02T12:16:06.000Z",
+   "text": "We asked Mistral Large 4 to show what happens when you break a molecule. \n\nWith a short prompt, it wrote a quantum chemistry SCF solver from scratch, validated its output, and built a 3D view around it. \n\nLe Chonk also understand chemistry enough to independently choose how to",
+   "likes": 652,
+   "reposts": 90,
+   "replies": 69,
+   "views": 22713,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117229262679797822",
+   "url": "https://x.com/MistralAI/status/2117229262679797822",
+   "author": "MistralAI",
+   "name": "Mistral AI",
+   "time": "2026-11-02T12:16:07.000Z",
+   "text": "Step : the solver:\nIt computes single-electron orbitals, which predict where electrons can be found. \n\nStep : the visualisation. \nDrag the slider: the bond fades, the orbitals split onto the two fragments, the energy climbs. You watch the molecule break.",
+   "likes": 55,
+   "reposts": 0,
+   "replies": 3,
+   "views": 4571,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
 }

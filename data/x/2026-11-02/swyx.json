@@ -1,59 +1,8 @@
 {
  "page": "https://x.com/swyx",
- "collected_at": "2026-11-02T02:36:12.274Z",
+ "collected_at": "2026-11-02T14:40:05.900Z",
  "logged_in": true,
  "hours": 30,
- "found_on_page": 7,
- "posts": [
-  {
-   "id": "2116773135668404286",
-   "url": "https://x.com/swyx/status/2116773135668404286",
-   "author": "swyx",
-   "name": "swyx",
-   "time": "2026-11-01T06:03:37.000Z",
-   "text": "btw \n@karpathy\n uses medium on opus 5.5 on his latest project (Hackertube launched today).\n\noverall i think having strong opinions on effort levels is like the tabs vs spaces of our time. just tweak to taste. altho mine is definitely superior to yours.",
-   "likes": 780,
-   "reposts": 67,
-   "replies": 258,
-   "views": 74969,
-   "context": "",
-   "quoted": "join me all the way on the light side guys low effort + critique loop > superultramaxhighwhatever (for the throughput-constrained; see swyxio/skills/babysit-runs) x.com/theo/status/21…",
-   "card": "",
-   "links": []
-  },
-  {
-   "id": "2116782055665402157",
-   "url": "https://x.com/swyx/status/2116782055665402157",
-   "author": "swyx",
-   "name": "swyx",
-   "time": "2026-11-01T06:39:04.000Z",
-   "text": "https://\nhackertube.org url",
-   "likes": 20,
-   "reposts": 3,
-   "replies": 2,
-   "views": 7373,
-   "context": "",
-   "quoted": "",
-   "card": "",
-   "links": [
-    "https:// hackertube.org"
-   ]
-  },
-  {
-   "id": "2116642586387730593",
-   "url": "https://x.com/swyx/status/2116642586387730593",
-   "author": "swyx",
-   "name": "swyx",
-   "time": "2026-10-31T21:24:52.000Z",
-   "text": "join me all the way on the light side guys\n\nlow effort + critique loop > superultramaxhighwhatever\n\n(for the throughput-constrained; see swyxio/skills/babysit-runs)",
-   "likes": 252,
-   "reposts": 17,
-   "replies": 208,
-   "views": 87018,
-   "context": "",
-   "quoted": "Julius convinced me to move from extra high to high on Opus 5.5 a week or two ago. He was right. This is better almost all of the time.",
-   "card": "",
-   "links": []
-  }
- ]
+ "found_on_page": 5,
+ "posts": []
 }

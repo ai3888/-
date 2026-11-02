@@ -1,0 +1,42 @@
+{
+ "page": "https://x.com/ArtificialAnlys/status/2117255658613735918",
+ "collected_at": "2026-11-02T14:42:43.460Z",
+ "logged_in": true,
+ "thread_of": "2117255658613735918",
+ "hours": 30,
+ "found_on_page": 13,
+ "posts": [
+  {
+   "id": "2117255658613735918",
+   "url": "https://x.com/ArtificialAnlys/status/2117255658613735918",
+   "author": "ArtificialAnlys",
+   "name": "Artificial Analysis",
+   "time": "2026-11-02T14:01:00.000Z",
+   "text": "We are collaborating with Silicon Data to bring market-based GPU pricing into AA-AgentPerf, our datacenter system performance benchmark\n\nOur users and partners want to know how much agent work they can support per dollar of compute. \n@silicondata\n's rental price indices allow us to report a reliable value-for-money metric, updated daily as prices change. We currently display Silicon Data indices for H100, H200, B200 and B300, tracked across cloud providers\n\nThe new metric is Throughput per $/hr, which divides the total throughput of a system and serving configuration by the hourly cost of renting that system. Among systems with available rental pricing, NVIDIA’s B300 generally leads, while B200 matches it at faster output speeds on some models\n\nNote: the below chart includes an MI355X rental rate that has been assumed by Artificial Analysis based on recent market quotes",
+   "likes": 42,
+   "reposts": 10,
+   "replies": 21,
+   "views": 0,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117255659016409365",
+   "url": "https://x.com/ArtificialAnlys/status/2117255659016409365",
+   "author": "ArtificialAnlys",
+   "name": "Artificial Analysis",
+   "time": "2026-11-02T14:01:00.000Z",
+   "text": "See more at",
+   "likes": 2,
+   "reposts": 0,
+   "replies": 0,
+   "views": 1896,
+   "context": "",
+   "quoted": "",
+   "card": "Datacenter Inference Systems | Artificial Analysis",
+   "links": []
+  }
+ ]
+}
