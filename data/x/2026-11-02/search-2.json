@@ -1,0 +1,163 @@
+{
+ "page": "https://x.com/search?q=url%3Ahuggingface.co%20min_faves%3A100%20-filter%3Areplies%20since%3A2026-11-01&src=typed_query",
+ "collected_at": "2026-11-02T02:37:25.700Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 9,
+ "posts": [
+  {
+   "id": "2117017538836226485",
+   "url": "https://x.com/EmperoAI/status/2117017538836226485",
+   "author": "EmperoAI",
+   "name": "Empero",
+   "time": "2026-11-01T22:14:48.000Z",
+   "text": "一个语音功能需要多少个参数呢？\n\nPi(co)Vo(ice)：使用两个英语发音，参数总数为 140 万个，包含语音编码模块。整个模型的大小为 5.8MB，运行在 CPU 上，无需使用 PyTorch 或 GPU 技术。\n\n \nhttps://\nhuggingface.co/empero-ai/PiVo\n-1.4M\n…",
+   "likes": 188,
+   "reposts": 24,
+   "replies": 14,
+   "views": 51848,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/empero-ai/PiVo -1.4M …"
+   ]
+  },
+  {
+   "id": "2117037283870421403",
+   "url": "https://x.com/0xSero/status/2117037283870421403",
+   "author": "0xSero",
+   "name": "0xSero",
+   "time": "2026-11-01T23:33:15.000Z",
+   "text": "Nanbeige-33B is a superb model, finally qwen competition, it seems to think less and tackles tasks very logically. \n\nI recommend if you have 24-96gb of memory, it's dense and slow, but benchmarks have it around glm-5.3 levels. \n\n\nhttps://\nhuggingface.co/Nanbeige/Nanbe\nige4.3-33B\n…",
+   "likes": 245,
+   "reposts": 6,
+   "replies": 19,
+   "views": 10888,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/Nanbeige/Nanbe ige4.3-33B …"
+   ]
+  },
+  {
+   "id": "2116848818574811464",
+   "url": "https://x.com/anya_yfa7/status/2116848818574811464",
+   "author": "anya_yfa7",
+   "name": "anya",
+   "time": "2026-11-01T11:04:22.000Z",
+   "text": "LTX 2.3 Uncensored: A 22B local AI video model\n\n→ Text to video\n→ Image to video\n→ ComfyUI support\n→ Q4_K_M model around 14GB\n\nRun video generation locally on your own hardware \n\nTry here : \nhttps://\nhuggingface.co/ChrisColeTech/\nLTX-2.3-uncensored-v1.4-FP8\n…",
+   "likes": 200,
+   "reposts": 17,
+   "replies": 8,
+   "views": 9832,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/ChrisColeTech/ LTX-2.3-uncensored-v1.4-FP8 …"
+   ]
+  },
+  {
+   "id": "2116847910323110156",
+   "url": "https://x.com/pengsonal/status/2116847910323110156",
+   "author": "pengsonal",
+   "name": "Peng",
+   "time": "2026-11-01T11:00:45.000Z",
+   "text": "FOUND ANOTHER UNCENSORED LOCAL VIDEO MODEL\n\nN F S W  SUPPORTED \n\nLTX 2.3 Uncensored:\n\n• 22B parameters\n• text to video\n• image to video\n• runs locally with ComfyUI\n• Q4_K_M is around 14GB\n\nmodel: \nhttps://\nhuggingface.co/ChrisColeTech/\nLTX-2.3-uncensored-v1.4-FP8\n…\n\ndemo are available publicly in the webpage",
+   "likes": 521,
+   "reposts": 26,
+   "replies": 12,
+   "views": 30556,
+   "context": "",
+   "quoted": "",
+   "card": "ChrisColeTech/LTX-2.3-uncensored-v1.4-FP8 · Hugging Face",
+   "links": [
+    "https:// huggingface.co/ChrisColeTech/ LTX-2.3-uncensored-v1.4-FP8 …"
+   ]
+  },
+  {
+   "id": "2116948143245824114",
+   "url": "https://x.com/coldniko/status/2116948143245824114",
+   "author": "coldniko",
+   "name": "Niko Veit",
+   "time": "2026-11-01T17:39:03.000Z",
+   "text": "Mythos leak... IQ3_S when?!?!",
+   "likes": 218,
+   "reposts": 11,
+   "replies": 16,
+   "views": 24646,
+   "context": "",
+   "quoted": "",
+   "card": "burner22/numbat · Hugging Face",
+   "links": []
+  },
+  {
+   "id": "2116983698960642237",
+   "url": "https://x.com/1red2black/status/2116983698960642237",
+   "author": "1red2black",
+   "name": "Oleg - VibeVM.org | RU",
+   "time": "2026-11-01T20:00:20.000Z",
+   "text": "Guys, it looks like you’ve got a once-in-a-lifetime chance\n\nAnthropic’s Mythos has been leaked\n\nEveryone’s going their own way, but I’m off to DNS for an 8-terabyte drive",
+   "likes": 141,
+   "reposts": 10,
+   "replies": 18,
+   "views": 29237,
+   "context": "",
+   "quoted": "",
+   "card": "burner22/numbat · Hugging Face",
+   "links": []
+  },
+  {
+   "id": "2116957766682059187",
+   "url": "https://x.com/0xCVYH/status/2116957766682059187",
+   "author": "0xCVYH",
+   "name": "CV.YH",
+   "time": "2026-11-01T18:17:17.000Z",
+   "text": "Was the Mythos model leaked?\n\nThe model has 6.8 trillion parameters..\n\n\nhttps://\nhuggingface.co/burner22/numbat",
+   "likes": 210,
+   "reposts": 5,
+   "replies": 12,
+   "views": 16202,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/burner22/numbat"
+   ]
+  },
+  {
+   "id": "2116823743549051210",
+   "url": "https://x.com/h4x0r_dz/status/2116823743549051210",
+   "author": "h4x0r_dz",
+   "name": "H4x0r.DZ",
+   "time": "2026-11-01T09:24:43.000Z",
+   "text": "",
+   "likes": 351,
+   "reposts": 25,
+   "replies": 7,
+   "views": 15790,
+   "context": "",
+   "quoted": "",
+   "card": "OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated · Hugging Face",
+   "links": []
+  },
+  {
+   "id": "2116947550435758081",
+   "url": "https://x.com/nahid_pro09/status/2116947550435758081",
+   "author": "nahid_pro09",
+   "name": "Nahid",
+   "time": "2026-11-01T17:36:41.000Z",
+   "text": "this qwen image model makes nu*des with no lora at all \n\nits free uncensored realism model, no gate, 334k downloads\n\n- nu*des and explicit scenes, no trigger word\n- one 7.3gb int8 file, 8-12gb vram\n- workflow json included, 25 steps, cfg 3\n\ntry it here:",
+   "likes": 544,
+   "reposts": 35,
+   "replies": 11,
+   "views": 29383,
+   "context": "",
+   "quoted": "",
+   "card": "Noctaluna/Noct-Q-Uncensored-Qwen-Image-2.1 · Hugging Face",
+   "links": []
+  }
+ ]
+}

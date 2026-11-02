@@ -1,0 +1,57 @@
+{
+ "page": "https://x.com/fchollet",
+ "collected_at": "2026-11-02T02:34:51.854Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 12,
+ "posts": [
+  {
+   "id": "2117044380532097088",
+   "url": "https://x.com/fchollet/status/2117044380532097088",
+   "author": "fchollet",
+   "name": "François Chollet",
+   "time": "2026-11-02T00:01:27.000Z",
+   "text": "Do I know anyone who knows anything about cyanotype printmaking?",
+   "likes": 20,
+   "reposts": 0,
+   "replies": 6,
+   "views": 10205,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117039855012389214",
+   "url": "https://x.com/fchollet/status/2117039855012389214",
+   "author": "fchollet",
+   "name": "François Chollet",
+   "time": "2026-11-01T23:43:28.000Z",
+   "text": "Evolution doesn't benchmaxx. It optimizes for generality and robustness, because overspecialization makes a species fragile when the environment inevitably shifts.",
+   "likes": 536,
+   "reposts": 63,
+   "replies": 65,
+   "views": 27335,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2116962954877014152",
+   "url": "https://x.com/fchollet/status/2116962954877014152",
+   "author": "fchollet",
+   "name": "François Chollet",
+   "time": "2026-11-01T18:37:54.000Z",
+   "text": "I got a fun birthday present from the team at Ndea",
+   "likes": 148,
+   "reposts": 1,
+   "replies": 23,
+   "views": 15995,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

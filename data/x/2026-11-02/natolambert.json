@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/natolambert",
+ "collected_at": "2026-11-02T02:34:29.512Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2117065900688118087",
+   "url": "https://x.com/natolambert/status/2117065900688118087",
+   "author": "natolambert",
+   "name": "Nathan Lambert",
+   "time": "2026-11-02T01:26:58.000Z",
+   "text": "This is a good post.\nThe reality is that the AI build is pricing in more markets to emerge, and AI has continued to deliver them over the last few years. Timing is everything -- the markets could come well after the compute comes online.",
+   "likes": 48,
+   "reposts": 3,
+   "replies": 12,
+   "views": 5387,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2116908567571955756",
+   "url": "https://x.com/natolambert/status/2116908567571955756",
+   "author": "natolambert",
+   "name": "Nathan Lambert",
+   "time": "2026-11-01T15:01:47.000Z",
+   "text": "I give an incredible amount of alpha away for free at this website with my open models data",
+   "likes": 178,
+   "reposts": 13,
+   "replies": 9,
+   "views": 15136,
+   "context": "",
+   "quoted": "",
+   "card": "Open Models Dashboard",
+   "links": []
+  }
+ ]
+}

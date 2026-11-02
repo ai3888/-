@@ -1,0 +1,50 @@
+[
+  {
+    "id": "2116957135661945283",
+    "score": 5,
+    "type": "工程实践",
+    "why": "karpathy 一手项目 HackerTube：让 Claude 筛了 Hacker News 二十年 4,300 万条评论，挑出 6,454 个被反复推荐的 YouTube 视频，约 2 小时在 Opus 5.5 上做完，站点可直接用——一条「用 agent 清洗推荐系统」的完整可复制流程"
+  },
+  {
+    "id": "2117053859516285354",
+    "score": 4,
+    "type": "开源",
+    "why": "把 HackerTube 的思路搬到 arXiv：复用同一套 prompt 和数据源让 agent 自动筛论文，做出 1,000+ 篇的 Hacker Papers 合集，免账号可看，附合集链接"
+  },
+  {
+    "id": "2117017538836226485",
+    "score": 4,
+    "type": "开源",
+    "why": "端侧语音模型 PiVo：总参数仅 140 万、整包 5.8MB，纯 CPU 推理，不用 PyTorch 也不用 GPU，含语音编码模块、两套英语音色，权重已放 Hugging Face"
+  },
+  {
+    "id": "2116978469053878481",
+    "score": 4,
+    "type": "开源",
+    "why": "Nace AI 开源多模态决策模型 Drex Max v1：给一份文档 + 固定选项的问题（比如工单该派给哪个团队），返回各选项的概率；权重是 27GB 的 Q8_0，能在 M4/M5 Mac 上通过 Nace 版 llama.cpp / Ollama 本地跑，M5 Pro 48GB 上概率与全模型相差不到 0.02"
+  },
+  {
+    "id": "2117037283870421403",
+    "score": 3,
+    "type": "新模型",
+    "why": "33B 稠密开源模型 Nanbeige4.3：实测推理更省话、流程更讲逻辑，benchmark 大致在 GLM-5.3 一档；代价是稠密推理慢、需要 24–96GB 内存，附 Hugging Face 权重"
+  },
+  {
+    "id": "2116870398360830183",
+    "score": 3,
+    "type": "工程实践",
+    "why": "把 12 个仓库打包成「用代码做视频」的技术栈交给 Opus 5.5：HyperFrames（写 HTML 直接出视频，专为 agent 设计）、Blender MCP、Remotion、GSAP、Three.js、FFmpeg 等，全部免费，附逐个链接"
+  },
+  {
+    "id": "2117009417342468398",
+    "score": 3,
+    "type": "评测",
+    "why": "据 Arena 公开榜观察，Google 从 10 月 31 日起用 Argon 4 代号在 Arena 匿名测 Gemini 4 Carbon：编码、设计、3D 明显强于早期 Carbon 版本且更快，部分输出风格接近 Opus 5.5——来自公开 arena 的对比，不是官方确认"
+  },
+  {
+    "id": "2116885887313133576",
+    "score": 3,
+    "type": "产品",
+    "why": "Antigravity 的智能体 Chief of Stuff 将接入 Gemini Live 语音能力：能自己操作 Antigravity、派生子智能体执行子任务，还能回看待处理的会话"
+  }
+]

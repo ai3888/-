@@ -1,0 +1,75 @@
+{
+ "page": "https://x.com/omarsar0",
+ "collected_at": "2026-11-02T02:35:36.892Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 7,
+ "posts": [
+  {
+   "id": "2116942815150157871",
+   "url": "https://x.com/omarsar0/status/2116942815150157871",
+   "author": "omarsar0",
+   "name": "elvis",
+   "time": "2026-11-01T17:17:52.000Z",
+   "text": "Highly recommended read. \n\nIt's an absolute masterclass in building a modern harness and enabling more autonomous agent systems. \n\nThis is the best write-up I have read on how I have been working with my agent teams powered by my custom harness.\n\nIn simple terms, you want a",
+   "likes": 714,
+   "reposts": 54,
+   "replies": 53,
+   "views": 93698,
+   "context": "已固定",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117053859516285354",
+   "url": "https://x.com/omarsar0/status/2117053859516285354",
+   "author": "omarsar0",
+   "name": "elvis",
+   "time": "2026-11-02T00:39:07.000Z",
+   "text": "Introducing Hacker Papers!\n\nI absolutely love this HackerTube idea from \n@karpathy\n.\n\nSo I took his prompt and similar data sources and asked my agent to build the arXiv papers version of it.\n\nAbsolute bangers there. \n\nFind all 1K+ papers here: \nhttps://\nacademy.dair.ai/papers/collect\nions/hacker-papers\n…",
+   "likes": 308,
+   "reposts": 38,
+   "replies": 34,
+   "views": 15421,
+   "context": "",
+   "quoted": "Weekend hack: HackerTube. I was annoyed with YouTube's recommendations so I had Claude filter down 43M comments over 20 years of HN to 6,454 videos that keep being recommended. *Significantly* better viewing experience, ~2 hours with Opus 5.5: https:// hackertube.org - Excellent",
+   "card": "",
+   "links": [
+    "https:// academy.dair.ai/papers/collect ions/hacker-papers …"
+   ]
+  },
+  {
+   "id": "2117053862418780405",
+   "url": "https://x.com/omarsar0/status/2117053862418780405",
+   "author": "omarsar0",
+   "name": "elvis",
+   "time": "2026-11-02T00:39:08.000Z",
+   "text": "You don't need an account or anything to access this. It's just an artifact/collection to help anyone discover interesting arXiv papers to read; that's all. \nWe have other similar collections there.\nLet me know if it's useful.",
+   "likes": 4,
+   "reposts": 0,
+   "replies": 1,
+   "views": 950,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2116983619138810315",
+   "url": "https://x.com/omarsar0/status/2116983619138810315",
+   "author": "omarsar0",
+   "name": "elvis",
+   "time": "2026-11-01T20:00:01.000Z",
+   "text": "Highly recommended read.\n\nI've been bullish on the idea of personal malleable software.\n\nPatrick calls this pattern “liquid software”. This is a new way to build software, especially personalized software.\n\nI have been building my own harness this way, but this also has",
+   "likes": 55,
+   "reposts": 5,
+   "replies": 25,
+   "views": 7315,
+   "context": "",
+   "quoted": "I'm now building an \"improvements\" feature into all of my personal vibecoded applications: a freeform text input that's hooked up to an agent that yolo implements whatever is submitted. It's an interesting experience -- the activation energy barrier to sanding any rough edge or",
+   "card": "",
+   "links": []
+  }
+ ]
+}

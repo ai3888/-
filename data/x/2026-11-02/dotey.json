@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/dotey",
+ "collected_at": "2026-11-02T02:37:06.927Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2116950743559078252",
+   "url": "https://x.com/dotey/status/2116950743559078252",
+   "author": "dotey",
+   "name": "宝玉",
+   "time": "2026-11-01T17:49:22.000Z",
+   "text": "If you're planning to publish an app to domestic Android stores but encounter some obstacles, you can check out some experiences shared in this article.",
+   "likes": 109,
+   "reposts": 11,
+   "replies": 35,
+   "views": 14808,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

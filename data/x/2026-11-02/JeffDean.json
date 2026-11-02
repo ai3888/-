@@ -1,0 +1,43 @@
+{
+ "page": "https://x.com/JeffDean",
+ "collected_at": "2026-11-02T02:35:17.075Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2117024473992056955",
+   "url": "https://x.com/JeffDean/status/2117024473992056955",
+   "author": "JeffDean",
+   "name": "Jeff Dean",
+   "time": "2026-11-01T22:42:21.000Z",
+   "text": "Election Tuesday is just two days away.  For those eligible to vote in the U.S., please make time to go to the polls to vote (or mail in your ballot if you haven't already).  Voting is a great privilege of living in a democracy and how we all make our collective voices heard.",
+   "likes": 368,
+   "reposts": 22,
+   "replies": 12,
+   "views": 20366,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117026826090648059",
+   "url": "https://x.com/JeffDean/status/2117026826090648059",
+   "author": "JeffDean",
+   "name": "Jeff Dean",
+   "time": "2026-11-01T22:51:42.000Z",
+   "text": "There are majority disparities in various demographics of who votes and who does not.  As one example younger voters are (e.g. ages 18-29 and 30-49) are much less likely to vote, yet the impact of governing decisions have long lasting effects.\n\n\nhttps://\npewresearch.org/politics/2023/\n07/12/voter-turnout-2018-2022/pp_2023-07-12_validated-voters_1-05-png/\n…",
+   "likes": 19,
+   "reposts": 3,
+   "replies": 0,
+   "views": 5769,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// pewresearch.org/politics/2023/ 07/12/voter-turnout-2018-2022/pp_2023-07-12_validated-voters_1-05-png/ …"
+   ]
+  }
+ ]
+}

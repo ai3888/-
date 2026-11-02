@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/search?q=url%3Aarxiv.org%20min_faves%3A100%20-filter%3Areplies%20since%3A2026-11-01&src=typed_query",
+ "collected_at": "2026-11-02T02:37:17.453Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 1,
+ "posts": [
+  {
+   "id": "2116928112772690221",
+   "url": "https://x.com/soupcurry049/status/2116928112772690221",
+   "author": "soupcurry049",
+   "name": "茶畑",
+   "time": "2026-11-01T16:19:27.000Z",
+   "text": "上个月刚发现了一篇关于最优运输问题与强化学习结合的调查论文。",
+   "likes": 110,
+   "reposts": 12,
+   "replies": 0,
+   "views": 4492,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org Optimal Transport Meets Reinforcement Learning: A Survey Reinforcement learning (RL) algorithms frequently compare probability distributions, such as state visitation distributions induced b",
+   "links": []
+  }
+ ]
+}

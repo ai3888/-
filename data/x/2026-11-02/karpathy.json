@@ -1,0 +1,27 @@
+{
+ "page": "https://x.com/karpathy",
+ "collected_at": "2026-11-02T02:33:45.260Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2116957135661945283",
+   "url": "https://x.com/karpathy/status/2116957135661945283",
+   "author": "karpathy",
+   "name": "Andrej Karpathy",
+   "time": "2026-11-01T18:14:46.000Z",
+   "text": "周末小技巧：HackerTube。我对 YouTube 的推荐系统非常不满，于是我让 Claude 筛选了 20 年来超过 4300 万条评论，最终筛选出 6,454 个一直被推荐的视频。体验明显更好了，~2 小时使用 Opus 5.5 播放器的情况也是如此。\n \nhttps://\nhackertube.org \n\n- 非常出色",
+   "likes": 30676,
+   "reposts": 3516,
+   "replies": 1246,
+   "views": 2302260,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// hackertube.org"
+   ]
+  }
+ ]
+}

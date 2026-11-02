@@ -1,0 +1,42 @@
+{
+ "page": "https://x.com/omarsar0/status/2116942815150157871",
+ "collected_at": "2026-11-02T02:38:52.431Z",
+ "logged_in": true,
+ "thread_of": "2116942815150157871",
+ "hours": 30,
+ "found_on_page": 21,
+ "posts": [
+  {
+   "id": "2116965246070116423",
+   "url": "https://x.com/omarsar0/status/2116965246070116423",
+   "author": "omarsar0",
+   "name": "elvis",
+   "time": "2026-11-01T18:47:00.000Z",
+   "text": "It's a good question. It's something I'm looking into more deeply in my own harness as I started to scale work. I've built something using rules and context awareness, but honestly, it is not perfect. I suspect a lot of harnesses will struggle with this and will actually require",
+   "likes": 0,
+   "reposts": 0,
+   "replies": 0,
+   "views": 624,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2116943800178508028",
+   "url": "https://x.com/omarsar0/status/2116943800178508028",
+   "author": "omarsar0",
+   "name": "elvis",
+   "time": "2026-11-01T17:21:47.000Z",
+   "text": "Try Pi Durable.",
+   "likes": 2,
+   "reposts": 0,
+   "replies": 0,
+   "views": 527,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

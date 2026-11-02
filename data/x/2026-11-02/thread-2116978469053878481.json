@@ -1,0 +1,26 @@
+{
+ "page": "https://x.com/testingcatalog/status/2116978469053878481",
+ "collected_at": "2026-11-02T02:39:29.993Z",
+ "logged_in": true,
+ "thread_of": "2116978469053878481",
+ "hours": 30,
+ "found_on_page": 23,
+ "posts": [
+  {
+   "id": "2116978472857870397",
+   "url": "https://x.com/testingcatalog/status/2116978472857870397",
+   "author": "testingcatalog",
+   "name": "AI News | TestingCatalog",
+   "time": "2026-11-01T19:39:34.000Z",
+   "text": "The weights are available on Hugging Face as a 27 GB Q8_0 file that can run on a Mac through Nace's versions of llama.cpp and Ollama.\n\nIn Nace's test performed on an M5 Pro with 48 GB of memory, its answer probabilities for a sample request were within 0.02 of the full model",
+   "likes": 12,
+   "reposts": 1,
+   "replies": 0,
+   "views": 2523,
+   "context": "",
+   "quoted": "",
+   "card": "nace-ai/drex-max-v1 · Hugging Face",
+   "links": []
+  }
+ ]
+}
