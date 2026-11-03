@@ -1,0 +1,27 @@
+{
+ "page": "https://x.com/_akhaliq",
+ "collected_at": "2026-11-03T13:33:42.061Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2117296318779723877",
+   "url": "https://x.com/_akhaliq/status/2117296318779723877",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-02T16:42:34.000Z",
+   "text": "GLOW-FM\n\nEfficient Generative Low-Light Image Enhancement with One-Step Latent Flow Matching\n\npaper: \nhttps://\nhuggingface.co/papers/2610.31\n222\n…",
+   "likes": 99,
+   "reposts": 15,
+   "replies": 15,
+   "views": 16182,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/papers/2610.31 222 …"
+   ]
+  }
+ ]
+}

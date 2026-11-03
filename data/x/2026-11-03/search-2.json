@@ -1,0 +1,183 @@
+{
+ "page": "https://x.com/search?q=url%3Ahuggingface.co%20min_faves%3A100%20-filter%3Areplies%20since%3A2026-11-02&src=typed_query",
+ "collected_at": "2026-11-03T13:35:46.382Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 10,
+ "posts": [
+  {
+   "id": "2117541532827848972",
+   "url": "https://x.com/NielsRogge/status/2117541532827848972",
+   "author": "NielsRogge",
+   "name": "Niels Rogge",
+   "time": "2026-11-03T08:56:58.000Z",
+   "text": "我们 @huggingface 成功复制了这篇论文！！\n\n它是由 ML Intern 这个开源工具包构建的，该工具包可用于进行人工智能研究、训练模型等任务。\n\n模型： \nhttps://\nhuggingface.co/ML-Intern-lab/\nQwen3.5-0.8B-weight-space-programming\n… \n\n演示： \nhttps://\nhuggingface.co/spaces/ML-Inte\nrn-lab/weight-space-programming-demo\n…",
+   "likes": 524,
+   "reposts": 70,
+   "replies": 27,
+   "views": 20944,
+   "context": "",
+   "quoted": "我们请 GPT-6 Astra 来修改 Qwen3.5 模型的权重，以优化数学计算性能。 它仅改变了 0.016%的权重，从而修复了 0.8B 的推理流程，使性能提升了 6 倍，指令遵循能力也提升了 3 倍，而无需进行梯度优化或训练即可实现这一改进。 我们将其称为权重空间编程：",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/ML-Intern-lab/ Qwen3.5-0.8B-weight-space-programming …",
+    "https:// huggingface.co/spaces/ML-Inte rn-lab/weight-space-programming-demo …"
+   ]
+  },
+  {
+   "id": "2117190407985786989",
+   "url": "https://x.com/pengsonal/status/2117190407985786989",
+   "author": "pengsonal",
+   "name": "Peng",
+   "time": "2026-11-02T09:41:43.000Z",
+   "text": "",
+   "likes": 1063,
+   "reposts": 129,
+   "replies": 19,
+   "views": 51068,
+   "context": "",
+   "quoted": "",
+   "card": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF · Hugging Face",
+   "links": [
+    "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF…",
+    "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF…"
+   ]
+  },
+  {
+   "id": "2117500693993173183",
+   "url": "https://x.com/pengsonal/status/2117500693993173183",
+   "author": "pengsonal",
+   "name": "Peng",
+   "time": "2026-11-03T06:14:41.000Z",
+   "text": "UNCENSORED AI VIDEO TOOLS THAT DON'T REFUSE YOUR PROMPTS (MOST ARE FREE) \n\ntired of getting \"this violates our policy\"?\n\nhere are 8 tools that give you more creative freedom:\n\n1. Wan 2.2 → open source, runs locally, no output filter\n   \nhttps://\nhuggingface.co/Wan-AI/Wan2.2-\nTI2V-5B\n…\n\n2. LTX-2.5 → open",
+   "likes": 264,
+   "reposts": 15,
+   "replies": 11,
+   "views": 20071,
+   "context": "",
+   "quoted": "",
+   "card": "Wan-AI/Wan2.2-TI2V-5B · Hugging Face",
+   "links": [
+    "https:// huggingface.co/Wan-AI/Wan2.2- TI2V-5B …"
+   ]
+  },
+  {
+   "id": "2117215002851696734",
+   "url": "https://x.com/SlipperyGem/status/2117215002851696734",
+   "author": "SlipperyGem",
+   "name": "Brie Wensleydale",
+   "time": "2026-11-02T11:19:27.000Z",
+   "text": "Sulfur 3, a totally sfw model for pure-hearted people who only want to generate puppies and rainbows has dropped.\n\nWill I try it? Very yes.",
+   "likes": 131,
+   "reposts": 4,
+   "replies": 7,
+   "views": 16171,
+   "context": "",
+   "quoted": "",
+   "card": "FusionCow/Sulphur-3 · Hugging Face",
+   "links": []
+  },
+  {
+   "id": "2117266739893567990",
+   "url": "https://x.com/yb2698/status/2117266739893567990",
+   "author": "yb2698",
+   "name": "younes",
+   "time": "2026-11-02T14:45:02.000Z",
+   "text": "LFM2.5-24B harness adapter for \n@NousResearch\n hermes agent!\n\nWe just finished the LoRA training of the hermes adapter for \n@liquidai\n LFM2.5-24B - no accuracy drop on held out test tasks with 20% efficiency gain!\n\n\nhttps://\nhuggingface.co/collections/ha\nrness-hub/lfm25-24b-harness-adapters\n…",
+   "likes": 128,
+   "reposts": 12,
+   "replies": 13,
+   "views": 18316,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/collections/ha rness-hub/lfm25-24b-harness-adapters …"
+   ]
+  },
+  {
+   "id": "2117200982740508787",
+   "url": "https://x.com/OrcaRouter/status/2117200982740508787",
+   "author": "OrcaRouter",
+   "name": "OrcaRouter",
+   "time": "2026-11-02T10:23:44.000Z",
+   "text": "Our LFM3-1.7B Abliterated weights are live.\n\nLFM3-1.7B is #1 on the Pareto frontier of device intelligence 𝚙𝚒𝚙𝚎𝚝𝚝𝚎.𝚕𝚒𝚚𝚞𝚒𝚍.𝚊𝚒. Built for local agents and edge AI. Uncensored. Run it anywhere.",
+   "likes": 468,
+   "reposts": 44,
+   "replies": 7,
+   "views": 23415,
+   "context": "",
+   "quoted": "",
+   "card": "orcarouter/LFM3-1.7B-abliterated · Hugging Face",
+   "links": []
+  },
+  {
+   "id": "2117175902199222407",
+   "url": "https://x.com/Unnati_builds24/status/2117175902199222407",
+   "author": "Unnati_builds24",
+   "name": "Unnati",
+   "time": "2026-11-02T08:44:04.000Z",
+   "text": "Want to become an AI Engineer in 2026?\n\nStop collecting AI certificates. Start learning how to build agents that actually DO things.\n\nBookmark these 6 resources:\n\n1. Hugging Face - AI Agents Course: \nhttps://\nhuggingface.co/learn/agents-c\nourse\n…\n2. Anthropic - Building Effective Agents:",
+   "likes": 293,
+   "reposts": 53,
+   "replies": 11,
+   "views": 10672,
+   "context": "",
+   "quoted": "",
+   "card": "Welcome to the AI Agents Course · Hugging Face",
+   "links": [
+    "https:// huggingface.co/learn/agents-c ourse …"
+   ]
+  },
+  {
+   "id": "2117560773509894276",
+   "url": "https://x.com/secfathy/status/2117560773509894276",
+   "author": "secfathy",
+   "name": "Mohammed Fathy",
+   "time": "2026-11-03T10:13:25.000Z",
+   "text": "Introducing OffsecCyber, a dataset for training and evaluating LLMs for penetration testing. It combines public HackerOne reports with CVE records dating back to 2000. I’ve used it to fine-tune Qwen3.5-4B.\n\n\nhttps://\nhuggingface.co/datasets/Pente\nsterFlow/OffsecCyber\n…\n\n#bugbountytips #bugbountytip",
+   "likes": 144,
+   "reposts": 22,
+   "replies": 2,
+   "views": 3994,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/datasets/Pente sterFlow/OffsecCyber …"
+   ]
+  },
+  {
+   "id": "2117420198227742908",
+   "url": "https://x.com/20MM21/status/2117420198227742908",
+   "author": "20MM21",
+   "name": "一般人",
+   "time": "2026-11-03T00:54:49.000Z",
+   "text": "I tried out \"Idol\" (the naming is a bit risky), a tool that can create 3D models from single images in a local environment, which was released the other day.\n\nIt runs on ComfyUI, so you'll need a tiny bit of Python knowledge for setup, but if you ask Chatty, it'll work out",
+   "likes": 108,
+   "reposts": 14,
+   "replies": 4,
+   "views": 2719,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117293394238013698",
+   "url": "https://x.com/PierreStock/status/2117293394238013698",
+   "author": "PierreStock",
+   "name": "Pierre Stock",
+   "time": "2026-11-02T16:30:57.000Z",
+   "text": "ML4 is now open-weight! Frontier capabilities on code agents & cyber, way more efficient and compact than its Preview version three weeks ago (!) and cherry on the cake: technical report telling its epic backstory. Check it out:",
+   "likes": 514,
+   "reposts": 113,
+   "replies": 21,
+   "views": 76573,
+   "context": "",
+   "quoted": "",
+   "card": "assets/technical_report.pdf · mistralai/Mistral-Large-4-1T-A52B at main",
+   "links": []
+  }
+ ]
+}

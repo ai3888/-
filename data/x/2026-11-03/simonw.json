@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/simonw",
+ "collected_at": "2026-11-03T13:34:03.955Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2117337139633607167",
+   "url": "https://x.com/simonw/status/2117337139633607167",
+   "author": "simonw",
+   "name": "Simon Willison",
+   "time": "2026-11-02T19:24:46.000Z",
+   "text": "在更新一份图表时，该图表展示了根据美国人口普查局长期进行的调查，美国企业随着时间推移在人工智能应用方面的进展情况。我发现，该机构的研究工作因那项愚蠢的“超级智能”行政命令而受到了影响。",
+   "likes": 166,
+   "reposts": 10,
+   "replies": 43,
+   "views": 41046,
+   "context": "",
+   "quoted": "",
+   "card": "simonwillison.net The U.S. Census Bureau and “Super Intelligence” I was reminded today of AI Adoption Rate Trending Down for Large Companies, a chart produced by Apollo Global Management in September ",
+   "links": []
+  }
+ ]
+}

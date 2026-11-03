@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/reach_vb",
+ "collected_at": "2026-11-03T13:34:25.093Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2117354368420786603",
+   "url": "https://x.com/reach_vb/status/2117354368420786603",
+   "author": "reach_vb",
+   "name": "Vaibhav (VB) Srivastav",
+   "time": "2026-11-02T20:33:14.000Z",
+   "text": "GPT-6 Astra:",
+   "likes": 165,
+   "reposts": 4,
+   "replies": 8,
+   "views": 8815,
+   "context": "",
+   "quoted": "We asked GPT-6 Astra to edit Qwen3.5-0.8B weights to improve math. It directly changed only 0.016% of weights, fixing 0.8B's reasoning loops & improving math up to 6x and even instruction following 3x, without gradients or training. We call this Weight-Space Programming:",
+   "card": "",
+   "links": []
+  }
+ ]
+}

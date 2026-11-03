@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/natolambert",
+ "collected_at": "2026-11-03T13:32:56.496Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2117369681468399708",
+   "url": "https://x.com/natolambert/status/2117369681468399708",
+   "author": "natolambert",
+   "name": "Nathan Lambert",
+   "time": "2026-11-02T21:34:05.000Z",
+   "text": "关于开放模型经济的新讨论。我想探讨一下，如果我们要避免被 OpenAI 或 Anthropic 在未来吞噬，那么开放模型开发者应该如何主导该行业的经济发展。这一切都取决于是否能够降低推理过程的成本。",
+   "likes": 72,
+   "reposts": 11,
+   "replies": 6,
+   "views": 9239,
+   "context": "已固定",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117273926380462271",
+   "url": "https://x.com/natolambert/status/2117273926380462271",
+   "author": "natolambert",
+   "name": "Nathan Lambert",
+   "time": "2026-11-02T15:13:35.000Z",
+   "text": "It's unbelievable that many hotels have worse wifi than United Starlink",
+   "likes": 150,
+   "reposts": 0,
+   "replies": 8,
+   "views": 26492,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

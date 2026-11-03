@@ -1,0 +1,57 @@
+{
+ "page": "https://x.com/fchollet",
+ "collected_at": "2026-11-03T13:33:17.067Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 12,
+ "posts": [
+  {
+   "id": "2117391724440137785",
+   "url": "https://x.com/fchollet/status/2117391724440137785",
+   "author": "fchollet",
+   "name": "François Chollet",
+   "time": "2026-11-02T23:01:40.000Z",
+   "text": "-\n-\nTomorrows still carries substantial uncertaint…",
+   "likes": 5,
+   "reposts": 0,
+   "replies": 1,
+   "views": 0,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117315680119013865",
+   "url": "https://x.com/fchollet/status/2117315680119013865",
+   "author": "fchollet",
+   "name": "François Chollet",
+   "time": "2026-11-02T17:59:30.000Z",
+   "text": "The most grating aspect of LLM writing is that it tries to turn every single sentence into a punchline, a witty slogan, with no regard for which sentences need emphasis and which ones don't. \"A tiring formula, overused\"",
+   "likes": 5395,
+   "reposts": 205,
+   "replies": 174,
+   "views": 119321,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117273934391660879",
+   "url": "https://x.com/fchollet/status/2117273934391660879",
+   "author": "fchollet",
+   "name": "François Chollet",
+   "time": "2026-11-02T15:13:37.000Z",
+   "text": "As foretold on Wednesday evening: red, red, bounce…",
+   "likes": 3,
+   "reposts": 0,
+   "replies": 0,
+   "views": 0,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

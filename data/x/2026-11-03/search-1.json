@@ -1,0 +1,220 @@
+{
+ "page": "https://x.com/search?q=url%3Aarxiv.org%20min_faves%3A100%20-filter%3Areplies%20since%3A2026-11-02&src=typed_query",
+ "collected_at": "2026-11-03T13:35:39.010Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 12,
+ "posts": [
+  {
+   "id": "2117532441275498977",
+   "url": "https://x.com/osanseviero/status/2117532441275498977",
+   "author": "osanseviero",
+   "name": "Omar Sanseviero",
+   "time": "2026-11-03T08:20:50.000Z",
+   "text": "EmbeddingGemma 2 的论文已经发布啦！欢迎阅读！\n\n \nhttps://\narxiv.org/abs/2610.37364",
+   "likes": 569,
+   "reposts": 86,
+   "replies": 13,
+   "views": 19751,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2610.37364"
+   ]
+  },
+  {
+   "id": "2117286485208797272",
+   "url": "https://x.com/chenyx04/status/2117286485208797272",
+   "author": "chenyx04",
+   "name": "Yuxin Chen",
+   "time": "2026-11-02T16:03:30.000Z",
+   "text": "很高兴能分享我们关于强化学习的新书！这本书全面介绍了用于表格型强化学习的先进样本复杂性分析方法。\n\n强化学习的统计基础：一种非渐近视角",
+   "likes": 314,
+   "reposts": 47,
+   "replies": 6,
+   "views": 19953,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org Statistical Foundations of Reinforcement Learning: A... Reinforcement learning (RL) embodies a foundational paradigm for sequential decision-making in the face of uncertainty. The rapid grow",
+   "links": []
+  },
+  {
+   "id": "2117588845864575397",
+   "url": "https://x.com/mattpocockuk/status/2117588845864575397",
+   "author": "mattpocockuk",
+   "name": "Matt Pocock",
+   "time": "2026-11-03T12:04:58.000Z",
+   "text": "This might be the greatest issue report in history\n\nSome folks wrote a paper about my /retro skill assessing its effectiveness\n\nIncredible\n\n\nhttps://\narxiv.org/pdf/2610.34938",
+   "likes": 614,
+   "reposts": 16,
+   "replies": 35,
+   "views": 37140,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/pdf/2610.34938"
+   ]
+  },
+  {
+   "id": "2117337517301412115",
+   "url": "https://x.com/KirkDBorne/status/2117337517301412115",
+   "author": "KirkDBorne",
+   "name": "Kirk Borne",
+   "time": "2026-11-02T19:26:17.000Z",
+   "text": "Introduction to Graph Theory: \nhttps://\narxiv.org/abs/2308.04512 (454-page PDF) — edges, vertices, trees, networks, paths, and graphs (and theorems!)\n—————\n#Mathematics #NetworkScience",
+   "likes": 399,
+   "reposts": 59,
+   "replies": 4,
+   "views": 13038,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2308.04512"
+   ]
+  },
+  {
+   "id": "2117368041470062724",
+   "url": "https://x.com/KirkDBorne/status/2117368041470062724",
+   "author": "KirkDBorne",
+   "name": "Kirk Borne",
+   "time": "2026-11-02T21:27:34.000Z",
+   "text": "[Download 585-page PDF eBook]\n\nGame Theory: \nhttps://\narxiv.org/abs/1512.06808\n—————\n#GameTheory #Gamification #Mathematics #Statistics #Probability",
+   "likes": 397,
+   "reposts": 63,
+   "replies": 2,
+   "views": 14233,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/1512.06808"
+   ]
+  },
+  {
+   "id": "2117387171653177481",
+   "url": "https://x.com/andrewgwils/status/2117387171653177481",
+   "author": "andrewgwils",
+   "name": "Andrew Gordon Wilson",
+   "time": "2026-11-02T22:43:35.000Z",
+   "text": "New paper on compute-optimal scaling prescriptions for data constrained pre-training. Our prescriptions include a return of ensembling in compute-optimal training, and uncover surprising pathologies of past approaches! Led by \n@EthanBaron78553\n.",
+   "likes": 115,
+   "reposts": 19,
+   "replies": 8,
+   "views": 7929,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org Improving Data-Constrained Scaling with Hyperparameter Transfer... As growing compute budgets outpace the growth of high-quality training data, large language models must be trained with bot",
+   "links": []
+  },
+  {
+   "id": "2117373903287050675",
+   "url": "https://x.com/perplexitydevs/status/2117373903287050675",
+   "author": "perplexitydevs",
+   "name": "Perplexity Developers",
+   "time": "2026-11-02T21:50:52.000Z",
+   "text": "Introducing pplx-embed-v2-context: open-weight vision-language embedding models in 9B and 0.6B.\n\nBoth return one int8 vector per document, or one per chunk that sees the whole document.\n\nRead the paper, written with \n@turbopuffer\n: \nhttps://\narxiv.org/abs/2610.38854",
+   "likes": 219,
+   "reposts": 28,
+   "replies": 11,
+   "views": 19071,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2610.38854"
+   ]
+  },
+  {
+   "id": "2117165216538501149",
+   "url": "https://x.com/rosinality/status/2117165216538501149",
+   "author": "rosinality",
+   "name": "Rosinality",
+   "time": "2026-11-02T08:01:37.000Z",
+   "text": "https://\narxiv.org/abs/2610.41073\n\nUpdates to RL could be too small, and fp32 to bf16 downcasting could discard them, so you may need stochastic rounding.",
+   "likes": 214,
+   "reposts": 17,
+   "replies": 6,
+   "views": 12175,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2610.41073"
+   ]
+  },
+  {
+   "id": "2117189803964039591",
+   "url": "https://x.com/DechenGao/status/2117189803964039591",
+   "author": "DechenGao",
+   "name": "Dechen Gao",
+   "time": "2026-11-02T09:39:19.000Z",
+   "text": "We're generating dexterous robot demonstrations from human data at scale  Check out our work at Meta Reality Labs Research\n Generative Neural Retargeting for Human-to-Robot Dexterous Manipulation\n\n Website: \nhttps://\nyy-gx.github.io/GNR/\n Report: \nhttps://\narxiv.org/abs/2610.12440",
+   "likes": 215,
+   "reposts": 24,
+   "replies": 6,
+   "views": 14194,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// yy-gx.github.io/GNR/",
+    "https:// arxiv.org/abs/2610.12440"
+   ]
+  },
+  {
+   "id": "2117361569839411230",
+   "url": "https://x.com/ChrisWLynn/status/2117361569839411230",
+   "author": "ChrisWLynn",
+   "name": "Christopher W. Lynn",
+   "time": "2026-11-02T21:01:51.000Z",
+   "text": "When we build statistical models of real neurons, they often end up near criticality, suggesting they're finely tuned to the edge of a phase transition.\n\nHere we show how criticality emerges naturally (without fine-tuning) in models of large populations",
+   "likes": 130,
+   "reposts": 25,
+   "replies": 5,
+   "views": 5411,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org Emergence of criticality in models of real neurons Critical systems sit near boundaries between qualitatively distinct behaviors. When inferring models of neural activity, this proximity to ",
+   "links": []
+  },
+  {
+   "id": "2117375675766308900",
+   "url": "https://x.com/klindt_david/status/2117375675766308900",
+   "author": "klindt_david",
+   "name": "David Klindt",
+   "time": "2026-11-02T21:57:54.000Z",
+   "text": "Linear Representation or did we just get lucky?\nNew paper: Is a Linear Probe evidence of a Linear Representation? \nhttps://\narxiv.org/abs/2610.22655",
+   "likes": 362,
+   "reposts": 38,
+   "replies": 5,
+   "views": 15311,
+   "context": "",
+   "quoted": "Wow, I did not expect that DINOv3's global [CLS] token linearly represents the continuous geometric latents of dSprites (size & X/Y position) It only took me 3.5 years to finally run this experiment I'm looking to do more of this MechInterp work, dissecting foundation x.com/klindt_david/s…",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2610.22655"
+   ]
+  },
+  {
+   "id": "2117299872281850144",
+   "url": "https://x.com/geogristle/status/2117299872281850144",
+   "author": "geogristle",
+   "name": "Geogristle",
+   "time": "2026-11-02T16:56:41.000Z",
+   "text": "https://\narxiv.org/abs/2606.03979 <-- paper\nThis is more interesting than it might seem; it is almost certainly a major conceptual component of what continual learning must actually look like long-term. Dreaming is easy to centralize in a data center, distillation to fresh small experts is",
+   "likes": 130,
+   "reposts": 13,
+   "replies": 3,
+   "views": 7780,
+   "context": "",
+   "quoted": "Today on the blog, learn about our new instance of a “sleep” phase in continual learning, which enables LLMs to continuously integrate new facts and enhance reasoning while mitigating catastrophic forgetting or static knowledge cutoffs. More → https:// goo.gle/4iICkyD",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2606.03979"
+   ]
+  }
+ ]
+}

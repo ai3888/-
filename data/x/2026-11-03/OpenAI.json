@@ -1,0 +1,57 @@
+{
+ "page": "https://x.com/OpenAI",
+ "collected_at": "2026-11-03T13:30:52.522Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2117444048227123277",
+   "url": "https://x.com/OpenAI/status/2117444048227123277",
+   "author": "OpenAI",
+   "name": "OpenAI",
+   "time": "2026-11-03T02:29:35.000Z",
+   "text": "As AI becomes more capable at finding vulnerabilities, defenders need to put it to work before attackers do.\n\nWe’re planning our next internal security sprint at OpenAI and partnering with Cathedral Systems, whose researchers will use our models alongside our teams to challenge",
+   "likes": 2844,
+   "reposts": 464,
+   "replies": 433,
+   "views": 559861,
+   "context": "",
+   "quoted": "",
+   "card": "Preparing our next security sprint to harden OpenAI",
+   "links": []
+  },
+  {
+   "id": "2117444049900654743",
+   "url": "https://x.com/OpenAI/status/2117444049900654743",
+   "author": "OpenAI",
+   "name": "OpenAI",
+   "time": "2026-11-03T02:29:36.000Z",
+   "text": "The updated bug bounty rewards also apply to reports awaiting a bounty. \n\nFor bounties awarded in the past 30 days, we’ll pay the difference if the finding qualifies for more under the new ranges.\n\nLearn more about the program:",
+   "likes": 232,
+   "reposts": 17,
+   "replies": 23,
+   "views": 81239,
+   "context": "",
+   "quoted": "",
+   "card": "Rewarding defenders with bigger bug bounties",
+   "links": []
+  },
+  {
+   "id": "2117307611338997846",
+   "url": "https://x.com/OpenAI/status/2117307611338997846",
+   "author": "OpenAI",
+   "name": "OpenAI",
+   "time": "2026-11-02T17:27:26.000Z",
+   "text": "For AGI to benefit all of humanity, it should help people with the everyday tasks that matter most to them. So we built LifeVal, a new benchmark shaped by feedback from thousands of ChatGPT users on where they most want help from a personal assistant—from finding childcare to",
+   "likes": 6073,
+   "reposts": 766,
+   "replies": 623,
+   "views": 673835,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

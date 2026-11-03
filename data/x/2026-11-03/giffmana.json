@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/giffmana",
+ "collected_at": "2026-11-03T13:32:42.492Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2117524701354361269",
+   "url": "https://x.com/giffmana/status/2117524701354361269",
+   "author": "giffmana",
+   "name": "Lucas Beyer (bl16)",
+   "time": "2026-11-03T07:50:05.000Z",
+   "text": "I guess 'tis the day i complain about over-hype on this app.\n\nThis does not show a quadrillion param model, nor how to train one.\n\nThe claim (which is only in the blog and this thread, the paper is ok) is based on wild extrapolations, but i promise you that the techniques studied",
+   "likes": 190,
+   "reposts": 8,
+   "replies": 10,
+   "views": 9698,
+   "context": "",
+   "quoted": "Humans are ~1,000,000x more sample efficient than LLMs, and there are no good explanations. We’ve found that a big part of the answer is that LLMs are *massively* underparameterized by many orders of magnitude. The brain has 100T synapses learning from ~200M tokens of language.",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117316496775061926",
+   "url": "https://x.com/giffmana/status/2117316496775061926",
+   "author": "giffmana",
+   "name": "Lucas Beyer (bl16)",
+   "time": "2026-11-02T18:02:45.000Z",
+   "text": "> can we make the pointers an index into the array\n\nIs it just me or...?",
+   "likes": 318,
+   "reposts": 3,
+   "replies": 15,
+   "views": 50453,
+   "context": "",
+   "quoted": "some things I often say to claude when doing perf optimization work: > how do we rewrite this to better leverage data-oriented design principles > can you replace those hash tables with a flat array? can we make the pointers an index into the array? can we pack the most",
+   "card": "",
+   "links": []
+  }
+ ]
+}

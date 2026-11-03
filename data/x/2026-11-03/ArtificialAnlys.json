@@ -1,0 +1,73 @@
+{
+ "page": "https://x.com/ArtificialAnlys",
+ "collected_at": "2026-11-03T13:34:48.568Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 9,
+ "posts": [
+  {
+   "id": "2117385943959093677",
+   "url": "https://x.com/ArtificialAnlys/status/2117385943959093677",
+   "author": "ArtificialAnlys",
+   "name": "Artificial Analysis",
+   "time": "2026-11-02T22:38:42.000Z",
+   "text": "In AA-PersonalityBench, Kimi K3.1 Pro shows the biggest personality change we’ve seen compared to a direct predecessor\n\nEach model is percentile ranked from 1 to 100 on each of 30 personality traits. Across all 30 traits, Kimi K3.1 Pro's ranks moved by an average of 30 points",
+   "likes": 258,
+   "reposts": 28,
+   "replies": 46,
+   "views": 36409,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117385946760872108",
+   "url": "https://x.com/ArtificialAnlys/status/2117385946760872108",
+   "author": "ArtificialAnlys",
+   "name": "Artificial Analysis",
+   "time": "2026-11-02T22:38:43.000Z",
+   "text": "With Kimi K3 added to our default model selection, Kimi K3.1 Pro now clusters within a different personality family from Kimi K3:\n\n➤ Kimi K3 is most similar to GLM-5.3 and Claude Fable 5.1\n ➤ Kimi K3.1 Pro is most similar to GPT-6.1 Sol and GPT-6 Astra",
+   "likes": 78,
+   "reposts": 11,
+   "replies": 2,
+   "views": 13849,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117255658613735918",
+   "url": "https://x.com/ArtificialAnlys/status/2117255658613735918",
+   "author": "ArtificialAnlys",
+   "name": "Artificial Analysis",
+   "time": "2026-11-02T14:01:00.000Z",
+   "text": "We are collaborating with Silicon Data to bring market-based GPU pricing into AA-AgentPerf, our datacenter system performance benchmark\n\nOur users and partners want to know how much agent work they can support per dollar of compute. \n@silicondata\n's rental price indices allow us to",
+   "likes": 160,
+   "reposts": 28,
+   "replies": 44,
+   "views": 29985,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117255659016409365",
+   "url": "https://x.com/ArtificialAnlys/status/2117255659016409365",
+   "author": "ArtificialAnlys",
+   "name": "Artificial Analysis",
+   "time": "2026-11-02T14:01:00.000Z",
+   "text": "See more at",
+   "likes": 8,
+   "reposts": 0,
+   "replies": 0,
+   "views": 5894,
+   "context": "",
+   "quoted": "",
+   "card": "Datacenter Inference Systems | Artificial Analysis",
+   "links": []
+  }
+ ]
+}

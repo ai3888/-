@@ -1,0 +1,75 @@
+{
+ "page": "https://x.com/MistralAI",
+ "collected_at": "2026-11-03T13:32:01.905Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 10,
+ "posts": [
+  {
+   "id": "2117574509179900410",
+   "url": "https://x.com/MistralAI/status/2117574509179900410",
+   "author": "MistralAI",
+   "name": "Mistral AI",
+   "time": "2026-11-03T11:08:00.000Z",
+   "text": "We tasked Mistral Large 4 with creating a real-time, 3D tracker of the roughly 19,000 satellites and debris fragments orbiting Earth. \n\nThe model built a working app, tested it like a user, made it fast, and passed strict verification. \n\nPlease meet Orbital Trace :",
+   "likes": 478,
+   "reposts": 70,
+   "replies": 63,
+   "views": 15172,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117562068220195097",
+   "url": "https://x.com/MistralAI/status/2117562068220195097",
+   "author": "MistralAI",
+   "name": "Mistral AI",
+   "time": "2026-11-03T10:18:34.000Z",
+   "text": "The story of how Le Chonk was built, told by the team behind it.\n\nNow on \n@askalphaxiv\n : \nhttps://\nalphaxiv.org/abs/2611.mistr\nal-large-4\n…",
+   "likes": 348,
+   "reposts": 42,
+   "replies": 41,
+   "views": 13602,
+   "context": "",
+   "quoted": "ML4 is now open-weight! Frontier capabilities on code agents & cyber, way more efficient and compact than its Preview version three weeks ago (!) and cherry on the cake: technical report telling its epic backstory. Check it out: https:// huggingface.co/mistralai/Mist ral-Large-4-1T-A52B/blob/main/assets/technical_report.pdf …",
+   "card": "",
+   "links": [
+    "https:// alphaxiv.org/abs/2611.mistr al-large-4 …"
+   ]
+  },
+  {
+   "id": "2117229259425038344",
+   "url": "https://x.com/MistralAI/status/2117229259425038344",
+   "author": "MistralAI",
+   "name": "Mistral AI",
+   "time": "2026-11-02T12:16:06.000Z",
+   "text": "We asked Mistral Large 4 to show what happens when you break a molecule. \n\nWith a short prompt, it wrote a quantum chemistry SCF solver from scratch, validated its output, and built a 3D view around it. \n\nLe Chonk also understand chemistry enough to independently choose how to",
+   "likes": 1295,
+   "reposts": 175,
+   "replies": 135,
+   "views": 53043,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117229262679797822",
+   "url": "https://x.com/MistralAI/status/2117229262679797822",
+   "author": "MistralAI",
+   "name": "Mistral AI",
+   "time": "2026-11-02T12:16:07.000Z",
+   "text": "Step : the solver:\nIt computes single-electron orbitals, which predict where electrons can be found. \n\nStep : the visualisation. \nDrag the slider: the bond fades, the orbitals split onto the two fragments, the energy climbs. You watch the molecule break.",
+   "likes": 92,
+   "reposts": 3,
+   "replies": 4,
+   "views": 8821,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "page": "https://x.com/allen_ai",
+ "collected_at": "2026-11-03T13:31:34.229Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2117388019707642138",
+   "url": "https://x.com/allen_ai/status/2117388019707642138",
+   "author": "allen_ai",
+   "name": "Ai2",
+   "time": "2026-11-02T22:46:57.000Z",
+   "text": "",
+   "likes": 11,
+   "reposts": 2,
+   "replies": 5,
+   "views": 1964,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https://allenai.org/blog/nextcloud"
+   ]
+  },
+  {
+   "id": "2117388021741871215",
+   "url": "https://x.com/allen_ai/status/2117388021741871215",
+   "author": "allen_ai",
+   "name": "Ai2",
+   "time": "2026-11-02T22:46:58.000Z",
+   "text": "Nextcloud bundles Olmo 3 with llm2, its backend for organizations to run language models locally.\n\nVia llm2 + Nextcloud’s application suite, admins can configure Olmo centrally so employees can summarize email threads, find facts in files, & more.",
+   "likes": 0,
+   "reposts": 0,
+   "replies": 1,
+   "views": 331,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

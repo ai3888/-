@@ -1,0 +1,157 @@
+{
+ "page": "https://x.com/search?q=url%3Agithub.com%20(LLM%20OR%20agent%20OR%20model%20OR%20inference%20OR%20training)%20min_faves%3A200%20-filter%3Areplies%20since%3A2026-11-02&src=typed_query",
+ "collected_at": "2026-11-03T13:35:55.350Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 8,
+ "posts": [
+  {
+   "id": "2117318336837017846",
+   "url": "https://x.com/flxrnc/status/2117318336837017846",
+   "author": "flxrnc",
+   "name": "Florence",
+   "time": "2026-11-02T18:10:04.000Z",
+   "text": "你的 AI 制作视频看起来质量不高吗？那就把这些 14 个仓库中的文件发送给 Opus 5.5 吧。\n\nHyperFrames、Blender、Remotion、GSAP、FFmpeg\n\n语音播报、字幕、3D 效果以及渲染图像，所有这些都通过代码实现。\n\n以下内容都是免费的：\n\n迁移技能 → 为您的代理人提供的官方视频制作指导指南\n \nhttps://\ngithub.com/remotion-dev/s\nkills\n… \n\n搅拌器 →",
+   "likes": 714,
+   "reposts": 90,
+   "replies": 20,
+   "views": 53467,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/remotion-dev/s kills …"
+   ]
+  },
+  {
+   "id": "2117413983959523544",
+   "url": "https://x.com/rlaope/status/2117413983959523544",
+   "author": "rlaope",
+   "name": "HOPE.",
+   "time": "2026-11-03T00:30:08.000Z",
+   "text": "i built deepseek-bot\n\ndeepseek-harness + agent memory & message gateway\n\ndeepseek harness active like GrokBot or Hermes\n\ncheck it out: \nhttps://\ngithub.com/rlaope/deepsee\nk-bot\n…",
+   "likes": 436,
+   "reposts": 30,
+   "replies": 20,
+   "views": 19946,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/rlaope/deepsee k-bot …"
+   ]
+  },
+  {
+   "id": "2117273548217524720",
+   "url": "https://x.com/Scenario_gg/status/2117273548217524720",
+   "author": "Scenario_gg",
+   "name": "Scenario",
+   "time": "2026-11-02T15:12:05.000Z",
+   "text": "We just open-sourced a whole 3D studio.\n\nMeet 3D OS by Scenario.\n\nGitHub repo: \nhttps://\ngithub.com/scenario-labs/\nskills\n…\n\nYour coding agent gets 6 departments and 80 skills.\n\n 3D OS\n┃\n┣  Animation\n┃ ┣  Rig Any Character\n┃ ┗  Video to Animation\n┃\n┣  Art\n┃ ┣  Storyboards and",
+   "likes": 960,
+   "reposts": 120,
+   "replies": 57,
+   "views": 53729,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/scenario-labs/ skills …"
+   ]
+  },
+  {
+   "id": "2117231951707066503",
+   "url": "https://x.com/Divyyanshishrma/status/2117231951707066503",
+   "author": "Divyyanshishrma",
+   "name": "Divyanshi",
+   "time": "2026-11-02T12:26:48.000Z",
+   "text": "Become a Claude Certified Architect\n\nHere are all the required resource in one place: (save it)\n\nTraining courses: \nhttps://\nanthropic.skilljar.com (13 free courses)\nCookbook: \nhttps://\ngithub.com/anthropics/ant…\nExam Guide: \nhttps://\nshare.google/0eqIbebzRMUt8K…\nPractice questions: \nhttps://\nclaudecertifications.com",
+   "likes": 863,
+   "reposts": 146,
+   "replies": 31,
+   "views": 61319,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// anthropic.skilljar.com",
+    "https:// github.com/anthropics/ant",
+    "https:// share.google/0eqIbebzRMUt8K",
+    "https:// claudecertifications.com"
+   ]
+  },
+  {
+   "id": "2117262099298623857",
+   "url": "https://x.com/robiartec/status/2117262099298623857",
+   "author": "robiartec",
+   "name": "rob.",
+   "time": "2026-11-02T14:26:35.000Z",
+   "text": "9 repos de GitHub que convierten a Claude en tu asistente de trabajo real.\n\n1. obsidian-skills (50.523) -> donde vive tu conocimiento\nobsidian-markdown, obsidian-bases, json-canvas, defuddle para texto limpio\n> \nhttps://\ngithub.com/kepano/obsidia\nn-skills\n…\n\n2. notebooklm-py (20.036) -> pregunta a tus",
+   "likes": 253,
+   "reposts": 44,
+   "replies": 36,
+   "views": 10262,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/kepano/obsidia n-skills …"
+   ]
+  },
+  {
+   "id": "2117301123354620098",
+   "url": "https://x.com/cabbitar/status/2117301123354620098",
+   "author": "cabbitar",
+   "name": "cabbit",
+   "time": "2026-11-02T17:01:40.000Z",
+   "text": "this is getting really dangerous...  \n\nREA creator posted 20 GitHub repos to build a whole reverse engineering studio:  \n\n[01] analysis core \n> REA: a single MCP that plugs into everything \nhttps://\ngithub.com/morluto/rea\n> Ghidra: decompiler, free \nhttps://\ngithub.com/NationalSecuri… \n> GhidraMCP:",
+   "likes": 941,
+   "reposts": 136,
+   "replies": 10,
+   "views": 37071,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/morluto/rea",
+    "https:// github.com/NationalSecuri"
+   ]
+  },
+  {
+   "id": "2117230989315297317",
+   "url": "https://x.com/sammy_capital/status/2117230989315297317",
+   "author": "sammy_capital",
+   "name": "Sammy",
+   "time": "2026-11-02T12:22:58.000Z",
+   "text": "holy f*ck, someone put an entire reverse engineering degree on GitHub for free\n\n7 repos, 560k+ stars in the right order they take you from a raw binary to agents that reverse engineer anything\n\n1. Ghidra -> how to read any binary\n↳ \nhttps://\ngithub.com/NationalSecuri\ntyAgency/ghidra\n…\n\nthe NSA’s software",
+   "likes": 307,
+   "reposts": 56,
+   "replies": 6,
+   "views": 14698,
+   "context": "",
+   "quoted": "REA hit #1 on GitHub trending, and most people still run it inside a single chat Split it into 4 subagents and one command takes a program you own from sealed binary to a tested rebuild with a match rate Set it up once, aim it at the next one:",
+   "card": "",
+   "links": [
+    "https:// github.com/NationalSecuri tyAgency/ghidra …"
+   ]
+  },
+  {
+   "id": "2117233552529973424",
+   "url": "https://x.com/rvaniaaaa/status/2117233552529973424",
+   "author": "rvaniaaaa",
+   "name": "rvaniaaa",
+   "time": "2026-11-02T12:33:09.000Z",
+   "text": "This is getting f*cking scary.\n\nThe tools reverse engineers spend years learning are free on GitHub, and agents like REA are already driving them\n\n[01] the core\n\nghidra: the NSA's free framework for disassembly, decompilation and scripting \nhttps://\ngithub.com/NationalSecuri\ntyAgency/ghidra\n…\n\nApktool:",
+   "likes": 247,
+   "reposts": 46,
+   "replies": 3,
+   "views": 13883,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/NationalSecuri tyAgency/ghidra …"
+   ]
+  }
+ ]
+}

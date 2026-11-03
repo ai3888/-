@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/arankomatsuzaki",
+ "collected_at": "2026-11-03T13:33:48.770Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2117429025379635229",
+   "url": "https://x.com/arankomatsuzaki/status/2117429025379635229",
+   "author": "arankomatsuzaki",
+   "name": "Aran Komatsuzaki",
+   "time": "2026-11-03T01:29:54.000Z",
+   "text": "我们很快就会对作者们进行采访了。\n\n你想向他们提出什么问题呢？请在下方留言吧 :)",
+   "likes": 97,
+   "reposts": 9,
+   "replies": 23,
+   "views": 13815,
+   "context": "",
+   "quoted": "我们请 GPT-6 Astra 来修改 Qwen3.5 模型的权重，以优化数学计算性能。 它仅改变了 0.016%的权重，从而修复了 0.8B 的推理流程，使性能提升了 6 倍，指令遵循能力也提升了 3 倍，而无需进行梯度优化或训练即可实现这一改进。 我们将其称为权重空间编程：",
+   "card": "",
+   "links": []
+  }
+ ]
+}

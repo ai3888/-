@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/YiTayML",
+ "collected_at": "2026-11-03T13:32:49.130Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2117500355420590424",
+   "url": "https://x.com/YiTayML/status/2117500355420590424",
+   "author": "YiTayML",
+   "name": "Yi Tay",
+   "time": "2026-11-03T06:13:20.000Z",
+   "text": "Gemini can file my travel expense reports now. Yay. But when will it be able to pack my luggage for me?",
+   "likes": 43,
+   "reposts": 3,
+   "replies": 5,
+   "views": 5086,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117500446487261293",
+   "url": "https://x.com/YiTayML/status/2117500446487261293",
+   "author": "YiTayML",
+   "name": "Yi Tay",
+   "time": "2026-11-03T06:13:42.000Z",
+   "text": "Credit to \n@qx_dong",
+   "likes": 3,
+   "reposts": 0,
+   "replies": 1,
+   "views": 1131,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

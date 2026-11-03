@@ -1,0 +1,61 @@
+{
+ "page": "https://x.com/swyx",
+ "collected_at": "2026-11-03T13:34:32.778Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 7,
+ "posts": [
+  {
+   "id": "2117341332645826945",
+   "url": "https://x.com/swyx/status/2117341332645826945",
+   "author": "swyx",
+   "name": "swyx",
+   "time": "2026-11-02T19:41:26.000Z",
+   "text": "lmaoooo",
+   "likes": 353,
+   "reposts": 20,
+   "replies": 15,
+   "views": 33915,
+   "context": "",
+   "quoted": "Recursive Language Models: Claude Code, Agent Swarms, Big Research Bets, & the $40M AI Problem Solver https:// latent.space/p/rlm MIT’s @a1zhang explains why Claude Code, Codex, and Pi are basically the same, how RLMs use code, context offloading, and recursive subagents to",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117321973080760644",
+   "url": "https://x.com/swyx/status/2117321973080760644",
+   "author": "swyx",
+   "name": "swyx",
+   "time": "2026-11-02T18:24:30.000Z",
+   "text": "after 3 years of building from nothing, we are now serving 2M monthly unique engineers on aie youtube. \n\n(76% not subscribed lol. idk if it matters but pls subscribe! we need to keep up momentum to cross 1M subs roughly around \nhttps://\naie.codes it looks like)",
+   "likes": 219,
+   "reposts": 13,
+   "replies": 114,
+   "views": 15372,
+   "context": "",
+   "quoted": "In Jan this year I called my content strategy shot: \"Scaling without Slop\". It's finally starting to work. It took us 3 years to reach our first 100k on youtube. It only took 1.2 months for the next 100k. Similar other metrics on AEO/SEO/subscriber traction and have a lot of x.com/latentspacepod…",
+   "card": "",
+   "links": [
+    "https:// aie.codes"
+   ]
+  },
+  {
+   "id": "2117331535007531009",
+   "url": "https://x.com/swyx/status/2117331535007531009",
+   "author": "swyx",
+   "name": "swyx",
+   "time": "2026-11-02T19:02:30.000Z",
+   "text": "i think the \n@CompleteSkeptic\n and \n@typesafeai\n  followup is going to melt on twitter \nhttps://\nyoutube.com/watch?v=cJ0EOz\ney--o\n…\n\nlooking frward to attend.",
+   "likes": 7,
+   "reposts": 0,
+   "replies": 1,
+   "views": 2880,
+   "context": "",
+   "quoted": "",
+   "card": "Jev CEO: I made ChatGPT, now I'm building what's next",
+   "links": [
+    "https:// youtube.com/watch?v=cJ0EOz ey--o …"
+   ]
+  }
+ ]
+}

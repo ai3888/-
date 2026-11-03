@@ -1,0 +1,57 @@
+{
+ "page": "https://x.com/danielhanchen",
+ "collected_at": "2026-11-03T13:34:11.227Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2117298764994204009",
+   "url": "https://x.com/danielhanchen/status/2117298764994204009",
+   "author": "danielhanchen",
+   "name": "Daniel Han",
+   "time": "2026-11-02T16:52:17.000Z",
+   "text": "We asked the GSQ-RCO team if we can get more details on how the benchmarks were made\n\nReddit (now deleted):\n\"Please just try to reproduce our numbers yourself. Even if your hardware doesn’t allow you to run DeepSeek, you can still check our benchmarks on QFN and Qwen3.8-27B. Our",
+   "likes": 119,
+   "reposts": 16,
+   "replies": 16,
+   "views": 9042,
+   "context": "",
+   "quoted": "We ran DeepSWE, Terminal Bench, Automation Bench, HLE, SciCode at 512K context on our DeepSeek UD3.1 GGUFs and show we're >10-20% better than GSQ-RCO We ran all other benchmarks (14 in total) to 128K, fixed grading, infra. AIME2025 64x, DeepSWE/TB 3x, gpt-6-luna xhigh for HLE x.com/UnslothAI/stat…",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117300743346765881",
+   "url": "https://x.com/danielhanchen/status/2117300743346765881",
+   "author": "danielhanchen",
+   "name": "Daniel Han",
+   "time": "2026-11-02T17:00:09.000Z",
+   "text": "More saying we our 128K LCB numbers changed - that was ONE run - we now did 6 to 12 EXTRA runs to make it more statistically sound - ISTA did ONE run.\n\nAlso on Aider Polyglot after more runs, our own quants did WORSE vs the first trial in the plots.",
+   "likes": 15,
+   "reposts": 2,
+   "replies": 3,
+   "views": 1294,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117279726742233225",
+   "url": "https://x.com/danielhanchen/status/2117279726742233225",
+   "author": "danielhanchen",
+   "name": "Daniel Han",
+   "time": "2026-11-02T15:36:38.000Z",
+   "text": "We ran DeepSWE, Terminal Bench, Automation Bench, HLE, SciCode at 512K context on our DeepSeek UD3.1 GGUFs and show we're >10-20% better than GSQ-RCO\n\nWe ran all other benchmarks (14 in total) to 128K, fixed grading, infra. AIME2025 64x, DeepSWE/TB 3x, gpt-6-luna xhigh for HLE",
+   "likes": 98,
+   "reposts": 11,
+   "replies": 23,
+   "views": 13458,
+   "context": "",
+   "quoted": "We benchmarked DeepSeek-V4.1-Flash-1017 GGUFs on Terminal Bench, DeepSWE & more on 512K context. Unsloth ranks highest overall. 1-bit Unsloth GGUF scores 68.1 on DeepSWE, 72.2 on Terminal-Bench, 52.7 on AutomationBench. >10% ahead of other quants. GGUF: https:// huggingface.co/unsloth/DeepSe ek-V4.1-Flash-1017-GGUF …",
+   "card": "",
+   "links": []
+  }
+ ]
+}
