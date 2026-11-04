@@ -1,130 +1,130 @@
-# GitHub 项目雷达 · 2026-11-03
+# GitHub 项目雷达 · 2026-11-04
 
-> 搜到 624 个候选 → 过滤后 361 个 → 详细检查 40 个 → 入选 15 个
+> 搜到 621 个候选 → 过滤后 356 个 → 详细检查 40 个 → 入选 15 个
 
 ## 🚀 潜力股（新项目、涨得快）
 
-### [tangency-labs/solidcraft](https://github.com/tangency-labs/solidcraft) · 100 分
+### [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) · 100 分
 
-⭐ 13,162（+273/天） · 🍴 1,728 · 👥 269 位贡献者 · 📝 30 天 3827 次提交 · Rust · Apache-2.0 · 创建 26 天
+⭐ 51,427（+1033/天） · 🍴 6,505 · 👥 990 位贡献者 · 📝 30 天 5071 次提交 · Python · NOASSERTION · 创建 17 天
 
-> SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.
+> Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.
 
 <sub>来源：近 90 天新项目</sub>
 
-### [yetone/magpie](https://github.com/yetone/magpie) · 99 分
+### [qingjian-team/qingjian](https://github.com/qingjian-team/qingjian) · 98 分
 
-⭐ 28,379（+828/天） · 🍴 2,409 · 👥 146 位贡献者 · 📝 30 天 4715 次提交 · Go · MIT · 创建 40 天
+⭐ 7,544（+46/天） · 🍴 633 · 👥 64 位贡献者 · 📝 30 天 504 次提交 · Rust · GPL-3.0 · 创建 57 天
 
-> Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.
+> 青简 Qingjian：用 Rust 写的拼音输入法，候选词旁多一条正在学的语言的译词
 
-<sub>来源：近 90 天新项目、LLM</sub>
+<sub>来源：近 90 天新项目</sub>
+
+### [zhu1090093659/dsh-web](https://github.com/zhu1090093659/dsh-web) · 97 分
+
+⭐ 10,032（+73/天） · 🍴 617 · 👥 156 位贡献者 · 📝 30 天 725 次提交 · TypeScript · Apache-2.0 · 创建 83 天
+
+> DeepSeek Harness (DSH) Web 插件聚合生态 · 万物皆插件，通过创意工坊分发｜｜DeepSeek Harness (DSH) Web Plugin Aggregation Ecosystem · Everything is a plugin, distributed via the Creative Workshop
+
+<sub>来源：近 90 天新项目</sub>
 
 ## 👀 值得关注
 
-### [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) · 100 分
+### [huggingface/transformers](https://github.com/huggingface/transformers) · 100 分
 
-⭐ 26,757（+54/天） · 🍴 2,634 · 👥 395 位贡献者 · 📝 30 天 459 次提交 · TypeScript · MIT · 创建 1284 天
+⭐ 168,511（+51/天） · 🍴 35,102 · 👥 4218 位贡献者 · 📝 30 天 447 次提交 · Python · Apache-2.0 · 创建 2927 天
 
-> Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD integration. Used by OpenAI and Anthropic.
+> 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.
 
 <sub>来源：LLM</sub>
 
-### [aaif-goose/goose](https://github.com/aaif-goose/goose) · 100 分
+### [linshenkx/prompt-optimizer](https://github.com/linshenkx/prompt-optimizer) · 100 分
 
-⭐ 56,148（+60/天） · 🍴 6,547 · 👥 676 位贡献者 · 📝 30 天 145 次提交 · Rust · Apache-2.0 · 创建 801 天
+⭐ 40,505（+127/天） · 🍴 4,578 · 👥 34 位贡献者 · 📝 30 天 108 次提交 · TypeScript · NOASSERTION · 创建 629 天
 
-> an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
+> An AI prompt optimizer for writing better prompts and getting better AI results.
 
-<sub>来源：AI Agent、MCP</sub>
+<sub>来源：LLM</sub>
 
-### [DayuanJiang/next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io) · 99 分
+### [sgl-project/sglang](https://github.com/sgl-project/sglang) · 98 分
 
-⭐ 36,590（+46/天） · 🍴 3,818 · 👥 72 位贡献者 · 📝 30 天 122 次提交 · TypeScript · Apache-2.0 · 创建 589 天
+⭐ 38,428（+43/天） · 🍴 10,125 · 👥 2195 位贡献者 · 📝 30 天 2237 次提交 · Python · Apache-2.0 · 创建 1030 天
 
-> Draw and edit draw.io diagrams by chatting with an AI. Web app, desktop app, and an MCP server for Claude Code, Cursor, Codex and VS Code.
+> SGLang is a high-performance serving framework for large language models and multimodal models.
 
-<sub>来源：LLM、MCP</sub>
+<sub>来源：LLM</sub>
 
-### [oblien/openship](https://github.com/oblien/openship) · 99 分
+### [superplanehq/superplane](https://github.com/superplanehq/superplane) · 98 分
 
-⭐ 15,121（+111/天） · 🍴 1,376 · 👥 108 位贡献者 · 📝 30 天 980 次提交 · TypeScript · Apache-2.0 · 创建 242 天
+⭐ 8,759（+228/天） · 🍴 690 · 👥 78 位贡献者 · 📝 30 天 596 次提交 · Go · NOASSERTION · 创建 545 天
 
-> Self-hosted deployment platform
+> Open source factory for one-shot engineering
 
-<sub>来源：自部署</sub>
+<sub>来源：开发者工具</sub>
 
-### [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) · 99 分
+### [rmyndharis/OpenWA](https://github.com/rmyndharis/OpenWA) · 98 分
 
-⭐ 48,007（+56/天） · 🍴 3,951 · 👥 216 位贡献者 · 📝 30 天 1407 次提交 · C · MIT · 创建 251 天
+⭐ 16,509（+43/天） · 🍴 3,883 · 👥 86 位贡献者 · 📝 30 天 2364 次提交 · TypeScript · MIT · 创建 274 天
 
-> Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations and change-aware test selection.
-
-<sub>来源：开发者工具、MCP</sub>
-
-### [coollabsio/coolify](https://github.com/coollabsio/coolify) · 99 分
-
-⭐ 65,554（+48/天） · 🍴 5,914 · 👥 768 位贡献者 · 📝 30 天 989 次提交 · PHP · Apache-2.0 · 创建 2107 天
-
-> An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers.
+> Free, Open Source, Self-Hosted WhatsApp API Gateway
 
 <sub>来源：自部署</sub>
 
-### [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) · 98 分
+### [mudler/LocalAI](https://github.com/mudler/LocalAI) · 98 分
 
-⭐ 78,668（+103/天） · 🍴 6,140 · 👥 359 位贡献者 · 📝 30 天 354 次提交 · Python · Apache-2.0 · 创建 299 天
+⭐ 50,185（+42/天） · 🍴 4,574 · 👥 284 位贡献者 · 📝 30 天 819 次提交 · Go · MIT · 创建 1326 天
 
-> Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.
-
-<sub>来源：LLM、MCP</sub>
-
-### [herdrdev/herdr](https://github.com/herdrdev/herdr) · 98 分
-
-⭐ 47,581（+265/天） · 🍴 3,815 · 👥 91 位贡献者 · 📝 30 天 82 次提交 · Rust · Apache-2.0 · 创建 220 天
-
-> the runtime your coding agents live on
-
-<sub>来源：AI Agent、开发者工具</sub>
-
-### [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot) · 98 分
-
-⭐ 45,664（+159/天） · 🍴 3,351 · 👥 385 位贡献者 · 📝 30 天 147 次提交 · Python · AGPL-3.0 · 创建 1425 天
-
-> AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨
+> LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.
 
 <sub>来源：LLM、MCP</sub>
 
-### [janhq/jan](https://github.com/janhq/jan) · 98 分
+### [PDFMathTranslate/PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate) · 98 分
 
-⭐ 45,337（+104/天） · 🍴 3,134 · 👥 189 位贡献者 · 📝 30 天 321 次提交 · Rust · NOASSERTION · 创建 1173 天
+⭐ 38,171（+43/天） · 🍴 3,424 · 👥 59 位贡献者 · 📝 30 天 921 次提交 · Python · AGPL-3.0 · 创建 788 天
 
-> Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.
-
-<sub>来源：LLM、自部署</sub>
-
-### [lobehub/lobehub](https://github.com/lobehub/lobehub) · 98 分
-
-⭐ 83,716（+40/天） · 🍴 16,036 · 👥 363 位贡献者 · 📝 30 天 1349 次提交 · TypeScript · NOASSERTION · 创建 1261 天
-
-> 🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.
+> [EMNLP 2025 Demo] PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/MCP/Docker/Zotero
 
 <sub>来源：MCP</sub>
 
-### [xpzouying/xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) · 96 分
+### [krillinai/OpenCreator](https://github.com/krillinai/OpenCreator) · 97 分
 
-⭐ 16,768（+45/天） · 🍴 2,461 · 👥 41 位贡献者 · 📝 30 天 27 次提交 · Go · Apache-2.0 · 创建 456 天
+⭐ 14,135（+37/天） · 🍴 1,574 · 👥 36 位贡献者 · 📝 30 天 143 次提交 · TypeScript · Apache-2.0 · 创建 687 天
 
-> MCP for xiaohongshu.com
+> Formerly KrillinAI, VideoTranslation and Dubbing Tool for 120+ Languages. Open-source AI workspace for creators, powered by Codex. Video downloader, video translation, create videos, images, audios, and edits with Agents in one place. For your Social Media like YouTube, TikTok, Instagram, etc.
+
+<sub>来源：Agent Skill</sub>
+
+### [mksglu/context-mode](https://github.com/mksglu/context-mode) · 97 分
+
+⭐ 33,401（+123/天） · 🍴 2,299 · 👥 111 位贡献者 · 📝 30 天 50 次提交 · TypeScript · NOASSERTION · 创建 253 天
+
+> Free, local plugin that keeps tool output out of your coding agent's context window. Sandbox and SQLite FTS5 search, 99% fewer bytes in context. Works with Claude Code, Codex, Pi, OpenCode, Gemini CLI, Copilot CLI and 4 more agents. Zero telemetry.
 
 <sub>来源：MCP</sub>
 
-### [topoteretes/cognee](https://github.com/topoteretes/cognee) · 95 分
+### [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) · 96 分
 
-⭐ 33,014（+29/天） · 🍴 3,447 · 👥 333 位贡献者 · 📝 30 天 1020 次提交 · Python · Apache-2.0 · 创建 1174 天
+⭐ 30,404（+47/天） · 🍴 2,951 · 👥 37 位贡献者 · 📝 30 天 23 次提交 · TypeScript · NOASSERTION · 创建 210 天
 
-> Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory with small models for free
+> TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.
 
-<sub>来源：AI Agent、Agent Skill</sub>
+<sub>来源：LLM</sub>
+
+### [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) · 96 分
+
+⭐ 60,465（+35/天） · 🍴 9,023 · 👥 367 位贡献者 · 📝 30 天 202 次提交 · Python · MIT · 创建 1103 天
+
+> Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
+
+<sub>来源：AI Agent</sub>
+
+### [usebruno/bruno](https://github.com/usebruno/bruno) · 96 分
+
+⭐ 48,038（+46/天） · 🍴 3,074 · 👥 501 位贡献者 · 📝 30 天 104 次提交 · JavaScript · MIT · 创建 1498 天
+
+> Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)
+
+<sub>来源：开发者工具</sub>
 
 ---
 
