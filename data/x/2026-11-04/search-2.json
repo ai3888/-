@@ -1,0 +1,193 @@
+{
+ "page": "https://x.com/search?q=url%3Ahuggingface.co%20min_faves%3A100%20-filter%3Areplies%20since%3A2026-11-03&src=typed_query",
+ "collected_at": "2026-11-04T15:45:04.578Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 11,
+ "posts": [
+  {
+   "id": "2117560773509894276",
+   "url": "https://x.com/secfathy/status/2117560773509894276",
+   "author": "secfathy",
+   "name": "Mohammed Fathy",
+   "time": "2026-11-03T10:13:25.000Z",
+   "text": "Introducing OffsecCyber, a dataset for training and evaluating LLMs for penetration testing. It combines public HackerOne reports with CVE records dating back to 2000. I’ve used it to fine-tune Qwen3.5-4B.\n\n\nhttps://\nhuggingface.co/datasets/Pente\nsterFlow/OffsecCyber\n…\n\n#bugbountytips #bugbountytip",
+   "likes": 569,
+   "reposts": 81,
+   "replies": 8,
+   "views": 22622,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/datasets/Pente sterFlow/OffsecCyber …"
+   ]
+  },
+  {
+   "id": "2117663611548254307",
+   "url": "https://x.com/alexhalescoder/status/2117663611548254307",
+   "author": "alexhalescoder",
+   "name": "Roxo",
+   "time": "2026-11-03T17:02:03.000Z",
+   "text": "50 websites you’ll wish you knew sooner \n\n1. \nhttps://\nfuturetools.io — Discover useful AI tools \n2. \nhttps://\ntheresanaiforthat.com — Find AI tools for almost anything\n3. \nhttps://\naitools.fyi — Explore AI tools & apps \n4. \nhttps://\nhuggingface.co/spaces — Try community-built AI demos \n5.",
+   "likes": 203,
+   "reposts": 101,
+   "replies": 21,
+   "views": 8866,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// futuretools.io",
+    "https:// theresanaiforthat.com",
+    "https:// aitools.fyi",
+    "https:// huggingface.co/spaces"
+   ]
+  },
+  {
+   "id": "2117759337187742135",
+   "url": "https://x.com/mamedarovmaruf/status/2117759337187742135",
+   "author": "mamedarovmaruf",
+   "name": "maruf",
+   "time": "2026-11-03T23:22:26.000Z",
+   "text": "Hi guys, we've just released Morphy1.1-Coder-Beta-7B so you can run and test it. If you notice any strange behavior from the model, feel free to let us know on HF. Soon we'll also compare it with other AI models of the same size.\n\nhttps://\nhuggingface.co/moolvylabs/Mor\nphy1.1-Coder-Beta-7B-GGUF\n…",
+   "likes": 136,
+   "reposts": 19,
+   "replies": 15,
+   "views": 6745,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/moolvylabs/Mor phy1.1-Coder-Beta-7B-GGUF …"
+   ]
+  },
+  {
+   "id": "2117756332833185858",
+   "url": "https://x.com/AlpinDale/status/2117756332833185858",
+   "author": "AlpinDale",
+   "name": "Alpin",
+   "time": "2026-11-03T23:10:30.000Z",
+   "text": "I had Fable 5.1 write a neural net to do syntax highlighting for C. It's about 984 parameters, and very fast! \n\nFable wrote all the weights by \"hand\", of course.\n\n\nhttps://\nhuggingface.co/alpindale/lexn\net\n…",
+   "likes": 1333,
+   "reposts": 88,
+   "replies": 42,
+   "views": 52448,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/alpindale/lexn et …"
+   ]
+  },
+  {
+   "id": "2117601437202989238",
+   "url": "https://x.com/coffeecup2020/status/2117601437202989238",
+   "author": "coffeecup2020",
+   "name": "David Y. Tan",
+   "time": "2026-11-03T12:55:00.000Z",
+   "text": "My favorite version of Qwen3.8-27b just got the flash treatment and it is absolutely amazing! The TQ_L is 5x closer to the BF16 model than our earlier TQ3_4S on prose and code (KLD 0.016 vs 0.079) with 0.2gb increase only.\n\nhttps://\nhuggingface.co/YTan2000/Qwopu\ns3.8-27B-Coder-Flash-TQ\n…",
+   "likes": 136,
+   "reposts": 7,
+   "replies": 7,
+   "views": 11631,
+   "context": "",
+   "quoted": "Hello everyone! The culmination of our experiences working with Qwen 3.8 is here! Qwopus 3.8 Coder Flash! GGUF: https:// huggingface.co/Jackrong/Qwopu s3.8-27B-Coder-Flash-GGUF … Qwen 3.8 heavily pushed toward software engineering large model teacher data, RL’d with a new reward approach, and it is the best of the line",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/YTan2000/Qwopu s3.8-27B-Coder-Flash-TQ …"
+   ]
+  },
+  {
+   "id": "2117632808315482410",
+   "url": "https://x.com/archiexzzz/status/2117632808315482410",
+   "author": "archiexzzz",
+   "name": "Archie Sengupta",
+   "time": "2026-11-03T14:59:39.000Z",
+   "text": "sarvam-prism, a system 1 decision model, is now open weights.\n\n\nhttps://\nhuggingface.co/sarvamai/prism",
+   "likes": 123,
+   "reposts": 6,
+   "replies": 8,
+   "views": 4040,
+   "context": "",
+   "quoted": "Today we’re releasing Sarvam Prism, a System One model built on Sarvam 105B for fast, accurate decisions across enterprise workflows. It scores 71.8 with a median response time of 44 milliseconds, the highest average score among decision models that respond in under 100",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/sarvamai/prism"
+   ]
+  },
+  {
+   "id": "2117744771418804247",
+   "url": "https://x.com/toyxyz3/status/2117744771418804247",
+   "author": "toyxyz3",
+   "name": "toyxyz",
+   "time": "2026-11-03T22:24:33.000Z",
+   "text": "",
+   "likes": 105,
+   "reposts": 8,
+   "replies": 1,
+   "views": 11906,
+   "context": "",
+   "quoted": "",
+   "card": "akhaliq/idol-turbo · Hugging Face",
+   "links": []
+  },
+  {
+   "id": "2117606470112223480",
+   "url": "https://x.com/malariadx/status/2117606470112223480",
+   "author": "malariadx",
+   "name": "びおめた",
+   "time": "2026-11-03T13:15:00.000Z",
+   "text": "Trying out the Image-to-3D model Idol that runs on ComfyUI 2. I feel like it works better with original images that have more shading than anime-style ones, and it also generates videos for you.\n\nhttps://\nhuggingface.co/Comfy-Org/Idol\n#AIイラスト #AIart",
+   "likes": 330,
+   "reposts": 18,
+   "replies": 3,
+   "views": 23202,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/Comfy-Org/Idol"
+   ]
+  },
+  {
+   "id": "2117912799938744626",
+   "url": "https://x.com/scavin/status/2117912799938744626",
+   "author": "scavin",
+   "name": "scavin",
+   "time": "2026-11-04T09:32:15.000Z",
+   "text": "Realistic model: \nhttps://\nhuggingface.co/axiomofmind/Mo\nss-image-nsfw-uncensored-lora\n…\n\nThis model, called Moss Image NSFW Uncensored LoRA, is optimized for explicit adult portraits, nude poses, indoor scenes, and close-up shots. Requires a base model to use.",
+   "likes": 542,
+   "reposts": 40,
+   "replies": 19,
+   "views": 49241,
+   "context": "",
+   "quoted": "",
+   "card": "axiomofmind/Moss-image-nsfw-uncensored-lora · Hugging Face",
+   "links": [
+    "https:// huggingface.co/axiomofmind/Mo ss-image-nsfw-uncensored-lora …"
+   ]
+  },
+  {
+   "id": "2117851057703575639",
+   "url": "https://x.com/alannnfx/status/2117851057703575639",
+   "author": "alannnfx",
+   "name": "Alan",
+   "time": "2026-11-04T05:26:54.000Z",
+   "text": "10 UNCENSORED AI MODELS YOU CAN RUN WITH 16GB VRAM\n\nQwen3.8 27B Abliterated \nhttps://\nhuggingface.co/huihui-ai/Huih\nui-Qwen3.8-27B-abliterated\n…\n\nGemma 4 12B Uncensored \nhttps://\nhuggingface.co/models?search=\nGemma4-12B-Uncensored\n…\n\nOrnith 1.5 9B Uncensored\n\nhttps://\nhuggingface.co/models?search=\nOrnith-1.5-9B-uncensored\n…\n\nQwen3.5 9B Uncensored\n\nhttps://\nhuggingface.co/localgstar/Qwe\nn3.5-9B-Uncensored\n…\n\nDolphin Mistral 24B",
+   "likes": 262,
+   "reposts": 30,
+   "replies": 15,
+   "views": 10379,
+   "context": "",
+   "quoted": "",
+   "card": "huihui-ai/Huihui-Qwen3.8-27B-abliterated · Hugging Face",
+   "links": [
+    "https:// huggingface.co/huihui-ai/Huih ui-Qwen3.8-27B-abliterated …",
+    "https:// huggingface.co/models?search= Gemma4-12B-Uncensored …",
+    "https:// huggingface.co/models?search= Ornith-1.5-9B-uncensored …",
+    "https:// huggingface.co/localgstar/Qwe n3.5-9B-Uncensored …"
+   ]
+  }
+ ]
+}

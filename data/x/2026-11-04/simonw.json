@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/simonw",
+ "collected_at": "2026-11-04T15:42:29.410Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2117655816581071203",
+   "url": "https://x.com/simonw/status/2117655816581071203",
+   "author": "simonw",
+   "name": "Simon Willison",
+   "time": "2026-11-03T16:31:05.000Z",
+   "text": "有一篇新的论文提到，GPT-6 Astra 能够直接解读模型权重（那些由浮点数构成的指令）。我在笔记本电脑上尝试了使用 Qwen 3.8 27B 模型来执行这一操作，结果发现，经过 45 分钟多的处理之后，该模型仍然能够完成同样的任务。",
+   "likes": 4801,
+   "reposts": 486,
+   "replies": 342,
+   "views": 278854,
+   "context": "",
+   "quoted": "",
+   "card": "simonwillison.net Qwen 3.8 27B on my laptop can interpret model weights, too Yesterday’s hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Riki",
+   "links": []
+  }
+ ]
+}

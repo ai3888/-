@@ -1,0 +1,75 @@
+{
+ "page": "https://x.com/MistralAI",
+ "collected_at": "2026-11-04T15:40:19.225Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2117925908572991748",
+   "url": "https://x.com/MistralAI/status/2117925908572991748",
+   "author": "MistralAI",
+   "name": "Mistral AI",
+   "time": "2026-11-04T10:24:20.000Z",
+   "text": "Can Mistral Large 4 find a critical vulnerability, prove it and fix it? We tested it on a recent Django CVE.\n\n133 agents map the code, hunt for flaws, test attack scenarios and confirm the bug. Then Le Chonk patches it.\n\nTriage, repro, patch. Shown at 90x speed.",
+   "likes": 615,
+   "reposts": 111,
+   "replies": 118,
+   "views": 25480,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117670644506861900",
+   "url": "https://x.com/MistralAI/status/2117670644506861900",
+   "author": "MistralAI",
+   "name": "Mistral AI",
+   "time": "2026-11-03T17:30:00.000Z",
+   "text": "Mistral Large 4 joins the model lineup on Open Math OS.\n\n1.05T open weights, 1M context, live today for approved teams.\n\nOpen Math OS is a research workspace where mathematicians and AI agents work on shared projects, built only on open models so the community can inspect and run",
+   "likes": 600,
+   "reposts": 78,
+   "replies": 83,
+   "views": 24198,
+   "context": "",
+   "quoted": "New on Open Math OS: Mistral Large 4 by @MistralAI. 1.05T open weights. 1M context window. Available now to all approved teams.",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117574509179900410",
+   "url": "https://x.com/MistralAI/status/2117574509179900410",
+   "author": "MistralAI",
+   "name": "Mistral AI",
+   "time": "2026-11-03T11:08:00.000Z",
+   "text": "We tasked Mistral Large 4 with creating a real-time, 3D tracker of the roughly 19,000 satellites and debris fragments orbiting Earth. \n\nThe model built a working app, tested it like a user, made it fast, and passed strict verification. \n\nPlease meet Orbital Trace :",
+   "likes": 1070,
+   "reposts": 148,
+   "replies": 121,
+   "views": 41827,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117562068220195097",
+   "url": "https://x.com/MistralAI/status/2117562068220195097",
+   "author": "MistralAI",
+   "name": "Mistral AI",
+   "time": "2026-11-03T10:18:34.000Z",
+   "text": "The story of how Le Chonk was built, told by the team behind it.\n\nNow on \n@askalphaxiv\n : \nhttps://\nalphaxiv.org/abs/2611.mistr\nal-large-4\n…",
+   "likes": 657,
+   "reposts": 77,
+   "replies": 48,
+   "views": 37391,
+   "context": "",
+   "quoted": "ML4 is now open-weight! Frontier capabilities on code agents & cyber, way more efficient and compact than its Preview version three weeks ago (!) and cherry on the cake: technical report telling its epic backstory. Check it out: https:// huggingface.co/mistralai/Mist ral-Large-4-1T-A52B/blob/main/assets/technical_report.pdf …",
+   "card": "",
+   "links": [
+    "https:// alphaxiv.org/abs/2611.mistr al-large-4 …"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/OpenAI",
+ "collected_at": "2026-11-04T15:39:00.257Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 8,
+ "posts": [
+  {
+   "id": "2117692475775258785",
+   "url": "https://x.com/OpenAI/status/2117692475775258785",
+   "author": "OpenAI",
+   "name": "OpenAI",
+   "time": "2026-11-03T18:56:45.000Z",
+   "text": "ChatGPT and Codex are helping engineers build for the physical world.\n\nWe’re sharing our progress across mechanical design, electrical engineering, and simulation—from helping our hardware teams iterate faster to testing new workflows with industry collaborators.",
+   "likes": 7112,
+   "reposts": 1079,
+   "replies": 637,
+   "views": 1024274,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117692477947641954",
+   "url": "https://x.com/OpenAI/status/2117692477947641954",
+   "author": "OpenAI",
+   "name": "OpenAI",
+   "time": "2026-11-03T18:56:46.000Z",
+   "text": "Two OpenAI team members worked with GPT-6 Astra to design a prototype device for talking to Codex in under a week, as a side project.\n\nAstra designed the enclosure, circuit board, interface, and software. Getting it manufactured still required several rounds of review and",
+   "likes": 901,
+   "reposts": 112,
+   "replies": 101,
+   "views": 97782,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

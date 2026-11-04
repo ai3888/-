@@ -1,0 +1,43 @@
+{
+ "page": "https://x.com/allen_ai",
+ "collected_at": "2026-11-04T15:39:50.403Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 9,
+ "posts": [
+  {
+   "id": "2117670295339171994",
+   "url": "https://x.com/allen_ai/status/2117670295339171994",
+   "author": "allen_ai",
+   "name": "Ai2",
+   "time": "2026-11-03T17:28:37.000Z",
+   "text": "",
+   "likes": 225,
+   "reposts": 34,
+   "replies": 16,
+   "views": 17003,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https://github.com/allenai/state-bench…"
+   ]
+  },
+  {
+   "id": "2117670296647823731",
+   "url": "https://x.com/allen_ai/status/2117670296647823731",
+   "author": "allen_ai",
+   "name": "Ai2",
+   "time": "2026-11-03T17:28:37.000Z",
+   "text": "StateBench separates state tracking into 4 levels: r-trivial, aperiodic, soluble, & general finite.\n\nThese range from problems like remembering something fixed, such as a birth date, to harder ones like tracking a ball as cups are repeatedly swapped.",
+   "likes": 11,
+   "reposts": 0,
+   "replies": 1,
+   "views": 1153,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

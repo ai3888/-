@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/JeffDean",
+ "collected_at": "2026-11-04T15:42:01.738Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2117991230428823983",
+   "url": "https://x.com/JeffDean/status/2117991230428823983",
+   "author": "JeffDean",
+   "name": "Jeff Dean",
+   "time": "2026-11-04T14:43:54.000Z",
+   "text": "Awesome to see high voter turnout yesterday.  Thanks to everyone who took the time to vote!",
+   "likes": 309,
+   "reposts": 7,
+   "replies": 3,
+   "views": 12662,
+   "context": "",
+   "quoted": "Election Tuesday is just two days away. For those eligible to vote in the U.S., please make time to go to the polls to vote (or mail in your ballot if you haven't already). Voting is a great privilege of living in a democracy and how we all make our collective voices heard.",
+   "card": "",
+   "links": []
+  }
+ ]
+}

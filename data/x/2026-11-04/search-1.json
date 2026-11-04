@@ -1,0 +1,290 @@
+{
+ "page": "https://x.com/search?q=url%3Aarxiv.org%20min_faves%3A100%20-filter%3Areplies%20since%3A2026-11-03&src=typed_query",
+ "collected_at": "2026-11-04T15:44:53.397Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 17,
+ "posts": [
+  {
+   "id": "2117655733911044147",
+   "url": "https://x.com/PhilippCSE/status/2117655733911044147",
+   "author": "PhilippCSE",
+   "name": "Philipp Lindenberger",
+   "time": "2026-11-03T16:30:45.000Z",
+   "text": "选择匹配还是不匹配？\n\nFlexGlue  ，我们的新图像匹配模型，能够匹配每一个像素点，同时能够排除重复的图像对，从而解决 SfM 算法中常见的错误情况。\n\n  采用最先进的 SfM 算法和匹配技术，速度快得惊人\n  代码： \nhttps://\ngithub.com/cvg/FlexGlue \n  论文： \nhttps://\narxiv.org/pdf/2610.32976 \n1/",
+   "likes": 469,
+   "reposts": 57,
+   "replies": 11,
+   "views": 17518,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/cvg/FlexGlue",
+    "https:// arxiv.org/pdf/2610.32976"
+   ]
+  },
+  {
+   "id": "2117565249956327794",
+   "url": "https://x.com/oriane_simeoni/status/2117565249956327794",
+   "author": "oriane_simeoni",
+   "name": "Oriane Siméoni",
+   "time": "2026-11-03T10:31:12.000Z",
+   "text": "基于原则的 SSL 协议，比 DINOv3 更简洁，且性能与之相当？\n\n请查看我们在 Arxiv 上发布的新 SSL 算法 JEM \nhttps://\narxiv.org/abs/2610.10013  。\n\n经过大量的努力，我的 @maxseitzer 终于成功了。他让我明白，在当今世界，耐心的工作仍然具有其价值。",
+   "likes": 126,
+   "reposts": 7,
+   "replies": 1,
+   "views": 4421,
+   "context": "",
+   "quoted": "SSL 在扩展应用时并不需要复杂的训练方案，但目前的 SotA 系统确实需要这样的方案。 大家好，今天介绍一种名为 JEM 的 SSL 方法。这是一种基于信息论原理的 SSL 解决方案。从 3 亿参数训练到 70 亿参数训练时，其性能表现相当出色。在训练稳定性方面，其表现与 DINOv3 相当，甚至更优。",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2610.10013"
+   ]
+  },
+  {
+   "id": "2117588845864575397",
+   "url": "https://x.com/mattpocockuk/status/2117588845864575397",
+   "author": "mattpocockuk",
+   "name": "Matt Pocock",
+   "time": "2026-11-03T12:04:58.000Z",
+   "text": "",
+   "likes": 2360,
+   "reposts": 101,
+   "replies": 81,
+   "views": 167969,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https://arxiv.org/pdf/2610.34938"
+   ]
+  },
+  {
+   "id": "2117578162544808012",
+   "url": "https://x.com/QbioTetsuya/status/2117578162544808012",
+   "author": "QbioTetsuya",
+   "name": "Tetsuya J. Kobayashi, Qbio@IIS UTokyo",
+   "time": "2026-11-03T11:22:31.000Z",
+   "text": "I posted my first paper in a while to arXiv. It integrates thermodynamic theory of chemical reaction systems with optimal control, formulating a thermodynamic optimization theory that uses entropy production as the control cost. It features a beautiful mathematical structure",
+   "likes": 114,
+   "reposts": 22,
+   "replies": 3,
+   "views": 5935,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117566854516654376",
+   "url": "https://x.com/_fernando_rosas/status/2117566854516654376",
+   "author": "_fernando_rosas",
+   "name": "Fernando Rosas",
+   "time": "2026-11-03T10:37:35.000Z",
+   "text": "Preprint time:\n“Beliefs in feedback: Factored representations of interacting agents in transformers”\n\nhttps://\narxiv.org/pdf/2611.02047\n\nTransformers predicting interactive agents build separate internal representations for tracking each of them",
+   "likes": 209,
+   "reposts": 33,
+   "replies": 5,
+   "views": 8838,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/pdf/2611.02047"
+   ]
+  },
+  {
+   "id": "2117620756075229410",
+   "url": "https://x.com/KirkDBorne/status/2117620756075229410",
+   "author": "KirkDBorne",
+   "name": "Kirk Borne",
+   "time": "2026-11-03T14:11:46.000Z",
+   "text": "“Multimodal Deep Learning”\n\nhttps://\narxiv.org/abs/2301.04856\n[Download 272-page PDF eBook]\n——————\n#DataScience #AI #ML #MachineLearning",
+   "likes": 180,
+   "reposts": 34,
+   "replies": 1,
+   "views": 6071,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2301.04856"
+   ]
+  },
+  {
+   "id": "2117663354374234220",
+   "url": "https://x.com/mittalbhumika7/status/2117663354374234220",
+   "author": "mittalbhumika7",
+   "name": "Bhumika Mittal",
+   "time": "2026-11-03T17:01:02.000Z",
+   "text": "This is so well written! Love it\n\nhttps://\narxiv.org/pdf/2010.07763",
+   "likes": 189,
+   "reposts": 9,
+   "replies": 7,
+   "views": 43564,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/pdf/2010.07763"
+   ]
+  },
+  {
+   "id": "2117623810073460776",
+   "url": "https://x.com/KirkDBorne/status/2117623810073460776",
+   "author": "KirkDBorne",
+   "name": "Kirk Borne",
+   "time": "2026-11-03T14:23:54.000Z",
+   "text": "The Little Book of Generative AI Foundations — Intuitive Mathematical Primer: \nhttps://\narxiv.org/pdf/2605.29713\n\n[download 195-page PDF]",
+   "likes": 224,
+   "reposts": 39,
+   "replies": 0,
+   "views": 7565,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/pdf/2605.29713"
+   ]
+  },
+  {
+   "id": "2117758072693150152",
+   "url": "https://x.com/JohnCLangford/status/2117758072693150152",
+   "author": "JohnCLangford",
+   "name": "John Langford",
+   "time": "2026-11-03T23:17:25.000Z",
+   "text": "The Bytedance folks released Recycler \nhttps://\nseed.bytedance.com/en/public_pape\nrs/recycler-cost-free-latent-reasoning-via-hidden-state-recycling\n… which is the Full Bandwidth Transformer \nhttps://\narxiv.org/abs/2608.08888 up to inessential details.\n\nExperiments are more comprehensive, cover RL,  work at larger scale, and compare across model sizes.  \n\nNice work! :-)",
+   "likes": 158,
+   "reposts": 18,
+   "replies": 4,
+   "views": 9883,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// seed.bytedance.com/en/public_pape rs/recycler-cost-free-latent-reasoning-via-hidden-state-recycling …",
+    "https:// arxiv.org/abs/2608.08888"
+   ]
+  },
+  {
+   "id": "2117735729698906391",
+   "url": "https://x.com/zhongshsh33/status/2117735729698906391",
+   "author": "zhongshsh33",
+   "name": "Shanshan Zhong",
+   "time": "2026-11-03T21:48:38.000Z",
+   "text": "AI agents can now run most of the research loop. But can they propose research worth doing?\n\nWe built IdeaTaste to find out: \n \nhttps://\narxiv.org/abs/2611.03424\n \nhttps://\ncxcscmu.github.io/IdeaTaste",
+   "likes": 165,
+   "reposts": 34,
+   "replies": 12,
+   "views": 10730,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2611.03424",
+    "https:// cxcscmu.github.io/IdeaTaste"
+   ]
+  },
+  {
+   "id": "2117601986845831304",
+   "url": "https://x.com/DynamicsSIAM/status/2117601986845831304",
+   "author": "DynamicsSIAM",
+   "name": "SIAM Activity Group on Dynamical Systems",
+   "time": "2026-11-03T12:57:11.000Z",
+   "text": "Lecture note: \"An Introduction to Financial Derivatives: Open Lecture Notes\" (by Matthew Lorig):",
+   "likes": 131,
+   "reposts": 23,
+   "replies": 1,
+   "views": 5282,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org An Introduction to Financial Derivatives: Open Lecture Notes These lecture notes give a broad introduction to financial derivatives at the level of a Masters program in quantitative finance.",
+   "links": []
+  },
+  {
+   "id": "2117590191518990459",
+   "url": "https://x.com/chaumian/status/2117590191518990459",
+   "author": "chaumian",
+   "name": "Alon Turing",
+   "time": "2026-11-03T12:10:19.000Z",
+   "text": "An Introduction to Financial Derivatives: Open Lecture Notes",
+   "likes": 103,
+   "reposts": 15,
+   "replies": 0,
+   "views": 4910,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org An Introduction to Financial Derivatives: Open Lecture Notes These lecture notes give a broad introduction to financial derivatives at the level of a Masters program in quantitative finance.",
+   "links": []
+  },
+  {
+   "id": "2117583853963653440",
+   "url": "https://x.com/forthshinji/status/2117583853963653440",
+   "author": "forthshinji",
+   "name": "Shinnosuke Takamichi / 高道 慎之介",
+   "time": "2026-11-03T11:45:08.000Z",
+   "text": "RE-USE is a hot topic, but Seki-kun from the Saruwatari Lab at the University of Tokyo was doing research along the lines of \"Let's fully automate which voice enhancement to use as TTS preprocessing.\" If you're interested, please check it out.  \nIt was first published in 2023, so",
+   "likes": 101,
+   "reposts": 20,
+   "replies": 1,
+   "views": 8513,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117622121228591307",
+   "url": "https://x.com/KirkDBorne/status/2117622121228591307",
+   "author": "KirkDBorne",
+   "name": "Kirk Borne",
+   "time": "2026-11-03T14:17:11.000Z",
+   "text": "Foundations of Large Language Models: \nhttps://\narxiv.org/abs/2501.09223 \n[download 315-page PDF]",
+   "likes": 239,
+   "reposts": 37,
+   "replies": 4,
+   "views": 8393,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2501.09223"
+   ]
+  },
+  {
+   "id": "2117822204285194560",
+   "url": "https://x.com/themassagejp/status/2117822204285194560",
+   "author": "themassagejp",
+   "name": "MASSAGE MAGAZINE",
+   "time": "2026-11-04T03:32:15.000Z",
+   "text": "The history of generative art cannot be fully seen through works collected in museums alone. By analyzing 1.61 million pieces of source code, we confirmed the existence of approximately 85,000 pieces that have already vanished from their original publication sources. The vast",
+   "likes": 105,
+   "reposts": 13,
+   "replies": 0,
+   "views": 3312,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org Art in Humanity's Code Artist-led open-source libraries such as Processing or openFrameworks have had a major impact on artists and designers who use code as a creative medium. In this work,",
+   "links": []
+  },
+  {
+   "id": "2117609678985392209",
+   "url": "https://x.com/Hughie_Hu43/status/2117609678985392209",
+   "author": "Hughie_Hu43",
+   "name": "Tiansheng Hu",
+   "time": "2026-11-03T13:27:45.000Z",
+   "text": "(1/7)  Introducing DR Pixel, the first open-source deep research agent that searches and reasons directly over page images, no OCR. On 1.06M pages, our trained 27B model matches GPT-5.4.\n\n \nhttps://\narxiv.org/abs/2611.03097\nJoint work from \n@BerkeleyNLP\n, \n@rtnldynamics\n!",
+   "likes": 154,
+   "reposts": 42,
+   "replies": 8,
+   "views": 21687,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2611.03097"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "page": "https://x.com/reach_vb",
+ "collected_at": "2026-11-04T15:42:53.036Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2118003590271009030",
+   "url": "https://x.com/reach_vb/status/2118003590271009030",
+   "author": "reach_vb",
+   "name": "Vaibhav (VB) Srivastav",
+   "time": "2026-11-04T15:33:01.000Z",
+   "text": "LFG!!",
+   "likes": 11,
+   "reposts": 1,
+   "replies": 0,
+   "views": 840,
+   "context": "",
+   "quoted": "Today we’re announcing that OpenAI will acquire @pierrecomputer to accelerate our vision for making Codex a place where teams can build software together with AI, from first idea to the version they ship. Pierre’s open-source developer tools already power parts of Codex today.",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117738598090874926",
+   "url": "https://x.com/reach_vb/status/2117738598090874926",
+   "author": "reach_vb",
+   "name": "Vaibhav (VB) Srivastav",
+   "time": "2026-11-03T22:00:02.000Z",
+   "text": "QoL upgrade for ChatGPT side chats! they no longer expire or disappear after a restart or update.\n\nfaster to open, better at talking to the main chat, fewer failed tool calls and clearer activity.\n\narchive or delete them on their own or with the main chat, or ask ChatGPT to clean",
+   "likes": 179,
+   "reposts": 1,
+   "replies": 24,
+   "views": 9456,
+   "context": "",
+   "quoted": "Side chats in ChatGPT no longer expire or disappear when you restart the app! When I joined OpenAI, I found this to be one of the biggest pain points for side chat users, and as of today, it's fixed. Never lose data just because you updated, restarted, etc.",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117694224498049187",
+   "url": "https://x.com/reach_vb/status/2117694224498049187",
+   "author": "reach_vb",
+   "name": "Vaibhav (VB) Srivastav",
+   "time": "2026-11-03T19:03:42.000Z",
+   "text": "holy shitt, it’s the claw father himself!!",
+   "likes": 214,
+   "reposts": 5,
+   "replies": 8,
+   "views": 8804,
+   "context": "",
+   "quoted": "we’re just about ready to get the show started @ Dev Day Exchange London",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117612773953974519",
+   "url": "https://x.com/reach_vb/status/2117612773953974519",
+   "author": "reach_vb",
+   "name": "Vaibhav (VB) Srivastav",
+   "time": "2026-11-03T13:40:03.000Z",
+   "text": "we’re just about ready to get the show started @ Dev Day Exchange London",
+   "likes": 231,
+   "reposts": 13,
+   "replies": 21,
+   "views": 16931,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

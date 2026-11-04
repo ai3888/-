@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/fchollet",
+ "collected_at": "2026-11-04T15:41:38.880Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 9,
+ "posts": [
+  {
+   "id": "2117795655297175980",
+   "url": "https://x.com/fchollet/status/2117795655297175980",
+   "author": "fchollet",
+   "name": "François Chollet",
+   "time": "2026-11-04T01:46:45.000Z",
+   "text": "Co-sign. The only future that is worth building is one in which AI remains a tool in human hands, used to elevate the human condition.",
+   "likes": 960,
+   "reposts": 79,
+   "replies": 64,
+   "views": 87479,
+   "context": "",
+   "quoted": "People should always be in control of the future. OpenAI is against the notion that it would be acceptable for people to be relegated to a role of doing things that “AI systems think makes sense to reward in humans”. People should not cede control of the future to",
+   "card": "",
+   "links": []
+  }
+ ]
+}

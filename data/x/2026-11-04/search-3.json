@@ -1,0 +1,152 @@
+{
+ "page": "https://x.com/search?q=url%3Agithub.com%20(LLM%20OR%20agent%20OR%20model%20OR%20inference%20OR%20training)%20min_faves%3A200%20-filter%3Areplies%20since%3A2026-11-03&src=typed_query",
+ "collected_at": "2026-11-04T15:45:13.674Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 9,
+ "posts": [
+  {
+   "id": "2117592218663784631",
+   "url": "https://x.com/0xnicc0/status/2117592218663784631",
+   "author": "0xnicc0",
+   "name": "nicco",
+   "time": "2026-11-03T12:18:22.000Z",
+   "text": "",
+   "likes": 786,
+   "reposts": 89,
+   "replies": 28,
+   "views": 76093,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https://github.com/remotion-dev/skills…"
+   ]
+  },
+  {
+   "id": "2117882243893108848",
+   "url": "https://x.com/NekoStranding/status/2117882243893108848",
+   "author": "NekoStranding",
+   "name": "毒猫猫 | 量化摸鱼师",
+   "time": "2026-11-04T07:30:49.000Z",
+   "text": "",
+   "likes": 377,
+   "reposts": 26,
+   "replies": 8,
+   "views": 37717,
+   "context": "",
+   "quoted": "Couldn't hold it together, kids should still spend less time online at internet cafes",
+   "card": "",
+   "links": [
+    "https://github.com/whyever77/dafeiyu-astrbot…"
+   ]
+  },
+  {
+   "id": "2117655733911044147",
+   "url": "https://x.com/PhilippCSE/status/2117655733911044147",
+   "author": "PhilippCSE",
+   "name": "Philipp Lindenberger",
+   "time": "2026-11-03T16:30:45.000Z",
+   "text": "To match or not to match?\n\nFlexGlue , our new image-matching model, can match every pixel AND reject doppelganger pairs, tackling a common failure case in SfM.\n\nState-of-the-art SfM and matching, blazing fast\nCode: \nhttps://\ngithub.com/cvg/FlexGlue\nPaper: \nhttps://\narxiv.org/pdf/2610.32976\n1/",
+   "likes": 469,
+   "reposts": 57,
+   "replies": 11,
+   "views": 17527,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/cvg/FlexGlue",
+    "https:// arxiv.org/pdf/2610.32976"
+   ]
+  },
+  {
+   "id": "2117881857404731425",
+   "url": "https://x.com/1leaf1bodhi/status/2117881857404731425",
+   "author": "1leaf1bodhi",
+   "name": "Alpha",
+   "time": "2026-11-04T07:29:17.000Z",
+   "text": "CVE-2026-43499 was disclosed back in July  \nI implemented it with an agent and didn't expect to get everyone's attention  \n\nHere are some related repositories for reference:  \nVulnerability discoverer's repo  \n\nhttps://\ngithub.com/NebuSec/CyberM\neowfia\n…  \nPopular practical solutions with more stars",
+   "likes": 424,
+   "reposts": 49,
+   "replies": 18,
+   "views": 29727,
+   "context": "",
+   "quoted": "Exploit CVE-2026-43499 to achieve memory-state root access without flashing or unlocking the bootloader thereby restricting the backdoors and rogue software pre-installed by phone manufacturers",
+   "card": "",
+   "links": [
+    "https:// github.com/NebuSec/CyberM eowfia …"
+   ]
+  },
+  {
+   "id": "2117574180690600126",
+   "url": "https://x.com/Weixin_WeChat/status/2117574180690600126",
+   "author": "Weixin_WeChat",
+   "name": "WeChat",
+   "time": "2026-11-03T11:06:41.000Z",
+   "text": "we gave our AI an eye for detail. \n\nMeet WeVisOne-VL, an open-source 2B/4B model from our Weixin Vision team.\n\nIt finds and counts objects, reads text, and makes precise masks and cutouts—no separate SAM needed.\n\nNot in the image? \"None.\"",
+   "likes": 549,
+   "reposts": 112,
+   "replies": 57,
+   "views": 119138,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117634091327557893",
+   "url": "https://x.com/midudev/status/2117634091327557893",
+   "author": "midudev",
+   "name": "Miguel Ángel Durán",
+   "time": "2026-11-03T15:04:45.000Z",
+   "text": "If you want to do scraping and data extraction from websites, use this open source framework.\n\n✓ Requests that mimic Chrome's fingerprint\n✓ Browser with JS and Cloudflare Captcha\n✓ MCP and Agent Skill for use with AI\n\n→ \nhttps://\ngithub.com/D4Vinci/Scrapl\ning\n…",
+   "likes": 2406,
+   "reposts": 284,
+   "replies": 34,
+   "views": 83610,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/D4Vinci/Scrapl ing …"
+   ]
+  },
+  {
+   "id": "2117687388214272339",
+   "url": "https://x.com/thegreatest_sv/status/2117687388214272339",
+   "author": "thegreatest_sv",
+   "name": "kiosa",
+   "time": "2026-11-03T18:36:32.000Z",
+   "text": "YOU WON'T HAVE A JOB IN 2027 IF YOU DON'T LEARN THIS\n\n7 GitHub repos that will save you from being replaced by AI:\n\n1. career-ops (80k stars)\nan agent that scans job boards, scores every role against your CV and tailors your resume for each one\n\nhttps://\ngithub.com/career-ops-hq/\ncareer-ops\n…\n\n2. Agent",
+   "likes": 1067,
+   "reposts": 189,
+   "replies": 37,
+   "views": 57732,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/career-ops-hq/ career-ops …"
+   ]
+  },
+  {
+   "id": "2117923876642656592",
+   "url": "https://x.com/jundotkim/status/2117923876642656592",
+   "author": "jundotkim",
+   "name": "Jun Kim",
+   "time": "2026-11-04T10:16:15.000Z",
+   "text": "oMLX 0.7.4.dev1 is out!\n\nhttps://\ngithub.com/jundot/omlx/re\nleases/tag/v0.7.4.dev1\n…\nWith the new Prefill Accelerator, connect an M5 Max to your big Mac and prefill up to 2.9x faster!\n\nPrefill Accelerator (64K prompt, M3 Ultra 512GB + M5 Max 128GB)\n- DeepSeek V4.1 Flash: 1,060 -> 3,123 tok/s (+195%)\n- Qwen3.8",
+   "likes": 243,
+   "reposts": 43,
+   "replies": 38,
+   "views": 37080,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/jundot/omlx/re leases/tag/v0.7.4.dev1 …"
+   ]
+  }
+ ]
+}

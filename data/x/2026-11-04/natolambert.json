@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/natolambert",
+ "collected_at": "2026-11-04T15:41:17.111Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 8,
+ "posts": [
+  {
+   "id": "2117827828985307379",
+   "url": "https://x.com/natolambert/status/2117827828985307379",
+   "author": "natolambert",
+   "name": "Nathan Lambert",
+   "time": "2026-11-04T03:54:36.000Z",
+   "text": "Rule one of \"nothing ever happens\" is the reactions on twitter to the implications of an election night are overblown (especially economic).",
+   "likes": 105,
+   "reposts": 2,
+   "replies": 3,
+   "views": 13980,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117672040807489553",
+   "url": "https://x.com/natolambert/status/2117672040807489553",
+   "author": "natolambert",
+   "name": "Nathan Lambert",
+   "time": "2026-11-03T17:35:33.000Z",
+   "text": "Fireworks serves >40T tokens a day of \"specialized models.\" I'd define this as any post-trained model for a customer.",
+   "likes": 333,
+   "reposts": 19,
+   "replies": 33,
+   "views": 57122,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/AnthropicAI",
+ "collected_at": "2026-11-04T15:39:19.109Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2117710942826123294",
+   "url": "https://x.com/AnthropicAI/status/2117710942826123294",
+   "author": "AnthropicAI",
+   "name": "Anthropic",
+   "time": "2026-11-03T20:10:08.000Z",
+   "text": "新的关于人类行为的研究：在大型语言模型的可证明推理方面取得了进展。\n\n在这里，我们介绍 FlashProve。基于成熟的加密技术，FlashProve 使得开发者能够验证某个响应确实来自特定的 AI 模型。这一技术的实用性非常高。",
+   "likes": 5088,
+   "reposts": 936,
+   "replies": 646,
+   "views": 515307,
+   "context": "",
+   "quoted": "",
+   "card": "Progress on provable inference for large language models",
+   "links": []
+  }
+ ]
+}

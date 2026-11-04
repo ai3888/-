@@ -1,0 +1,75 @@
+{
+ "page": "https://x.com/dotey",
+ "collected_at": "2026-11-04T15:44:44.258Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2117838908721660026",
+   "url": "https://x.com/dotey/status/2117838908721660026",
+   "author": "dotey",
+   "name": "宝玉",
+   "time": "2026-11-04T04:38:38.000Z",
+   "text": "Updated the DeepSeek Harness plugin for Baoyu Design Skill, now with a unified entry point to view all generated Slides, Design, Dashboard, and Motion results, and also convenient for initiating corresponding sessions.\n\nUpdate address: \nhttps://\ngithub.com/JimLiu/baoyu-d\nesign\n…",
+   "likes": 180,
+   "reposts": 20,
+   "replies": 93,
+   "views": 21092,
+   "context": "",
+   "quoted": "baoyu-design has added the Motion feature, enhancing multi-user collaboration and editor functionality based on Claude Motion. You don't need to wait for the entire video to finish rendering to see the effects (those who've done Motion animations with Opus 5.5 know how slow it x.com/dotey/status/2…",
+   "card": "",
+   "links": [
+    "https:// github.com/JimLiu/baoyu-d esign …"
+   ]
+  },
+  {
+   "id": "2117759172125028539",
+   "url": "https://x.com/dotey/status/2117759172125028539",
+   "author": "dotey",
+   "name": "宝玉",
+   "time": "2026-11-03T23:21:47.000Z",
+   "text": "Canva announces restructuring, affecting 1,271 positions, which is 22% of the entire company. This number includes people who are being reassigned or required to relocate; the actual number of layoffs will be lower than this, though the company hasn't disclosed the exact figure.",
+   "likes": 63,
+   "reposts": 14,
+   "replies": 70,
+   "views": 25831,
+   "context": "",
+   "quoted": "Faarking hell: Canva announces deep lay offs hitting 22 per cent of its employees.",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117739064455463086",
+   "url": "https://x.com/dotey/status/2117739064455463086",
+   "author": "dotey",
+   "name": "宝玉",
+   "time": "2026-11-03T22:01:53.000Z",
+   "text": "Claude Code product lead Cat Wu has left Anthropic. She posted on X saying that Friday was her last day at the company. She did not mention the reason for leaving, nor did she say where she is going next.\n\nCat Wu was the product lead for Claude Code and Cowork. Early in her",
+   "likes": 417,
+   "reposts": 47,
+   "replies": 184,
+   "views": 138922,
+   "context": "",
+   "quoted": "Friday was my last day at Anthropic. Two years ago, when Claude Code was a small internal tool, I asked it to build an RL env. I steered it for tens of hours but never manually wrote a line of code. It worked, I was hooked, and I joined the team. When we first launched, most",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117706197797114009",
+   "url": "https://x.com/dotey/status/2117706197797114009",
+   "author": "dotey",
+   "name": "宝玉",
+   "time": "2026-11-03T19:51:17.000Z",
+   "text": "I wonder if you've ever used /retro Skill, which involves having the AI review the work it just completed after a coding task, list a few modification suggestions, and let humans decide whether to adopt them.\n\nBesides /retro, which is used for writing code, there are other",
+   "likes": 226,
+   "reposts": 29,
+   "replies": 99,
+   "views": 25226,
+   "context": "",
+   "quoted": "Based on my experience, only Skills with clear, programmatically verifiable acceptance criteria can truly self-evolve. For example, if you write a Skill to optimize code performance, that performance is measurable and quantifiable. So, if you give it some test cases to optimize x.com/karminski3/sta…",
+   "card": "",
+   "links": []
+  }
+ ]
+}

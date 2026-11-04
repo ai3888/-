@@ -1,0 +1,58 @@
+{
+ "page": "https://x.com/ArtificialAnlys/status/2117786852375814228",
+ "collected_at": "2026-11-04T15:46:53.747Z",
+ "logged_in": true,
+ "thread_of": "2117786852375814228",
+ "hours": 30,
+ "found_on_page": 22,
+ "posts": [
+  {
+   "id": "2117786852375814228",
+   "url": "https://x.com/ArtificialAnlys/status/2117786852375814228",
+   "author": "ArtificialAnlys",
+   "name": "Artificial Analysis",
+   "time": "2026-11-04T01:11:46.000Z",
+   "text": "Knowing when to stop is hard for language models controlling a robot arm\n\n➤ Claude Opus 5.5 completed the task in 23 minutes, and said so: \"The crocodile looks fully inside now\"\n\n➤ It then spent 22 minutes pushing the crocodile back and forth, only to finish almost exactly where it was before",
+   "likes": 259,
+   "reposts": 30,
+   "replies": 55,
+   "views": 0,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117786854301081733",
+   "url": "https://x.com/ArtificialAnlys/status/2117786854301081733",
+   "author": "ArtificialAnlys",
+   "name": "Artificial Analysis",
+   "time": "2026-11-04T01:11:47.000Z",
+   "text": "This wasn’t unique to Claude Opus 5.5, with only GPT-6.1 Sol and Gemini 4 Argon stopping within a minute of completing the task. GPT-6 Astra submitted 3 minutes after the passing state, Claude Fable 5.1 kept going for 7 minutes, and Claude Opus 5.5 for a full 22 minutes",
+   "likes": 42,
+   "reposts": 2,
+   "replies": 2,
+   "views": 6361,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2117786855634870688",
+   "url": "https://x.com/ArtificialAnlys/status/2117786855634870688",
+   "author": "ArtificialAnlys",
+   "name": "Artificial Analysis",
+   "time": "2026-11-04T01:11:47.000Z",
+   "text": "See more of AA-Robotics here",
+   "likes": 16,
+   "reposts": 0,
+   "replies": 1,
+   "views": 4321,
+   "context": "",
+   "quoted": "",
+   "card": "Welcome to the era of embodied AI: Introducing AA-Robotics v0.1",
+   "links": []
+  }
+ ]
+}
