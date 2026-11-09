@@ -1,6 +1,6 @@
-# AI 日报素材 · 2026-11-08
+# AI 日报素材 · 2026-11-09
 
-> 生成于 2026-11-08 09:46（北京时间）。38/40 个来源抓取成功，失败：油管 @MachineLearningStreetTalk、油管 @LatentSpacePod。本次候选：热议话题 0 个、高热度单条讨论 8 条、新东西 11 条、论文 0 篇。
+> 生成于 2026-11-09 09:56（北京时间）。34/40 个来源抓取成功，失败：油管 @AndrejKarpathy、油管 @YannicKilcher、油管 @aiexplained-official、油管 @DwarkeshPatel、油管 @MachineLearningStreetTalk、油管 @LatentSpacePod。本次候选：热议话题 1 个、高热度单条讨论 8 条、新东西 10 条、论文 0 篇。
 
 # 写作说明（给 GPT）
 
@@ -94,27 +94,37 @@
 
 按「出现在几个不同来源」排序，来源越多说明讨论越广。关键词是程序自动找的，可能把不相关的内容归到一起，请自己判断。
 
-今天没有多个来源同时提到的话题。
+#### 1. 关键词：jensen / nvidia / huang — 3 个来源：Hacker News、TechCrunch AI、The Verge AI
+
+- [Nvidia CEO Jensen Huang's letter to staff about affair](https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-affair-email-to-company) — 来源：Hacker News（HN 347 分，360 条评论，发布于 11-09 06:20）
+  - HN 讨论：https://news.ycombinator.com/item?id=50418016
+- [Nvidia Board of Directors Is Investigating Jensen Huang](https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors) — 来源：Hacker News（HN 382 分，297 条评论，发布于 11-09 04:26）
+  - HN 讨论：https://news.ycombinator.com/item?id=50416801
+- [Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy](https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/) — 来源：TechCrunch AI（发布于 11-09 05:00）
+  - 简介：In a memo to the company, Huang admitted that he had an affair.
+- [Here’s the full text of Jensen Huang’s memo to Nvidia](https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia) — 来源：The Verge AI（发布于 11-09 06:54）
+  - 简介：On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Di
+- [Nvidia is investigating Jensen Huang’s relationship with a Chinese spy](https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy) — 来源：The Verge AI（发布于 11-09 04:22）
+  - 简介：Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Secu
 
 ### 只在一个地方出现、但很热的讨论（Hacker News，按分数排序）
 
-- [The End of AI Frontiers](https://hunch.net/?p=13764006) — 来源：Hacker News（HN 386 分，224 条评论，发布于 11-08 02:02）
-  - HN 讨论：https://news.ycombinator.com/item?id=50406589
-  - 简介：https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...
-- [Claude Code's "Don't Ask Again" exposes passwords in 1,122 public GitHub files](https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again) — 来源：Hacker News（HN 178 分，125 条评论，发布于 11-08 04:45）
-  - HN 讨论：https://news.ycombinator.com/item?id=50407882
-- [The AI sell-off compared to well-known stock market crashes](https://www.kadoa.com/companies/insights/ai-selloff-perspective) — 来源：Hacker News（HN 84 分，69 条评论，发布于 11-07 10:20）
-  - HN 讨论：https://news.ycombinator.com/item?id=50401029
-- [AI for scientific discovery: How researchers use Claude](https://www.anthropic.com/research/how-researchers-use-claude) — 来源：Hacker News（HN 101 分，39 条评论，发布于 11-06 17:13）
-  - HN 讨论：https://news.ycombinator.com/item?id=50389990
-- [ChatGPT silently passes data between connectors and the bounty wants an ID card](https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053) — 来源：Hacker News（HN 93 分，39 条评论，发布于 11-07 06:50）
-  - HN 讨论：https://news.ycombinator.com/item?id=50399569
-- [Memorilla: Latent Semantic Memory for LLMs](https://arxiv.org/abs/2610.21375) — 来源：Hacker News（HN 115 分，13 条评论，发布于 11-07 02:03）
-  - HN 讨论：https://news.ycombinator.com/item?id=50395919
-- [Microsoft is winding down Oracle deal to rent AI cloud capacity](https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/) — 来源：Hacker News（HN 106 分，19 条评论，发布于 11-07 02:04）
-  - HN 讨论：https://news.ycombinator.com/item?id=50395933
-- [Perplexity launches AI agents for work](https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work) — 来源：Hacker News（HN 64 分，54 条评论，发布于 11-07 01:59）
-  - HN 讨论：https://news.ycombinator.com/item?id=50395866
+- [Goodbye Claude, hello Pi](https://caleb.software/posts/claude-to-pi.html) — 来源：Hacker News（HN 702 分，434 条评论，发布于 11-08 11:11）
+  - HN 讨论：https://news.ycombinator.com/item?id=50410107
+- [Goldman Sachs is pulling Claude Code from its bankers and traders](https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers) — 来源：Hacker News（HN 602 分，359 条评论，发布于 11-09 02:16）
+  - HN 讨论：https://news.ycombinator.com/item?id=50415628
+- [Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU](https://github.com/synchopate/llama-modchip) — 来源：Hacker News（HN 365 分，157 条评论，发布于 11-08 18:22）
+  - HN 讨论：https://news.ycombinator.com/item?id=50411961
+- [OpenAI raises $11B at a $1.25T valuation](https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/) — 来源：Hacker News（HN 181 分，202 条评论，发布于 11-08 22:49）
+  - HN 讨论：https://news.ycombinator.com/item?id=50413822
+- [Why I will not be using LLMs in my coding](https://www.polso.info/why-i-will-not-be-using-llms-coding) — 来源：Hacker News（HN 108 分，220 条评论，发布于 11-08 20:14）
+  - HN 讨论：https://news.ycombinator.com/item?id=50412591
+- [How I Fight AI Brain Fry](https://sergeykuhne.com/blog/fighting-ai-brain-fry) — 来源：Hacker News（HN 153 分，130 条评论，发布于 11-09 03:37）
+  - HN 讨论：https://news.ycombinator.com/item?id=50416363
+- [Agent memory needs its OpenTelemetry moment](https://www.lorekit.io/blog/open-agent-memory-format) — 来源：Hacker News（HN 175 分，103 条评论，发布于 11-08 16:40）
+  - HN 讨论：https://news.ycombinator.com/item?id=50411467
+- [Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It](https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c) — 来源：Hacker News（HN 89 分，108 条评论，发布于 11-09 02:43）
+  - HN 讨论：https://news.ycombinator.com/item?id=50415817
 
 ## 素材二：新东西
 
@@ -126,33 +136,32 @@
 
 今天没有。
 
-### 开源项目和 Skill（GitHub 项目雷达 2026-11-08，已按涨星速度等打过分）
+### 开源项目和 Skill（GitHub 项目雷达 2026-11-09，已按涨星速度等打过分）
 
-- [kortix-ai/CompanyOS](https://github.com/kortix-ai/CompanyOS) — ⭐ 20,530（每天 +126.0 星） · 创建 763 天 · TypeScript · NOASSERTION · 93 位贡献者 · 雷达评分 100（值得关注）
-  - 简介：Kortix CompanyOS – the open-source operating system for your company. Multiplayer AI agents, your company as code, sovereign on your infrastructure or ours.
-- [peach-mitao/peach](https://github.com/peach-mitao/peach) — ⭐ 14,689（每天 +51.0 星） · 创建 80 天 · Python · AGPL-3.0 · 16 位贡献者 · 雷达评分 99（潜力股）
-  - 简介：Peach: Local-first video metadata scraper and media manager.
-- [1jehuang/jcode](https://github.com/1jehuang/jcode) — ⭐ 21,598（每天 +33.0 星） · 创建 306 天 · Rust · MIT · 61 位贡献者 · 雷达评分 96（值得关注）
-  - 简介：High performance coding agent harness written in Rust, built for heavy multi-agent dev workflows
-- [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) — ⭐ 91,269（每天 +147.0 星） · 创建 237 天 · TypeScript · MIT · 77 位贡献者 · 雷达评分 95（值得关注）
-  - 简介：Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.
-- [dsh-market/dsh-market](https://github.com/dsh-market/dsh-market) — ⭐ 11,347（每天 +176.0 星） · 创建 85 天 · TypeScript · MIT · 103 位贡献者 · 雷达评分 95（潜力股）
-  - 简介：The plugin market inside DeepSeek Harness — browse, search, one-click install · DSH 可视化插件市场
-- [amosblomqvist/learnharness](https://github.com/amosblomqvist/learnharness) — ⭐ 6,206（每天 +282.1 星，按总星数平均） · 创建 22 天 · TypeScript · AGPL-3.0 · 28 位贡献者 · 雷达评分 95（潜力股）
-  - 简介：Agent harness for learning difficult things.
-- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) — ⭐ 140,776（每天 +498.0 星） · 创建 971 天 · Python · MIT · 169 位贡献者 · 雷达评分 95（值得关注）
-  - 简介：利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.
-- [henrygd/beszel](https://github.com/henrygd/beszel) — ⭐ 26,931（每天 +49.0 星） · 创建 853 天 · Go · MIT · 189 位贡献者 · 雷达评分 95（值得关注）
-  - 简介：Lightweight server monitoring with historical data, docker stats, and alerts.
-- [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) — ⭐ 26,611（每天 +79.0 星） · 创建 88 天 · Python · MIT · 54 位贡献者 · 雷达评分 94（潜力股）
-  - 简介：A privacy-first app that strips AI watermarks from content you own.
-- [mem0ai/mem0](https://github.com/mem0ai/mem0) — ⭐ 68,584（每天 +53.0 星） · 创建 1236 天 · Python · Apache-2.0 · 411 位贡献者 · 雷达评分 94（值得关注）
-  - 简介：The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.
+- [Gentleman-Programming/gentle-ai](https://github.com/Gentleman-Programming/gentle-ai) — ⭐ 8,627（每天 +48.0 星） · 创建 254 天 · Go · MIT · 104 位贡献者 · 雷达评分 100（值得关注）
+  - 简介：Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.
+- [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) — ⭐ 13,718（每天 +313.0 星） · 创建 43 天 · JavaScript · MIT · 9 位贡献者 · 雷达评分 97（潜力股）
+  - 简介：A toolbox of film styles made in code for Claude Code: 66 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：66 种现成风格，也能做出你自己的
+- [upstash/context7](https://github.com/upstash/context7) — ⭐ 64,380（每天 +50.0 星） · 创建 592 天 · TypeScript · MIT · 147 位贡献者 · 雷达评分 96（值得关注）
+  - 简介：Context7 Platform -- Up-to-date docs for AI agents
+- [dataelement/dsh-desktop](https://github.com/dataelement/dsh-desktop) — ⭐ 17,601（每天 +51.0 星） · 创建 87 天 · JavaScript · MIT · 32 位贡献者 · 雷达评分 95（潜力股）
+  - 简介：DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版
+- [rddmwmddr/android-ad-cleaner](https://github.com/rddmwmddr/android-ad-cleaner) — ⭐ 7,118（每天 +174.0 星） · 创建 15 天 · Python · MIT · 43 位贡献者 · 雷达评分 94（潜力股）
+  - 简介：关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。
+- [lexmount/moli](https://github.com/lexmount/moli) — ⭐ 23,060（每天 +123.0 星） · 创建 90 天 · Rust · Apache-2.0 · 33 位贡献者 · 雷达评分 94（潜力股）
+  - 简介：Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust
+- [l0ng-ai/openidea](https://github.com/l0ng-ai/openidea) — ⭐ 7,861（每天 +191.0 星） · 创建 18 天 · TypeScript · Apache-2.0 · 107 位贡献者 · 雷达评分 94（潜力股）
+  - 简介：The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.
+- [xerj-org/xerj](https://github.com/xerj-org/xerj) — ⭐ 18,607（每天 +34.0 星） · 创建 131 天 · Rust · Apache-2.0 · 123 位贡献者 · 雷达评分 94（值得关注）
+  - 简介：AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.
+- [TwiN/gatus](https://github.com/TwiN/gatus) — ⭐ 12,648（每天 +84.0 星） · 创建 2622 天 · Go · Apache-2.0 · 185 位贡献者 · 雷达评分 93（值得关注）
+  - 简介：Automated developer-oriented status page with alerting and incident support
+- [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) — ⭐ 37,359（每天 +142.0 星） · 创建 191 天 · Python · MIT · 57 位贡献者 · 雷达评分 93（值得关注）
+  - 简介：Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.
 
 ### 新工具（Show HN：作者自己发出来的新项目）
 
-- [Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8](https://github.com/Video-Rebirth/hyperflow-h3-flash) — 来源：Hacker News（HN 57 分，12 条评论，发布于 11-07 23:16）
-  - HN 讨论：https://news.ycombinator.com/item?id=50405263
+今天没有。
 
 ## 素材三：论文（HF 每日论文，社区投票精选，按点赞数排序）
 
@@ -160,33 +169,13 @@
 
 ## 附：博客和 Newsletter 的其他新文章
 
-- [After the midterms, things are looking rocky for Elon Musk and data centers](https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/) — 来源：TechCrunch AI（发布于 11-08 06:07）
-  - 简介：On Equity, we unpacked what the midterms mean for the tech industry.
-- [Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo](https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/) — 来源：TechCrunch AI（发布于 11-08 05:17）
-  - 简介：A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidi
-- [NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake](https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review) — 来源：The Verge AI（发布于 11-07 23:50）
-  - 简介：Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain
-- [The US let Nvidia sell chips to an empty office in China](https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government) — 来源：The Verge AI（发布于 11-07 23:43）
-  - 简介：Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared
-- [AI broke the cybersecurity world. What’s next?](https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos) — 来源：The Verge AI（发布于 11-07 23:00）
-  - 简介：Today, I’m talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity expert, about what a mess cybersecurity is right n
-- [Why a new report on Anthropic automating AI development is alarming researchers](https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development) — 来源：The Verge AI（发布于 11-07 20:30）
-  - 简介：Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as qu
-- [GitHub不堪重负！OpenAI收购替代品，A社原地自研，马斯克也要搞](https://www.qbitai.com/2026/11/508449.html) — 来源：量子位（发布于 11-07 17:38）
-  - 简介：AI写代码太快，基础设施跟不上了
-- [OpenAI新融资到账110亿美元，不及原计划一半](https://www.qbitai.com/2026/11/508344.html) — 来源：量子位（发布于 11-07 16:11）
-  - 简介：融资缩水，硅谷投资人也谨慎了
-- [为了去AI味，人类开始主动写烂文章了……](https://www.qbitai.com/2026/11/508330.html) — 来源：量子位（发布于 11-07 15:59）
-  - 简介：需要说明的是，这并不意味着不会说人话就一定是人，也不意味着说人话的就一定不是AI.......
-- [抢跑DeepSeek！硅谷华人把下一代Agent Harness造出来了！？](https://www.qbitai.com/2026/11/508264.html) — 来源：量子位（发布于 11-07 13:01）
-  - 简介：苦单Session久矣，两大Agent玩家不谋而合。
-- [AGENTS.MD，危险危险危险！！！](https://www.qbitai.com/2026/11/508244.html) — 来源：量子位（发布于 11-07 11:43）
-  - 简介：全新的电脑病毒
-- [浙大00后博士生再交卷！把十几种物理要素装进一个世界模型｜华为昇腾原生](https://www.qbitai.com/2026/11/508236.html) — 来源：量子位（发布于 11-07 11:31）
-  - 简介：中国版cosmos再交卷
-- [Jeff Dean李飞飞最新对谈：全是RSI非共识](https://www.qbitai.com/2026/11/508196.html) — 来源：量子位（发布于 11-07 11:23）
-  - 简介：RSI不可能无限快
-- [［AINews］ Anthropic IPO: Whither Now?](https://latent.space/p/ainews-anthropic-ipo-whither-now/) — 来源：Latent Space（含每天的 AINews：汇总推特、Reddit、Discord 的讨论）（发布于 11-07 11:04）
-  - 简介：It’s a relatively quiet news day, and the AI market rout we referenced obliquely two days ago has deepened, though it might be leveling off not even h
-- [A\三大内部模型曝光！领先Opus5.5三个月，RSI缩短80%实验时间](https://www.qbitai.com/2026/11/508184.html) — 来源：量子位（发布于 11-06 23:21）
-  - 简介：Dario刚喊减速…
+- [How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco](https://latent.space/p/cs146s/) — 来源：Latent Space（含每天的 AINews：汇总推特、Reddit、Discord 的讨论）（发布于 11-09 05:41）
+  - 简介：The AI Engineer YouTube channel just crossed one million subscribers . Thank you to everyone who’s watched a talk, sent one to a teammate, or put some
+- [［One Million AI Engineer Special］ How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco](https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/) — 来源：Latent Space（含每天的 AINews：汇总推特、Reddit、Discord 的讨论）（发布于 11-09 05:23）
+  - 简介：What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open
+- [Apple is racing to make Siri more agentic](https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic) — 来源：The Verge AI（发布于 11-09 03:18）
+  - 简介：Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that
+- [Elvis and Eminem rights holders are suing Suno](https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit) — 来源：The Verge AI（发布于 11-09 01:23）
+  - 简介：Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records 
+- [资本正在撤离“世界模型”](https://www.qbitai.com/2026/11/508466.html) — 来源：量子位（发布于 11-08 12:09）
+  - 简介：没有永远的夏天
