@@ -1,0 +1,57 @@
+{
+ "page": "https://x.com/giffmana",
+ "collected_at": "2026-11-09T07:17:47.295Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 7,
+ "posts": [
+  {
+   "id": "2119514702099403069",
+   "url": "https://x.com/giffmana/status/2119514702099403069",
+   "author": "giffmana",
+   "name": "Lucas Beyer (bl16)",
+   "time": "2026-11-08T19:37:38.000Z",
+   "text": "Pre-announcing the pre-announcement",
+   "likes": 514,
+   "reposts": 5,
+   "replies": 16,
+   "views": 21638,
+   "context": "",
+   "quoted": "Across our projects @GoogleDeepMind, we are witnessing a genuine phase transition in the pace of scientific discovery. You will see a glimpse of this in our releases in the next few weeks.",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2119479959710498959",
+   "url": "https://x.com/giffmana/status/2119479959710498959",
+   "author": "giffmana",
+   "name": "Lucas Beyer (bl16)",
+   "time": "2026-11-08T17:19:35.000Z",
+   "text": "This is also my opinion on 95% of what people currently call RSI:",
+   "likes": 323,
+   "reposts": 7,
+   "replies": 21,
+   "views": 19823,
+   "context": "",
+   "quoted": "Looks to me more like a one-time speedup than continuous acceleration.",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2119355097402704145",
+   "url": "https://x.com/giffmana/status/2119355097402704145",
+   "author": "giffmana",
+   "name": "Lucas Beyer (bl16)",
+   "time": "2026-11-08T09:03:25.000Z",
+   "text": "Inkling-2 details: \"ViT is back\" \n\nYeah i would never have called this hMLP thing encoder-free, and i don't think it was a good idea to use that as an encoder in the first place. Makes no sense to spend multiple enc layers on patches without lookaround.\nGlad they saw the light.",
+   "likes": 399,
+   "reposts": 24,
+   "replies": 25,
+   "views": 27575,
+   "context": "",
+   "quoted": "Interesting Notes on Inkling 2 Small release: Note: every single word is written by me. I used AI to fact check several things I doubted about, but that's it. (1) Architecture (A) 48-layer decoder-only transformer. 594B total. (B) 17B active. Sparse MoE feed-forward backbone.",
+   "card": "",
+   "links": []
+  }
+ ]
+}

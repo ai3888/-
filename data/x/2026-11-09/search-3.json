@@ -1,0 +1,79 @@
+{
+ "page": "https://x.com/search?q=url%3Agithub.com%20(LLM%20OR%20agent%20OR%20model%20OR%20inference%20OR%20training)%20min_faves%3A200%20-filter%3Areplies%20since%3A2026-11-08&src=typed_query",
+ "collected_at": "2026-11-09T07:21:40.823Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2119394220767125691",
+   "url": "https://x.com/iRezo_/status/2119394220767125691",
+   "author": "iRezo_",
+   "name": "Alireza",
+   "time": "2026-11-08T11:38:53.000Z",
+   "text": "Microsoft has released a free 21-lesson course on building AI apps\nFrom LLM fundamentals and prompt engineering to chatbots, RAG, and agents\nEach lesson includes a video, written instructions, and runnable code\nThe code is in Python and TypeScript and has a Persian translation",
+   "likes": 216,
+   "reposts": 16,
+   "replies": 3,
+   "views": 12788,
+   "context": "",
+   "quoted": "",
+   "card": "GitHub - microsoft/generative-ai-for-beginners: 21 Lessons, Get Started Building with Generative AI",
+   "links": []
+  },
+  {
+   "id": "2119493640682868980",
+   "url": "https://x.com/Saboo_Shubham_/status/2119493640682868980",
+   "author": "Saboo_Shubham_",
+   "name": "Shubham Saboo",
+   "time": "2026-11-08T18:13:56.000Z",
+   "text": "Google’s new open-source plugin for AI coding agents. \n\n\"Design with an elephant and review with a goldfish\"\n\nGitHub Repo: \nhttps://\ngithub.com/google/elephan\nt-goldfish-model\n…",
+   "likes": 268,
+   "reposts": 27,
+   "replies": 39,
+   "views": 17423,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/google/elephan t-goldfish-model …"
+   ]
+  },
+  {
+   "id": "2119521036660314339",
+   "url": "https://x.com/poteto/status/2119521036660314339",
+   "author": "poteto",
+   "name": "lauren",
+   "time": "2026-11-08T20:02:48.000Z",
+   "text": "try this next “use /create-formal-verification-skill to model these state machines, one skill per subsystem. and use /statechart to visualize my most important user flows”\n\nboth skills are in pstack\n\n\nhttps://\ngithub.com/cursor/plugins\n/tree/main/pstack\n…",
+   "likes": 3617,
+   "reposts": 150,
+   "replies": 123,
+   "views": 148836,
+   "context": "",
+   "quoted": "good prompt \"find all of the implicit state machines in my app\"",
+   "card": "",
+   "links": [
+    "https:// github.com/cursor/plugins /tree/main/pstack …"
+   ]
+  },
+  {
+   "id": "2119377443844935712",
+   "url": "https://x.com/Av1dlive/status/2119377443844935712",
+   "author": "Av1dlive",
+   "name": "Avid",
+   "time": "2026-11-08T10:32:13.000Z",
+   "text": "i just gave my AI agents the biggest UNFAIR advantage...\n\nan MCP that lets them freely use my iPhone\n\nworks with Claude Code, Codex and Grok Bot\n\nhere's the prompt to set it up:\n-----\nHelp me set up this project on my Mac: \nhttps://\ngithub.com/iphone-control\n\nRead docs/SETUP.md and",
+   "likes": 329,
+   "reposts": 31,
+   "replies": 46,
+   "views": 21729,
+   "context": "",
+   "quoted": "if you want to become a top 1% AI builder, start with this article set this up correctly, you gain super powers the full course is in my article below",
+   "card": "",
+   "links": [
+    "https:// github.com/iphone-control"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,179 @@
+{
+ "page": "https://x.com/search?q=url%3Ahuggingface.co%20min_faves%3A100%20-filter%3Areplies%20since%3A2026-11-08&src=typed_query",
+ "collected_at": "2026-11-09T07:21:29.931Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 10,
+ "posts": [
+  {
+   "id": "2119360329264271441",
+   "url": "https://x.com/sizumita/status/2119360329264271441",
+   "author": "sizumita",
+   "name": "すみどら",
+   "time": "2026-11-08T09:24:12.000Z",
+   "text": "我制作了一个更小版本的 MLX 版 PlaMo 3 Translate 0.8b！现在，该程序的权重大小缩小到一半，仅为 480MB！\n \nhttps://\nhuggingface.co/sizumita/plamo\n-3-translate-0.8b-mlx-4bit-compact\n…",
+   "likes": 293,
+   "reposts": 45,
+   "replies": 4,
+   "views": 22976,
+   "context": "",
+   "quoted": "【Blog】We have released the model weights for PLaMo 3 Translate, an LLM specialized in translation. Available in 4 variants: 0.8B / 2B / 8B / 31B, all boasting world-class translation capabilities. You can download and try them out locally. Tech Blog detailing the development",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/sizumita/plamo -3-translate-0.8b-mlx-4bit-compact …"
+   ]
+  },
+  {
+   "id": "2119586191892680738",
+   "url": "https://x.com/calebfahlgren/status/2119586191892680738",
+   "author": "calebfahlgren",
+   "name": "Caleb",
+   "time": "2026-11-09T00:21:42.000Z",
+   "text": "1.4M pixel art sprites is too many to scroll, so I made them searchable in milliseconds \n\nyou can try it here: \nhttps://\nhuggingface.co/spaces/cfahlgr\nen1/pixel-search\n…",
+   "likes": 111,
+   "reposts": 9,
+   "replies": 6,
+   "views": 5059,
+   "context": "",
+   "quoted": "Someone just dropped 1.4 million pixel art sprites on Hugging Face free to use, captioned, 16×16 https:// huggingface.co/datasets/Angai s/pixel-art-atlas-1.4m …",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/spaces/cfahlgr en1/pixel-search …"
+   ]
+  },
+  {
+   "id": "2119503896431182153",
+   "url": "https://x.com/calebfahlgren/status/2119503896431182153",
+   "author": "calebfahlgren",
+   "name": "Caleb",
+   "time": "2026-11-08T18:54:42.000Z",
+   "text": "Someone just dropped 1.4 million pixel art sprites on Hugging Face \n\nfree to use, captioned, 16×16\n\n\nhttps://\nhuggingface.co/datasets/Angai\ns/pixel-art-atlas-1.4m\n…",
+   "likes": 2423,
+   "reposts": 194,
+   "replies": 23,
+   "views": 89975,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/datasets/Angai s/pixel-art-atlas-1.4m …"
+   ]
+  },
+  {
+   "id": "2119551694841540662",
+   "url": "https://x.com/PhotogenicWeekE/status/2119551694841540662",
+   "author": "PhotogenicWeekE",
+   "name": "Photogenic Weekend",
+   "time": "2026-11-08T22:04:38.000Z",
+   "text": "This is a character swap using P-H3-Image Edit as-is, with just the LoRA and prompt changed! The accuracy is pretty good♪ With just a face as the reference image, results were hit or miss… Prompt is in the comments\n\nhttps://\nhuggingface.co/akatz-ai/MiniM\nax-H3-Character-Swap-LoRA\n…",
+   "likes": 102,
+   "reposts": 9,
+   "replies": 2,
+   "views": 6140,
+   "context": "",
+   "quoted": "Face swap using SS_FaceSwap_MiniMax_H3_REF2VA for MiniMax H3 in P-H3-Image’s Edit. Seems to be working well. The downside is that the face occasionally gets a bit too big. Adding expressions, angles, etc. to the prompt makes it better. The prompt is in the comments.",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/akatz-ai/MiniM ax-H3-Character-Swap-LoRA …"
+   ]
+  },
+  {
+   "id": "2119511521994911868",
+   "url": "https://x.com/LottoLabs/status/2119511521994911868",
+   "author": "LottoLabs",
+   "name": "Lotto",
+   "time": "2026-11-08T19:25:00.000Z",
+   "text": "Almost caught me slipping",
+   "likes": 218,
+   "reposts": 4,
+   "replies": 12,
+   "views": 29005,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2119472147026604232",
+   "url": "https://x.com/realrebelai/status/2119472147026604232",
+   "author": "realrebelai",
+   "name": "Rebel AI",
+   "time": "2026-11-08T16:48:32.000Z",
+   "text": "Viggle with another banger\n\na character swap IMAGE model!",
+   "likes": 155,
+   "reposts": 7,
+   "replies": 1,
+   "views": 8280,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2119534928790724861",
+   "url": "https://x.com/kusurichan_/status/2119534928790724861",
+   "author": "kusurichan_",
+   "name": "𝗸𝘂𝘀𝘂𝗿𝗶.",
+   "time": "2026-11-08T20:58:00.000Z",
+   "text": "Oh",
+   "likes": 294,
+   "reposts": 23,
+   "replies": 10,
+   "views": 49286,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2119427620643418296",
+   "url": "https://x.com/nahid_pro09/status/2119427620643418296",
+   "author": "nahid_pro09",
+   "name": "Nahid",
+   "time": "2026-11-08T13:51:36.000Z",
+   "text": "what the f*ck… an open voice model that hears ur sarcasm and laughs back \n\nits free, apache-2.0, no gate\n\n- full duplex, like a real phone call\n- hears hesitation, sighs, emphasis\n- they say it ties gpt-4o-mini-audio on voicebench\n\ntry it here: \nhttps://\nhuggingface.co/adventists-ai/\nSophon-Realtime-v1\n…",
+   "likes": 646,
+   "reposts": 54,
+   "replies": 19,
+   "views": 24991,
+   "context": "",
+   "quoted": "gemma 4 31b 11.9gb file should be banned but huggingface let anyone download it its free abliterated model, apache 2.0, no gate, uploaded yesterday - google's gemma 4 31b with most of its safety filter removed - creator reports 28/100 refusals, the original refused 99/100 -",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/adventists-ai/ Sophon-Realtime-v1 …"
+   ]
+  },
+  {
+   "id": "2119432889897214364",
+   "url": "https://x.com/PixelAigc/status/2119432889897214364",
+   "author": "PixelAigc",
+   "name": "PixelAIGC",
+   "time": "2026-11-08T14:12:32.000Z",
+   "text": "Found it\nMiniMax H3: The ultimate LoRA for swapping characters in videos\nAn AI song-and-dance production powerhouse for turning colleagues and bosses into superstars in company annual party videos",
+   "likes": 292,
+   "reposts": 27,
+   "replies": 19,
+   "views": 14292,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2119357081715343577",
+   "url": "https://x.com/SD_Tutorial/status/2119357081715343577",
+   "author": "SD_Tutorial",
+   "name": "Stable Diffusion Tutorials",
+   "time": "2026-11-08T09:11:18.000Z",
+   "text": "Moss Image  Massive Loras collection\n\nCivitai Scrapped \nDaily updated\n\nHF repo:",
+   "likes": 136,
+   "reposts": 7,
+   "replies": 1,
+   "views": 7838,
+   "context": "",
+   "quoted": "",
+   "card": "mossloras/moss-image-lora-archive · Hugging Face",
+   "links": []
+  }
+ ]
+}

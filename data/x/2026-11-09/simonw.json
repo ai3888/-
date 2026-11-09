@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/simonw",
+ "collected_at": "2026-11-09T07:19:33.218Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 7,
+ "posts": [
+  {
+   "id": "2119650353142747181",
+   "url": "https://x.com/simonw/status/2119650353142747181",
+   "author": "simonw",
+   "name": "Simon Willison",
+   "time": "2026-11-09T04:36:40.000Z",
+   "text": "I've recently started hiding the bulk of my AI-generated GitHub PR descriptions behind a collapsed <details><summary> HTML tag (thankfully supported by GitHub Markdown) and I think it's a useful pattern for making PR slop a little bit less exhausting",
+   "likes": 540,
+   "reposts": 38,
+   "replies": 129,
+   "views": 30342,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2119650830534266885",
+   "url": "https://x.com/simonw/status/2119650830534266885",
+   "author": "simonw",
+   "name": "Simon Willison",
+   "time": "2026-11-09T04:38:33.000Z",
+   "text": "... today I learned that Twitter preview cards can't handle HTML tags in post titles!",
+   "likes": 20,
+   "reposts": 2,
+   "replies": 5,
+   "views": 6895,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

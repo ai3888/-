@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/swyx",
+ "collected_at": "2026-11-09T07:20:15.824Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 3,
+ "posts": [
+  {
+   "id": "2119611058881192187",
+   "url": "https://x.com/swyx/status/2119611058881192187",
+   "author": "swyx",
+   "name": "swyx aie.codes",
+   "time": "2026-11-09T02:00:31.000Z",
+   "text": "are you listening anon?",
+   "likes": 149,
+   "reposts": 6,
+   "replies": 20,
+   "views": 13682,
+   "context": "",
+   "quoted": "2027 is gonna be about engines",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2119513321468735749",
+   "url": "https://x.com/swyx/status/2119513321468735749",
+   "author": "swyx",
+   "name": "swyx aie.codes",
+   "time": "2026-11-08T19:32:09.000Z",
+   "text": "we're celebrating 1 million AI Engineers all week at aie code.\n\nQT with your favorite AIE talk and/or speaker, and why!",
+   "likes": 172,
+   "reposts": 5,
+   "replies": 17,
+   "views": 12277,
+   "context": "",
+   "quoted": "One. Million. AI Engineers. thank you.",
+   "card": "",
+   "links": []
+  }
+ ]
+}

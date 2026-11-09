@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/ArtificialAnlys",
+ "collected_at": "2026-11-09T07:20:32.495Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2119578471559213411",
+   "url": "https://x.com/ArtificialAnlys/status/2119578471559213411",
+   "author": "ArtificialAnlys",
+   "name": "Artificial Analysis",
+   "time": "2026-11-08T23:51:02.000Z",
+   "text": "Introducing the Artificial Analysis Decision Index v2: a new proprietary evaluation, updated benchmarks, and a headline metric that rewards model calibration\n\nWe’ve released the second version of the Artificial Analysis Decision Index to better reflect real-world utility and",
+   "likes": 391,
+   "reposts": 67,
+   "replies": 49,
+   "views": 51641,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2119578474818175295",
+   "url": "https://x.com/ArtificialAnlys/status/2119578474818175295",
+   "author": "ArtificialAnlys",
+   "name": "Artificial Analysis",
+   "time": "2026-11-08T23:51:02.000Z",
+   "text": "The Decision Score rewards models for both correct answers and well-calibrated confidence. A decision model’s answer is typically acted on when its confidence clears a threshold; otherwise, it is passed to a person or a more capable model. The Decision Score measures the average",
+   "likes": 8,
+   "reposts": 0,
+   "replies": 1,
+   "views": 1773,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

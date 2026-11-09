@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/testingcatalog",
+ "collected_at": "2026-11-09T07:21:00.831Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2119525387688374726",
+   "url": "https://x.com/testingcatalog/status/2119525387688374726",
+   "author": "testingcatalog",
+   "name": "AI News | TestingCatalog",
+   "time": "2026-11-08T20:20:05.000Z",
+   "text": "OpenAI 正在期待 Modretro Chromatic 在 11 月 9 日到来。\n\n \n@modretro\n 是负责开发 Chromatic 这款复古掌机的公司，该掌机可以运行 Game Boy 和 Game Boy Color 游戏。\n\n在 DevDay 会议上，OpenAI 为参会者提供了限量版的透明色度传感器。",
+   "likes": 349,
+   "reposts": 18,
+   "replies": 24,
+   "views": 23817,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2119432843365417047",
+   "url": "https://x.com/testingcatalog/status/2119432843365417047",
+   "author": "testingcatalog",
+   "name": "AI News | TestingCatalog",
+   "time": "2026-11-08T14:12:21.000Z",
+   "text": "Seems like Google is working on \"the next generation Gemini agent\" for Gemini Enterprise. \n\nThis experience is currently being used in Google internally. \n\n> \"Gemini for Google - The next generation Gemini agent for enterprise\"\n\nBesides this, I am very happy to see Google working",
+   "likes": 574,
+   "reposts": 41,
+   "replies": 79,
+   "views": 33433,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "page": "https://x.com/search?q=url%3Aarxiv.org%20min_faves%3A100%20-filter%3Areplies%20since%3A2026-11-08&src=typed_query",
+ "collected_at": "2026-11-09T07:21:22.290Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 3,
+ "posts": [
+  {
+   "id": "2119434106992038008",
+   "url": "https://x.com/andrew_n_carr/status/2119434106992038008",
+   "author": "andrew_n_carr",
+   "name": "Andrew Carr",
+   "time": "2026-11-08T14:17:22.000Z",
+   "text": "这里有一组非常不错的论文组合，它们虽然看起来似乎没有关联，但实际上非常契合，可以很好地结合在一起。\n\n1. 潜意识学习： \nhttps://\narxiv.org/abs/2507.14805 \n\n也就是说，一种“教师”模型，如果具有某些特定特征（比如喜欢猫头鹰或者喜欢混乱的状态），那么就会生成一个数据集。",
+   "likes": 105,
+   "reposts": 18,
+   "replies": 4,
+   "views": 4975,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org 潜意识学习：语言模型能够传递行为特征…… 我们研究的是潜意识的学习现象，这是一种令人惊讶的现象：语言模型能够通过看似无关的数据来传递行为特征。在我们的主要实验中，有一个具有某种特征 T 的“教师”模型……",
+   "links": [
+    "https:// arxiv.org/abs/2507.14805"
+   ]
+  },
+  {
+   "id": "2119423367229087759",
+   "url": "https://x.com/Perfect_Insider/status/2119423367229087759",
+   "author": "Perfect_Insider",
+   "name": "シータ",
+   "time": "2026-11-08T13:34:42.000Z",
+   "text": "正如我之前所宣布的，我确实得出了一个非常奇怪的异常结果。与那些难以解决的不可约化问题相比，这个结果简直可爱极了。\n \nhttps://\narxiv.org/abs/2611.07337",
+   "likes": 139,
+   "reposts": 22,
+   "replies": 0,
+   "views": 15208,
+   "context": "",
+   "quoted": "感谢您让我想起了之前的成绩。 我正在制作一个异常十足的结果，以至于这个结果相比之下会显得相当有趣。所以请大家期待一下吧。 x.com/okkuu_NMB/stat…",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2611.07337"
+   ]
+  },
+  {
+   "id": "2119366481423311240",
+   "url": "https://x.com/SD_Tutorial/status/2119366481423311240",
+   "author": "SD_Tutorial",
+   "name": "Stable Diffusion Tutorials",
+   "time": "2026-11-08T09:48:39.000Z",
+   "text": "",
+   "likes": 128,
+   "reposts": 14,
+   "replies": 3,
+   "views": 8814,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https://arxiv.org/html/2611.07392v1…"
+   ]
+  }
+ ]
+}
