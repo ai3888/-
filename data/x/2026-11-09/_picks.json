@@ -3,13 +3,25 @@
     "id": "2119578471559213411",
     "score": 5,
     "type": "评测",
-    "why": "Artificial Analysis 发布 Decision Index v2：45% 的题目来自私有集（v1 是 25%）以防刷榜；新头号指标 Decision Score 同时奖励答对和置信度校准（答对 >50 分、答错 <50 分，置信度在各自半区内加减）；新增 AA-Paperclip（1,500 份私有文档，每份 5 个决策 + 10 个事实，15 问全对才算对，占 30%）和 AA-Symmetry（120 题 440 种改写，测换个说法答案会不会变，占 15%）；榜首 Nace 的 Drex Max v1.1 得 73 分，只领先 GLiDE v1.2 和 Mammoth 27B 不到 1 分，单任务成本从 $14/百万到 $859 差 60 倍，延迟从 56ms 到 32.65 秒"
+    "why": "Artificial Analysis 发布 Decision Index v2：45% 的题目来自私有集（v1 是 25%）以防刷榜；新头号指标 Decision Score 同时奖励答对和置信度校准（答对 >50 分、答错 <50 分，置信度在各自半区内加减）；新增 AA-Paperclip（1,500 份私有文档，每份 5 个决策 + 10 个事实，15 问全对才算对，占 30%）和 AA-Symmetry（120 题 440 种改写，测换个说法答案会不会变，占 15%）；榜首 Drex Max v1.1 得 73，只领先 GLiDE v1.2 和 Mammoth 27B 不到 1 分，单任务成本从 $14/百万到 $859 差 60 倍，延迟从 56ms 到 32.65 秒"
   },
   {
     "id": "2119651192737259701",
     "score": 4,
     "type": "工程实践",
     "why": "Mistral 把 Voxtral 3 Transcribe 用到 AI Engineer Paris 现场做实时转写：靠 context biasing 把主讲人名字和专业术语先喂给模型来提准确率，是一份「会议级实时转写怎么落地」的实战记录"
+  },
+  {
+    "id": "2119780620695925012",
+    "score": 4,
+    "type": "产品",
+    "why": "Google 新公布两个 TPU：TPU 8tx 面向大规模训练，主攻要处理敏感数据的受监管企业和政府；TPU 8i Max 面向低延迟推理——两代芯片按训练/推理场景直接分开"
+  },
+  {
+    "id": "2119792446242718170",
+    "score": 3,
+    "type": "论文",
+    "why": "关于规模化多智能体集群的论文：现有系统大多执行开发者事先写好的计划，这篇尝试让集群自己协调分工，是「多 agent 怎么训练出协作」这个方向的一手工作"
   },
   {
     "id": "2119355097402704145",
@@ -24,15 +36,27 @@
     "why": "把 agent 跑过的轨迹回收起来、用来进化 harness 本身：作者认为这正在成为 harness engineering 的重要模式，尤其在模型越来越懂上下文之后"
   },
   {
-    "id": "2119521036660314339",
-    "score": 3,
-    "type": "工程实践",
-    "why": "给 agent 加「先建模再动手」的技能：用 /create-formal-verification-skill 把每个子系统画成状态机、用 /statechart 可视化关键用户流程，技能都在开源仓库 pstack 里"
-  },
-  {
-    "id": "2119360329264271441",
+    "id": "2119694681982541828",
     "score": 3,
     "type": "开源",
-    "why": "PlaMo 3 Translate 0.8B 的 MLX 4-bit 精简版：整包权重只有 480MB（原版一半），能在 Mac 上本地跑日英翻译"
+    "why": "PlaMo 3 Translate 0.8B 的 MLX 混合量化版：权重 501MB → 423MB，解码速度 334 → 352 tok/s，效果几乎没掉——端侧翻译模型的进一步压缩"
+  },
+  {
+    "id": "2119759816092442956",
+    "score": 3,
+    "type": "新模型",
+    "why": "字节 Seedream 5.5 图像模型在 Dreamina、CapCut、BytePlus 上线：主打更真实的出图和更稳定的编辑"
+  },
+  {
+    "id": "2119366481423311240",
+    "score": 3,
+    "type": "新模型",
+    "why": "腾讯/微信放出 WeLM-Image（MoE 31.7B 总参 / 5.4B 激活）的统一图像生成模型，技术报告已上 arXiv"
+  },
+  {
+    "id": "2119650353142747181",
+    "score": 3,
+    "type": "工程实践",
+    "why": "simonw 的小技巧：把 AI 生成的大段 PR 描述塞进 GitHub Markdown 的 <details><summary> 折叠块里，评审时只看要点、需要时再展开，缓解「PR slop」"
   }
 ]

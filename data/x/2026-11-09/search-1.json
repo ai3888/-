@@ -1,9 +1,9 @@
 {
  "page": "https://x.com/search?q=url%3Aarxiv.org%20min_faves%3A100%20-filter%3Areplies%20since%3A2026-11-08&src=typed_query",
- "collected_at": "2026-11-09T07:21:22.290Z",
+ "collected_at": "2026-11-09T14:41:35.846Z",
  "logged_in": true,
  "hours": 30,
- "found_on_page": 3,
+ "found_on_page": 8,
  "posts": [
   {
    "id": "2119434106992038008",
@@ -12,13 +12,13 @@
    "name": "Andrew Carr",
    "time": "2026-11-08T14:17:22.000Z",
    "text": "这里有一组非常不错的论文组合，它们虽然看起来似乎没有关联，但实际上非常契合，可以很好地结合在一起。\n\n1. 潜意识学习： \nhttps://\narxiv.org/abs/2507.14805 \n\n也就是说，一种“教师”模型，如果具有某些特定特征（比如喜欢猫头鹰或者喜欢混乱的状态），那么就会生成一个数据集。",
-   "likes": 105,
-   "reposts": 18,
-   "replies": 4,
-   "views": 4975,
+   "likes": 160,
+   "reposts": 23,
+   "replies": 7,
+   "views": 6899,
    "context": "",
    "quoted": "",
-   "card": "arxiv.org 潜意识学习：语言模型能够传递行为特征…… 我们研究的是潜意识的学习现象，这是一种令人惊讶的现象：语言模型能够通过看似无关的数据来传递行为特征。在我们的主要实验中，有一个具有某种特征 T 的“教师”模型……",
+   "card": "arxiv.org Subliminal Learning: Language models transmit behavioral traits... 我们研究的是潜意识的学习现象，这是一种令人惊讶的现象：语言模型能够通过看似无关的数据来传递行为特征。在我们的主要实验中，有一个具有某种特征 T 的“教师”模型……",
    "links": [
     "https:// arxiv.org/abs/2507.14805"
    ]
@@ -30,10 +30,10 @@
    "name": "シータ",
    "time": "2026-11-08T13:34:42.000Z",
    "text": "正如我之前所宣布的，我确实得出了一个非常奇怪的异常结果。与那些难以解决的不可约化问题相比，这个结果简直可爱极了。\n \nhttps://\narxiv.org/abs/2611.07337",
-   "likes": 139,
-   "reposts": 22,
+   "likes": 151,
+   "reposts": 23,
    "replies": 0,
-   "views": 15208,
+   "views": 17375,
    "context": "",
    "quoted": "感谢您让我想起了之前的成绩。 我正在制作一个异常十足的结果，以至于这个结果相比之下会显得相当有趣。所以请大家期待一下吧。 x.com/okkuu_NMB/stat…",
    "card": "",
@@ -42,21 +42,105 @@
    ]
   },
   {
+   "id": "2119707766378139732",
+   "url": "https://x.com/DynamicsSIAM/status/2119707766378139732",
+   "author": "DynamicsSIAM",
+   "name": "SIAM Activity Group on Dynamical Systems",
+   "time": "2026-11-09T08:24:48.000Z",
+   "text": "\"Deep Learning Theory through the Lens of Statistical Physics: A Topical Review\" (by Wei Huang, Youjin Deng):",
+   "likes": 174,
+   "reposts": 29,
+   "replies": 3,
+   "views": 7283,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org Deep Learning Theory through the Lens of Statistical Physics: A... The recent success of foundation models and deep learning has far outpaced our theoretical understanding of how large-scale",
+   "links": []
+  },
+  {
+   "id": "2119751483864604901",
+   "url": "https://x.com/sp_monte_carlo/status/2119751483864604901",
+   "author": "sp_monte_carlo",
+   "name": "Sam Power",
+   "time": "2026-11-09T11:18:31.000Z",
+   "text": "A bit of advertising: I recently completed revisions for a tutorial paper titled \"Geometric Functional Inequalities for Markov Processes: An Invitation via the Langevin Diffusion\", which can now be found online at \nhttps://\narxiv.org/abs/2611.07785.",
+   "likes": 219,
+   "reposts": 39,
+   "replies": 2,
+   "views": 6878,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2611.07785"
+   ]
+  },
+  {
+   "id": "2119630367984419166",
+   "url": "https://x.com/ronkeisha_info/status/2119630367984419166",
+   "author": "ronkeisha_info",
+   "name": "論計舎",
+   "time": "2026-11-09T03:17:15.000Z",
+   "text": "Can we define “what information is” logically? An attempt to replace truth with inferability and formalize “inferon,” a fundamental unit of information, using proof-theoretic semantics. A bold approach that connects Dretske’s theory of information to proof theory.",
+   "likes": 218,
+   "reposts": 39,
+   "replies": 0,
+   "views": 7770,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org Towards an Inferentialist Account of Information Through... Information is one of the most widely-discussed concepts of the current era. However, a great deal of insightful work notwithstand",
+   "links": []
+  },
+  {
+   "id": "2119699311068061840",
+   "url": "https://x.com/gami_phys/status/2119699311068061840",
+   "author": "gami_phys",
+   "name": "gami*",
+   "time": "2026-11-09T07:51:12.000Z",
+   "text": "I submitted my (first) paper. My coauthor is my advisor, Tajima \n@hiro_taji1234\n.\nWe considered the question of whether time crystals that do not appear in isolated systems can be induced in the same steady state simply by coupling to an environment, without supplying any external",
+   "likes": 116,
+   "reposts": 24,
+   "replies": 8,
+   "views": 22522,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org Open Quantum Time Crystals without External Thermodynamic... Time crystals are phases of matter that spontaneously break time-translation symmetry. They have been ruled out in the ground and",
+   "links": []
+  },
+  {
    "id": "2119366481423311240",
    "url": "https://x.com/SD_Tutorial/status/2119366481423311240",
    "author": "SD_Tutorial",
    "name": "Stable Diffusion Tutorials",
    "time": "2026-11-08T09:48:39.000Z",
-   "text": "",
-   "likes": 128,
-   "reposts": 14,
-   "replies": 3,
-   "views": 8814,
+   "text": "WeLM-Image  MoE 31.7B-5.4B\n\nA Unified Image Generation Model towards Visual Intelligence dropped by Tencent and Wechat\n\nPaper: \nhttps://\narxiv.org/html/2611.0739\n2v1\n…",
+   "likes": 139,
+   "reposts": 15,
+   "replies": 4,
+   "views": 9438,
    "context": "",
    "quoted": "",
    "card": "",
    "links": [
-    "https://arxiv.org/html/2611.07392v1…"
+    "https:// arxiv.org/html/2611.0739 2v1 …"
+   ]
+  },
+  {
+   "id": "2119695484453573064",
+   "url": "https://x.com/macro_synergy/status/2119695484453573064",
+   "author": "macro_synergy",
+   "name": "Ralph Sueppel",
+   "time": "2026-11-09T07:36:00.000Z",
+   "text": "\"An Introduction to Financial Derivatives: Open Lecture Notes\" \n\nhttps://\narxiv.org/abs/2611.01355\nv1\n…",
+   "likes": 123,
+   "reposts": 8,
+   "replies": 0,
+   "views": 4825,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2611.01355 v1 …"
    ]
   }
  ]
