@@ -1,130 +1,130 @@
-# GitHub 项目雷达 · 2026-11-09
+# GitHub 项目雷达 · 2026-11-10
 
-> 搜到 620 个候选 → 过滤后 356 个 → 详细检查 40 个 → 入选 15 个
+> 搜到 619 个候选 → 过滤后 358 个 → 详细检查 40 个 → 入选 15 个
 
 ## 🚀 潜力股（新项目、涨得快）
 
-### [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) · 97 分
+### [ly05010419/MacNativeGames](https://github.com/ly05010419/MacNativeGames) · 95 分
 
-⭐ 13,718（+313/天） · 🍴 1,610 · 👥 9 位贡献者 · 📝 30 天 111 次提交 · JavaScript · MIT · 创建 43 天
+⭐ 7,413（+81/天） · 🍴 1,113 · 👥 126 位贡献者 · 📝 30 天 1813 次提交 · C · MIT · 创建 23 天
 
-> A toolbox of film styles made in code for Claude Code: 66 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：66 种现成风格，也能做出你自己的
-
-<sub>来源：近 90 天新项目、Agent Skill</sub>
-
-### [dataelement/dsh-desktop](https://github.com/dataelement/dsh-desktop) · 95 分
-
-⭐ 17,601（+51/天） · 🍴 612 · 👥 32 位贡献者 · 📝 30 天 112 次提交 · JavaScript · MIT · 创建 87 天
-
-> DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版
+> Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.
 
 <sub>来源：近 90 天新项目</sub>
 
-### [rddmwmddr/android-ad-cleaner](https://github.com/rddmwmddr/android-ad-cleaner) · 94 分
+### [Minireel/HGhub](https://github.com/Minireel/HGhub) · 92 分
 
-⭐ 7,118（+174/天） · 🍴 632 · 👥 43 位贡献者 · 📝 30 天 965 次提交 · Python · MIT · 创建 15 天
+⭐ 6,772（+1128.7/天，平均） · 🍴 2,437 · 👥 8 位贡献者 · 📝 30 天 87 次提交 · TypeScript · NOASSERTION · 创建 6 天
 
-> 关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。
-
-<sub>来源：近 90 天新项目</sub>
-
-### [lexmount/moli](https://github.com/lexmount/moli) · 94 分
-
-⭐ 23,060（+123/天） · 🍴 641 · 👥 33 位贡献者 · 📝 30 天 1310 次提交 · Rust · Apache-2.0 · 创建 90 天
-
-> Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust
-
-<sub>来源：AI Agent</sub>
-
-### [l0ng-ai/openidea](https://github.com/l0ng-ai/openidea) · 94 分
-
-⭐ 7,861（+191/天） · 🍴 679 · 👥 107 位贡献者 · 📝 30 天 1356 次提交 · TypeScript · Apache-2.0 · 创建 18 天
-
-> The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.
-
-<sub>来源：近 90 天新项目、开发者工具</sub>
-
-### [Fei2411/DS-Bot](https://github.com/Fei2411/DS-Bot) · 92 分
-
-⭐ 6,380（+211/天） · 🍴 598 · 👥 9 位贡献者 · 📝 30 天 1786 次提交 · JavaScript · Apache-2.0 · 创建 32 天
-
-> A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.
+> YellowFruit third-party client
 
 <sub>来源：近 90 天新项目</sub>
 
-### [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy) · 91 分
+### [JuneYaooo/rea-video](https://github.com/JuneYaooo/rea-video) · 91 分
 
-⭐ 7,121（+97/天） · 🍴 1,863 · 👥 7 位贡献者 · 📝 30 天 150 次提交 · Python · NOASSERTION · 创建 21 天
+⭐ 5,688（+1143/天） · 🍴 818 · 👥 7 位贡献者 · 📝 30 天 73 次提交 · Python · Apache-2.0 · 创建 11 天
 
-> 数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。
-
-<sub>来源：近 90 天新项目</sub>
-
-## 👀 值得关注
-
-### [Gentleman-Programming/gentle-ai](https://github.com/Gentleman-Programming/gentle-ai) · 100 分
-
-⭐ 8,627（+48/天） · 🍴 887 · 👥 104 位贡献者 · 📝 30 天 626 次提交 · Go · MIT · 创建 254 天
-
-> Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.
-
-<sub>来源：开发者工具、Agent Skill</sub>
-
-### [upstash/context7](https://github.com/upstash/context7) · 96 分
-
-⭐ 64,380（+50/天） · 🍴 3,225 · 👥 147 位贡献者 · 📝 30 天 138 次提交 · TypeScript · MIT · 创建 592 天
-
-> Context7 Platform -- Up-to-date docs for AI agents
-
-<sub>来源：LLM、MCP</sub>
-
-### [xerj-org/xerj](https://github.com/xerj-org/xerj) · 94 分
-
-⭐ 18,607（+34/天） · 🍴 1,355 · 👥 123 位贡献者 · 📝 30 天 1451 次提交 · Rust · Apache-2.0 · 创建 131 天
-
-> AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.
-
-<sub>来源：AI Agent、MCP</sub>
-
-### [TwiN/gatus](https://github.com/TwiN/gatus) · 93 分
-
-⭐ 12,648（+84/天） · 🍴 894 · 👥 185 位贡献者 · 📝 30 天 13 次提交 · Go · Apache-2.0 · 创建 2622 天
-
-> Automated developer-oriented status page with alerting and incident support
-
-<sub>来源：自部署</sub>
-
-### [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) · 93 分
-
-⭐ 37,359（+142/天） · 🍴 3,955 · 👥 57 位贡献者 · 📝 30 天 36 次提交 · Python · MIT · 创建 191 天
-
-> Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.
-
-<sub>来源：LLM、AI Agent、Agent Skill</sub>
-
-### [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) · 92 分
-
-⭐ 65,892（+204/天） · 🍴 4,372 · 👥 69 位贡献者 · 📝 30 天 160 次提交 · HTML · MIT · 创建 206 天
-
-> Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.
+> Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻。
 
 <sub>来源：Agent Skill</sub>
 
-### [ahujasid/mcp-for-blender](https://github.com/ahujasid/mcp-for-blender) · 91 分
+## 👀 值得关注
 
-⭐ 33,674（+112/天） · 🍴 3,065 · 👥 47 位贡献者 · 📝 30 天 22 次提交 · Python · MIT · 创建 611 天
+### [ruvnet/RuView](https://github.com/ruvnet/RuView) · 100 分
 
-> Community plugin to control Blender 3D with any LLM of your choice. Not affiliated with the official Blender Foundation.
+⭐ 103,572（+199.2/天，平均） · 🍴 13,417 · 👥 50 位贡献者 · 📝 30 天 121 次提交 · Rust · MIT · 创建 520 天
 
-<sub>来源：LLM、MCP</sub>
+> π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.
 
-### [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) · 91 分
+<sub>来源：MCP</sub>
 
-⭐ 56,503（+97/天） · 🍴 4,969 · 👥 58 位贡献者 · 📝 30 天 4 次提交 · Python · MIT · 创建 385 天
+### [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) · 98 分
 
-> Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.
+⭐ 53,387（+40/天） · 🍴 5,199 · 👥 537 位贡献者 · 📝 30 天 885 次提交 · TypeScript · AGPL-3.0 · 创建 900 天
 
-<sub>来源：Agent Skill、Claude Skill</sub>
+> Your AI workspace for models, agents, and productivity.
+
+<sub>来源：LLM、AI Agent、Agent Skill</sub>
+
+### [Dokploy/dokploy](https://github.com/Dokploy/dokploy) · 98 分
+
+⭐ 38,347（+45/天） · 🍴 3,168 · 👥 419 位贡献者 · 📝 30 天 270 次提交 · TypeScript · NOASSERTION · 创建 934 天
+
+> Open Source Alternative to Vercel, Netlify and Heroku.
+
+<sub>来源：自部署</sub>
+
+### [melonjs/melonJS](https://github.com/melonjs/melonJS) · 97 分
+
+⭐ 6,479（+37/天） · 🍴 675 · 👥 97 位贡献者 · 📝 30 天 102 次提交 · JavaScript · MIT · 创建 5691 天
+
+> A modern & fully featured HTML5 game engine (2D & 3D) for JavaScript/TypeScript, with WebGL/WebGPU rendering, built-in physics, Tiled map & glTF support and WebAudio.
+
+<sub>来源：Agent Skill</sub>
+
+### [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe) · 97 分
+
+⭐ 22,316（+37/天） · 🍴 2,284 · 👥 178 位贡献者 · 📝 30 天 354 次提交 · Rust · NOASSERTION · 创建 873 天
+
+> YC (S26) | Open Computer History | Continuously record your company computer work, map your workflows, help you find work worth automating, and power your agents' context
+
+<sub>来源：MCP</sub>
+
+### [blader/humanizer](https://github.com/blader/humanizer) · 95 分
+
+⭐ 67,183（+645/天） · 🍴 5,282 · 👥 28 位贡献者 · 📝 30 天 24 次提交 · Python · MIT · 创建 295 天
+
+> Agent skill that removes signs of AI-generated writing from text
+
+<sub>来源：LLM、Agent Skill</sub>
+
+### [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) · 95 分
+
+⭐ 33,643（+42/天） · 🍴 4,814 · 👥 50 位贡献者 · 📝 30 天 24 次提交 · C++ · AGPL-3.0 · 创建 802 天
+
+> FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.
+
+<sub>来源：AI Agent</sub>
+
+### [lidge-jun/opencodex](https://github.com/lidge-jun/opencodex) · 95 分
+
+⭐ 18,338（+36/天） · 🍴 1,454 · 👥 303 位贡献者 · 📝 30 天 848 次提交 · TypeScript · MIT · 创建 144 天
+
+> Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code
+
+<sub>来源：开发者工具</sub>
+
+### [TriliumNext/Trilium](https://github.com/TriliumNext/Trilium) · 95 分
+
+⭐ 38,784（+40/天） · 🍴 2,623 · 👥 509 位贡献者 · 📝 30 天 2923 次提交 · TypeScript · AGPL-3.0 · 创建 3458 天
+
+> Build your personal knowledge base with Trilium Notes
+
+<sub>来源：自部署</sub>
+
+### [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) · 94 分
+
+⭐ 18,232（+318/天） · 🍴 1,726 · 👥 16 位贡献者 · 📝 30 天 14 次提交 · TypeScript · Apache-2.0 · 创建 113 天
+
+> AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export.
+
+<sub>来源：AI Agent、Agent Skill、Claude Skill</sub>
+
+### [miqdadbadjuber/anti-slop](https://github.com/miqdadbadjuber/anti-slop) · 93 分
+
+⭐ 8,782（+102/天） · 🍴 595 · 👥 10 位贡献者 · 📝 30 天 32 次提交 · JavaScript · MIT · 创建 94 天
+
+> Rules for an AI coding agent to filter out generic AI-generated UI designs, text, and code.
+
+<sub>来源：Agent Skill</sub>
+
+### [wshobson/agents](https://github.com/wshobson/agents) · 92 分
+
+⭐ 42,369（+46/天） · 🍴 4,477 · 👥 96 位贡献者 · 📝 30 天 34 次提交 · Python · MIT · 创建 473 天
+
+> Plugins, agents, skills, and commands for Claude Code, Codex CLI, Cursor, OpenCode, Antigravity CLI, GitHub Copilot, and Pi, written once in Markdown and adapted to each tool by generators with validation and evals.
+
+<sub>来源：AI Agent、Agent Skill、Claude Skill、MCP</sub>
 
 ---
 
