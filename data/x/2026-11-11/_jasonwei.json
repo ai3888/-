@@ -1,0 +1,27 @@
+{
+ "page": "https://x.com/_jasonwei",
+ "collected_at": "2026-11-11T13:33:22.031Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2120283338640621826",
+   "url": "https://x.com/_jasonwei/status/2120283338640621826",
+   "author": "_jasonwei",
+   "name": "Jason Wei",
+   "time": "2026-11-10T22:31:55.000Z",
+   "text": "Created a \"benchmark benchmark\": a frequency distribution of which benchmarks were reported by the frontier labs in 2026: \nhttps://\nclaude.ai/artifact/22cBP\nJt6Aos6bYpjmB1BHw#distribution\n…\n\nSome observations:\n- HLE, SWE-Bench Pro, DeepSWE, and Terminal-Bench saw universal adoption\n- Scale AI is behind two of those four",
+   "likes": 464,
+   "reposts": 74,
+   "replies": 67,
+   "views": 31754,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// claude.ai/artifact/22cBP Jt6Aos6bYpjmB1BHw#distribution …"
+   ]
+  }
+ ]
+}

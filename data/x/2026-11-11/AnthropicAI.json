@@ -1,0 +1,27 @@
+{
+ "page": "https://x.com/AnthropicAI",
+ "collected_at": "2026-11-11T13:39:51.289Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2120117722230968385",
+   "url": "https://x.com/AnthropicAI/status/2120117722230968385",
+   "author": "AnthropicAI",
+   "name": "Anthropic",
+   "time": "2026-11-10T11:33:49.000Z",
+   "text": "",
+   "likes": 4729,
+   "reposts": 949,
+   "replies": 530,
+   "views": 1131085,
+   "context": "",
+   "quoted": "",
+   "card": "Anthropic launches roadshow for proposed initial public offering",
+   "links": [
+    "https://anthropic.com/news/roadshow-launch…"
+   ]
+  }
+ ]
+}

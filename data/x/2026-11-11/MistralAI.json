@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/MistralAI",
+ "collected_at": "2026-11-11T13:33:01.144Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2120489851615084876",
+   "url": "https://x.com/MistralAI/status/2120489851615084876",
+   "author": "MistralAI",
+   "name": "Mistral AI",
+   "time": "2026-11-11T12:12:32.000Z",
+   "text": "What does real-time transcription look like in a live setting?\n\n We used Voxtral Transcribe 3 at AI Engineer Paris to capture every main-stage talk in real time. We boosted accuracy with context biasing, feeding the model speaker names and technical terms from the conference",
+   "likes": 103,
+   "reposts": 16,
+   "replies": 19,
+   "views": 6223,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "page": "https://x.com/OpenAI",
+ "collected_at": "2026-11-11T13:39:43.121Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2120216592395174382",
+   "url": "https://x.com/OpenAI/status/2120216592395174382",
+   "author": "OpenAI",
+   "name": "OpenAI",
+   "time": "2026-11-10T18:06:42.000Z",
+   "text": "Now in beta: Businesses in ChatGPT.\n\nClaim your business, manage your information, and get insights on how people engage with you.\n\nEligible businesses can also build a Business Agent to answer customers’ questions and help them explore what you offer.\n\n\nhttps://\nopenai.com/index/introduc\ning-businesses-chatgpt/\n…",
+   "likes": 15711,
+   "reposts": 2466,
+   "replies": 1128,
+   "views": 4449788,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// openai.com/index/introduc ing-businesses-chatgpt/ …"
+   ]
+  },
+  {
+   "id": "2120216594244849690",
+   "url": "https://x.com/OpenAI/status/2120216594244849690",
+   "author": "OpenAI",
+   "name": "OpenAI",
+   "time": "2026-11-10T18:06:42.000Z",
+   "text": "You can also publish a Business Agent to help people explore what you offer.\n\nCustomers can ask questions, compare products, and find what fits their needs using information you provide from your business—all in a clearly labeled conversation, separate from ChatGPT’s independent",
+   "likes": 856,
+   "reposts": 44,
+   "replies": 46,
+   "views": 274030,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2120202353907486826",
+   "url": "https://x.com/OpenAI/status/2120202353907486826",
+   "author": "OpenAI",
+   "name": "OpenAI",
+   "time": "2026-11-10T17:10:07.000Z",
+   "text": "We're turning our lessons from defending OpenAI into practical tools for our customers. On Thursday, join us at Cyber at the Frontier, a live keynote, for our latest cyber announcements.\n\nWorking with our frontier models, we've identified and resolved important vulnerabilities in",
+   "likes": 2006,
+   "reposts": 242,
+   "replies": 444,
+   "views": 362757,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

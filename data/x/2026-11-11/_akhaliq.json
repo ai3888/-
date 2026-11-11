@@ -1,0 +1,98 @@
+{
+ "page": "https://x.com/_akhaliq",
+ "collected_at": "2026-11-11T13:35:29.146Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 9,
+ "posts": [
+  {
+   "id": "2120265977657168218",
+   "url": "https://x.com/_akhaliq/status/2120265977657168218",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-10T21:22:56.000Z",
+   "text": "MiniMax-H3-Image in 2 steps, realtime\n\npDMD LoRA on MiniMax's 33B image model \nrealtime editing on ZeroGPU\n\nLoRA + one-file ComfyUI checkpoint: \nhttps://\nhuggingface.co/akhaliq/minima\nx-h3-image-pdmd-2step\n…\napp: \nhttps://\nhuggingface.co/spaces/akhaliq\n/minimax-h3-image-2step\n…",
+   "likes": 324,
+   "reposts": 44,
+   "replies": 26,
+   "views": 24876,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/akhaliq/minima x-h3-image-pdmd-2step …",
+    "https:// huggingface.co/spaces/akhaliq /minimax-h3-image-2step …"
+   ]
+  },
+  {
+   "id": "2120221322722865439",
+   "url": "https://x.com/_akhaliq/status/2120221322722865439",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-10T18:25:29.000Z",
+   "text": "Flide\n\nAccelerating Decision Inference with Exact State Forking\n\npaper: \nhttps://\nhuggingface.co/papers/2610.42\n148\n…",
+   "likes": 115,
+   "reposts": 11,
+   "replies": 3,
+   "views": 15618,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/papers/2610.42 148 …"
+   ]
+  },
+  {
+   "id": "2120216492189122726",
+   "url": "https://x.com/_akhaliq/status/2120216492189122726",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-10T18:06:18.000Z",
+   "text": "SIRIS\n\nCan LLMs Tell When Simulation Errors Matter in AI-Driven Systems Research\n\npaper: \nhttps://\nhuggingface.co/papers/2611.10\n329\n…",
+   "likes": 20,
+   "reposts": 5,
+   "replies": 5,
+   "views": 6871,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/papers/2611.10 329 …"
+   ]
+  },
+  {
+   "id": "2120209949951393922",
+   "url": "https://x.com/_akhaliq/status/2120209949951393922",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-10T17:40:18.000Z",
+   "text": "Longtail-SWE\n\nHigh-Quality SWE Tasks for Underrepresented Languages\n\npaper: \nhttps://\nhuggingface.co/papers/2611.10\n304\n…",
+   "likes": 33,
+   "reposts": 6,
+   "replies": 10,
+   "views": 8929,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/papers/2611.10 304 …"
+   ]
+  },
+  {
+   "id": "2120069540680011974",
+   "url": "https://x.com/_akhaliq/status/2120069540680011974",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-10T08:22:22.000Z",
+   "text": "LingBot-Touch\n\nA Foundation Model for Heterogeneous Tactile Representation Learning",
+   "likes": 29,
+   "reposts": 3,
+   "replies": 16,
+   "views": 10689,
+   "context": "",
+   "quoted": "",
+   "card": "LingBot-Touch - a robbyant Collection",
+   "links": []
+  }
+ ]
+}

@@ -1,0 +1,202 @@
+{
+ "page": "https://x.com/search?q=url%3Aarxiv.org%20min_faves%3A100%20-filter%3Areplies%20since%3A2026-11-10&src=typed_query",
+ "collected_at": "2026-11-11T13:41:36.456Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 11,
+ "posts": [
+  {
+   "id": "2120200206021206425",
+   "url": "https://x.com/perina_ndrea/status/2120200206021206425",
+   "author": "perina_ndrea",
+   "name": "Andrea",
+   "time": "2026-11-10T17:01:35.000Z",
+   "text": "关于符号式局部学习规则的新论文已发表（将在 NeurIPS 会议上发布，合作者包括 @StphTphsn1 和 @Fabio_Ans ）\n我们找到了一种方法来学习符号化的局部学习规则，这些规则原则上可以应用于任何任务和任何架构。\n\n链接到预印本： \nhttps://\narxiv.org/abs/2611.12248",
+   "likes": 199,
+   "reposts": 31,
+   "replies": 5,
+   "views": 11587,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2611.12248"
+   ]
+  },
+  {
+   "id": "2120213839551877439",
+   "url": "https://x.com/taiyasaki/status/2120213839551877439",
+   "author": "taiyasaki",
+   "name": "Andrea Tagliasacchi",
+   "time": "2026-11-10T17:55:45.000Z",
+   "text": "介绍“意大利面爆炸”这个游戏\n\n3DGS 是一种使用狄拉克波与高斯核进行卷积的方法。我们提出了 3DGS 的严格推广版本，将狄拉克波的质量扩展到了直线和曲线结构上。\n\n项目页面： \nhttps://\nspaghetti-splatting.github.io \narXiv: \nhttps://\narxiv.org/abs/2611.12716\n\n 开始吧！",
+   "likes": 375,
+   "reposts": 65,
+   "replies": 24,
+   "views": 20300,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// spaghetti-splatting.github.io",
+    "https:// arxiv.org/abs/2611.12716"
+   ]
+  },
+  {
+   "id": "2120241360284303496",
+   "url": "https://x.com/singularityhack/status/2120241360284303496",
+   "author": "singularityhack",
+   "name": "0xJustice.eth",
+   "time": "2026-11-10T19:45:07.000Z",
+   "text": "",
+   "likes": 217,
+   "reposts": 23,
+   "replies": 6,
+   "views": 6333,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https://arxiv.org/abs/2611.04434"
+   ]
+  },
+  {
+   "id": "2120150198148268517",
+   "url": "https://x.com/DynamicsSIAM/status/2120150198148268517",
+   "author": "DynamicsSIAM",
+   "name": "SIAM Activity Group on Dynamical Systems",
+   "time": "2026-11-10T13:42:52.000Z",
+   "text": "《流动和扩散模型的几何学与随机分析：综述》（作者：Ehsan Mirafzali, Razvan Marinescu）",
+   "likes": 146,
+   "reposts": 17,
+   "replies": 2,
+   "views": 5760,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org 流动和扩散模型的几何性质与随机分析：综述 基于流的模型与基于扩散的模型，已成为学习和采样高维概率分布的主要方法。这些模型可以应用于从图像和视频到蛋白质、分子以及物理系统等各个领域。",
+   "links": []
+  },
+  {
+   "id": "2120158538156646666",
+   "url": "https://x.com/chaumian/status/2120158538156646666",
+   "author": "chaumian",
+   "name": "Alon Turing",
+   "time": "2026-11-10T14:16:00.000Z",
+   "text": "An Introduction to Applied Probability and Stochastic Processes: Open Lecture Notes",
+   "likes": 150,
+   "reposts": 27,
+   "replies": 0,
+   "views": 5527,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org An Introduction to Applied Probability and Stochastic Processes:... These open lecture notes provide a broad introduction to measure-theoretic probability and stochastic processes, with a fo",
+   "links": []
+  },
+  {
+   "id": "2120333343602647549",
+   "url": "https://x.com/ssh4net/status/2120333343602647549",
+   "author": "ssh4net",
+   "name": "Vlad Erium",
+   "time": "2026-11-11T01:50:37.000Z",
+   "text": "Real-Time Volumetric Light Transport Inference without a Path\n\nLudwic Leonard, Ruediger Westermann\n(Technical University of Munich, Germany)\n\n\nhttps://\narxiv.org/abs/2611.12103\n\nAbstract:\nWe present a real-time method for reconstructing fully integrated pixel radiance in rendered volumetric",
+   "likes": 207,
+   "reposts": 16,
+   "replies": 2,
+   "views": 6595,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2611.12103"
+   ]
+  },
+  {
+   "id": "2120217506854088858",
+   "url": "https://x.com/StphTphsn1/status/2120217506854088858",
+   "author": "StphTphsn1",
+   "name": "Stéphane Deny",
+   "time": "2026-11-10T18:10:20.000Z",
+   "text": "\"A method to automatically discover symbolic local learning rules\" \n–– expertly led by Andrea Perin (\n@perina_ndrea\n), & in collaboration with Fabio Anselmi (\n@Fabio_Ans\n)\n\n \nhttps://\narxiv.org/abs/2611.12248\n\naccepted at #NEURIPS2026 (Concept & Feasibility Track)",
+   "likes": 127,
+   "reposts": 20,
+   "replies": 3,
+   "views": 5518,
+   "context": "",
+   "quoted": "New paper out on symbolic local learning rules (to appear at NeurIPS, work w/ @StphTphsn1 and @Fabio_Ans) We have a method to learn symbolic local learning rules that can be applied, in principle, to any task and any architecture Link to the preprint: https:// arxiv.org/abs/2611.12248",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2611.12248"
+   ]
+  },
+  {
+   "id": "2120093951457698202",
+   "url": "https://x.com/thomasfbloom/status/2120093951457698202",
+   "author": "thomasfbloom",
+   "name": "Thomas Bloom",
+   "time": "2026-11-10T09:59:22.000Z",
+   "text": "In this fascinating paper (\nhttps://\narxiv.org/pdf/2609.28603) they formally define 'how interesting' a maths result is as the ratio (length of statement)/(length of proof).\n\nWhat are examples showing the limits of this? e.g. Interesting results with long statements/short proofs?",
+   "likes": 241,
+   "reposts": 27,
+   "replies": 42,
+   "views": 38929,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/pdf/2609.28603"
+   ]
+  },
+  {
+   "id": "2120064157387284503",
+   "url": "https://x.com/dc1394/status/2120064157387284503",
+   "author": "dc1394",
+   "name": "dc1394",
+   "time": "2026-11-10T08:00:58.000Z",
+   "text": "The paper (well, preprint) is out. We found that on the GeForce RTX 5080, which has relatively weak double-precision performance, using GEMMul8 instead of cuBLAS for matrix multiplication in OpenMX 4.0 GPU cuts the computation time for a 384-atom system by about half. The errors",
+   "likes": 117,
+   "reposts": 19,
+   "replies": 1,
+   "views": 8350,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org GPU acceleration of the numerical-atomic-orbital DFT code OpenMX... We integrate GEMMul8, a library that emulates FP64 matrix multiplication on INT8 Tensor Cores, into the GPU version of the",
+   "links": []
+  },
+  {
+   "id": "2120100627632333188",
+   "url": "https://x.com/jdlichtman/status/2120100627632333188",
+   "author": "jdlichtman",
+   "name": "Jared Duker Lichtman",
+   "time": "2026-11-10T10:25:53.000Z",
+   "text": "Yes, this is a start, as Mike Freedman et al. wrote in \"Compression is all you need\" \nhttps://\narxiv.org/abs/2603.20396\n\nIn particular, Grothendieck's results have highest ratio in Mathlib.",
+   "likes": 176,
+   "reposts": 26,
+   "replies": 6,
+   "views": 11922,
+   "context": "",
+   "quoted": "In this fascinating paper ( https:// arxiv.org/pdf/2609.28603) they formally define 'how interesting' a maths result is as the ratio (length of statement)/(length of proof). What are examples showing the limits of this? e.g. Interesting results with long statements/short proofs?",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2603.20396"
+   ]
+  },
+  {
+   "id": "2120147170448101863",
+   "url": "https://x.com/DynamicsSIAM/status/2120147170448101863",
+   "author": "DynamicsSIAM",
+   "name": "SIAM Activity Group on Dynamical Systems",
+   "time": "2026-11-10T13:30:50.000Z",
+   "text": "\"An Introduction to Applied Probability and Stochastic Processes: Open Lecture Notes\" (by Matthew Lorig): \nhttps://\narxiv.org/abs/2611.10948\n\n[note: broad introduction to measure-theoretic probability and stochastic processes; two-quarter course for first-year PhD students in applied math]",
+   "likes": 177,
+   "reposts": 23,
+   "replies": 2,
+   "views": 6373,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org An Introduction to Applied Probability and Stochastic Processes:... These open lecture notes provide a broad introduction to measure-theoretic probability and stochastic processes, with a fo",
+   "links": [
+    "https:// arxiv.org/abs/2611.10948"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "page": "https://x.com/search?q=url%3Agithub.com%20(LLM%20OR%20agent%20OR%20model%20OR%20inference%20OR%20training)%20min_faves%3A200%20-filter%3Areplies%20since%3A2026-11-10&src=typed_query",
+ "collected_at": "2026-11-11T13:38:35.829Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 7,
+ "posts": [
+  {
+   "id": "2120103943082795438",
+   "url": "https://x.com/naver_d2/status/2120103943082795438",
+   "author": "naver_d2",
+   "name": "NAVER D2",
+   "time": "2026-11-10T10:39:04.000Z",
+   "text": "<构建人工智能技能的 10 条准则：从实际操作开始→实现代码自动化> 自从 Claude 的代理技能功能推出后，我就开始开发一项技能，用于将 Figma 设计转化为 Android 用户界面。在本文中作为示例展示的这项技能已经是开源的了。",
+   "likes": 310,
+   "reposts": 122,
+   "replies": 0,
+   "views": 29424,
+   "context": "",
+   "quoted": "",
+   "card": "GitHub - naver/design-to-ui: Figma 디자인을 네이티브 UI(Android Compose/XML, iOS SwiftUI/UIKit)로 변환하고, 실기기...",
+   "links": []
+  },
+  {
+   "id": "2120171408793727004",
+   "url": "https://x.com/imryven/status/2120171408793727004",
+   "author": "imryven",
+   "name": "Ryven",
+   "time": "2026-11-10T15:07:09.000Z",
+   "text": "这简直太棒了！Anthropic 公司的 Garry Tan 和 Addy Osmani 将他们的 Claude 代码方案免费发布在 GitHub 上，而人们仍然需要从零开始学习如何使用这些方案。\n\n7 个由真正使用人工智能代理来发送邮件的人提供的免费邮箱服务：\n\n-> 技能（基于人类学的分析） \nhttps://\ngithub.com/anthropics/ski\nlls\n… \n官方技能库",
+   "likes": 434,
+   "reposts": 65,
+   "replies": 25,
+   "views": 53685,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/anthropics/ski lls …"
+   ]
+  },
+  {
+   "id": "2120151508511596931",
+   "url": "https://x.com/w1j0y_/status/2120151508511596931",
+   "author": "w1j0y_",
+   "name": "w1j0y",
+   "time": "2026-11-10T13:48:04.000Z",
+   "text": "",
+   "likes": 213,
+   "reposts": 39,
+   "replies": 5,
+   "views": 9191,
+   "context": "",
+   "quoted": "",
+   "card": "youtube.com Build Your Own AI Agent Workflow for Bug Bounty A step by step series on building your own AI agent workflow for security research, using files instead of long chat sessions. Episode 0 is ",
+   "links": [
+    "https://youtube.com/playlist?list=PLVSBaEIS7tEE…",
+    "https://github.com/w1j0y/w1j0y-workflow…"
+   ]
+  },
+  {
+   "id": "2120177440282788028",
+   "url": "https://x.com/SergioPaniego/status/2120177440282788028",
+   "author": "SergioPaniego",
+   "name": "Sergio Paniego",
+   "time": "2026-11-10T15:31:07.000Z",
+   "text": "new post-training example → SFT on agent traces with TRL\n\n> a big model works as a coding agent in \n@opencode\n  via OpenEnv\n> the tasks it solves become the training data\n> 2B model goes from 5.5% to 34.4% on held-out tasks\n\nfull guide with everything open: \nhttps://\ngithub.com/huggingface/tr\nl/tree/main/examples/sft_agent_traces\n…",
+   "likes": 321,
+   "reposts": 41,
+   "replies": 16,
+   "views": 19628,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/huggingface/tr l/tree/main/examples/sft_agent_traces …"
+   ]
+  },
+  {
+   "id": "2120360374084284537",
+   "url": "https://x.com/0xSilver_Time/status/2120360374084284537",
+   "author": "0xSilver_Time",
+   "name": "AI樱木",
+   "time": "2026-11-11T03:38:02.000Z",
+   "text": "There’s a collection of free projects on GitHub that are already capable of replacing quite a few tools you’re paying for monthly.\n\n1. TradingAgents\nAn AI multi-agent quantitative trading framework\n\nhttps://\ngithub.com/TauricResearch\n/TradingAgents\n…\n\n2. LibreChat\nOne interface for accessing multiple models,",
+   "likes": 265,
+   "reposts": 48,
+   "replies": 8,
+   "views": 21306,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/TauricResearch /TradingAgents …"
+   ]
+  },
+  {
+   "id": "2120136845262528721",
+   "url": "https://x.com/rvaniaaaa/status/2120136845262528721",
+   "author": "rvaniaaaa",
+   "name": "rvaniaaa",
+   "time": "2026-11-10T12:49:48.000Z",
+   "text": "The Obsidian CEO wrote skills that teach your AI agent to run your vault, free on GitHub, and people still let their agent guess how notes work\n\n6 free repos from the Obsidian team for an agent-ready second brain:\n\n-> obsidian skills (by kepano) \nhttps://\ngithub.com/kepano/obsidia\nn-skills\n…\nagent",
+   "likes": 213,
+   "reposts": 35,
+   "replies": 4,
+   "views": 18155,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/kepano/obsidia n-skills …"
+   ]
+  },
+  {
+   "id": "2120261739598201075",
+   "url": "https://x.com/zadescoxp/status/2120261739598201075",
+   "author": "zadescoxp",
+   "name": "Zade",
+   "time": "2026-11-10T21:06:05.000Z",
+   "text": "I built an open-source trading harness for classification models\n\nGitHub: \nhttps://\ngithub.com/zadescoxp/cali\nbrain-harness\n…\n\nWhile testing the latest classification model from \n@dmind_ai\n, Kairos on \n@minara\n, I built a trading harness around it to see what the model can actually do. Everything ran on my",
+   "likes": 206,
+   "reposts": 20,
+   "replies": 21,
+   "views": 12363,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/zadescoxp/cali brain-harness …"
+   ]
+  }
+ ]
+}

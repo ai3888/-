@@ -1,0 +1,183 @@
+{
+ "page": "https://x.com/search?q=url%3Ahuggingface.co%20min_faves%3A100%20-filter%3Areplies%20since%3A2026-11-10&src=typed_query",
+ "collected_at": "2026-11-11T13:38:24.357Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 10,
+ "posts": [
+  {
+   "id": "2120186218176491876",
+   "url": "https://x.com/HanshengCh/status/2120186218176491876",
+   "author": "HanshengCh",
+   "name": "Hansheng Chen",
+   "time": "2026-11-10T16:06:00.000Z",
+   "text": "Introducing pi-H3, the fastest MiniMax H3 yet. 10 s of 768p video with audio generated in 9.2 s on a single B200.\n\nHow we did it:\nDirect pixel output in 2 or 4 steps, no video VAE decoder.\n\nBlog: \nhttps://\nhanshengchen.com/blog/pi-h3/\nApp: \nhttps://\nhuggingface.co/spaces/Lakonik\n/pi-H3\n…\n\n\n@StanfordAILab\n \n@LumaLabsAI",
+   "likes": 572,
+   "reposts": 61,
+   "replies": 33,
+   "views": 38150,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// hanshengchen.com/blog/pi-h3/",
+    "https:// huggingface.co/spaces/Lakonik /pi-H3 …"
+   ]
+  },
+  {
+   "id": "2120377175195164969",
+   "url": "https://x.com/sakatayasha/status/2120377175195164969",
+   "author": "sakatayasha",
+   "name": "Sakata",
+   "time": "2026-11-11T04:44:47.000Z",
+   "text": "UNCENSORED QWEN 4B FOR YOUR LAPTOP OR PHONE. 0 REFUSALS IN 465 TESTS\n\nhauhaucs stripped the refusals off qwen3.5 4b. free apache 2.0 ggufs, and the q4_k_m is only 2.6gb\n\nhow to run it:\n1. get the model\n\nhttps://\nhuggingface.co/HauhauCS/Qwen3\n.5-4B-Uncensored-HauhauCS-Aggressive\n…\n\n2. download the Q4_K_M file (2.6gb)",
+   "likes": 226,
+   "reposts": 20,
+   "replies": 14,
+   "views": 11672,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/HauhauCS/Qwen3 .5-4B-Uncensored-HauhauCS-Aggressive …"
+   ]
+  },
+  {
+   "id": "2120170256262127860",
+   "url": "https://x.com/ariG23498/status/2120170256262127860",
+   "author": "ariG23498",
+   "name": "Aritra",
+   "time": "2026-11-10T15:02:34.000Z",
+   "text": "Everything that you need to know about decision models, in one place.\n\n> what are decision models\n> transformers integration\n> trl support\n> llama cpp support",
+   "likes": 149,
+   "reposts": 23,
+   "replies": 7,
+   "views": 12424,
+   "context": "",
+   "quoted": "",
+   "card": "Decision Models in Hugging Face",
+   "links": []
+  },
+  {
+   "id": "2120165014804050052",
+   "url": "https://x.com/kusurichan_/status/2120165014804050052",
+   "author": "kusurichan_",
+   "name": "𝗸𝘂𝘀𝘂𝗿𝗶.",
+   "time": "2026-11-10T14:41:44.000Z",
+   "text": "Oh",
+   "likes": 332,
+   "reposts": 26,
+   "replies": 11,
+   "views": 44874,
+   "context": "",
+   "quoted": "",
+   "card": "InterpreticAI/Qwen4-27B-Uncensored-v3-FP8 · Hugging Face",
+   "links": []
+  },
+  {
+   "id": "2120257150421475438",
+   "url": "https://x.com/sep_is_heim/status/2120257150421475438",
+   "author": "sep_is_heim",
+   "name": "Kamimoto(かみもと)",
+   "time": "2026-11-10T20:47:51.000Z",
+   "text": "MiniMax-H3-Image is now available with open weights!\n\nLooks like it’s already gone from early access to general availability.\n\n・Text-to-image generation / image editing\n・Supports up to 16 reference images\n・6-step generation\n・ComfyUI Core support, with a W4A8 version also",
+   "likes": 133,
+   "reposts": 9,
+   "replies": 3,
+   "views": 8221,
+   "context": "",
+   "quoted": "",
+   "card": "MiniMaxAI/MiniMax-H3-Image · Hugging Face",
+   "links": []
+  },
+  {
+   "id": "2120265977657168218",
+   "url": "https://x.com/_akhaliq/status/2120265977657168218",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-10T21:22:56.000Z",
+   "text": "MiniMax-H3-Image in 2 steps, realtime\n\npDMD LoRA on MiniMax's 33B image model \nrealtime editing on ZeroGPU\n\nLoRA + one-file ComfyUI checkpoint: \nhttps://\nhuggingface.co/akhaliq/minima\nx-h3-image-pdmd-2step\n…\napp: \nhttps://\nhuggingface.co/spaces/akhaliq\n/minimax-h3-image-2step\n…",
+   "likes": 325,
+   "reposts": 44,
+   "replies": 26,
+   "views": 24916,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/akhaliq/minima x-h3-image-pdmd-2step …",
+    "https:// huggingface.co/spaces/akhaliq /minimax-h3-image-2step …"
+   ]
+  },
+  {
+   "id": "2120430714961424563",
+   "url": "https://x.com/sheriyuo/status/2120430714961424563",
+   "author": "sheriyuo",
+   "name": "Xiuyu Li",
+   "time": "2026-11-11T08:17:32.000Z",
+   "text": "Sharing the StepFun team’s new work, P²-MOPD: it turns a linear combination of student and expert parameters into an end-to-end differentiable, trainable model, surpassing the final performance of standard multi-teacher distillation with only 50% of the training steps\n\nFeel free",
+   "likes": 135,
+   "reposts": 12,
+   "replies": 11,
+   "views": 5499,
+   "context": "",
+   "quoted": "No wonder Step-5 is so strong—turns out it has mastered distillation’s Incineration Verdict... The StepFun team has released a paper, P²-MOPD: enabling a small model to simultaneously inherit the capabilities of multiple expert models, cutting training time nearly in half while",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2120211806753112182",
+   "url": "https://x.com/EricBezzam/status/2120211806753112182",
+   "author": "EricBezzam",
+   "name": "Eric Bezzam",
+   "time": "2026-11-10T17:47:41.000Z",
+   "text": "Lots of tiny TTS releases lately \n\n> Paradee v1.3 by \n@sahilmdkr\n\n> ZONOS3-Mini by \n@ZyphraAI\n \n> PiVo by \n@EmperoAI\n \n> phonon by \n@GradiumAI\n \n> Underdog-Woof by \n@UnderdogAI\n \n\nCompare and listen to them side by side on the \n@huggingface\n Open TTS Leaderboard  \n\nhttps://\nhuggingface.co/spaces/hf-audi\no/open_tts_leaderboard?listen=sahilmahendrakar/Paradee-8M-v1.3,gradium/phonon-31m-en,empero-ai/PiVo-1.4M,Zyphra/ZONOS3-Mini,ConwayResearch/Underdog-Woof\n…",
+   "likes": 268,
+   "reposts": 31,
+   "replies": 16,
+   "views": 7381,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/spaces/hf-audi o/open_tts_leaderboard?listen=sahilmahendrakar/Paradee-8M-v1.3,gradium/phonon-31m"
+   ]
+  },
+  {
+   "id": "2120193749573837063",
+   "url": "https://x.com/SlipperyGem/status/2120193749573837063",
+   "author": "SlipperyGem",
+   "name": "Brie Wensleydale",
+   "time": "2026-11-10T16:35:55.000Z",
+   "text": "ComfyUI has released MiniMax H3 Image!\n\nRejoice!\n\nhttps://\nhuggingface.co/Comfy-Org/Mini\nMax-H3-Image?utm_source=substack&utm_medium=email\n…",
+   "likes": 123,
+   "reposts": 4,
+   "replies": 4,
+   "views": 5041,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/Comfy-Org/Mini Max-H3-Image?utm_source=substack&utm_medium=email …"
+   ]
+  },
+  {
+   "id": "2120170802070897094",
+   "url": "https://x.com/MiaAI_lab/status/2120170802070897094",
+   "author": "MiaAI_lab",
+   "name": "Mia",
+   "time": "2026-11-10T15:04:44.000Z",
+   "text": "MiniMax H3-Image open-weights:\n\n\nhttps://\nhuggingface.co/MiniMaxAI/Mini\nMax-H3-Image\n…",
+   "likes": 362,
+   "reposts": 26,
+   "replies": 11,
+   "views": 18350,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/MiniMaxAI/Mini Max-H3-Image …"
+   ]
+  }
+ ]
+}

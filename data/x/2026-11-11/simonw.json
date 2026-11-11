@@ -1,0 +1,45 @@
+{
+ "page": "https://x.com/simonw",
+ "collected_at": "2026-11-11T13:36:01.769Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 7,
+ "posts": [
+  {
+   "id": "2120258951594037732",
+   "url": "https://x.com/simonw/status/2120258951594037732",
+   "author": "simonw",
+   "name": "Simon Willison",
+   "time": "2026-11-10T20:55:01.000Z",
+   "text": "",
+   "likes": 310,
+   "reposts": 20,
+   "replies": 90,
+   "views": 33453,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https://simonwillison.net/2026/Nov/10/llm-gemini/…"
+   ]
+  },
+  {
+   "id": "2120259268364718331",
+   "url": "https://x.com/simonw/status/2120259268364718331",
+   "author": "simonw",
+   "name": "Simon Willison",
+   "time": "2026-11-10T20:56:16.000Z",
+   "text": "For comparison, here's what I got for the same prompt against Claude Fable 5.2 yesterday \nhttps://\nsimonwillison.net/2026/Nov/10/yo\nnkers-rises/\n…",
+   "likes": 27,
+   "reposts": 0,
+   "replies": 12,
+   "views": 8020,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// simonwillison.net/2026/Nov/10/yo nkers-rises/ …"
+   ]
+  }
+ ]
+}
