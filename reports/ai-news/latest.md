@@ -1,6 +1,6 @@
-# AI 日报素材 · 2026-11-11
+# AI 日报素材 · 2026-11-12
 
-> 生成于 2026-11-11 10:13（北京时间）。38/40 个来源抓取成功，失败：油管 @AndrejKarpathy、油管 @GoogleDeepMind。本次候选：热议话题 9 个、高热度单条讨论 8 条、新东西 24 条、论文 12 篇。
+> 生成于 2026-11-12 11:19（北京时间）。34/40 个来源抓取成功，失败：油管 @aiexplained-official、油管 @DwarkeshPatel、油管 @MachineLearningStreetTalk、油管 @LatentSpacePod、油管 @GoogleDeepMind、油管 @anthropic-ai。本次候选：热议话题 4 个、高热度单条讨论 8 条、新东西 21 条、论文 12 篇。
 
 # 写作说明（给 GPT）
 
@@ -94,227 +94,182 @@
 
 按「出现在几个不同来源」排序，来源越多说明讨论越广。关键词是程序自动找的，可能把不相关的内容归到一起，请自己判断。
 
-#### 1. 关键词：gemini / carbon / gemini 4 — 10 个来源：Google AI 博客、Google DeepMind、Hacker News、Hugging Face 博客、Latent Space（含每天的 AINews：汇总推特、Reddit、Discord 的讨论）、OpenRouter、TechCrunch AI、The Verge AI、油管 AI Explained、量子位
+#### 1. 关键词：jensen / huang / nvidia — 3 个来源：Hacker News、TechCrunch AI、The Verge AI
 
-- [Gemini 4 Carbon is now available](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/) — 来源：Hacker News（HN 275 分，149 条评论，发布于 11-11 00:07）
-  - HN 讨论：https://news.ycombinator.com/item?id=50442303
-- [Google: Gemini 4 Carbon](https://openrouter.ai/google/gemini-4-carbon) — 来源：OpenRouter（发布于 11-11 00:07）
-  - 简介：Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work. It takes text, image, audio, video and file input, supports long decode...
-- [Gemini 4 Carbon is now available](https://deepmind.google/blog/gemini-4-carbon-is-now-available/) — 来源：Google DeepMind（发布于 11-11 00:03）
-- [Google Cloud launches Gemini for healthcare.](https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/) — 来源：Google AI 博客（发布于 11-10 21:00）
-  - 简介：Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.
-- [Pay for Hugging Face Hub with your Google Cloud Account](https://huggingface.co/blog/hub-gcp-marketplace) — 来源：Hugging Face 博客（发布于 11-10 08:00）
-- [Decision Models in Hugging Face](https://huggingface.co/blog/decision) — 来源：Hugging Face 博客（发布于 11-10 08:00）
-
-#### 2. 关键词：anthropic / ipo / valuation — 3 个来源：Hacker News、TechCrunch AI、The Verge AI
-
-- [Anthropic to Seek $1.3T Valuation in IPO](https://www.wsj.com/finance/stocks/anthropic-to-seek-1-3-trillion-valuation-in-ipo-8337b669) — 来源：Hacker News（HN 59 分，82 条评论，发布于 11-10 20:49）
-  - HN 讨论：https://news.ycombinator.com/item?id=50439616
-- [All 7 Anthropic founders will each cash out about $250M in IPO](https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/) — 来源：TechCrunch AI（发布于 11-11 03:57）
-  - 简介：Each of the seven co-founders plans to sell exactly the same number of shares in the IPO, which would bring each of them about $250 million in cash at the midpoint of the price range while leaving the
-- [Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion](https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/) — 来源：TechCrunch AI（发布于 11-10 22:01）
-  - 简介：The company could end up being worth a hefty $1.404 trillion if its shares list at the top of the price range, on a fully diluted basis.
-- [Anthropic targets $1.4 trillion IPO](https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion) — 来源：The Verge AI（发布于 11-10 22:06）
-  - 简介：Anthropic confirmed on Tuesday that its IPO could be one of the biggest ever, even while falling short of previous expectations. Its IPO price is expected to be between $70.00 and $78.00 per share, wh
-
-#### 3. 关键词：photoshop / creative / premiere — 3 个来源：Google AI 博客、TechCrunch AI、The Verge AI
-
-- [We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.](https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/) — 来源：Google AI 博客（发布于 11-10 22:00）
-  - 简介：Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.
-- [Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly](https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/) — 来源：TechCrunch AI（发布于 11-10 22:05）
-  - 简介：Adobe is taking on Figma with a new prototype builder tool in Firefly.
-- [Photoshop, Lightroom, and Premiere are making it easier to remove things](https://www.theverge.com/tech/1030653/adobe-max-2026-photoshop-premiere-removal-updates) — 来源：The Verge AI（发布于 11-10 22:00）
-  - 简介：Adobe is expanding its Creative Cloud apps and Firefly AI platform with new capabilities that aim to make design and editing projects faster and less complicated. Some of the announcements from Adobe'
-
-#### 4. 关键词：whiteboards / sheets / claude — 2 个来源：Claude 博客、Hacker News
-
-- [Introducing Claude Whiteboards, Claude Sheets, and Claude Data](https://claude.com/resources/articles/sheets-whiteboards-data) — 来源：Hacker News、Claude 博客（HN 158 分，132 条评论，发布于 11-10 08:00）
-  - HN 讨论：https://news.ycombinator.com/item?id=50443716
-  - 简介：Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.
-- [More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors) — 来源：Claude 博客（发布于 11-10 08:00）
-  - 简介：Work at the speed of thought
-
-#### 5. 关键词：businesses / chatgpt — 2 个来源：OpenAI、油管 OpenAI
-
-- [Introducing Businesses in ChatGPT](https://openai.com/index/introducing-businesses-chatgpt) — 来源：OpenAI（发布于 11-10 18:00）
-  - 简介：Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.
-- [Introducing Businesses in ChatGPT in beta](https://www.youtube.com/watch?v=Z9k5oI3Paoc) — 来源：油管 OpenAI（播放 102,580，发布于 11-11 02:07）
-  - 简介：Now in beta: Businesses in ChatGPT. Claim your business, manage your information, and get insights on how people engage with you. With Business Hub, verified businesses can update their details and ad
-
-#### 6. 关键词：designing / resend / rocha — 2 个来源：Latent Space（含每天的 AINews：汇总推特、Reddit、Discord 的讨论）、油管 Latent Space
-
-- [Designing for Agents — Zeno Rocha, Resend](https://latent.space/p/resend/) — 来源：Latent Space（含每天的 AINews：汇总推特、Reddit、Discord 的讨论）（发布于 11-11 04:05）
-  - 简介：Today’s podcast comes from a real life mystery: We are big fans of Cloudflare’s developer platform, and Cloudflare Email is a convenient tool especially when all your domains are already on Cloudflare
-- [Designing for Agents — Zeno Rocha, Resend](https://www.youtube.com/watch?v=bdIoODXsu8k) — 来源：油管 Latent Space（播放 653，发布于 11-11 03:57）
-  - 简介：A coding agent opens a pull request and picks an email provider for you. How did it choose? Resend co-founder and CEO Zeno Rocha explores answer engine optimization (AEO) through a concrete example: w
-
-#### 7. 关键词：business / chatgpt — 2 个来源：TechCrunch AI、The Verge AI
-
-- [OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google](https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/) — 来源：TechCrunch AI（发布于 11-11 02:49）
-  - 简介：OpenAI is looking to make ChatGPT a more robust consumer discovery engine, and a host of new features seek to empower businesses to help it do that.
-- [ChatGPT is getting verified AI ‘Business Agents’](https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub) — 来源：The Verge AI（发布于 11-11 02:00）
-  - 简介：ChatGPT is going to let you chat with verified "Business Agents" that represent a brand to help you with things like comparison shopping. The feature, available first to "eligible" e-commerce and onli
-
-#### 8. 关键词：jensen / huang — 2 个来源：TechCrunch AI、The Verge AI
-
-- [Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline](https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/) — 来源：TechCrunch AI（发布于 11-11 01:04）
+- [Nvidia is preparing to oust Jensen Huang](https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad) — 来源：Hacker News（HN 606 分，843 条评论，发布于 11-12 06:31）
+  - HN 讨论：https://news.ycombinator.com/item?id=50459703
+- [Nvidia prepares to fire CEO Jensen Huang, WSJ reports](https://twitter.com/watcherguru/status/2120645607866188008) — 来源：Hacker News（HN 225 分，4 条评论，发布于 11-12 06:36）
+  - HN 讨论：https://news.ycombinator.com/item?id=50459776
+- [Who could replace Jensen Huang? A highly unscientific list of possible successors](https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/) — 来源：TechCrunch AI（发布于 11-12 11:13）
+  - 简介：Nvidia has no succession plan and a CEO in hot water, so we’ve drafted a shortlist.
+- [The unfolding Jensen Huang scandal: a timeline](https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/) — 来源：TechCrunch AI（发布于 11-12 07:50）
   - 简介：The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.
-- [The US is winning the AI race. Jensen Huang could have blown it](https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy) — 来源：The Verge AI（发布于 11-11 03:04）
-  - 简介：As espionage targets go, Jensen Huang is perhaps one of the least surprising on Earth. The Nvidia CEO runs one of the world's most valuable companies, controls the in-demand technology fueling the AI 
+- [Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang](https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/) — 来源：TechCrunch AI（发布于 11-12 07:28）
+  - 简介：As soon as Wednesday evening, Nvidia's board could decide to remove its founder and CEO of 33 years.
+- [Jensen Huang accused of having another affair — with an Nvidia exec](https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/) — 来源：TechCrunch AI（发布于 11-12 07:17）
+  - 简介：Jensen Huang, who has come under fire for admitting to an affair with a woman accused of being a Chinese intelligence agent, has been accused of having a separate affair with an Nvidia subordinate.
 
-#### 9. 关键词：drone / ring / home — 2 个来源：TechCrunch AI、The Verge AI
+#### 2. 关键词：Gemini Decisions API: Fast, calibrated multimodal decisions — 2 个来源：Google AI 博客、Hacker News
 
-- [Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot](https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/) — 来源：TechCrunch AI（发布于 11-10 21:30）
-  - 简介：Amazon-owned Ring is pushing into robotics with the launch of a home security drone and a rolling robot designed to patrol and protect businesses.
-- [Hands-on with Ring’s new AI drone camera for your home](https://www.theverge.com/tech/1030601/ring-drone-cam-hands-on-price-release-date-ai-pilot) — 来源：The Verge AI（发布于 11-10 21:30）
-  - 简介：Ring is finally shipping a flying indoor drone camera. For real this time. The Ring Drone Cam will arrive on January 27th, 2027, for $249.99, Ring founder Jamie Siminoff said at a launch event in New 
+- [Gemini Decisions API: Fast, calibrated multimodal decisions](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/) — 来源：Hacker News、Google AI 博客（HN 298 分，96 条评论，发布于 11-12 02:00）
+  - HN 讨论：https://news.ycombinator.com/item?id=50456791
+  - 简介：Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.
+
+#### 3. 关键词：engineer / code — 2 个来源：Hacker News、Latent Space（含每天的 AINews：汇总推特、Reddit、Discord 的讨论）
+
+- [AWS Emulator and the engineer's job when agents write the code](https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html) — 来源：Hacker News（HN 111 分，2 条评论，发布于 11-12 02:28）
+  - HN 讨论：https://news.ycombinator.com/item?id=50456740
+- [AI Engineer Code Summit: OpenAI on New Ways of Working With Codex](https://latent.space/p/codex-work/) — 来源：Latent Space（含每天的 AINews：汇总推特、Reddit、Discord 的讨论）（发布于 11-11 12:49）
+  - 简介：AI Engineer Code Summit kicked off today with a series of workshops, including from leading frontier labs OpenAI, Anthropic and Google DeepMind. I attended the OpenAI workshop, intriguingly titled “Ne
+
+#### 4. 关键词：alphagenome 2 / alphagenome / disease — 2 个来源：Google DeepMind、The Verge AI
+
+- [AlphaGenome 2: Deciphering how cells read DNA to better understand disease](https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/) — 来源：Google DeepMind（发布于 11-11 23:00）
+  - 简介：Predicting how DNA sequences and their variations impact specific human cell types and disease.
+- [Google’s AlphaGenome 2 zooms in on the cellular roots of disease](https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model) — 来源：The Verge AI（发布于 11-11 23:00）
+  - 简介：Researchers at Google DeepMind have unveiled a new AI model designed to unravel how changes in our DNA affect different cells, giving scientists a more detailed view of a notoriously difficult problem
 
 ### 只在一个地方出现、但很热的讨论（Hacker News，按分数排序）
 
-- [AI usage generates a fragile codebase](https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/) — 来源：Hacker News（HN 388 分，410 条评论，发布于 11-10 18:25）
-  - HN 讨论：https://news.ycombinator.com/item?id=50438318
-- [CoreWeave bond yield tops 16% as AI credit stress rises](https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html) — 来源：Hacker News（HN 191 分，186 条评论，发布于 11-10 11:20）
-  - HN 讨论：https://news.ycombinator.com/item?id=50435660
-- [Fireworks AI security breach impacts Notion and their customers](https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor) — 来源：Hacker News（HN 159 分，60 条评论，发布于 11-10 15:19）
-  - HN 讨论：https://news.ycombinator.com/item?id=50437106
-- [Apple has new Mac app coming to make running local AI models easy](https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/) — 来源：Hacker News（HN 108 分，91 条评论，发布于 11-11 05:25）
-  - HN 讨论：https://news.ycombinator.com/item?id=50446520
-- [What objective is reasoning solving?](https://alexwang.ai/posts/reasoning-as-pathfinding/) — 来源：Hacker News（HN 108 分，48 条评论，发布于 11-11 03:25）
-  - HN 讨论：https://news.ycombinator.com/item?id=50445013
-- [Meet the Sad Wives of AI](https://www.wired.com/story/meet-the-sad-wives-of-ai/) — 来源：Hacker News（HN 75 分，67 条评论，发布于 11-10 18:40）
-  - HN 讨论：https://news.ycombinator.com/item?id=50438429
-- [Life on Claude Nine](https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html) — 来源：Hacker News（HN 85 分，55 条评论，发布于 11-11 01:44）
-  - HN 讨论：https://news.ycombinator.com/item?id=50443587
-- [Being a meat proxy for AI should be grounds for getting people fired](https://swiftrocks.com/being-a-meat-proxy-for-ai-should-be-grounds-for-getting-people-fired) — 来源：Hacker News（HN 50 分，44 条评论，发布于 11-09 14:55）
-  - HN 讨论：https://news.ycombinator.com/item?id=50422001
+- [My AI agents found an unmapped Maya site?](https://pietromiotti.com/latest/maya-site) — 来源：Hacker News（HN 938 分，339 条评论，发布于 11-11 20:05）
+  - HN 讨论：https://news.ycombinator.com/item?id=50452455
+- [United Airlines bans AI agents from booking flights on behalf of travelers](https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/) — 来源：Hacker News（HN 429 分，412 条评论，发布于 11-12 05:24）
+  - HN 讨论：https://news.ycombinator.com/item?id=50458900
+- [Tracking Anthropic-discovered vulnerabilities](https://www.vulncheck.com/blog/anthropic-glasswing-november-update) — 来源：Hacker News（HN 447 分，219 条评论，发布于 11-11 06:17）
+  - HN 讨论：https://news.ycombinator.com/item?id=50447074
+- [Retirement Savings Are Fueling the AI Bubble](https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/) — 来源：Hacker News（HN 141 分，148 条评论，发布于 11-12 03:06）
+  - HN 讨论：https://news.ycombinator.com/item?id=50457164
+- [Atuin Threads: All your agent sessions on every machine](https://blog.atuin.sh/threads-agent-sessions/) — 来源：Hacker News（HN 194 分，75 条评论，发布于 11-11 22:10）
+  - HN 讨论：https://news.ycombinator.com/item?id=50453637
+- [AI, activity, and outcomes in software engineering](https://cabird.com/talks/shipping-faster/) — 来源：Hacker News（HN 107 分，102 条评论，发布于 11-12 00:33）
+  - HN 讨论：https://news.ycombinator.com/item?id=50455332
+  - 简介：https://www.youtube.com/watch?v=0wumMeZsNsI
+- [Faster Retrieval for Better, More Efficient RAG](https://machinelearning.apple.com/research/faster-retrieval) — 来源：Hacker News（HN 170 分，29 条评论，发布于 11-12 00:57）
+  - HN 讨论：https://news.ycombinator.com/item?id=50455633
+- [OSS projects banning AI-generated contributions](https://osssaysno.com) — 来源：Hacker News（HN 62 分，106 条评论，发布于 11-11 16:51）
+  - HN 讨论：https://news.ycombinator.com/item?id=50451102
 
 ## 素材二：新东西
 
 ### 官方发布
 
-- [Gilbert + Tobin rethinks the business of law with AI](https://openai.com/index/gilbert-tobin-sam-nickless) — 来源：OpenAI（发布于 11-12 08:00）
-  - 简介：A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.
-- [Gemini Intelligence: New features, on more devices](https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/) — 来源：Google AI 博客（发布于 11-11 03:00）
-  - 简介：A man speaks into a phone. Text on the screen reads 'Gemini Intelligence'
-- [Gemini 4 Carbon is now available](https://deepmind.google/blog/gemini-4-carbon-is-now-available/) — 来源：Google DeepMind（发布于 11-11 00:03）
-- [We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.](https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/) — 来源：Google AI 博客（发布于 11-10 22:00）
-  - 简介：Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.
-- [Google Cloud launches Gemini for healthcare.](https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/) — 来源：Google AI 博客（发布于 11-10 21:00）
-  - 简介：Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.
-- [Introducing AlphaProof Code: a breakthrough in verifying complex software at depth](https://deepmind.google/blog/introducing-alphaproof-code/) — 来源：Google DeepMind（发布于 11-10 20:02）
-  - 简介：AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.
-- [Helping caregivers use AI in everyday life](https://openai.com/index/helping-caregivers-use-ai-in-everyday-life) — 来源：OpenAI（发布于 11-10 20:00）
-  - 简介：OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.
-- [Cursor Projects is now multiplayer](https://cursor.com/blog/projects-multiplayer) — 来源：Cursor（发布于 11-10 20:00）
-- [Introducing Businesses in ChatGPT](https://openai.com/index/introducing-businesses-chatgpt) — 来源：OpenAI（发布于 11-10 18:00）
-  - 简介：Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.
-- [Closing the AI guidance gap in education](https://openai.com/index/closing-ai-guidance-gap-education) — 来源：OpenAI（发布于 11-10 17:00）
-  - 简介：New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.
+- [Using wearables to enable cardiovascular-kidney-metabolic (CKM) risk profiling for personalized coaching](https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/) — 来源：Google Research（发布于 11-12 03:54）
+  - 简介：Health & Bioscience
+- [Gemini Decisions API: Fast, calibrated multimodal decisions](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/) — 来源：Hacker News、Google AI 博客（HN 298 分，96 条评论，发布于 11-12 02:00）
+  - HN 讨论：https://news.ycombinator.com/item?id=50456791
+  - 简介：Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.
+- [Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.](https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/) — 来源：Google AI 博客（发布于 11-12 00:00）
+  - 简介：Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.
+- [AlphaGenome 2: Deciphering how cells read DNA to better understand disease](https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/) — 来源：Google DeepMind（发布于 11-11 23:00）
+  - 简介：Predicting how DNA sequences and their variations impact specific human cell types and disease.
+- [Experience the art and legacy of Dr. Esther Mahlangu](https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/) — 来源：Google AI 博客（发布于 11-11 17:00）
+  - 简介：A portrait of Dr Nontobeko Ntombela, Senior Lecturer, Department of Curatorial, Public and Visual Cultures, Wits School of Arts, University of the Witwatersrand
+- [ChatGPT Plus for veterans and servicemembers](https://openai.com/index/chatgpt-plus-for-veterans) — 来源：OpenAI（发布于 11-11 16:00）
+  - 简介：More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.
+- [BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model](https://huggingface.co/blog/qvac/botpsy) — 来源：Hugging Face 博客（发布于 11-11 13:01）
+- [JioStar’s chief architect on AI discovery at 500M-user scale](https://openai.com/index/jiostar-vijay-seshadri) — 来源：OpenAI（发布于 11-11 08:00）
+  - 简介：JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.
+- [Token Pooling-Aware Training for Multi-Vector Embedding Models](https://huggingface.co/blog/token-pooling) — 来源：Hugging Face 博客（发布于 11-11 08:00）
+- [Singapore Airlines elevates travel & work with OpenAI technology](https://openai.com/index/singapore-airlines-travel-work) — 来源：OpenAI（发布于 11-10 16:00）
+  - 简介：Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.
 
 ### 新上线的模型（OpenRouter）
 
-- [Baidu: ERNIE-5.5-Flash-Preview](https://openrouter.ai/baidu/ernie-5.5-flash-preview) — 上线于 11-11，上下文 1,024,000 token，每百万 token 输入 $0.28、输出 $1.13
-  - 简介：ERNIE 5.5 Flash Preview is the latest foundation model in the ERNIE family, with comprehensive improvements in coding, agentic capabilities, knowledge work, and deep research. It has 280 billion total...
-- [Baidu: ERNIE-Light-DT-1.0](https://openrouter.ai/baidu/ernie-light-dt-1.0-intl) — 上线于 11-11，上下文 1,024,000 token，每百万 token 输入 $1.13、输出 $3.94
-  - 简介：ERNIE-Light-DT-1.0 is based on open-source GLM models and includes research findings from Baidu Search's Lightning large model. It features Baidu Sparse Attention (BSA), a unique sparse attention mechanism developed by...
-- [Google: Gemini 4 Carbon](https://openrouter.ai/google/gemini-4-carbon) — 上线于 11-11，上下文 1,048,576 token，每百万 token 输入 $2、输出 $10
-  - 简介：Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work. It takes text, image, audio, video and file input, supports long decode...
+今天没有。
 
-### 开源项目和 Skill（GitHub 项目雷达 2026-11-11，已按涨星速度等打过分）
+### 开源项目和 Skill（GitHub 项目雷达 2026-11-12，已按涨星速度等打过分）
 
-- [kingcharleslzy-ai/dsh-purge](https://github.com/kingcharleslzy-ai/dsh-purge) — ⭐ 6,586（每天 +263.4 星，按总星数平均） · 创建 25 天 · JavaScript · MIT · 31 位贡献者 · 雷达评分 100（潜力股）
-  - 简介：dsh-purge Community · DeepSeek Harness 社区维护版：宿主兼容、状态诊断、提示词管理、更新与本机备份回滚。基于小杨 / YuJunZhiXue 的 dsh-purge。
-- [superdesigndev/treg](https://github.com/superdesigndev/treg) — ⭐ 7,766（每天 +38.0 星） · 创建 118 天 · Python · NOASSERTION · 31 位贡献者 · 雷达评分 97（值得关注）
-  - 简介：OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn
-- [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) — ⭐ 39,464（每天 +72.0 星） · 创建 599 天 · TypeScript · Apache-2.0 · 72 位贡献者 · 雷达评分 96（值得关注）
-  - 简介：Playwright MCP server
-- [Automattic/harper](https://github.com/Automattic/harper) — ⭐ 17,571（每天 +49.0 星） · 创建 1115 天 · Rust · Apache-2.0 · 168 位贡献者 · 雷达评分 96（值得关注）
-  - 简介：Offline, privacy-first grammar checker. Fast, open-source, Rust-powered
-- [citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) — ⭐ 22,450（每天 +110.0 星） · 创建 208 天 · JavaScript · MIT · 12 位贡献者 · 雷达评分 95（值得关注）
-  - 简介：The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.
-- [shihabal3amri/DiPlay](https://github.com/shihabal3amri/DiPlay) — ⭐ 13,602（每天 +55.0 星） · 创建 47 天 · Kotlin · GPL-3.0 · 64 位贡献者 · 雷达评分 95（潜力股）
-  - 简介：Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview.
-- [ParadevAI/Paradev](https://github.com/ParadevAI/Paradev) — ⭐ 16,193（每天 +34.0 星） · 创建 385 天 · TypeScript · MIT · 145 位贡献者 · 雷达评分 95（值得关注）
-  - 简介：Paradev is an open-source Codex App and Conductor alternative. Orchestrate an army coding agents in parallel with your own subscriptions.
-- [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) — ⭐ 50,868（每天 +31.0 星） · 创建 3813 天 · C++ · Apache-2.0 · 3410 位贡献者 · 雷达评分 95（值得关注）
-  - 简介：ClickHouse® is a real-time analytics database management system
-- [fosrl/pangolin](https://github.com/fosrl/pangolin) — ⭐ 23,568（每天 +54.0 星） · 创建 774 天 · TypeScript · NOASSERTION · 134 位贡献者 · 雷达评分 95（值得关注）
-  - 简介：Modern networking and security platform providing secure access and connectivity to apps, infrastructure, and AI workloads. Connect and protect your users.
-- [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) — ⭐ 74,819（每天 +175.0 星） · 创建 65 天 · HTML · CC-BY-4.0 · 28 位贡献者 · 雷达评分 94（潜力股）
-  - 简介：高性价比人生指南: 长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。
+- [LNPANDY/NX2Apple](https://github.com/LNPANDY/NX2Apple) — ⭐ 6,200（每天 +281.8 星，按总星数平均） · 创建 22 天 · Swift · MIT · 37 位贡献者 · 雷达评分 100（潜力股）
+  - 简介：Play your own Switch games on iPhone/iPad — one-click macOS app, no terminal. | 把 Switch 游戏装进 iPhone：图形界面一键构建，不用命令行。Bring your own game.
+- [anefzaoui/misterdownloadmanager](https://github.com/anefzaoui/misterdownloadmanager) — ⭐ 6,953（每天 +496.6 星，按总星数平均） · 创建 14 天 · Rust · GPL-3.0 · 20 位贡献者 · 雷达评分 98（潜力股）
+  - 简介：misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux
+- [google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) — ⭐ 17,713（每天 +506.0 星） · 创建 59 天 · Python · Apache-2.0 · 36 位贡献者 · 雷达评分 98（潜力股）
+  - 简介：Open-source plugin for designing and reviewing software with agents
+- [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt) — ⭐ 19,015（每天 +34.0 星） · 创建 187 天 · Python · MIT · 87 位贡献者 · 雷达评分 95（值得关注）
+  - 简介：SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.
+- [comet-ml/opik](https://github.com/comet-ml/opik) — ⭐ 23,352（每天 +34.0 星） · 创建 1281 天 · Python · Apache-2.0 · 193 位贡献者 · 雷达评分 95（值得关注）
+  - 简介：Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.
+- [Infisical/infisical](https://github.com/Infisical/infisical) — ⭐ 30,439（每天 +34.0 星） · 创建 1559 天 · TypeScript · NOASSERTION · 293 位贡献者 · 雷达评分 95（值得关注）
+  - 简介：Infisical is the open-source platform for securing secrets, certificates, access, and AI Agents.
+- [pengchujin/aerial-tv](https://github.com/pengchujin/aerial-tv) — ⭐ 11,308（每天 +180.0 星） · 创建 22 天 · Kotlin · MIT · 61 位贡献者 · 雷达评分 94（潜力股）
+  - 简介：给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.
+- [valentderah/totk-pc-recomp](https://github.com/valentderah/totk-pc-recomp) — ⭐ 6,762（每天 +297.0 星） · 创建 13 天 · C · MIT · 53 位贡献者 · 雷达评分 94（潜力股）
+  - 简介：Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.
+- [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) — ⭐ 38,644（每天 +27.0 星） · 创建 1241 天 · TypeScript · MIT · 287 位贡献者 · 雷达评分 94（值得关注）
+  - 简介：The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more. Makers of the AG-UI Protocol
+- [zenstory-ai/drama-skills](https://github.com/zenstory-ai/drama-skills) — ⭐ 4,119（每天 +51.0 星） · 创建 118 天 · Python · MIT · 2 位贡献者 · 雷达评分 92（值得关注）
+  - 简介：AI 短剧与漫剧制作 skill 合集：小说改剧本、角色设定三视图、分镜脚本、生图/生视频提示词与成片审片，适配 Claude Code / Codex 等 ｜ Open-source agent skills for AI short dramas & motion comics
 
 ### 新工具（Show HN：作者自己发出来的新项目）
 
-- [Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives](https://github.com/GoogleChrome/modern-web-guidance) — 来源：Hacker News（HN 266 分，77 条评论，发布于 11-11 02:01）
-  - HN 讨论：https://news.ycombinator.com/item?id=50443812
-  - 简介：Browsers natively handle a lot of what used to take 50 lines of JS (or a dependency): `CSS.highlights` for text range highlighting without <span>s everywhere, `<dialog>` and showModal() give you backd
+- [Show HN: Klad, a paint app your coding agent can drive (source-available)](https://github.com/klad-app/klad) — 来源：Hacker News（HN 73 分，30 条评论，发布于 11-12 00:00）
+  - HN 讨论：https://news.ycombinator.com/item?id=50454951
+  - 简介：I've been developing applications for a long time and have turned to game development as well lately. One of the things that frustrated me the most was that using AI agents for game development is ver
 
 ## 素材三：论文（HF 每日论文，社区投票精选，按点赞数排序）
 
-- [Learning Heterogeneous Tactile Representation for General Dexterous Manipulation](https://huggingface.co/papers/2611.12806) — 来源：HF 每日论文（92 人点赞，2 条评论，发布于 11-10 08:00）
-  - 代码：https://github.com/Robbyant/lingbot-touch
-  - 简介：Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence. However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks. A key challenge is thus to free tactile understanding from sensor-specific physics, so that embodied models can effectively leverage heterogeneous ta
-- [WorldFoundry: Towards Unified Infrastructure for World Intelligence](https://huggingface.co/papers/2611.10771) — 来源：HF 每日论文（54 人点赞，2 条评论，发布于 11-10 08:00）
-  - 代码：https://github.com/OpenEnvision/WorldFoundry
-  - 简介：Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet visual plausibility alone does not constitute successful world modeling: compelling outputs may lack persistent state, physical dynamics, or causally consistent responses to interactions. We define a generative world model as a predictive dynamical system that maintains a persistent, history-conditioned representation of an environment, updates that representation in response to
-- [Sage-Taiyi: A Metacognitive Architecture for Scientific Discovery](https://huggingface.co/papers/2611.12762) — 来源：HF 每日论文（53 人点赞，2 条评论，发布于 11-10 08:00）
-  - 代码：https://github.com/Alpha-Innovator/Sage-Taiyi
-  - 简介：We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide what to investigate next and how to investigate it. Through explicit monitoring and control, the system revises its understanding of evidence, assumptions, and unresolved questions, then uses these assessments to adapt research targets and select reusable reasoning methods. On Taiyi-Bench, an AI co-scientist ideation benchmark comprising 265 tasks from 50 papers across ten disci
-- [Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning](https://huggingface.co/papers/2611.12886) — 来源：HF 每日论文（38 人点赞，3 条评论，发布于 11-10 08:00）
-  - 代码：https://github.com/EliYuan30/Reframe
-  - 简介：Agentic reinforcement learning (RL) and multi-teacher on-policy distillation (MOPD) offer complementary routes to post-training. For visual agents, however, tool use presents two related challenges. Models may overlook useful tool-returned observations, while poorly grounded actions can limit the evidence available for subsequent distillation. We introduce Reframe, a post-training framework that treats the observation state, rather than only the output distribution, as an object of alignment. Fi
-- [Flide: Accelerating Decision Inference with Exact State Forking](https://huggingface.co/papers/2610.42148) — 来源：HF 每日论文（31 人点赞，3 条评论，发布于 11-10 08:00）
-  - 代码：https://github.com/OmniJev/Flide
-  - 简介：Decision models such as Jev have emerged as a highly promising paradigm for LLM agent systems, providing lightweight and reliable categorical reasoning for rapid System One execution. However, existing generation-oriented inference engines fail to support these workloads effectively, suffering from severe prefix recomputation overheads or distorted output probabilities. To address this challenge, we propose Flide, an efficient and exact inference engine that decouples the logical tree structure 
-- [ReproBridge: Building Reproducibility into ML Research Artifacts](https://huggingface.co/papers/2611.08452) — 来源：HF 每日论文（30 人点赞，3 条评论，发布于 11-10 08:00）
-  - 简介：Reproducing machine learning experiments requires reconstructing procedures from information scattered across papers, released code, and supporting artifacts. For coding agents, reproduction success can therefore depend on their ability to fill in missing details, rather than on the released artifacts alone. We ask whether preserving recovered procedures and decisions improves subsequent independent reproduction. We define a standardized artifact design comprising a refined codebase, environment
-- [Longtail-SWE: High-Quality SWE Tasks for Underrepresented Languages](https://huggingface.co/papers/2611.10304) — 来源：HF 每日论文（20 人点赞，3 条评论，发布于 11-10 08:00）
-  - 代码：https://github.com/SWE-rebench/LongTail-SWE
-  - 简介：Challenging repository-level benchmarks remain limited for many programming language ecosystems, where filtering scarce candidates with ambiguous descriptions or defective tests can discard valuable engineering problems. We introduce Longtail-SWE, a benchmark of 202 issue-resolution tasks across 13 languages with limited coverage in existing repository-level benchmarks: Clojure, Dart, Elixir, Erlang, F#, Haskell, Julia, Kotlin, Lua, OCaml, R, Scala, and Swift. Its construction uses a solver--jud
-- [InfraRSI: Harnessing Recursive Self-Improvement for Training Infrastructure](https://huggingface.co/papers/2611.11558) — 来源：HF 每日论文（16 人点赞，5 条评论，发布于 11-10 08:00）
-  - 代码：https://github.com/TokenRhythm/InfraRSI
-  - 简介：While Recursive Self-Improvement (RSI) accelerates isolated algorithm and kernel synthesis, distributed LLM training depends on tightly coupled launch settings, operator kernels, and communication schedules, where single edits often hit out-of-memory (OOM) boundaries, compiler conflicts, measurement jitter, or silent numerical drift. We present InfraRSI, the agentic harness that turns open-ended human commands into verified training optimizations via a five-stage workflow: init locks editable sc
-- [SIRIS: Can LLMs Tell When Simulation Errors Matter in AI-Driven Systems Research](https://huggingface.co/papers/2611.10329) — 来源：HF 每日论文（12 人点赞，3 条评论，发布于 11-10 08:00）
-  - 简介：LLM agents increasingly drive systems research and rely on simulators to evaluate candidate designs at scale. Simulators are imperfect by design: their modeling limitations can distort predictions yet leave the recommended design correct, or change which design should be selected. We introduce Siris to test whether LLMs can tell these cases apart, judging from their systems understanding when a limitation invalidates the simulator's recommendation. By perturbing a simulator, Siris constructs wor
-- [How Much Training-Inference Mismatch Can On-Policy Distillation Tolerate?](https://huggingface.co/papers/2611.11450) — 来源：HF 每日论文（11 人点赞，7 条评论，发布于 11-10 08:00）
-  - 代码：https://github.com/benyucong/train-inference-mismatch-opd
-  - 简介：On-policy distillation (OPD) trains a student language model on its own responses, guided by a fixed teacher. Generating these responses is expensive, so systems use quantized inference and asynchronous rollouts to reduce the cost. Both, however, introduce training-inference mismatch between the rollout engine and the model being trained. Such mismatch can destabilize reinforcement learning (RL), but its effects on OPD remain unclear. This paper investigates how much mismatch OPD tolerates, wher
-- [How Many Exposures Does a World Model Need? Learning Unseen Game Mechanics at Test Time](https://huggingface.co/papers/2611.12324) — 来源：HF 每日论文（11 人点赞，3 条评论，发布于 11-10 08:00）
-  - 代码：https://github.com/third-intelligence/WARC
-  - 简介：World models enable agents to plan and learn from imagined experience, but in an unfamiliar environment they must learn its mechanics from limited interaction. A mechanic is a rule for how an action or an interaction changes part of the environment. Each occurrence of a mechanic that the model observes is one exposure. We ask how many exposures a world model needs to predict the effects of a new environment's mechanics. We address this question on ARC-AGI-3, a benchmark of interactive games defi
-- [TRIO: Task Refinement with Individual Optimization for Retrieval-Augmented Generation](https://huggingface.co/papers/2611.02810) — 来源：HF 每日论文（8 人点赞，3 条评论，发布于 11-10 08:00）
-  - 代码：https://github.com/yingtaoren/TRIO
-  - 简介：This paper studies retrieval-augmented generation (RAG), which leverages external knowledge to improve the performance of language models. Despite the remarkable progress, current RAG approaches are still far from satisfactory due to inadequate retrieval and potential hallucinations. Towards this end, we propose a novel approach named Task Refinement with Individual Optimization (TRIO) for RAG. The core idea of our TRIO is to equip three well-designed agents with an iterative refinement paradigm
+- [Tree-Ising: Repairing Language Models with Bit-Level Ising Edits](https://huggingface.co/papers/2611.14210) — 来源：HF 每日论文（77 人点赞，2 条评论，发布于 11-11 08:00）
+  - 代码：https://github.com/TheQuantumGOAT/Tree-Ising
+  - 简介：Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair. Their GPT-6 Astra agent corrected the reasoning loops of Qwen3.5-0.8B without gradients, using 158 agent turns, 89.7 million tokens, and 50 forward-pass requests. Our method, Tree-Ising, casts this repair as a sparse discrete optimization problem over the model's own BF16 weights. Forward statistics define an objective that weakens a loop directio
+- [Few-Step Streaming Video Generation via Condition Shifting](https://huggingface.co/papers/2611.14033) — 来源：HF 每日论文（67 人点赞，2 条评论，发布于 11-11 08:00）
+  - 简介：Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises few-step generators with a separate fake-score network, which adds training memory and computation and must track the evolving generator. We extend APEX to streaming video by using condition shifting to estimate the velocity field of the generated distribution within the generator. The original text condition selects generation, while a shifted condition selects fake estimation u
+- [World In-Context Learning for Agentic Robot Manipulation](https://huggingface.co/papers/2611.12885) — 来源：HF 每日论文（65 人点赞，3 条评论，发布于 11-11 08:00）
+  - 代码：https://github.com/ArcheOne-AI/RoboScript
+  - 简介：Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces. We observe that what an agent learns in context is semantic, recording task steps and object roles rather than visual appearance, so experience gathered in one world tran
+- [Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents](https://huggingface.co/papers/2611.14320) — 来源：HF 每日论文（53 人点赞，7 条评论，发布于 11-11 08:00）
+  - 代码：https://github.com/yukyeongleee/wikitrace
+  - 简介：External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from trajectories labeled only with task success or failure, yet are typically provided without the trajectori
+- [dNaViT: Discrete Codes are General-Purpose Visual Representations](https://huggingface.co/papers/2611.12426) — 来源：HF 每日论文（33 人点赞，3 条评论，发布于 11-11 08:00）
+  - 简介：Discrete autoregressive modeling, notably through next-token prediction, has become a cornerstone of modern language models. Extending this paradigm to vision allows visual and language models to converge on a unified framework, thereby fostering shared methodology and infrastructure. This work investigates a central question: how far can a finite discrete vocabulary go in representing the richness of the visual world? We present dNaViT, a Discrete Native-resolution Vision Transformer that produ
+- [MMDM: Measuring Massive Multitask Decision Making](https://huggingface.co/papers/2611.14309) — 来源：HF 每日论文（26 人点赞，3 条评论，发布于 11-11 08:00）
+  - 代码：https://github.com/mmdm-benchmark/mmdm
+  - 简介：System-1 Decision Models directly make structured probabilistic decisions over query-specified options given a state in a single forward pass, without autoregressively generating reasoning trajectories or textual responses. Recent evaluations cover diverse tasks but often rely on existing benchmarks, where prior exposure to test material can obscure generalization. Moreover, real-world decision making often involves long contexts, large option spaces, and complex logical dependencies, challenges
+- [DexForesight: Grounding Dexterous Policies with Implicit Spatial Foresight](https://huggingface.co/papers/2611.11166) — 来源：HF 每日论文（24 人点赞，2 条评论，发布于 11-11 08:00）
+  - 简介：Dexterous manipulation requires rich spatial foresight over both the surrounding scene and the robot hand. Existing world-action models often acquire such predictive knowledge through explicit future prediction. We introduce DexForesight, a framework that learns spatial foresight implicitly by injecting dynamics-aware world representations into the latent space of a dexterous policy. During training, DexForesight learns an action-conditioned spatial world model from offline scene depth, kinemati
+- [MACaQ: Fast, Model Agnostic Calibrated Quantization for Low-Precision Weights and Activations](https://huggingface.co/papers/2611.10649) — 来源：HF 每日论文（22 人点赞，2 条评论，发布于 11-11 08:00）
+  - 代码：https://github.com/huawei-csl/MACaQ
+  - 简介：Weight-activation quantization can reduce the memory and compute cost of neural-network inference, but recent methods often require expensive optimization and architecture-specific propagation of basis transforms across layers. We introduce MACaQ, an MXFP4 W4A4 post-training quantization method that treats every linear layer independently. MACaQ applies a per-channel scale and a block-Hadamard transform online to each layer's activations, while absorbing the corresponding inverse transforms into
+- [FINCOSMOS: An Open-World Evaluation Paradigm for Agents in Finance](https://huggingface.co/papers/2611.07464) — 来源：HF 每日论文（22 人点赞，4 条评论，发布于 11-11 08:00）
+  - 简介：Language agents increasingly work for users on the open Web, and finance is where trusting them is hardest. The data must come from the Web, the strategy lives in the user's head, and correctness depends on time, so an agent can fail silently: a strategy the user never asked for, unverified data, or a backtest that uses the future yields a report as convincing as a correct one. Existing benchmarks close the world somewhere, fixing the task, the data, or the timeline, and thereby remove these fai
+- [Embodied First Exam](https://huggingface.co/papers/2611.12177) — 来源：HF 每日论文（20 人点赞，3 条评论，发布于 11-11 08:00）
+  - 代码：https://github.com/mll-lab-nu/embodied-first-exam
+  - 简介：Early successes on agentic robotics point to a potential paradigm shift toward using coding agents to control robots. Existing robotics benchmarks are built around visuomotor policy learning, leaving it open whether coding agents can reliably control diverse robots under physical-world constraints. We therefore introduce the Embodied First Exam, a unified, comprehensive, and agent-native evaluation framework where coding agents can choose their own control approach: direct control, code to contr
+- [WaveGen: Truly End-to-End Waveform Generation via Internal Spectral Trajectory Learning](https://huggingface.co/papers/2611.12527) — 来源：HF 每日论文（14 人点赞，2 条评论，发布于 11-11 08:00）
+  - 代码：https://github.com/sh-lee-prml/WaveGen
+  - 简介：This work proposes WaveGen, a fully end-to-end diffusion-based text-to-waveform framework based on Spectral Forcing, which jointly learns an internal spectral trajectory and the target waveform trajectory within a single model, enabling direct end-to-end text-to-waveform generation. Unlike recent TTS pipelines, WaveGen does not rely on separately trained or externally decoded intermediate representations, such as neural audio codecs, Mel-spectrogram vocoders, or VAE-based latent models. In addit
+- [ProTEUS: A mutation-resolved world model for closed-loop protein evolution](https://huggingface.co/papers/2611.13348) — 来源：HF 每日论文（13 人点赞，2 条评论，发布于 11-11 08:00）
+  - 代码：https://github.com/yikunpku/ProTEUS
+  - 简介：Protein engineering requires navigating rugged fitness landscapes, where small sequence changes can produce large functional differences, but experimental screening can only sample a small fraction of sequence space. Thus, a central challenge is to efficiently traverse the large combinatorial space of mutations in silico. We introduce ProTEUS, a mutation-resolved world model for closed-loop protein evolution. Pretrained on deep mutational scanning assays, ProTEUS learns a joint representation of
 
 ## 附：博客和 Newsletter 的其他新文章
 
-- [OpenAI acquires Odessia, travel startup created by Sonder founder](https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/) — 来源：TechCrunch AI（发布于 11-11 05:08）
-  - 简介：OpenAI has not yet said what its plans are for the future of travel. But Sonder founder Francis Davidson is a well-known figure in the travel industry
-- [OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect](https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/) — 来源：TechCrunch AI（发布于 11-11 04:52）
-  - 简介：New York is preparing to enforce its sweeping AI safety law, requiring major developers like OpenAI and Anthropic to register, disclose safety practic
-- [Oura to acquire AI-native primary care startup Counsel Health for $625M](https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/) — 来源：TechCrunch AI（发布于 11-11 03:23）
-  - 简介：The deal comes a few weeks after Oura postponed its up to $2.2 billion IPO indefinitely, citing “uncertainty in the IPO market.”
-- [PSI is trying to make a business out of AI-driven scientific discovery](https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/) — 来源：TechCrunch AI（发布于 11-11 03:03）
-  - 简介：PSI used an unreleased Anthropic model to answer a fundamental question about quantum computing that scientists have pursued for nearly two decades.
-- [NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?](https://latent.space/p/naiveai/) — 来源：Latent Space（含每天的 AINews：汇总推特、Reddit、Discord 的讨论）（发布于 11-11 02:56）
-  - 简介：Editor’s note: With this post, we are launching a new series focused on trying new models and products with unbiased reviews. Reach out with suggestio
-- [The indie game community is in disarray over AI and Big Walk](https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai) — 来源：The Verge AI（发布于 11-11 01:32）
-  - 简介：Some Independent Games Festival (IGF) jurors published a statement yesterday saying they would not vote for games that use generative AI in "any capac
-- [Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks](https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/) — 来源：TechCrunch AI（发布于 11-11 01:30）
-  - 简介：As participants talk, Claude can draft the plan being discussed, map out a timeline on a whiteboard, answer questions in the meeting chat, and access 
-- [Anthropic has its own AI-powered office suite now](https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now) — 来源：The Verge AI（发布于 11-11 01:30）
-  - 简介：For years, Anthropic has been known for its focus on enterprise and coding tools that attract high-flying corporate clients, inspiring competing front
-- [eBay appears to have shut the door on third-party AI agents](https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping) — 来源：The Verge AI（发布于 11-11 00:20）
-  - 简介：eBay appears to have blocked AI agents, including Meta's Muse, from browsing on the platform - the latest speed bump in the AI agent race. A reader te
-- [Google broadens its AI hardware portfolio with two new specialized chips](https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/) — 来源：TechCrunch AI（发布于 11-10 23:54）
-  - 简介：Google's new tensor processing units (TPUs) broaden its chip portfolio to more use cases: confidential model training and more memory capacity.
-- [Meta’s AI agent Muse lands on Apple Watch and Android Wear OS](https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/) — 来源：TechCrunch AI（发布于 11-10 23:29）
-  - 简介：Users can now interact with Meta’s AI assistant through voice calls, text messages, or dictation on their Apple Watch.
-- [After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era](https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/) — 来源：TechCrunch AI（发布于 11-10 22:00）
-  - 简介：Kora is set to launch as a free-to-use alternative to Windows, targeting users who rely heavily on AI models and agents.
-- [Spotify’s AI DJ gets new voices, personalities, and an option for less chatter](https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/) — 来源：TechCrunch AI（发布于 11-10 22:00）
-  - 简介：Spotify Premium users can now customize their AI DJ with new voices with different personalities, or turn off the commentary between songs.
-- [Adobe is going all in on agentic AI](https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates) — 来源：The Verge AI（发布于 11-10 22:00）
-  - 简介：Adobe is committing itself to the notion that chatbots and AI agents could be your next design assistant, or even automate creative workflows and repe
-- [从芯片到千比特整机，超导量子计算还有一场硬仗](https://www.qbitai.com/2026/11/509017.html) — 来源：量子位（发布于 11-10 16:33）
-  - 简介：近亿元融资刚刚落袋
+- [United won’t let your AI agent book your flight](https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents) — 来源：The Verge AI（发布于 11-12 05:54）
+  - 简介：United says it won't let personal AI assistants book tickets on the airline, citing both privacy and regulatory concerns. The company says it hasn't y
+- [Why the data center you dread might never even be built](https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/) — 来源：TechCrunch AI（发布于 11-12 04:15）
+  - 简介：The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricit
+- [Meta is losing its longtime head of infrastructure](https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/) — 来源：TechCrunch AI（发布于 11-12 04:12）
+  - 简介：Santosh Janardhan, who originally joined the company in 2009, will be stepping down from his role.
+- [How backlash and red tape continue to slow data centers post-Blue Wave](https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/) — 来源：TechCrunch AI（发布于 11-12 04:02）
+  - 简介：The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricit
+- [CoreWeave turns to customer prepayments, shorter contracts to fund AI growth](https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/) — 来源：TechCrunch AI（发布于 11-12 03:54）
+  - 简介：CoreWeave is increasingly asking customers to pay up front, borrowing against specific contracts, and even looking to short-term deals that could lead
+- [With $720M round, Britain’s Fractile gets a leg up in the race for AI chips](https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/) — 来源：TechCrunch AI（发布于 11-12 03:34）
+  - 简介：Fractile has now become one of the top-funded players in the race for purpose-built AI chips.
+- [OpenAI’s quarterly revenue reportedly crosses $10B for the first time](https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/) — 来源：TechCrunch AI（发布于 11-12 00:14）
+  - 简介：Sales of $10 billion represents an almost 50% jump from revenue of $6.7 billion the company recorded in the second quarter.
+- [Google’s Tabletop AI experiment lets you build custom collaboration apps](https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability) — 来源：The Verge AI（发布于 11-12 00:00）
+  - 简介：Google has cooked up a new experimental AI tool called Tabletop that generates customized collaborative hubs to help you coordinate with family, and f
+- [Databricks’ new AI agent tells CEO Ali Ghodsi the unvarnished truth](https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/) — 来源：TechCrunch AI（发布于 11-11 23:00）
+  - 简介：With Databricks at 12,000 employees, AI Ghodsi is the first to admit that he can't know everyone and that they are unlikely to confess the things that
+- [Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads](https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/) — 来源：TechCrunch AI（发布于 11-11 22:00）
+  - 简介：Like the end-to-end models trained to drive cars, AI agents are probabilistic systems operating in unpredictable environments.
+- [Adobe’s AI experiments let you walk around in photos and interview your characters](https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai) — 来源：The Verge AI（发布于 11-11 22:00）
+  - 简介：Some of the most impressive tech that Adobe showcases at its annual Max conference each year is the experimental features it's developing, and the lat
+- [［AINews］ Mercor $750m Series D at $20B valuation, $3B run rate](https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/) — 来源：Latent Space（含每天的 AINews：汇总推特、Reddit、Discord 的讨论）（发布于 11-11 17:34）
+  - 简介：Our usual bar for making a fundraise a title story these days is a decacorn ($10B) valuation. We missed Mercor’s $10B Series C last year when it had l
+- [Nvidia’s crisis has corporate governance experts reaching for the popcorn](https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/) — 来源：TechCrunch AI（发布于 11-11 15:30）
+  - 简介：The governance experts we talked to say nobody has seen anything like what's unfolding right now.
+- [双11直播间爆改AI秀场，罗永浩上手TRAE，秒变AI Coding的大众嘴替](https://www.qbitai.com/2026/11/509146.html) — 来源：量子位（发布于 11-11 14:41）
+  - 简介：价格、门槛全打穿
+- [从“卖Token”到“卖结果” | 科技有「联想」沙龙激辩Token经济三大议题](https://www.qbitai.com/2026/11/509088.html) — 来源：量子位（发布于 11-11 14:27）
+  - 简介：10月30日，“科技有「联想」·Token畅想曲”线下沙龙在京举行。
