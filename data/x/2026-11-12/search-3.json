@@ -1,0 +1,101 @@
+{
+ "page": "https://x.com/search?q=url%3Agithub.com%20(LLM%20OR%20agent%20OR%20model%20OR%20inference%20OR%20training)%20min_faves%3A200%20-filter%3Areplies%20since%3A2026-11-11&src=typed_query",
+ "collected_at": "2026-11-12T14:42:54.598Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2120657853057049012",
+   "url": "https://x.com/MetaforDevs/status/2120657853057049012",
+   "author": "MetaforDevs",
+   "name": "Meta for Developers",
+   "time": "2026-11-11T23:20:06.000Z",
+   "text": "Astryx just passed 24,000 stars on GitHub and hit #1 trending across all repos  \nhttps://\ngithub.com/meta/astryx\n\nThank you to everyone who’s starred the repo, opened an issue, filed a PR, or built something with Astryx, an open source design system that’s fully customizable and agent",
+   "likes": 439,
+   "reposts": 32,
+   "replies": 6,
+   "views": 27115,
+   "context": "",
+   "quoted": "更新：github.com/trending?since… 今天我们排在第一位，拥有 22k 的星星数量",
+   "card": "",
+   "links": [
+    "https:// github.com/meta/astryx"
+   ]
+  },
+  {
+   "id": "2120564675662188999",
+   "url": "https://x.com/supahvee1234/status/2120564675662188999",
+   "author": "supahvee1234",
+   "name": "Vittorio Romeo",
+   "time": "2026-11-11T17:09:51.000Z",
+   "text": "",
+   "likes": 518,
+   "reposts": 41,
+   "replies": 23,
+   "views": 96286,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https://github.com/curl/curl/discussions/20972#discussioncomment-19546748…",
+    "https://github.com/ImageMagick/ImageMagick/discussions/8615#discussioncomment-19546738…"
+   ]
+  },
+  {
+   "id": "2120509133463986668",
+   "url": "https://x.com/deanwperkins/status/2120509133463986668",
+   "author": "deanwperkins",
+   "name": "Dean W. Perkins",
+   "time": "2026-11-11T13:29:09.000Z",
+   "text": "",
+   "likes": 219,
+   "reposts": 20,
+   "replies": 10,
+   "views": 27777,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https://github.com/langchain-ai/langgraph…",
+    "https://github.com/crewAIInc/crewAI…"
+   ]
+  },
+  {
+   "id": "2120739236009959790",
+   "url": "https://x.com/sakatayasha/status/2120739236009959790",
+   "author": "sakatayasha",
+   "name": "Sakata",
+   "time": "2026-11-12T04:43:29.000Z",
+   "text": "UNCENSORED AI ON YOUR PC. CHAT, IMAGES AND VIDEO IN ONE FREEEEE APP\n\nlocally uncensored is a free agpl studio that runs on your machine. no comfyui nodes, no docker, no account\n\nhow to set it up:\n1. grab the latest release (v3.0.10)\n\nhttps://\ngithub.com/PurpleDoubleD/\nlocally-uncensored/releases/latest\n…\n\n2. install it, then",
+   "likes": 276,
+   "reposts": 31,
+   "replies": 14,
+   "views": 13585,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/PurpleDoubleD/ locally-uncensored/releases/latest …"
+   ]
+  },
+  {
+   "id": "2120728295121756631",
+   "url": "https://x.com/Rizvi_On_X/status/2120728295121756631",
+   "author": "Rizvi_On_X",
+   "name": "DeRizvi",
+   "time": "2026-11-12T04:00:01.000Z",
+   "text": "An agent that can order a real place with one call is only useful if it cannot keep ordering forever.\n\nOn \n@vangrid_io\n the open-source MCP server at \nhttps://\ngithub.com/vangrid-labs/b\nounty-mcp\n… exposes both the bounty tools and the pay-per-request tools. An agent in Claude or Cursor can call them. The",
+   "likes": 248,
+   "reposts": 11,
+   "replies": 270,
+   "views": 1122,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/vangrid-labs/b ounty-mcp …"
+   ]
+  }
+ ]
+}

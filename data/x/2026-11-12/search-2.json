@@ -1,0 +1,170 @@
+{
+ "page": "https://x.com/search?q=url%3Ahuggingface.co%20min_faves%3A100%20-filter%3Areplies%20since%3A2026-11-11&src=typed_query",
+ "collected_at": "2026-11-12T14:42:41.965Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 9,
+ "posts": [
+  {
+   "id": "2120719236515701152",
+   "url": "https://x.com/summerAI_O/status/2120719236515701152",
+   "author": "summerAI_O",
+   "name": "summer",
+   "time": "2026-11-12T03:24:01.000Z",
+   "text": "大家一起调优扩散LLM吧！\n\n我们发布了基于LFM2.5-24B-A2B的实验模型。\n\n推理优化、微调、评估等等，大家一起探索吧！\n\nPR、实验结果、基准测试、想法也非常欢迎！\n\n感谢@LiquidAI_！",
+   "likes": 164,
+   "reposts": 23,
+   "replies": 5,
+   "views": 9082,
+   "context": "",
+   "quoted": "",
+   "card": "summerAIO/diffusion-lfm2.5-24b-a2b · Hugging Face",
+   "links": []
+  },
+  {
+   "id": "2120749548851368358",
+   "url": "https://x.com/_akhaliq/status/2120749548851368358",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-12T05:24:28.000Z",
+   "text": "VoxMel\n\nWavelet-Factorized Autoregressive Mel-Spectrogram Modeling for Zero-Shot Speech Synthesis\n\nmodels: \nhttps://\nhuggingface.co/VoxDance-Lab",
+   "likes": 133,
+   "reposts": 18,
+   "replies": 15,
+   "views": 12409,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/VoxDance-Lab"
+   ]
+  },
+  {
+   "id": "2120708738336317848",
+   "url": "https://x.com/PreferredNetJP/status/2120708738336317848",
+   "author": "PreferredNetJP",
+   "name": "Preferred Networks",
+   "time": "2026-11-12T02:42:18.000Z",
+   "text": "翻译特化型LLM PLaMo 3 Translate已达成10万次下载！可从0.8B至31B的4种规模中选择，支持本地运行的世界顶级翻译模型。\nhttps://\nhuggingface.co/collections/pf\nnet/plamo-3-translate\n…\n我们还提供使用该模型的官方翻译服务。涵盖浏览器扩展、文件翻译、英文校对、实时语音翻译、会议翻译等多种功能，欢迎大家试用！\nhttps://\ntranslate.preferredai.jp",
+   "likes": 132,
+   "reposts": 27,
+   "replies": 2,
+   "views": 11969,
+   "context": "",
+   "quoted": "",
+   "card": "PLaMo 3 Translate - a pfnet Collection",
+   "links": [
+    "https:// huggingface.co/collections/pf net/plamo-3-translate …",
+    "https:// translate.preferredai.jp"
+   ]
+  },
+  {
+   "id": "2120609882663780777",
+   "url": "https://x.com/_akhaliq/status/2120609882663780777",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-11T20:09:29.000Z",
+   "text": "World In-Context Learning for Agentic Robot Manipulation  \n\npaper: \nhttps://\nhuggingface.co/papers/2611.12\n885\n…",
+   "likes": 123,
+   "reposts": 11,
+   "replies": 12,
+   "views": 15486,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/papers/2611.12 885 …"
+   ]
+  },
+  {
+   "id": "2120498703828242816",
+   "url": "https://x.com/ShinpeiKato/status/2120498703828242816",
+   "author": "ShinpeiKato",
+   "name": "Shinpei KATO (加藤真平)",
+   "time": "2026-11-11T12:47:42.000Z",
+   "text": "AutoE2E 是开源社区开发的一个端到端自动驾驶 AI 模型。参数数量约为 8000 万，因此可在各种 SoC 上运行。\n\n\nhttps://\ngithub.com/autowarefounda\ntion/auto_e2e\n…\n\nhttps://\nhuggingface.co/AutowareFounda\ntion/auto_e2e\n…",
+   "likes": 108,
+   "reposts": 21,
+   "replies": 0,
+   "views": 11807,
+   "context": "",
+   "quoted": "发布了Alpamayo 2 Edge x Autoware。基于VLA的基础模型的自动驾驶AI全部开源获取。 https:// github.com/autowarefounda tion/alpamayo-autoware … https:// huggingface.co/nvidia/Alpamay o2-Edge …",
+   "card": "",
+   "links": [
+    "https:// github.com/autowarefounda tion/auto_e2e …",
+    "https:// huggingface.co/AutowareFounda tion/auto_e2e …"
+   ]
+  },
+  {
+   "id": "2120472004147183817",
+   "url": "https://x.com/nahid_pro09/status/2120472004147183817",
+   "author": "nahid_pro09",
+   "name": "Nahid",
+   "time": "2026-11-11T11:01:36.000Z",
+   "text": "a 99M model is now #1 among all models under 250M params \n\nits free, apache-2.0, no gate, 553 downloads\n\n- runs on a plain CPU, just transformers\n- beats SmolLM2-135M on every benchmark on its card\n- base model, built for ur own fine-tunes\n\ntry it here: \nhttps://\nhuggingface.co/MinimaLabs/KLM\n-1.6\n…",
+   "likes": 224,
+   "reposts": 14,
+   "replies": 9,
+   "views": 13702,
+   "context": "",
+   "quoted": "what the f*ck.. claude can now make hand-drawn line art animations its a free claude skill (MIT), no gate >ink figures that walk, ride & react to your mouse >full scenes that go from day to night >renders 1080p video try it here: https:// github.com/JDhruv14/line- art-animation …",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/MinimaLabs/KLM -1.6 …"
+   ]
+  },
+  {
+   "id": "2120533242885349794",
+   "url": "https://x.com/tomaarsen/status/2120533242885349794",
+   "author": "tomaarsen",
+   "name": "tomaarsen",
+   "time": "2026-11-11T15:04:57.000Z",
+   "text": "I've released Sentence Transformers v6.3 and wrote a blogpost to highlight its key new feature: token pooling-aware training!\n\nTrain multi-vector models to preserve retrieval quality with fewer document vectors. Here's how",
+   "likes": 121,
+   "reposts": 26,
+   "replies": 4,
+   "views": 6463,
+   "context": "",
+   "quoted": "",
+   "card": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+   "links": []
+  },
+  {
+   "id": "2120536946774769860",
+   "url": "https://x.com/UnslothAI/status/2120536946774769860",
+   "author": "UnslothAI",
+   "name": "Unsloth AI",
+   "time": "2026-11-11T15:19:40.000Z",
+   "text": "Today, we're releasing the highest accuracy Qwen3.8-27B GGUFs.\n\nOur new Dynamic V3.1 GGUFs lead by 5–10% on average across Terminal Bench, DeepSWE & more. We’re working on even better version for Qwen4\n\nRun on 12GB RAM.\n\nGGUF: \nhttps://\nhuggingface.co/unsloth/Qwen3.\n8-27B-GGUF\n…\nBlog: \nhttps://\nunsloth.ai/docs/models/qw\nen3.8\n…",
+   "likes": 3214,
+   "reposts": 295,
+   "replies": 120,
+   "views": 187169,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/unsloth/Qwen3. 8-27B-GGUF …",
+    "https:// unsloth.ai/docs/models/qw en3.8 …"
+   ]
+  },
+  {
+   "id": "2120653886486958541",
+   "url": "https://x.com/Kangwook_Lee/status/2120653886486958541",
+   "author": "Kangwook_Lee",
+   "name": "Kangwook Lee",
+   "time": "2026-11-11T23:04:21.000Z",
+   "text": "Excited to share Raon-1 nano, our first SLM trained from scratch! Apache 2.0 license.\n\nhttps://\nhuggingface.co/KRAFTON/Raon-1\n-nano\n…\nEnjoy :)\n\nTL;DR: It's an E1.5B SLM with SOTA-level accuracy across the board. It achieves SOTA accuracy on instruction following, context following, and several tool-use",
+   "likes": 168,
+   "reposts": 35,
+   "replies": 6,
+   "views": 6011,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/KRAFTON/Raon-1 -nano …"
+   ]
+  }
+ ]
+}

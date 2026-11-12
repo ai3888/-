@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/fchollet",
+ "collected_at": "2026-11-12T14:39:39.883Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2120673529951813985",
+   "url": "https://x.com/fchollet/status/2120673529951813985",
+   "author": "fchollet",
+   "name": "François Chollet",
+   "time": "2026-11-12T00:22:24.000Z",
+   "text": "Conversational AI is going to transform education and deliver personalized tutoring at scale. But we have to build it right.\n\nMost current AI tools in education optimize for the wrong thing: getting the answer. But the point of homework is not the output, it's learning to think",
+   "likes": 580,
+   "reposts": 94,
+   "replies": 115,
+   "views": 36896,
+   "context": "",
+   "quoted": "We’ve raised $51 million to rethink how kids learn with AI. Our bet: conversational learning. Language isn’t just how we communicate. It’s how we think. That’s the idea behind Gakku, our AI learning coach. The learning process itself is the product—not something to automate away.",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2120577692382957930",
+   "url": "https://x.com/fchollet/status/2120577692382957930",
+   "author": "fchollet",
+   "name": "François Chollet",
+   "time": "2026-11-11T18:01:34.000Z",
+   "text": "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ…",
+   "likes": 7,
+   "reposts": 0,
+   "replies": 0,
+   "views": 0,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

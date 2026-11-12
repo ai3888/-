@@ -1,0 +1,27 @@
+{
+ "page": "https://x.com/AnthropicAI",
+ "collected_at": "2026-11-12T13:49:32.724Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2120841731302154708",
+   "url": "https://x.com/AnthropicAI/status/2120841731302154708",
+   "author": "AnthropicAI",
+   "name": "Anthropic",
+   "time": "2026-11-12T11:30:46.000Z",
+   "text": "Our initial public offering: \nhttps://\nipo.anthropic.com\n\nLegal disclaimer: Anthropic has filed a registration statement (including a prospectus) with the SEC for the offering to which this communication relates. Before you invest, you should read the prospectus in that registration",
+   "likes": 5128,
+   "reposts": 953,
+   "replies": 450,
+   "views": 437399,
+   "context": "",
+   "quoted": "",
+   "card": "Anthropic’s Initial Public Offering",
+   "links": [
+    "https:// ipo.anthropic.com"
+   ]
+  }
+ ]
+}

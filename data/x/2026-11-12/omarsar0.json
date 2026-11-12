@@ -1,0 +1,73 @@
+{
+ "page": "https://x.com/omarsar0",
+ "collected_at": "2026-11-12T14:40:36.820Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2120531441721266339",
+   "url": "https://x.com/omarsar0/status/2120531441721266339",
+   "author": "omarsar0",
+   "name": "elvis",
+   "time": "2026-11-11T14:57:47.000Z",
+   "text": "I like how agents have lowered the bar for building incredible software. \n\nAs frontier models' capabilities improve, they will subsume more of what traditional software does.\n\nIn turn, making it easier for more people to build complex software. \n\nIt's mind-blowing how far you can",
+   "likes": 54,
+   "reposts": 6,
+   "replies": 27,
+   "views": 10126,
+   "context": "Pinned",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2120888604402815485",
+   "url": "https://x.com/omarsar0/status/2120888604402815485",
+   "author": "omarsar0",
+   "name": "elvis",
+   "time": "2026-11-12T14:37:02.000Z",
+   "text": "Super interesting work on agent memory.\n\n(this is a must-read)\n\nIt discusses whether agents can manage their own memory. If so, what would that self-organized memory look like?\n\nThis is the closest implementation that I have seen to my own memory system. I mostly use linked",
+   "likes": 3,
+   "reposts": 0,
+   "replies": 1,
+   "views": 827,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2120668217911792115",
+   "url": "https://x.com/omarsar0/status/2120668217911792115",
+   "author": "omarsar0",
+   "name": "elvis",
+   "time": "2026-11-12T00:01:17.000Z",
+   "text": "Agent evals need to feel more real-world.\n\nPretty cool to see \n@pluraiAI\n ship Plurai Simulation today. You get a digital twin of your agent's world and can test it there instead of in front of users. \n\nLive now and free to get started.",
+   "likes": 25,
+   "reposts": 5,
+   "replies": 22,
+   "views": 5364,
+   "context": "",
+   "quoted": "Big day for us at @pluraiAI ! Plurai Simulation is live and free for every AI engineer. AI agents look great in demos. Until real users break them. So we built a world where your agent can fail, learn, and get fixed before your users ever see it. → Digital twin: Your real",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2120638750740844672",
+   "url": "https://x.com/omarsar0/status/2120638750740844672",
+   "author": "omarsar0",
+   "name": "elvis",
+   "time": "2026-11-11T22:04:12.000Z",
+   "text": "Highly recommended read. \n\nThis is a topic I have been researching and writing about recently. \n\nThe way we use agent memory in harnesses today works, but mostly for simple, one-off, and general tasks. \n\nFor more novel, complex, and domain-specific tasks, you will often find that",
+   "likes": 87,
+   "reposts": 10,
+   "replies": 28,
+   "views": 8997,
+   "context": "",
+   "quoted": "OpenClaw, Hermes Agent and Prime Agent don't meaningfully learn from experience. On Continual-ARC, our new benchmark at @letsunifyai, none of them were able to memorize anything of value and none were able to generalize to new tasks. Training a small 9B model's weights did both.",
+   "card": "",
+   "links": []
+  }
+ ]
+}

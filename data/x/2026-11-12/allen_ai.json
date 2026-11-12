@@ -1,0 +1,27 @@
+{
+ "page": "https://x.com/allen_ai",
+ "collected_at": "2026-11-12T14:37:35.340Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2120600124732977501",
+   "url": "https://x.com/allen_ai/status/2120600124732977501",
+   "author": "allen_ai",
+   "name": "Ai2",
+   "time": "2026-11-11T19:30:43.000Z",
+   "text": "NVIDIA used our MolmoSpaces benchmark to evaluate GR00T 2, alongside RoboCasa365, RoboLab, & RoboDojo. Thanks \n@NVIDIARobotics\n!\n\nMolmoSpaces is open, so any team can test their robot policies on the same simulated homes, objects, & tasks:\n\nhttps://\nmolmospaces.allen.ai/leaderboard",
+   "likes": 31,
+   "reposts": 3,
+   "replies": 9,
+   "views": 3098,
+   "context": "",
+   "quoted": "A finer touch for humanoid robots. At #CoRL2026, NVIDIA is introducing GR00T 2, an open world action model for humanoids, alongside new open industrial benchmarks from @RLWRLD_ai and @UCBerkeley built on Isaac Lab-Arena. Explore how NVIDIA’s open world action models,",
+   "card": "",
+   "links": [
+    "https:// molmospaces.allen.ai/leaderboard"
+   ]
+  }
+ ]
+}

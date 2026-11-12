@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/rasbt",
+ "collected_at": "2026-11-12T14:39:18.124Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2120519373999816955",
+   "url": "https://x.com/rasbt/status/2120519373999816955",
+   "author": "rasbt",
+   "name": "Sebastian Raschka",
+   "time": "2026-11-11T14:09:50.000Z",
+   "text": "Hillclimbing: Make the model better (best intentions).\n\nBenchmarking: Measure how much better (best effort).\n\nBenchmaxxing: Make the numbers look better (best optics).",
+   "likes": 250,
+   "reposts": 19,
+   "replies": 66,
+   "views": 23001,
+   "context": "",
+   "quoted": "We gotta have a conversation about hill climbing vs benchmarking vs benchmaxxing",
+   "card": "",
+   "links": []
+  }
+ ]
+}

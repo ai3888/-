@@ -1,0 +1,43 @@
+{
+ "page": "https://x.com/GoogleResearch",
+ "collected_at": "2026-11-12T13:49:52.973Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2120655439226601759",
+   "url": "https://x.com/GoogleResearch/status/2120655439226601759",
+   "author": "GoogleResearch",
+   "name": "Google Research",
+   "time": "2026-11-11T23:10:31.000Z",
+   "text": "好的治疗方式不仅仅是给出正确的答案，更重要的是提出正确的问题。\n\n看看 @GoogleResearch 是如何与临床医生合作，开发出能够理解患者情境的模型的： \nhttps://\nyoutu.be/4XzcdKvF60A",
+   "likes": 57,
+   "reposts": 11,
+   "replies": 3,
+   "views": 5128,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// youtu.be/4XzcdKvF60A"
+   ]
+  },
+  {
+   "id": "2120613625186673087",
+   "url": "https://x.com/GoogleResearch/status/2120613625186673087",
+   "author": "GoogleResearch",
+   "name": "Google Research",
+   "time": "2026-11-11T20:24:21.000Z",
+   "text": "Today on the blog we introduce an investigational ML framework that translates passive wearable signals into a modifiable coachable health age, uses an action-conditioned world model to simulate personalized 12-week \"what-if\" habit trajectories, & expands to routine blood",
+   "likes": 537,
+   "reposts": 70,
+   "replies": 14,
+   "views": 18845,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

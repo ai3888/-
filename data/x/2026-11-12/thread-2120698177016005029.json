@@ -1,0 +1,26 @@
+{
+ "page": "https://x.com/ArtificialAnlys/status/2120698177016005029",
+ "collected_at": "2026-11-12T14:43:56.440Z",
+ "logged_in": true,
+ "thread_of": "2120698177016005029",
+ "hours": 30,
+ "found_on_page": 17,
+ "posts": [
+  {
+   "id": "2120698177016005029",
+   "url": "https://x.com/ArtificialAnlys/status/2120698177016005029",
+   "author": "ArtificialAnlys",
+   "name": "Artificial Analysis",
+   "time": "2026-11-12T02:00:20.000Z",
+   "text": "Claude Fable 5.2 现在是 AA-Robotics v0.1 版本中的新领先者，得分 75 分。他的排名位于 GPT-6 Astra（69 分）和 GPT-6.1 Sol（65 分）之前。\n\nFable 5.2 是第一个在测量箱任务中取得高分的人工智能模型。它仅通过视频处理来完成任务，将卷尺作为辅助工具，并利用卷尺上的刻度来估算箱子的尺寸。",
+   "likes": 280,
+   "reposts": 31,
+   "replies": 30,
+   "views": 0,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

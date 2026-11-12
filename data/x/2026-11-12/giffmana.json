@@ -1,0 +1,57 @@
+{
+ "page": "https://x.com/giffmana",
+ "collected_at": "2026-11-12T14:38:58.993Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2120877426079334502",
+   "url": "https://x.com/giffmana/status/2120877426079334502",
+   "author": "giffmana",
+   "name": "Lucas Beyer (bl16)",
+   "time": "2026-11-12T13:52:37.000Z",
+   "text": "guys...",
+   "likes": 14,
+   "reposts": 0,
+   "replies": 1,
+   "views": 2112,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2120593715328917554",
+   "url": "https://x.com/giffmana/status/2120593715328917554",
+   "author": "giffmana",
+   "name": "Lucas Beyer (bl16)",
+   "time": "2026-11-11T19:05:15.000Z",
+   "text": "It's kinda weird that the ai safety company has consistently good product taste!",
+   "likes": 335,
+   "reposts": 7,
+   "replies": 13,
+   "views": 29186,
+   "context": "",
+   "quoted": "Starting to roll out today: Claude Whiteboards, Claude Sheets and Claude Data. Think a plan through on a board, build a tracker in a sheet, and tell a story with your data.",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2120589794665226621",
+   "url": "https://x.com/giffmana/status/2120589794665226621",
+   "author": "giffmana",
+   "name": "Lucas Beyer (bl16)",
+   "time": "2026-11-11T18:49:40.000Z",
+   "text": "lol this looks just like logit artifacts in ViT based segmentation models!",
+   "likes": 69,
+   "reposts": 0,
+   "replies": 4,
+   "views": 7924,
+   "context": "",
+   "quoted": "https:// servethehome.com/amd-epyc-9006- results-are-here-and-amd-delivers-a-knockout-part-deux/8/ …",
+   "card": "",
+   "links": []
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "page": "https://x.com/_akhaliq",
+ "collected_at": "2026-11-12T14:40:18.163Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2120846711908364596",
+   "url": "https://x.com/_akhaliq/status/2120846711908364596",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-12T11:50:34.000Z",
+   "text": "Ernie 5.5 flash preview",
+   "likes": 21,
+   "reposts": 3,
+   "replies": 15,
+   "views": 5984,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2120749548851368358",
+   "url": "https://x.com/_akhaliq/status/2120749548851368358",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-12T05:24:28.000Z",
+   "text": "VoxMel\n\nWavelet-Factorized Autoregressive Mel-Spectrogram Modeling for Zero-Shot Speech Synthesis\n\nmodels: \nhttps://\nhuggingface.co/VoxDance-Lab",
+   "likes": 133,
+   "reposts": 18,
+   "replies": 15,
+   "views": 12379,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/VoxDance-Lab"
+   ]
+  },
+  {
+   "id": "2120609882663780777",
+   "url": "https://x.com/_akhaliq/status/2120609882663780777",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-11T20:09:29.000Z",
+   "text": "World In-Context Learning for Agentic Robot Manipulation  \n\npaper: \nhttps://\nhuggingface.co/papers/2611.12\n885\n…",
+   "likes": 123,
+   "reposts": 11,
+   "replies": 12,
+   "views": 15471,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/papers/2611.12 885 …"
+   ]
+  }
+ ]
+}

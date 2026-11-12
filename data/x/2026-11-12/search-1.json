@@ -1,0 +1,93 @@
+{
+ "page": "https://x.com/search?q=url%3Aarxiv.org%20min_faves%3A100%20-filter%3Areplies%20since%3A2026-11-11&src=typed_query",
+ "collected_at": "2026-11-12T14:42:33.547Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2120553627991654851",
+   "url": "https://x.com/SadhikaMalladi/status/2120553627991654851",
+   "author": "SadhikaMalladi",
+   "name": "Sadhika Malladi",
+   "time": "2026-11-11T16:25:57.000Z",
+   "text": "基础模型的质量对强化学习算法的训练效果有显著影响，但现有的理论无法将良好的初始化过程转化为高效的学习过程。我们的理论能够捕捉到这一点，从而将现代强化学习目标背后的启发式方法转化为可操作的算法设计原则。",
+   "likes": 168,
+   "reposts": 26,
+   "replies": 8,
+   "views": 8703,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org 后培训阶段的政策优化理论：覆盖范围…… 策略优化是语言模型训练后处理的核心环节，然而基于原则的指导仍然存在局限性。我们重新审视了其理论基础，以寻找能够实现接近最优解的算法……",
+   "links": []
+  },
+  {
+   "id": "2120703764999061612",
+   "url": "https://x.com/activegalacticN/status/2120703764999061612",
+   "author": "activegalacticN",
+   "name": "活動銀河核",
+   "time": "2026-11-12T02:22:33.000Z",
+   "text": "好像有一种叫做teleparallelism的重力理论，用捩率代替曲率\n但是好像与广义相对论等价",
+   "likes": 164,
+   "reposts": 24,
+   "replies": 10,
+   "views": 8630,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org The Geometrical Trinity of Gravity The geometrical nature of gravity emerges from the universality dictated by the equivalence principle. In the usual formulation of General Relativity, the ",
+   "links": []
+  },
+  {
+   "id": "2120585926577639670",
+   "url": "https://x.com/pascalkwanten/status/2120585926577639670",
+   "author": "pascalkwanten",
+   "name": "∇ₖPascal ∇ₚKw∀nt∃n (∛) (Πασκάλ)",
+   "time": "2026-11-11T18:34:18.000Z",
+   "text": "Thermodynamics of words",
+   "likes": 305,
+   "reposts": 43,
+   "replies": 8,
+   "views": 14241,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org Thermodynamics of words We introduce the word thermalization hypothesis according to which in a literary work there are effective interactions between words that drive them to thermalization",
+   "links": []
+  },
+  {
+   "id": "2120485604777718050",
+   "url": "https://x.com/rad1_study/status/2120485604777718050",
+   "author": "rad1_study",
+   "name": "らじあん",
+   "time": "2026-11-11T11:55:39.000Z",
+   "text": "Witten 的《扰动规范理论作为扭量空间中的弦理论》（2003）被我极度简化并硬塞进一页，所以有兴趣的话请阅读原论文！\n\nhttps://\narxiv.org/abs/hep-th/031\n2171\n…",
+   "likes": 149,
+   "reposts": 15,
+   "replies": 1,
+   "views": 6992,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/hep-th/031 2171 …"
+   ]
+  },
+  {
+   "id": "2120539244104212792",
+   "url": "https://x.com/tjmlab/status/2120539244104212792",
+   "author": "tjmlab",
+   "name": "部品（吉岡里帆）",
+   "time": "2026-11-11T15:28:48.000Z",
+   "text": "词的热力学\n\nhttps://\narxiv.org/abs/2611.14039\n提出“词热化假说”：文学作品中词语之间存在有效相互作用，词频分布呈现与瑞利-金斯（RJ）热化·凝聚相同的形状\n\n有趣",
+   "likes": 354,
+   "reposts": 82,
+   "replies": 4,
+   "views": 16756,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org Thermodynamics of words We introduce the word thermalization hypothesis according to which in a literary work there are effective interactions between words that drive them to thermalization",
+   "links": [
+    "https:// arxiv.org/abs/2611.14039"
+   ]
+  }
+ ]
+}

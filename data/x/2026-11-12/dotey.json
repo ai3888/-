@@ -1,0 +1,57 @@
+{
+ "page": "https://x.com/dotey",
+ "collected_at": "2026-11-12T14:42:20.644Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2120647659388031454",
+   "url": "https://x.com/dotey/status/2120647659388031454",
+   "author": "dotey",
+   "name": "宝玉",
+   "time": "2026-11-11T22:39:36.000Z",
+   "text": "Google 推出 Gemini Decisions API：不写回答只做判断，一次最多问 1000 个问题，输入每百万 Token 0.1 美元、输出不收钱\n\nGoogle 今天在 Gemini API 里上线了 Decisions API，配套新模型 Gemini Decision",
+   "likes": 186,
+   "reposts": 34,
+   "replies": 160,
+   "views": 34348,
+   "context": "",
+   "quoted": "Today we’re launching the Gemini Decisions API, powered by our new Gemini Decision 1 model in @GoogleAIStudio. Instead of generating text token by token, it’s built for closed-set choices scoring up to 1,000 questions across text, images, audio, video + PDFs in a single pass. A",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2120648038439956700",
+   "url": "https://x.com/dotey/status/2120648038439956700",
+   "author": "dotey",
+   "name": "宝玉",
+   "time": "2026-11-11T22:41:06.000Z",
+   "text": "",
+   "likes": 1,
+   "reposts": 0,
+   "replies": 1,
+   "views": 5959,
+   "context": "",
+   "quoted": "Introducing the Gemini Decisions API Powered by our new Gemini Decision 1 model, the API is built for fast routing, tool selection, safety checks, and grading inside your apps and agents without the latency or output-token cost of full text generation. • Up to 1,000 questions",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2120546916475773071",
+   "url": "https://x.com/dotey/status/2120546916475773071",
+   "author": "dotey",
+   "name": "宝玉",
+   "time": "2026-11-11T15:59:17.000Z",
+   "text": "周四 Codex 可能送一张重置卡？",
+   "likes": 35,
+   "reposts": 0,
+   "replies": 28,
+   "views": 21177,
+   "context": "",
+   "quoted": "Thursday is feeling codexy to me. Perhaps also a good time for a banked reset.",
+   "card": "",
+   "links": []
+  }
+ ]
+}

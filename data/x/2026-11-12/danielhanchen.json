@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/danielhanchen",
+ "collected_at": "2026-11-12T14:40:53.655Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 2,
+ "posts": [
+  {
+   "id": "2120544760041730294",
+   "url": "https://x.com/danielhanchen/status/2120544760041730294",
+   "author": "danielhanchen",
+   "name": "Daniel Han",
+   "time": "2026-11-11T15:50:43.000Z",
+   "text": "We're releasing new Qwen3.8-27B GGUFs with Unsloth Dynamic V3.1! Expect 5-10% accuracy gains on the same size vs UD3 and other quants.\n\nWe do better vs GSQ-RCO, Exllama-v3 on the pareto frontier for Terminal Bench, DeepSWE and more. Quants above 2-bit to 6-bit are updated.\n\nWe",
+   "likes": 163,
+   "reposts": 16,
+   "replies": 21,
+   "views": 7820,
+   "context": "",
+   "quoted": "Today, we're releasing the highest accuracy Qwen3.8-27B GGUFs. Our new Dynamic V3.1 GGUFs lead by 5–10% on average across Terminal Bench, DeepSWE & more. We’re working on even better version for Qwen4 Run on 12GB RAM. GGUF: https:// huggingface.co/unsloth/Qwen3. 8-27B-GGUF … Blog: https:// unsloth.ai/docs/models/qw en3.8 …",
+   "card": "",
+   "links": []
+  }
+ ]
+}

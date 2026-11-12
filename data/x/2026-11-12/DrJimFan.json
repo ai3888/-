@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/DrJimFan",
+ "collected_at": "2026-11-12T14:39:56.475Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2120540201994846253",
+   "url": "https://x.com/DrJimFan/status/2120540201994846253",
+   "author": "DrJimFan",
+   "name": "Jim Fan",
+   "time": "2026-11-11T15:32:36.000Z",
+   "text": "Autonomous, uncut, 1x speed. This is GR00T 2 controlling real dexterous hands to perform a chemistry lab experiment (and clean up after itself) end to end.\n\nEpisode 1 of a new series! I’ll keep dropping real-time robot videos, with none of the “4x” or “8x” labels you usually see",
+   "likes": 663,
+   "reposts": 111,
+   "replies": 115,
+   "views": 44436,
+   "context": "",
+   "quoted": "Introducing GR00T 2: our most advanced, open System One model for robotics. It runs entirely on your robot’s onboard compute, fully untethered, and you own every weight of it. GR00T 2 features: 1. Long-horizon tasks: dexterous manipulation and whole-body control chained over",
+   "card": "",
+   "links": []
+  }
+ ]
+}
