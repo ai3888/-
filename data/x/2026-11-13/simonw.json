@@ -1,0 +1,27 @@
+{
+ "page": "https://x.com/simonw",
+ "collected_at": "2026-11-13T14:42:44.785Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2121039423441981444",
+   "url": "https://x.com/simonw/status/2121039423441981444",
+   "author": "simonw",
+   "name": "Simon Willison",
+   "time": "2026-11-13T00:36:20.000Z",
+   "text": "Gemini 4 的定价相当混乱——氩气和碳气的价格相同，而新推出的氢气则仅比前者便宜 25%。不过，到 12 月 1 日时，碳气和氩气的价格将会翻倍。\n\n氢的“鹈鹄”表现明显更差。\n \nhttps://\nsimonwillison.net/2026/Nov/12/ll\nm-gemini/\n…",
+   "likes": 300,
+   "reposts": 24,
+   "replies": 201,
+   "views": 31987,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// simonwillison.net/2026/Nov/12/ll m-gemini/ …"
+   ]
+  }
+ ]
+}

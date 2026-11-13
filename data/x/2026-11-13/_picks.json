@@ -1,0 +1,74 @@
+[
+  {
+    "id": "2120940338869055788",
+    "score": 4,
+    "type": "新模型",
+    "why": "Google 发布 Gemini 4 Hydrogen：面向快速编码、多模态综合和日常流程，官方称完成同类任务比自家 3.8 Flash 快 2.5 倍，并且在 Artificial Analysis 的智能指数上超过 Argon"
+  },
+  {
+    "id": "2120941511223185722",
+    "score": 4,
+    "type": "评测",
+    "why": "AA 的实测：Hydrogen 智能略低于 Claude Sonnet 5.5 和 GPT-6.1 Sol，但成本只有 Sonnet 的三分之一左右、约为 GPT-6.1 Sol 的 2.5 倍——这是 Google 六周内发的第三个新模型"
+  },
+  {
+    "id": "2120941516407337325",
+    "score": 4,
+    "type": "评测",
+    "why": "把 effort 拉满的代价量化了：xhigh 档的输出 token 几乎是 high 的两倍，只换来 3 点智能提升，单任务成本从 $1.87（high）涨到 $3.16（xhigh）——大多数场景 high 就够"
+  },
+  {
+    "id": "2121137661180256653",
+    "score": 4,
+    "type": "评测",
+    "why": "腾讯 Hy4 在 AA 智能指数上排第 3（58%），超过 DeepSeek V4.1 Flash，只落后 Kimi K3.1 Pro（64%）和 GPT-6 Sol；在 CWE-Bench-AA 上还拿了第一（76%，领先 DeepSeek 6 分）"
+  },
+  {
+    "id": "2121247896918253875",
+    "score": 4,
+    "type": "产品",
+    "why": "DeepSeek 把整个 App 的能力搬进了 API：搜索、文件管理、抓链接、安全校验、语音输入都能通过内置工具或独立接口（OCR、ASR、TTS）调用，工具体调用和上下文拼装在服务端完成"
+  },
+  {
+    "id": "2121246103312212124",
+    "score": 4,
+    "type": "开源",
+    "why": "llama.cpp 发布 1.0.0：这是它和 ggml 的第一个正式大版本，官方称「为本地 AI 生态打下更强的地基」——本地推理这条线上最重要的项目终于告别 0.x"
+  },
+  {
+    "id": "2120982625582195011",
+    "score": 4,
+    "type": "开源",
+    "why": "Thinking Machines 的 Inkling 2 Small 权重上 Hugging Face，Apache 2.0：可以自己拿去做微调和部署，是本周少见的宽松许可开放权重"
+  },
+  {
+    "id": "2120979951599931793",
+    "score": 4,
+    "type": "产品",
+    "why": "Claude Meetings 上线：把 Claude 加进 Google Meet 通话，会议进行中同步写文档、画白板、产出 artifact；测试期内 Team 和 Enterprise 套餐的会议纪要免费"
+  },
+  {
+    "id": "2121035321211318565",
+    "score": 4,
+    "type": "论文",
+    "why": "JoMoHa：现有「自我改进 harness」的编辑器一直是个固定的前沿模型，它改成用同一批任务结果做 RL 同时训练两个策略（一个写 harness、一个执行），让 harness 的改进本身也可训练"
+  },
+  {
+    "id": "2120933804638613581",
+    "score": 4,
+    "type": "评测",
+    "why": "OWE-Bench：26 个长程真实工程任务的编码基准，衡量 agent 能不能把活干完而不只是写代码——Claude Fable 5.2 为解每道题花掉超过 2 亿 token"
+  },
+  {
+    "id": "2121039423441981444",
+    "score": 4,
+    "type": "产品",
+    "why": "Gemini 4 的定价乱成一团：Argon 与 Carbon 同价、新出的 Hydrogen 只便宜 25%，而 Carbon 和 Argon 的价格 12 月 1 日要翻倍；Hydrogen 在「鹈鹕」测试上明显更差"
+  },
+  {
+    "id": "2120895037064020406",
+    "score": 3,
+    "type": "安全",
+    "why": "rasbt 点出推理模型里的长期矛盾：训练/优化思维链 vs 为了保持可监控性而不碰它；他引用了 OpenAI 关于「CoT 可监控性如何随能力演化」的新研究"
+  }
+]

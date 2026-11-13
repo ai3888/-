@@ -1,0 +1,57 @@
+{
+ "page": "https://x.com/rasbt",
+ "collected_at": "2026-11-13T14:41:23.290Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 10,
+ "posts": [
+  {
+   "id": "2120899453510942743",
+   "url": "https://x.com/rasbt/status/2120899453510942743",
+   "author": "rasbt",
+   "name": "Sebastian Raschka",
+   "time": "2026-11-12T15:20:08.000Z",
+   "text": "Hoping Nemotron keeps going.\n\nThankfully, open weight LLMs have some alternatives.\n\nBut their open data and full training recipes would be much harder to replace.",
+   "likes": 688,
+   "reposts": 34,
+   "replies": 38,
+   "views": 38099,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2120896608543924560",
+   "url": "https://x.com/rasbt/status/2120896608543924560",
+   "author": "rasbt",
+   "name": "Sebastian Raschka",
+   "time": "2026-11-12T15:08:50.000Z",
+   "text": "LLM training is hard. Hard to be a jack of all trades.",
+   "likes": 452,
+   "reposts": 8,
+   "replies": 21,
+   "views": 36729,
+   "context": "",
+   "quoted": "im surprised there isnt more pretrain-postrain codesign i guess companies really do ship their org charts",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2120895037064020406",
+   "url": "https://x.com/rasbt/status/2120895037064020406",
+   "author": "rasbt",
+   "name": "Sebastian Raschka",
+   "time": "2026-11-12T15:02:35.000Z",
+   "text": "In reasoning model development, it's always been this interesting tension between training/optimizing chain-of-thoughts (CoTs) vs not touching them to preserve monitorability.\n\nCoTs are cool because we can check what the model is up to (e.g., whether it cheats or not) as long as",
+   "likes": 235,
+   "reposts": 21,
+   "replies": 29,
+   "views": 16351,
+   "context": "",
+   "quoted": "(1/10) Today, we’re sharing new research from @OpenAI: How does CoT monitorability (no-CoT capability and CoT controllability) evolve over the model training lifecycle? We emerged with unsurprising but sobering findings: as we scale toward more intelligent systems, models are",
+   "card": "",
+   "links": []
+  }
+ ]
+}

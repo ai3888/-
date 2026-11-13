@@ -1,0 +1,59 @@
+{
+ "page": "https://x.com/GoogleResearch",
+ "collected_at": "2026-11-13T14:39:01.084Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2121016419668365812",
+   "url": "https://x.com/GoogleResearch/status/2121016419668365812",
+   "author": "GoogleResearch",
+   "name": "Google Research",
+   "time": "2026-11-12T23:04:55.000Z",
+   "text": "我们很高兴宣布 2026 年获得谷歌博士奖学金的获奖者名单！\n\n来自 38 个国家的 148 名新博士学生，获得了 @Googleorg 提供的 1300 万美元资助。他们的研究领域包括量子理论、语言模型推理、医学影像处理等： \nhttps://\ngoo.gle/phd-fellows-20\n26\n…",
+   "likes": 159,
+   "reposts": 25,
+   "replies": 1,
+   "views": 21570,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// goo.gle/phd-fellows-20 26 …"
+   ]
+  },
+  {
+   "id": "2120963388432134299",
+   "url": "https://x.com/GoogleResearch/status/2120963388432134299",
+   "author": "GoogleResearch",
+   "name": "Google Research",
+   "time": "2026-11-12T19:34:12.000Z",
+   "text": "变暖的海洋正在摧毁许多海洋生物所栖息的水下栖息地。\n\n但现代基因组学为我们提供了生存的指导原则。",
+   "likes": 84,
+   "reposts": 5,
+   "replies": 2,
+   "views": 8108,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2120963389879177564",
+   "url": "https://x.com/GoogleResearch/status/2120963389879177564",
+   "author": "GoogleResearch",
+   "name": "Google Research",
+   "time": "2026-11-12T19:34:12.000Z",
+   "text": "In partnership with \n@CSIRO\n, researchers are pinpointing heat-tolerant traits in surviving giant kelp, cultivating resilient and genetically diverse baby kelp specimens. The plan is to outplant them back onto Australia's rocky seafloor at less than 1cm long.\n\nBetter yet? The",
+   "likes": 15,
+   "reposts": 1,
+   "replies": 1,
+   "views": 2061,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

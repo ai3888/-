@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/deepseek_ai",
+ "collected_at": "2026-11-13T14:39:26.815Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 7,
+ "posts": [
+  {
+   "id": "2121247896918253875",
+   "url": "https://x.com/deepseek_ai/status/2121247896918253875",
+   "author": "deepseek_ai",
+   "name": "DeepSeek",
+   "time": "2026-11-13T14:24:44.000Z",
+   "text": "现在，完整的 DeepSeek 应用程序体验可以通过 API 来实现了。\n\n搜索、文件管理、链接获取、安全功能以及语音输入。DeepSeek 应用程序所拥有的功能现在可以通过 DeepSeek API 来实现。\n通过一些参数来启用内置功能，或者调用独立的 API，如 OCR、ASR 和 TTS 等。开始构建吧。",
+   "likes": 650,
+   "reposts": 119,
+   "replies": 49,
+   "views": 29129,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2121247899699036516",
+   "url": "https://x.com/deepseek_ai/status/2121247899699036516",
+   "author": "deepseek_ai",
+   "name": "DeepSeek",
+   "time": "2026-11-13T14:24:44.000Z",
+   "text": "Built-in tools. Flexible APIs.\n\nV4.1-Flash (deepseek-flash) now supports these capabilities across Messages, Responses, and Chat Completions, with tool calls and context assembly handled server-side:\n\n Web Search: Search the web or images with citations in non-thinking mode.",
+   "likes": 67,
+   "reposts": 2,
+   "replies": 3,
+   "views": 5531,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

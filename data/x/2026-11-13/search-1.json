@@ -1,0 +1,43 @@
+{
+ "page": "https://x.com/search?q=url%3Aarxiv.org%20min_faves%3A100%20-filter%3Areplies%20since%3A2026-11-12&src=typed_query",
+ "collected_at": "2026-11-13T14:44:41.510Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 3,
+ "posts": [
+  {
+   "id": "2120833996280009060",
+   "url": "https://x.com/yoko_materialDX/status/2120833996280009060",
+   "author": "yoko_materialDX",
+   "name": "横山トモヤス｜計算材料科学者",
+   "time": "2026-11-12T11:00:02.000Z",
+   "text": "A paper on optimizing computational code using AI agents.\n\nTwo types of agents—one for code modification and one for verification—were used to optimize computational code in materials science. They optimized things like LAMMPS interaction calculations and eigenvalue calculations",
+   "likes": 101,
+   "reposts": 22,
+   "replies": 1,
+   "views": 7178,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org 人工智能代理能否可靠地优化计算化学计算代码？ 人工智能方法为计算化学和理论化学领域带来了新的可能性。现在，人工智能代理可以自主执行计算任务，其在各种领域的应用前景十分广阔……",
+   "links": []
+  },
+  {
+   "id": "2121139059913367934",
+   "url": "https://x.com/PQBW/status/2121139059913367934",
+   "author": "PQBW",
+   "name": "Number Theory Papers",
+   "time": "2026-11-13T07:12:15.000Z",
+   "text": "ℤ is Diophantine over ℚ with 28 unknowns\n\nZhi-Wei Sun\n\nhttps://\narxiv.org/abs/2611.14605 [𝚖𝚊𝚝𝚑.𝙽𝚃 𝚖𝚊𝚝𝚑.𝙻𝙾]",
+   "likes": 119,
+   "reposts": 15,
+   "replies": 4,
+   "views": 6856,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2611.14605"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/ggerganov",
+ "collected_at": "2026-11-13T14:43:02.812Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 7,
+ "posts": [
+  {
+   "id": "2121246103312212124",
+   "url": "https://x.com/ggerganov/status/2121246103312212124",
+   "author": "ggerganov",
+   "name": "Georgi Gerganov",
+   "time": "2026-11-13T14:17:36.000Z",
+   "text": "llama.cpp 1.0.0 版本现已发布！",
+   "likes": 248,
+   "reposts": 61,
+   "replies": 13,
+   "views": 5888,
+   "context": "",
+   "quoted": "",
+   "card": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+   "links": []
+  },
+  {
+   "id": "2121247058451411047",
+   "url": "https://x.com/ggerganov/status/2121247058451411047",
+   "author": "ggerganov",
+   "name": "Georgi Gerganov",
+   "time": "2026-11-13T14:21:24.000Z",
+   "text": "Today's release marks the first major version of llama.cpp and ggml.\n\nWe have created a strong foundation for the future of local AI. Looking forward to what you will build on top of it!",
+   "likes": 23,
+   "reposts": 1,
+   "replies": 1,
+   "views": 735,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

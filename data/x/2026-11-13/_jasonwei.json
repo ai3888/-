@@ -1,0 +1,43 @@
+{
+ "page": "https://x.com/_jasonwei",
+ "collected_at": "2026-11-13T14:40:16.578Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2120937085515510234",
+   "url": "https://x.com/_jasonwei/status/2120937085515510234",
+   "author": "_jasonwei",
+   "name": "Jason Wei",
+   "time": "2026-11-12T17:49:40.000Z",
+   "text": "Turns out my initial version missed a lot of evals. Claude searched harder and found 36% more mentions of benchmarks: \nhttps://\nclaude.ai/artifact/95Jjh\nHtWqGin4UNwne1d5i\n…\n\nIt still misses blog posts with fancy UI elements, long PDFs, etc. Guess we need a benchmark for creating benchmark benchmark...",
+   "likes": 65,
+   "reposts": 8,
+   "replies": 15,
+   "views": 11677,
+   "context": "",
+   "quoted": "Created a \"benchmark benchmark\": a frequency distribution of which benchmarks were reported by the frontier labs in 2026: https:// claude.ai/artifact/22cBP Jt6Aos6bYpjmB1BHw#distribution … Some observations: - HLE, SWE-Bench Pro, DeepSWE, and Terminal-Bench saw universal adoption - Scale AI is behind two of those four",
+   "card": "",
+   "links": [
+    "https:// claude.ai/artifact/95Jjh HtWqGin4UNwne1d5i …"
+   ]
+  },
+  {
+   "id": "2120933804638613581",
+   "url": "https://x.com/_jasonwei/status/2120933804638613581",
+   "author": "_jasonwei",
+   "name": "Jason Wei",
+   "time": "2026-11-12T17:36:38.000Z",
+   "text": "This is a pretty cool benchmark of actual long-horizon tasks, with Fable 5.2 spending more than 200M tokens to try to solve each problem!",
+   "likes": 91,
+   "reposts": 8,
+   "replies": 8,
+   "views": 9957,
+   "context": "",
+   "quoted": "Agents can write code. Can they finish real engineering work? Introducing OWE-Bench, a new frontier coding benchmark: 26 long-horizon engineering projects designed by Mercor experts to test AI agents on engineering work, from GPU kernels to aircraft design. Built by @jake_cole1",
+   "card": "",
+   "links": []
+  }
+ ]
+}

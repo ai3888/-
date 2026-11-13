@@ -1,0 +1,93 @@
+{
+ "page": "https://x.com/GoogleDeepMind",
+ "collected_at": "2026-11-13T14:38:51.336Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 8,
+ "posts": [
+  {
+   "id": "2120940338869055788",
+   "url": "https://x.com/GoogleDeepMind/status/2120940338869055788",
+   "author": "GoogleDeepMind",
+   "name": "Google DeepMind",
+   "time": "2026-11-12T18:02:36.000Z",
+   "text": "Meet Gemini 4 Hydrogen: built for rapid coding, multimodal synthesis, and everyday workflows.\n\nIt finishes tasks 2.5x faster than 3.8 Flash and surpasses Argon on the \n@ArtificialAnlys\n Intelligence Index.",
+   "likes": 6822,
+   "reposts": 1031,
+   "replies": 381,
+   "views": 1309656,
+   "context": "已固定",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2121229774865527097",
+   "url": "https://x.com/GoogleDeepMind/status/2121229774865527097",
+   "author": "GoogleDeepMind",
+   "name": "Google DeepMind",
+   "time": "2026-11-13T13:12:43.000Z",
+   "text": "Accurate weather forecasting starts with how clearly we can observe the atmosphere in real-time. \n\nThat’s why we’re releasing PARDIG and SatWeave - the foundational datasets behind WeatherNext 3 - to help researchers and developers build new climate applications",
+   "likes": 304,
+   "reposts": 70,
+   "replies": 88,
+   "views": 27280,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2121229777835089974",
+   "url": "https://x.com/GoogleDeepMind/status/2121229777835089974",
+   "author": "GoogleDeepMind",
+   "name": "Google DeepMind",
+   "time": "2026-11-13T13:12:44.000Z",
+   "text": "What’s under the hood:\n PARDIG: Estimates global rainfall every 15 minutes, while improving precipitation detection skill by more than 30%.\n SatWeave: Combines several geostationary satellites into one live view of Earth’s clouds and storms every 60 minutes.",
+   "likes": 42,
+   "reposts": 3,
+   "replies": 4,
+   "views": 9832,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2120841923237683462",
+   "url": "https://x.com/GoogleDeepMind/status/2120841923237683462",
+   "author": "GoogleDeepMind",
+   "name": "Google DeepMind",
+   "time": "2026-11-12T11:31:32.000Z",
+   "text": "Finding the exact genetic cause of a rare disease is like looking for a needle in a haystack. \n\nOn our podcast, \n@fryrsquared\n explores with \n@Avsecz\n and  \n@adamgayoso\n how AlphaGenome 2 helps scientists test millions of DNA changes to find vital clues for human health.\n\nTimecodes:",
+   "likes": 621,
+   "reposts": 93,
+   "replies": 122,
+   "views": 176043,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2120841927834968215",
+   "url": "https://x.com/GoogleDeepMind/status/2120841927834968215",
+   "author": "GoogleDeepMind",
+   "name": "Google DeepMind",
+   "time": "2026-11-12T11:31:33.000Z",
+   "text": "Watch → \nhttps://\ngoo.gle/3Vgj7LX\nSpotify → \nhttps://\ngoo.gle/4zRA8Lt\nApple Podcasts → \nhttps://\ngoo.gle/4BZEaTx\n\nOr listen wherever you get your podcasts!",
+   "likes": 36,
+   "reposts": 2,
+   "replies": 7,
+   "views": 33530,
+   "context": "",
+   "quoted": "",
+   "card": "AlphaGenome 2: Teaching AI to read the entire human genome",
+   "links": [
+    "https:// goo.gle/3Vgj7LX",
+    "https:// goo.gle/4zRA8Lt",
+    "https:// goo.gle/4BZEaTx"
+   ]
+  }
+ ]
+}

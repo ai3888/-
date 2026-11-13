@@ -1,0 +1,57 @@
+{
+ "page": "https://x.com/natolambert",
+ "collected_at": "2026-11-13T14:41:15.104Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 8,
+ "posts": [
+  {
+   "id": "2121006996363371004",
+   "url": "https://x.com/natolambert/status/2121006996363371004",
+   "author": "natolambert",
+   "name": "Nathan Lambert",
+   "time": "2026-11-12T22:27:28.000Z",
+   "text": "I thought people already thought/knew this?",
+   "likes": 355,
+   "reposts": 11,
+   "replies": 15,
+   "views": 24610,
+   "context": "",
+   "quoted": "I have a major result to share. I’ve found conclusive forensic evidence that the top 4 Chinese AI labs—DeepSeek, Moonshot, MiniMax and Ant Group—have built their newest models on NVIDIA’s most advanced Blackwell chips, which are barred from export to China. This sounds insane,",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2120890682743443481",
+   "url": "https://x.com/natolambert/status/2120890682743443481",
+   "author": "natolambert",
+   "name": "Nathan Lambert",
+   "time": "2026-11-12T14:45:17.000Z",
+   "text": "Sending support to all my Nvidia friends today, especially at Nemotron and HuggingFace. I hope your work comes back even stronger after a transition period. It’s absolutely crucial.",
+   "likes": 668,
+   "reposts": 32,
+   "replies": 2,
+   "views": 22958,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2120880836488913049",
+   "url": "https://x.com/natolambert/status/2120880836488913049",
+   "author": "natolambert",
+   "name": "Nathan Lambert",
+   "time": "2026-11-12T14:06:10.000Z",
+   "text": "Rip. Now I have to explain why. Lots of work ahead.",
+   "likes": 1802,
+   "reposts": 60,
+   "replies": 30,
+   "views": 84363,
+   "context": "",
+   "quoted": "Jensen no longer being CEO would be very very bad for the open model cause in the US.",
+   "card": "",
+   "links": []
+  }
+ ]
+}

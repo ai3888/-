@@ -1,0 +1,150 @@
+{
+ "page": "https://x.com/search?q=url%3Agithub.com%20(LLM%20OR%20agent%20OR%20model%20OR%20inference%20OR%20training)%20min_faves%3A200%20-filter%3Areplies%20since%3A2026-11-12&src=typed_query",
+ "collected_at": "2026-11-13T14:45:02.826Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 8,
+ "posts": [
+  {
+   "id": "2120988126113931729",
+   "url": "https://x.com/e1genqq/status/2120988126113931729",
+   "author": "e1genqq",
+   "name": "eigen",
+   "time": "2026-11-12T21:12:29.000Z",
+   "text": "卧槽，这家动画设计工作室居然有 20 家分店啊。\n\nOpus 5.5 版本提供了 20 种免费的工具和代理技能。\n\n时机把握。变形效果的设计。机械装置的使用。物理原理。粒子属性。\n\n01 撤离技能 → 为视频提供指导。\n \nhttps://\ngithub.com/remotion-dev/s\nkills\n… \n\n02 Anime.js → 时间轴与错开播放机制\n \nhttps://\ngithub.com/juliangarnier/\nanime\n…",
+   "likes": 1064,
+   "reposts": 158,
+   "replies": 16,
+   "views": 31474,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/remotion-dev/s kills …",
+    "https:// github.com/juliangarnier/ anime …"
+   ]
+  },
+  {
+   "id": "2120875050186526824",
+   "url": "https://x.com/Shenqingchuan/status/2120875050186526824",
+   "author": "Shenqingchuan",
+   "name": "River · 沈青川",
+   "time": "2026-11-12T13:43:10.000Z",
+   "text": "我删除了所有属于 .agents/skills 下的技能。\n只保留了自己的技能与能力\n因此，这些技能并没有直接呈现在最顶层，而是隐藏了起来。\n相反，该代理可以通过自主的、渐进式的检索方式来发现它们。\n我还制作了一些实用的工具包。\n为了帮助建立……",
+   "likes": 256,
+   "reposts": 16,
+   "replies": 16,
+   "views": 21369,
+   "context": "",
+   "quoted": "我最近的做法实际上与 Matt 的方法一致：不再将代理程序放在单独的项目仓库中。而是有一个单一的入口点，叫做“start repo”，它包含了所有用于管理代理程序的文件，比如 agents.md、skills.md、design.md、wiki 配置文件等等。网址是 x.com/mattpocockuk/s…",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2120844198278758528",
+   "url": "https://x.com/naka_1717/status/2120844198278758528",
+   "author": "naka_1717",
+   "name": "ためトラ｜AI×個人開発",
+   "time": "2026-11-12T11:40:34.000Z",
+   "text": "如果你想要把整个工作负载交给 Claude Code 来处理，那么请安装目前在 GitHub 上很受欢迎的这六个工具吧。\n\n1. 安全审计技能（本周提升：10,967 点 / 总点数：70,220 点）\n请逐步执行人工智能安全检查，然后使用独立的程序重新检查所有漏洞。",
+   "likes": 251,
+   "reposts": 24,
+   "replies": 1,
+   "views": 9846,
+   "context": "",
+   "quoted": "",
+   "card": "GitHub - cloudflare/security-audit-skill: A coding-agent skill for multi-phase security audits with...",
+   "links": []
+  },
+  {
+   "id": "2120890321294987532",
+   "url": "https://x.com/HeLi8866/status/2120890321294987532",
+   "author": "HeLi8866",
+   "name": "何笠聊 AI",
+   "time": "2026-11-12T14:43:51.000Z",
+   "text": "Absolutely fucking awesome!!\n\nThese 10 open-source repos on GitHub will save you a ton on subscriptions!\n\n1. TradingAgents\nGets several AI agents to divide up the work and collaborate on trading analysis\n\nhttps://\ngithub.com/TauricResearch\n/TradingAgents\n…\n\n2. LibreChat\nUse models like ChatGPT, Claude, and",
+   "likes": 213,
+   "reposts": 29,
+   "replies": 7,
+   "views": 10317,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/TauricResearch /TradingAgents …"
+   ]
+  },
+  {
+   "id": "2120832058066960440",
+   "url": "https://x.com/painn_x/status/2120832058066960440",
+   "author": "painn_x",
+   "name": "painn",
+   "time": "2026-11-12T10:52:20.000Z",
+   "text": "FREE JAILBREAKS PROMPT \n\nwtff, found a whole list of jailbreak prompts on github  \n\nmodels u can jailbreak: \n-Anthropic's model (opus, sonnet)\n-DeepSeek\n-Google (gemini 4 argon)\n- many many more \n\n> fully free and open source  \n\ntry it here: \nhttps://\ngithub.com/togg53192-cmd/\njailbreaks\n…",
+   "likes": 313,
+   "reposts": 43,
+   "replies": 11,
+   "views": 16826,
+   "context": "",
+   "quoted": "UNCENSORED DeepSeek, GLM and Kimi in ONE API found cheap some abliterated open models with zero data retention models you get: - GLM 5.3 Flash Abliterated - DeepSeek V4.1 Flash 1017 Abliterated - Kimi K3.1 Pro Abliterated (saw it in the roadmap) >works in Claude Code and",
+   "card": "",
+   "links": [
+    "https:// github.com/togg53192-cmd/ jailbreaks …"
+   ]
+  },
+  {
+   "id": "2120901937516462304",
+   "url": "https://x.com/sidahuj/status/2120901937516462304",
+   "author": "sidahuj",
+   "name": "siddharth ahuja",
+   "time": "2026-11-12T15:30:01.000Z",
+   "text": "MCP for Blender now includes a World Labs Marble integration to generate worlds inside Blender 5.3. \n\nGet started by pointing your LLM to the repo link and asking it to install or update MCP for Blender: \nhttps://\ngithub.com/ahujasid/mcp-f\nor-blender\n…",
+   "likes": 336,
+   "reposts": 29,
+   "replies": 8,
+   "views": 13047,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/ahujasid/mcp-f or-blender …"
+   ]
+  },
+  {
+   "id": "2120924292796035074",
+   "url": "https://x.com/jundotkim/status/2120924292796035074",
+   "author": "jundotkim",
+   "name": "Jun Kim",
+   "time": "2026-11-12T16:58:50.000Z",
+   "text": "oMLX can now use your NVIDIA GPU or DGX Spark as a Prefill Accelerator.\n\nhttps://\ngithub.com/jundot/omlx/re\nleases/tag/v0.8.0rc1\n…\nAll you need is a Mac that can hold the model. A faster NVIDIA GPU or a DGX Spark takes over the prefill, and your Mac keeps decoding at the same speed.\n\n- The GPU doesn't need to fit",
+   "likes": 321,
+   "reposts": 44,
+   "replies": 53,
+   "views": 17869,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/jundot/omlx/re leases/tag/v0.8.0rc1 …"
+   ]
+  },
+  {
+   "id": "2120934781454266815",
+   "url": "https://x.com/gamershhh_vika/status/2120934781454266815",
+   "author": "gamershhh_vika",
+   "name": "Intervika Morozova",
+   "time": "2026-11-12T17:40:31.000Z",
+   "text": "Android TV on PS4! Turn your console into a media center! \n VLC, Jellyfin, Kodi, Plex, YouTube & Spotify\n DualShock 4 support\n Wi-Fi, Bluetooth & Ethernet\n Experimental app — compatibility varies by PS4 model.\n GitHub: \nhttps://\ngithub.com/odiecay/androi\nd-tv-ps4\n…\n#PS4 #Homebrew #Android",
+   "likes": 314,
+   "reposts": 24,
+   "replies": 3,
+   "views": 12772,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/odiecay/androi d-tv-ps4 …"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "page": "https://x.com/_akhaliq",
+ "collected_at": "2026-11-13T14:42:15.827Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2120952429093245062",
+   "url": "https://x.com/_akhaliq/status/2120952429093245062",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-12T18:50:39.000Z",
+   "text": "SteerDistill\n\nQuantizing LLM Agents via Closed-Loop Teacher Steering\n\npaper: \nhttps://\nhuggingface.co/papers/2611.13\n410\n…",
+   "likes": 109,
+   "reposts": 17,
+   "replies": 24,
+   "views": 15923,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/papers/2611.13 410 …"
+   ]
+  },
+  {
+   "id": "2120846711908364596",
+   "url": "https://x.com/_akhaliq/status/2120846711908364596",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-12T11:50:34.000Z",
+   "text": "Ernie 5.5 flash preview",
+   "likes": 57,
+   "reposts": 4,
+   "replies": 18,
+   "views": 16830,
+   "context": "",
+   "quoted": "",
+   "card": "ERNIE 5.5 Flash Studio - a Hugging Face Space by akhaliq",
+   "links": []
+  }
+ ]
+}

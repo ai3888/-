@@ -1,0 +1,73 @@
+{
+ "page": "https://x.com/giffmana",
+ "collected_at": "2026-11-13T14:40:51.412Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 9,
+ "posts": [
+  {
+   "id": "2121180408121274816",
+   "url": "https://x.com/giffmana/status/2121180408121274816",
+   "author": "giffmana",
+   "name": "Lucas Beyer (bl16)",
+   "time": "2026-11-13T09:56:33.000Z",
+   "text": "Maybe they should try using a non-copilot model to help debug this.",
+   "likes": 41,
+   "reposts": 0,
+   "replies": 4,
+   "views": 4146,
+   "context": "",
+   "quoted": "The servers we returned to service can become unresponsive again once they receive traffic; we're analyzing diagnostic data to determine what's triggering the behavior. In parallel, we're temporarily limiting which types of traffic can reach the affected infrastructure in some",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2121000116765266263",
+   "url": "https://x.com/giffmana/status/2121000116765266263",
+   "author": "giffmana",
+   "name": "Lucas Beyer (bl16)",
+   "time": "2026-11-12T22:00:08.000Z",
+   "text": "Wait, hold on. Forget about the Jensen thing(s).\nI'm more curious about this?",
+   "likes": 92,
+   "reposts": 1,
+   "replies": 3,
+   "views": 13057,
+   "context": "",
+   "quoted": "stay tuned",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2120962215595458783",
+   "url": "https://x.com/giffmana/status/2120962215595458783",
+   "author": "giffmana",
+   "name": "Lucas Beyer (bl16)",
+   "time": "2026-11-12T19:29:32.000Z",
+   "text": "",
+   "likes": 348,
+   "reposts": 7,
+   "replies": 7,
+   "views": 13165,
+   "context": "",
+   "quoted": "JENSEN HUANG HAS HIRED LAW FIRM PAUL WEISS AFTER HIS EXIT FROM NVIDIA: NYT",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2120877426079334502",
+   "url": "https://x.com/giffmana/status/2120877426079334502",
+   "author": "giffmana",
+   "name": "Lucas Beyer (bl16)",
+   "time": "2026-11-12T13:52:37.000Z",
+   "text": "guys...",
+   "likes": 70,
+   "reposts": 0,
+   "replies": 6,
+   "views": 15104,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

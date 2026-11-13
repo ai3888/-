@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/arankomatsuzaki",
+ "collected_at": "2026-11-13T14:42:25.042Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2120909484834873604",
+   "url": "https://x.com/arankomatsuzaki/status/2120909484834873604",
+   "author": "arankomatsuzaki",
+   "name": "Aran Komatsuzaki",
+   "time": "2026-11-12T16:00:00.000Z",
+   "text": "当你的模型能够很好地应对中文对手时，但面对中文对抗性模型时却表现不佳的话……",
+   "likes": 50,
+   "reposts": 8,
+   "replies": 1,
+   "views": 9935,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}
