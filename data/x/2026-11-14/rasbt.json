@@ -1,0 +1,57 @@
+{
+ "page": "https://x.com/rasbt",
+ "collected_at": "2026-11-14T15:44:25.443Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2121613812990095543",
+   "url": "https://x.com/rasbt/status/2121613812990095543",
+   "author": "rasbt",
+   "name": "Sebastian Raschka",
+   "time": "2026-11-14T14:38:45.000Z",
+   "text": "Inkling 2 Small took a while... but it's more interesting than I initially thought!\nUsing attention residuals (like Kimi K3), but without the linear-attention hybrid.\nFood for discussion for the end-of-the-year architecture trends analysis!",
+   "likes": 284,
+   "reposts": 28,
+   "replies": 28,
+   "views": 9343,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2121397631192539435",
+   "url": "https://x.com/rasbt/status/2121397631192539435",
+   "author": "rasbt",
+   "name": "Sebastian Raschka",
+   "time": "2026-11-14T00:19:43.000Z",
+   "text": "Seb's Law, co-signed by another Seb",
+   "likes": 90,
+   "reposts": 3,
+   "replies": 13,
+   "views": 15321,
+   "context": "",
+   "quoted": "Seb's Law: The widespread, transformative societal impact of AI is always approximately two years away, regardless of the current year.",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2121320349837263230",
+   "url": "https://x.com/rasbt/status/2121320349837263230",
+   "author": "rasbt",
+   "name": "Sebastian Raschka",
+   "time": "2026-11-13T19:12:38.000Z",
+   "text": "Wow that escalated quickly. Was gone for a few weeks and now pretty much everyone launched their own decision model copycats:\n\n- Sep 23: Together AI, Tev1-4B\n- Sep 24: Alibaba Cloud, decision-model\n- Sep 29: Liquid AI, d1\n- Sep 30: Databricks, ai_decide\n- Oct 1: Amazon AWS,",
+   "likes": 679,
+   "reposts": 73,
+   "replies": 53,
+   "views": 31590,
+   "context": "",
+   "quoted": "Took a while, but here it is, a mega write-up on language models for text classification and, of course, Jev. It's basically a visual guide to RNNs, CNNs, transformers, and calibration, with hands-on experiments on accuracy and efficiency.",
+   "card": "",
+   "links": []
+  }
+ ]
+}

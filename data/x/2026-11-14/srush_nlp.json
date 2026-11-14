@@ -1,0 +1,57 @@
+{
+ "page": "https://x.com/srush_nlp",
+ "collected_at": "2026-11-14T15:43:43.135Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2121362980025872691",
+   "url": "https://x.com/srush_nlp/status/2121362980025872691",
+   "author": "srush_nlp",
+   "name": "Sasha Rush",
+   "time": "2026-11-13T22:02:02.000Z",
+   "text": "Still processing the consequences of image generation becoming \"give fable a render api\".",
+   "likes": 117,
+   "reposts": 4,
+   "replies": 9,
+   "views": 14549,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2121322127932461146",
+   "url": "https://x.com/srush_nlp/status/2121322127932461146",
+   "author": "srush_nlp",
+   "name": "Sasha Rush",
+   "time": "2026-11-13T19:19:42.000Z",
+   "text": "Lean Verified Precision (w/ \n@Robertljg\n)\n\nRecently, \"A Fix for Softmax\" demonstrated a surprising bug in the textbook softmax implementation. How do we avoid having subtle bugs in the world's most expensive software?",
+   "likes": 345,
+   "reposts": 50,
+   "replies": 12,
+   "views": 23776,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2121322129857589290",
+   "url": "https://x.com/srush_nlp/status/2121322129857589290",
+   "author": "srush_nlp",
+   "name": "Sasha Rush",
+   "time": "2026-11-13T19:19:42.000Z",
+   "text": "This bug is in theory exactly the type of thing the formal verification should be able to catch. However this case it did not catch it.",
+   "likes": 30,
+   "reposts": 1,
+   "replies": 1,
+   "views": 2358,
+   "context": "",
+   "quoted": "So the log_softmax bug https:// arxiv.org/abs/2610.31642 that's been making the rounds. TorchLean also had the same problem (fixed in https:// github.com/lean-dojo/Torc hLean/commit/f37cbc5aca8e79943b0ef0e3d3499ca9719d7c2b …). How come? This example is pretty illustrative of the proper mindset you need when working on formal verification.",
+   "card": "",
+   "links": []
+  }
+ ]
+}

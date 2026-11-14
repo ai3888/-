@@ -1,0 +1,73 @@
+{
+ "page": "https://x.com/ArtificialAnlys",
+ "collected_at": "2026-11-14T15:47:03.003Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2121595922090230033",
+   "url": "https://x.com/ArtificialAnlys/status/2121595922090230033",
+   "author": "ArtificialAnlys",
+   "name": "Artificial Analysis",
+   "time": "2026-11-14T13:27:39.000Z",
+   "text": "Decider v1.3 and Decider Flash v1.3 from Perplexity score 70 and 64, respectively, on the Artificial Analysis Decision Index v2.1\n\n\n@perplexity_ai\n has released Decider v1.3 and Decider Flash v1.3, updating their v1.2 flagship decision models. Compared to v1.2, Decider v1.3",
+   "likes": 47,
+   "reposts": 9,
+   "replies": 23,
+   "views": 11007,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2121595926200676549",
+   "url": "https://x.com/ArtificialAnlys/status/2121595926200676549",
+   "author": "ArtificialAnlys",
+   "name": "Artificial Analysis",
+   "time": "2026-11-14T13:27:40.000Z",
+   "text": "Decider v1.3 is the #4 model on AA-Paperclip (69) and #3 model on EvalSafe-O*NET-AA (89).",
+   "likes": 3,
+   "reposts": 0,
+   "replies": 1,
+   "views": 565,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2121396191024071088",
+   "url": "https://x.com/ArtificialAnlys/status/2121396191024071088",
+   "author": "ArtificialAnlys",
+   "name": "Artificial Analysis",
+   "time": "2026-11-14T00:14:00.000Z",
+   "text": "Subquadratic’s SubQ Snap 1.2 gains 5 points over SubQ Snap 1.1 on the Artificial Analysis Decision Index v2.1, and is tied with Drex Max v1.1 and GLiDE v1.2 as the leading decision model\n\nSubQ Snap 1.2 is the latest decision model from \n@subquadratic\n. Pricing is unchanged at $0.04",
+   "likes": 81,
+   "reposts": 7,
+   "replies": 14,
+   "views": 17066,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2121396193481859172",
+   "url": "https://x.com/ArtificialAnlys/status/2121396193481859172",
+   "author": "ArtificialAnlys",
+   "name": "Artificial Analysis",
+   "time": "2026-11-14T00:14:00.000Z",
+   "text": "The Decision Index scores confidence as well as correctness. A Decision Score runs from 0 (certain and wrong) to 100 (certain and right). Headline metrics such as accuracy ignore confidence and are reported separately. \n\nOn AA-Paperclip, SubQ Snap 1.2 has a Decision Score of 72",
+   "likes": 5,
+   "reposts": 0,
+   "replies": 2,
+   "views": 1863,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

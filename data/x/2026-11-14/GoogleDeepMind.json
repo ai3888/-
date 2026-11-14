@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/GoogleDeepMind",
+ "collected_at": "2026-11-14T15:42:10.186Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2121229774865527097",
+   "url": "https://x.com/GoogleDeepMind/status/2121229774865527097",
+   "author": "GoogleDeepMind",
+   "name": "Google DeepMind",
+   "time": "2026-11-13T13:12:43.000Z",
+   "text": "Accurate weather forecasting starts with how clearly we can observe the atmosphere in real-time. \n\nThat’s why we’re releasing PARDIG and SatWeave - the foundational datasets behind WeatherNext 3 - to help researchers and developers build new climate applications",
+   "likes": 644,
+   "reposts": 162,
+   "replies": 184,
+   "views": 67033,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2121229777835089974",
+   "url": "https://x.com/GoogleDeepMind/status/2121229777835089974",
+   "author": "GoogleDeepMind",
+   "name": "Google DeepMind",
+   "time": "2026-11-13T13:12:44.000Z",
+   "text": "What’s under the hood:\n PARDIG: Estimates global rainfall every 15 minutes, while improving precipitation detection skill by more than 30%.\n SatWeave: Combines several geostationary satellites into one live view of Earth’s clouds and storms every 60 minutes.",
+   "likes": 87,
+   "reposts": 8,
+   "replies": 11,
+   "views": 21426,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

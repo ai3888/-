@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/deepseek_ai",
+ "collected_at": "2026-11-14T15:42:39.776Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 7,
+ "posts": [
+  {
+   "id": "2121247896918253875",
+   "url": "https://x.com/deepseek_ai/status/2121247896918253875",
+   "author": "deepseek_ai",
+   "name": "DeepSeek",
+   "time": "2026-11-13T14:24:44.000Z",
+   "text": "The full DeepSeek App experience, now via API\n\nSearch, files, links, safety, and voice. The capabilities behind the DeepSeek App are now available through the DeepSeek API.\nEnable built-in features with a few parameters, or call standalone APIs such as OCR, ASR, and TTS. Build",
+   "likes": 10159,
+   "reposts": 1436,
+   "replies": 408,
+   "views": 941999,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2121247899699036516",
+   "url": "https://x.com/deepseek_ai/status/2121247899699036516",
+   "author": "deepseek_ai",
+   "name": "DeepSeek",
+   "time": "2026-11-13T14:24:44.000Z",
+   "text": "Built-in tools. Flexible APIs.\n\nV4.1-Flash (deepseek-flash) now supports these capabilities across Messages, Responses, and Chat Completions, with tool calls and context assembly handled server-side:\n\n Web Search: Search the web or images with citations in non-thinking mode.",
+   "likes": 532,
+   "reposts": 15,
+   "replies": 19,
+   "views": 98926,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

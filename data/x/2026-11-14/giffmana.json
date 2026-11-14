@@ -1,0 +1,57 @@
+{
+ "page": "https://x.com/giffmana",
+ "collected_at": "2026-11-14T15:43:59.950Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2121519765164364184",
+   "url": "https://x.com/giffmana/status/2121519765164364184",
+   "author": "giffmana",
+   "name": "Lucas Beyer (bl16)",
+   "time": "2026-11-14T08:25:02.000Z",
+   "text": "This is pretty fun if you like detective work. Though he doesn't make it clear, this is for the fine-tuning step if you have the starting weights.\n\nConceivably it could be combined with \n@willdepue\n trick to find the random init of pretrains, and then applied to pretraining too,",
+   "likes": 80,
+   "reposts": 2,
+   "replies": 4,
+   "views": 7318,
+   "context": "",
+   "quoted": "I am not sure how openly known this is but: you can read much of a model's training history straight from its weights. Like what? 1. which tokens were in the data 2. the LR schedule 3. the number of steps 4. and if you have the data: the step most documents were used in, the",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2121381045727859122",
+   "url": "https://x.com/giffmana/status/2121381045727859122",
+   "author": "giffmana",
+   "name": "Lucas Beyer (bl16)",
+   "time": "2026-11-13T23:13:49.000Z",
+   "text": "Last couple years I've been asked what I think about decoder-only vs encoder-decoder for multimodality, and never really given an answer.\n\nEllis and Chris take a good step towards answering that question in this study.\n\nTwo big points:\n\n(1) Recent encoder-free models like",
+   "likes": 454,
+   "reposts": 46,
+   "replies": 15,
+   "views": 22385,
+   "context": "",
+   "quoted": "Labs disagree on vision encoders for MLLMs! Gemma 4 12B scrapped the encoder. Kimi K3 dropped encoder pretraining. Inkling 2 Small revived the encoder Inkling killed. We trained 200+ models in a controlled study to settle it: Keep vision parameters, skip the pretraining.",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2121381048445542859",
+   "url": "https://x.com/giffmana/status/2121381048445542859",
+   "author": "giffmana",
+   "name": "Lucas Beyer (bl16)",
+   "time": "2026-11-13T23:13:49.000Z",
+   "text": "Ellis' thread: \nhttps://\nx.com/_ellisbrown/st\natus/2121335477244428419\n…\n\nI like the In-Fusion variant!\n\nIt's a really well done study, but limitations remain: it's dense-only (no moe/ssm), it's pretrain+instruction-tune only (no rl), it's only scaled to single-digit B, it's fixed resolution (no naflex).",
+   "likes": 30,
+   "reposts": 4,
+   "replies": 2,
+   "views": 3214,
+   "context": "",
+   "quoted": "how should multimodal models encode visual input? → pretrained encoder? → encoder-free? → before the LLM? published models bundle these choices together. we trained 200+ models from scratch to see which of these choices matters only one of them does [1/n]",
+   "card": "",
+   "links": []
+  }
+ ]
+}

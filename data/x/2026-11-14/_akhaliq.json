@@ -1,0 +1,45 @@
+{
+ "page": "https://x.com/_akhaliq",
+ "collected_at": "2026-11-14T15:45:17.078Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2121393022353215679",
+   "url": "https://x.com/_akhaliq/status/2121393022353215679",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-14T00:01:24.000Z",
+   "text": "Budget3D\n\nImage-to-3D Generation at Any Token Budget\n\nHF: \nhttps://\nhuggingface.co/BudgetAny",
+   "likes": 327,
+   "reposts": 23,
+   "replies": 8,
+   "views": 23124,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/BudgetAny"
+   ]
+  },
+  {
+   "id": "2121293765889663321",
+   "url": "https://x.com/_akhaliq/status/2121293765889663321",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-13T17:27:00.000Z",
+   "text": "G-STAR\n\nGroup-Scaled Token Capacity for Deeply Compressed Autoregressive Generation\n\npaper: \nhttps://\nhuggingface.co/papers/2611.13\n004\n…",
+   "likes": 34,
+   "reposts": 2,
+   "replies": 7,
+   "views": 13184,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/papers/2611.13 004 …"
+   ]
+  }
+ ]
+}

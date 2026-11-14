@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/sainingxie",
+ "collected_at": "2026-11-14T15:44:46.350Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2121339807708193218",
+   "url": "https://x.com/sainingxie/status/2121339807708193218",
+   "author": "sainingxie",
+   "name": "Saining Xie",
+   "time": "2026-11-13T20:29:57.000Z",
+   "text": "before hopping on the ‘encoder-free’ hype train, think twice.",
+   "likes": 306,
+   "reposts": 36,
+   "replies": 7,
+   "views": 18248,
+   "context": "",
+   "quoted": "how should multimodal models encode visual input? → pretrained encoder? → encoder-free? → before the LLM? published models bundle these choices together. we trained 200+ models from scratch to see which of these choices matters only one of them does [1/n]",
+   "card": "",
+   "links": []
+  }
+ ]
+}

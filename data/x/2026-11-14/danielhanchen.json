@@ -1,0 +1,43 @@
+{
+ "page": "https://x.com/danielhanchen",
+ "collected_at": "2026-11-14T15:46:08.797Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2121429376869007854",
+   "url": "https://x.com/danielhanchen/status/2121429376869007854",
+   "author": "danielhanchen",
+   "name": "Daniel Han",
+   "time": "2026-11-14T02:25:52.000Z",
+   "text": "To enable MoE offloading with a LRU cache in llama.cpp:\n\n--moe-cache-mib N\n\nSet --moe-cache-mib to some amount of your GPU VRAM  in MiB. In Unsloth's llama.cpp prebuilt we have an \"auto\" option which will auto size it.\n\nSee \nhttps://\ngithub.com/ggml-org/llama\n.cpp/blob/master/tools/server/README.md\n…",
+   "likes": 158,
+   "reposts": 10,
+   "replies": 8,
+   "views": 6305,
+   "context": "",
+   "quoted": "Local AI wouldn't be here without llama.cpp. Congrats to v1! Llama.cpp also now also has MoE offloading and MoE smart LRU caching, so large MoEs which can't fit in VRAM can still be fast! x.com/ggerganov/stat…",
+   "card": "",
+   "links": [
+    "https:// github.com/ggml-org/llama .cpp/blob/master/tools/server/README.md …"
+   ]
+  },
+  {
+   "id": "2121262960291307669",
+   "url": "https://x.com/danielhanchen/status/2121262960291307669",
+   "author": "danielhanchen",
+   "name": "Daniel Han",
+   "time": "2026-11-13T15:24:35.000Z",
+   "text": "Local AI wouldn't be here without llama.cpp. Congrats to v1!\n\nLlama.cpp also now also has MoE offloading and MoE smart LRU caching, so large MoEs which can't fit in VRAM can still be fast!",
+   "likes": 372,
+   "reposts": 34,
+   "replies": 20,
+   "views": 17109,
+   "context": "",
+   "quoted": "llama.cpp v1.0.0 is now available https:// huggingface.co/blog/ggml-org/ llama-cpp-v1 …",
+   "card": "",
+   "links": []
+  }
+ ]
+}

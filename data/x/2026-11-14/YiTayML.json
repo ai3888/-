@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/YiTayML",
+ "collected_at": "2026-11-14T15:44:07.940Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2121450992210505766",
+   "url": "https://x.com/YiTayML/status/2121450992210505766",
+   "author": "YiTayML",
+   "name": "Yi Tay",
+   "time": "2026-11-14T03:51:45.000Z",
+   "text": "",
+   "likes": 25,
+   "reposts": 1,
+   "replies": 2,
+   "views": 3265,
+   "context": "",
+   "quoted": "What we shipped this week @google Monday: Two new 8th-gen TPUs Tuesday: Gemini 4 Carbon - AlphaProof Code verified Signal protocol - Gemini Robotics 2.5 Wednesday: AlphaGenome 2 for disease research - Gemini Decisions API in AI Studio Thursday: Gemini 4 Hydrogen - intelligent",
+   "card": "",
+   "links": []
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/EpochAIResearch",
+ "collected_at": "2026-11-14T15:46:51.974Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2121350654329524659",
+   "url": "https://x.com/EpochAIResearch/status/2121350654329524659",
+   "author": "EpochAIResearch",
+   "name": "Epoch AI",
+   "time": "2026-11-13T21:13:03.000Z",
+   "text": "In late October, three events occurred during alignment evals run by Trajectory Labs, PBC (Trajectory) in which AI agents — identified by Trajectory as publicly available frontier models — interacted with Epoch employees and the Epoch website. Trajectory is an organization that",
+   "likes": 289,
+   "reposts": 49,
+   "replies": 31,
+   "views": 39874,
+   "context": "",
+   "quoted": "",
+   "card": "AI agents attempted exploits on our website",
+   "links": []
+  }
+ ]
+}

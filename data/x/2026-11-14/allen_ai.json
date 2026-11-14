@@ -1,0 +1,43 @@
+{
+ "page": "https://x.com/allen_ai",
+ "collected_at": "2026-11-14T15:42:32.931Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2121294715941277777",
+   "url": "https://x.com/allen_ai/status/2121294715941277777",
+   "author": "allen_ai",
+   "name": "Ai2",
+   "time": "2026-11-13T17:30:46.000Z",
+   "text": "Asking how to thicken frosting sliding off warm cupcakes?  Let them cool first! \n\nThat’s the XY problem: seeking a fix that misses the real issue. XYBench tests whether LLMs spot & address it. \n\n It won the Best Resource Award at EMNLP 2026! \n\n\nhttps://\ngithub.com/allenai/XYBench",
+   "likes": 15,
+   "reposts": 3,
+   "replies": 3,
+   "views": 2566,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/allenai/XYBench"
+   ]
+  },
+  {
+   "id": "2121294717308502263",
+   "url": "https://x.com/allen_ai/status/2121294717308502263",
+   "author": "allen_ai",
+   "name": "Ai2",
+   "time": "2026-11-13T17:30:47.000Z",
+   "text": "LLMs are getting better at following instructions & responding to questions that users ask. \n\nBut truly useful LLMs need to be able to help users who ask misguided questions—not just users who ask the right question with the right amount of detail.",
+   "likes": 4,
+   "reposts": 0,
+   "replies": 1,
+   "views": 366,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

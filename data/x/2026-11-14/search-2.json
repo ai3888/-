@@ -1,0 +1,131 @@
+{
+ "page": "https://x.com/search?q=url%3Ahuggingface.co%20min_faves%3A100%20-filter%3Areplies%20since%3A2026-11-13&src=typed_query",
+ "collected_at": "2026-11-14T15:48:10.696Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 9,
+ "posts": [
+  {
+   "id": "2121246103312212124",
+   "url": "https://x.com/ggerganov/status/2121246103312212124",
+   "author": "ggerganov",
+   "name": "Georgi Gerganov",
+   "time": "2026-11-13T14:17:36.000Z",
+   "text": "llama.cpp 1.0.0 版本现已发布！",
+   "likes": 4258,
+   "reposts": 911,
+   "replies": 209,
+   "views": 324843,
+   "context": "",
+   "quoted": "",
+   "card": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+   "links": []
+  },
+  {
+   "id": "2121393022353215679",
+   "url": "https://x.com/_akhaliq/status/2121393022353215679",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-14T00:01:24.000Z",
+   "text": "Budget3D\n\nImage-to-3D Generation at Any Token Budget\n\nHF: \nhttps://\nhuggingface.co/BudgetAny",
+   "likes": 328,
+   "reposts": 23,
+   "replies": 8,
+   "views": 23224,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/BudgetAny"
+   ]
+  },
+  {
+   "id": "2121247873832468796",
+   "url": "https://x.com/mervenoyann/status/2121247873832468796",
+   "author": "mervenoyann",
+   "name": "merve",
+   "time": "2026-11-13T14:24:38.000Z",
+   "text": "today, llama.cpp releases v1  \n\nllama.cpp team commits to keep covering every platform and every model, while keeping the platform robust and lean for everyone that builds on it \n\nread more about the release here \nhttps://\nhuggingface.co/blog/ggml-org/\nllama-cpp-v1\n…",
+   "likes": 408,
+   "reposts": 48,
+   "replies": 33,
+   "views": 18089,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/blog/ggml-org/ llama-cpp-v1 …"
+   ]
+  },
+  {
+   "id": "2121270590304813225",
+   "url": "https://x.com/SergioPaniego/status/2121270590304813225",
+   "author": "SergioPaniego",
+   "name": "Sergio Paniego",
+   "time": "2026-11-13T15:54:54.000Z",
+   "text": "AsyncGRPOTrainer is now stable in TRL v1.18.0!\n\ngeneration and training run at the same time on separate GPUs, instead of taking turns\n\nwe wrote up how to run it, what you can train with it and how it compares with GRPOTrainer: \nhttps://\nhuggingface.co/spaces/trl-lib\n/async-grpo-stable\n…",
+   "likes": 161,
+   "reposts": 18,
+   "replies": 10,
+   "views": 11691,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/spaces/trl-lib /async-grpo-stable …"
+   ]
+  },
+  {
+   "id": "2121373897991847985",
+   "url": "https://x.com/wildmindai/status/2121373897991847985",
+   "author": "wildmindai",
+   "name": "Wildminder",
+   "time": "2026-11-13T22:45:25.000Z",
+   "text": "MiniMax Image HDR VAE\nkeeps high-frequency details instead of smoothing them into mush. \n\nTested across color, sharpness, and gradient energy. \nGood upgrade for image reconstruction workflows.\n\n\nhttps://\nhuggingface.co/Felldude/MiniM\naxImage_hdr_diffusers_vae\n…",
+   "likes": 134,
+   "reposts": 13,
+   "replies": 3,
+   "views": 7015,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/Felldude/MiniM axImage_hdr_diffusers_vae …"
+   ]
+  },
+  {
+   "id": "2121430822884606414",
+   "url": "https://x.com/HeLi8866/status/2121430822884606414",
+   "author": "HeLi8866",
+   "name": "何笠聊 AI",
+   "time": "2026-11-14T02:31:37.000Z",
+   "text": "Here are 5 uncensored AI models you can run locally with just 8 to 12 GB of RAM\n\nAll can be downloaded for free and run offline.\n\n1. Qwen3.5-9B Uncensored (HauhauCS Aggressive)\n\n\nhttps://\nhuggingface.co/HauhauCS/Qwen3\n.5-9B-Uncensored-HauhauCS-Aggressive\n…\n\n2. DeepSeek-V4-Pro-Qwen3.5-9B decensored heretic version",
+   "likes": 108,
+   "reposts": 13,
+   "replies": 2,
+   "views": 5583,
+   "context": "",
+   "quoted": "",
+   "card": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive · Hugging Face",
+   "links": [
+    "https:// huggingface.co/HauhauCS/Qwen3 .5-9B-Uncensored-HauhauCS-Aggressive …"
+   ]
+  },
+  {
+   "id": "2121515158686384584",
+   "url": "https://x.com/SD_Tutorial/status/2121515158686384584",
+   "author": "SD_Tutorial",
+   "name": "Stable Diffusion Tutorials",
+   "time": "2026-11-14T08:06:44.000Z",
+   "text": "Minimax H3 Image comfy workflows\nfor 8GB, 12GB, 16GB VRAMs",
+   "likes": 257,
+   "reposts": 19,
+   "replies": 4,
+   "views": 13899,
+   "context": "",
+   "quoted": "",
+   "card": "vyrekai/minimax-h3-image-comfyui-workflows · Hugging Face",
+   "links": []
+  }
+ ]
+}

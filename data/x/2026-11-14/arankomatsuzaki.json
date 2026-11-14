@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/arankomatsuzaki",
+ "collected_at": "2026-11-14T15:45:30.041Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2121386331842699530",
+   "url": "https://x.com/arankomatsuzaki/status/2121386331842699530",
+   "author": "arankomatsuzaki",
+   "name": "Aran Komatsuzaki",
+   "time": "2026-11-13T23:34:49.000Z",
+   "text": "The decision model landscape is heating up, with models getting better every week. \n\nStill, Drex Max remains on top of the AA index a week after the paper, with competitive pricing and a clear lead over Jev (72.6 vs 66.2). \n\nKudos to the team.",
+   "likes": 15,
+   "reposts": 2,
+   "replies": 6,
+   "views": 5257,
+   "context": "",
+   "quoted": "This week, Drex Max v1.1 is the #1 decision model on the @ArtificialAnlys Decision Index, out of 19, and on the Pareto frontier 72.6, above Jev 1.14, Claude Haiku 5.5 and GPT-6 Luna, on an index where 45% of the evaluation data is fully private and out of distribution. $103",
+   "card": "",
+   "links": []
+  }
+ ]
+}

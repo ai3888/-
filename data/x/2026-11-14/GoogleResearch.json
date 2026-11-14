@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/GoogleResearch",
+ "collected_at": "2026-11-14T15:42:17.611Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2121346001286083058",
+   "url": "https://x.com/GoogleResearch/status/2121346001286083058",
+   "author": "GoogleResearch",
+   "name": "Google Research",
+   "time": "2026-11-13T20:54:34.000Z",
+   "text": "Today, we are sharing new breakthroughs from our Antigravity’s /teamwork multi-agent systems. Through ongoing collaboration with academic partners, our agents continue to solve open problems across mathematics, chemistry, systems software, and ML engineering. We are now making",
+   "likes": 696,
+   "reposts": 73,
+   "replies": 26,
+   "views": 36163,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2121319341316792405",
+   "url": "https://x.com/GoogleResearch/status/2121319341316792405",
+   "author": "GoogleResearch",
+   "name": "Google Research",
+   "time": "2026-11-13T19:08:37.000Z",
+   "text": "We brought researchers from \n@GoogleResearch\n and \n@GoogleDeepMind\n to \n@Cambridge_Uni\n for AI Research Inspiration Day to test frontier tools against real lab bottlenecks.\n\nWe asked researchers and AI experts for their perspectives: from scaling multi-agent swarms that explore vast",
+   "likes": 65,
+   "reposts": 13,
+   "replies": 5,
+   "views": 4945,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

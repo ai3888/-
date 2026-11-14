@@ -1,0 +1,43 @@
+{
+ "page": "https://x.com/AnthropicAI",
+ "collected_at": "2026-11-14T15:42:00.315Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2121317227618340990",
+   "url": "https://x.com/AnthropicAI/status/2121317227618340990",
+   "author": "AnthropicAI",
+   "name": "Anthropic",
+   "time": "2026-11-13T19:00:13.000Z",
+   "text": "Safety evaluations are critical for understanding whether a model is ready to deploy, which safeguards to build for it, and where to focus training and research.\n\nOn our Engineering Blog, we offer 10 recommendations for how to design, run and report them.",
+   "likes": 1982,
+   "reposts": 290,
+   "replies": 394,
+   "views": 200181,
+   "context": "",
+   "quoted": "",
+   "card": "Building strong safety evaluations",
+   "links": []
+  },
+  {
+   "id": "2121272083863011714",
+   "url": "https://x.com/AnthropicAI/status/2121272083863011714",
+   "author": "AnthropicAI",
+   "name": "Anthropic",
+   "time": "2026-11-13T16:00:50.000Z",
+   "text": "Streaming live at 12 PM ET: A fireside chat with JPMorgan CEO Jamie Dimon and \n@DarioAmodei\n. \nhttps://\nyoutube.com/live/YHEaEpeY3\new\n…\n \nLegal disclaimer: Anthropic has filed a registration statement (including a prospectus) with the SEC for the offering to which this communication relates. Before",
+   "likes": 2149,
+   "reposts": 241,
+   "replies": 246,
+   "views": 358143,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// youtube.com/live/YHEaEpeY3 ew …"
+   ]
+  }
+ ]
+}

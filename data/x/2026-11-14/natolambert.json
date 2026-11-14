@@ -1,0 +1,75 @@
+{
+ "page": "https://x.com/natolambert",
+ "collected_at": "2026-11-14T15:44:14.746Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2121581040972255257",
+   "url": "https://x.com/natolambert/status/2121581040972255257",
+   "author": "natolambert",
+   "name": "Nathan Lambert",
+   "time": "2026-11-14T12:28:31.000Z",
+   "text": "The open model world faces two main challenges in a post-Jensen world:\n1. Political exposure. Open models’ allies are retreating in DC.\n2. Investment. Open model builders need to find profitable products far sooner w/o his backstop.\n\nWill feel it sooner than people expect.",
+   "likes": 87,
+   "reposts": 14,
+   "replies": 3,
+   "views": 9622,
+   "context": "Pinned",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2121584086263201848",
+   "url": "https://x.com/natolambert/status/2121584086263201848",
+   "author": "natolambert",
+   "name": "Nathan Lambert",
+   "time": "2026-11-14T12:40:37.000Z",
+   "text": "It's easy to not realize how much of a messy, decentralized beast the open models / open source AI community is. Jensen held it together.",
+   "likes": 48,
+   "reposts": 4,
+   "replies": 1,
+   "views": 4072,
+   "context": "",
+   "quoted": "The open model world faces two main challenges in a post-Jensen world: 1. Political exposure. Open models’ allies are retreating in DC. 2. Investment. Open model builders need to find profitable products far sooner w/o his backstop. Will feel it sooner than people expect.",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2121569437962678623",
+   "url": "https://x.com/natolambert/status/2121569437962678623",
+   "author": "natolambert",
+   "name": "Nathan Lambert",
+   "time": "2026-11-14T11:42:25.000Z",
+   "text": "I don't agree with Dwarkesh on everything here, but he does a very good job and I'm glad to get to challenge my ideas studying his work.\n\nE.g. nice to see his update on continual learning mostly being \"fine\" with in-context learning! Hopefully this post helped ;)",
+   "likes": 198,
+   "reposts": 8,
+   "replies": 4,
+   "views": 12376,
+   "context": "",
+   "quoted": "The avalanche that hit math is coming for AI development. https:// dwarkesh.com/p/rsi",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2121569440567291981",
+   "url": "https://x.com/natolambert/status/2121569440567291981",
+   "author": "natolambert",
+   "name": "Nathan Lambert",
+   "time": "2026-11-14T11:42:26.000Z",
+   "text": "(the post: \nhttps://\ninterconnects.ai/p/contra-dwark\nesh-on-continual-learning\n…)\n\nStill, going forward I expect to make some wrong calls that he gets right. Trying to figure out which details of RSI look like the continual learning debate of last year. We'll have the answers soon!",
+   "likes": 9,
+   "reposts": 1,
+   "replies": 0,
+   "views": 2212,
+   "context": "",
+   "quoted": "",
+   "card": "Contra Dwarkesh on Continual Learning",
+   "links": [
+    "https:// interconnects.ai/p/contra-dwark esh-on-continual-learning …"
+   ]
+  }
+ ]
+}

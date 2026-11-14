@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/ggerganov",
+ "collected_at": "2026-11-14T15:46:20.546Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2121246103312212124",
+   "url": "https://x.com/ggerganov/status/2121246103312212124",
+   "author": "ggerganov",
+   "name": "Georgi Gerganov",
+   "time": "2026-11-13T14:17:36.000Z",
+   "text": "llama.cpp v1.0.0 is now available",
+   "likes": 4258,
+   "reposts": 911,
+   "replies": 209,
+   "views": 324598,
+   "context": "Pinned",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

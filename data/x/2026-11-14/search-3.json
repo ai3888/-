@@ -1,0 +1,98 @@
+{
+ "page": "https://x.com/search?q=url%3Agithub.com%20(LLM%20OR%20agent%20OR%20model%20OR%20inference%20OR%20training)%20min_faves%3A200%20-filter%3Areplies%20since%3A2026-11-13&src=typed_query",
+ "collected_at": "2026-11-14T15:48:19.695Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2121340063254556890",
+   "url": "https://x.com/e1genqq/status/2121340063254556890",
+   "author": "e1genqq",
+   "name": "eigen",
+   "time": "2026-11-13T20:30:58.000Z",
+   "text": "HOLY F*CK, animation design studio in 18 repos.\n\n18 free open-source skills for Opus 5.5.\n\nScenes. Timelines. Vectors. Particles. Export.\n\n01 Remotion Skills → Agent guidance for video.\n\nhttps://\ngithub.com/remotion-dev/s\nkills\n…\n\n02 Motion Canvas → Animated explainers. \nhttps://\ngithub.com/motion-canvas/\nmotion-canvas\n…",
+   "likes": 1424,
+   "reposts": 156,
+   "replies": 21,
+   "views": 87617,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/remotion-dev/s kills …",
+    "https:// github.com/motion-canvas/ motion-canvas …"
+   ]
+  },
+  {
+   "id": "2121358945721717132",
+   "url": "https://x.com/kedaya/status/2121358945721717132",
+   "author": "kedaya",
+   "name": "AI 百球哥",
+   "time": "2026-11-13T21:46:00.000Z",
+   "text": "Chrome DevTools has officially entered the game: it released an MCP that lets coding agents directly control the browser for debugging. Before, agents could only guess from screenshots; now they can access the actual DOM, network requests, and console. This repo is already",
+   "likes": 622,
+   "reposts": 68,
+   "replies": 65,
+   "views": 60340,
+   "context": "",
+   "quoted": "",
+   "card": "GitHub - ChromeDevTools/chrome-devtools-mcp: Chrome DevTools for coding agents",
+   "links": []
+  },
+  {
+   "id": "2121309328556921252",
+   "url": "https://x.com/QwenAIFans/status/2121309328556921252",
+   "author": "QwenAIFans",
+   "name": "Qwen AI Fans",
+   "time": "2026-11-13T18:28:50.000Z",
+   "text": "Qwen3.5-9B is writing Python on a PS4 at 40.6 tokens a second, on the console's own GPU, offline.\n\nThen the PlayStation runs the code it just wrote.\n\nvia Leonardo Alegría \n\nhttps://\ngithub.com/leonardo-alegr\nia/garlic-llm\n…",
+   "likes": 218,
+   "reposts": 19,
+   "replies": 9,
+   "views": 9705,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/leonardo-alegr ia/garlic-llm …"
+   ]
+  },
+  {
+   "id": "2121216542574567842",
+   "url": "https://x.com/flxrnc/status/2121216542574567842",
+   "author": "flxrnc",
+   "name": "Florence",
+   "time": "2026-11-13T12:20:08.000Z",
+   "text": "Fable 5.2 can copy any animation you see with these 15 repos\n\nRea-Video. Lemo-Opuscar. EffectCraft. PixelFX. Remotion.\n\n99 film styles, 244 effects and 703 prompts in one list\n\nEvery repo below costs $0:\n\nRea-Video → breaks down any video and rebuilds it\n\nhttps://\ngithub.com/JuneYaooo/rea-\nvideo\n…",
+   "likes": 841,
+   "reposts": 92,
+   "replies": 11,
+   "views": 33135,
+   "context": "",
+   "quoted": "Fable 5.2 can make a film from one prompt Most of those films will be forgotten in a day A longer prompt won't save them, the problem is how you direct it I broke down 9 lessons from 40 finished films, with every prompt, setting and number ↓",
+   "card": "",
+   "links": [
+    "https:// github.com/JuneYaooo/rea- video …"
+   ]
+  },
+  {
+   "id": "2121271025388400943",
+   "url": "https://x.com/u1/status/2121271025388400943",
+   "author": "u1",
+   "name": "Yuichi Uemura",
+   "time": "2026-11-13T15:56:38.000Z",
+   "text": "Published it as a plugin for the first time in a while. I'll keep adding to it here going forward.\nIt will now prioritize rendering both technical and business diagrams.\n\n\nhttps://\ngithub.com/u-ichi/agent-p\nlugins\n…",
+   "likes": 299,
+   "reposts": 20,
+   "replies": 2,
+   "views": 17700,
+   "context": "",
+   "quoted": "I'm trying importing 93 sample diagrams as SVGs and setting them up so I can use them as needed. x.com/u1/status/2120…",
+   "card": "",
+   "links": [
+    "https:// github.com/u-ichi/agent-p lugins …"
+   ]
+  }
+ ]
+}

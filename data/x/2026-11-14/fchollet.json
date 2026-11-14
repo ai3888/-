@@ -1,0 +1,57 @@
+{
+ "page": "https://x.com/fchollet",
+ "collected_at": "2026-11-14T15:44:39.694Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2121376661652590608",
+   "url": "https://x.com/fchollet/status/2121376661652590608",
+   "author": "fchollet",
+   "name": "François Chollet",
+   "time": "2026-11-13T22:56:24.000Z",
+   "text": "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ…",
+   "likes": 5,
+   "reposts": 0,
+   "replies": 0,
+   "views": 0,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2121368607318065639",
+   "url": "https://x.com/fchollet/status/2121368607318065639",
+   "author": "fchollet",
+   "name": "François Chollet",
+   "time": "2026-11-13T22:24:23.000Z",
+   "text": "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ…",
+   "likes": 5,
+   "reposts": 0,
+   "replies": 1,
+   "views": 0,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2121324900166361143",
+   "url": "https://x.com/fchollet/status/2121324900166361143",
+   "author": "fchollet",
+   "name": "François Chollet",
+   "time": "2026-11-13T19:30:43.000Z",
+   "text": "Some people make a big show of being humble, wielding conspicuous humility as a status symbol. I'm pretty sure that's not how humility works.",
+   "likes": 289,
+   "reposts": 28,
+   "replies": 37,
+   "views": 38653,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

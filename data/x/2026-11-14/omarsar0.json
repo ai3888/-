@@ -1,0 +1,73 @@
+{
+ "page": "https://x.com/omarsar0",
+ "collected_at": "2026-11-14T15:45:40.641Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2121277499673895121",
+   "url": "https://x.com/omarsar0/status/2121277499673895121",
+   "author": "omarsar0",
+   "name": "elvis",
+   "time": "2026-11-13T16:22:22.000Z",
+   "text": "Introducing our new AI Paper Collections.\n\nYou can now track highly recommended papers and tools for harness engineering and recursive self-improvement. \n\nUpdates daily! Built on our in-house paper curation tools. \n\nYou can also chat with the papers via our paper chat tool or MCP",
+   "likes": 141,
+   "reposts": 21,
+   "replies": 19,
+   "views": 12734,
+   "context": "Pinned",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2121610612040220832",
+   "url": "https://x.com/omarsar0/status/2121610612040220832",
+   "author": "omarsar0",
+   "name": "elvis",
+   "time": "2026-11-14T14:26:02.000Z",
+   "text": "Interesting insights about agent memory.\n\nThe bottom line is that you can't just rely on semantic relevance when picking memories.\n\nMost approaches pick the memory most similar to an agent's current state. But does that help it pick the next action?\n\nThis work claims it often",
+   "likes": 49,
+   "reposts": 7,
+   "replies": 33,
+   "views": 3483,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2121345052635013236",
+   "url": "https://x.com/omarsar0/status/2121345052635013236",
+   "author": "omarsar0",
+   "name": "elvis",
+   "time": "2026-11-13T20:50:47.000Z",
+   "text": "Very impressed by this. In the harness world, you often don't get the performance you need when you try to maximize efficiency and speed. Looks like Reason is unlocking both. \n\nThe app is also well-built. Worth a try.",
+   "likes": 25,
+   "reposts": 2,
+   "replies": 11,
+   "views": 8387,
+   "context": "",
+   "quoted": "Frontier coding performance at up to 20x lower cost. Introducing the world’s most cost-efficient harness: Reason Stop burning thousands on runaway agent bills. Reason outperforms top harnesses on Terminal-Bench and DeepSWE while dropping cost per task to a fraction of the",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2121335666457944226",
+   "url": "https://x.com/omarsar0/status/2121335666457944226",
+   "author": "omarsar0",
+   "name": "elvis",
+   "time": "2026-11-13T20:13:30.000Z",
+   "text": "Highly recommended read.\n\nMy notes:\n\nI have recently started independent research on co-evolved models. My focus has been on co-evolving models and harnesses. \n\nThis work focuses on memory writing specifically for continual learning.\n\nWhy is this a big deal?\n\nAs you work with an",
+   "likes": 123,
+   "reposts": 9,
+   "replies": 29,
+   "views": 9273,
+   "context": "",
+   "quoted": "How can we train LLMs to write memories from experience collected on the fly to as best as possible solve the next task, i.e., optimize for both capability and \"continual learning\" ability? In our new post, we study this question in the setting continual learning over a sequence",
+   "card": "",
+   "links": []
+  }
+ ]
+}
