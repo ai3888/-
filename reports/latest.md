@@ -1,130 +1,130 @@
-# GitHub 项目雷达 · 2026-11-13
+# GitHub 项目雷达 · 2026-11-14
 
-> 搜到 619 个候选 → 过滤后 365 个 → 详细检查 40 个 → 入选 15 个
+> 搜到 617 个候选 → 过滤后 364 个 → 详细检查 40 个 → 入选 15 个
 
 ## 🚀 潜力股（新项目、涨得快）
 
-### [storytold/photocraft](https://github.com/storytold/photocraft) · 100 分
+### [openfilm/openfilm](https://github.com/openfilm/openfilm) · 100 分
 
-⭐ 79,008（+223/天） · 🍴 13,967 · 👥 589 位贡献者 · 📝 30 天 9928 次提交 · Rust · Apache-2.0 · 创建 43 天
+⭐ 6,629（+165.7/天，平均） · 🍴 634 · 👥 30 位贡献者 · 📝 30 天 231 次提交 · TypeScript · MIT · 创建 40 天
 
-> PhotoCraft: An open-source photo editor written from scratch in pure Rust
-
-<sub>来源：近 90 天新项目</sub>
-
-### [storytold/pdfcraft](https://github.com/storytold/pdfcraft) · 100 分
-
-⭐ 20,523（+95/天） · 🍴 7,532 · 👥 371 位贡献者 · 📝 30 天 5394 次提交 · Rust · Apache-2.0 · 创建 43 天
-
-> PdfCraft: An open-source PDF reader and editor written from scratch in pure Rust
-
-<sub>来源：近 90 天新项目</sub>
-
-### [storytold/filmcraft](https://github.com/storytold/filmcraft) · 100 分
-
-⭐ 18,162（+78/天） · 🍴 7,400 · 👥 214 位贡献者 · 📝 30 天 1795 次提交 · Rust · Apache-2.0 · 创建 43 天
-
-> FilmCraft: An open-source, nonlinear video editor written from scratch in pure Rust
-
-<sub>来源：近 90 天新项目</sub>
-
-### [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) · 100 分
-
-⭐ 11,676（+558/天） · 🍴 1,442 · 👥 58 位贡献者 · 📝 30 天 573 次提交 · TypeScript · MIT · 创建 88 天
-
-> Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.
-
-<sub>来源：近 90 天新项目</sub>
-
-### [Edge0-AI/Edge0](https://github.com/Edge0-AI/Edge0) · 99 分
-
-⭐ 10,367（+316/天） · 🍴 1,575 · 👥 17 位贡献者 · 📝 30 天 66 次提交 · C++ · Apache-2.0 · 创建 65 天
-
-> Device-native foundation models: 145B on a laptop, 35B on a phone. Latent MoE, SSD-streamed weights, a router that predicts loads a step ahead. Mac, iPhone, Android, Windows.
-
-<sub>来源：近 90 天新项目</sub>
-
-### [simbasjungles/free-my-tv](https://github.com/simbasjungles/free-my-tv) · 98 分
-
-⭐ 6,322（+41/天） · 🍴 1,109 · 👥 123 位贡献者 · 📝 30 天 803 次提交 · Java · MIT · 创建 24 天
-
-> A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.
-
-<sub>来源：近 90 天新项目</sub>
-
-### [storytold/lightcraft](https://github.com/storytold/lightcraft) · 95 分
-
-⭐ 15,895（+30/天） · 🍴 6,071 · 👥 252 位贡献者 · 📝 30 天 2655 次提交 · Rust · Apache-2.0 · 创建 43 天
-
-> LightCraft: An open-source non-destructive photo editor written from scratch in pure Rust
+> The open source AI video agent: turns any coding agent into a video agent, with an editor to change anything it makes.
 
 <sub>来源：近 90 天新项目</sub>
 
 ## 👀 值得关注
 
-### [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) · 100 分
+### [affaan-m/ECC](https://github.com/affaan-m/ECC) · 100 分
 
-⭐ 279,899（+781/天） · 🍴 34,480 · 👥 69 位贡献者 · 📝 30 天 4340 次提交 · TypeScript · MIT · 创建 91 天
+⭐ 302,498（+441/天） · 🍴 44,621 · 👥 478 位贡献者 · 📝 30 天 387 次提交 · JavaScript · MIT · 创建 300 天
 
-> DeepSeek Harness: Everything is a Plugin.
+> The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
 
-<sub>来源：AI Agent</sub>
+<sub>来源：LLM、AI Agent、开发者工具、MCP</sub>
 
-### [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) · 100 分
+### [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) · 100 分
 
-⭐ 21,764（+459/天） · 🍴 3,030 · 👥 256 位贡献者 · 📝 30 天 5637 次提交 · TypeScript · Apache-2.0 · 创建 93 天
+⭐ 263,234（+242/天） · 🍴 59,291 · 👥 6355 位贡献者 · 📝 30 天 17147 次提交 · Python · MIT · 创建 479 天
 
-> Open-source Grok Bot alternative with a virtual machine that bots can use
-
-<sub>来源：AI Agent、自部署</sub>
-
-### [QuantumNous/new-api](https://github.com/QuantumNous/new-api) · 100 分
-
-⭐ 51,841（+62/天） · 🍴 12,642 · 👥 361 位贡献者 · 📝 30 天 142 次提交 · Go · AGPL-3.0 · 创建 1098 天
-
-> Open-source AI gateway. Self-hosted LLM gateway with OpenAI-, Claude- and Gemini-compatible APIs, model routing, access control, usage tracking and cost accounting.
-
-<sub>来源：自部署</sub>
-
-### [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) · 100 分
-
-⭐ 21,122（+135/天） · 🍴 2,858 · 👥 128 位贡献者 · 📝 30 天 739 次提交 · JavaScript · AGPL-3.0 · 创建 117 天
-
-> Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines, log workouts, see which muscles are trained, import from Strong/Hevy/FitNotes. Self-host it or use it on the phone alone.
-
-<sub>来源：自部署、MCP</sub>
-
-### [semantica-agi/semantica](https://github.com/semantica-agi/semantica) · 98 分
-
-⭐ 14,579（+41/天） · 🍴 1,721 · 👥 154 位贡献者 · 📝 30 天 117 次提交 · Python · MIT · 创建 505 天
-
-> Graph-Native Infrastructure for Context and Accountable AI Systems
-
-<sub>来源：开发者工具</sub>
-
-### [jundot/omlx](https://github.com/jundot/omlx) · 98 分
-
-⭐ 23,584（+44/天） · 🍴 2,125 · 👥 361 位贡献者 · 📝 30 天 492 次提交 · Python · Apache-2.0 · 创建 272 天
-
-> LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar
-
-<sub>来源：LLM</sub>
-
-### [hypit-ai/hypit](https://github.com/hypit-ai/hypit) · 95 分
-
-⭐ 29,559（+151/天） · 🍴 3,450 · 👥 24 位贡献者 · 📝 30 天 13 次提交 · TypeScript · NOASSERTION · 创建 106 天
-
-> Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views.
+> The agent that grows with you
 
 <sub>来源：LLM、AI Agent</sub>
 
-### [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) · 95 分
+### [ollama/ollama](https://github.com/ollama/ollama) · 100 分
 
-⭐ 5,638（+111/天） · 🍴 863 · 👥 11 位贡献者 · 📝 30 天 30 次提交 · Python · MIT · 创建 191 天
+⭐ 186,903（+79/天） · 🍴 19,071 · 👥 630 位贡献者 · 📝 30 天 98 次提交 · Go · MIT · 创建 1236 天
 
-> A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.
+> Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
 
-<sub>来源：Claude Skill</sub>
+<sub>来源：LLM</sub>
+
+### [open-webui/open-webui](https://github.com/open-webui/open-webui) · 100 分
+
+⭐ 158,593（+80/天） · 🍴 23,057 · 👥 893 位贡献者 · 📝 30 天 1086 次提交 · Svelte · NOASSERTION · 创建 1134 天
+
+> User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
+
+<sub>来源：LLM、自部署、MCP</sub>
+
+### [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) · 100 分
+
+⭐ 147,317（+511/天） · 🍴 14,121 · 👥 414 位贡献者 · 📝 30 天 635 次提交 · Python · Apache-2.0 · 创建 224 天
+
+> Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.
+
+<sub>来源：LLM、AI Agent、开发者工具、MCP</sub>
+
+### [paperclipai/paperclip](https://github.com/paperclipai/paperclip) · 100 分
+
+⭐ 113,721（+290/天） · 🍴 18,872 · 👥 264 位贡献者 · 📝 30 天 2792 次提交 · TypeScript · MIT · 创建 256 天
+
+> The open-source app everyone uses to manage agents at work
+
+<sub>来源：LLM、AI Agent、Agent Skill、Claude Skill、MCP</sub>
+
+### [Tencent/WeKnora](https://github.com/Tencent/WeKnora) · 100 分
+
+⭐ 37,400（+71/天） · 🍴 5,186 · 👥 378 位贡献者 · 📝 30 天 519 次提交 · Go · NOASSERTION · 创建 479 天
+
+> Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.
+
+<sub>来源：LLM</sub>
+
+### [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) · 100 分
+
+⭐ 30,121（+251/天） · 🍴 3,417 · 👥 647 位贡献者 · 📝 30 天 1660 次提交 · TypeScript · Apache-2.0 · 创建 506 天
+
+> An open-source AI coding agent that lives in your terminal.
+
+<sub>来源：LLM、开发者工具、MCP</sub>
+
+### [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) · 100 分
+
+⭐ 60,190（+204/天） · 🍴 8,788 · 👥 64 位贡献者 · 📝 30 天 298 次提交 · JavaScript · MIT · 创建 302 天
+
+> Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.
+
+<sub>来源：AI Agent、Agent Skill、Claude Skill</sub>
+
+### [morluto/rea](https://github.com/morluto/rea) · 100 分
+
+⭐ 457,805（+2310/天） · 🍴 112,332 · 👥 384 位贡献者 · 📝 30 天 4115 次提交 · TypeScript · MIT · 创建 214 天
+
+> Reverse engineer anything with agents, from app behavior down to native binaries.
+
+<sub>来源：Agent Skill、MCP</sub>
+
+### [nexu-io/open-design](https://github.com/nexu-io/open-design) · 100 分
+
+⭐ 107,540（+146/天） · 🍴 12,224 · 👥 452 位贡献者 · 📝 30 天 116 次提交 · TypeScript · Apache-2.0 · 创建 199 天
+
+> The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.
+
+<sub>来源：Agent Skill</sub>
+
+### [every-app/open-seo](https://github.com/every-app/open-seo) · 100 分
+
+⭐ 27,630（+118/天） · 🍴 3,865 · 👥 21 位贡献者 · 📝 30 天 301 次提交 · TypeScript · MIT · 创建 259 天
+
+> Open source alternative to Semrush and Ahrefs
+
+<sub>来源：MCP</sub>
+
+### [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) · 99 分
+
+⭐ 26,267（+82/天） · 🍴 2,496 · 👥 34 位贡献者 · 📝 30 天 55 次提交 · Python · MIT · 创建 206 天
+
+> Design physical products with AI
+
+<sub>来源：AI Agent</sub>
+
+### [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) · 99 分
+
+⭐ 18,234（+46/天） · 🍴 1,825 · 👥 28 位贡献者 · 📝 30 天 249 次提交 · TypeScript · Apache-2.0 · 创建 669 天
+
+> Your agent team, in one group chat.
+
+<sub>来源：AI Agent</sub>
 
 ---
 
