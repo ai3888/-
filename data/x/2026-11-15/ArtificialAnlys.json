@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/ArtificialAnlys",
+ "collected_at": "2026-11-15T13:35:31.646Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2121595922090230033",
+   "url": "https://x.com/ArtificialAnlys/status/2121595922090230033",
+   "author": "ArtificialAnlys",
+   "name": "Artificial Analysis",
+   "time": "2026-11-14T13:27:39.000Z",
+   "text": "Decider v1.3 and Decider Flash v1.3 from Perplexity score 70 and 64, respectively, on the Artificial Analysis Decision Index v2.1\n\n\n@perplexity_ai\n has released Decider v1.3 and Decider Flash v1.3, updating their v1.2 flagship decision models. Compared to v1.2, Decider v1.3",
+   "likes": 128,
+   "reposts": 16,
+   "replies": 38,
+   "views": 23240,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2121595926200676549",
+   "url": "https://x.com/ArtificialAnlys/status/2121595926200676549",
+   "author": "ArtificialAnlys",
+   "name": "Artificial Analysis",
+   "time": "2026-11-14T13:27:40.000Z",
+   "text": "Decider v1.3 is the #4 model on AA-Paperclip (69) and #3 model on EvalSafe-O*NET-AA (89).",
+   "likes": 10,
+   "reposts": 1,
+   "replies": 3,
+   "views": 2230,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "page": "https://x.com/search?q=url%3Ahuggingface.co%20min_faves%3A100%20-filter%3Areplies%20since%3A2026-11-14&src=typed_query",
+ "collected_at": "2026-11-15T13:36:45.614Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2121673464897794484",
+   "url": "https://x.com/acarlham/status/2121673464897794484",
+   "author": "acarlham",
+   "name": "Alexandre Carlhammar",
+   "time": "2026-11-14T18:35:47.000Z",
+   "text": "我们刚刚在 CADGenBench 测试中取得了第一名，该测试是零件工程分析领域的权威基准测试平台。 \nhttps://\nhuggingface.co/spaces/Hugging\nAI4Engineering/CADGenBench\n… \n\n我们通过一种创新的预测-校正架构，开发了一种高效的 CAD 生成工具。",
+   "likes": 204,
+   "reposts": 26,
+   "replies": 15,
+   "views": 44676,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/spaces/Hugging AI4Engineering/CADGenBench …"
+   ]
+  },
+  {
+   "id": "2121515158686384584",
+   "url": "https://x.com/SD_Tutorial/status/2121515158686384584",
+   "author": "SD_Tutorial",
+   "name": "Stable Diffusion Tutorials",
+   "time": "2026-11-14T08:06:44.000Z",
+   "text": "最小化 H3 图像，打造舒适的工作流程\n适用于 8GB、12GB、16GB 显存的内存",
+   "likes": 597,
+   "reposts": 47,
+   "replies": 8,
+   "views": 33510,
+   "context": "",
+   "quoted": "",
+   "card": "vyrekai/minimax-h3-image-comfyui-workflows · Hugging Face",
+   "links": []
+  },
+  {
+   "id": "2121597276690804786",
+   "url": "https://x.com/pengsonal/status/2121597276690804786",
+   "author": "pengsonal",
+   "name": "Peng",
+   "time": "2026-11-14T13:33:02.000Z",
+   "text": "TOP 10 FREE UNCENSORED AI MODELS YOU CAN RUN WITHOUT A GPU \n\nall available as GGUF downloads on Hugging Face\n\n1. MiniCPM-V 4.7 1B Heretic → 0.67GB, image input, 9/100 refusals\n\nhttps://\nhuggingface.co/Abiray/MiniCPM\n-V-4.7-1B-abliterated-heretic-GGUF\n…\n\n2. Qwen3.8 2B Uncensored → 1.27GB, 3/100 refusals\n\nhttps://\nhuggingface.co/atakhadivi/Qwe\nn3.8-2B-Uncensored-GGUF\n…\n\n3.",
+   "likes": 514,
+   "reposts": 63,
+   "replies": 18,
+   "views": 28388,
+   "context": "",
+   "quoted": "",
+   "card": "Abiray/MiniCPM-V-4.7-1B-abliterated-heretic-GGUF · Hugging Face",
+   "links": [
+    "https:// huggingface.co/Abiray/MiniCPM -V-4.7-1B-abliterated-heretic-GGUF …",
+    "https:// huggingface.co/atakhadivi/Qwe n3.8-2B-Uncensored-GGUF …"
+   ]
+  },
+  {
+   "id": "2121580706954653927",
+   "url": "https://x.com/toyxyz3/status/2121580706954653927",
+   "author": "toyxyz3",
+   "name": "toyxyz",
+   "time": "2026-11-14T12:27:12.000Z",
+   "text": "",
+   "likes": 112,
+   "reposts": 9,
+   "replies": 2,
+   "views": 12287,
+   "context": "",
+   "quoted": "",
+   "card": "StarpowerTechnology/WVY-Blender-5m · Hugging Face",
+   "links": []
+  },
+  {
+   "id": "2121570775526432908",
+   "url": "https://x.com/2022_technology/status/2121570775526432908",
+   "author": "2022_technology",
+   "name": "ぐれーぷ@llama.cppウォッチャー",
+   "time": "2026-11-14T11:47:44.000Z",
+   "text": "https://\nhuggingface.co/Qwen/Qwen3.8-2\n7B/tree/main\n…\nBy the way, did you know that the chat template in Qwen3.8’s official repository has been changed? (There are also changes to Flash Next and Max.)\n\nI don’t know what changed, but this is very unusual for Qwen.",
+   "likes": 101,
+   "reposts": 6,
+   "replies": 4,
+   "views": 16166,
+   "context": "",
+   "quoted": "",
+   "card": "Qwen/Qwen3.8-27B at main",
+   "links": [
+    "https:// huggingface.co/Qwen/Qwen3.8-2 7B/tree/main …"
+   ]
+  },
+  {
+   "id": "2121836654268981626",
+   "url": "https://x.com/sakatayasha/status/2121836654268981626",
+   "author": "sakatayasha",
+   "name": "Sakata",
+   "time": "2026-11-15T05:24:14.000Z",
+   "text": "UNCENSORED AI THAT'S SMALLER THAN A MOVIE FILE\n\natomicchat stripped the refusals out of liquid's lfm3 1.7b and packed it into a 1.1gb gguf you can run fully offline\n\nhow to run it:\n1. open the model repo\n\nhttps://\nhuggingface.co/AtomicChat/LFM\n3-1.7B-Uncensored-GGUF\n…\n\n2. install the latest llama.cpp",
+   "likes": 134,
+   "reposts": 11,
+   "replies": 20,
+   "views": 7246,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/AtomicChat/LFM 3-1.7B-Uncensored-GGUF …"
+   ]
+  }
+ ]
+}

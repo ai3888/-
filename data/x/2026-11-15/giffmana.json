@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/giffmana",
+ "collected_at": "2026-11-15T13:32:44.242Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2121519765164364184",
+   "url": "https://x.com/giffmana/status/2121519765164364184",
+   "author": "giffmana",
+   "name": "Lucas Beyer (bl16)",
+   "time": "2026-11-14T08:25:02.000Z",
+   "text": "This is pretty fun if you like detective work. Though he doesn't make it clear, this is for the fine-tuning step if you have the starting weights.\n\nConceivably it could be combined with \n@willdepue\n trick to find the random init of pretrains, and then applied to pretraining too,",
+   "likes": 163,
+   "reposts": 4,
+   "replies": 7,
+   "views": 13974,
+   "context": "",
+   "quoted": "I am not sure how openly known this is but: you can read much of a model's training history straight from its weights. Like what? 1. which tokens were in the data 2. the LR schedule 3. the number of steps 4. and if you have the data: the step most documents were used in, the",
+   "card": "",
+   "links": []
+  }
+ ]
+}

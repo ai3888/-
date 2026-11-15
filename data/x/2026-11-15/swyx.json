@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/swyx",
+ "collected_at": "2026-11-15T13:35:15.421Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 3,
+ "posts": [
+  {
+   "id": "2121896675048587765",
+   "url": "https://x.com/swyx/status/2121896675048587765",
+   "author": "swyx",
+   "name": "swyx",
+   "time": "2026-11-15T09:22:44.000Z",
+   "text": "also the day 1 livestream has crossed 100k in the fastest time ever. covering coding agent practices and landscape continues to be the strongest format we do and by far my strongest product-market-fit focus thing I have ever done.",
+   "likes": 63,
+   "reposts": 2,
+   "replies": 93,
+   "views": 5927,
+   "context": "",
+   "quoted": "taking day 1 view count predictions for the @poteto talk launching in 30 mins https:// youtu.be/O_zcc6Xl12g hit the bell etc",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2121815348370612414",
+   "url": "https://x.com/swyx/status/2121815348370612414",
+   "author": "swyx",
+   "name": "swyx",
+   "time": "2026-11-15T03:59:35.000Z",
+   "text": "holy shit u guys like a lot of poteto",
+   "likes": 221,
+   "reposts": 4,
+   "replies": 21,
+   "views": 16292,
+   "context": "",
+   "quoted": "my AIE talk is up! come hear how the grok @bot team ships so quickly without compromise on quality https:// youtu.be/O_zcc6Xl12g",
+   "card": "",
+   "links": []
+  }
+ ]
+}

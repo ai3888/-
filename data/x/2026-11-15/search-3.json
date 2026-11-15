@@ -1,0 +1,27 @@
+{
+ "page": "https://x.com/search?q=url%3Agithub.com%20(LLM%20OR%20agent%20OR%20model%20OR%20inference%20OR%20training)%20min_faves%3A200%20-filter%3Areplies%20since%3A2026-11-14&src=typed_query",
+ "collected_at": "2026-11-15T13:37:04.665Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 1,
+ "posts": [
+  {
+   "id": "2121733991342522651",
+   "url": "https://x.com/choopyplug1/status/2121733991342522651",
+   "author": "choopyplug1",
+   "name": "chuplung",
+   "time": "2026-11-14T22:36:18.000Z",
+   "text": "《After Effects》有了新的敌人\n\n《Fable 5.2》加上 14 个免费的 GitHub 代码仓库，终于打造出一个完整的动作游戏制作工具了。\n\n动画效果。3D 效果。人工智能生成的视频。声音效果。所有这些功能都只需 0 美元即可获得！\n\n01 anime.js → 那些你浏览过的许多网站所使用的动画引擎\n \nhttps://\ngithub.com/juliangarnier/\nanime\n… \n\n02 React-Spring → Spring Physics",
+   "likes": 1037,
+   "reposts": 119,
+   "replies": 22,
+   "views": 68197,
+   "context": "",
+   "quoted": "your Claude Code limit isn't small. it's leaking every message re-sends your whole chat. on a 100k Opus chat: $0.02 from cache, $0.80 after one break 9 things break it without you noticing. here's each one and the copy-paste fix ↓",
+   "card": "",
+   "links": [
+    "https:// github.com/juliangarnier/ anime …"
+   ]
+  }
+ ]
+}

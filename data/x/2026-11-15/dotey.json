@@ -1,0 +1,57 @@
+{
+ "page": "https://x.com/dotey",
+ "collected_at": "2026-11-15T13:36:10.205Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2121837146357006829",
+   "url": "https://x.com/dotey/status/2121837146357006829",
+   "author": "dotey",
+   "name": "宝玉",
+   "time": "2026-11-15T05:26:12.000Z",
+   "text": "Translation: Why did the interview go so well, yet you still didn’t get an offer? (From the interviewer’s perspective)\n\nI’ve seen plenty of posts about this topic on forums, so I wanted to share a few common reasons from an interviewer’s perspective: why, even when candidates",
+   "likes": 348,
+   "reposts": 38,
+   "replies": 49,
+   "views": 27735,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2121835140850602200",
+   "url": "https://x.com/dotey/status/2121835140850602200",
+   "author": "dotey",
+   "name": "宝玉",
+   "time": "2026-11-15T05:18:14.000Z",
+   "text": "Key takeaways from Lauren Tan’s talk at the AI Engineer conference, “All Code Is Slop (Except Mine).” She leads Grok Bot for desktop at SpaceXAI.\n\n1. Every time you correct the AI, turn that correction into an automated check, like a lint rule, rather than adding more",
+   "likes": 557,
+   "reposts": 87,
+   "replies": 143,
+   "views": 52200,
+   "context": "",
+   "quoted": "my AIE talk is up! come hear how the grok @bot team ships so quickly without compromise on quality https:// youtu.be/O_zcc6Xl12g",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2121742342017495293",
+   "url": "https://x.com/dotey/status/2121742342017495293",
+   "author": "dotey",
+   "name": "宝玉",
+   "time": "2026-11-14T23:09:29.000Z",
+   "text": "Starship is fucking awesome",
+   "likes": 65,
+   "reposts": 0,
+   "replies": 24,
+   "views": 16316,
+   "context": "",
+   "quoted": "BREAKING: Starship Flight 15 was just caught by the tower at Starbase. The first-ever ship catch.",
+   "card": "",
+   "links": []
+  }
+ ]
+}

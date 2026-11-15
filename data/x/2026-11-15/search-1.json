@@ -1,0 +1,114 @@
+{
+ "page": "https://x.com/search?q=url%3Aarxiv.org%20min_faves%3A100%20-filter%3Areplies%20since%3A2026-11-14&src=typed_query",
+ "collected_at": "2026-11-15T13:36:24.005Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2121888163266527711",
+   "url": "https://x.com/abdimoalim_/status/2121888163266527711",
+   "author": "abdimoalim_",
+   "name": "@abdimoalim.bsky.social",
+   "time": "2026-11-15T08:48:55.000Z",
+   "text": "深度学习所需的矩阵微积分知识（T. Parr & J. Howard 著）：",
+   "likes": 118,
+   "reposts": 12,
+   "replies": 0,
+   "views": 5719,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org 深度学习所需的矩阵微积分知识 本文旨在解释理解深度神经网络训练所需的所有矩阵微积分知识。我们假设读者具备至少相当于微积分 1 课程水平的数学基础……",
+   "links": []
+  },
+  {
+   "id": "2121693750108016758",
+   "url": "https://x.com/sleenyre/status/2121693750108016758",
+   "author": "sleenyre",
+   "name": "NYRE",
+   "time": "2026-11-14T19:56:23.000Z",
+   "text": "激活函数的组合——与其使用固定的激活函数，为何不尝试让激活函数具有可学习性呢？",
+   "likes": 181,
+   "reposts": 17,
+   "replies": 9,
+   "views": 9307,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org 更多具有表现力的前馈层：第一部分——基于令牌的自适应混合策略…… 在前馈网络（FFN）层中，参数数量占很大比例，而且基于 Transformer 的大语言模型（LLM）具有丰富的非线性表达能力。尽管这些网络采用了从 ReLU 到 GELU 的改进方式……",
+   "links": []
+  },
+  {
+   "id": "2121642628433289435",
+   "url": "https://x.com/pickover/status/2121642628433289435",
+   "author": "pickover",
+   "name": "Cliff Pickover",
+   "time": "2026-11-14T16:33:15.000Z",
+   "text": "",
+   "likes": 533,
+   "reposts": 94,
+   "replies": 20,
+   "views": 23285,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https://arxiv.org/abs/2004.08210"
+   ]
+  },
+  {
+   "id": "2121686100993540194",
+   "url": "https://x.com/vineettiruvadi/status/2121686100993540194",
+   "author": "vineettiruvadi",
+   "name": "Vineet",
+   "time": "2026-11-14T19:26:00.000Z",
+   "text": "This is where insight and innovation comes from\n\n\nhttps://\narxiv.org/pdf/2611.13146",
+   "likes": 214,
+   "reposts": 19,
+   "replies": 7,
+   "views": 7362,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/pdf/2611.13146"
+   ]
+  },
+  {
+   "id": "2121745828314522076",
+   "url": "https://x.com/ChrisGPotts/status/2121745828314522076",
+   "author": "ChrisGPotts",
+   "name": "Christopher Potts",
+   "time": "2026-11-14T23:23:20.000Z",
+   "text": "Very cool! It's also possible to discover the training data order from the logits alone (or even just (lots of) text samples): \nhttps://\narxiv.org/abs/2510.19796 Test-set contamination can be inferred via a similar route: \nhttps://\narxiv.org/abs/2310.17623",
+   "likes": 134,
+   "reposts": 6,
+   "replies": 0,
+   "views": 6967,
+   "context": "",
+   "quoted": "I am not sure how openly known this is but: you can read much of a model's training history straight from its weights. Like what? 1. which tokens were in the data 2. the LR schedule 3. the number of steps 4. and if you have the data: the step most documents were used in, the",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2510.19796",
+    "https:// arxiv.org/abs/2310.17623"
+   ]
+  },
+  {
+   "id": "2121581416626401631",
+   "url": "https://x.com/itarutomy/status/2121581416626401631",
+   "author": "itarutomy",
+   "name": "Itaru Tomita / 冨田到",
+   "time": "2026-11-14T12:30:01.000Z",
+   "text": "A research project called “Evolving Infra” (\nhttps://\narxiv.org/html/2611.1230\n4v2\n…), from teams at MIT, NVIDIA, OpenAI, and others, dynamically reconfigures how GPUs are assigned roles and how KV caches are discarded while an LLM inference server for agents is running.\n\nLLM inference is divided",
+   "likes": 101,
+   "reposts": 17,
+   "replies": 0,
+   "views": 4199,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/html/2611.1230 4v2 …"
+   ]
+  }
+ ]
+}

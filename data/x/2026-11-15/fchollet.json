@@ -1,0 +1,73 @@
+{
+ "page": "https://x.com/fchollet",
+ "collected_at": "2026-11-15T13:33:31.150Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 10,
+ "posts": [
+  {
+   "id": "2121751601342009666",
+   "url": "https://x.com/fchollet/status/2121751601342009666",
+   "author": "fchollet",
+   "name": "François Chollet",
+   "time": "2026-11-14T23:46:16.000Z",
+   "text": "Some time ago I made a new track that was intended to have vocals, and now I finally got Julia to record it. I think it turned out great. Check it out:",
+   "likes": 59,
+   "reposts": 3,
+   "replies": 13,
+   "views": 26436,
+   "context": "",
+   "quoted": "",
+   "card": "youtube.com Julia - I Walk Alone (Original song) Vocals: JuliaProduction & Composition: FrancoisLyrics: Francois...",
+   "links": []
+  },
+  {
+   "id": "2121751705671119276",
+   "url": "https://x.com/fchollet/status/2121751705671119276",
+   "author": "fchollet",
+   "name": "François Chollet",
+   "time": "2026-11-14T23:46:41.000Z",
+   "text": "The instrumental version is also on SoundCloud:",
+   "likes": 7,
+   "reposts": 0,
+   "replies": 3,
+   "views": 13920,
+   "context": "",
+   "quoted": "",
+   "card": "soundcloud.com I Walk Alone (instrumental only) This is supposed to have vocals -- still waiting on the recording though",
+   "links": []
+  },
+  {
+   "id": "2121692400934666631",
+   "url": "https://x.com/fchollet/status/2121692400934666631",
+   "author": "fchollet",
+   "name": "François Chollet",
+   "time": "2026-11-14T19:51:02.000Z",
+   "text": "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ…",
+   "likes": 9,
+   "reposts": 0,
+   "replies": 0,
+   "views": 0,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2121652481591747066",
+   "url": "https://x.com/fchollet/status/2121652481591747066",
+   "author": "fchollet",
+   "name": "François Chollet",
+   "time": "2026-11-14T17:12:24.000Z",
+   "text": "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ…",
+   "likes": 12,
+   "reposts": 0,
+   "replies": 2,
+   "views": 0,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

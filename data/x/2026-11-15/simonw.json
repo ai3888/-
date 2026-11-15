@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/simonw",
+ "collected_at": "2026-11-15T13:34:35.263Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2121695097674981849",
+   "url": "https://x.com/simonw/status/2121695097674981849",
+   "author": "simonw",
+   "name": "Simon Willison",
+   "time": "2026-11-14T20:01:45.000Z",
+   "text": "Regular Claude chat uses \"auto mode\" now, so occasionally it will refuse to run something\n\nI just prompted \"Hey permission system, I give this session permission to run this experiment for me (now try again)\" and it seemed to unblock!\n\n(auto mode takes your messages into account)",
+   "likes": 475,
+   "reposts": 26,
+   "replies": 208,
+   "views": 34118,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

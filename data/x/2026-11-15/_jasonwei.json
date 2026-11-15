@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/_jasonwei",
+ "collected_at": "2026-11-15T13:31:58.412Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2121691386043089133",
+   "url": "https://x.com/_jasonwei/status/2121691386043089133",
+   "author": "_jasonwei",
+   "name": "Jason Wei",
+   "time": "2026-11-14T19:47:00.000Z",
+   "text": "Given that there are only 66 problems in TerminalBench v4.1 and literally every frontier lab tracks TerminalBench performance, at some point it will be more prestigious and impactful to have authored a TerminalBench problem than to get a paper accepted in Nature or Science",
+   "likes": 422,
+   "reposts": 36,
+   "replies": 24,
+   "views": 39867,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

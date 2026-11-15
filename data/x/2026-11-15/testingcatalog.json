@@ -1,0 +1,57 @@
+{
+ "page": "https://x.com/testingcatalog",
+ "collected_at": "2026-11-15T13:36:01.389Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2121767000963756381",
+   "url": "https://x.com/testingcatalog/status/2121767000963756381",
+   "author": "testingcatalog",
+   "name": "AI News | TestingCatalog",
+   "time": "2026-11-15T00:47:28.000Z",
+   "text": "谷歌  ：即将在双子座笔记本上推出的“漫画”艺术风格配置页面进行了轻微更新，现在可以查看风格示例了。\n\n对于 NB3 的掉落来说，这应该会是个不错的时机吧！",
+   "likes": 288,
+   "reposts": 18,
+   "replies": 42,
+   "views": 16750,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2121636249903710411",
+   "url": "https://x.com/testingcatalog/status/2121636249903710411",
+   "author": "testingcatalog",
+   "name": "AI News | TestingCatalog",
+   "time": "2026-11-14T16:07:54.000Z",
+   "text": "SPACEXSI : Grok Bot now has 7% more usage on paid plans and up to 15% on scheduled runs, according to Grok Bot team. \n\nTime to test these optimisations",
+   "likes": 295,
+   "reposts": 19,
+   "replies": 34,
+   "views": 17232,
+   "context": "",
+   "quoted": "Grok Bot plans have ~7% more usage and up to ~15% more for routine runs! Awesome work from the team",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2121534991725113363",
+   "url": "https://x.com/testingcatalog/status/2121534991725113363",
+   "author": "testingcatalog",
+   "name": "AI News | TestingCatalog",
+   "time": "2026-11-14T09:25:32.000Z",
+   "text": "DAILY AI BRIEF  — Nov 14\n\nOPENAI :\n- ChatGPT Wallet is rolling out on Dots for US Pro subscribers, so agents can pay without seeing your real card details.\n\nGOOGLE :\n- Antigravity is rolling out Dynamic Workflows, where /run-workflow writes a Python script that orchestrates",
+   "likes": 199,
+   "reposts": 18,
+   "replies": 94,
+   "views": 20209,
+   "context": "",
+   "quoted": "DAILY AI BRIEF — Nov 13 GOOGLE : - Gemini 4 Hydrogen is out in the Gemini app, Search, AI Studio, and the API at $1.50/$7.50 per 1M tokens, finishing tasks 2.5x faster than 3.8 Flash. - Antigravity is rolling out Orchestrator to Ultra subscribers, where Carbon plans and a x.com/testingcatalog…",
+   "card": "",
+   "links": []
+  }
+ ]
+}
