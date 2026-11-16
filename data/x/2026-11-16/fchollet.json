@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/fchollet",
+ "collected_at": "2026-11-16T14:23:52.308Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2122016531878215790",
+   "url": "https://x.com/fchollet/status/2122016531878215790",
+   "author": "fchollet",
+   "name": "François Chollet",
+   "time": "2026-11-15T17:19:01.000Z",
+   "text": "It was pretty obvious at the time -- the early 2026 market panic about SaaS was BS",
+   "likes": 238,
+   "reposts": 20,
+   "replies": 62,
+   "views": 29504,
+   "context": "",
+   "quoted": "Fascinating data from Stripe on the \"SaaSpocalypse.\" \"SaaS equity prices have since returned to roughly pre-SaaSpocalypse levels.\" And: \"recent SaaS revenue growth has remained strong and even accelerated.\" This echoes what we're seeing across @tinyseedfund’s 217 SaaS",
+   "card": "",
+   "links": []
+  }
+ ]
+}

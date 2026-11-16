@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/OpenAI",
+ "collected_at": "2026-11-16T14:21:24.652Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2122123437141553630",
+   "url": "https://x.com/OpenAI/status/2122123437141553630",
+   "author": "OpenAI",
+   "name": "OpenAI",
+   "time": "2026-11-16T00:23:49.000Z",
+   "text": "Physicist Nathaniel Craig shares how he worked with GPT-6 Astra to develop a candidate lattice definition of the Standard Model.\n\nIt’s the first post on our new science blog:",
+   "likes": 3188,
+   "reposts": 532,
+   "replies": 530,
+   "views": 602691,
+   "context": "",
+   "quoted": "",
+   "card": "A step toward defining the Standard Model on a lattice",
+   "links": []
+  }
+ ]
+}

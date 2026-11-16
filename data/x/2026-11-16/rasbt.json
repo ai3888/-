@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/rasbt",
+ "collected_at": "2026-11-16T14:23:40.381Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2121958665989083253",
+   "url": "https://x.com/rasbt/status/2121958665989083253",
+   "author": "rasbt",
+   "name": "Sebastian Raschka",
+   "time": "2026-11-15T13:29:04.000Z",
+   "text": "(Finally) wrote up \"Understanding Positional Embeddings in Modern LLMs.\"\n\nA RoPE from-scratch tutorial missing from my LLM building blocks collection + what recent architectures do (NoPE, partial RoPE, hybrids).\n\nProb not the flashiest topic, but essential for understanding LLMs",
+   "likes": 1744,
+   "reposts": 213,
+   "replies": 116,
+   "views": 52781,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2121958669432631769",
+   "url": "https://x.com/rasbt/status/2121958669432631769",
+   "author": "rasbt",
+   "name": "Sebastian Raschka",
+   "time": "2026-11-15T13:29:05.000Z",
+   "text": "And here's the link to the full article:",
+   "likes": 98,
+   "reposts": 12,
+   "replies": 0,
+   "views": 8107,
+   "context": "",
+   "quoted": "",
+   "card": "Understanding Positional Embeddings in Modern LLMs",
+   "links": []
+  }
+ ]
+}

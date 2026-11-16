@@ -1,0 +1,73 @@
+{
+ "page": "https://x.com/omarsar0",
+ "collected_at": "2026-11-16T14:24:31.686Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 7,
+ "posts": [
+  {
+   "id": "2122333324895035868",
+   "url": "https://x.com/omarsar0/status/2122333324895035868",
+   "author": "omarsar0",
+   "name": "elvis",
+   "time": "2026-11-16T14:17:50.000Z",
+   "text": "",
+   "likes": 6,
+   "reposts": 2,
+   "replies": 0,
+   "views": 1207,
+   "context": "Pinned",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122334173780185384",
+   "url": "https://x.com/omarsar0/status/2122334173780185384",
+   "author": "omarsar0",
+   "name": "elvis",
+   "time": "2026-11-16T14:21:12.000Z",
+   "text": "Just published my top eval papers of 2026. \n\nThe list covers different aspects of evals to focus on: durability, quality, robustness, efficiency, etc.\n\nIt also covers new topics like verifiers, agent-as-a-judge, jev-as-a-judge, audit self-improvement, and more.",
+   "likes": 5,
+   "reposts": 1,
+   "replies": 1,
+   "views": 875,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122035455793188980",
+   "url": "https://x.com/omarsar0/status/2122035455793188980",
+   "author": "omarsar0",
+   "name": "elvis",
+   "time": "2026-11-15T18:34:12.000Z",
+   "text": "This might surprise many new to AI. The best agentic systems I have built and seen other top engineers build involve lots of boring deterministic steps.\n\nYou can't just throw more LLM agents at every problem and expect reliability to improve. Every error will compound into more",
+   "likes": 449,
+   "reposts": 52,
+   "replies": 150,
+   "views": 28352,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122083635193098355",
+   "url": "https://x.com/omarsar0/status/2122083635193098355",
+   "author": "omarsar0",
+   "name": "elvis",
+   "time": "2026-11-15T21:45:39.000Z",
+   "text": "This thought came from a simple harness I have been trying to build that more natively encodes all these important deterministic components with my agents (e.g., mixing Jev classifier and verification tools with coding agents). \n\nI am just tired of all these harnesses that try to",
+   "likes": 15,
+   "reposts": 0,
+   "replies": 5,
+   "views": 2882,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

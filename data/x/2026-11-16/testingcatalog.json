@@ -1,0 +1,73 @@
+{
+ "page": "https://x.com/testingcatalog",
+ "collected_at": "2026-11-16T14:25:52.945Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2122255419099803817",
+   "url": "https://x.com/testingcatalog/status/2122255419099803817",
+   "author": "testingcatalog",
+   "name": "AI News | TestingCatalog",
+   "time": "2026-11-16T09:08:16.000Z",
+   "text": "DAILY AI BRIEF  — Nov 16\n\nALIBABA :\n- Qwen4-Max is out, a 2.4T MoE model with native vision and 1M context at $1.50/$4.50 per 1M tokens.\n\nTENCENT :\n- Tencent launched Hy4 Flash, a 1M-context multimodal model at $0.07/$0.281 per 1M tokens, with 50% off through November 30.",
+   "likes": 107,
+   "reposts": 6,
+   "replies": 42,
+   "views": 11123,
+   "context": "Pinned",
+   "quoted": "DAILY AI BRIEF — Nov 14 OPENAI : - ChatGPT Wallet is rolling out on Dots for US Pro subscribers, so agents can pay without seeing your real card details. GOOGLE : - Antigravity is rolling out Dynamic Workflows, where /run-workflow writes a Python script that orchestrates x.com/testingcatalog…",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122238075426275745",
+   "url": "https://x.com/testingcatalog/status/2122238075426275745",
+   "author": "testingcatalog",
+   "name": "AI News | TestingCatalog",
+   "time": "2026-11-16T07:59:21.000Z",
+   "text": "ALIBABA : Qwen4-Max benchmarks are out, and it scored 43 points on the Artificial Analysis Index, one point below Muse Wonder. \n\nQwen4-Max is a new MoE architecture model with native vision and a 1M-token context window.\n\n> Qwen4 Max, using xhigh reasoning effort, scores 9",
+   "likes": 178,
+   "reposts": 17,
+   "replies": 45,
+   "views": 12302,
+   "context": "",
+   "quoted": "Meet Qwen4-Max, your new AI teammate for work, creativity, and discovery! Qwen4-Max is built on a new MoE architecture with native vision and a 1M-token context window. Highlights: - Outperforms Qwen3.8-Max with up to ~50% fewer tokens, while average cost per task drops over",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122006928826257731",
+   "url": "https://x.com/testingcatalog/status/2122006928826257731",
+   "author": "testingcatalog",
+   "name": "AI News | TestingCatalog",
+   "time": "2026-11-15T16:40:51.000Z",
+   "text": "APPLE : According to Bloomberg, “Siri AI integrations are the centrepiece of the upcoming smart glasses push” for Apple. \n\nIt also seems like Apple now sees AI as a “more serious“ priority.\n\nNot soon",
+   "likes": 384,
+   "reposts": 14,
+   "replies": 41,
+   "views": 20439,
+   "context": "",
+   "quoted": "NEW Power On: Apple’s next big product — smart glasses planned next year — will offer Siri AI app integrations as its flagship feature. The idea: Book an Uber, reserve a table or order a coffee from your Apple Glasses — with apps running on paired iPhone. https:// bloomberg.com/news/newslette rs/2026-11-15/apple-siri-ai-app-integrations-power-smart-glasses-iphone-duo-2-face-id-plan?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5NDc1ND",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2121990594784374810",
+   "url": "https://x.com/testingcatalog/status/2121990594784374810",
+   "author": "testingcatalog",
+   "name": "AI News | TestingCatalog",
+   "time": "2026-11-15T15:35:57.000Z",
+   "text": "ICYMI : You can now configure different models for Coordinator and Threads in Claude Code Project settings. \n\nProjects in overal got many small upgrades recently, including a possibility to create custom views and assign atrifacts to them. \n\nThis is Conway",
+   "likes": 538,
+   "reposts": 27,
+   "replies": 99,
+   "views": 38792,
+   "context": "",
+   "quoted": "We've made some big updates to Projects in Claude Code! In a project, Claude coordinates your tasks across parallel threads. The coordinator is now much more proactive. It answers your questions in the project chat and gives you updates on the status of your ongoing threads.",
+   "card": "",
+   "links": []
+  }
+ ]
+}

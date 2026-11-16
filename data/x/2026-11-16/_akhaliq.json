@@ -1,0 +1,27 @@
+{
+ "page": "https://x.com/_akhaliq",
+ "collected_at": "2026-11-16T14:24:18.296Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 3,
+ "posts": [
+  {
+   "id": "2122245046263308321",
+   "url": "https://x.com/_akhaliq/status/2122245046263308321",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-16T08:27:03.000Z",
+   "text": "MMFlash\n\nFaster Speculative Decoding for Vision-Language Models\n\npaper: \nhttps://\nhuggingface.co/papers/2611.18\n482\n…",
+   "likes": 84,
+   "reposts": 11,
+   "replies": 25,
+   "views": 9312,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/papers/2611.18 482 …"
+   ]
+  }
+ ]
+}

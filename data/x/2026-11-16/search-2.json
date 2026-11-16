@@ -1,0 +1,150 @@
+{
+ "page": "https://x.com/search?q=url%3Ahuggingface.co%20min_faves%3A100%20-filter%3Areplies%20since%3A2026-11-15&src=typed_query",
+ "collected_at": "2026-11-16T14:26:21.266Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 8,
+ "posts": [
+  {
+   "id": "2122036257006014772",
+   "url": "https://x.com/Biggest/status/2122036257006014772",
+   "author": "Biggest",
+   "name": "shaun",
+   "time": "2026-11-15T18:37:23.000Z",
+   "text": "https://\nhuggingface.co/whittleOrg/Whi\nttle-Next-27B-A3B\n… - new-ish custom MoE for my fellow MoE lovers\n\nQwen4_exp architecture, original base is 3.6-35B\nLogit distillation from 3.8-27B (xHigh)\nMoE with 3.3B params active, 27B total.\n2B n-gram table\nPruned experts per layer to get from 35B -> 27B\n\ngive it a shot",
+   "likes": 315,
+   "reposts": 33,
+   "replies": 15,
+   "views": 23345,
+   "context": "",
+   "quoted": "",
+   "card": "whittleOrg/Whittle-Next-27B-A3B · Hugging Face",
+   "links": [
+    "https:// huggingface.co/whittleOrg/Whi ttle-Next-27B-A3B …"
+   ]
+  },
+  {
+   "id": "2121990972112515173",
+   "url": "https://x.com/SD_Tutorial/status/2121990972112515173",
+   "author": "SD_Tutorial",
+   "name": "Stable Diffusion Tutorials",
+   "time": "2026-11-15T15:37:27.000Z",
+   "text": "MiniMax-H3 Image Character-Swap lora\n\nFeed it a scene photo , a character reference , name who to replace, and it swaps the person while preserving the background, the lighting, the other people and the pose",
+   "likes": 450,
+   "reposts": 43,
+   "replies": 0,
+   "views": 19263,
+   "context": "",
+   "quoted": "",
+   "card": "akhaliq/MiniMax-H3-Image-Character-Swap · Hugging Face",
+   "links": []
+  },
+  {
+   "id": "2121899704208462002",
+   "url": "https://x.com/WojakTheDev/status/2121899704208462002",
+   "author": "WojakTheDev",
+   "name": "Wojak | AI × Web3",
+   "time": "2026-11-15T09:34:47.000Z",
+   "text": "top 10 free uncensored AI models you can run without a GPU\n\nall available as GGUF downloads on Hugging Face\n\n1. MiniCPM-V 4.7 1B Heretic\n- 0.67GB, image input, 9/100 refusals\n\nhttps://\nhuggingface.co/Abiray/MiniCPM\n-V-4.7-1B-abliterated-heretic-GGUF\n…\n\n2. Qwen3.8 2B Uncensored\n- 1.27GB, 3/100 refusals\n\nhttps://\nhuggingface.co/atakhadivi/Qwe\nn3.8-2B-Uncensored-GGUF\n…\n\n3.",
+   "likes": 123,
+   "reposts": 12,
+   "replies": 3,
+   "views": 4117,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/Abiray/MiniCPM -V-4.7-1B-abliterated-heretic-GGUF …",
+    "https:// huggingface.co/atakhadivi/Qwe n3.8-2B-Uncensored-GGUF …"
+   ]
+  },
+  {
+   "id": "2122052767216775640",
+   "url": "https://x.com/Machinedelusion/status/2122052767216775640",
+   "author": "Machinedelusion",
+   "name": "Machine Delusions",
+   "time": "2026-11-15T19:43:00.000Z",
+   "text": "LongCat-Video-Avatar 1.6 is Meituan's open model that turns a photo and audio into a talking or singing person. This version cleans up lip sync and holds identity and quality over videos longer than ten minutes, under an MIT license.\n\n\nhttps://\nhuggingface.co/meituan-longca\nt/LongCat-Video-Avatar-1.6\n…",
+   "likes": 123,
+   "reposts": 9,
+   "replies": 0,
+   "views": 5300,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/meituan-longca t/LongCat-Video-Avatar-1.6 …"
+   ]
+  },
+  {
+   "id": "2122020713599209732",
+   "url": "https://x.com/zazzy_stardust/status/2122020713599209732",
+   "author": "zazzy_stardust",
+   "name": "Zazzy Stardust",
+   "time": "2026-11-15T17:35:38.000Z",
+   "text": "A 2.8GB uncensored AI model you can run locally \n\nMeet DeepSeek V4 Pro Qwen3.5 4B Uncensored\n\n> Only 2.8GB size\n> Runs on normal PCs (llama.cpp / LM Studio)\n> Almost no refusals (5 out of 100)\n\nFree and open source\n\ntry it:\nhttps://\nhuggingface.co/xtools-at/Deep\nSeek-V4-Pro-Qwen3.5-4B-UNCENSORED-heretic\n…",
+   "likes": 392,
+   "reposts": 46,
+   "replies": 12,
+   "views": 19814,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/xtools-at/Deep Seek-V4-Pro-Qwen3.5-4B-UNCENSORED-heretic …"
+   ]
+  },
+  {
+   "id": "2121895755124543699",
+   "url": "https://x.com/HigurashiAI/status/2121895755124543699",
+   "author": "HigurashiAI",
+   "name": "higurashi",
+   "time": "2026-11-15T09:19:05.000Z",
+   "text": "Haru-4B just hit #1 on Hugging Face’s Audio-to-Audio trending list. \n\nAppreciate all the love. Give it a spin \n\n\nhttps://\nhuggingface.co/higurashi-ai/H\naru-4B\n…",
+   "likes": 112,
+   "reposts": 24,
+   "replies": 1,
+   "views": 5335,
+   "context": "",
+   "quoted": "We’ve open-sourced our 4B full-duplex speech model under Apache 2.0 !! Our model was trained on 40M hours and uses continuous tokens. Full-duplex AI for \"Human like AI\" is still largely unexplored. Let’s push the boundaries together! Check out our demos! Website: x.com/HigurashiAI/st…",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/higurashi-ai/H aru-4B …"
+   ]
+  },
+  {
+   "id": "2122267860202586241",
+   "url": "https://x.com/meant4ekansh/status/2122267860202586241",
+   "author": "meant4ekansh",
+   "name": "Ekansh",
+   "time": "2026-11-16T09:57:42.000Z",
+   "text": "This speech model was trained to speak English. We edited 0.2% of it by hand, gave it 100 minutes on a CPU, and now it speaks Sanskrit.\nAlpa: open-weights Sanskrit text-to-speech in 18 MB. Zero GPUs. \nhttps://\nhuggingface.co/77ethers/alpa\ninspired from \n@prathoshap\n \n@ai4bharat\n \n@n4ze3m",
+   "likes": 131,
+   "reposts": 15,
+   "replies": 10,
+   "views": 4596,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/77ethers/alpa"
+   ]
+  },
+  {
+   "id": "2121992147515973670",
+   "url": "https://x.com/SD_Tutorial/status/2121992147515973670",
+   "author": "SD_Tutorial",
+   "name": "Stable Diffusion Tutorials",
+   "time": "2026-11-15T15:42:07.000Z",
+   "text": "MiniMax h3  Image HDR VAE \n\n Designed for MiniMax-H3 image reconstruction and enhancement workflows,works in\n-perceptual similarity\n-structural energy enhancement\n-color distribution changes\n-saturation enhancement\n-sharpness and high-frequency detail",
+   "likes": 101,
+   "reposts": 9,
+   "replies": 3,
+   "views": 5324,
+   "context": "",
+   "quoted": "",
+   "card": "Felldude/MiniMaxImage_hdr_diffusers_vae · Hugging Face",
+   "links": []
+  }
+ ]
+}

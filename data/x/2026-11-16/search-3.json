@@ -1,0 +1,45 @@
+{
+ "page": "https://x.com/search?q=url%3Agithub.com%20(LLM%20OR%20agent%20OR%20model%20OR%20inference%20OR%20training)%20min_faves%3A200%20-filter%3Areplies%20since%3A2026-11-15&src=typed_query",
+ "collected_at": "2026-11-16T14:26:32.067Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 2,
+ "posts": [
+  {
+   "id": "2122047818240241705",
+   "url": "https://x.com/TensorTonic/status/2122047818240241705",
+   "author": "TensorTonic",
+   "name": "TensorTonic",
+   "time": "2026-11-15T19:23:20.000Z",
+   "text": "we’ve open sourced the 39 LLM and transformer questions that come up most in ML engineer and research interviews, each linked to an explanation and a problem you can solve against tests.\n\n\nhttps://\ngithub.com/TensorTonic/ll\nm-interview-questions\n…",
+   "likes": 214,
+   "reposts": 16,
+   "replies": 0,
+   "views": 4402,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/TensorTonic/ll m-interview-questions …"
+   ]
+  },
+  {
+   "id": "2122081757101223992",
+   "url": "https://x.com/e1genqq/status/2122081757101223992",
+   "author": "e1genqq",
+   "name": "eigen",
+   "time": "2026-11-15T21:38:11.000Z",
+   "text": "HOLY F*CK, animation design studio in 21 repos.\n\n21 GitHub tools to build with Opus 5.5.\n\nTypography. Transitions. Characters. Particles. Playback.\n\n01 Remotion Skills → Agent guidance for video.\n\nhttps://\ngithub.com/remotion-dev/s\nkills\n…\n\n02 Motion Design Skill → Timing, easing and choreography.",
+   "likes": 214,
+   "reposts": 29,
+   "replies": 7,
+   "views": 6576,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/remotion-dev/s kills …"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "page": "https://x.com/dotey",
+ "collected_at": "2026-11-16T14:26:03.718Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2122162706606121396",
+   "url": "https://x.com/dotey/status/2122162706606121396",
+   "author": "dotey",
+   "name": "宝玉",
+   "time": "2026-11-16T02:59:51.000Z",
+   "text": "With a main session + Thread setup, token usage is actually pretty reasonable if it’s well optimized.\n\nFirst, the main session doesn’t actually need a particularly powerful model. Something at the Sonnet 5.5 level is enough, because its main job is to assess and route tasks—or,",
+   "likes": 92,
+   "reposts": 15,
+   "replies": 128,
+   "views": 19744,
+   "context": "",
+   "quoted": "The problem is that interacting with this Grok bot through a single main conversation uses up too much quota.",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122106906814935475",
+   "url": "https://x.com/dotey/status/2122106906814935475",
+   "author": "dotey",
+   "name": "宝玉",
+   "time": "2026-11-15T23:18:08.000Z",
+   "text": "Four neurons: how do they learn to chase light?\n\nWhen you’re learning to ride a bike, no one can directly hardwire “how to ride a bike” into your brain. Usually, you fall off many times, and then suddenly you just get it. What makes the brain learn to ride a bike?\n\nChapter 2 of",
+   "likes": 73,
+   "reposts": 12,
+   "replies": 69,
+   "views": 12324,
+   "context": "",
+   "quoted": "We’ve published an update on our recent security incident. See a detailed overview of what happened and our remediation steps here: https:// cursor.com/blog/security- incident-update …",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122062085807030716",
+   "url": "https://x.com/dotey/status/2122062085807030716",
+   "author": "dotey",
+   "name": "宝玉",
+   "time": "2026-11-15T20:20:01.000Z",
+   "text": "The British Financial Times reported on November 15 (Sunday), U.S. Eastern Time, that Jensen Huang is considering returning as Nvidia’s CEO and has already discussed the possibility with several close confidants. The report cited multiple people familiar with the matter.\n\nThree",
+   "likes": 100,
+   "reposts": 10,
+   "replies": 50,
+   "views": 36374,
+   "context": "",
+   "quoted": "Jensen Huang’s odds of returning as Nvidia CEO have jumped to 20% on Kalshi following the Financial Times report that he’s considering a comeback. x.com/wallstengine/s…",
+   "card": "",
+   "links": []
+  }
+ ]
+}

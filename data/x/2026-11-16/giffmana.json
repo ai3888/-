@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/giffmana",
+ "collected_at": "2026-11-16T14:23:18.896Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2122215921238618286",
+   "url": "https://x.com/giffmana/status/2122215921238618286",
+   "author": "giffmana",
+   "name": "Lucas Beyer (bl16)",
+   "time": "2026-11-16T06:31:19.000Z",
+   "text": "",
+   "likes": 158,
+   "reposts": 5,
+   "replies": 7,
+   "views": 10078,
+   "context": "",
+   "quoted": "Meet Qwen4-Max, your new AI teammate for work, creativity, and discovery! Qwen4-Max is built on a new MoE architecture with native vision and a 1M-token context window. Highlights: - Outperforms Qwen3.8-Max with up to ~50% fewer tokens, while average cost per task drops over",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122058512809247152",
+   "url": "https://x.com/giffmana/status/2122058512809247152",
+   "author": "giffmana",
+   "name": "Lucas Beyer (bl16)",
+   "time": "2026-11-15T20:05:50.000Z",
+   "text": "absolute fanfic. AI has real, immediate, tangible dangers that we need to focus on, for instance the impact on the job market and making sure random script kiddie can't use it for cyber offense.\n\nBut this \"oh once it's superintelligent it will take over and ensave us, maybe kill",
+   "likes": 1235,
+   "reposts": 156,
+   "replies": 103,
+   "views": 71556,
+   "context": "",
+   "quoted": "I think there is about a one in three chance that within the next year, AI companies will build superintelligence: that is, AI that is much smarter than humans in every way. If this happens, I think these AIs will probably take over: that is, they seize control of human x.com/dwarkesh_sp/st…",
+   "card": "",
+   "links": []
+  }
+ ]
+}

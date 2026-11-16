@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/ggerganov",
+ "collected_at": "2026-11-16T14:24:50.583Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 3,
+ "posts": [
+  {
+   "id": "2122331536150114728",
+   "url": "https://x.com/ggerganov/status/2122331536150114728",
+   "author": "ggerganov",
+   "name": "Georgi Gerganov",
+   "time": "2026-11-16T14:10:43.000Z",
+   "text": "Over the last few months we optimized the llama.cpp CI to keep up with the fast pace of development\n\n- We now use HF Buckets to store most of our Github Actions cache\n- We use HF Jobs to enroll additional CI runners\n\nMore info in this blog post:",
+   "likes": 44,
+   "reposts": 8,
+   "replies": 4,
+   "views": 1804,
+   "context": "",
+   "quoted": "",
+   "card": "How we optimized our workflows and overcame GitHub Actions limitations",
+   "links": []
+  }
+ ]
+}
