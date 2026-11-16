@@ -1,6 +1,6 @@
-# AI 日报素材 · 2026-11-15
+# AI 日报素材 · 2026-11-16
 
-> 生成于 2026-11-15 10:06（北京时间）。30/40 个来源抓取成功，失败：油管 @AndrejKarpathy、油管 @TwoMinutePapers、油管 @YannicKilcher、油管 @aiexplained-official、油管 @DwarkeshPatel、油管 @MachineLearningStreetTalk、油管 @LatentSpacePod、油管 @GoogleDeepMind、油管 @OpenAI、油管 @anthropic-ai。本次候选：热议话题 2 个、高热度单条讨论 8 条、新东西 12 条、论文 0 篇。
+> 生成于 2026-11-16 10:22（北京时间）。35/40 个来源抓取成功，失败：油管 @AndrejKarpathy、油管 @aiexplained-official、油管 @DwarkeshPatel、油管 @LatentSpacePod、油管 @GoogleDeepMind。本次候选：热议话题 3 个、高热度单条讨论 8 条、新东西 12 条、论文 0 篇。
 
 # 写作说明（给 GPT）
 
@@ -94,84 +94,86 @@
 
 按「出现在几个不同来源」排序，来源越多说明讨论越广。关键词是程序自动找的，可能把不相关的内容归到一起，请自己判断。
 
-#### 1. 关键词：jensen / huang / ceo — 3 个来源：Hacker News、TechCrunch AI、The Verge AI
+#### 1. 关键词：nvidia / jensen / return — 2 个来源：Hacker News、The Verge AI
 
-- [Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal](https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html) — 来源：Hacker News（HN 215 分，51 条评论，发布于 11-14 10:21）
-  - HN 讨论：https://news.ycombinator.com/item?id=50492993
-- [The Downfall of Jensen Huang: Nvidia's Greed and Corruption ［video］](https://www.youtube.com/watch?v=YYU_geUwQoA) — 来源：Hacker News（HN 79 分，13 条评论，发布于 11-13 21:45）
-  - HN 讨论：https://news.ycombinator.com/item?id=50483391
-- [Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang](https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/) — 来源：TechCrunch AI（发布于 11-15 05:41）
-  - 简介：The petition had attracted more than 115,000 signatures as of Saturday afternoon.
-- [Asian governments react to Nvidia CEO Jensen Huang’s exit](https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/) — 来源：TechCrunch AI（发布于 11-15 00:34）
-  - 简介：Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.
-- [Jensen Huang and the decline of the visionary showman founder CEO](https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo) — 来源：The Verge AI（发布于 11-14 20:00）
-  - 简介：On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packe
+- [Jensen Huang might return to Nvidia as CEO](https://www.reuters.com/world/china/jensen-huang-discusses-comeback-nvidia-ceo-with-allies-ft-reports-2026-11-15/) — 来源：Hacker News（HN 140 分，132 条评论，发布于 11-16 07:24）
+  - HN 讨论：https://news.ycombinator.com/item?id=50511982
+- [Jensen Huang discusses comeback as Nvidia CEO with allies](https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1) — 来源：Hacker News（HN 113 分，95 条评论，发布于 11-16 03:31）
+  - HN 讨论：https://news.ycombinator.com/item?id=50509883
+- [Jensen Huang might be plotting a return and more of the latest Nvidia drama](https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed) — 来源：The Verge AI（发布于 11-16 04:43）
+  - 简介：The drama around Nvidia co-founder and former CEO Jensen Huang is evolving quickly. The latest edition of our Stepback newsletter should get you up to speed, but there have already been a number of ne
 
-#### 2. 关键词：manifesto / slop — 2 个来源：Hacker News、Latent Space（含每天的 AINews：汇总推特、Reddit、Discord 的讨论）
+#### 2. 关键词：Understanding Positional Embeddings in Modern LLMs — 2 个来源：Ahead of AI、Hacker News
 
-- [No AI Slop: A Manifesto](https://www.slopmanifesto.com/) — 来源：Hacker News（HN 216 分，129 条评论，发布于 11-14 03:51）
-  - HN 讨论：https://news.ycombinator.com/item?id=50488769
-- [［AINews］ The No AI Slop Manifesto](https://latent.space/p/ainews-the-no-ai-slop-manifesto/) — 来源：Latent Space（含每天的 AINews：汇总推特、Reddit、Discord 的讨论）（发布于 11-14 16:31）
-  - 简介：Congrats to both llama.ccp and ggml for reaching 1.0 (declaring stability and removing 35 deprecated functions from llama.cpp’s public header) and with SGLang also announcing 1.0 at the recent SGLang 
+- [Understanding Positional Embeddings in Modern LLMs](https://magazine.sebastianraschka.com/p/understanding-positional-embeddings) — 来源：Hacker News、Ahead of AI（HN 206 分，27 条评论，发布于 11-15 20:10）
+  - HN 讨论：https://news.ycombinator.com/item?id=50506376
+  - 简介：This article explains how LLMs encode and process token position information by covering classic and contemporary methods like RoPE. It’s essentially a comprehensive journey where we will work through
+
+#### 3. 关键词：health / study / apple — 2 个来源：TechCrunch AI、The Verge AI
+
+- [Apple launches new app to study how people use AI for health](https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/) — 来源：TechCrunch AI（发布于 11-16 09:30）
+  - 简介：Apple's new app for a study will answer everyday medical questions
+- [Apple’s new study looks to improve the effectiveness of AI health tools](https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools) — 来源：The Verge AI（发布于 11-16 09:26）
+  - 简介：Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting t
 
 ### 只在一个地方出现、但很热的讨论（Hacker News，按分数排序）
 
-- [Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs](https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus) — 来源：Hacker News（HN 1036 分，621 条评论，发布于 11-14 10:52）
-  - HN 讨论：https://news.ycombinator.com/item?id=50493251
-- [Jonathan Blow – If AI solved coding, why is my software still the same? ［video］](https://www.youtube.com/watch?v=IRK8h67ol7Q) — 来源：Hacker News（HN 460 分，671 条评论，发布于 11-13 23:08）
-  - HN 讨论：https://news.ycombinator.com/item?id=50484658
-- [The Claude Delusion](https://www.netmeister.org/blog/claude-delusion.html) — 来源：Hacker News（HN 145 分，182 条评论，发布于 11-14 21:36）
-  - HN 讨论：https://news.ycombinator.com/item?id=50496921
-- [Nvidia deliberately kept GPU prices high through circular financing deals](https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html) — 来源：Hacker News（HN 191 分，111 条评论，发布于 11-15 06:26）
-  - HN 讨论：https://news.ycombinator.com/item?id=50501631
-- [OpenAI disbands its robotics team as its general models start running robots](https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/) — 来源：Hacker News（HN 175 分，73 条评论，发布于 11-14 01:55）
-  - HN 讨论：https://news.ycombinator.com/item?id=50487184
-- [Claude Meetings](https://claude.com/resources/articles/claude-meetings) — 来源：Hacker News（HN 109 分，87 条评论，发布于 11-14 06:39）
-  - HN 讨论：https://news.ycombinator.com/item?id=50491097
-- [Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM](https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/) — 来源：Hacker News（HN 128 分，65 条评论，发布于 11-14 22:09）
-  - HN 讨论：https://news.ycombinator.com/item?id=50497155
-- [Anthropic upgrades Claude Code Projects to run parallel AI workers](https://claude.com/resources/articles/projects-redesigned) — 来源：Hacker News（HN 98 分，91 条评论，发布于 11-14 08:28）
-  - HN 讨论：https://news.ycombinator.com/item?id=50492141
+- [All AI-generated code should be Open Source](https://jakub.jankiewicz.org/blog/ai-code-open-source/) — 来源：Hacker News（HN 1096 分，597 条评论，发布于 11-15 22:46）
+  - HN 讨论：https://news.ycombinator.com/item?id=50507303
+- [Ask HN: What are the most useful, concrete AI skills to independently learn?](https://news.ycombinator.com/item?id=50494696) — 来源：Hacker News（HN 88 分，53 条评论，发布于 11-14 14:56）
+  - 简介：Specifically, what are the most useful, concrete skills to learn as an individual to take economic advantage of the advances in LLMs, agents and associated new technological capabilities? What is acce
+- [What's Next for Nvidia?](https://steveblank.com/2026/11/15/whats-next-for-nvidia/) — 来源：Hacker News（HN 71 分，66 条评论，发布于 11-16 07:55）
+  - HN 讨论：https://news.ycombinator.com/item?id=50512235
+- [Your Agent Will Pick the Hackable One](https://geoffstearns.com/blog/your-agent-will-pick-the-hackable-one/) — 来源：Hacker News（HN 72 分，58 条评论，发布于 11-16 05:10）
+  - HN 讨论：https://news.ycombinator.com/item?id=50510799
+- [Claude asked to renumber pages deletes professor's syllabus, year of notes](https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits) — 来源：Hacker News（HN 50 分，75 条评论，发布于 11-15 01:51）
+  - HN 讨论：https://news.ycombinator.com/item?id=50499114
+- [Parents pay $75k for Alpha's AI school. Half of its students missed math target](https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/) — 来源：Hacker News（HN 63 分，61 条评论，发布于 11-16 03:39）
+  - HN 讨论：https://news.ycombinator.com/item?id=50509953
+- [Jensen Huang allegedly manufactured the GPU shortage](https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon/) — 来源：Hacker News（HN 61 分，59 条评论，发布于 11-15 18:53）
+  - HN 讨论：https://news.ycombinator.com/item?id=50505905
+- [Smuggling of 1.5M AI GPUs could be the cause of Huang's departure](https://www.tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls) — 来源：Hacker News（HN 61 分，43 条评论，发布于 11-14 23:58）
+  - HN 讨论：https://news.ycombinator.com/item?id=50498051
 
 ## 素材二：新东西
 
 ### 官方发布
 
-今天没有。
+- [A step toward defining the Standard Model on a lattice](https://openai.com/index/step-toward-defining-the-standard-model) — 来源：OpenAI（发布于 11-16 06:00）
+  - 简介：Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.
+- [Our new blog for science](https://openai.com/index/our-new-blog-for-science) — 来源：OpenAI（发布于 11-16 06:00）
+  - 简介：The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.
 
 ### 新上线的模型（OpenRouter）
 
 今天没有。
 
-### 开源项目和 Skill（GitHub 项目雷达 2026-11-15，已按涨星速度等打过分）
+### 开源项目和 Skill（GitHub 项目雷达 2026-11-16，已按涨星速度等打过分）
 
-- [storytold/effectcraft](https://github.com/storytold/effectcraft) — ⭐ 8,786（每天 +62.0 星） · 创建 44 天 · Rust · Apache-2.0 · 173 位贡献者 · 雷达评分 100（潜力股）
-  - 简介：EffectCraft: An open-source motion graphics and compositing tool written from scratch in pure Rust
-- [langchain-ai/langchain](https://github.com/langchain-ai/langchain) — ⭐ 149,521（每天 +51.0 星） · 创建 1489 天 · Python · MIT · 3753 位贡献者 · 雷达评分 100（值得关注）
-  - 简介：The agent engineering platform.
-- [browser-use/browser-use](https://github.com/browser-use/browser-use) — ⭐ 121,039（每天 +77.0 星） · 创建 744 天 · Python · MIT · 386 位贡献者 · 雷达评分 100（值得关注）
-  - 简介：Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.
-- [vllm-project/vllm](https://github.com/vllm-project/vllm) — ⭐ 96,939（每天 +58.0 星） · 创建 1374 天 · Python · Apache-2.0 · 4090 位贡献者 · 雷达评分 100（值得关注）
-  - 简介：A high-throughput and memory-efficient inference and serving engine for LLMs
-- [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) — ⭐ 39,046（每天 +74.0 星） · 创建 318 天 · TypeScript · MIT · 1093 位贡献者 · 雷达评分 100（值得关注）
-  - 简介：⌥ Coding agent with the IDE wired in. Built by Stencil Labs.
-- [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) — ⭐ 38,245（每天 +73.0 星） · 创建 227 天 · Python · MIT · 207 位贡献者 · 雷达评分 100（值得关注）
-  - 简介："Vibe-Trading: Your Personal Trading Agent"
-- [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) — ⭐ 36,007（每天 +50.0 星） · 创建 1037 天 · Python · Apache-2.0 · 224 位贡献者 · 雷达评分 100（值得关注）
-  - 简介：Build and run agents you can see, understand and trust.
-- [decolua/9router](https://github.com/decolua/9router) — ⭐ 32,445（每天 +60.0 星） · 创建 313 天 · JavaScript · MIT · 419 位贡献者 · 雷达评分 100（值得关注）
-  - 简介：Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.
-- [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) — ⭐ 17,389（每天 +219.0 星） · 创建 556 天 · TypeScript · MIT · 191 位贡献者 · 雷达评分 100（值得关注）
-  - 简介：AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.
-- [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) — ⭐ 117,598（每天 +422.0 星） · 创建 272 天 · JavaScript · MIT · 101 位贡献者 · 雷达评分 100（值得关注）
-  - 简介：Production-grade engineering skills for AI coding agents.
+- [jub0t/Concat](https://github.com/jub0t/Concat) — ⭐ 17,856（每天 +239.0 星） · 创建 82 天 · Rust · AGPL-3.0 · 54 位贡献者 · 雷达评分 100（潜力股）
+  - 简介：Beta: The truly free, open-source, local-first, cross-platform video editor. Scriptable through a JSON-RPC API & MCP.
+- [storytold/vectorcraft](https://github.com/storytold/vectorcraft) — ⭐ 11,788（每天 +51.0 星） · 创建 46 天 · Rust · Apache-2.0 · 255 位贡献者 · 雷达评分 100（潜力股）
+  - 简介：VectorCraft: An open-source vector art tool written from scratch in pure Rust
+- [ruvnet/ruflo](https://github.com/ruvnet/ruflo) — ⭐ 81,822（每天 +104.0 星） · 创建 531 天 · TypeScript · MIT · 98 位贡献者 · 雷达评分 100（值得关注）
+  - 简介：🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated
+- [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) — ⭐ 59,508（每天 +270.0 星） · 创建 322 天 · Python · Apache-2.0 · 351 位贡献者 · 雷达评分 100（值得关注）
+  - 简介：DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.
+- [getpaseo/paseo](https://github.com/getpaseo/paseo) — ⭐ 24,130（每天 +63.0 星） · 创建 398 天 · TypeScript · NOASSERTION · 245 位贡献者 · 雷达评分 100（值得关注）
+  - 简介：Orchestrate multiple coding agents from desktop and mobile
+- [n8n-io/n8n](https://github.com/n8n-io/n8n) — ⭐ 210,602（每天 +90.0 星） · 创建 2703 天 · TypeScript · NOASSERTION · 864 位贡献者 · 雷达评分 100（值得关注）
+  - 简介：Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
+- [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) — ⭐ 96,683（每天 +81.0 星） · 创建 1388 天 · TypeScript · NOASSERTION · 323 位贡献者 · 雷达评分 100（值得关注）
+  - 简介：#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere
+- [koala73/worldmonitor](https://github.com/koala73/worldmonitor) — ⭐ 90,706（每天 +57.0 星） · 创建 311 天 · TypeScript · AGPL-3.0 · 183 位贡献者 · 雷达评分 100（值得关注）
+  - 简介：Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface
+- [PrefectHQ/fastmcp](https://github.com/PrefectHQ/fastmcp) — ⭐ 28,545（每天 +88.0 星） · 创建 716 天 · Python · Apache-2.0 · 409 位贡献者 · 雷达评分 99（值得关注）
+  - 简介：🚀 The fast, Pythonic way to build MCP servers and clients.
+- [infiniflow/ragflow](https://github.com/infiniflow/ragflow) — ⭐ 94,205（每天 +44.0 星） · 创建 1069 天 · Go · Apache-2.0 · 932 位贡献者 · 雷达评分 99（值得关注）
+  - 简介：RAGFlow is an agent-native database: a Retrieval-Augmented Generation (RAG) engine that grew into context infrastructure.
 
 ### 新工具（Show HN：作者自己发出来的新项目）
 
-- [Show HN: DeepSeek V3 in ~200 lines of pure Jax](https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax) — 来源：Hacker News（HN 178 分，9 条评论，发布于 11-14 23:04）
-  - HN 讨论：https://news.ycombinator.com/item?id=50497589
-- [Show HN: Agweb – a browser for agents that stays out of your way](https://github.com/paul-nameless/agweb) — 来源：Hacker News（HN 87 分，26 条评论，发布于 11-14 22:08）
-  - HN 讨论：https://news.ycombinator.com/item?id=50497147
+今天没有。
 
 ## 素材三：论文（HF 每日论文，社区投票精选，按点赞数排序）
 
@@ -179,27 +181,13 @@
 
 ## 附：博客和 Newsletter 的其他新文章
 
-- [Where was Nvidia’s security team?](https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/) — 来源：TechCrunch AI（发布于 11-15 08:08）
-  - 简介：Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive
-- [The AI graveyard: a running list of projects and startups that didn’t make it](https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/) — 来源：TechCrunch AI（发布于 11-15 01:30）
-  - 简介：From Apple's repeatedly delayed Siri AI to OpenAI's messy "super app" launch, here's a look at the AI projects that shut down or missed expectations.
-- [The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs](https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview) — 来源：The Verge AI（发布于 11-14 23:00）
-  - 简介：Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode 
-- [Open-source AI without Jensen](https://www.interconnects.ai/p/open-source-ai-without-jensen) — 来源：Interconnects（发布于 11-14 20:23）
-  - 简介：The resignation of Nvidia CEO Jensen Huang is a major setback for the US development of an open model ecosystem. Nvidia still has the financial intere
-- [英伟达上演“奥特曼2.0”，员工集体请愿：让老黄回家！](https://www.qbitai.com/2026/11/510297.html) — 来源：量子位（发布于 11-14 18:08）
-  - 简介：马斯克也签名了
-- [「史上最严」湿实验预测基准发布！推理拉满、算力翻5倍也白搭](https://www.qbitai.com/2026/11/510232.html) — 来源：量子位（发布于 11-14 17:58）
-  - 简介：斯坦福、哈佛、康奈尔……十余家顶尖团队齐坐一桌了
-- [程序员集体沉迷折纸飞机！最长滞空31.2秒](https://www.qbitai.com/2026/11/510150.html) — 来源：量子位（发布于 11-14 17:48）
-  - 简介：童年的纸飞机，现在终于飞回我手里～
-- [绿电进Token出！联想重新定义词元工厂](https://www.qbitai.com/2026/11/510094.html) — 来源：量子位（发布于 11-14 17:41）
-  - 简介：年产2000万亿Token，成本狂降70%
-- [中专生拍出《哈利·波特》爆款！欧美明星、好莱坞制片人集体点赞](https://www.qbitai.com/2026/11/510013.html) — 来源：量子位（发布于 11-14 10:59）
-  - 简介：狂揽3000万播放量
-- [突发！DeepSeek开放全家桶API](https://www.qbitai.com/2026/11/510003.html) — 来源：量子位（发布于 11-14 10:39）
-  - 简介：官方App功能均可自由组合调用
-- [比亚迪第1900万辆新能源汽车下线，科技新奢旗舰SUV方程豹钛9开启预订](https://www.qbitai.com/2026/11/509730.html) — 来源：量子位（发布于 11-13 15:17）
-  - 简介：比亚迪第1900万辆新能源汽车在西安工厂正式下线
-- [AI Ambition: ArtCraft Cloned Photoshop and Now Wants to "Rebuild Everything"](https://latent.space/p/artcraft/) — 来源：Latent Space（含每天的 AINews：汇总推特、Reddit、Discord 的讨论）（发布于 11-13 12:17）
-  - 简介：The theme of day two of the AI Engineer Code Summit in San Francisco was increasing ambition using AI . And there have been few projects as ambitious 
+- [Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market](https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/) — 来源：TechCrunch AI（发布于 11-16 07:30）
+  - 简介：Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics.
+- [Is bad news for Jensen Huang also bad news for the AI industry?](https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/) — 来源：TechCrunch AI（发布于 11-16 05:56）
+  - 简介："Jensen is Nvidia, right? And so much of this economy is riding on Nvidia."
+- [SNL gathers all the tech tycoons for a lesson in dating and spycraft](https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/) — 来源：TechCrunch AI（发布于 11-16 04:20）
+  - 简介：While awkward, creepy tech executives have become a recurring theme on Saturday Night Live, this week’s episode gave the cast a chance to show off all
+- [Congress wants to tighten export rules on AI chips after Nvidia spy scandal](https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china) — 来源：The Verge AI（发布于 11-16 03:15）
+  - 简介：Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restric
+- [An overview of Jensen Huang’s messy days](https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation) — 来源：The Verge AI（发布于 11-15 21:00）
+  - 简介：This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on Jensen Huang's resignation and the fallou
