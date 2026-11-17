@@ -1,0 +1,43 @@
+{
+ "page": "https://x.com/simonw",
+ "collected_at": "2026-11-17T14:05:05.787Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2122500307557265651",
+   "url": "https://x.com/simonw/status/2122500307557265651",
+   "author": "simonw",
+   "name": "Simon Willison",
+   "time": "2026-11-17T01:21:22.000Z",
+   "text": "I've been exploring new ways to sandbox code written by coding agents - here's a description of the external sandbox pattern, where agents run on your Mac but execute code in a WebAssembly or QEMU or Apple Container sandbox - with demos for Claude Code, Codex and Pi",
+   "likes": 899,
+   "reposts": 117,
+   "replies": 267,
+   "views": 48261,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122500313886396840",
+   "url": "https://x.com/simonw/status/2122500313886396840",
+   "author": "simonw",
+   "name": "Simon Willison",
+   "time": "2026-11-17T01:21:23.000Z",
+   "text": "I worked on this project with Prime Radiant, the AI research lab behind Superpowers - here's our index repository for these external sandbox prototypes \nhttps://\ngithub.com/prime-radiant-\ninc/external-sandbox\n…",
+   "likes": 54,
+   "reposts": 0,
+   "replies": 6,
+   "views": 10549,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/prime-radiant- inc/external-sandbox …"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,113 @@
+{
+ "page": "https://x.com/search?q=url%3Aarxiv.org%20min_faves%3A100%20-filter%3Areplies%20since%3A2026-11-16&src=typed_query",
+ "collected_at": "2026-11-17T14:07:00.669Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2122372542073876726",
+   "url": "https://x.com/learnsyslab/status/2122372542073876726",
+   "author": "learnsyslab",
+   "name": "Learning Systems and Robotics Lab (is hiring!)",
+   "time": "2026-11-16T16:53:40.000Z",
+   "text": "What if a robot could check behind the shelf before driving past it? \n\nOur mobile manipulator decides where to look next with its arm camera, focusing on uncertain regions along its path. When the scene changes, it updates its map and reroutes.\n\nPaper: \nhttps://\narxiv.org/abs/2610.29964",
+   "likes": 108,
+   "reposts": 10,
+   "replies": 0,
+   "views": 5538,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2610.29964"
+   ]
+  },
+  {
+   "id": "2122247084048859582",
+   "url": "https://x.com/ssh4net/status/2122247084048859582",
+   "author": "ssh4net",
+   "name": "Vlad Erium",
+   "time": "2026-11-16T08:35:08.000Z",
+   "text": "TetraCoder: Adaptive Tetrahedral Encoding for Neural Fields\n\nDaniele Della Pietra, Antonella Rech, Nicola Conic, Nicola Garau\n\n\nhttps://\narxiv.org/abs/2611.18267\n\nAbstract:\nImplicit and explicit representations of geometry are central in computer graphics applications and come with their",
+   "likes": 142,
+   "reposts": 14,
+   "replies": 1,
+   "views": 5301,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2611.18267"
+   ]
+  },
+  {
+   "id": "2122352911439065533",
+   "url": "https://x.com/ProfAbelMendez/status/2122352911439065533",
+   "author": "ProfAbelMendez",
+   "name": "Prof. Abel Méndez",
+   "time": "2026-11-16T15:35:40.000Z",
+   "text": "This is what happens when astrobiologists—the scientists actually searching for extraterrestrial life—analyze UFO/UAP data.",
+   "likes": 1009,
+   "reposts": 87,
+   "replies": 32,
+   "views": 123875,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org Six objects reported at 480 mph in a declassified military... In September 2026 the U.S. Department of War released an infrared video recorded from a military aircraft over the Middle East, ",
+   "links": []
+  },
+  {
+   "id": "2122518727942115649",
+   "url": "https://x.com/yoeee145/status/2122518727942115649",
+   "author": "yoeee145",
+   "name": "よえ",
+   "time": "2026-11-17T02:34:33.000Z",
+   "text": "Apparently, this is an efficient framework that extracts topological features directly from graph structure without needing to embed it in a metric space, but now I’m wondering why this didn’t exist before.",
+   "likes": 123,
+   "reposts": 15,
+   "replies": 1,
+   "views": 6852,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org Nested Ensemble Learning with Topological Data Analysis for Graph... We propose a nested ensemble learning framework that utilizes Topological Data Analysis (TDA) to extract and integrate to",
+   "links": []
+  },
+  {
+   "id": "2122549297573167422",
+   "url": "https://x.com/Hi_Mrinal/status/2122549297573167422",
+   "author": "Hi_Mrinal",
+   "name": "Mrinal",
+   "time": "2026-11-17T04:36:02.000Z",
+   "text": "great read and implementation on distributed transaction \n\n\nhttps://\narxiv.org/pdf/2504.01460",
+   "likes": 176,
+   "reposts": 3,
+   "replies": 2,
+   "views": 6218,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/pdf/2504.01460"
+   ]
+  },
+  {
+   "id": "2122362884642554242",
+   "url": "https://x.com/brandondamos/status/2122362884642554242",
+   "author": "brandondamos",
+   "name": "Brandon Amos",
+   "time": "2026-11-16T16:15:17.000Z",
+   "text": "Numerical issues can go on silently for decades like in the softmax/CE! Similar issues are present in other widely-used divergences like the KL and JSD\n\nI just posted this paper overviewing what they are and how to fix them:\n\n \nhttps://\narxiv.org/abs/2611.18511",
+   "likes": 401,
+   "reposts": 77,
+   "replies": 13,
+   "views": 29345,
+   "context": "",
+   "quoted": "Hi all, I have a new result I'm excited to share. It turns out that *all existing implementations* of softmax and cross-entropy (that's JAX, PyTorch, textbooks, etc) have a subtle bug --- two bugs, actually. A simple rewrite fixes both, and eliminates \"slingshots\" when grokking:",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2611.18511"
+   ]
+  }
+ ]
+}

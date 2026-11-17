@@ -1,0 +1,46 @@
+{
+ "page": "https://x.com/danielhanchen",
+ "collected_at": "2026-11-17T14:05:13.504Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2122365870995612059",
+   "url": "https://x.com/danielhanchen/status/2122365870995612059",
+   "author": "danielhanchen",
+   "name": "Daniel Han",
+   "time": "2026-11-16T16:27:09.000Z",
+   "text": "Unsloth now has computer use for any local model! It's still beta but we had Qwen3.8-27B make an expense report from receipts & used GIMP to scale photos, add captions & export it!\n\nAlso we added driving Unreal Engine, Blender & more to local models!\n\n\nhttps://\ngithub.com/unslothai/unsl\noth/releases/tag/v0.1.918-beta\n…",
+   "likes": 285,
+   "reposts": 43,
+   "replies": 37,
+   "views": 10296,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/unslothai/unsl oth/releases/tag/v0.1.918-beta …"
+   ]
+  },
+  {
+   "id": "2122365874137145395",
+   "url": "https://x.com/danielhanchen/status/2122365874137145395",
+   "author": "danielhanchen",
+   "name": "Daniel Han",
+   "time": "2026-11-16T16:27:10.000Z",
+   "text": "Qwen3.8-27B also via Unsloth made a village through Unreal Engine fully locally as well! Godot, Unity, Roblox Studio and Blender also work through Unsloth!\n\nDocs for game engines: \nhttps://\nunsloth.ai/docs/basics/mc\np/mcp-engines\n…\n\nDocs for computer use: \nhttps://\nunsloth.ai/docs/basics/co\nmputer-use\n…",
+   "likes": 14,
+   "reposts": 1,
+   "replies": 1,
+   "views": 1091,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// unsloth.ai/docs/basics/mc p/mcp-engines …",
+    "https:// unsloth.ai/docs/basics/co mputer-use …"
+   ]
+  }
+ ]
+}

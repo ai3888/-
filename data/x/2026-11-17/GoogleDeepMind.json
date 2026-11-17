@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/GoogleDeepMind",
+ "collected_at": "2026-11-17T14:01:11.156Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2122366992376107167",
+   "url": "https://x.com/GoogleDeepMind/status/2122366992376107167",
+   "author": "GoogleDeepMind",
+   "name": "Google DeepMind",
+   "time": "2026-11-16T16:31:37.000Z",
+   "text": "What happens when you put Gemini 4 Carbon to work in the lab? \n\nResearchers are using our latest model in Google \n@Antigravity\n to tackle multi-step problems across physics, math, and the life sciences.",
+   "likes": 914,
+   "reposts": 80,
+   "replies": 206,
+   "views": 84420,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122366994708124098",
+   "url": "https://x.com/GoogleDeepMind/status/2122366994708124098",
+   "author": "GoogleDeepMind",
+   "name": "Google DeepMind",
+   "time": "2026-11-16T16:31:37.000Z",
+   "text": "It powered AlphaProof Code agents to mathematically prove the security of \n@Signalapp\n’s cryptographic code in weeks rather than years.\n\n Spotted subtle wet-lab errors and data anomalies directly from lab notebooks and raw data.\n\n Found 40 times more related protein",
+   "likes": 83,
+   "reposts": 7,
+   "replies": 11,
+   "views": 22467,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

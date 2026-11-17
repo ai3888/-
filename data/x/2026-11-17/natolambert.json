@@ -1,0 +1,73 @@
+{
+ "page": "https://x.com/natolambert",
+ "collected_at": "2026-11-17T14:03:30.059Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2122663336903147953",
+   "url": "https://x.com/natolambert/status/2122663336903147953",
+   "author": "natolambert",
+   "name": "Nathan Lambert",
+   "time": "2026-11-17T12:09:11.000Z",
+   "text": "Dario's comments on the state of the technology are largely agreeable, as he said \"experts largely agree,\" but he also combined it with forecasts of what comes next, which experts do not agree. Is a persuasive way of talking, he's good at what he does.",
+   "likes": 58,
+   "reposts": 3,
+   "replies": 13,
+   "views": 5359,
+   "context": "",
+   "quoted": "Dario Amodei on open source models: “If the path continues, I think we could get to a very dangerous place.” “When you control a model and you're deploying it, you have the ability to monitor its usage.” “You can revoke a user's access. You can change what the model is willing",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122404804118933620",
+   "url": "https://x.com/natolambert/status/2122404804118933620",
+   "author": "natolambert",
+   "name": "Nathan Lambert",
+   "time": "2026-11-16T19:01:52.000Z",
+   "text": "People are acting like Jacob Coxon is the selected champion of the safety movement, his tweet was just exactly right-place-right time. It was more about the content than the person.",
+   "likes": 184,
+   "reposts": 8,
+   "replies": 4,
+   "views": 59342,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122397524908790144",
+   "url": "https://x.com/natolambert/status/2122397524908790144",
+   "author": "natolambert",
+   "name": "Nathan Lambert",
+   "time": "2026-11-16T18:32:56.000Z",
+   "text": "Meta / Msft / Amazon / Google / govt will have to step up, as they should.",
+   "likes": 192,
+   "reposts": 7,
+   "replies": 11,
+   "views": 19583,
+   "context": "",
+   "quoted": "Who finances American open weight models if not Nvidia? Thinking Machines Reflection … just asking questions here",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122381139566309474",
+   "url": "https://x.com/natolambert/status/2122381139566309474",
+   "author": "natolambert",
+   "name": "Nathan Lambert",
+   "time": "2026-11-16T17:27:50.000Z",
+   "text": "a bit more open model usage than I would've expected tbh",
+   "likes": 85,
+   "reposts": 7,
+   "replies": 8,
+   "views": 8517,
+   "context": "",
+   "quoted": "3/ Rise of open source: OSS models are quickly increasing in token share amongst enterprises, growing from nearly zero to 30% in the 5 month period. Anecdotally, we see those models used mostly to reduce costs on high volume workloads (large batch workloads, coding, etc).",
+   "card": "",
+   "links": []
+  }
+ ]
+}

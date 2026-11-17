@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/GoogleResearch",
+ "collected_at": "2026-11-17T14:01:20.015Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2122395958248120626",
+   "url": "https://x.com/GoogleResearch/status/2122395958248120626",
+   "author": "GoogleResearch",
+   "name": "Google Research",
+   "time": "2026-11-16T18:26:43.000Z",
+   "text": "我们正在发布 StreetReaderAI 这款多模式地图应用程序，它能够用于非视觉化的街道级图像探索。\n\nStreetReaderAI 是为盲人和低视力用户设计的，它允许用户通过键盘或语音指令来导航街道图片，同时还能实时获得图片的描述信息。",
+   "likes": 174,
+   "reposts": 31,
+   "replies": 12,
+   "views": 8910,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122396251052515727",
+   "url": "https://x.com/GoogleResearch/status/2122396251052515727",
+   "author": "GoogleResearch",
+   "name": "Google Research",
+   "time": "2026-11-16T18:27:53.000Z",
+   "text": "Alt text: This video demonstrates the StreetReaderAI user interface. The interface shows a first-person view of a street, with a search box and an AI-generated description on the left side, and suggested locations and chat on the right. In the first scene, on-screen text reads",
+   "likes": 6,
+   "reposts": 1,
+   "replies": 0,
+   "views": 1715,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

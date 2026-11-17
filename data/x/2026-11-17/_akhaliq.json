@@ -1,0 +1,63 @@
+{
+ "page": "https://x.com/_akhaliq",
+ "collected_at": "2026-11-17T14:04:35.801Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2122444024363852252",
+   "url": "https://x.com/_akhaliq/status/2122444024363852252",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-16T21:37:43.000Z",
+   "text": "",
+   "likes": 74,
+   "reposts": 5,
+   "replies": 17,
+   "views": 14390,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https://huggingface.co/papers/2611.18550…"
+   ]
+  },
+  {
+   "id": "2122362729759662110",
+   "url": "https://x.com/_akhaliq/status/2122362729759662110",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-16T16:14:41.000Z",
+   "text": "eDMD\n\nEndpoint Distribution Matching for Few-Step Diffusion Distillation\n\npaper: \nhttps://\nhuggingface.co/papers/2611.17\n194\n…",
+   "likes": 123,
+   "reposts": 14,
+   "replies": 10,
+   "views": 15239,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/papers/2611.17 194 …"
+   ]
+  },
+  {
+   "id": "2122245046263308321",
+   "url": "https://x.com/_akhaliq/status/2122245046263308321",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-16T08:27:03.000Z",
+   "text": "MMFlash\n\nFaster Speculative Decoding for Vision-Language Models\n\npaper: \nhttps://\nhuggingface.co/papers/2611.18\n482\n…",
+   "likes": 148,
+   "reposts": 23,
+   "replies": 32,
+   "views": 18998,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/papers/2611.18 482 …"
+   ]
+  }
+ ]
+}

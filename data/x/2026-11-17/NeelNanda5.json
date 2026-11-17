@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/NeelNanda5",
+ "collected_at": "2026-11-17T14:03:55.408Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2122394159197950006",
+   "url": "https://x.com/NeelNanda5/status/2122394159197950006",
+   "author": "NeelNanda5",
+   "name": "Neel Nanda",
+   "time": "2026-11-16T18:19:34.000Z",
+   "text": "It's great that OpenAI is doing these assessments but they fall short of Sam's commitment to employee-like access\n\nGood access is key for trust because assessors can find things even if a company tries hiding them. Here OpenAI controls information flow so we must rely on good",
+   "likes": 490,
+   "reposts": 42,
+   "replies": 30,
+   "views": 65490,
+   "context": "",
+   "quoted": "We’re working with @ApolloResearch, @METR_Evals, @TransluceAI, and @GoodfireAI on embedded assessments: giving outside experts deep access to our internal models and systems to investigate alignment and test our safeguards. These assessments build on our ongoing alignment and",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122394847109681555",
+   "url": "https://x.com/NeelNanda5/status/2122394847109681555",
+   "author": "NeelNanda5",
+   "name": "Neel Nanda",
+   "time": "2026-11-16T18:22:18.000Z",
+   "text": "Apollo's thread",
+   "likes": 25,
+   "reposts": 1,
+   "replies": 0,
+   "views": 2236,
+   "context": "",
+   "quoted": "We're launching a pilot towards embedded evaluations with @OpenAI. Six evaluators from Apollo Research will work within OpenAI for four months, investigating whether models attempt to undermine their own oversight and control.",
+   "card": "",
+   "links": []
+  }
+ ]
+}

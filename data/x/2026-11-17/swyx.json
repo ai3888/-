@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/swyx",
+ "collected_at": "2026-11-17T14:05:42.289Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2122418961107284083",
+   "url": "https://x.com/swyx/status/2122418961107284083",
+   "author": "swyx",
+   "name": "swyx",
+   "time": "2026-11-16T19:58:07.000Z",
+   "text": "克莱尔是一位出色的演讲者，她在 AIEWF 的演讲中立刻赢得了人们的认可。在这个领域，要脱颖而出是非常困难的，因为有很多世界知名的企业都在竞争这一奖项。\n\n将会收看这次 AWS reInvent 的主题演讲",
+   "likes": 217,
+   "reposts": 9,
+   "replies": 28,
+   "views": 12927,
+   "context": "",
+   "quoted": "I am so excited to lead the Developer keynote at AWS reInvent this year! Working on the talk track atm, and we've got such a great lineup of speakers, deep dives, and practical advice Sign up for the livestream here: https:// aws.amazon.com/events/reinven t/livestream/ … Monday, Nov 30, 7:30 pm - 8:45 pm",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122405548738163071",
+   "url": "https://x.com/swyx/status/2122405548738163071",
+   "author": "swyx",
+   "name": "swyx",
+   "time": "2026-11-16T19:04:49.000Z",
+   "text": "invite to Claude Duet for subscribers !\n\nIt’s a ne…",
+   "likes": 0,
+   "reposts": 0,
+   "replies": 0,
+   "views": 0,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

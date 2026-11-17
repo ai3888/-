@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/rasbt",
+ "collected_at": "2026-11-17T14:03:46.365Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 3,
+ "posts": [
+  {
+   "id": "2122336040899711282",
+   "url": "https://x.com/rasbt/status/2122336040899711282",
+   "author": "rasbt",
+   "name": "Sebastian Raschka",
+   "time": "2026-11-16T14:28:37.000Z",
+   "text": "The open-source LLM ecosystem could really benefit from an LLM building-block API.\n\nWe have so many LLM components across different models now. Whether you are using PyTorch or C++ and CUDA code directly, there is a major switching cost when you want to run experiments or",
+   "likes": 810,
+   "reposts": 94,
+   "replies": 115,
+   "views": 38337,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

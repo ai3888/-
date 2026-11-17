@@ -1,0 +1,91 @@
+{
+ "page": "https://x.com/OpenAI",
+ "collected_at": "2026-11-17T14:00:32.667Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 9,
+ "posts": [
+  {
+   "id": "2122465625109090646",
+   "url": "https://x.com/OpenAI/status/2122465625109090646",
+   "author": "OpenAI",
+   "name": "OpenAI",
+   "time": "2026-11-16T23:03:33.000Z",
+   "text": "ChatGPT 在医疗领域取得了显著进展，它配备了更强大的计算机处理能力，能够提供更精准的临床建议，并且新增了 20 多种医疗相关插件。\n\n \n@AbridgeHQ\n 、 \n@AmbienceAI\n 、 \n@Cigna\n 、 \n@CVSHealth\n 以及其他一些领先的医疗保健组织正在将我们的模型应用于实际工作中。",
+   "likes": 2363,
+   "reposts": 320,
+   "replies": 384,
+   "views": 326551,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122380010287960095",
+   "url": "https://x.com/OpenAI/status/2122380010287960095",
+   "author": "OpenAI",
+   "name": "OpenAI",
+   "time": "2026-11-16T17:23:21.000Z",
+   "text": "Scientists reported nearly doubling their productivity with AI in our study of more than 1,800 participants in the ChatGPT for Academic Researchers program.\n\nUsing privacy-preserving methods, we looked at how they use ChatGPT across their work—from developing ideas to analyzing",
+   "likes": 3920,
+   "reposts": 441,
+   "replies": 399,
+   "views": 453888,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122377585523126615",
+   "url": "https://x.com/OpenAI/status/2122377585523126615",
+   "author": "OpenAI",
+   "name": "OpenAI",
+   "time": "2026-11-16T17:13:42.000Z",
+   "text": "We’re expanding free access to our frontier models for up to 200,000 scientists worldwide, with training and support.\n\nApplications open Nov. 23. By default, we don’t use data shared through the program to train our models.\n\n\nhttps://\nopenai.com/index/expandin\ng-chatgpt-for-academic-researchers/\n…",
+   "likes": 4830,
+   "reposts": 652,
+   "replies": 443,
+   "views": 733432,
+   "context": "",
+   "quoted": "We’re giving scientists, mathematicians, and engineers free access to our frontier models—starting with 10,000 researchers and expanding to 100,000 through 2027. ChatGPT for Academic Researchers is built to accelerate discovery across disciplines.",
+   "card": "",
+   "links": [
+    "https:// openai.com/index/expandin g-chatgpt-for-academic-researchers/ …"
+   ]
+  },
+  {
+   "id": "2122359930628063248",
+   "url": "https://x.com/OpenAI/status/2122359930628063248",
+   "author": "OpenAI",
+   "name": "OpenAI",
+   "time": "2026-11-16T16:03:33.000Z",
+   "text": "We’re working with \n@ApolloResearch\n, \n@METR_Evals\n, \n@TransluceAI\n, and \n@GoodfireAI\n on embedded assessments: giving outside experts deep access to our internal models and systems to investigate alignment and test our safeguards.\n\nThese assessments build on our ongoing alignment and",
+   "likes": 3102,
+   "reposts": 628,
+   "replies": 651,
+   "views": 935536,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122359932167348727",
+   "url": "https://x.com/OpenAI/status/2122359932167348727",
+   "author": "OpenAI",
+   "name": "OpenAI",
+   "time": "2026-11-16T16:03:34.000Z",
+   "text": "@ApolloResearch\n will assess whether our models could covertly work against their developers’ intentions—and whether our safeguards would detect it.\n\nIt will examine evidence from training, safety testing, and internal use to test for this behavior and our ability to catch it.",
+   "likes": 411,
+   "reposts": 25,
+   "replies": 20,
+   "views": 77003,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

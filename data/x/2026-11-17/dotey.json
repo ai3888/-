@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/dotey",
+ "collected_at": "2026-11-17T14:06:40.635Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2122428858380980580",
+   "url": "https://x.com/dotey/status/2122428858380980580",
+   "author": "dotey",
+   "name": "宝玉",
+   "time": "2026-11-16T20:37:27.000Z",
+   "text": "Yahoo Finance’s host asked Sam Altman: Should Jensen Huang come back?\n\nAltman said: “I don’t know enough to answer that question.”\n\n----\n\nThe host first set the scene: Almost exactly three years ago, Altman himself was ousted by his board; now a letter supporting Jensen Huang is",
+   "likes": 109,
+   "reposts": 13,
+   "replies": 80,
+   "views": 52083,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122412845656609046",
+   "url": "https://x.com/dotey/status/2122412845656609046",
+   "author": "dotey",
+   "name": "宝玉",
+   "time": "2026-11-16T19:33:49.000Z",
+   "text": "The scenarios we're talking about are different, but they don't actually contradict each other.\n\nThe scenario you're describing sounds more like a specific task (if I understood correctly), such as asking an Agent to research a mathematical topic.\n\nThe scenario I'm describing",
+   "likes": 38,
+   "reposts": 6,
+   "replies": 46,
+   "views": 14100,
+   "context": "",
+   "quoted": "I use cc for research, and I’m curious why the official team and Teacher Baoyu both recommend using simpler models for the coordinator and stronger models for threads. My research topic is quite math-heavy, so my naive assumption is that the main agent managing the project should",
+   "card": "",
+   "links": []
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "page": "https://x.com/Alibaba_Qwen",
+ "collected_at": "2026-11-17T14:01:57.018Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 7,
+ "posts": [
+  {
+   "id": "2122623567674396990",
+   "url": "https://x.com/Alibaba_Qwen/status/2122623567674396990",
+   "author": "Alibaba_Qwen",
+   "name": "Qwen",
+   "time": "2026-11-17T09:31:09.000Z",
+   "text": "Qwen4-Max is now live on \n@LebrelAI\n. Come try agentic coding and show us what you build.",
+   "likes": 304,
+   "reposts": 23,
+   "replies": 51,
+   "views": 25747,
+   "context": "",
+   "quoted": "The top agentic coding model, live on Lebrel at 7% below Alibaba's list price. Qwen4 Max from @Alibaba_Qwen ranks first on DeepSWE v1.1, ahead of Kimi, GPT and Opus, per Qwen's results. Anonymized, attested, with a signed receipt on each answer. Try it: https:// Lebrel.ai",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122534590611099749",
+   "url": "https://x.com/Alibaba_Qwen/status/2122534590611099749",
+   "author": "Alibaba_Qwen",
+   "name": "Qwen",
+   "time": "2026-11-17T03:37:35.000Z",
+   "text": "Qwen4-Max is live on \n@youdotcom\n.  Try it now!",
+   "likes": 277,
+   "reposts": 10,
+   "replies": 44,
+   "views": 25084,
+   "context": "",
+   "quoted": "Qwen 4-Max is live on Inference Router, from Day 0. The first model in @Alibaba_Qwen's Qwen4 series, built for coding, office work, and long-horizon agent runs. 1M-token context, native text, image, and video input. Try it now: https:// you.com/product/infere nce-router/models/qwen4-max …",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122286761883959700",
+   "url": "https://x.com/Alibaba_Qwen/status/2122286761883959700",
+   "author": "Alibaba_Qwen",
+   "name": "Qwen",
+   "time": "2026-11-16T11:12:48.000Z",
+   "text": "Qwen4-Max is live on \n@novita_labs\n from day one. Try it out!",
+   "likes": 319,
+   "reposts": 11,
+   "replies": 38,
+   "views": 32198,
+   "context": "",
+   "quoted": "Qwen4-Max from @Alibaba_Qwen is now live on Novita AI, available from day one! A new MoE model for complex coding, professional tools, and long-running agent workflows. Native vision 1M-token context window Stronger tool use and long-horizon task execution",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122248112479907848",
+   "url": "https://x.com/Alibaba_Qwen/status/2122248112479907848",
+   "author": "Alibaba_Qwen",
+   "name": "Qwen",
+   "time": "2026-11-16T08:39:14.000Z",
+   "text": "Build with Qwen4-Max on Vercel's AI Gateway! \n@vercel_dev",
+   "likes": 347,
+   "reposts": 18,
+   "replies": 47,
+   "views": 38437,
+   "context": "",
+   "quoted": "Qwen4-Max from @Alibaba_Qwen is now available on AI Gateway. • Built for 3D modeling and game dev • 25% lower pricing than Qwen3.8-Max • Up to 384K output tokens 𝚊𝚕𝚒𝚋𝚊𝚋𝚊/𝚚𝚠𝚎𝚗𝟺-𝚖𝚊𝚡 https:// vercel.com/changelog/qwen 4-max-now-available-on-ai-gateway …",
+   "card": "",
+   "links": []
+  }
+ ]
+}

@@ -1,0 +1,147 @@
+{
+ "page": "https://x.com/search?q=url%3Ahuggingface.co%20min_faves%3A100%20-filter%3Areplies%20since%3A2026-11-16&src=typed_query",
+ "collected_at": "2026-11-17T14:07:10.406Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 8,
+ "posts": [
+  {
+   "id": "2122388927554445792",
+   "url": "https://x.com/aisearchio/status/2122388927554445792",
+   "author": "aisearchio",
+   "name": "AI Search",
+   "time": "2026-11-16T17:58:47.000Z",
+   "text": "外卖配送公司美团推出了新的 LongCat 视频头像 1.6 版本。\n\n它可以生成时长超过 10 分钟的对话式头像视频。\n\n免费且开源\n \nhttps://\nhuggingface.co/meituan-longca\nt/LongCat-Video-Avatar-1.6\n…",
+   "likes": 736,
+   "reposts": 52,
+   "replies": 20,
+   "views": 31346,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/meituan-longca t/LongCat-Video-Avatar-1.6 …"
+   ]
+  },
+  {
+   "id": "2122333177633202474",
+   "url": "https://x.com/ariG23498/status/2122333177633202474",
+   "author": "ariG23498",
+   "name": "Aritra",
+   "time": "2026-11-16T14:17:15.000Z",
+   "text": "在 Hugging Face 上刚刚发布了一个针对 3D 模型的端到端微调指南。  \n\n \nhttps://\nhuggingface.co/blog/3d-lora-f\ninetuning\n…",
+   "likes": 648,
+   "reposts": 40,
+   "replies": 15,
+   "views": 43277,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/blog/3d-lora-f inetuning …"
+   ]
+  },
+  {
+   "id": "2122442397917630893",
+   "url": "https://x.com/bnjmn_marie/status/2122442397917630893",
+   "author": "bnjmn_marie",
+   "name": "Benjamin Marie",
+   "time": "2026-11-16T21:31:15.000Z",
+   "text": "麦克斯韦 AI 推出的首个开放模型（新的玩家？）\n35B A3B，与 Qwen3.6 类似。\n\n看起来很值得尝试啊！",
+   "likes": 136,
+   "reposts": 9,
+   "replies": 5,
+   "views": 8323,
+   "context": "",
+   "quoted": "",
+   "card": "maxwell-model/Maxwell-V1-Flash · Hugging Face",
+   "links": []
+  },
+  {
+   "id": "2122393775314264519",
+   "url": "https://x.com/huggingface/status/2122393775314264519",
+   "author": "huggingface",
+   "name": "Hugging Face",
+   "time": "2026-11-16T18:18:02.000Z",
+   "text": "我们正携手合作，以推动开源人工智能的发展。\nOpenRouter 现已直接集成到 Hugging Face 平台上。同样的服务端地址、相同的接口，此外还提供了实时模型统计信息，以及我们共同重新设计的推理小工具。\n最优秀的作品汇聚于一处。",
+   "likes": 2415,
+   "reposts": 403,
+   "replies": 165,
+   "views": 98437,
+   "context": "",
+   "quoted": "",
+   "card": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+   "links": []
+  },
+  {
+   "id": "2122267860202586241",
+   "url": "https://x.com/meant4ekansh/status/2122267860202586241",
+   "author": "meant4ekansh",
+   "name": "Ekansh",
+   "time": "2026-11-16T09:57:42.000Z",
+   "text": "This speech model was trained to speak English. We edited 0.2% of it by hand, gave it 100 minutes on a CPU, and now it speaks Sanskrit.\nAlpa: open-weights Sanskrit text-to-speech in 18 MB. Zero GPUs. \nhttps://\nhuggingface.co/77ethers/alpa\ninspired from \n@prathoshap\n \n@ai4bharat\n \n@n4ze3m",
+   "likes": 295,
+   "reposts": 37,
+   "replies": 21,
+   "views": 11334,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/77ethers/alpa"
+   ]
+  },
+  {
+   "id": "2122475072577589627",
+   "url": "https://x.com/MiaAI_lab/status/2122475072577589627",
+   "author": "MiaAI_lab",
+   "name": "Mia",
+   "time": "2026-11-16T23:41:05.000Z",
+   "text": "Looks like I'll be testing another fine-tuned GLM 5.3 Flash\n\nSwift 1.5 GLM-5.3-Flash\n\nPromises to use use 57.7% fewer thinking tokens, with a 2.4x speed up while keeping the accuracy loss <1% vs base on max reasoning effort.\n\n\nhttps://\nhuggingface.co/ukisai/Swift1.\n5-GLM-5.3-Flash\n…",
+   "likes": 161,
+   "reposts": 5,
+   "replies": 15,
+   "views": 10217,
+   "context": "",
+   "quoted": "Here're some fine-tuned GLM 5.3 Flash models currently on Hugging Face. I'll be testing Sage-S2.1-Flash tomorrow.",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/ukisai/Swift1. 5-GLM-5.3-Flash …"
+   ]
+  },
+  {
+   "id": "2122551012758262199",
+   "url": "https://x.com/nahid_pro09/status/2122551012758262199",
+   "author": "nahid_pro09",
+   "name": "Nahid",
+   "time": "2026-11-17T04:42:51.000Z",
+   "text": "this 0.68gb sdxl lora makes nsfw images the original never could \n\nits free, no gate, 1.4k downloads\n\n- nsfw lora for sdxl\n- one 0.68gb safetensors file\n- creator says its a copy of the famous civitai nsfw-xl model\n\ntry it here:",
+   "likes": 176,
+   "reposts": 10,
+   "replies": 13,
+   "views": 12416,
+   "context": "",
+   "quoted": "",
+   "card": "Dremmar/nsfw-xl · Hugging Face",
+   "links": []
+  },
+  {
+   "id": "2122571179877941570",
+   "url": "https://x.com/ai_ba_reza/status/2122571179877941570",
+   "author": "ai_ba_reza",
+   "name": "Reza Shakeri",
+   "time": "2026-11-17T06:02:59.000Z",
+   "text": "A 4.4 GB uncensored image generation model that runs completely free \n\nQwen Image 2.1 Uncensored\n\n•  Only 4.4 GB in size\n•  Text-to-Image + image editing\n•  ComfyUI GGUF support\n•  Over 37,000 downloads\n•  Fully local and free.\n\nLink: \n\n\nhttps://\nhuggingface.co/chatrlabs/Qwen\n-Image-2.1-Uncensored-Omni-Quantized\n…",
+   "likes": 204,
+   "reposts": 14,
+   "replies": 4,
+   "views": 12061,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/chatrlabs/Qwen -Image-2.1-Uncensored-Omni-Quantized …"
+   ]
+  }
+ ]
+}
