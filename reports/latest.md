@@ -1,130 +1,130 @@
-# GitHub 项目雷达 · 2026-11-16
+# GitHub 项目雷达 · 2026-11-17
 
-> 搜到 612 个候选 → 过滤后 364 个 → 详细检查 40 个 → 入选 15 个
+> 搜到 613 个候选 → 过滤后 365 个 → 详细检查 40 个 → 入选 15 个
 
 ## 🚀 潜力股（新项目、涨得快）
 
-### [jub0t/Concat](https://github.com/jub0t/Concat) · 100 分
+### [horizon-rust/horizon](https://github.com/horizon-rust/horizon) · 100 分
 
-⭐ 17,856（+239/天） · 🍴 2,198 · 👥 54 位贡献者 · 📝 30 天 509 次提交 · Rust · AGPL-3.0 · 创建 82 天
+⭐ 10,832（+550/天） · 🍴 1,802 · 👥 377 位贡献者 · 📝 30 天 46936 次提交 · Rust · LGPL-3.0 · 创建 44 天
 
-> Beta: The truly free, open-source, local-first, cross-platform video editor. Scriptable through a JSON-RPC API & MCP.
-
-<sub>来源：近 90 天新项目、自部署</sub>
-
-### [storytold/vectorcraft](https://github.com/storytold/vectorcraft) · 100 分
-
-⭐ 11,788（+51/天） · 🍴 5,651 · 👥 255 位贡献者 · 📝 30 天 11609 次提交 · Rust · Apache-2.0 · 创建 46 天
-
-> VectorCraft: An open-source vector art tool written from scratch in pure Rust
-
-<sub>来源：近 90 天新项目</sub>
-
-### [Louis-CFM/coucou](https://github.com/Louis-CFM/coucou) · 98 分
-
-⭐ 7,236（+39/天） · 🍴 1,183 · 👥 66 位贡献者 · 📝 30 天 450 次提交 · Swift · MIT · 创建 49 天
-
-> A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.
-
-<sub>来源：近 90 天新项目</sub>
-
-### [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) · 97 分
-
-⭐ 5,996（+410/天） · 🍴 532 · 👥 11 位贡献者 · 📝 30 天 207 次提交 · Python · MIT · 创建 73 天
-
-> Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.
-
-<sub>来源：Agent Skill</sub>
-
-### [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) · 96 分
-
-⭐ 35,571（+38/天） · 🍴 3,190 · 👥 177 位贡献者 · 📝 30 天 590 次提交 · Python · Apache-2.0 · 创建 58 天
-
-> Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.
+> Minecraft: Java Edition 26.3 rewritten from scratch in Rust, checked against vanilla with 281 differential harnesses. Get it with the Horizon launcher.
 
 <sub>来源：近 90 天新项目</sub>
 
 ## 👀 值得关注
 
-### [ruvnet/ruflo](https://github.com/ruvnet/ruflo) · 100 分
+### [langfuse/langfuse](https://github.com/langfuse/langfuse) · 100 分
 
-⭐ 81,822（+104/天） · 🍴 9,648 · 👥 98 位贡献者 · 📝 30 天 864 次提交 · TypeScript · MIT · 创建 531 天
+⭐ 37,513（+54/天） · 🍴 4,240 · 👥 235 位贡献者 · 📝 30 天 816 次提交 · TypeScript · NOASSERTION · 创建 1278 天
 
-> 🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated
+> 🪢 Open source AI engineering platform: AI Gateway, agent observability, evals, and prompt/skill management, built on OpenTelemetry. One open platform for every AI call and every agent. Self-host or use Langfuse Cloud.
+
+<sub>来源：LLM、自部署</sub>
+
+### [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) · 100 分
+
+⭐ 103,701（+366/天） · 🍴 10,815 · 👥 54 位贡献者 · 📝 30 天 52 次提交 · Python · BSD-3-Clause · 创建 764 天
+
+> 🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev
+
+<sub>来源：MCP</sub>
+
+### [78/xiaozhi-esp32](https://github.com/78/xiaozhi-esp32) · 100 分
+
+⭐ 33,333（+66/天） · 🍴 7,941 · 👥 179 位贡献者 · 📝 30 天 135 次提交 · C++ · MIT · 创建 807 天
+
+> An MCP-based chatbot | 一个基于MCP的聊天机器人
+
+<sub>来源：MCP</sub>
+
+### [unslothai/unsloth](https://github.com/unslothai/unsloth) · 99 分
+
+⭐ 79,632（+57/天） · 🍴 7,434 · 👥 458 位贡献者 · 📝 30 天 3252 次提交 · Python · Apache-2.0 · 创建 1083 天
+
+> Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.
+
+<sub>来源：LLM、自部署</sub>
+
+### [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) · 99 分
+
+⭐ 72,871（+332/天） · 🍴 57,689 · 👥 146 位贡献者 · 📝 30 天 48 次提交 · Python · MIT · 创建 310 天
+
+> LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.
+
+<sub>来源：LLM</sub>
+
+### [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) · 99 分
+
+⭐ 85,334（+564/天） · 🍴 7,906 · 👥 150 位贡献者 · 📝 30 天 1738 次提交 · TypeScript · Apache-2.0 · 创建 252 天
+
+> Write HTML. Render video. Built for agents.
 
 <sub>来源：AI Agent、MCP</sub>
 
-### [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) · 100 分
+### [reactive-resume/reactive-resume](https://github.com/reactive-resume/reactive-resume) · 99 分
 
-⭐ 59,508（+270/天） · 🍴 7,204 · 👥 351 位贡献者 · 📝 30 天 1265 次提交 · Python · Apache-2.0 · 创建 322 天
+⭐ 45,839（+46/天） · 🍴 4,959 · 👥 267 位贡献者 · 📝 30 天 1148 次提交 · TypeScript · MIT · 创建 2427 天
 
-> DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.
+> A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!
 
-<sub>来源：AI Agent</sub>
+<sub>来源：自部署、Agent Skill</sub>
 
-### [getpaseo/paseo](https://github.com/getpaseo/paseo) · 100 分
+### [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) · 99 分
 
-⭐ 24,130（+63/天） · 🍴 2,973 · 👥 245 位贡献者 · 📝 30 天 648 次提交 · TypeScript · NOASSERTION · 创建 398 天
+⭐ 26,483（+233/天） · 🍴 2,352 · 👥 128 位贡献者 · 📝 30 天 1206 次提交 · Python · Apache-2.0 · 创建 241 天
 
-> Orchestrate multiple coding agents from desktop and mobile
+> Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.
 
-<sub>来源：开发者工具</sub>
+<sub>来源：Agent Skill、MCP</sub>
 
-### [n8n-io/n8n](https://github.com/n8n-io/n8n) · 100 分
+### [t8y2/dbx](https://github.com/t8y2/dbx) · 99 分
 
-⭐ 210,602（+90/天） · 🍴 61,536 · 👥 864 位贡献者 · 📝 30 天 1530 次提交 · TypeScript · NOASSERTION · 创建 2703 天
+⭐ 30,562（+165/天） · 🍴 2,781 · 👥 447 位贡献者 · 📝 30 天 1177 次提交 · Rust · Apache-2.0 · 创建 202 天
 
-> Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
-
-<sub>来源：自部署、MCP</sub>
-
-### [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) · 100 分
-
-⭐ 96,683（+81/天） · 🍴 9,363 · 👥 323 位贡献者 · 📝 30 天 180 次提交 · TypeScript · NOASSERTION · 创建 1388 天
-
-> #1 PDF Application on GitHub that lets you edit PDFs on any device anywhere
-
-<sub>来源：自部署</sub>
-
-### [koala73/worldmonitor](https://github.com/koala73/worldmonitor) · 100 分
-
-⭐ 90,706（+57/天） · 🍴 14,081 · 👥 183 位贡献者 · 📝 30 天 1972 次提交 · TypeScript · AGPL-3.0 · 创建 311 天
-
-> Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface
+> 25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。
 
 <sub>来源：MCP</sub>
 
-### [PrefectHQ/fastmcp](https://github.com/PrefectHQ/fastmcp) · 99 分
+### [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) · 99 分
 
-⭐ 28,545（+88/天） · 🍴 2,607 · 👥 409 位贡献者 · 📝 30 天 361 次提交 · Python · Apache-2.0 · 创建 716 天
+⭐ 45,045（+45/天） · 🍴 7,776 · 👥 295 位贡献者 · 📝 30 天 127 次提交 · Python · MIT · 创建 1195 天
 
-> 🚀 The fast, Pythonic way to build MCP servers and clients.
+> Build resilient agents.
+
+<sub>来源：LLM、AI Agent</sub>
+
+### [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) · 99 分
+
+⭐ 117,754（+357/天） · 🍴 10,229 · 👥 378 位贡献者 · 📝 30 天 1280 次提交 · TypeScript · Apache-2.0 · 创建 442 天
+
+> Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More
+
+<sub>来源：AI Agent、Claude Skill</sub>
+
+### [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) · 99 分
+
+⭐ 57,781（+756/天） · 🍴 4,856 · 👥 169 位贡献者 · 📝 30 天 182 次提交 · TypeScript · Apache-2.0 · 创建 431 天
+
+> Chrome DevTools for coding agents
 
 <sub>来源：MCP</sub>
 
-### [infiniflow/ragflow](https://github.com/infiniflow/ragflow) · 99 分
+### [LibreChat-AI/LibreChat](https://github.com/LibreChat-AI/LibreChat) · 98 分
 
-⭐ 94,205（+44/天） · 🍴 11,329 · 👥 932 位贡献者 · 📝 30 天 789 次提交 · Go · Apache-2.0 · 创建 1069 天
+⭐ 47,204（+43/天） · 🍴 9,725 · 👥 425 位贡献者 · 📝 30 天 577 次提交 · TypeScript · MIT · 创建 1374 天
 
-> RAGFlow is an agent-native database: a Retrieval-Augmented Generation (RAG) engine that grew into context infrastructure.
+> Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active
 
-<sub>来源：AI Agent</sub>
+<sub>来源：MCP</sub>
 
-### [latent-spaces/brag](https://github.com/latent-spaces/brag) · 97 分
+### [bytedance/deer-flow](https://github.com/bytedance/deer-flow) · 98 分
 
-⭐ 21,618（+142.2/天，平均） · 🍴 1,680 · 👥 20 位贡献者 · 📝 30 天 40 次提交 · Python · MIT · 创建 152 天
+⭐ 85,412（+39/天） · 🍴 12,044 · 👥 676 位贡献者 · 📝 30 天 644 次提交 · Python · MIT · 创建 559 天
 
-> You built it. Now brag. Turn the project you just created into a short, shareable launch video with one command.
+> An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.
 
-<sub>来源：Agent Skill、Claude Skill</sub>
-
-### [pbakaus/impeccable](https://github.com/pbakaus/impeccable) · 97 分
-
-⭐ 110,798（+553/天） · 🍴 6,623 · 👥 66 位贡献者 · 📝 30 天 826 次提交 · Rust · Apache-2.0 · 创建 365 天
-
-> The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.
-
-<sub>来源：Agent Skill</sub>
+<sub>来源：LLM、AI Agent</sub>
 
 ---
 
