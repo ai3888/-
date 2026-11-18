@@ -1,0 +1,57 @@
+{
+ "page": "https://x.com/MistralAI",
+ "collected_at": "2026-11-18T13:34:42.987Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2122728226531545138",
+   "url": "https://x.com/MistralAI/status/2122728226531545138",
+   "author": "MistralAI",
+   "name": "Mistral AI",
+   "time": "2026-11-17T16:27:02.000Z",
+   "text": "真快啊！今天的代码已经用完了。\n明天继续关注更多消息吧。",
+   "likes": 662,
+   "reposts": 44,
+   "replies": 56,
+   "views": 39327,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122713540666806397",
+   "url": "https://x.com/MistralAI/status/2122713540666806397",
+   "author": "MistralAI",
+   "name": "Mistral AI",
+   "time": "2026-11-17T15:28:40.000Z",
+   "text": "",
+   "likes": 3654,
+   "reposts": 483,
+   "replies": 240,
+   "views": 292388,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122713544525562123",
+   "url": "https://x.com/MistralAI/status/2122713544525562123",
+   "author": "MistralAI",
+   "name": "Mistral AI",
+   "time": "2026-11-17T15:28:41.000Z",
+   "text": "Vibe is AWESOME on chonky codebases and fixing vulnerabilities with precision. \n\nVibe with Le Chonk score highest among open models on FrontierCode and Terminal-Bench, and take on security work other agents refuse.",
+   "likes": 221,
+   "reposts": 11,
+   "replies": 10,
+   "views": 36501,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

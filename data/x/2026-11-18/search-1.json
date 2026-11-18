@@ -1,0 +1,244 @@
+{
+ "page": "https://x.com/search?q=url%3Aarxiv.org%20min_faves%3A100%20-filter%3Areplies%20since%3A2026-11-17&src=typed_query",
+ "collected_at": "2026-11-18T13:39:59.976Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 13,
+ "posts": [
+  {
+   "id": "2122736826980929908",
+   "url": "https://x.com/KirkDBorne/status/2122736826980929908",
+   "author": "KirkDBorne",
+   "name": "Kirk Borne",
+   "time": "2026-11-17T17:01:12.000Z",
+   "text": "https://\n\n“多模态深度学习”\n \narxiv.org/abs/2301.04856 \n[下载 272 页的 PDF 电子书]\n———\n #DataScience #AI #ML #MachineLearning #NLProc #ComputerVision",
+   "likes": 201,
+   "reposts": 34,
+   "replies": 1,
+   "views": 7905,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "“多模态深度学习” arxiv.org/abs/2301.04856"
+   ]
+  },
+  {
+   "id": "2122724034517360673",
+   "url": "https://x.com/hectorandradel/status/2122724034517360673",
+   "author": "hectorandradel",
+   "name": "Héctor Andrade",
+   "time": "2026-11-17T16:10:22.000Z",
+   "text": "一个具有 2 个参数的网络能够完成捆绑调整任务吗？  \n\n新的预印本论文：DeepBA 能够从任意数量的视角出发，恢复物体的姿态、焦距以及深度信息，即使是从一个非常基础的状态开始也是如此。   \n\n  \nhttps://\narxiv.org/abs/2611.18256 \n  \nhttps://\ncphjsn.github.io/deep-ba",
+   "likes": 146,
+   "reposts": 19,
+   "replies": 1,
+   "views": 4425,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2611.18256",
+    "https:// cphjsn.github.io/deep-ba"
+   ]
+  },
+  {
+   "id": "2122637499239653754",
+   "url": "https://x.com/JakobWasserthal/status/2122637499239653754",
+   "author": "JakobWasserthal",
+   "name": "Jakob Wasserthal",
+   "time": "2026-11-17T10:26:31.000Z",
+   "text": "",
+   "likes": 321,
+   "reposts": 42,
+   "replies": 15,
+   "views": 15487,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https://github.com/wasserth/TotalSegmentator…",
+    "https://arxiv.org/abs/2611.17968"
+   ]
+  },
+  {
+   "id": "2122677165997113659",
+   "url": "https://x.com/mblondel_ml/status/2122677165997113659",
+   "author": "mblondel_ml",
+   "name": "Mathieu Blondel",
+   "time": "2026-11-17T13:04:08.000Z",
+   "text": "Teacher forcing is the standard way to train AR models from data but it is known to introduce exposure bias: the model is not trained to use its own predictions for inference.\n\nTo address this, we studied the possibility to design sequence-level losses.",
+   "likes": 132,
+   "reposts": 27,
+   "replies": 5,
+   "views": 11671,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org On the Difficulty of Sequence-Level Supervised Learning for... During the supervised learning phase, autoregressive language models are typically trained by minimizing the negative log-likel",
+   "links": []
+  },
+  {
+   "id": "2122722736913125491",
+   "url": "https://x.com/hectorandradel/status/2122722736913125491",
+   "author": "hectorandradel",
+   "name": "Héctor Andrade",
+   "time": "2026-11-17T16:05:13.000Z",
+   "text": "Can we run Structure-from-Motion from identity cameras and unit depths, without building a single point track? \n\nOur paper TFD-SfM was accepted at #WACV2027, and the answer is yes. \n\n \nhttps://\narxiv.org/abs/2505.20858\n \nhttps://\ncphjsn.github.io/tfd-sfm",
+   "likes": 137,
+   "reposts": 20,
+   "replies": 4,
+   "views": 8511,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2505.20858",
+    "https:// cphjsn.github.io/tfd-sfm"
+   ]
+  },
+  {
+   "id": "2122808677270970814",
+   "url": "https://x.com/TaoTianhua/status/2122808677270970814",
+   "author": "TaoTianhua",
+   "name": "Tianhua Tao",
+   "time": "2026-11-17T21:46:43.000Z",
+   "text": "Our MoE training infra tech report is on arXiv \n\nWe rebuilt Olmo-core for MoE: 12.9B to 1.2T params on up to 512 B300 GPUs.\n\n Paper: \nhttps://\narxiv.org/abs/2611.18956\n Interactive web version: \nhttps://\ntaotianhua.com/olmo-core-moe/\n 4-min video: \nhttps://\ntaotianhua.com/olmo-core-moe/\nabout/speed-read/\n…",
+   "likes": 134,
+   "reposts": 22,
+   "replies": 1,
+   "views": 6150,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2611.18956",
+    "https:// taotianhua.com/olmo-core-moe/",
+    "https:// taotianhua.com/olmo-core-moe/ about/speed-read/ …"
+   ]
+  },
+  {
+   "id": "2122627143045874160",
+   "url": "https://x.com/DynamicsSIAM/status/2122627143045874160",
+   "author": "DynamicsSIAM",
+   "name": "SIAM Activity Group on Dynamical Systems",
+   "time": "2026-11-17T09:45:22.000Z",
+   "text": "\"A Beginner's Guide to Physical Networks\" (by Aaron Winn, Eleni Katifori):",
+   "likes": 146,
+   "reposts": 23,
+   "replies": 2,
+   "views": 6463,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org A Beginner's Guide to Physical Networks Network theory studies entities (nodes) and the relationships between them (edges). While these entities and their relationships may be abstract in ge",
+   "links": []
+  },
+  {
+   "id": "2122697450196730308",
+   "url": "https://x.com/vithursant19/status/2122697450196730308",
+   "author": "vithursant19",
+   "name": "Vithu Thangarasa",
+   "time": "2026-11-17T14:24:44.000Z",
+   "text": "How efficient can AI inference really get?\n\nOur first technical report brings together ML and silicon co-design, exploring 10M+ chip designs.\n\nPre-silicon results vs. NVIDIA B300:\n• 110× faster token generation\n• 690× lower energy\n\n\nhttps://\narxiv.org/abs/2611.18859\n\nA thread",
+   "likes": 108,
+   "reposts": 8,
+   "replies": 3,
+   "views": 9469,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2611.18859"
+   ]
+  },
+  {
+   "id": "2122731157104296105",
+   "url": "https://x.com/m_wulfmeier/status/2122731157104296105",
+   "author": "m_wulfmeier",
+   "name": "Markus Wulfmeier",
+   "time": "2026-11-17T16:38:40.000Z",
+   "text": "bf16 breaking VLA fine-tuning is one of the more interesting papers this month \nhttps://\narxiv.org/pdf/2610.31859",
+   "likes": 108,
+   "reposts": 8,
+   "replies": 4,
+   "views": 9393,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/pdf/2610.31859"
+   ]
+  },
+  {
+   "id": "2122838596658880668",
+   "url": "https://x.com/KirkDBorne/status/2122838596658880668",
+   "author": "KirkDBorne",
+   "name": "Kirk Borne",
+   "time": "2026-11-17T23:45:36.000Z",
+   "text": "The Little Book of Generative AI Foundations — Intuitive Mathematical Primer: \nhttps://\narxiv.org/pdf/2605.29713\n\n[download 195-page PDF]",
+   "likes": 144,
+   "reposts": 18,
+   "replies": 1,
+   "views": 6436,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/pdf/2605.29713"
+   ]
+  },
+  {
+   "id": "2122637789154193425",
+   "url": "https://x.com/sachiiiimath/status/2122637789154193425",
+   "author": "sachiiiimath",
+   "name": "Sachi Y",
+   "time": "2026-11-17T10:27:40.000Z",
+   "text": "The paper has been published, so I will give an overview of its contents.\n\n\nhttps://\narxiv.org/abs/2611.18921\n\nAn algebraic variety is said to be rational if it is birationally equivalent to projective space. Determining whether a given algebraic variety is rational is one of the",
+   "likes": 128,
+   "reposts": 24,
+   "replies": 1,
+   "views": 9420,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org Odd-degree cycles and rationality of Peskine sixfolds of discriminant 24 Benedetti and Faenzi conjectured that, for a general trivector $σ\\in\\mathcal D^{1,6,10}$, the Peskine sixfold $X_1^σ$",
+   "links": [
+    "https:// arxiv.org/abs/2611.18921"
+   ]
+  },
+  {
+   "id": "2122715944011370574",
+   "url": "https://x.com/tjmlab/status/2122715944011370574",
+   "author": "tjmlab",
+   "name": "部品（吉岡里帆）",
+   "time": "2026-11-17T15:38:13.000Z",
+   "text": "Self-attention is a Dyson equation for many-body machine learning\n\nhttps://\narxiv.org/abs/2611.21398\nThe self-attention mechanism is a Dyson equation in many-body machine learning\n\nIt's the empire of physics",
+   "likes": 186,
+   "reposts": 32,
+   "replies": 2,
+   "views": 10136,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org Self-attention is a Dyson equation for many-body machine learning Why does symmetric sum-pooling (DeepSets) predict ground-state potentials to sub-meV accuracy, yet fail for correlated wavef",
+   "links": [
+    "https:// arxiv.org/abs/2611.21398"
+   ]
+  },
+  {
+   "id": "2122781826506994020",
+   "url": "https://x.com/ToughSf/status/2122781826506994020",
+   "author": "ToughSf",
+   "name": "ToughSF",
+   "time": "2026-11-17T20:00:01.000Z",
+   "text": "A 'fast response' rendezvous mission with interstellar objects, set up by moving a small-sat with solar sail into a 0.2 AU orbit, then holding it ready in position:\n\nhttps://\narxiv.org/pdf/2106.14319\nIt would manage an intercept inside 10 AU within 1 year of departure!",
+   "likes": 125,
+   "reposts": 24,
+   "replies": 3,
+   "views": 3289,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/pdf/2106.14319"
+   ]
+  }
+ ]
+}

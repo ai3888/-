@@ -1,0 +1,199 @@
+{
+ "page": "https://x.com/search?q=url%3Agithub.com%20(LLM%20OR%20agent%20OR%20model%20OR%20inference%20OR%20training)%20min_faves%3A200%20-filter%3Areplies%20since%3A2026-11-17&src=typed_query",
+ "collected_at": "2026-11-18T13:40:19.331Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 11,
+ "posts": [
+  {
+   "id": "2122749593486336227",
+   "url": "https://x.com/aisearchio/status/2122749593486336227",
+   "author": "aisearchio",
+   "name": "AI Search",
+   "time": "2026-11-17T17:51:56.000Z",
+   "text": "OmniLora. Train any lora for any model on any GPU\n\n\nhttps://\ngithub.com/cyberterm/Comf\nyUI-OmniLoRA\n…",
+   "likes": 303,
+   "reposts": 16,
+   "replies": 4,
+   "views": 11043,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/cyberterm/Comf yUI-OmniLoRA …"
+   ]
+  },
+  {
+   "id": "2122773874706452604",
+   "url": "https://x.com/HeLi8866/status/2122773874706452604",
+   "author": "HeLi8866",
+   "name": "何笠同学",
+   "time": "2026-11-17T19:28:25.000Z",
+   "text": "This is an absolute goldmine!!\n\nThese 20 GitHub projects can turn your Fable 5.2 into a complete motion design studio!\n\n3D, effects, motion, sound, rendering and export—the whole workflow, all in one place!\n\n➜ Motion and Design Skills\n\n01 /motion-design-skill → Master timing,",
+   "likes": 220,
+   "reposts": 42,
+   "replies": 5,
+   "views": 18082,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122759176288190724",
+   "url": "https://x.com/Replit/status/2122759176288190724",
+   "author": "Replit",
+   "name": "Replit ⠕",
+   "time": "2026-11-17T18:30:01.000Z",
+   "text": "The leading observability platform wants $83,700/yr just to monitor your app and catch issues.\n\nSo Replit Missions built DataCat: \nhttps://\ngithub.com/replit/datacat\n\n100% free.\n\nThis isn't a prototype. Agent swarms explored thousands of workflows in the leading observability platform and",
+   "likes": 387,
+   "reposts": 72,
+   "replies": 40,
+   "views": 141450,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/replit/datacat"
+   ]
+  },
+  {
+   "id": "2122704909858730446",
+   "url": "https://x.com/hi_unc1e/status/2122704909858730446",
+   "author": "hi_unc1e",
+   "name": "unc1e",
+   "time": "2026-11-17T14:54:23.000Z",
+   "text": "Last night, I spent about an hour working through the workflow Poteto-sensei described, and today I can already feel a much clearer structure to it. L1 (reproduce the issue), L2 (fix the issue), L3 (address the code smells flagged by linting), L4 (the Agent’s own verification),",
+   "likes": 283,
+   "reposts": 38,
+   "replies": 10,
+   "views": 24572,
+   "context": "",
+   "quoted": "Key takeaways from Lauren Tan’s talk at the AI Engineer conference, “All Code Is Slop (Except Mine).” She leads Grok Bot for desktop at SpaceXAI. 1. Every time you correct the AI, turn that correction into an automated check, like a lint rule, rather than adding more x.com/poteto/status/…",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122835646427578523",
+   "url": "https://x.com/MGleeson__/status/2122835646427578523",
+   "author": "MGleeson__",
+   "name": "Matt Gleeson",
+   "time": "2026-11-17T23:33:53.000Z",
+   "text": "Other TPU folks at Google just published a great public guide on TPUs:\n\nIf you’re curious about TPUs and hardware-friendly model co-design this is a great resource to check out!\n\nAttaching some graphics from the docs, all work is by the authors(not me)\n\n\nhttps://\ngithub.com/AI-Hypercomput\ner/tpu-codesign/tree/main\n…",
+   "likes": 211,
+   "reposts": 26,
+   "replies": 3,
+   "views": 8122,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/AI-Hypercomput er/tpu-codesign/tree/main …"
+   ]
+  },
+  {
+   "id": "2122717876054310952",
+   "url": "https://x.com/byteonai/status/2122717876054310952",
+   "author": "byteonai",
+   "name": "byte",
+   "time": "2026-11-17T15:45:54.000Z",
+   "text": "Microsoft killed the GPU mafia \n\nThey open-sourced bitnet.cpp, their 1-bit LLM inference framework. It can run a 100B-parameter BitNet model on a single CPU, no GPU needed.\n\n- Up to 6.17x faster on x86 CPUs\n- Up to 82.2% less energy\n\n100% Open Source.\n\n\nhttps://\ngithub.com/microsoft/BitN\net\n…",
+   "likes": 1966,
+   "reposts": 298,
+   "replies": 95,
+   "views": 304231,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/microsoft/BitN et …"
+   ]
+  },
+  {
+   "id": "2122712389619691899",
+   "url": "https://x.com/404jsh/status/2122712389619691899",
+   "author": "404jsh",
+   "name": "思索者",
+   "time": "2026-11-17T15:24:06.000Z",
+   "text": "The promised open source is here!!!!!\nThe promised open source is here!!!!!\nThe promised open source is here!!!!!\n\nDrop the repo link below into your agent with just one instruction: load the skill! (That’s what the video starts with), then try these platforms!",
+   "likes": 591,
+   "reposts": 68,
+   "replies": 35,
+   "views": 62844,
+   "context": "",
+   "quoted": "Take down Tencent Workbuddy ！！！！！！ Take down Tencent Workbuddy ！！！！！！ Take down Tencent Workbuddy ！！！！！！ Fellow compatriots, I really did it Inside mainland China, no need to bypass the firewall first—just use a domestic model to build VPNs and VPN x.com/404jsh/status/…",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122670588770857015",
+   "url": "https://x.com/bkdgiffug/status/2122670588770857015",
+   "author": "bkdgiffug",
+   "name": "lumxss",
+   "time": "2026-11-17T12:38:00.000Z",
+   "text": "Well, damn—even mysticism has been turned into a Skill by AI this time.\n\nSomeone has taken traditional practices like Four Pillars of Destiny, marriage compatibility, feng shui, tarot, and Six Lines divination and plugged them straight into Claude Code / Codex, with an added",
+   "likes": 982,
+   "reposts": 176,
+   "replies": 21,
+   "views": 93888,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122686702489927846",
+   "url": "https://x.com/ja1sharma/status/2122686702489927846",
+   "author": "ja1sharma",
+   "name": "sudo jai",
+   "time": "2026-11-17T13:42:02.000Z",
+   "text": "Found an archived copy of the original ARTEX repo: \nhttps://\narchive.softwareheritage.org/browse/origin/\ndirectory/?origin_url=https://github.com/Autumn-27/ARTEX\n…, so I went back and checked it against ARTEX Defense.\n\nThe three User-Agent fingerprints I checked were already covered. I've now added source attribution, a mapping to the detection rules, and an offline",
+   "likes": 260,
+   "reposts": 44,
+   "replies": 3,
+   "views": 18138,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// archive.softwareheritage.org/browse/origin/ directory/?origin_url=https://github.com/Autumn-27/ARTEX …"
+   ]
+  },
+  {
+   "id": "2122761743176990912",
+   "url": "https://x.com/KabieFox/status/2122761743176990912",
+   "author": "KabieFox",
+   "name": "Confetti",
+   "time": "2026-11-17T18:40:13.000Z",
+   "text": "SFV Ember 0.1.0 is out.\n\nRollback netplay for Street Fighter V, with rooms, spectators, every fighter and costume, a frame meter and hitboxes in Training, and replays you can step through.\n\nFree and open source:\n\nhttps://\ngithub.com/Confetti3/SFV-\nEmber/releases/tag/v0.1.0\n…",
+   "likes": 907,
+   "reposts": 198,
+   "replies": 29,
+   "views": 31002,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/Confetti3/SFV- Ember/releases/tag/v0.1.0 …"
+   ]
+  },
+  {
+   "id": "2122742270982279654",
+   "url": "https://x.com/Juantzy34/status/2122742270982279654",
+   "author": "Juantzy34",
+   "name": "Juantzy",
+   "time": "2026-11-17T17:22:50.000Z",
+   "text": "If you're doing bug bounties, don't forget to use this, bro: \nhttps://\ngithub.com/blader/humaniz\ner\n…\n\nThen, before submitting, validate it with Claude and GPT first. Ask them to validate the bug. Only submit it if it's valid; if it's not, don't submit it.\n\nSo you don't end up like this:",
+   "likes": 301,
+   "reposts": 21,
+   "replies": 20,
+   "views": 14266,
+   "context": "",
+   "quoted": "No one warned me about the flood of low quality \"bug bounty\" slop reports that would spam my inbox when i started this crypto founder thing",
+   "card": "",
+   "links": [
+    "https:// github.com/blader/humaniz er …"
+   ]
+  }
+ ]
+}

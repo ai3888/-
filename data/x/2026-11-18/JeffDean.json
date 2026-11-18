@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/JeffDean",
+ "collected_at": "2026-11-18T13:36:53.096Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2122905202760249514",
+   "url": "https://x.com/JeffDean/status/2122905202760249514",
+   "author": "JeffDean",
+   "name": "Jeff Dean",
+   "time": "2026-11-18T04:10:16.000Z",
+   "text": "Congrats to my former intern \n@ch402\n!",
+   "likes": 2420,
+   "reposts": 73,
+   "replies": 20,
+   "views": 192766,
+   "context": "",
+   "quoted": "This guy's blog will be worth $17.8 billion in two days > studies math at the University of Toronto for 1 year > drops out at 18 > 2012: Peter Thiel pays him $100K to skip college (!!) > starts writing machine learning explainers on his personal blog > the posts spread through",
+   "card": "",
+   "links": []
+  }
+ ]
+}

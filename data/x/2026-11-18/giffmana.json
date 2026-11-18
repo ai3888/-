@@ -1,0 +1,57 @@
+{
+ "page": "https://x.com/giffmana",
+ "collected_at": "2026-11-18T13:35:37.734Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 7,
+ "posts": [
+  {
+   "id": "2122831026791579834",
+   "url": "https://x.com/giffmana/status/2122831026791579834",
+   "author": "giffmana",
+   "name": "Lucas Beyer (bl16)",
+   "time": "2026-11-17T23:15:31.000Z",
+   "text": "I didn't expect much going in, but this video is actually extremely good! John Schulman and Mark Chen on RSI - starting with what does it actually mean. Also great contextualisations by the interviewer.\nCovers all the angles i have in mind, and reasonable takes across the board!",
+   "likes": 408,
+   "reposts": 22,
+   "replies": 14,
+   "views": 29907,
+   "context": "",
+   "quoted": "For decades, the idea of AI improving itself was just a thought experiment. Today, AI is already helping researchers at frontier labs run experiments, write code and test ideas faster. So how far are we from AI that can do the research on its own? In our first episode of Working",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122599006195056738",
+   "url": "https://x.com/giffmana/status/2122599006195056738",
+   "author": "giffmana",
+   "name": "Lucas Beyer (bl16)",
+   "time": "2026-11-17T07:53:33.000Z",
+   "text": "",
+   "likes": 128,
+   "reposts": 10,
+   "replies": 4,
+   "views": 7257,
+   "context": "",
+   "quoted": "JUST IN: DHS Secretary says AI may be behind recent US outages",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122596718113882608",
+   "url": "https://x.com/giffmana/status/2122596718113882608",
+   "author": "giffmana",
+   "name": "Lucas Beyer (bl16)",
+   "time": "2026-11-17T07:44:28.000Z",
+   "text": "For once i was excited about a new Gemini-related feature, thinking this would be asking questions about the currently open page. The label says \"Ask a question\".\n\nAlas it's just a button opening new Google search frontpage in ai mode lol\nshame on me for getting excited",
+   "likes": 93,
+   "reposts": 2,
+   "replies": 12,
+   "views": 6519,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

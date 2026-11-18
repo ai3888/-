@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/_jasonwei",
+ "collected_at": "2026-11-18T13:34:59.712Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2122826605362127094",
+   "url": "https://x.com/_jasonwei/status/2122826605362127094",
+   "author": "_jasonwei",
+   "name": "Jason Wei",
+   "time": "2026-11-17T22:57:57.000Z",
+   "text": "After an amazing year at Meta’s TBD lab, I am very excited to join Mercor as Chief Scientist. Data will shape the next frontier as more companies train AI models than ever before. Mercor is incredible and I look forward to building the future with Brendan, Adarsh, and team!",
+   "likes": 1218,
+   "reposts": 64,
+   "replies": 138,
+   "views": 158307,
+   "context": "已固定",
+   "quoted": "We are excited to bring on @_jasonwei as Chief Scientist at @mercor. Jason is known for pioneering work on reasoning and agents at Google Brain, OpenAI, and Meta. He also created several benchmarks adopted across the industry: SimpleQA, a widely-used pretraining benchmark,",
+   "card": "",
+   "links": []
+  }
+ ]
+}

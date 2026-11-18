@@ -1,0 +1,57 @@
+{
+ "page": "https://x.com/GoogleDeepMind",
+ "collected_at": "2026-11-18T13:33:13.905Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2122807824531275826",
+   "url": "https://x.com/GoogleDeepMind/status/2122807824531275826",
+   "author": "GoogleDeepMind",
+   "name": "Google DeepMind",
+   "time": "2026-11-17T21:43:19.000Z",
+   "text": "Gemini 4 Hydrogen 将 Google Sheets 转化成了像素艺术创作的画布。\n\n通过使用 \n@Antigravity\n ，该模型能够缩小数千个细胞的大小，从而创造出动画场景。",
+   "likes": 1727,
+   "reposts": 144,
+   "replies": 123,
+   "views": 95949,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122767521925230896",
+   "url": "https://x.com/GoogleDeepMind/status/2122767521925230896",
+   "author": "GoogleDeepMind",
+   "name": "Google DeepMind",
+   "time": "2026-11-17T19:03:10.000Z",
+   "text": "Teaching robots new tasks just got a lot faster. \n\nWith Gemini 4 Hydrogen and the new robotics plugin for Google \n@Antigravity\n, you can connect a supported arm, practice in \n@MuJoCo\n simulation, and run tasks in the real world using plain conversation.",
+   "likes": 1093,
+   "reposts": 171,
+   "replies": 144,
+   "views": 114081,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122767525419364630",
+   "url": "https://x.com/GoogleDeepMind/status/2122767525419364630",
+   "author": "GoogleDeepMind",
+   "name": "Google DeepMind",
+   "time": "2026-11-17T19:03:11.000Z",
+   "text": "The model excels in both robotic control and spatial awareness:\n It matches our larger Argon model on everyday robotic control tasks like pick and place, at a lower cost.\n And beats Gemini Robotics ER 2 at judging 3D spaces, camera angles, and movement.",
+   "likes": 67,
+   "reposts": 3,
+   "replies": 8,
+   "views": 19143,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

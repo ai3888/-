@@ -1,0 +1,100 @@
+{
+ "page": "https://x.com/_akhaliq",
+ "collected_at": "2026-11-18T13:37:02.379Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 11,
+ "posts": [
+  {
+   "id": "2122966721074278813",
+   "url": "https://x.com/_akhaliq/status/2122966721074278813",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-18T08:14:43.000Z",
+   "text": "",
+   "likes": 132,
+   "reposts": 13,
+   "replies": 14,
+   "views": 10753,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https://huggingface.co/papers/2611.12069…"
+   ]
+  },
+  {
+   "id": "2122824565185503427",
+   "url": "https://x.com/_akhaliq/status/2122824565185503427",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-17T22:49:51.000Z",
+   "text": "",
+   "likes": 496,
+   "reposts": 69,
+   "replies": 30,
+   "views": 34139,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https://huggingface.co/apple/FastFrames-L…",
+    "https://huggingface.co/apple/FastFrames-S…"
+   ]
+  },
+  {
+   "id": "2122814097649742258",
+   "url": "https://x.com/_akhaliq/status/2122814097649742258",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-17T22:08:15.000Z",
+   "text": "",
+   "likes": 255,
+   "reposts": 31,
+   "replies": 7,
+   "views": 15724,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https://huggingface.co/papers/2611.08977…"
+   ]
+  },
+  {
+   "id": "2122805100171460887",
+   "url": "https://x.com/_akhaliq/status/2122805100171460887",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-17T21:32:30.000Z",
+   "text": "Ropedia Xperience 2\n\nA Gold Standard for Scaling Physical AI Environments and Behaviors\n\npaper: \nhttps://\nhuggingface.co/papers/2611.17\n060\n…",
+   "likes": 151,
+   "reposts": 28,
+   "replies": 11,
+   "views": 15281,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/papers/2611.17 060 …"
+   ]
+  },
+  {
+   "id": "2122758250059977062",
+   "url": "https://x.com/_akhaliq/status/2122758250059977062",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-17T18:26:20.000Z",
+   "text": "Accelerate Bench\n\nEvaluating Agents for Application-Level Program Optimization\n\npaper: \nhttps://\nhuggingface.co/papers/2611.20\n882\n…",
+   "likes": 28,
+   "reposts": 9,
+   "replies": 10,
+   "views": 8824,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/papers/2611.20 882 …"
+   ]
+  }
+ ]
+}

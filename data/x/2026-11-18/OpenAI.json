@@ -1,0 +1,43 @@
+{
+ "page": "https://x.com/OpenAI",
+ "collected_at": "2026-11-18T13:32:55.337Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2122750124543926515",
+   "url": "https://x.com/OpenAI/status/2122750124543926515",
+   "author": "OpenAI",
+   "name": "OpenAI",
+   "time": "2026-11-17T17:54:03.000Z",
+   "text": "你们中的一些人已经非常礼貌地提出了问题。还有些人只是单纯地询问而已。\n\nGPT-6.2 Astra 和 Sol 现已上市。\n\n极其高效，专为在现实世界中发挥作用而设计——真正适用于实际场景。\n\n \nhttps://\nopenai.com/index/introduc\ning-gpt-6-2-astra-sol\n…",
+   "likes": 34413,
+   "reposts": 6987,
+   "replies": 2086,
+   "views": 8039251,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// openai.com/index/introduc ing-gpt-6-2-astra-sol …"
+   ]
+  },
+  {
+   "id": "2122750126297161811",
+   "url": "https://x.com/OpenAI/status/2122750126297161811",
+   "author": "OpenAI",
+   "name": "OpenAI",
+   "time": "2026-11-17T17:54:03.000Z",
+   "text": "GPT-6.2 Astra——一款专为最复杂项目而设计的先进模型。它在专业工作和科学研究领域的表现均创下了新的纪录，而其成本则仅为 GPT-6 Astra 的不到三分之一。\n\n你会注意到在幻灯片展示、网页设计以及 3D 模型等方面存在的差异。",
+   "likes": 4917,
+   "reposts": 772,
+   "replies": 195,
+   "views": 1016938,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

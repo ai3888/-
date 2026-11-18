@@ -1,0 +1,73 @@
+{
+ "page": "https://x.com/EpochAIResearch",
+ "collected_at": "2026-11-18T13:38:44.405Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 7,
+ "posts": [
+  {
+   "id": "2122808111849488867",
+   "url": "https://x.com/EpochAIResearch/status/2122808111849488867",
+   "author": "EpochAIResearch",
+   "name": "Epoch AI",
+   "time": "2026-11-17T21:44:28.000Z",
+   "text": "Can the most capable LLMs match humans at real work? Not yet, at least not on the kind of work we do at Epoch.\n\nWe tested GPT-6.2 Astra and other recent models on Epoch Automation Reports, our benchmark of open-ended Epoch work tasks, ranging from making Epoch-style diagrams to",
+   "likes": 217,
+   "reposts": 26,
+   "replies": 14,
+   "views": 21014,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122808127943004218",
+   "url": "https://x.com/EpochAIResearch/status/2122808127943004218",
+   "author": "EpochAIResearch",
+   "name": "Epoch AI",
+   "time": "2026-11-17T21:44:32.000Z",
+   "text": "Fable 5.2 and Opus 5.5 performed at the level of a human contractor on our AI data center task, which involves researching EcoDataCenter 1.\n\nIn contrast, GPT-6.2 Astra was overly cautious and left out critical information. It included only one AI building despite finding clear",
+   "likes": 47,
+   "reposts": 4,
+   "replies": 1,
+   "views": 3479,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122762380463735010",
+   "url": "https://x.com/EpochAIResearch/status/2122762380463735010",
+   "author": "EpochAIResearch",
+   "name": "Epoch AI",
+   "time": "2026-11-17T18:42:45.000Z",
+   "text": "GPT-6.2 Astra scores 174 on the Epoch Capabilities Index (ECI), on par with Fable 5.2 and joining it above what the pre-Astra trend for reasoning models would have predicted.\n\nThis is based on testing we did prior to launch using only our own benchmarks. The ECI is continually",
+   "likes": 1014,
+   "reposts": 146,
+   "replies": 42,
+   "views": 114215,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122762395869450680",
+   "url": "https://x.com/EpochAIResearch/status/2122762395869450680",
+   "author": "EpochAIResearch",
+   "name": "Epoch AI",
+   "time": "2026-11-17T18:42:48.000Z",
+   "text": "We ran GPT-6.2 Astra on an updated version of ‘Epoch Automation Reports’, our benchmark of realistic tasks drawn from Epoch AI’s own work. Here, GPT-6.2 Astra fell behind Fable 5.2, despite tying on ECI, and improved only slightly over GPT-6 Astra.\n\nOn relatively simple research",
+   "likes": 136,
+   "reposts": 10,
+   "replies": 4,
+   "views": 21253,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "page": "https://x.com/simonw",
+ "collected_at": "2026-11-18T13:37:53.621Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2122822310428279136",
+   "url": "https://x.com/simonw/status/2122822310428279136",
+   "author": "simonw",
+   "name": "Simon Willison",
+   "time": "2026-11-17T22:40:53.000Z",
+   "text": "这是关于“制作一个 3 分钟动画的场景：Yonkers 的机器人站起来，化身为一个强大的机甲，在曼哈顿、皇后区和布鲁克林地区自由穿梭。使用 OpenStreetMap 的地图数据”的提示。 \nhttps://\nsimonwillison.net/2026/Nov/17/gp\nt62-astra-and-sol/\n…",
+   "likes": 286,
+   "reposts": 15,
+   "replies": 84,
+   "views": 41609,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// simonwillison.net/2026/Nov/17/gp t62-astra-and-sol/ …"
+   ]
+  },
+  {
+   "id": "2122822433023590517",
+   "url": "https://x.com/simonw/status/2122822433023590517",
+   "author": "simonw",
+   "name": "Simon Willison",
+   "time": "2026-11-17T22:41:22.000Z",
+   "text": "作为参考，这是 Gemini 4 Carbon 版本。",
+   "likes": 28,
+   "reposts": 0,
+   "replies": 4,
+   "views": 8797,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122746008736276734",
+   "url": "https://x.com/simonw/status/2122746008736276734",
+   "author": "simonw",
+   "name": "Simon Willison",
+   "time": "2026-11-17T17:37:41.000Z",
+   "text": "最近我发布了一个新版本的 Datasette Lite——这是我在浏览器上使用的 Datasette Python Web 应用程序的版本，它通过 WebAssembly 和 Pyodide 技术实现，完全可以在浏览器中运行。以下是这个新版本的一些新增功能以及其工作原理。",
+   "likes": 185,
+   "reposts": 13,
+   "replies": 70,
+   "views": 16960,
+   "context": "",
+   "quoted": "",
+   "card": "simonwillison.net Running the full server-side Datasette Python app in the browser with service workers and Pyodide Datasette Lite is my port of the Datasette Python application to run directly in the",
+   "links": []
+  }
+ ]
+}

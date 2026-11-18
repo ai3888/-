@@ -1,0 +1,168 @@
+{
+ "page": "https://x.com/search?q=url%3Ahuggingface.co%20min_faves%3A100%20-filter%3Areplies%20since%3A2026-11-17&src=typed_query",
+ "collected_at": "2026-11-18T13:40:08.949Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 9,
+ "posts": [
+  {
+   "id": "2122786069544616033",
+   "url": "https://x.com/HeLi8866/status/2122786069544616033",
+   "author": "HeLi8866",
+   "name": "何笠同学",
+   "time": "2026-11-17T20:16:53.000Z",
+   "text": "An uncensored AI image model that's only 4.4GB, which you can use to generate and edit images for free!\n\nThis is the uncensored version of Qwen Image 2.1, which already had over 140,000 downloads last month!\n\n→ Completely free to use\n→ Only 4.4GB in size\n→ No access",
+   "likes": 738,
+   "reposts": 91,
+   "replies": 7,
+   "views": 49143,
+   "context": "",
+   "quoted": "",
+   "card": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized · Hugging Face",
+   "links": []
+  },
+  {
+   "id": "2122737583361057024",
+   "url": "https://x.com/HuggingPapers/status/2122737583361057024",
+   "author": "HuggingPapers",
+   "name": "DailyPapers",
+   "time": "2026-11-17T17:04:13.000Z",
+   "text": "NVIDIA just released a speculative decoding draft on Hugging Face\n\nIt accelerates Qwen3.8-27B with 4B parameters, boosting token acceptance by 46% over the built-in head.",
+   "likes": 770,
+   "reposts": 61,
+   "replies": 14,
+   "views": 50966,
+   "context": "",
+   "quoted": "",
+   "card": "nvidia/Qwen3.5-4B-Qwen3.8-27B-Draft · Hugging Face",
+   "links": []
+  },
+  {
+   "id": "2122912575302119554",
+   "url": "https://x.com/TencentHunyuan/status/2122912575302119554",
+   "author": "TencentHunyuan",
+   "name": "Tencent Hy",
+   "time": "2026-11-18T04:39:34.000Z",
+   "text": "Hy4 flash is now open-weight, including Hy4 flash-FP8 and Hy4 flash-Base.\n\n224B (12B active), 1M context, natively multimodal.\nFast, efficient and built for everyday productivity.\n\nIt's yours now. And stay tuned for Hy4 coming up next!\n\n: \nhttps://\nhuggingface.co/tencent/Hy4-fl\nash\n…\n:",
+   "likes": 1435,
+   "reposts": 277,
+   "replies": 102,
+   "views": 102892,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/tencent/Hy4-fl ash …"
+   ]
+  },
+  {
+   "id": "2122779857327378478",
+   "url": "https://x.com/TrelisResearch/status/2122779857327378478",
+   "author": "TrelisResearch",
+   "name": "Trelis Research",
+   "time": "2026-11-17T19:52:11.000Z",
+   "text": "A Speech to Speech Pre-training Dataset\n\n\nhttps://\nhuggingface.co/datasets/Treli\ns/s2s-pre-training-yodas3-mimi\n…\n\nThis is the first in a series of datasets and models we'll be releasing around speech-to-speech.\n\nIt's a small filtered and tokenized pre-training dataset for training dual-track speech-to-speech models.\n\nIt holds",
+   "likes": 186,
+   "reposts": 27,
+   "replies": 6,
+   "views": 6254,
+   "context": "",
+   "quoted": "",
+   "card": "Trelis/s2s-pre-training-yodas3-mimi · Datasets at Hugging Face",
+   "links": [
+    "https:// huggingface.co/datasets/Treli s/s2s-pre-training-yodas3-mimi …"
+   ]
+  },
+  {
+   "id": "2122808726952526256",
+   "url": "https://x.com/cadeli1029/status/2122808726952526256",
+   "author": "cadeli1029",
+   "name": "Cade Li",
+   "time": "2026-11-17T21:46:55.000Z",
+   "text": "We’re hiring research interns for Pika’s Fundamental Research!\n\nWe work across the full video model training pipeline and recently released Pika H3 Flex:\n\nhttps://\nhuggingface.co/Pika-Labs/Pika\n-H3-Flex\n…\n\nResearch directions we’re exploring include:\n\n• MLLM-based reward modeling with fine-grained rubrics",
+   "likes": 104,
+   "reposts": 6,
+   "replies": 5,
+   "views": 5059,
+   "context": "",
+   "quoted": "",
+   "card": "Pika-Labs/Pika-H3-Flex · Hugging Face",
+   "links": [
+    "https:// huggingface.co/Pika-Labs/Pika -H3-Flex …"
+   ]
+  },
+  {
+   "id": "2122799840057004296",
+   "url": "https://x.com/dlwh/status/2122799840057004296",
+   "author": "dlwh",
+   "name": "David Hall",
+   "time": "2026-11-17T21:11:36.000Z",
+   "text": "We’re releasing all 57 intermediate checkpoints from Marin “Mochi” 535B-A23B pretraining, including 10 from long-context extension. 18.2T tokens, about 61 TB of weights.\n\n\nhttps://\nhuggingface.co/open-athena/Ma\nrin-Mochi-535B-A23B\n…\n\nBlog: \nhttps://\nopenathena.ai/blog/marin-moc\nhi-pretraining-checkpoints/\n…",
+   "likes": 597,
+   "reposts": 91,
+   "replies": 22,
+   "views": 53417,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/open-athena/Ma rin-Mochi-535B-A23B …",
+    "https:// openathena.ai/blog/marin-moc hi-pretraining-checkpoints/ …"
+   ]
+  },
+  {
+   "id": "2122805100171460887",
+   "url": "https://x.com/_akhaliq/status/2122805100171460887",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-17T21:32:30.000Z",
+   "text": "Ropedia Xperience 2\n\nA Gold Standard for Scaling Physical AI Environments and Behaviors\n\npaper: \nhttps://\nhuggingface.co/papers/2611.17\n060\n…",
+   "likes": 151,
+   "reposts": 28,
+   "replies": 11,
+   "views": 15322,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/papers/2611.17 060 …"
+   ]
+  },
+  {
+   "id": "2122611173057310792",
+   "url": "https://x.com/meant4ekansh/status/2122611173057310792",
+   "author": "meant4ekansh",
+   "name": "Ekansh",
+   "time": "2026-11-17T08:41:54.000Z",
+   "text": "Alpa: A 4.5M-parameter Sanskrit tts. trained on a CPU. No GPU.\n\nReport: \nhttps://\nalpa.blog/report\nWeights and code: \nhttps://\nhuggingface.co/77ethers/alpa\nDemo: \nhttps://\nalpa.blog\n\nAdded - A female voice\nSharing the code that made it\n\nThank you \n@prathoshap\n \n@ai4bharat\n \n@n4ze3m",
+   "likes": 113,
+   "reposts": 10,
+   "replies": 9,
+   "views": 3587,
+   "context": "",
+   "quoted": "This speech model was trained to speak English. We edited 0.2% of it by hand, gave it 100 minutes on a CPU, and now it speaks Sanskrit. Alpa: open-weights Sanskrit text-to-speech in 18 MB. Zero GPUs. https:// huggingface.co/77ethers/alpa inspired from @prathoshap @ai4bharat @n4ze3m",
+   "card": "",
+   "links": [
+    "https:// alpa.blog/report",
+    "https:// huggingface.co/77ethers/alpa",
+    "https:// alpa.blog"
+   ]
+  },
+  {
+   "id": "2122601486039560552",
+   "url": "https://x.com/songguoxiansen/status/2122601486039560552",
+   "author": "songguoxiansen",
+   "name": "松果先森",
+   "time": "2026-11-17T08:03:24.000Z",
+   "text": "Meituan just open-sourced its latest digital human technology\n\nLongCat-Video-Avatar-1.6\n\nSome key improvements over the previous version, 1.5:\n1. More natural and stable lip animation.\n2. Maintains visual quality, character identity consistency, and more even in videos longer",
+   "likes": 253,
+   "reposts": 51,
+   "replies": 16,
+   "views": 17776,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

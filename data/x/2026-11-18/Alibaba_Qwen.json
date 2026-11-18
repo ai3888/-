@@ -1,0 +1,57 @@
+{
+ "page": "https://x.com/Alibaba_Qwen",
+ "collected_at": "2026-11-18T13:34:21.551Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2122958542982508901",
+   "url": "https://x.com/Alibaba_Qwen/status/2122958542982508901",
+   "author": "Alibaba_Qwen",
+   "name": "Qwen",
+   "time": "2026-11-18T07:42:13.000Z",
+   "text": "Built for real-world work.  Qwen4-Max is live on \n@TokenHarborAI\n. Give it a try!",
+   "likes": 140,
+   "reposts": 8,
+   "replies": 35,
+   "views": 18400,
+   "context": "",
+   "quoted": "Qwen4 Max on Token Harbor Built for complex coding, multimodal tasks, and agentic workflows. Limited-time 2× Model Boost with Office Pass. Give it a try! https:// tokenharbor.ai/pricing?utm_so urce=twitter&utm_medium=social&utm_campaign=qwen4_max&utm_content=office_pass_boost …",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122888191950901534",
+   "url": "https://x.com/Alibaba_Qwen/status/2122888191950901534",
+   "author": "Alibaba_Qwen",
+   "name": "Qwen",
+   "time": "2026-11-18T03:02:40.000Z",
+   "text": "Qwen4-Max lands on \n@runware\n. Start building today!",
+   "likes": 314,
+   "reposts": 19,
+   "replies": 36,
+   "views": 34773,
+   "context": "",
+   "quoted": "@Alibaba_Qwen Qwen4-Max is live on Runware Alibaba's Qwen4 flagship takes text, images and video in a 1M-token context window, with configurable reasoning effort, function calling and JSON Schema output. - 1M-token context, up to 128K output tokens - Image and video input",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122623567674396990",
+   "url": "https://x.com/Alibaba_Qwen/status/2122623567674396990",
+   "author": "Alibaba_Qwen",
+   "name": "Qwen",
+   "time": "2026-11-17T09:31:09.000Z",
+   "text": "Qwen4-Max is now live on \n@LebrelAI\n. Come try agentic coding and show us what you build.",
+   "likes": 425,
+   "reposts": 30,
+   "replies": 65,
+   "views": 39526,
+   "context": "",
+   "quoted": "The top agentic coding model, live on Lebrel at 7% below Alibaba's list price. Qwen4 Max from @Alibaba_Qwen ranks first on DeepSWE v1.1, ahead of Kimi, GPT and Opus, per Qwen's results. Anonymized, attested, with a signed receipt on each answer. Try it: https:// Lebrel.ai",
+   "card": "",
+   "links": []
+  }
+ ]
+}

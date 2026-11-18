@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/fchollet",
+ "collected_at": "2026-11-18T13:36:28.493Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 9,
+ "posts": [
+  {
+   "id": "2122910487595844050",
+   "url": "https://x.com/fchollet/status/2122910487595844050",
+   "author": "fchollet",
+   "name": "François Chollet",
+   "time": "2026-11-18T04:31:16.000Z",
+   "text": "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ…",
+   "likes": 2,
+   "reposts": 0,
+   "replies": 1,
+   "views": 0,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122802629302747583",
+   "url": "https://x.com/fchollet/status/2122802629302747583",
+   "author": "fchollet",
+   "name": "François Chollet",
+   "time": "2026-11-17T21:22:41.000Z",
+   "text": "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ…",
+   "likes": 2,
+   "reposts": 0,
+   "replies": 0,
+   "views": 0,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

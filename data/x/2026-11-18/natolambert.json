@@ -1,0 +1,57 @@
+{
+ "page": "https://x.com/natolambert",
+ "collected_at": "2026-11-18T13:35:57.373Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 9,
+ "posts": [
+  {
+   "id": "2122868827000013241",
+   "url": "https://x.com/natolambert/status/2122868827000013241",
+   "author": "natolambert",
+   "name": "Nathan Lambert",
+   "time": "2026-11-18T01:45:44.000Z",
+   "text": "this is like, the best cyber news we've gotten in a long time? things working",
+   "likes": 722,
+   "reposts": 27,
+   "replies": 18,
+   "views": 52408,
+   "context": "",
+   "quoted": "NEWS: Wall Street execs and NSA have told Congress that outages were caused by patching vulnerabilities identified by AI models, sources say AI did not cause outages but found so many issues that the rush to fix them before an attack overwhelmed systems https:// washingtonsun.com/technology/ban k-ceos-nsa-tell-congress-ai-driven-patches-behind-outages …",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122699342276370434",
+   "url": "https://x.com/natolambert/status/2122699342276370434",
+   "author": "natolambert",
+   "name": "Nathan Lambert",
+   "time": "2026-11-17T14:32:15.000Z",
+   "text": "Everyone online: OMG Qwen 4 Max is closed source, Chinese open-weight strategy is over.\n\nIn reality: It's the same strategy they've had for years. Qwen keeps the strongest model API only and has an abundant open weight strategy below that.",
+   "likes": 216,
+   "reposts": 23,
+   "replies": 39,
+   "views": 17096,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122663336903147953",
+   "url": "https://x.com/natolambert/status/2122663336903147953",
+   "author": "natolambert",
+   "name": "Nathan Lambert",
+   "time": "2026-11-17T12:09:11.000Z",
+   "text": "Dario's comments on the state of the technology are largely agreeable, as he said \"experts largely agree,\" but he also combined it with forecasts of what comes next, which experts do not agree. Is a persuasive way of talking, he's good at what he does.",
+   "likes": 166,
+   "reposts": 5,
+   "replies": 24,
+   "views": 17722,
+   "context": "",
+   "quoted": "Dario Amodei on open source models: “If the path continues, I think we could get to a very dangerous place.” “When you control a model and you're deploying it, you have the ability to monitor its usage.” “You can revoke a user's access. You can change what the model is willing",
+   "card": "",
+   "links": []
+  }
+ ]
+}
