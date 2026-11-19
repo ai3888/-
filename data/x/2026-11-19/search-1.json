@@ -1,0 +1,115 @@
+{
+ "page": "https://x.com/search?q=url%3Aarxiv.org%20min_faves%3A100%20-filter%3Areplies%20since%3A2026-11-18&src=typed_query",
+ "collected_at": "2026-11-19T13:37:19.626Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2123140068353139110",
+   "url": "https://x.com/_fracapuano/status/2123140068353139110",
+   "author": "_fracapuano",
+   "name": "Francesco Capuano",
+   "time": "2026-11-18T19:43:32.000Z",
+   "text": "我们正在发布一套包含 80 种模拟环境的开源软件包，这些环境运行速度非常快。  \n\nstable-envs 能够让 Windows 管理程序的运行速度提高多达 30%，同时还能显著提高 GPU 的利用率。不妨试试看吧！\n\narXiv: \nhttps://\narxiv.org/abs/2611.23151",
+   "likes": 174,
+   "reposts": 20,
+   "replies": 4,
+   "views": 6853,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2611.23151"
+   ]
+  },
+  {
+   "id": "2123096895220548026",
+   "url": "https://x.com/jure/status/2123096895220548026",
+   "author": "jure",
+   "name": "Jure Leskovec",
+   "time": "2026-11-18T16:51:59.000Z",
+   "text": "Today we share the NVIDIA Kumo Tabular technical report as well as the training recipe! \n\nTrained entirely on synthetic tables, Kumo Tabular-L leads 8 benchmark suites. All 3 model sizes achieve Pareto-optimal accuracy vs. inference time.\n\nArxiv:",
+   "likes": 172,
+   "reposts": 42,
+   "replies": 8,
+   "views": 10470,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org NVIDIA Kumo Tabular: Pushing the Accuracy-Efficiency Frontier for... We introduce Kumo Tabular, a family of open tabular foundation models for classification and regression, in three sizes: ",
+   "links": []
+  },
+  {
+   "id": "2123050089618788609",
+   "url": "https://x.com/packlesshepherd/status/2123050089618788609",
+   "author": "packlesshepherd",
+   "name": "David Van Dijcke",
+   "time": "2026-11-18T13:46:00.000Z",
+   "text": "New paper: Inference after coding agents (w/ Florian Gunsilius and Kaspar Wüthrich)\n\nWe develop a method for correcting distortions to the p-values of empirical findings produced by coding agents. Tldr in video, short thread below: (1/)\n\n\nhttps://\narxiv.org/abs/2611.23174",
+   "likes": 128,
+   "reposts": 33,
+   "replies": 2,
+   "views": 8862,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2611.23174"
+   ]
+  },
+  {
+   "id": "2123096634523582598",
+   "url": "https://x.com/andrewgwils/status/2123096634523582598",
+   "author": "andrewgwils",
+   "name": "Andrew Gordon Wilson",
+   "time": "2026-11-18T16:50:57.000Z",
+   "text": "Stochastic weight averaging (SWA) just keeps coming back, often rebranded as model merging. A simple equal average of params with constant LR is less sensitive to hypers, generalizes better, and is more adaptable to new settings. Give it a try! \nhttps://\narxiv.org/abs/1803.05407",
+   "likes": 183,
+   "reposts": 18,
+   "replies": 12,
+   "views": 9400,
+   "context": "",
+   "quoted": "Trick #3: Merge, merge, merge. In pretraining, we skipped LR decay for a running weight average. Then we merged pre-context-extension models into post-extension checkpoints (see fig. for ablation study gains). Merging was also an expedient stand-in for MOPD in our RLVR recipe.",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/1803.05407"
+   ]
+  },
+  {
+   "id": "2123051398392893645",
+   "url": "https://x.com/1amageek/status/2123051398392893645",
+   "author": "1amageek",
+   "name": "村本章憲 - Norikazu Muramoto",
+   "time": "2026-11-18T13:51:12.000Z",
+   "text": "There was a prediction.\n\n\nhttps://\narxiv.org/pdf/2611.05417",
+   "likes": 133,
+   "reposts": 8,
+   "replies": 1,
+   "views": 14743,
+   "context": "",
+   "quoted": "The current evolution of Agents is something like this 1. Agent Loop 2. Orchestrator 3. Meta Loop 4. Graph 5. ??? I suspect 5 is probably Organization It seems likely they'd call a separated Graph, designed with sparse relationships, an Organization. That said, if you zoom",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/pdf/2611.05417"
+   ]
+  },
+  {
+   "id": "2123013303689515201",
+   "url": "https://x.com/AndreasAtETH/status/2123013303689515201",
+   "author": "AndreasAtETH",
+   "name": "Andreas Wallraff",
+   "time": "2026-11-18T11:19:49.000Z",
+   "text": "Are you up for seeing our newest quantum device in action? If yes, then check out our paper on fault-tolerant logical #quantum #teleportation that appeared on arXiv today! \n Read the preprint here: \nhttps://\narxiv.org/abs/2611.23165\nTransitioning from quantum memories that passively",
+   "likes": 146,
+   "reposts": 20,
+   "replies": 6,
+   "views": 5020,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2611.23165"
+   ]
+  }
+ ]
+}

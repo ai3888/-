@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/rasbt",
+ "collected_at": "2026-11-19T13:33:32.505Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2123064851383677087",
+   "url": "https://x.com/rasbt/status/2123064851383677087",
+   "author": "rasbt",
+   "name": "Sebastian Raschka",
+   "time": "2026-11-18T14:44:39.000Z",
+   "text": "Comparing new LLM releases via benchmarks is now a bit like using IQ tests for hiring decisions.\n\nSure, benchmarks are useful baselines and so on, but beyond that, I don't know how indicative they are of our individual tasks and needs. (Yes, also looking at that release",
+   "likes": 529,
+   "reposts": 43,
+   "replies": 116,
+   "views": 47579,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123186674117087433",
+   "url": "https://x.com/rasbt/status/2123186674117087433",
+   "author": "rasbt",
+   "name": "Sebastian Raschka",
+   "time": "2026-11-18T22:48:44.000Z",
+   "text": "Chris said it even better here:",
+   "likes": 14,
+   "reposts": 1,
+   "replies": 1,
+   "views": 3924,
+   "context": "",
+   "quoted": "I feel like people who struggle to understand why benchmarking is hard have never had to interview candidates for a technical job before. I know the interview process is broken - but it's broken because it's damn near impossible to accurately assess someone completely before",
+   "card": "",
+   "links": []
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "page": "https://x.com/simonw",
+ "collected_at": "2026-11-19T13:34:59.665Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 3,
+ "posts": [
+  {
+   "id": "2123305131206967571",
+   "url": "https://x.com/simonw/status/2123305131206967571",
+   "author": "simonw",
+   "name": "Simon Willison",
+   "time": "2026-11-19T06:39:27.000Z",
+   "text": "The most useful thing about the pelican riding a bicycle test continues to be illustrating the differences between models in the same family running at different effort levels - here's Gemini 4 Carbon, the new Gemini 4 Neon, and Gemini 4 Hydrogen at low, medium, and high",
+   "likes": 386,
+   "reposts": 28,
+   "replies": 157,
+   "views": 33577,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123305792854217049",
+   "url": "https://x.com/simonw/status/2123305792854217049",
+   "author": "simonw",
+   "name": "Simon Willison",
+   "time": "2026-11-19T06:42:04.000Z",
+   "text": "I also tried \"Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and stomps around manhattan and queens and Brooklyn, use openstreetmap mapping data\" against Gemini 4 Neon and got this \nhttps://\nstatic.simonwillison.net/static/2026/ge\nmini-4-neon-yonkers/index.html\n…",
+   "likes": 37,
+   "reposts": 1,
+   "replies": 5,
+   "views": 8999,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// static.simonwillison.net/static/2026/ge mini-4-neon-yonkers/index.html …"
+   ]
+  }
+ ]
+}

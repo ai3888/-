@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/swyx",
+ "collected_at": "2026-11-19T13:35:56.050Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 3,
+ "posts": [
+  {
+   "id": "2123260852984013045",
+   "url": "https://x.com/swyx/status/2123260852984013045",
+   "author": "swyx",
+   "name": "swyx",
+   "time": "2026-11-19T03:43:30.000Z",
+   "text": "casting Monica Barbaro as temu Mira Murati is crazy work",
+   "likes": 94,
+   "reposts": 3,
+   "replies": 21,
+   "views": 26139,
+   "context": "",
+   "quoted": "New trailer for Luca Guadagnino's ‘ARTIFICIAL’, starring Andrew Garfield as Sam Altman. The film follows the story involving OpenAI focused on the firing & rehiring of CEO Sam Altman. In theaters on January 8.",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123165970940441038",
+   "url": "https://x.com/swyx/status/2123165970940441038",
+   "author": "swyx",
+   "name": "swyx",
+   "time": "2026-11-18T21:26:28.000Z",
+   "text": "my first startup and first love \n@netlify\n is refounding for the ai age with some very impressive growth stats despite a low aeo ranking. really impressed by \n@biilmann\n who has led the company through some tough days but never gave up (unlike me) and is coming out the other end with",
+   "likes": 102,
+   "reposts": 6,
+   "replies": 55,
+   "views": 13835,
+   "context": "",
+   "quoted": "Last week, Netlify enjoyed its first day with 100,000 new signups, most of them new to AI and building software. After taking 5 years to reach 1M users, Netlify doubled to 10M by this past January, and expects to reach 25M by year's end",
+   "card": "",
+   "links": []
+  }
+ ]
+}

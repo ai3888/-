@@ -1,0 +1,73 @@
+{
+ "page": "https://x.com/fchollet",
+ "collected_at": "2026-11-19T13:33:50.309Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 7,
+ "posts": [
+  {
+   "id": "2123204232610500956",
+   "url": "https://x.com/fchollet/status/2123204232610500956",
+   "author": "fchollet",
+   "name": "François Chollet",
+   "time": "2026-11-18T23:58:30.000Z",
+   "text": "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ…",
+   "likes": 2,
+   "reposts": 0,
+   "replies": 1,
+   "views": 0,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123193532186005962",
+   "url": "https://x.com/fchollet/status/2123193532186005962",
+   "author": "fchollet",
+   "name": "François Chollet",
+   "time": "2026-11-18T23:15:59.000Z",
+   "text": "Gemini 4 Neon. Really impressive numbers at that price point.",
+   "likes": 495,
+   "reposts": 15,
+   "replies": 38,
+   "views": 23352,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123191344822902818",
+   "url": "https://x.com/fchollet/status/2123191344822902818",
+   "author": "fchollet",
+   "name": "François Chollet",
+   "time": "2026-11-18T23:07:18.000Z",
+   "text": "There's basically infinite latent token demand across the economy. The only brake is cost. How much you're willing to spend on tokens is determined by your RoI on token spend, of which companies are increasingly mindful.\n\nNew models keep increasing the RoI on existing use cases",
+   "likes": 389,
+   "reposts": 19,
+   "replies": 57,
+   "views": 28660,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123126269193888066",
+   "url": "https://x.com/fchollet/status/2123126269193888066",
+   "author": "fchollet",
+   "name": "François Chollet",
+   "time": "2026-11-18T18:48:43.000Z",
+   "text": "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ…",
+   "likes": 3,
+   "reposts": 0,
+   "replies": 1,
+   "views": 0,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

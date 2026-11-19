@@ -1,0 +1,45 @@
+{
+ "page": "https://x.com/search?q=url%3Agithub.com%20(LLM%20OR%20agent%20OR%20model%20OR%20inference%20OR%20training)%20min_faves%3A200%20-filter%3Areplies%20since%3A2026-11-18&src=typed_query",
+ "collected_at": "2026-11-19T13:37:43.357Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 2,
+ "posts": [
+  {
+   "id": "2122975927835767007",
+   "url": "https://x.com/TensorTonic/status/2122975927835767007",
+   "author": "TensorTonic",
+   "name": "TensorTonic",
+   "time": "2026-11-18T08:51:18.000Z",
+   "text": "我们已经开源了 49 个在 Inference/LLM 工程师面试中常见的面试问题，每个问题都附有解释以及可以针对这些测试解决的问题。\n\n \nhttps://\ngithub.com/TensorTonic/ll\nm-optimization-handbook\n…",
+   "likes": 346,
+   "reposts": 37,
+   "replies": 1,
+   "views": 10467,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/TensorTonic/ll m-optimization-handbook …"
+   ]
+  },
+  {
+   "id": "2123038573066637425",
+   "url": "https://x.com/seeconvm/status/2123038573066637425",
+   "author": "seeconvm",
+   "name": "seeco",
+   "time": "2026-11-18T13:00:14.000Z",
+   "text": "这简直太疯狂了，Fable 5.2 的界面设计简直像是人工智能生成的产物，根本没人能分辨出来。\n\n15 张卡片，没有紫色渐变效果，也不是普通卡片。\n\n开源模式，每一个环节都如此 ↓\n\n01 shadcn/ui → 作为代码形式拥有的组件\n \nhttps://\ngithub.com/shadcn-ui/ui \n\n02 尾流 CSS → 以工具类样式为优先的布局方式",
+   "likes": 732,
+   "reposts": 85,
+   "replies": 13,
+   "views": 71450,
+   "context": "",
+   "quoted": "Fable 5.2 can make a film from one line It just won't be your film One line gets you Fable's taste. A director's brief gets you yours From nothing installed to a finished MP4: every prompt, every number, every fix ↓",
+   "card": "",
+   "links": [
+    "https:// github.com/shadcn-ui/ui"
+   ]
+  }
+ ]
+}

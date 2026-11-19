@@ -1,0 +1,73 @@
+{
+ "page": "https://x.com/EpochAIResearch",
+ "collected_at": "2026-11-19T13:36:09.335Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 9,
+ "posts": [
+  {
+   "id": "2123159919042207823",
+   "url": "https://x.com/EpochAIResearch/status/2123159919042207823",
+   "author": "EpochAIResearch",
+   "name": "Epoch AI",
+   "time": "2026-11-18T21:02:25.000Z",
+   "text": "Anthropic’s compute spending is increasing by 4x per year, outpacing OpenAI’s 3x.\n\nPer its S-1, Anthropic spent $10 billion on compute and infrastructure in Q3 2026 alone, or $40 billion annualized, compared to $433 million in all of 2023.",
+   "likes": 438,
+   "reposts": 59,
+   "replies": 15,
+   "views": 35862,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123159931037860107",
+   "url": "https://x.com/EpochAIResearch/status/2123159931037860107",
+   "author": "EpochAIResearch",
+   "name": "Epoch AI",
+   "time": "2026-11-18T21:02:28.000Z",
+   "text": "Most of Anthropic’s compute is used on R&D and other internal purposes, not on customer inference. Customer inference costs were around 26% of Anthropic’s compute spending in the first nine months of 2026, down from 38% in 2025.",
+   "likes": 97,
+   "reposts": 13,
+   "replies": 1,
+   "views": 4857,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123114112054112529",
+   "url": "https://x.com/EpochAIResearch/status/2123114112054112529",
+   "author": "EpochAIResearch",
+   "name": "Epoch AI",
+   "time": "2026-11-18T18:00:24.000Z",
+   "text": "Agentic inference capacity grew 4.6× from Q2 2025 to Q2 2026. This compares with just 2.6× growth in compute, according to our Inference Performance Index (IPI).\n\nNvidia’s Blackwell generations accounted for 74% of the added inference capacity, reflecting both growing sales and",
+   "likes": 193,
+   "reposts": 34,
+   "replies": 10,
+   "views": 13267,
+   "context": "",
+   "quoted": "We estimate that FLOP/s alone understates GB300’s inference advantage over H100 by 10×. The standard AI chip comparison misses most of what matters for inference. We’re introducing the Inference Performance Index (IPI), a new measure that accounts for memory bandwidth and",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123114124712530420",
+   "url": "https://x.com/EpochAIResearch/status/2123114124712530420",
+   "author": "EpochAIResearch",
+   "name": "Epoch AI",
+   "time": "2026-11-18T18:00:27.000Z",
+   "text": "Read the full Data Insight and methodology:",
+   "likes": 10,
+   "reposts": 0,
+   "replies": 0,
+   "views": 2337,
+   "context": "",
+   "quoted": "",
+   "card": "AI inference capacity grew 4.6× in one year",
+   "links": []
+  }
+ ]
+}

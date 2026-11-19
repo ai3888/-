@@ -1,0 +1,75 @@
+{
+ "page": "https://x.com/dotey",
+ "collected_at": "2026-11-19T13:37:05.596Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 7,
+ "posts": [
+  {
+   "id": "2123262843789132274",
+   "url": "https://x.com/dotey/status/2123262843789132274",
+   "author": "dotey",
+   "name": "宝玉",
+   "time": "2026-11-19T03:51:24.000Z",
+   "text": "我写的《图解 Skill》的英文翻译版本即将发售\n\nAn Illustrated Guide to Agent Skills: Turn everyday repeatable tasks into reusable agentic workflows\n\nhttps://\na.co/d/0d9fS6G8\n\nWith over 100,000 copies sold, this bestselling illustrated guide shows you how to create, test, combine, and",
+   "likes": 66,
+   "reposts": 5,
+   "replies": 50,
+   "views": 11945,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// a.co/d/0d9fS6G8"
+   ]
+  },
+  {
+   "id": "2123214459703267673",
+   "url": "https://x.com/dotey/status/2123214459703267673",
+   "author": "dotey",
+   "name": "宝玉",
+   "time": "2026-11-19T00:39:09.000Z",
+   "text": "Google releases Gemini 4 Neon: third in independent benchmarks, priced at less than 40% of GPT and Claude flagships, available to Pro and Ultra subscribers starting today\n\nGoogle released its large model Gemini 4 Neon on November 18. On the Artificial Analysis Intelligence Index,",
+   "likes": 284,
+   "reposts": 31,
+   "replies": 153,
+   "views": 66312,
+   "context": "",
+   "quoted": "Gemini 4 Neon: frontier-level intelligence with fast end-to-end task completion across complex software engineering, knowledge work, and science workflows. Begins rolling out today in the Gemini API in @GoogleAIStudio, Gemini for business, for paid Google AI Pro and Ultra",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123197631228997865",
+   "url": "https://x.com/dotey/status/2123197631228997865",
+   "author": "dotey",
+   "name": "宝玉",
+   "time": "2026-11-18T23:32:17.000Z",
+   "text": "Anthropic IPO priced at $83 per share",
+   "likes": 71,
+   "reposts": 9,
+   "replies": 49,
+   "views": 27812,
+   "context": "",
+   "quoted": "We’ve priced our IPO at $83 per share, with trading expected to begin on Nasdaq tomorrow. https:// anthropic.com/news/anthropic -prices-initial-public-offering … Legal disclaimer: A registration statement relating to the Class A common stock was declared effective by the Securities and Exchange Commission on November 18,",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123196833358926273",
+   "url": "https://x.com/dotey/status/2123196833358926273",
+   "author": "dotey",
+   "name": "宝玉",
+   "time": "2026-11-18T23:29:06.000Z",
+   "text": "Musk compared Nvidia’s ouster of Jensen Huang to the Chicago Bulls kicking Michael Jordan off the team in the middle of a winning streak, calling it “not a smart decision.”\n\nSpeaking to CNBC host Andrew Ross Sorkin while accompanying the president on a visit to China, Musk said",
+   "likes": 283,
+   "reposts": 34,
+   "replies": 37,
+   "views": 51741,
+   "context": "",
+   "quoted": "In a recent interview, Jim Cramer pressed Nvidia’s interim CEO Colette Kress: Although the board has said it will not ask Jensen Huang to return as CEO, given that the president today affirmed his importance to American technology, would the board consider bringing him back in x.com/dotey/status/2…",
+   "card": "",
+   "links": []
+  }
+ ]
+}

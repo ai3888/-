@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/JeffDean",
+ "collected_at": "2026-11-19T13:34:20.183Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2123074280405823990",
+   "url": "https://x.com/JeffDean/status/2123074280405823990",
+   "author": "JeffDean",
+   "name": "Jeff Dean",
+   "time": "2026-11-18T15:22:07.000Z",
+   "text": "I remember how the conversation went with our internship folks: \n\nMe: \"I want Chris as my intern\"\n\nIntern team: \"Great.  Where is he a student currently?\"\n\nMe: \"Well, ur, um, he's not one.  He got a scholarship to drop out\"\n\nIntern team: \"Um, okay.  He does have the right to work",
+   "likes": 229,
+   "reposts": 6,
+   "replies": 7,
+   "views": 16896,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

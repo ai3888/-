@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/arankomatsuzaki",
+ "collected_at": "2026-11-19T13:34:38.001Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 2,
+ "posts": [
+  {
+   "id": "2123151353468129551",
+   "url": "https://x.com/arankomatsuzaki/status/2123151353468129551",
+   "author": "arankomatsuzaki",
+   "name": "Aran Komatsuzaki",
+   "time": "2026-11-18T20:28:23.000Z",
+   "text": "Interesting result from Contra Labs on AI design. Pro designers voted blind on real client briefs, and humans still win 76% of comparisons, with Fable 5.2 the best model. \n\nHonestly, the margin is much smaller than expected, and Kimi K3.1 seems great. \n\nGiveaway for your answer",
+   "likes": 17,
+   "reposts": 1,
+   "replies": 4,
+   "views": 4094,
+   "context": "",
+   "quoted": "The AI industry has a benchmarking problem. We're letting random people on the internet decide which models are best even for capabilities like design... So we built something different. Introducing The Frontier Design Benchmark from @contralabs https:// contralabs.com/frontierdesign",
+   "card": "",
+   "links": []
+  }
+ ]
+}

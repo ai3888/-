@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/Alibaba_Qwen",
+ "collected_at": "2026-11-19T13:31:46.360Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2123328957022081036",
+   "url": "https://x.com/Alibaba_Qwen/status/2123328957022081036",
+   "author": "Alibaba_Qwen",
+   "name": "Qwen",
+   "time": "2026-11-19T08:14:07.000Z",
+   "text": "Try Qwen4-Max on Nous Portal and show us your creations.  \n@NousResearch\n \n@inferact",
+   "likes": 330,
+   "reposts": 37,
+   "replies": 49,
+   "views": 35142,
+   "context": "",
+   "quoted": "Qwen4-Max, the new flagship model from Alibaba, is free in Nous Portal for 5 days in partnership with @inferact and @Alibaba_Qwen. It’s built for long-horizon work, with native vision and 1M context. Try it today at https:// portal.nousresearch.com",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2122958542982508901",
+   "url": "https://x.com/Alibaba_Qwen/status/2122958542982508901",
+   "author": "Alibaba_Qwen",
+   "name": "Qwen",
+   "time": "2026-11-18T07:42:13.000Z",
+   "text": "Built for real-world work.  Qwen4-Max is live on \n@TokenHarborAI\n. Give it a try!",
+   "likes": 192,
+   "reposts": 14,
+   "replies": 43,
+   "views": 27892,
+   "context": "",
+   "quoted": "Qwen4 Max on Token Harbor Built for complex coding, multimodal tasks, and agentic workflows. Limited-time 2× Model Boost with Office Pass. Give it a try! https:// tokenharbor.ai/pricing?utm_so urce=twitter&utm_medium=social&utm_campaign=qwen4_max&utm_content=office_pass_boost …",
+   "card": "",
+   "links": []
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "page": "https://x.com/GoogleDeepMind",
+ "collected_at": "2026-11-19T13:30:56.684Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2123117733709586849",
+   "url": "https://x.com/GoogleDeepMind/status/2123117733709586849",
+   "author": "GoogleDeepMind",
+   "name": "Google DeepMind",
+   "time": "2026-11-18T18:14:47.000Z",
+   "text": "Genie 4 现已纳入了“项目 Genie”系列产品中。\n\n它提供了原生音频支持、实时编辑功能，以及一款新的代理工具，帮助你创建互动式的虚拟世界。",
+   "likes": 2241,
+   "reposts": 373,
+   "replies": 208,
+   "views": 174813,
+   "context": "已固定",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123167884411077030",
+   "url": "https://x.com/GoogleDeepMind/status/2123167884411077030",
+   "author": "GoogleDeepMind",
+   "name": "Google DeepMind",
+   "time": "2026-11-18T21:34:04.000Z",
+   "text": "Gemini 4 Neon is rolling out now.\n\nSitting between Carbon and Hydrogen, it brings frontier intelligence and fast task completion for complex software engineering, knowledge work, and science.",
+   "likes": 8903,
+   "reposts": 1492,
+   "replies": 317,
+   "views": 746269,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123167889976905966",
+   "url": "https://x.com/GoogleDeepMind/status/2123167889976905966",
+   "author": "GoogleDeepMind",
+   "name": "Google DeepMind",
+   "time": "2026-11-18T21:34:06.000Z",
+   "text": "Neon ranks #3 with a score of 61 on the \n@ArtificialAnlys\n Intelligence Index at its xhigh thinking level.\n\nAvailable starting today:\n The Gemini API in \n@GoogleAIStudio\n, \n@AndroidStudio\n, and Gemini for business\n \n@Geminiapp\n for Google AI Pro and Ultra subscribers, and",
+   "likes": 326,
+   "reposts": 22,
+   "replies": 11,
+   "views": 44214,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

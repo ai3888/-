@@ -1,0 +1,61 @@
+{
+ "page": "https://x.com/allen_ai",
+ "collected_at": "2026-11-19T13:31:29.588Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 7,
+ "posts": [
+  {
+   "id": "2123141487395475649",
+   "url": "https://x.com/allen_ai/status/2123141487395475649",
+   "author": "allen_ai",
+   "name": "Ai2",
+   "time": "2026-11-18T19:49:11.000Z",
+   "text": "Open benchmarks help move AI forward. \n\n\n@UnsiloedHQ\n reports scoring 88.0 on our olmOCR-Bench, ahead of GPT-5.5 at 84.6.\n\nGreat to see our open benchmark helping the field measure progress on reading complex documents!\n\nExplore the leaderboard: \nhttps://\nhuggingface.co/datasets/allen\nai/olmOCR-bench\n…",
+   "likes": 11,
+   "reposts": 2,
+   "replies": 0,
+   "views": 1911,
+   "context": "",
+   "quoted": "We’ve raised a $7.5M seed round led by Felicis so AI can read documents as easily as it reads databases. Finance, law and healthcare run on documents, and not databases like any other industry. Soon AI agents will read and write more documents than humans, and they’ll need to",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/datasets/allen ai/olmOCR-bench …"
+   ]
+  },
+  {
+   "id": "2123072760901460376",
+   "url": "https://x.com/allen_ai/status/2123072760901460376",
+   "author": "allen_ai",
+   "name": "Ai2",
+   "time": "2026-11-18T15:16:05.000Z",
+   "text": "Geospatial AI is moving fast, and putting it to work for the public good takes more than any one group can do alone.\n\nAi2 and \n@TaylorGeoAI\n are teaming up on open benchmarks, models, and data that practitioners can build on. \n\n\nhttps://\nallenai.org/blog/taylor-ge\nospatial-partnership\n…",
+   "likes": 20,
+   "reposts": 3,
+   "replies": 3,
+   "views": 2419,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// allenai.org/blog/taylor-ge ospatial-partnership …"
+   ]
+  },
+  {
+   "id": "2123072762595983484",
+   "url": "https://x.com/allen_ai/status/2123072762595983484",
+   "author": "allen_ai",
+   "name": "Ai2",
+   "time": "2026-11-18T15:16:06.000Z",
+   "text": "Taylor Geospatial leads Fields of The World, an effort to map field boundaries worldwide.\n\nWe bring OlmoEarth, our fully open foundation models and platform for Earth observation, to help deliver field-level insights for food security planning.",
+   "likes": 1,
+   "reposts": 0,
+   "replies": 1,
+   "views": 181,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/YiTayML",
+ "collected_at": "2026-11-19T13:33:10.977Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2123319382340465004",
+   "url": "https://x.com/YiTayML/status/2123319382340465004",
+   "author": "YiTayML",
+   "name": "Yi Tay",
+   "time": "2026-11-19T07:36:04.000Z",
+   "text": "Neon!",
+   "likes": 23,
+   "reposts": 0,
+   "replies": 1,
+   "views": 1317,
+   "context": "",
+   "quoted": "Introducing Gemini 4 Neon! Our team pushed hard to bring frontier-level intelligence to a faster, more cost-efficient model for complex, daily work. We have really enjoyed using this model internally. Excited for you all to try it!",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123236405048647742",
+   "url": "https://x.com/YiTayML/status/2123236405048647742",
+   "author": "YiTayML",
+   "name": "Yi Tay",
+   "time": "2026-11-19T02:06:21.000Z",
+   "text": "Enjoy the element maxxing.",
+   "likes": 52,
+   "reposts": 2,
+   "replies": 2,
+   "views": 2152,
+   "context": "",
+   "quoted": "Gemini 4 Neon is rolling out now. Sitting between Carbon and Hydrogen, it brings frontier intelligence and fast task completion for complex software engineering, knowledge work, and science.",
+   "card": "",
+   "links": []
+  }
+ ]
+}

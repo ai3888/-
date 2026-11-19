@@ -1,0 +1,57 @@
+{
+ "page": "https://x.com/OpenAI",
+ "collected_at": "2026-11-19T13:30:35.529Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2123191365983248653",
+   "url": "https://x.com/OpenAI/status/2123191365983248653",
+   "author": "OpenAI",
+   "name": "OpenAI",
+   "time": "2026-11-18T23:07:23.000Z",
+   "text": "我们在 OpenAI 网站上分享有关人工智能如何改变研究的新数据。\n\n我们发现，研究人员对人工智能的使用量正在呈指数级增长，智能助手能够完成更长的任务，但人类在研究中的参与仍然至关重要。此外，研究人员在安全性和相关事务上的投入时间也在不断增加。",
+   "likes": 2894,
+   "reposts": 439,
+   "replies": 314,
+   "views": 532310,
+   "context": "",
+   "quoted": "",
+   "card": "Research acceleration: The jagged frontier",
+   "links": []
+  },
+  {
+   "id": "2123165872261075233",
+   "url": "https://x.com/OpenAI/status/2123165872261075233",
+   "author": "OpenAI",
+   "name": "OpenAI",
+   "time": "2026-11-18T21:26:05.000Z",
+   "text": "We’re sharing how we approach safety at every stage of a model’s lifecycle, from early research to internal use to public deployment.",
+   "likes": 1692,
+   "reposts": 92,
+   "replies": 166,
+   "views": 247122,
+   "context": "",
+   "quoted": "A lot has happened in the past couple months, to say the least. Today we are sharing a recap of what it takes to move a frontier model from training to internal use to public release. As model capabilities rise, so do the safety and alignment standards required to move forward",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123100386638877054",
+   "url": "https://x.com/OpenAI/status/2123100386638877054",
+   "author": "OpenAI",
+   "name": "OpenAI",
+   "time": "2026-11-18T17:05:52.000Z",
+   "text": "Working with \n@AMD\n, our models identified up to 14% PPA improvement on flagship GPU IP in less than five months—building on designs AMD’s engineers had already spent years optimizing.\n\nThe same approach helped improve Jalapeño, our first custom inference chip, with gains verified",
+   "likes": 4765,
+   "reposts": 716,
+   "replies": 410,
+   "views": 1018926,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

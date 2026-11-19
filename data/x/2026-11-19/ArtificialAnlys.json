@@ -1,0 +1,73 @@
+{
+ "page": "https://x.com/ArtificialAnlys",
+ "collected_at": "2026-11-19T13:36:17.844Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2123242530489966738",
+   "url": "https://x.com/ArtificialAnlys/status/2123242530489966738",
+   "author": "ArtificialAnlys",
+   "name": "Artificial Analysis",
+   "time": "2026-11-19T02:30:41.000Z",
+   "text": "Kling Image 4.0 ranks #7 in Text to Image and #6 in Image Editing, behind only OpenAI and Microsoft AI models\n\nIt generates images up to 8K, and its 2K price is under a third of the price of every OpenAI model ranked above it. In Image Editing, it sits just behind GPT Image 2.5",
+   "likes": 107,
+   "reposts": 14,
+   "replies": 21,
+   "views": 15866,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123242535493800232",
+   "url": "https://x.com/ArtificialAnlys/status/2123242535493800232",
+   "author": "ArtificialAnlys",
+   "name": "Artificial Analysis",
+   "time": "2026-11-19T02:30:43.000Z",
+   "text": "Kling Image 4.0 costs under a third of the price of every OpenAI model ranked above it, but MAI-Image-2.7 ranks higher on both boards for less\n\nReleased November 17, Kling Image 4.0 is Kling AI's new model for text to image generation and image editing. It follows Kling Image 3.0",
+   "likes": 6,
+   "reposts": 1,
+   "replies": 1,
+   "views": 2444,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123236464003588136",
+   "url": "https://x.com/ArtificialAnlys/status/2123236464003588136",
+   "author": "ArtificialAnlys",
+   "name": "Artificial Analysis",
+   "time": "2026-11-19T02:06:35.000Z",
+   "text": "The personalities of GPT-6.2 Astra and GPT-6.2 Sol changed noticeably from prior releases: both use less structure, are less likely to admit uncertainty, and give shorter responses\n\n➤ Shorter responses: 352 to 210 words per response (Astra), 337 to 223 (Sol)\n➤ Less structured",
+   "likes": 637,
+   "reposts": 42,
+   "replies": 53,
+   "views": 48621,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123236466717299062",
+   "url": "https://x.com/ArtificialAnlys/status/2123236466717299062",
+   "author": "ArtificialAnlys",
+   "name": "Artificial Analysis",
+   "time": "2026-11-19T02:06:36.000Z",
+   "text": "GPT-6.2 Astra and GPT-6.2 Sol write 40% and 34% shorter responses than their previous releases.\n\n➤ GPT-6.2 Astra: 352 to 210 words per response\n➤ GPT-6.2 Sol: 337 to 223 words per response",
+   "likes": 36,
+   "reposts": 3,
+   "replies": 1,
+   "views": 5627,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

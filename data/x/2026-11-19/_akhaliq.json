@@ -1,0 +1,99 @@
+{
+ "page": "https://x.com/_akhaliq",
+ "collected_at": "2026-11-19T13:34:30.867Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2123354595061907578",
+   "url": "https://x.com/_akhaliq/status/2123354595061907578",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-19T09:56:00.000Z",
+   "text": "Jeveration\n\nSystem One Models Now Generate\n\npaper: \nhttps://\nhuggingface.co/papers/2611.24\n738\n…",
+   "likes": 68,
+   "reposts": 14,
+   "replies": 15,
+   "views": 7414,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/papers/2611.24 738 …"
+   ]
+  },
+  {
+   "id": "2123331996927897922",
+   "url": "https://x.com/_akhaliq/status/2123331996927897922",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-19T08:26:12.000Z",
+   "text": "UltraTex\n\nAligning Physical Knowledge for High-Fidelity PBR Texture Generation\n\npaper: \nhttps://\nhuggingface.co/papers/2611.24\n941\n…",
+   "likes": 121,
+   "reposts": 16,
+   "replies": 15,
+   "views": 9985,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/papers/2611.24 941 …"
+   ]
+  },
+  {
+   "id": "2123273975530992090",
+   "url": "https://x.com/_akhaliq/status/2123273975530992090",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-19T04:35:38.000Z",
+   "text": "Code World Model 2.0\n\nTowards Infinite Controllable Video Generation\n\npaper: \nhttps://\nhuggingface.co/papers/2611.22\n925\n…",
+   "likes": 101,
+   "reposts": 12,
+   "replies": 10,
+   "views": 11193,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/papers/2611.22 925 …"
+   ]
+  },
+  {
+   "id": "2123135391352107268",
+   "url": "https://x.com/_akhaliq/status/2123135391352107268",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-18T19:24:57.000Z",
+   "text": "Self-Improvement Memory Enables Continual Recursive Self-Improvement\n\npaper: \nhttps://\nhuggingface.co/papers/2611.18\n856\n…",
+   "likes": 117,
+   "reposts": 18,
+   "replies": 11,
+   "views": 15208,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/papers/2611.18 856 …"
+   ]
+  },
+  {
+   "id": "2122966721074278813",
+   "url": "https://x.com/_akhaliq/status/2122966721074278813",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-18T08:14:43.000Z",
+   "text": "MPEG-Diffusion\n\nMixed-Resolution Video Generation\n\npaper: \nhttps://\nhuggingface.co/papers/2611.12\n069\n…",
+   "likes": 290,
+   "reposts": 36,
+   "replies": 19,
+   "views": 21301,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/papers/2611.12 069 …"
+   ]
+  }
+ ]
+}

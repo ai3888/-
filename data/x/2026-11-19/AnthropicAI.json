@@ -1,0 +1,27 @@
+{
+ "page": "https://x.com/AnthropicAI",
+ "collected_at": "2026-11-19T13:30:45.982Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2123196808675405860",
+   "url": "https://x.com/AnthropicAI/status/2123196808675405860",
+   "author": "AnthropicAI",
+   "name": "Anthropic",
+   "time": "2026-11-18T23:29:00.000Z",
+   "text": "我们为此次 IPO 定的价格为每股 83 美元，预计交易将在明天开始，在纳斯达克上市。\n\n \nhttps://\nanthropic.com/news/anthropic\n-prices-initial-public-offering\n… \n\n法律声明：关于 A 类普通股票的注册声明已由证券交易委员会在 11 月 18 日生效。",
+   "likes": 14878,
+   "reposts": 3061,
+   "replies": 1084,
+   "views": 2472288,
+   "context": "",
+   "quoted": "",
+   "card": "Anthropic prices initial public offering",
+   "links": [
+    "https:// anthropic.com/news/anthropic -prices-initial-public-offering …"
+   ]
+  }
+ ]
+}

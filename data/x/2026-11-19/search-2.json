@@ -1,0 +1,204 @@
+{
+ "page": "https://x.com/search?q=url%3Ahuggingface.co%20min_faves%3A100%20-filter%3Areplies%20since%3A2026-11-18&src=typed_query",
+ "collected_at": "2026-11-19T13:37:29.732Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 11,
+ "posts": [
+  {
+   "id": "2123039814069199159",
+   "url": "https://x.com/HigurashiAI/status/2123039814069199159",
+   "author": "HigurashiAI",
+   "name": "higurashi",
+   "time": "2026-11-18T13:05:10.000Z",
+   "text": "Haru-4B 刚刚在 Hugging Face 的各类模型排行榜中排名第一！  \n\n感谢大家的鼎力支持！\n\n模型页面→ \nhttps://\nhuggingface.co/higurashi-ai/H\naru-4B\n…",
+   "likes": 296,
+   "reposts": 55,
+   "replies": 4,
+   "views": 17586,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/higurashi-ai/H aru-4B …"
+   ]
+  },
+  {
+   "id": "2123273975530992090",
+   "url": "https://x.com/_akhaliq/status/2123273975530992090",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-19T04:35:38.000Z",
+   "text": "Code World Model 2.0\n\nTowards Infinite Controllable Video Generation\n\npaper: \nhttps://\nhuggingface.co/papers/2611.22\n925\n…",
+   "likes": 101,
+   "reposts": 12,
+   "replies": 11,
+   "views": 11215,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/papers/2611.22 925 …"
+   ]
+  },
+  {
+   "id": "2123135391352107268",
+   "url": "https://x.com/_akhaliq/status/2123135391352107268",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-18T19:24:57.000Z",
+   "text": "Self-Improvement Memory Enables Continual Recursive Self-Improvement\n\npaper: \nhttps://\nhuggingface.co/papers/2611.18\n856\n…",
+   "likes": 117,
+   "reposts": 18,
+   "replies": 11,
+   "views": 15216,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/papers/2611.18 856 …"
+   ]
+  },
+  {
+   "id": "2123075544975568956",
+   "url": "https://x.com/atomic_chat_hq/status/2123075544975568956",
+   "author": "atomic_chat_hq",
+   "name": "atomic.chat",
+   "time": "2026-11-18T15:27:09.000Z",
+   "text": "Run \n@TencentHunyuan\n 220B Hy4 Flash locally on a 64 GB machine\n\nThe trick: 63.5B of the model is an Engram lookup table read a few KB per token, so it stays on your SSD\n\nGet quants here",
+   "likes": 318,
+   "reposts": 33,
+   "replies": 12,
+   "views": 21743,
+   "context": "",
+   "quoted": "",
+   "card": "AtomicChat/Hy4-flash-GGUF · Hugging Face",
+   "links": []
+  },
+  {
+   "id": "2123060265260667217",
+   "url": "https://x.com/Naritaasah1/status/2123060265260667217",
+   "author": "Naritaasah1",
+   "name": "Shino",
+   "time": "2026-11-18T14:26:26.000Z",
+   "text": "【Breaking】Shino’s first model release\n\nThis time, we made custom architectural modifications to Qwen3.8-27B-QSA.\n\nWe implemented a “Loop structure” that reuses 4 specific layers just once‼︎\n\nv2, which focuses on optimization and quality improvements, is also being developed",
+   "likes": 163,
+   "reposts": 28,
+   "replies": 6,
+   "views": 14220,
+   "context": "",
+   "quoted": "",
+   "card": "Kiyo1130/Qwen3.8-27B-QSA-Loop-v1-GGUF · Hugging Face",
+   "links": []
+  },
+  {
+   "id": "2123017373368414454",
+   "url": "https://x.com/annie_baby_69/status/2123017373368414454",
+   "author": "annie_baby_69",
+   "name": "安妮宝贝 | 知识分享",
+   "time": "2026-11-18T11:36:00.000Z",
+   "text": "Crack it in one sentence—can you use almost any software for free?\n\nI deployed the “armor-piercing” Qwen3.8 27B unrestricted model on Colab, then paired it with rea’s skill. Whatever software you want to use, just say it in one sentence and you’re done.\n\nModel:",
+   "likes": 174,
+   "reposts": 29,
+   "replies": 5,
+   "views": 13327,
+   "context": "",
+   "quoted": "",
+   "card": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF · Hugging Face",
+   "links": []
+  },
+  {
+   "id": "2122999109892104310",
+   "url": "https://x.com/TrelisResearch/status/2122999109892104310",
+   "author": "TrelisResearch",
+   "name": "Trelis Research",
+   "time": "2026-11-18T10:23:25.000Z",
+   "text": "A Duplex Pre-training Podcast Dataset  \nhttps://\nhuggingface.co/datasets/Treli\ns/duplex-pre-training-podcasts-mimi\n…\n\nThis is the second in a series of datasets and models we'll be releasing for duplex speech-to-speech model training.\n\nLike our YODAS3 pre-training dataset (\nhttps://\nhuggingface.co/datasets/Treli\ns/duplex-pre-training-YODAS-mimi\n…), it's filtered for low music and 1",
+   "likes": 101,
+   "reposts": 11,
+   "replies": 3,
+   "views": 5681,
+   "context": "",
+   "quoted": "",
+   "card": "Trelis/duplex-pre-training-podcasts-mimi · Datasets at Hugging Face",
+   "links": [
+    "https:// huggingface.co/datasets/Treli s/duplex-pre-training-podcasts-mimi …",
+    "https:// huggingface.co/datasets/Treli s/duplex-pre-training-YODAS-mimi …"
+   ]
+  },
+  {
+   "id": "2123089416352829725",
+   "url": "https://x.com/lvwerra/status/2123089416352829725",
+   "author": "lvwerra",
+   "name": "Leandro von Werra",
+   "time": "2026-11-18T16:22:16.000Z",
+   "text": "We are releasing PyBot's complete message board, the largest open dataset of agent swarm interactions!\n\n1000 agents / 184k messages/ 32m words in 8 days\n\nPerfect resource to study large scale swarm behaviour!\n\nViewer and dataset: \nhttps://\nhuggingface.co/spaces/Hugging\nFaceSwarms/pybot-msgboard\n…",
+   "likes": 318,
+   "reposts": 43,
+   "replies": 23,
+   "views": 16100,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/spaces/Hugging FaceSwarms/pybot-msgboard …"
+   ]
+  },
+  {
+   "id": "2123046070582157458",
+   "url": "https://x.com/ashxhart/status/2123046070582157458",
+   "author": "ashxhart",
+   "name": "Ash Hart",
+   "time": "2026-11-18T13:30:02.000Z",
+   "text": "@TencentHunyuan\n Hy4 Flash weights for Apple Silicon are live on \n@huggingface\n \n@HuggingModels\n  Both 4-bit and 8-bit MLX checkpoints include MTP.\n\nThe TensorFold update to run Hy4 Flash locally drops today.\n\n4-bit MLX MTP\n\nhttps://\nhuggingface.co/TensorFold/Hy4\n-flash-MLX-4bit-MTP\n…\n\n8-bit MLX MTP",
+   "likes": 103,
+   "reposts": 12,
+   "replies": 18,
+   "views": 5960,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/TensorFold/Hy4 -flash-MLX-4bit-MTP …"
+   ]
+  },
+  {
+   "id": "2123040780071682488",
+   "url": "https://x.com/TrelisResearch/status/2123040780071682488",
+   "author": "TrelisResearch",
+   "name": "Trelis Research",
+   "time": "2026-11-18T13:09:00.000Z",
+   "text": "Voice Isolation & Barge Detection Models\n\n\nhttps://\nhuggingface.co/Trelis/voice-i\nsolator\n…\n\n\nhttps://\nhuggingface.co/Trelis/barge-i\nn-detector\n…\n\nBoth are now available under Polyform Small Business license, meaning you can use them commercially according to the license terms provided you're <100 employees and <$1M in revenue.\n\nIf",
+   "likes": 141,
+   "reposts": 12,
+   "replies": 4,
+   "views": 5006,
+   "context": "",
+   "quoted": "",
+   "card": "Trelis/voice-isolator · Hugging Face",
+   "links": [
+    "https:// huggingface.co/Trelis/voice-i solator …",
+    "https:// huggingface.co/Trelis/barge-i n-detector …"
+   ]
+  },
+  {
+   "id": "2123054540656456096",
+   "url": "https://x.com/SenseTime_AI/status/2123054540656456096",
+   "author": "SenseTime_AI",
+   "name": "SenseTime",
+   "time": "2026-11-18T14:03:41.000Z",
+   "text": "More ways to run #SenseNova-Loop-9B!  \n 4-bit AWQ (~4.9 GB), with a matching MTP draft model  \n GGUF in Q4_K_M, Q5_K_M, Q8_0 and BF16, for use with our llama.cpp fork\n\n AWQ: \nhttps://\nhuggingface.co/sensenova/Sens\neNova-Loop-9B-AWQ\n… \n GGUF: \nhttps://\nhuggingface.co/sensenova/Sens\neNova-Loop-9B-GGUF\n… \n\n Give them a try and share your",
+   "likes": 204,
+   "reposts": 22,
+   "replies": 16,
+   "views": 8301,
+   "context": "",
+   "quoted": "#SenseNova-Loop-9B is officially here — now #OpenSource! Just 9B parameters, competitive with Qwen3.8-27B across multiple benchmarks. Big gains over Preview: NL2Repo 19.91 → 41.36; AutomationBench 14.33 → 36.67; GAIA 37.86 → 69.90 Loop + mHC: 32 unique layers, 56 layer",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/sensenova/Sens eNova-Loop-9B-AWQ …",
+    "https:// huggingface.co/sensenova/Sens eNova-Loop-9B-GGUF …"
+   ]
+  }
+ ]
+}
