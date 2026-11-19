@@ -1,130 +1,130 @@
-# GitHub 项目雷达 · 2026-11-18
+# GitHub 项目雷达 · 2026-11-19
 
-> 搜到 612 个候选 → 过滤后 365 个 → 详细检查 40 个 → 入选 15 个
+> 搜到 609 个候选 → 过滤后 363 个 → 详细检查 40 个 → 入选 15 个
 
 ## 🚀 潜力股（新项目、涨得快）
 
-### [tangency-labs/solidcraft](https://github.com/tangency-labs/solidcraft) · 100 分
+### [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) · 100 分
 
-⭐ 16,979（+272/天） · 🍴 2,350 · 👥 409 位贡献者 · 📝 30 天 7608 次提交 · Rust · Apache-2.0 · 创建 41 天
+⭐ 59,370（+311/天） · 🍴 7,764 · 👥 1251 位贡献者 · 📝 30 天 6191 次提交 · Python · NOASSERTION · 创建 32 天
 
-> SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.
+> Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.
 
-<sub>来源：近 90 天新项目、MCP</sub>
+<sub>来源：近 90 天新项目</sub>
 
-### [yetone/magpie](https://github.com/yetone/magpie) · 99 分
+### [Lee-xeo/Claude-Cage](https://github.com/Lee-xeo/Claude-Cage) · 95 分
 
-⭐ 38,234（+536/天） · 🍴 3,459 · 👥 160 位贡献者 · 📝 30 天 4668 次提交 · Go · MIT · 创建 55 天
+⭐ 6,682（+371.2/天，平均） · 🍴 778 · 👥 31 位贡献者 · 📝 30 天 534 次提交 · Go · MIT · 创建 18 天
 
-> Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.
-
-<sub>来源：近 90 天新项目、LLM</sub>
-
-### [libracoder/kiri](https://github.com/libracoder/kiri) · 96 分
-
-⭐ 10,212（+1047/天） · 🍴 457 · 👥 23 位贡献者 · 📝 30 天 134 次提交 · Rust · Apache-2.0 · 创建 15 天
-
-> A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative
+> Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。
 
 <sub>来源：近 90 天新项目</sub>
 
 ## 👀 值得关注
 
-### [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) · 100 分
+### [linshenkx/prompt-optimizer](https://github.com/linshenkx/prompt-optimizer) · 100 分
 
-⭐ 27,395（+58/天） · 🍴 2,789 · 👥 404 位贡献者 · 📝 30 天 358 次提交 · TypeScript · MIT · 创建 1299 天
+⭐ 41,921（+71/天） · 🍴 4,710 · 👥 35 位贡献者 · 📝 30 天 100 次提交 · TypeScript · NOASSERTION · 创建 644 天
 
-> Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD integration. Used by OpenAI and Anthropic.
+> An AI prompt optimizer for writing better prompts and getting better AI results.
 
 <sub>来源：LLM</sub>
 
-### [appwrite/appwrite](https://github.com/appwrite/appwrite) · 100 分
+### [sgl-project/sglang](https://github.com/sgl-project/sglang) · 100 分
 
-⭐ 58,248（+161/天） · 🍴 5,916 · 👥 556 位贡献者 · 📝 30 天 5101 次提交 · TypeScript · BSD-3-Clause · 创建 2780 天
+⭐ 39,044（+49/天） · 🍴 10,610 · 👥 2303 位贡献者 · 📝 30 天 2401 次提交 · Python · Apache-2.0 · 创建 1045 天
 
-> The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more
+> SGLang is a high-performance serving framework for large language models and multimodal models.
+
+<sub>来源：LLM</sub>
+
+### [rmyndharis/OpenWA](https://github.com/rmyndharis/OpenWA) · 100 分
+
+⭐ 17,041（+53/天） · 🍴 3,988 · 👥 93 位贡献者 · 📝 30 天 2600 次提交 · TypeScript · MIT · 创建 289 天
+
+> Free, Open Source, Self-Hosted WhatsApp API Gateway
 
 <sub>来源：自部署</sub>
 
-### [lobehub/lobehub](https://github.com/lobehub/lobehub) · 100 分
+### [mastra-ai/mastra](https://github.com/mastra-ai/mastra) · 98 分
 
-⭐ 85,727（+65/天） · 🍴 16,341 · 👥 365 位贡献者 · 📝 30 天 1456 次提交 · TypeScript · NOASSERTION · 创建 1276 天
+⭐ 29,623（+39/天） · 🍴 3,119 · 👥 701 位贡献者 · 📝 30 天 1993 次提交 · TypeScript · NOASSERTION · 创建 834 天
 
-> 🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.
+> Mastra is the modern TypeScript framework for AI-powered applications and agents.
+
+<sub>来源：LLM、MCP</sub>
+
+### [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) · 97 分
+
+⭐ 32,814（+37/天） · 🍴 3,652 · 👥 21 位贡献者 · 📝 30 天 69 次提交 · Rust · MIT · 创建 692 天
+
+> Privacy-first AI meeting note taker for Windows, macOS and Linux. Free, open source (MIT). On-device Whisper/Parakeet transcription and speaker diarization, no meeting bot. Open-source alternative to Granola, Otter and Fireflies. https://meetily.ai
+
+<sub>来源：LLM、自部署</sub>
+
+### [hummingbot/hummingbot](https://github.com/hummingbot/hummingbot) · 97 分
+
+⭐ 21,283（+36/天） · 🍴 5,159 · 👥 328 位贡献者 · 📝 30 天 78 次提交 · Python · Apache-2.0 · 创建 2787 天
+
+> Open source software that helps you create and deploy high-frequency crypto trading bots
+
+<sub>来源：AI Agent</sub>
+
+### [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) · 96 分
+
+⭐ 61,088（+34/天） · 🍴 9,226 · 👥 379 位贡献者 · 📝 30 天 231 次提交 · Python · MIT · 创建 1119 天
+
+> Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
+
+<sub>来源：AI Agent</sub>
+
+### [mksglu/context-mode](https://github.com/mksglu/context-mode) · 95 分
+
+⭐ 34,283（+39/天） · 🍴 2,356 · 👥 111 位贡献者 · 📝 30 天 1613 次提交 · JavaScript · NOASSERTION · 创建 268 天
+
+> Free, local plugin that keeps tool output out of your coding agent's context window. Sandbox and SQLite FTS5 search, 99% fewer bytes in context. Works with Claude Code, Codex, Pi, OMP, OpenCode, Gemini CLI, Copilot CLI and 4 more agents. Zero telemetry.
 
 <sub>来源：MCP</sub>
 
-### [coollabsio/coolify](https://github.com/coollabsio/coolify) · 99 分
+### [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) · 94 分
 
-⭐ 66,198（+47/天） · 🍴 6,004 · 👥 770 位贡献者 · 📝 30 天 981 次提交 · PHP · Apache-2.0 · 创建 2122 天
+⭐ 87,541（+51/天） · 🍴 9,130 · 👥 104 位贡献者 · 📝 30 天 10 次提交 · Python · Apache-2.0 · 创建 923 天
 
-> An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers.
+> Official Crawl4AI Cloud: a hosted web scraping, extraction, and search API for AI agents. Free API key, 1,000 credits a month, no card. Fully open source: this repo is the Apache-2.0 crawler that powers it, and you can self-host it.
 
-<sub>来源：自部署</sub>
+<sub>来源：LLM、AI Agent、MCP</sub>
 
-### [liketrek/TREK](https://github.com/liketrek/TREK) · 99 分
+### [michael-denyer/pstack-claude](https://github.com/michael-denyer/pstack-claude) · 94 分
 
-⭐ 15,739（+143/天） · 🍴 1,346 · 👥 106 位贡献者 · 📝 30 天 1311 次提交 · TypeScript · AGPL-3.0 · 创建 243 天
+⭐ 4,519（+65/天） · 🍴 411 · 👥 35 位贡献者 · 📝 30 天 123 次提交 · JavaScript · MIT · 创建 176 天
 
-> The most complete open-source travel planner: real-time collaboration, bookings, budgets, packing lists, journals, offline PWA, SSO and an AI-ready MCP server, with planet-wide place search and routing built in.
+> Antigravity, Claude Code, Codex, Copilot, Gemini, Muse, OpenCode, Pi, and Prime Agent versions of Poteto's pstack. Rigorous agent workflows with Cursor primitives translated for other harnesses.
 
-<sub>来源：自部署</sub>
+<sub>来源：Agent Skill、Claude Skill</sub>
 
-### [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) · 98 分
+### [apify/apify-mcp-server](https://github.com/apify/apify-mcp-server) · 94 分
 
-⭐ 79,934（+75/天） · 🍴 6,267 · 👥 411 位贡献者 · 📝 30 天 460 次提交 · Python · Apache-2.0 · 创建 314 天
+⭐ 16,922（+172/天） · 🍴 469 · 👥 56 位贡献者 · 📝 30 天 201 次提交 · TypeScript · MIT · 创建 685 天
 
-> Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.
+> The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerce sites, or any other website using thousands of ready-made scrapers, crawlers, and automation tools available on the Apify Store.
+
+<sub>来源：MCP</sub>
+
+### [janhq/jan](https://github.com/janhq/jan) · 94 分
+
+⭐ 45,816（+34/天） · 🍴 3,190 · 👥 193 位贡献者 · 📝 30 天 314 次提交 · Rust · NOASSERTION · 创建 1190 天
+
+> Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.
+
+<sub>来源：LLM、自部署</sub>
+
+### [DayuanJiang/next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io) · 94 分
+
+⭐ 37,056（+27/天） · 🍴 3,839 · 👥 73 位贡献者 · 📝 30 天 92 次提交 · TypeScript · Apache-2.0 · 创建 605 天
+
+> Draw and edit draw.io diagrams by chatting with an AI. Web app, desktop app, and an MCP server for Claude Code, Cursor, Codex and VS Code.
 
 <sub>来源：LLM、MCP</sub>
-
-### [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot) · 98 分
-
-⭐ 47,135（+68/天） · 🍴 3,609 · 👥 391 位贡献者 · 📝 30 天 137 次提交 · Python · AGPL-3.0 · 创建 1440 天
-
-> AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨
-
-<sub>来源：LLM、MCP</sub>
-
-### [aaif-goose/goose](https://github.com/aaif-goose/goose) · 98 分
-
-⭐ 56,734（+41/天） · 🍴 6,614 · 👥 697 位贡献者 · 📝 30 天 202 次提交 · Rust · Apache-2.0 · 创建 816 天
-
-> an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
-
-<sub>来源：AI Agent、MCP</sub>
-
-### [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) · 98 分
-
-⭐ 48,790（+46/天） · 🍴 4,051 · 👥 229 位贡献者 · 📝 30 天 979 次提交 · C · MIT · 创建 266 天
-
-> Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations and change-aware test selection.
-
-<sub>来源：开发者工具、MCP</sub>
-
-### [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) · 97 分
-
-⭐ 122,985（+110/天） · 🍴 23,580 · 👥 24 位贡献者 · 📝 30 天 23 次提交 · Python · Apache-2.0 · 创建 690 天
-
-> TradingAgents: Multi-Agents LLM Financial Trading Framework
-
-<sub>来源：LLM</sub>
-
-### [ComposioHQ/composio](https://github.com/ComposioHQ/composio) · 97 分
-
-⭐ 31,154（+36/天） · 🍴 4,958 · 👥 134 位贡献者 · 📝 30 天 478 次提交 · TypeScript · MIT · 创建 998 天
-
-> Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you build AI agents that turn intent into action.
-
-<sub>来源：LLM、AI Agent、开发者工具、MCP</sub>
-
-### [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) · 96 分
-
-⭐ 68,384（+35/天） · 🍴 7,725 · 👥 297 位贡献者 · 📝 30 天 193 次提交 · JavaScript · MIT · 创建 1263 天
-
-> Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience
-
-<sub>来源：LLM、AI Agent</sub>
 
 ---
 
