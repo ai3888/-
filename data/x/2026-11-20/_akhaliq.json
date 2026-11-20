@@ -1,0 +1,79 @@
+{
+ "page": "https://x.com/_akhaliq",
+ "collected_at": "2026-11-20T14:03:47.121Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 10,
+ "posts": [
+  {
+   "id": "2123586174405296481",
+   "url": "https://x.com/_akhaliq/status/2123586174405296481",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-20T01:16:12.000Z",
+   "text": "",
+   "likes": 496,
+   "reposts": 53,
+   "replies": 41,
+   "views": 31360,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https://huggingface.co/apple/DepthPro2"
+   ]
+  },
+  {
+   "id": "2123683522166845709",
+   "url": "https://x.com/_akhaliq/status/2123683522166845709",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-20T07:43:02.000Z",
+   "text": "应用程序：",
+   "likes": 4,
+   "reposts": 0,
+   "replies": 0,
+   "views": 3624,
+   "context": "",
+   "quoted": "",
+   "card": "DepthPro2 - a Hugging Face Space by akhaliq",
+   "links": []
+  },
+  {
+   "id": "2123354595061907578",
+   "url": "https://x.com/_akhaliq/status/2123354595061907578",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-19T09:56:00.000Z",
+   "text": "",
+   "likes": 192,
+   "reposts": 28,
+   "replies": 21,
+   "views": 24193,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https://huggingface.co/papers/2611.24738…"
+   ]
+  },
+  {
+   "id": "2123331996927897922",
+   "url": "https://x.com/_akhaliq/status/2123331996927897922",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-19T08:26:12.000Z",
+   "text": "UltraTex\n\nAligning Physical Knowledge for High-Fidelity PBR Texture Generation\n\npaper: \nhttps://\nhuggingface.co/papers/2611.24\n941\n…",
+   "likes": 229,
+   "reposts": 25,
+   "replies": 20,
+   "views": 17229,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/papers/2611.24 941 …"
+   ]
+  }
+ ]
+}

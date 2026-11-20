@@ -1,0 +1,73 @@
+{
+ "page": "https://x.com/omarsar0",
+ "collected_at": "2026-11-20T14:04:00.121Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2123420538030957015",
+   "url": "https://x.com/omarsar0/status/2123420538030957015",
+   "author": "omarsar0",
+   "name": "elvis",
+   "time": "2026-11-19T14:18:02.000Z",
+   "text": "来自谷歌的关于自我提升代理的精彩论文。\n\n（将其添加为书签）\n\n它解决了在自动化改进过程中常见的技术问题，如局部过拟合、灾难性遗忘以及记忆污染等问题。\n\n他们提出了 GUARD 方案，该方案可以保持基础模型不变，同时让其他模型能够进行更新。",
+   "likes": 271,
+   "reposts": 51,
+   "replies": 60,
+   "views": 16949,
+   "context": "已固定",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123767076745818281",
+   "url": "https://x.com/omarsar0/status/2123767076745818281",
+   "author": "omarsar0",
+   "name": "elvis",
+   "time": "2026-11-20T13:15:03.000Z",
+   "text": "Interesting paper from Meta showing how to build coding evals from your own codebase.\n\n(bookmark it)\n\nGood benchmarks are hard to create, but using this method with agents looks promising.\n\nThey propose Benchmark Factory, an agent loop that turns merged internal code changes into",
+   "likes": 34,
+   "reposts": 5,
+   "replies": 30,
+   "views": 2406,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123618003166044447",
+   "url": "https://x.com/omarsar0/status/2123618003166044447",
+   "author": "omarsar0",
+   "name": "elvis",
+   "time": "2026-11-20T03:22:41.000Z",
+   "text": "Agents shouldn't be locked into a single harness.\n\nMyClaw 3.0 lets you run your agents on Claude Code, Codex, Hermes, Pi, or OpenClaw, with context shared across them.\n\nEach agent comes with tools and live data sources connected, and keeps running in the cloud after you close the",
+   "likes": 74,
+   "reposts": 6,
+   "replies": 19,
+   "views": 8330,
+   "context": "",
+   "quoted": "𝐈𝐧𝐭𝐫𝐨𝐝𝐮𝐜𝐢𝐧𝐠 𝐌𝐲𝐂𝐥𝐚𝐰 𝟑.𝟎 Raised AI teammates with tools built in — not a blank agent you babysit. •𝐀𝐠𝐞𝐧𝐭 𝐰𝐢𝐭𝐡 𝐚𝐧𝐲 𝐡𝐚𝐫𝐧𝐞𝐬𝐬 — Claude Code · Codex · Hermes · Pi · OpenClaw — shared context. • 𝟓,𝟎𝟎𝟎+ 𝐥𝐢𝐯𝐞 𝐝𝐚𝐭𝐚 𝐬𝐨𝐮𝐫𝐜𝐞𝐬— Not a",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123529283368886709",
+   "url": "https://x.com/omarsar0/status/2123529283368886709",
+   "author": "omarsar0",
+   "name": "elvis",
+   "time": "2026-11-19T21:30:09.000Z",
+   "text": "I think model routing deserves more attention in agent development.\n\nDrex Router is a small model that picks which model to use at each step.\n\nThis provides a way to match the model to the task as the agent works.",
+   "likes": 29,
+   "reposts": 1,
+   "replies": 22,
+   "views": 7058,
+   "context": "",
+   "quoted": "Introducing Drex Router. A small model that picks the right LLM/SLM and reasoning effort for every step your agent takes. Accuracy: Drex Router 87.6% vs. Jev Router’s 86.4% Try it: https:// console.nace.ai COMMENT DREX and get extra $5 in API credits",
+   "card": "",
+   "links": []
+  }
+ ]
+}

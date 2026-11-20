@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/allen_ai",
+ "collected_at": "2026-11-20T14:01:15.610Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 7,
+ "posts": [
+  {
+   "id": "2123451767648125042",
+   "url": "https://x.com/allen_ai/status/2123451767648125042",
+   "author": "allen_ai",
+   "name": "Ai2",
+   "time": "2026-11-19T16:22:07.000Z",
+   "text": "Theorizer is now available in Asta. It draws on published research to propose theories scientists can test. \n\nWatch \n@AllenInstitute\n neuroscientist Jérôme Lecoq explain how he used an early version to explore a link between neurons and vision.",
+   "likes": 22,
+   "reposts": 9,
+   "replies": 3,
+   "views": 3530,
+   "context": "已固定",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

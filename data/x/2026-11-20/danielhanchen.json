@@ -1,0 +1,27 @@
+{
+ "page": "https://x.com/danielhanchen",
+ "collected_at": "2026-11-20T14:04:14.561Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2123428317949010390",
+   "url": "https://x.com/danielhanchen/status/2123428317949010390",
+   "author": "danielhanchen",
+   "name": "Daniel Han",
+   "time": "2026-11-19T14:48:57.000Z",
+   "text": "Unsloth Desktop now supports NPUs! NPUs use 2-4x less energy per token for local models vs GPUs!\n\nWe collabed with AMD to support the current Strix, Krackan and Gorgon devices, and future AMD devices with NPUs will also be supported out of the box!\n\nBlog: \nhttps://\nunsloth.ai/docs/get-start\ned/install/amd/amd-npu\n…",
+   "likes": 143,
+   "reposts": 19,
+   "replies": 12,
+   "views": 4796,
+   "context": "",
+   "quoted": "AMD XDNA 2 NPUs are the world's first NPUs supported by @UnslothAI Desktop. 100+ agentic apps. Now on your NPU. https:// bit.ly/4jqlftF",
+   "card": "",
+   "links": [
+    "https:// unsloth.ai/docs/get-start ed/install/amd/amd-npu …"
+   ]
+  }
+ ]
+}

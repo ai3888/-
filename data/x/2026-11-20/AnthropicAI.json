@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/AnthropicAI",
+ "collected_at": "2026-11-20T14:00:44.062Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 7,
+ "posts": [
+  {
+   "id": "2123461658890686863",
+   "url": "https://x.com/AnthropicAI/status/2123461658890686863",
+   "author": "AnthropicAI",
+   "name": "Anthropic",
+   "time": "2026-11-19T17:01:26.000Z",
+   "text": "人类主义公司的首席执行官 \n@DarioAmodei\n 关于我们首次公开募股的讲话：\n\n我和我的联合创始人一起创立了 Anthropic 公司，因为我们坚信，当今最强大的技术应该是为了人类的利益而创造的。\n\n我和丹妮拉因为一种疾病失去了我们的父亲。",
+   "likes": 11382,
+   "reposts": 1722,
+   "replies": 1185,
+   "views": 1816067,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123431689934291083",
+   "url": "https://x.com/AnthropicAI/status/2123431689934291083",
+   "author": "AnthropicAI",
+   "name": "Anthropic",
+   "time": "2026-11-19T15:02:20.000Z",
+   "text": "",
+   "likes": 110834,
+   "reposts": 12342,
+   "replies": 1900,
+   "views": 11088424,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

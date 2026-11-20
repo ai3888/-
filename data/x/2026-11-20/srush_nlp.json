@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/srush_nlp",
+ "collected_at": "2026-11-20T14:02:14.852Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 7,
+ "posts": [
+  {
+   "id": "2123743849059110961",
+   "url": "https://x.com/srush_nlp/status/2123743849059110961",
+   "author": "srush_nlp",
+   "name": "Sasha Rush",
+   "time": "2026-11-20T11:42:45.000Z",
+   "text": "At CMU, next week, have a couple of free slots. \n\nI'm interested these days in verification (broadly defined), why continual learning is so hard, whether arch matters again, and kind of curious about novel ways of teaching ML. DMs open.",
+   "likes": 84,
+   "reposts": 5,
+   "replies": 3,
+   "views": 4219,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

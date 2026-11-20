@@ -1,0 +1,190 @@
+{
+ "page": "https://x.com/search?q=url%3Aarxiv.org%20min_faves%3A100%20-filter%3Areplies%20since%3A2026-11-19&src=typed_query",
+ "collected_at": "2026-11-20T14:06:07.749Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 10,
+ "posts": [
+  {
+   "id": "2123439076837568541",
+   "url": "https://x.com/divyansha1115/status/2123439076837568541",
+   "author": "divyansha1115",
+   "name": "Divyansha",
+   "time": "2026-11-19T15:31:42.000Z",
+   "text": "神经数据的可用性是扩展脑解码器性能的一个主要瓶颈。我们能否以另一种方式来扩展它们呢？  \n很高兴能分享我们的论文《BeeMO》。这篇论文提出了一种利用未配对的行为数据来扩展神经解码器的新方法！\n\n论文： \nhttps://\narxiv.org/pdf/2611.08263 \n代码：",
+   "likes": 100,
+   "reposts": 22,
+   "replies": 3,
+   "views": 5132,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/pdf/2611.08263"
+   ]
+  },
+  {
+   "id": "2123472623782818296",
+   "url": "https://x.com/daibond_alpha/status/2123472623782818296",
+   "author": "daibond_alpha",
+   "name": "Bo Dai",
+   "time": "2026-11-19T17:45:00.000Z",
+   "text": "在 1/5 的 EBM 案例中，它们通常被当作众多模型家族中的一个模型来教授。在我们的新教程中，我们将其作为机器学习的一个核心概念来讲解。\n“基于能量的机器学习视角” \nhttps://\narxiv.org/abs/2611.14383",
+   "likes": 200,
+   "reposts": 35,
+   "replies": 3,
+   "views": 18267,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2611.14383"
+   ]
+  },
+  {
+   "id": "2123440617560973468",
+   "url": "https://x.com/ellensu35/status/2123440617560973468",
+   "author": "ellensu35",
+   "name": "Ellen Su",
+   "time": "2026-11-19T15:37:49.000Z",
+   "text": "在我们最新的 NeurIPS 论文中，我们展示了如何利用 epiplexity 算法来选择和生成数据，以实现分布外泛化功能！\n\n论文： \nhttps://\narxiv.org/abs/2608.11746 \n与 Andres Potapczynski、 @ShikaiQiu 、 @edwardfhughes 和 @andrewgwils  的合作项目",
+   "likes": 352,
+   "reposts": 61,
+   "replies": 19,
+   "views": 31404,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2608.11746"
+   ]
+  },
+  {
+   "id": "2123634575071133888",
+   "url": "https://x.com/mm_0824_kb/status/2123634575071133888",
+   "author": "mm_0824_kb",
+   "name": "金融系DS | LLM・AIエージェント・RAG",
+   "time": "2026-11-20T04:28:32.000Z",
+   "text": "最近，我一直在开发人工智能代理系统。一篇关于 Meta 的 AI 代理 A/B 测试的相关论文，真正让我意识到一个我一直思考的问题：必须正确地构建这类系统。因此，我整理了一下相关的要点。\n\n第一课：“不要拥有”",
+   "likes": 136,
+   "reposts": 7,
+   "replies": 3,
+   "views": 7993,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123683416985976838",
+   "url": "https://x.com/thomasahle/status/2123683416985976838",
+   "author": "thomasahle",
+   "name": "Thomas Ahle",
+   "time": "2026-11-20T07:42:37.000Z",
+   "text": "https://\n\n在 n*logn 时间内完成 4 色问题：\n \narxiv.org/abs/2603.24880 \n赢得 2026 年 FOCS 最佳论文奖",
+   "likes": 152,
+   "reposts": 19,
+   "replies": 4,
+   "views": 10464,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org 四色定理与线性可约结构的多种组合方式…… 我们提出了一种适用于平面图的近似线性时间 4 着色算法，该算法改进了 Robertson 等人在 1996 年提出的需要二次时间复杂度的算法。不过，这样的算法目前还无法实现……",
+   "links": [
+    "在 n*logn 时间内完成 4 色问题： arxiv.org/abs/2603.24880"
+   ]
+  },
+  {
+   "id": "2123618251653427368",
+   "url": "https://x.com/MayaOkawa/status/2123618251653427368",
+   "author": "MayaOkawa",
+   "name": "Maya Okawa",
+   "time": "2026-11-20T03:23:40.000Z",
+   "text": "Excited that my ICML 2026 paper on multi-agent LLMs + statistical physics (\nhttps://\narxiv.org/abs/2608.02827) is already getting cited. \n\nA year ago I read Arendt's Eichmann in Jerusalem and turned her \"banality of evil\" into this paper.\n\nFind more in the new post:\n\nhttps://\nmayaokawa.github.io/blog/2026/bias\ned-consensus\n…",
+   "likes": 101,
+   "reposts": 10,
+   "replies": 3,
+   "views": 5980,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org Emergence of Biased Consensus in Multi-Agent LLM Debates Multi-agent LLM debates achieve strong performance on decision-making tasks as well as problem-solving benchmarks, yet their safety a",
+   "links": [
+    "https:// arxiv.org/abs/2608.02827",
+    "https:// mayaokawa.github.io/blog/2026/bias ed-consensus …"
+   ]
+  },
+  {
+   "id": "2123425129031954712",
+   "url": "https://x.com/anuragdotdev/status/2123425129031954712",
+   "author": "anuragdotdev",
+   "name": "Anurag Jha",
+   "time": "2026-11-19T14:36:16.000Z",
+   "text": "Learn LLM inference, build real stuff, and thank me later\nAll you need to get started\n\n> \nhttps://\nkipp.ly/transformer-in\nference-arithmetic/\n…\n>\nhttps://\nhuggingface.co/docs/transform\ners/llm_tutorial\n…\n> \nhttps://\ndocs.vllm.ai\n> \nhttps://\ngithub.com/sgl-project/sg\nlang\n…\n> \nhttps://\narxiv.org/abs/2205.14135",
+   "likes": 464,
+   "reposts": 45,
+   "replies": 3,
+   "views": 14665,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// kipp.ly/transformer-in ference-arithmetic/ …",
+    "https:// huggingface.co/docs/transform ers/llm_tutorial …",
+    "https:// docs.vllm.ai",
+    "https:// github.com/sgl-project/sg lang …",
+    "https:// arxiv.org/abs/2205.14135"
+   ]
+  },
+  {
+   "id": "2123542255487295814",
+   "url": "https://x.com/HaoTang_ai/status/2123542255487295814",
+   "author": "HaoTang_ai",
+   "name": "Hao Tang (hiring postdocs)",
+   "time": "2026-11-19T22:21:41.000Z",
+   "text": "JEPA4R\n\nMost JEPA world models see in 2D. Robots act in 3D.\n\nJEPA4R plans in point-cloud latent space and decodes what it imagines into 4D point clouds.\n\nOGBench Cube-Single: 78.4% vs 46.8% (best 2D JEPA). Zero-shot on a real arm.\n\n \nhttps://\narxiv.org/abs/2611.19771\n\n#WorldModels",
+   "likes": 120,
+   "reposts": 8,
+   "replies": 4,
+   "views": 3916,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2611.19771"
+   ]
+  },
+  {
+   "id": "2123683397323382963",
+   "url": "https://x.com/haruki_wtnb/status/2123683397323382963",
+   "author": "haruki_wtnb",
+   "name": "Haruki Watanabe",
+   "time": "2026-11-20T07:42:32.000Z",
+   "text": "I've published a new paper! It presents results on a general theory for classifying phases at finite temperature.\nThere are two criteria for defining “the same phase”:\n1. Whether they can be connected by a path along which the free energy is analytic\n2. Whether they can be",
+   "likes": 102,
+   "reposts": 14,
+   "replies": 1,
+   "views": 8337,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org Local-channel inequivalence within analytic symmetry-broken phases Gibbs states at different temperatures can be inequivalent under two-way quasi-local channels even within a single phase wi",
+   "links": []
+  },
+  {
+   "id": "2123348486657556650",
+   "url": "https://x.com/saeedamenfx/status/2123348486657556650",
+   "author": "saeedamenfx",
+   "name": "Saeed",
+   "time": "2026-11-19T09:31:43.000Z",
+   "text": "Fine-Tuning an Order-Flow Foundation Model for Sub-Second Forecasting \nhttps://\narxiv.org/abs/2611.14117 #QuantLinkADay",
+   "likes": 143,
+   "reposts": 10,
+   "replies": 2,
+   "views": 9035,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2611.14117"
+   ]
+  }
+ ]
+}

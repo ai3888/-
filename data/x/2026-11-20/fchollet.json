@@ -1,0 +1,57 @@
+{
+ "page": "https://x.com/fchollet",
+ "collected_at": "2026-11-20T14:03:10.737Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 9,
+ "posts": [
+  {
+   "id": "2123590418101412054",
+   "url": "https://x.com/fchollet/status/2123590418101412054",
+   "author": "fchollet",
+   "name": "François Chollet",
+   "time": "2026-11-20T01:33:04.000Z",
+   "text": "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ…",
+   "likes": 4,
+   "reposts": 0,
+   "replies": 2,
+   "views": 0,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123478049861812545",
+   "url": "https://x.com/fchollet/status/2123478049861812545",
+   "author": "fchollet",
+   "name": "François Chollet",
+   "time": "2026-11-19T18:06:34.000Z",
+   "text": "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ…",
+   "likes": 7,
+   "reposts": 0,
+   "replies": 0,
+   "views": 0,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123580403399471318",
+   "url": "https://x.com/fchollet/status/2123580403399471318",
+   "author": "fchollet",
+   "name": "François Chollet",
+   "time": "2026-11-20T00:53:17.000Z",
+   "text": "",
+   "likes": 0,
+   "reposts": 0,
+   "replies": 0,
+   "views": 0,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

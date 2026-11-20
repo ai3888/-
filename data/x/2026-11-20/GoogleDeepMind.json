@@ -1,0 +1,45 @@
+{
+ "page": "https://x.com/GoogleDeepMind",
+ "collected_at": "2026-11-20T14:00:52.041Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 8,
+ "posts": [
+  {
+   "id": "2123519772390215780",
+   "url": "https://x.com/GoogleDeepMind/status/2123519772390215780",
+   "author": "GoogleDeepMind",
+   "name": "Google DeepMind",
+   "time": "2026-11-19T20:52:21.000Z",
+   "text": "Our SVP \n@koraykv\n believes there won't be a single test or benchmark that tells us we've reached AGI. Instead, progress looks like models becoming less spiky and more reliable across our daily lives.\n\nListen in as he and \n@fryrsquared\n discuss the road ahead ↓\n\nTimecodes:\n00:00",
+   "likes": 647,
+   "reposts": 79,
+   "replies": 143,
+   "views": 70206,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123519775561380260",
+   "url": "https://x.com/GoogleDeepMind/status/2123519775561380260",
+   "author": "GoogleDeepMind",
+   "name": "Google DeepMind",
+   "time": "2026-11-19T20:52:22.000Z",
+   "text": "Watch → \nhttps://\ngoo.gle/4AIPYYS\nSpotify → \nhttps://\ngoo.gle/4iSB5x5\nApple Podcasts → \nhttps://\ngoo.gle/4iSrk21\n\nOr listen wherever you get your podcasts!",
+   "likes": 28,
+   "reposts": 2,
+   "replies": 0,
+   "views": 24163,
+   "context": "",
+   "quoted": "",
+   "card": "youtube.com Gemini and the path to AGI with Koray Kavukcuoglu Seven years after their last conversation at Google DeepMind’s Lond...",
+   "links": [
+    "https:// goo.gle/4AIPYYS",
+    "https:// goo.gle/4iSB5x5",
+    "https:// goo.gle/4iSrk21"
+   ]
+  }
+ ]
+}

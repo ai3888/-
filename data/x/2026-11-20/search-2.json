@@ -1,0 +1,191 @@
+{
+ "page": "https://x.com/search?q=url%3Ahuggingface.co%20min_faves%3A100%20-filter%3Areplies%20since%3A2026-11-19&src=typed_query",
+ "collected_at": "2026-11-20T14:06:21.748Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 10,
+ "posts": [
+  {
+   "id": "2123331996927897922",
+   "url": "https://x.com/_akhaliq/status/2123331996927897922",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-19T08:26:12.000Z",
+   "text": "超文本\n\n整理物理知识以生成高保真度的 PBR 纹理\n\n论文： \nhttps://\nhuggingface.co/papers/2611.24\n941\n…",
+   "likes": 229,
+   "reposts": 25,
+   "replies": 20,
+   "views": 17237,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/papers/2611.24 941 …"
+   ]
+  },
+  {
+   "id": "2123397449209327745",
+   "url": "https://x.com/TrelisResearch/status/2123397449209327745",
+   "author": "TrelisResearch",
+   "name": "Trelis Research",
+   "time": "2026-11-19T12:46:17.000Z",
+   "text": "A Duplex \"Emotional\" Podcast Dataset \n\n\nhttps://\nhuggingface.co/datasets/Treli\ns/duplex-emotional-candid-podcasts-mimi\n…\n\nThis is the fourth in a series of datasets and models we'll be releasing for duplex speech-to-speech model training.\n\nThe problem this dataset solves is that podcast interviews tend not to provide high emotional",
+   "likes": 100,
+   "reposts": 7,
+   "replies": 5,
+   "views": 3522,
+   "context": "",
+   "quoted": "",
+   "card": "Trelis/duplex-emotional-candid-podcasts-mimi · Datasets at Hugging Face",
+   "links": [
+    "https:// huggingface.co/datasets/Treli s/duplex-emotional-candid-podcasts-mimi …"
+   ]
+  },
+  {
+   "id": "2123425129031954712",
+   "url": "https://x.com/anuragdotdev/status/2123425129031954712",
+   "author": "anuragdotdev",
+   "name": "Anurag Jha",
+   "time": "2026-11-19T14:36:16.000Z",
+   "text": "Learn LLM inference, build real stuff, and thank me later\nAll you need to get started\n\n> \nhttps://\nkipp.ly/transformer-in\nference-arithmetic/\n…\n>\nhttps://\nhuggingface.co/docs/transform\ners/llm_tutorial\n…\n> \nhttps://\ndocs.vllm.ai\n> \nhttps://\ngithub.com/sgl-project/sg\nlang\n…\n> \nhttps://\narxiv.org/abs/2205.14135",
+   "likes": 464,
+   "reposts": 45,
+   "replies": 3,
+   "views": 14665,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// kipp.ly/transformer-in ference-arithmetic/ …",
+    "https:// huggingface.co/docs/transform ers/llm_tutorial …",
+    "https:// docs.vllm.ai",
+    "https:// github.com/sgl-project/sg lang …",
+    "https:// arxiv.org/abs/2205.14135"
+   ]
+  },
+  {
+   "id": "2123354595061907578",
+   "url": "https://x.com/_akhaliq/status/2123354595061907578",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-19T09:56:00.000Z",
+   "text": "",
+   "likes": 192,
+   "reposts": 28,
+   "replies": 21,
+   "views": 24209,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https://huggingface.co/papers/2611.24738…"
+   ]
+  },
+  {
+   "id": "2123673046829396260",
+   "url": "https://x.com/olesovhcom/status/2123673046829396260",
+   "author": "olesovhcom",
+   "name": "Octave Klaba",
+   "time": "2026-11-20T07:01:24.000Z",
+   "text": "Try Olala Mini 7A1B, which runs at 220–380 tokens/sec on Blade's B300s.\n\nto try Olala:\n\nhttps://\nolala.ovh.com\n\nto compare Olala with other models:\n\nhttps://\nplay.blade.sh\n\nto download Olala and all the technical documentation:\n\nhttps://\nhuggingface.co/OVHaiLLM/Olala\n-v1.0-mini-7A1B/blob/main/README.md#run-it-yourself\n…\n\nOlala v1.0 7A1A is a small",
+   "likes": 179,
+   "reposts": 46,
+   "replies": 23,
+   "views": 20281,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// olala.ovh.com",
+    "https:// play.blade.sh",
+    "https:// huggingface.co/OVHaiLLM/Olala -v1.0-mini-7A1B/blob/main/README.md#run-it-yourself …"
+   ]
+  },
+  {
+   "id": "2123650882059575507",
+   "url": "https://x.com/kusurichan_/status/2123650882059575507",
+   "author": "kusurichan_",
+   "name": "𝗸𝘂𝘀𝘂𝗿𝗶.",
+   "time": "2026-11-20T05:33:20.000Z",
+   "text": "Oh\n\n>> I turned gemma-4-E4B-it into a cute femboy with Claude",
+   "likes": 235,
+   "reposts": 28,
+   "replies": 2,
+   "views": 8295,
+   "context": "",
+   "quoted": "",
+   "card": "haruuuuu-1256/aoi-gemma-4-E4B-it · Hugging Face",
+   "links": []
+  },
+  {
+   "id": "2123447587445277113",
+   "url": "https://x.com/HuggingApps/status/2123447587445277113",
+   "author": "HuggingApps",
+   "name": "Hugging Apps",
+   "time": "2026-11-19T16:05:31.000Z",
+   "text": "Cloudflare just dropped Clairic on \n@huggingface\n \n\nClairic goes beyond decision models: it actually extracts  information on a single forward pass, unlocking ultra fast system one decision-making process\n\n \nhttps://\nhuggingface.co/spaces/hugging\n-apps/clairic\n…",
+   "likes": 1647,
+   "reposts": 132,
+   "replies": 20,
+   "views": 94565,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/spaces/hugging -apps/clairic …"
+   ]
+  },
+  {
+   "id": "2123586174405296481",
+   "url": "https://x.com/_akhaliq/status/2123586174405296481",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-20T01:16:12.000Z",
+   "text": "Apple just released Depth Pro 2\n\nSharp and Temporally Consistent Metric Monocular Depth\n\nHF: \nhttps://\nhuggingface.co/apple/DepthPro2",
+   "likes": 498,
+   "reposts": 53,
+   "replies": 41,
+   "views": 31441,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/apple/DepthPro2"
+   ]
+  },
+  {
+   "id": "2123703921134747902",
+   "url": "https://x.com/MiaAI_lab/status/2123703921134747902",
+   "author": "MiaAI_lab",
+   "name": "Mia",
+   "time": "2026-11-20T09:04:05.000Z",
+   "text": "Hy4 open-weights are now OUT! \n\n- Weights 786 GB for FP8!\n- 49B active params, it's a heavy one.\n\nFP8 HF link:\n\nhttps://\nhuggingface.co/tencent/Hy4-FP8",
+   "likes": 105,
+   "reposts": 8,
+   "replies": 12,
+   "views": 5673,
+   "context": "",
+   "quoted": "Today, we’re releasing the open weights for Hy4. Our natively multimodal flagship MoE (770B total / 49B active, 1M context). Alongside the Hy4 System Card with a comprehensive safety evaluation report. Join the Hy team for a live AMA this Friday, 8–10 AM PT on",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/tencent/Hy4-FP8"
+   ]
+  },
+  {
+   "id": "2123447288903401700",
+   "url": "https://x.com/nahid_pro09/status/2123447288903401700",
+   "author": "nahid_pro09",
+   "name": "Nahid",
+   "time": "2026-11-19T16:04:20.000Z",
+   "text": "this 1.1gb uncensored lfm3 got more downloads than the original model \n\n-free, no gate, 169k downloads\n-one 1.13gb gguf file (q4_k_m), q6_k is 1.6gb\n-refusals went from 61.7% to 0%, mmlu stayed the same\n-runs in llama.cpp\n\ntry it :",
+   "likes": 101,
+   "reposts": 7,
+   "replies": 10,
+   "views": 8149,
+   "context": "",
+   "quoted": "",
+   "card": "AtomicChat/LFM3-1.7B-Uncensored-GGUF · Hugging Face",
+   "links": []
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/GoogleResearch",
+ "collected_at": "2026-11-20T14:00:58.199Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2123508860434718840",
+   "url": "https://x.com/GoogleResearch/status/2123508860434718840",
+   "author": "GoogleResearch",
+   "name": "Google Research",
+   "time": "2026-11-19T20:08:59.000Z",
+   "text": "While entanglement usually gets top billing as the “magic ingredient” of quantum computing, could quantum contextuality be the deeper resource that actually powers certain quantum algorithms past their classical counterparts?\n\nToday on the blog and published in Science, learn how",
+   "likes": 286,
+   "reposts": 46,
+   "replies": 13,
+   "views": 12379,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

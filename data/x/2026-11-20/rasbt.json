@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/rasbt",
+ "collected_at": "2026-11-20T14:02:57.531Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 8,
+ "posts": [
+  {
+   "id": "2123433827234111659",
+   "url": "https://x.com/rasbt/status/2123433827234111659",
+   "author": "rasbt",
+   "name": "Sebastian Raschka",
+   "time": "2026-11-19T15:10:50.000Z",
+   "text": "哇，太棒了！甚至达到了超棒的“马里恩糯米团”检查点掉落效果（而且还是以一种积极的方式呢！）\n\n顺便提一下，还附带了一份很棒的技术报告，其中包含了关于为何选择某些组件以及如何选择这些组件的详细信息（都是为了提升训练稳定性和 GPU 的吞吐量）。\n\n简短的事实说明：\n\n1) 具有额外 RMSNorm 的潜在 MoE 模型",
+   "likes": 435,
+   "reposts": 35,
+   "replies": 39,
+   "views": 19125,
+   "context": "",
+   "quoted": "We’re releasing all 57 intermediate checkpoints from Marin “Mochi” 535B-A23B pretraining, including 10 from long-context extension. 18.2T tokens, about 61 TB of weights. https:// huggingface.co/open-athena/Ma rin-Mochi-535B-A23B … Blog: https:// openathena.ai/blog/marin-moc hi-pretraining-checkpoints/ …",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123415801105445340",
+   "url": "https://x.com/rasbt/status/2123415801105445340",
+   "author": "rasbt",
+   "name": "Sebastian Raschka",
+   "time": "2026-11-19T13:59:12.000Z",
+   "text": "Shipping without the drama is an underrated skill",
+   "likes": 401,
+   "reposts": 9,
+   "replies": 28,
+   "views": 32116,
+   "context": "",
+   "quoted": "Feels like a turning point... On the day OpenAI ships their worst ever model releases, Google ships the best model they, or indeed anyone, has ever made.",
+   "card": "",
+   "links": []
+  }
+ ]
+}

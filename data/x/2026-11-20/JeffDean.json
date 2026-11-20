@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/JeffDean",
+ "collected_at": "2026-11-20T14:03:37.557Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 8,
+ "posts": [
+  {
+   "id": "2123521324471795785",
+   "url": "https://x.com/JeffDean/status/2123521324471795785",
+   "author": "JeffDean",
+   "name": "Jeff Dean",
+   "time": "2026-11-19T20:58:31.000Z",
+   "text": "It's great to see my former colleague and friend David Patterson joining \n@LaudeInstitute\n!",
+   "likes": 257,
+   "reposts": 16,
+   "replies": 18,
+   "views": 34441,
+   "context": "",
+   "quoted": "Dave Patterson has a habit of giving bad advice. His latest, How to Earn a Bad Obituary, explains why he's joining @LaudeInstitute as a Member of Technical Staff: to work for the public good with all the urgency of a startup. First on his to-do list: leading our next batch of",
+   "card": "",
+   "links": []
+  }
+ ]
+}

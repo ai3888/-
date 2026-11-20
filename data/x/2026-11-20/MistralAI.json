@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/MistralAI",
+ "collected_at": "2026-11-20T14:01:46.550Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2123418013278114139",
+   "url": "https://x.com/MistralAI/status/2123418013278114139",
+   "author": "MistralAI",
+   "name": "Mistral AI",
+   "time": "2026-11-19T14:08:00.000Z",
+   "text": "Le Chonk in London! \n\nFor the first time since our worldwide hackathon, join us for a special Le Chonk hackathon!\n\n Saturday, Nov 21\n London",
+   "likes": 281,
+   "reposts": 26,
+   "replies": 25,
+   "views": 18563,
+   "context": "",
+   "quoted": "",
+   "card": "Le Chonk in London - Mistral Vibe Hackathon · Luma",
+   "links": []
+  },
+  {
+   "id": "2123339999244636509",
+   "url": "https://x.com/MistralAI/status/2123339999244636509",
+   "author": "MistralAI",
+   "name": "Mistral AI",
+   "time": "2026-11-19T08:58:00.000Z",
+   "text": "We’re teaming up with \n@ClickHouseDB\n for a special one-day hackathon in Paris!\n\nCome build with Le Chonk, Timestral, ClickHouse, and Langfuse\n\n Saturday, Dec 5\n\n Paris\n\nRSVP required:",
+   "likes": 349,
+   "reposts": 33,
+   "replies": 23,
+   "views": 27178,
+   "context": "",
+   "quoted": "",
+   "card": "Ahead of Time: A Hackathon by Mistral and ClickHouse · Luma",
+   "links": []
+  }
+ ]
+}

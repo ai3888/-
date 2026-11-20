@@ -1,0 +1,62 @@
+{
+ "page": "https://x.com/search?q=url%3Agithub.com%20(LLM%20OR%20agent%20OR%20model%20OR%20inference%20OR%20training)%20min_faves%3A200%20-filter%3Areplies%20since%3A2026-11-19&src=typed_query",
+ "collected_at": "2026-11-20T14:06:33.062Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 3,
+ "posts": [
+  {
+   "id": "2123741121482489930",
+   "url": "https://x.com/nestframework/status/2123741121482489930",
+   "author": "nestframework",
+   "name": "NestJS",
+   "time": "2026-11-20T11:31:55.000Z",
+   "text": "欢迎了解官方的 NestJS 代理技能介绍！\n\n今天的 API 接口、第一方软件包，以及那些仍然能够通过测试的错误代码……这些都是你的编码助手  所处理的。\n\n  npx @nestjs/skills 添加\n\n  已集成到 nest 新版本中\n  克劳德·代码、代码集、光标等更多功能\n  \nhttps://\ngithub.com/nestjs/agent-s\nkills\n…",
+   "likes": 250,
+   "reposts": 35,
+   "replies": 40,
+   "views": 7037,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/nestjs/agent-s kills …"
+   ]
+  },
+  {
+   "id": "2123675279210242167",
+   "url": "https://x.com/illyism/status/2123675279210242167",
+   "author": "illyism",
+   "name": "ILIAS ISM",
+   "time": "2026-11-20T07:10:17.000Z",
+   "text": "Open-sourced my full SEO and AI-search stack for Claude Code and Cursor (30 skills + 4 live MCP servers I actually use every day)\n\n1. 30 open-source SEO skills (technical audits, programmatic SEO, BOFU pages, directory submissions, Ahrefs/GSC workflows):",
+   "likes": 370,
+   "reposts": 23,
+   "replies": 55,
+   "views": 27236,
+   "context": "",
+   "quoted": "",
+   "card": "GitHub - Illyism/seo-skills: 30 open-source SEO skills (SKILL.md) for Claude Code, Cursor, Codex &...",
+   "links": []
+  },
+  {
+   "id": "2123396133099618359",
+   "url": "https://x.com/0xsoul/status/2123396133099618359",
+   "author": "0xsoul",
+   "name": "soul",
+   "time": "2026-11-19T12:41:03.000Z",
+   "text": "this is f*cking gold for Fable 5.2\n\nThese 13 GitHub repos turn it into a full film studio. Add them to your list:\n\n01 Rea-Video → breaks down any video and rebuilds it\n\nhttps://\ngithub.com/JuneYaooo/rea-\nvideo\n…\n\n02 Awesome Opus 5.5 Videos → 703 prompts from viral AI videos\n\nhttps://\ngithub.com/yihui-dev/awes\nome-opus5-5-videos\n…",
+   "likes": 641,
+   "reposts": 94,
+   "replies": 7,
+   "views": 33051,
+   "context": "",
+   "quoted": "Fable 5.2 can make a film from one line It just won't be your film One line gets you Fable's taste. A director's brief gets you yours From nothing installed to a finished MP4: every prompt, every number, every fix ↓",
+   "card": "",
+   "links": [
+    "https:// github.com/JuneYaooo/rea- video …",
+    "https:// github.com/yihui-dev/awes ome-opus5-5-videos …"
+   ]
+  }
+ ]
+}
