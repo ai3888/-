@@ -1,130 +1,130 @@
-# GitHub 项目雷达 · 2026-11-19
+# GitHub 项目雷达 · 2026-11-20
 
-> 搜到 609 个候选 → 过滤后 363 个 → 详细检查 40 个 → 入选 15 个
+> 搜到 610 个候选 → 过滤后 364 个 → 详细检查 40 个 → 入选 15 个
 
 ## 🚀 潜力股（新项目、涨得快）
 
-### [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) · 100 分
+### [wangzan101/Mika](https://github.com/wangzan101/Mika) · 100 分
 
-⭐ 59,370（+311/天） · 🍴 7,764 · 👥 1251 位贡献者 · 📝 30 天 6191 次提交 · Python · NOASSERTION · 创建 32 天
+⭐ 9,207（+93/天） · 🍴 2,075 · 👥 80 位贡献者 · 📝 30 天 1122 次提交 · Kotlin · Apache-2.0 · 创建 21 天
 
-> Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.
+> An on-device AI agent for Android that operates apps and the web to get things done for you.
 
 <sub>来源：近 90 天新项目</sub>
 
-### [Lee-xeo/Claude-Cage](https://github.com/Lee-xeo/Claude-Cage) · 95 分
+### [haydenschmitty/floorplan](https://github.com/haydenschmitty/floorplan) · 99 分
 
-⭐ 6,682（+371.2/天，平均） · 🍴 778 · 👥 31 位贡献者 · 📝 30 天 534 次提交 · Go · MIT · 创建 18 天
+⭐ 5,172（+224.9/天，平均） · 🍴 441 · 👥 24 位贡献者 · 📝 30 天 253 次提交 · JavaScript · MIT · 创建 23 天
 
-> Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。
+> See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.
+
+<sub>来源：开发者工具</sub>
+
+### [erkamyaman/rust-anything](https://github.com/erkamyaman/rust-anything) · 97 分
+
+⭐ 5,364（+1788/天，平均） · 🍴 430 · 👥 14 位贡献者 · 📝 30 天 282 次提交 · Rust · MIT · 创建 3 天
+
+> Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.
+
+<sub>来源：Agent Skill</sub>
+
+### [KnifeLemon/Filee](https://github.com/KnifeLemon/Filee) · 97 分
+
+⭐ 29,124（+297/天） · 🍴 1,656 · 👥 67 位贡献者 · 📝 30 天 2055 次提交 · C# · MIT · 创建 51 天
+
+> Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.
+
+<sub>来源：近 90 天新项目</sub>
+
+### [qingjian-team/qingjian](https://github.com/qingjian-team/qingjian) · 96 分
+
+⭐ 7,930（+39/天） · 🍴 688 · 👥 70 位贡献者 · 📝 30 天 399 次提交 · Rust · GPL-3.0 · 创建 73 天
+
+> 青简 Qingjian：用 Rust 写的拼音输入法，候选词旁多一条正在学的语言的译词
+
+<sub>来源：近 90 天新项目</sub>
+
+### [crmne/spotifast](https://github.com/crmne/spotifast) · 96 分
+
+⭐ 10,570（+44/天） · 🍴 631 · 👥 127 位贡献者 · 📝 30 天 257 次提交 · Rust · MIT · 创建 84 天
+
+> Spotify, native and fast. One lightweight Rust app for your whole library, local playback, and Spotify Connect on Linux, macOS, and Windows.
 
 <sub>来源：近 90 天新项目</sub>
 
 ## 👀 值得关注
 
-### [linshenkx/prompt-optimizer](https://github.com/linshenkx/prompt-optimizer) · 100 分
+### [huggingface/transformers](https://github.com/huggingface/transformers) · 100 分
 
-⭐ 41,921（+71/天） · 🍴 4,710 · 👥 35 位贡献者 · 📝 30 天 100 次提交 · TypeScript · NOASSERTION · 创建 644 天
+⭐ 169,296（+99/天） · 🍴 35,254 · 👥 4271 位贡献者 · 📝 30 天 507 次提交 · Python · Apache-2.0 · 创建 2943 天
 
-> An AI prompt optimizer for writing better prompts and getting better AI results.
-
-<sub>来源：LLM</sub>
-
-### [sgl-project/sglang](https://github.com/sgl-project/sglang) · 100 分
-
-⭐ 39,044（+49/天） · 🍴 10,610 · 👥 2303 位贡献者 · 📝 30 天 2401 次提交 · Python · Apache-2.0 · 创建 1045 天
-
-> SGLang is a high-performance serving framework for large language models and multimodal models.
+> 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.
 
 <sub>来源：LLM</sub>
 
-### [rmyndharis/OpenWA](https://github.com/rmyndharis/OpenWA) · 100 分
+### [netdata/netdata](https://github.com/netdata/netdata) · 99 分
 
-⭐ 17,041（+53/天） · 🍴 3,988 · 👥 93 位贡献者 · 📝 30 天 2600 次提交 · TypeScript · MIT · 创建 289 天
+⭐ 81,523（+56/天） · 🍴 6,749 · 👥 700 位贡献者 · 📝 30 天 417 次提交 · Go · GPL-3.0 · 创建 4903 天
 
-> Free, Open Source, Self-Hosted WhatsApp API Gateway
+> Full-stack observability · Metrics · Logs · Traces · Flows · Topology · Infrastructure · APM · NPM · DBM · RUM · Synthetics · Cloud · AI SRE · OpenTelemetry · SNMP · NetFlow/IPFIX/sFlow · IPMI · Redfish · 2000+ integrations
 
-<sub>来源：自部署</sub>
+<sub>来源：自部署、MCP</sub>
 
-### [mastra-ai/mastra](https://github.com/mastra-ai/mastra) · 98 分
+### [alibaba/open-code-review](https://github.com/alibaba/open-code-review) · 99 分
 
-⭐ 29,623（+39/天） · 🍴 3,119 · 👥 701 位贡献者 · 📝 30 天 1993 次提交 · TypeScript · NOASSERTION · 创建 834 天
+⭐ 54,428（+223/天） · 🍴 4,503 · 👥 225 位贡献者 · 📝 30 天 74 次提交 · Go · Apache-2.0 · 创建 186 天
 
-> Mastra is the modern TypeScript framework for AI-powered applications and agents.
+> Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.
 
-<sub>来源：LLM、MCP</sub>
+<sub>来源：Agent Skill</sub>
 
-### [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) · 97 分
+### [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) · 98 分
 
-⭐ 32,814（+37/天） · 🍴 3,652 · 👥 21 位贡献者 · 📝 30 天 69 次提交 · Rust · MIT · 创建 692 天
+⭐ 48,362（+72/天） · 🍴 3,414 · 👥 465 位贡献者 · 📝 30 天 170 次提交 · Python · GPL-3.0 · 创建 1741 天
 
-> Privacy-first AI meeting note taker for Windows, macOS and Linux. Free, open source (MIT). On-device Whisper/Parakeet transcription and speaker diarization, no meeting bot. Open-source alternative to Granola, Otter and Fireflies. https://meetily.ai
+> A community-supported supercharged document management system: scan, index and archive all your documents
 
-<sub>来源：LLM、自部署</sub>
+<sub>来源：LLM</sub>
 
-### [hummingbot/hummingbot](https://github.com/hummingbot/hummingbot) · 97 分
+### [rtk-ai/rtk](https://github.com/rtk-ai/rtk) · 97 分
 
-⭐ 21,283（+36/天） · 🍴 5,159 · 👥 328 位贡献者 · 📝 30 天 78 次提交 · Python · Apache-2.0 · 创建 2787 天
+⭐ 87,213（+93/天） · 🍴 5,609 · 👥 207 位贡献者 · 📝 30 天 305 次提交 · Rust · Apache-2.0 · 创建 301 天
 
-> Open source software that helps you create and deploy high-frequency crypto trading bots
+> CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
+
+<sub>来源：LLM、开发者工具</sub>
+
+### [stablyai/orca](https://github.com/stablyai/orca) · 97 分
+
+⭐ 130,024（+1012/天） · 🍴 8,268 · 👥 732 位贡献者 · 📝 30 天 7504 次提交 · TypeScript · MIT · 创建 248 天
+
+> Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.
 
 <sub>来源：AI Agent</sub>
 
-### [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) · 96 分
+### [OrchestratorInc/agent-orchestrator](https://github.com/OrchestratorInc/agent-orchestrator) · 97 分
 
-⭐ 61,088（+34/天） · 🍴 9,226 · 👥 379 位贡献者 · 📝 30 天 231 次提交 · Python · MIT · 创建 1119 天
+⭐ 14,941（+37/天） · 🍴 2,058 · 👥 147 位贡献者 · 📝 30 天 918 次提交 · TypeScript · Apache-2.0 · 创建 279 天
 
-> Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
+> Plan, run and supervise fleets of agents from task to merged PR. Desktop (macOS, Windows, Linux) + iPhone & Android apps. Supports Claude Code, Codex & 35+ coding agents.
 
-<sub>来源：AI Agent</sub>
+<sub>来源：开发者工具</sub>
 
-### [mksglu/context-mode](https://github.com/mksglu/context-mode) · 95 分
+### [farion1231/cc-switch](https://github.com/farion1231/cc-switch) · 97 分
 
-⭐ 34,283（+39/天） · 🍴 2,356 · 👥 111 位贡献者 · 📝 30 天 1613 次提交 · JavaScript · NOASSERTION · 创建 268 天
+⭐ 155,868（+280/天） · 🍴 10,203 · 👥 361 位贡献者 · 📝 30 天 651 次提交 · Rust · MIT · 创建 472 天
 
-> Free, local plugin that keeps tool output out of your coding agent's context window. Sandbox and SQLite FTS5 search, 99% fewer bytes in context. Works with Claude Code, Codex, Pi, OMP, OpenCode, Gemini CLI, Copilot CLI and 4 more agents. Zero telemetry.
-
-<sub>来源：MCP</sub>
-
-### [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) · 94 分
-
-⭐ 87,541（+51/天） · 🍴 9,130 · 👥 104 位贡献者 · 📝 30 天 10 次提交 · Python · Apache-2.0 · 创建 923 天
-
-> Official Crawl4AI Cloud: a hosted web scraping, extraction, and search API for AI agents. Free API key, 1,000 credits a month, no card. Fully open source: this repo is the Apache-2.0 crawler that powers it, and you can self-host it.
-
-<sub>来源：LLM、AI Agent、MCP</sub>
-
-### [michael-denyer/pstack-claude](https://github.com/michael-denyer/pstack-claude) · 94 分
-
-⭐ 4,519（+65/天） · 🍴 411 · 👥 35 位贡献者 · 📝 30 天 123 次提交 · JavaScript · MIT · 创建 176 天
-
-> Antigravity, Claude Code, Codex, Copilot, Gemini, Muse, OpenCode, Pi, and Prime Agent versions of Poteto's pstack. Rigorous agent workflows with Cursor primitives translated for other harnesses.
-
-<sub>来源：Agent Skill、Claude Skill</sub>
-
-### [apify/apify-mcp-server](https://github.com/apify/apify-mcp-server) · 94 分
-
-⭐ 16,922（+172/天） · 🍴 469 · 👥 56 位贡献者 · 📝 30 天 201 次提交 · TypeScript · MIT · 创建 685 天
-
-> The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerce sites, or any other website using thousands of ready-made scrapers, crawlers, and automation tools available on the Apify Store.
+> A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io
 
 <sub>来源：MCP</sub>
 
-### [janhq/jan](https://github.com/janhq/jan) · 94 分
+### [herdrdev/herdr](https://github.com/herdrdev/herdr) · 95 分
 
-⭐ 45,816（+34/天） · 🍴 3,190 · 👥 193 位贡献者 · 📝 30 天 314 次提交 · Rust · NOASSERTION · 创建 1190 天
+⭐ 51,924（+149/天） · 🍴 4,205 · 👥 91 位贡献者 · 📝 30 天 19 次提交 · Rust · Apache-2.0 · 创建 237 天
 
-> Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.
+> the runtime your coding agents live on
 
-<sub>来源：LLM、自部署</sub>
-
-### [DayuanJiang/next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io) · 94 分
-
-⭐ 37,056（+27/天） · 🍴 3,839 · 👥 73 位贡献者 · 📝 30 天 92 次提交 · TypeScript · Apache-2.0 · 创建 605 天
-
-> Draw and edit draw.io diagrams by chatting with an AI. Web app, desktop app, and an MCP server for Claude Code, Cursor, Codex and VS Code.
-
-<sub>来源：LLM、MCP</sub>
+<sub>来源：AI Agent、开发者工具</sub>
 
 ---
 
