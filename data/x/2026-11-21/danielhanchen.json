@@ -1,0 +1,77 @@
+{
+ "page": "https://x.com/danielhanchen",
+ "collected_at": "2026-11-21T13:38:22.941Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 7,
+ "posts": [
+  {
+   "id": "2123964477431554089",
+   "url": "https://x.com/danielhanchen/status/2123964477431554089",
+   "author": "danielhanchen",
+   "name": "Daniel Han",
+   "time": "2026-11-21T02:19:27.000Z",
+   "text": "Thank you!\nUnsloth Desktop works on Windows, Mac, Linux + NVIDIA, AMD, Intel GPUs, CPUs, ARM64!\n\nWe also support diffusion, video gen + LoRA training, LLM training, RL, decision models, auto compaction, vLLM + SGLang (Windows via WSL), Cloudflared HTTPS, audio, sandboxing + more!",
+   "likes": 35,
+   "reposts": 4,
+   "replies": 5,
+   "views": 2195,
+   "context": "",
+   "quoted": "Quite impressed by what @UnslothAI is cooking. Their Desktop app is very impressive. It's like Claude Desktop but with local AI models. Tried Inkling-2-Mini with it, and it is working very well This is clearly the future, as you don't need to pay a subscription, and it's",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123945836518551709",
+   "url": "https://x.com/danielhanchen/status/2123945836518551709",
+   "author": "danielhanchen",
+   "name": "Daniel Han",
+   "time": "2026-11-21T01:05:23.000Z",
+   "text": "We did a mini update for Unsloth Desktop on running Inkling-2-Mini more smoothly - banded attention got priced correctly, so more context can fit, and we added Dspark detection (2x faster decoding)\n\nDocs at \nhttps://\nunsloth.ai/docs/models/in\nkling-2-mini\n… also got updated!",
+   "likes": 101,
+   "reposts": 11,
+   "replies": 14,
+   "views": 7302,
+   "context": "",
+   "quoted": "Run Inkling 2 Mini, the strongest 26.4B model that runs on 16GB RAM. Thinking Machines’ Apache 2.0 MoE model uses a looped transformer arch & scores 48.2% on DeepSWE v1.1, the best for size. Run on Unsloth, llama.cpp GGUF: https:// huggingface.co/unsloth/Inklin g-2-Mini-GGUF … Guide: https:// unsloth.ai/docs/models/in kling-2-mini …",
+   "card": "",
+   "links": [
+    "https:// unsloth.ai/docs/models/in kling-2-mini …"
+   ]
+  },
+  {
+   "id": "2123959355544625396",
+   "url": "https://x.com/danielhanchen/status/2123959355544625396",
+   "author": "danielhanchen",
+   "name": "Daniel Han",
+   "time": "2026-11-21T01:59:06.000Z",
+   "text": "Also interesting research at \nhttps://\nthinkingmachines.ai/model-card/tml\n-d24-varloop-research/\n… for variable loop determinations during inference time!",
+   "likes": 10,
+   "reposts": 4,
+   "replies": 2,
+   "views": 1203,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// thinkingmachines.ai/model-card/tml -d24-varloop-research/ …"
+   ]
+  },
+  {
+   "id": "2123904374145782111",
+   "url": "https://x.com/danielhanchen/status/2123904374145782111",
+   "author": "danielhanchen",
+   "name": "Daniel Han",
+   "time": "2026-11-20T22:20:37.000Z",
+   "text": "Thinking Machines Inkling-2-Mini uses a looped transformer variant that cycles some layers multiple times! It's 5.4B active (inc loops) and  we made some quants for them!\n\nUD3.1 quants retain >90% top-1% accuracy and works in Unsloth desktop!",
+   "likes": 158,
+   "reposts": 19,
+   "replies": 10,
+   "views": 5405,
+   "context": "",
+   "quoted": "Run Inkling 2 Mini, the strongest 26.4B model that runs on 16GB RAM. Thinking Machines’ Apache 2.0 MoE model uses a looped transformer arch & scores 48.2% on DeepSWE v1.1, the best for size. Run on Unsloth, llama.cpp GGUF: https:// huggingface.co/unsloth/Inklin g-2-Mini-GGUF … Guide: https:// unsloth.ai/docs/models/in kling-2-mini …",
+   "card": "",
+   "links": []
+  }
+ ]
+}

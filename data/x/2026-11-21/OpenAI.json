@@ -1,0 +1,59 @@
+{
+ "page": "https://x.com/OpenAI",
+ "collected_at": "2026-11-21T13:30:56.570Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2123899406550528422",
+   "url": "https://x.com/OpenAI/status/2123899406550528422",
+   "author": "OpenAI",
+   "name": "OpenAI",
+   "time": "2026-11-20T22:00:53.000Z",
+   "text": "人工智能如何帮助科学家发现新的线索，以更好地理解和治疗神经退行性疾病——以及我们与 \n@perturbai_tx\n 和 \n@scrippsresearch\n 合作的背后原因：",
+   "likes": 2184,
+   "reposts": 246,
+   "replies": 169,
+   "views": 232223,
+   "context": "",
+   "quoted": "GPT-Rosalind 提出了一种新的药物发现方向：是否可以通过恢复胆固醇的运输功能来防止神经元退化？ DCTN1 是一种与佩里综合征相关的基因，佩里综合征是一种罕见的神经退行性疾病。在小鼠大脑实验中，破坏该基因会增加与这种疾病相关的基因的表达。",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123862344422088794",
+   "url": "https://x.com/OpenAI/status/2123862344422088794",
+   "author": "OpenAI",
+   "name": "OpenAI",
+   "time": "2026-11-20T19:33:37.000Z",
+   "text": "蒸馏技术可以在不引入相关保障措施的情况下，实现强大的人工智能功能。\n\n我们正在分享关于我们对抗模型蒸馏技术的新研究，包括这些功能如何被应用，以及我们如何检测和破坏那些有组织的攻击行为。\n\n这些发现是……",
+   "likes": 3753,
+   "reposts": 728,
+   "replies": 738,
+   "views": 1114703,
+   "context": "",
+   "quoted": "",
+   "card": "Combatting adversarial distillation",
+   "links": []
+  },
+  {
+   "id": "2123856316187975756",
+   "url": "https://x.com/OpenAI/status/2123856316187975756",
+   "author": "OpenAI",
+   "name": "OpenAI",
+   "time": "2026-11-20T19:09:39.000Z",
+   "text": "MedChemBench is a new benchmark for AI reasoning in medicinal chemistry.\n\nIt shows the progress our frontier models have made in their ability to help scientists use AI to identify promising drug candidates.\n\n\nhttps://\nopenai.com/index/introduc\ning-medchembench/\n…",
+   "likes": 4143,
+   "reposts": 582,
+   "replies": 210,
+   "views": 375974,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// openai.com/index/introduc ing-medchembench/ …"
+   ]
+  }
+ ]
+}

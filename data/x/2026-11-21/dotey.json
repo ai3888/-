@@ -1,0 +1,95 @@
+{
+ "page": "https://x.com/dotey",
+ "collected_at": "2026-11-21T13:40:39.620Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2124052093971624234",
+   "url": "https://x.com/dotey/status/2124052093971624234",
+   "author": "dotey",
+   "name": "宝玉",
+   "time": "2026-11-21T08:07:36.000Z",
+   "text": "Gemini Neon does a pretty good job with video effects too\n\nVideo production Artifact (skill):\n\nhttps://\ngithub.com/JimLiu/open-ar\ntifact\n…",
+   "likes": 144,
+   "reposts": 8,
+   "replies": 54,
+   "views": 18368,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/JimLiu/open-ar tifact …"
+   ]
+  },
+  {
+   "id": "2124034738931613802",
+   "url": "https://x.com/dotey/status/2124034738931613802",
+   "author": "dotey",
+   "name": "宝玉",
+   "time": "2026-11-21T06:58:39.000Z",
+   "text": "If you’re interested in Antigravity’s reset, don’t follow Tibo—you should follow Varun.\n\nFor example, this post: Antigravity is significantly expanding its cache pool, increasing Neon’s cache hit rate by about 4%, which will allow at least 20% more tasks to be completed within",
+   "likes": 312,
+   "reposts": 13,
+   "replies": 81,
+   "views": 81115,
+   "context": "",
+   "quoted": "We’re rolling out a change to increase cache hit rate on Neon by around 4% on Antigravity by massive increasing the cache pool size. This will increase what you can get done in quota by at least 20%. Will issue a reset after it’s done since it burned quota faster!",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123993892353675427",
+   "url": "https://x.com/dotey/status/2123993892353675427",
+   "author": "dotey",
+   "name": "宝玉",
+   "time": "2026-11-21T04:16:20.000Z",
+   "text": "Antigravity doesn’t have a mobile app yet (apparently one is coming soon), but there’s a workaround:\n\n1. Go to \nhttps://\nantigravity.google.com and log in\n\n2. Tap “View more,” then tap the share button\n\n3. Select “Add to Home Screen”\n\n4. This lets you remotely control and reply to all",
+   "likes": 72,
+   "reposts": 8,
+   "replies": 60,
+   "views": 16548,
+   "context": "",
+   "quoted": "For those of you trying out @antigravity for Neon, here's a quick tip: 1. Go to https:// antigravity.google.com 2. Tap see more and then the share button 3. Tap Add to Home Screen Then you can talk to all your Antigravity threads via remote control on mobile. Even though Antigravity",
+   "card": "",
+   "links": [
+    "https:// antigravity.google.com"
+   ]
+  },
+  {
+   "id": "2123936278056165393",
+   "url": "https://x.com/dotey/status/2123936278056165393",
+   "author": "dotey",
+   "name": "宝玉",
+   "time": "2026-11-21T00:27:24.000Z",
+   "text": "Sean Goedecke wrote on his personal blog that in large software projects, it’s normal for programmers to understand only the part of the code they’re responsible for, and that this is already the best you can hope for.\n\nThat’s true. Let me expand a little on the original post.\n\nA",
+   "likes": 103,
+   "reposts": 16,
+   "replies": 106,
+   "views": 18948,
+   "context": "",
+   "quoted": "In many software engineering environments, there’s nothing wrong with being in a state of partial understanding. In fact, in large systems a partial understanding is the best you can do.",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123856308034285930",
+   "url": "https://x.com/dotey/status/2123856308034285930",
+   "author": "dotey",
+   "name": "宝玉",
+   "time": "2026-11-20T19:09:37.000Z",
+   "text": "Gemini promotion: From today through November 26, Google AI Plus and annual Pro plans are up to 50% off.\n\n\nhttps://\none.google.com/ai?utm_source=\ng1&utm_medium=organic_social&utm_campaign=early_access_exec&g1_landing_page=75\n…",
+   "likes": 459,
+   "reposts": 50,
+   "replies": 90,
+   "views": 124368,
+   "context": "",
+   "quoted": "We’re kicking off our Black Friday deals today with early access to our best deals for current AI and storage subscribers: Get up to 50 percent off Google AI Plus and annual Pro plans starting today through 11/26, so you can try out our latest models, including Gemini 4 Hydrogen",
+   "card": "",
+   "links": [
+    "https:// one.google.com/ai?utm_source= g1&utm_medium=organic_social&utm_campaign=early_access_exec&g1_landing_page=75 …"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/arankomatsuzaki",
+ "collected_at": "2026-11-21T13:37:24.791Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 3,
+ "posts": [
+  {
+   "id": "2123891222326739264",
+   "url": "https://x.com/arankomatsuzaki/status/2123891222326739264",
+   "author": "arankomatsuzaki",
+   "name": "Aran Komatsuzaki",
+   "time": "2026-11-20T21:28:22.000Z",
+   "text": "Nace AI presents Drex Router, a per-step model router for agent workflows:\n\n- Claude Code bug fix: 1:19 vs 2:42, $0.57 vs $0.91 vs Opus-only\n- Code migration: -38% API cost vs Opus 5.5, 92.3% vs 93.3% files ported correctly\n- 200-agent SaaS build: $9.48 -> $1.31\n\nWith strong",
+   "likes": 11,
+   "reposts": 2,
+   "replies": 8,
+   "views": 3725,
+   "context": "",
+   "quoted": "Introducing Drex Router. A small model that picks the right LLM/SLM and reasoning effort for every step your agent takes. Accuracy: Drex Router 87.6% vs. Jev Router’s 86.4% Try it: https:// console.nace.ai COMMENT DREX and get extra $5 in API credits",
+   "card": "",
+   "links": []
+  }
+ ]
+}

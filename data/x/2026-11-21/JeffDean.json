@@ -1,0 +1,61 @@
+{
+ "page": "https://x.com/JeffDean",
+ "collected_at": "2026-11-21T13:36:36.211Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2124043983878066407",
+   "url": "https://x.com/JeffDean/status/2124043983878066407",
+   "author": "JeffDean",
+   "name": "Jeff Dean",
+   "time": "2026-11-21T07:35:23.000Z",
+   "text": "我刚刚看到了 \n@martin_casado\n 的推文所提到的论文（当时二月份论文发布时我没有注意到它）。确实，这篇论文的分析非常出色，图表部分更是让论文显得非常精彩！干得好，Dhruva Karkada、Daniel J. Korchinski、Andres Nava 和 Matthieu Wyart，你们真的做得很棒！",
+   "likes": 474,
+   "reposts": 52,
+   "replies": 16,
+   "views": 33315,
+   "context": "",
+   "quoted": "Thank you for the high praise x.com/martin_casado/…",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123793677860696070",
+   "url": "https://x.com/JeffDean/status/2123793677860696070",
+   "author": "JeffDean",
+   "name": "Jeff Dean",
+   "time": "2026-11-20T15:00:45.000Z",
+   "text": "Detaining a PhD student on her way back to Princeton from presenting scientific work at a conference is not how we get the best and brightest scientists in the world to want to come to the US.  I hope this is resolved quickly!  More details:\n\n\nhttps://\ndailyprincetonian.com/article/2026/1\n1/princeton-news-broadfocus-princeton-phd-neuroscience-student-detained-by-immigration-customs-and-enforcement-ice\n…",
+   "likes": 6280,
+   "reposts": 641,
+   "replies": 300,
+   "views": 377426,
+   "context": "",
+   "quoted": "Our colleague Eva Yi Xie, a Princeton neuroscience PhD student, was detained by ICE at Reagan National Airport on her way home from SfN, where she’d just presented her poster. She’s being held in Chantilly, VA. Please help us bring her home.",
+   "card": "",
+   "links": [
+    "https:// dailyprincetonian.com/article/2026/1 1/princeton-news-broadfocus-princeton-phd-neuroscience-student-detained-by"
+   ]
+  },
+  {
+   "id": "2124048210335592895",
+   "url": "https://x.com/JeffDean/status/2124048210335592895",
+   "author": "JeffDean",
+   "name": "Jeff Dean",
+   "time": "2026-11-21T07:52:10.000Z",
+   "text": "A bit more information from \nhttps://\nsocietyforscience.org/blog/regeneron\n-science-talent-search-2020-finalists-on-facing-challenges-and-overcoming-obstacles/\n…\n\n Per an interview she gave as part of being a finalist in the 2020 Regeneron Science Eva Yi Xie came to the US when her parents were compelled to flee to America due to political persecution.\n\n“When I was 14-years-old, my",
+   "likes": 188,
+   "reposts": 9,
+   "replies": 6,
+   "views": 16685,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// societyforscience.org/blog/regeneron -science-talent-search-2020-finalists-on-facing-challenges-and-overcoming-"
+   ]
+  }
+ ]
+}

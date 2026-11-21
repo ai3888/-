@@ -1,0 +1,27 @@
+{
+ "page": "https://x.com/simonw",
+ "collected_at": "2026-11-21T13:38:11.172Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2123808432830701909",
+   "url": "https://x.com/simonw/status/2123808432830701909",
+   "author": "simonw",
+   "name": "Simon Willison",
+   "time": "2026-11-20T15:59:23.000Z",
+   "text": "",
+   "likes": 444,
+   "reposts": 17,
+   "replies": 132,
+   "views": 38462,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/…"
+   ]
+  }
+ ]
+}

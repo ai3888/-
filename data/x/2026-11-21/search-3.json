@@ -1,0 +1,205 @@
+{
+ "page": "https://x.com/search?q=url%3Agithub.com%20(LLM%20OR%20agent%20OR%20model%20OR%20inference%20OR%20training)%20min_faves%3A200%20-filter%3Areplies%20since%3A2026-11-20&src=typed_query",
+ "collected_at": "2026-11-21T13:41:30.927Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 11,
+ "posts": [
+  {
+   "id": "2123787861392855388",
+   "url": "https://x.com/dwhitedesign/status/2123787861392855388",
+   "author": "dwhitedesign",
+   "name": "Daniel White",
+   "time": "2026-11-20T14:37:38.000Z",
+   "text": "我创造了一项技能，这样你的代理就可以将任何东西转化为 3D 像素艺术形式了。\n\n向 @asynkimo 和他的精彩文章表示极大的赞赏！\n\n \nhttps://\ngithub.com/danielwh2/spri\nte-stacking\n…",
+   "likes": 1217,
+   "reposts": 104,
+   "replies": 23,
+   "views": 31910,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/danielwh2/spri te-stacking …"
+   ]
+  },
+  {
+   "id": "2123815052553650499",
+   "url": "https://x.com/dwhitedesign/status/2123815052553650499",
+   "author": "dwhitedesign",
+   "name": "Daniel White",
+   "time": "2026-11-20T16:25:41.000Z",
+   "text": "",
+   "likes": 692,
+   "reposts": 77,
+   "replies": 11,
+   "views": 37064,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https://github.com/danielwh2/sprite-stacking…"
+   ]
+  },
+  {
+   "id": "2123697657936007565",
+   "url": "https://x.com/piotr_minkowski/status/2123697657936007565",
+   "author": "piotr_minkowski",
+   "name": "Piotr Mińkowski",
+   "time": "2026-11-20T08:39:12.000Z",
+   "text": "",
+   "likes": 525,
+   "reposts": 56,
+   "replies": 19,
+   "views": 34751,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https://github.com/piomin/ai-software-factory…"
+   ]
+  },
+  {
+   "id": "2124015852592988367",
+   "url": "https://x.com/MengTo/status/2124015852592988367",
+   "author": "MengTo",
+   "name": "Meng To",
+   "time": "2026-11-21T05:43:36.000Z",
+   "text": "I spent about 24 hours on a three.js cyberpunk game with GPT-6.2 Astra. \n\nPick a character and drive through the city. Strong visual refs, ThreeUI, real 3D.\n\nI open-sourced 3 skills\n\n3D scans \nhttps://\ngithub.com/MengTo/Skills/\nblob/main/agent-skills/game-development/build-point-cloud-scan/SKILL.md\n…\nLens rain \nhttps://\ngithub.com/MengTo/Skills/\nblob/main/agent-skills/game-development/build-lens-raindrops/SKILL.md\n…\nSelector",
+   "likes": 698,
+   "reposts": 69,
+   "replies": 55,
+   "views": 43799,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/MengTo/Skills/ blob/main/agent-skills/game-development/build-point-cloud-scan/SKILL.md …",
+    "https:// github.com/MengTo/Skills/ blob/main/agent-skills/game-development/build-lens-raindrops/SKILL.md …"
+   ]
+  },
+  {
+   "id": "2123928042711958000",
+   "url": "https://x.com/dwhitedesign/status/2123928042711958000",
+   "author": "dwhitedesign",
+   "name": "Daniel White",
+   "time": "2026-11-20T23:54:40.000Z",
+   "text": "No Blender, no Three.js, no 3D engine\n\nJust 11 flat pixel strips stacked layer by layer in code, rendered at 60 fps with acoustic audio synthesised from scratch \n\nBuilt by combining two open-source agent skills (film coming soon + sprite-stacking)\n\n\nhttps://\ngithub.com/danielwh2/spri\nte-stacking\n…",
+   "likes": 453,
+   "reposts": 35,
+   "replies": 16,
+   "views": 13353,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/danielwh2/spri te-stacking …"
+   ]
+  },
+  {
+   "id": "2123794210721804750",
+   "url": "https://x.com/MengTo/status/2123794210721804750",
+   "author": "MengTo",
+   "name": "Meng To",
+   "time": "2026-11-20T15:02:52.000Z",
+   "text": "Astra 6.2 is pretty insane at three.js landing pages. Good references and about six hours of steering got the fog between the layout, 3d scenes and the animations.\n\nurl: \nhttps://\nthreeui.com/sylva-woodland\n-landing-page\n…\n\nThree skills I open-sourced:\n\nLayout \nhttps://\ngithub.com/MengTo/Skills/\ntree/main/agent-skills/web-design/sylva-field-guide-layout\n…\nShaders",
+   "likes": 821,
+   "reposts": 228,
+   "replies": 60,
+   "views": 30225,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// threeui.com/sylva-woodland -landing-page …",
+    "https:// github.com/MengTo/Skills/ tree/main/agent-skills/web-design/sylva-field-guide-layout …"
+   ]
+  },
+  {
+   "id": "2123898792487576021",
+   "url": "https://x.com/poteto/status/2123898792487576021",
+   "author": "poteto",
+   "name": "lauren",
+   "time": "2026-11-20T21:58:26.000Z",
+   "text": "give /no-comments from pstack a try! or better yet, ask your agent to turn it into a lint rule\n\n\nhttps://\ngithub.com/cursor/plugins\n/blob/main/pstack/skills/no-comments/SKILL.md\n…",
+   "likes": 2384,
+   "reposts": 109,
+   "replies": 94,
+   "views": 138584,
+   "context": "",
+   "quoted": "Prompt of the day (a long one): Take a look at every code comment in <my codebase | this section of the code>. Categorise each comment as: - Tautology: simply repeats what is already visible from the code - Excuse: many comments allow the agent to get away with a hacky",
+   "card": "",
+   "links": [
+    "https:// github.com/cursor/plugins /blob/main/pstack/skills/no-comments/SKILL.md …"
+   ]
+  },
+  {
+   "id": "2123705835100729448",
+   "url": "https://x.com/Tebasaki_lab/status/2123705835100729448",
+   "author": "Tebasaki_lab",
+   "name": "手羽先｜国産LLMを作る人",
+   "time": "2026-11-20T09:11:42.000Z",
+   "text": "World first!! We've released a logic-gate-based NN library selected for the MITOU IT Program!!\n\nWe've released “Griffith,” an open-source library that lets you train models in PyTorch and export them to Verilog/VHDL.\n\nIt supports N-input LUTs and runs on CPUs and Apple Silicon",
+   "likes": 1026,
+   "reposts": 177,
+   "replies": 10,
+   "views": 132896,
+   "context": "",
+   "quoted": "",
+   "card": "GitHub - tsukushi-gate/Griffith: Griffith",
+   "links": []
+  },
+  {
+   "id": "2123846430632607937",
+   "url": "https://x.com/0xdierich/status/2123846430632607937",
+   "author": "0xdierich",
+   "name": "Imadierich",
+   "time": "2026-11-20T18:30:22.000Z",
+   "text": "this is the only thing you need to print money with bug bounties:\n\n\nhttps://\ngithub.com/elementalsouls\n/Claude-BugHunter\n…\n\njust send the link to your agent, then feed it any bug bounty target you find.\n\nthank me later.",
+   "likes": 914,
+   "reposts": 68,
+   "replies": 25,
+   "views": 48637,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// github.com/elementalsouls /Claude-BugHunter …"
+   ]
+  },
+  {
+   "id": "2124039417153347708",
+   "url": "https://x.com/Teknium/status/2124039417153347708",
+   "author": "Teknium",
+   "name": "Teknium",
+   "time": "2026-11-21T07:17:14.000Z",
+   "text": "Anyone have thoughts on proactivity in Hermes?\n\nLeave your comments on this PR:",
+   "likes": 286,
+   "reposts": 17,
+   "replies": 68,
+   "views": 18269,
+   "context": "",
+   "quoted": "",
+   "card": "Hermes schedules help on its own (trips, habits, owed replies), and each job asks on its own...",
+   "links": []
+  },
+  {
+   "id": "2123859460233793601",
+   "url": "https://x.com/flxrnc/status/2123859460233793601",
+   "author": "flxrnc",
+   "name": "Florence",
+   "time": "2026-11-20T19:22:09.000Z",
+   "text": "a f*cking goldmine for every Fable 5.2 and Opus 5.5 user\n\nthese 18 GitHub repos turn AI slop into real motion design\n\nStyles. Icons. Palettes. Sketches. Fluid. Cutouts.\n\nui-ux-pro-max → 80 styles, palettes and font combos, ready to use\n\nhttps://\ngithub.com/nextlevelbuild\ner/ui-ux-pro-max-skill\n…\n\nfrontend-design →",
+   "likes": 341,
+   "reposts": 32,
+   "replies": 2,
+   "views": 31488,
+   "context": "",
+   "quoted": "Fable 5.2 can make a film from one prompt Most of those films will be forgotten in a day A longer prompt won't save them, the problem is how you direct it I broke down 9 lessons from 40 finished films, with every prompt, setting and number ↓",
+   "card": "",
+   "links": [
+    "https:// github.com/nextlevelbuild er/ui-ux-pro-max-skill …"
+   ]
+  }
+ ]
+}

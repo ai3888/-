@@ -1,0 +1,166 @@
+{
+ "page": "https://x.com/search?q=url%3Ahuggingface.co%20min_faves%3A100%20-filter%3Areplies%20since%3A2026-11-20&src=typed_query",
+ "collected_at": "2026-11-21T13:41:19.191Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 9,
+ "posts": [
+  {
+   "id": "2123699947203907626",
+   "url": "https://x.com/pcuenq/status/2123699947203907626",
+   "author": "pcuenq",
+   "name": "Pedro Cuenca",
+   "time": "2026-11-20T08:48:18.000Z",
+   "text": "苹果刚刚发布了 Depth Pro 2。它非常出色，运行速度快，可以处理各种分辨率的照片和视频。\n\n试试 @_akhaliq \nhttps://\nhuggingface.co/spaces/akhaliq\n/DepthPro2\n… 提供的演示版本吧。",
+   "likes": 572,
+   "reposts": 36,
+   "replies": 7,
+   "views": 36326,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/spaces/akhaliq /DepthPro2 … 提供的演示版本吧。"
+   ]
+  },
+  {
+   "id": "2123873656069877899",
+   "url": "https://x.com/UnslothAI/status/2123873656069877899",
+   "author": "UnslothAI",
+   "name": "Unsloth AI",
+   "time": "2026-11-20T20:18:33.000Z",
+   "text": "运行 Inkling 2 Mini，这是最强大的 26.4B 模型，可以在 16GB 内存的情况下运行。\n\nThinking Machines 公司的 Apache 2.0 MoE 模型采用了循环变换器架构，在 DeepSWE v1.1 测试中的得分达到了 48.2%，这一成绩在同类模型中名列前茅。\n\n在 Unsloth 上运行，lama.cpp\n\nGGUF： \nhttps://\nhuggingface.co/unsloth/Inklin\ng-2-Mini-GGUF\n… \n指南： \nhttps://\nunsloth.ai/docs/models/in\nkling-2-mini\n…",
+   "likes": 3060,
+   "reposts": 336,
+   "replies": 108,
+   "views": 200837,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/unsloth/Inklin g-2-Mini-GGUF …",
+    "https:// unsloth.ai/docs/models/in kling-2-mini …"
+   ]
+  },
+  {
+   "id": "2123735872638275595",
+   "url": "https://x.com/otodotearth/status/2123735872638275595",
+   "author": "otodotearth",
+   "name": "oto",
+   "time": "2026-11-20T11:11:03.000Z",
+   "text": "",
+   "likes": 141,
+   "reposts": 8,
+   "replies": 2,
+   "views": 6669,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https://huggingface.co/datasets/otoearth/otoSpeech-video-full-duplex-21h…"
+   ]
+  },
+  {
+   "id": "2123873514000163305",
+   "url": "https://x.com/victormustar/status/2123873514000163305",
+   "author": "victormustar",
+   "name": "Victor M",
+   "time": "2026-11-20T20:18:00.000Z",
+   "text": "Alert: Inkling 2 Mini from Thinking Machines: 26B looped transformer available on Hugging Face. Leads every open model under 100B on DeepSWE and SWE-bench Pro.",
+   "likes": 257,
+   "reposts": 18,
+   "replies": 8,
+   "views": 13769,
+   "context": "",
+   "quoted": "",
+   "card": "thinkingmachines/Inkling-2-Mini · Hugging Face",
+   "links": []
+  },
+  {
+   "id": "2123814052329816451",
+   "url": "https://x.com/calebfahlgren/status/2123814052329816451",
+   "author": "calebfahlgren",
+   "name": "Caleb",
+   "time": "2026-11-20T16:21:43.000Z",
+   "text": "Superhuman has one of my favorite autocorrect experiences, and I wanted something like it that works offline.\n\nSo I trained a 2.1 MB model that runs in your browser and fixes typos spell check usually misses (form → from, their → there).\n \nhttps://\nhuggingface.co/paperweight/ti\nnyfix\n…",
+   "likes": 431,
+   "reposts": 29,
+   "replies": 20,
+   "views": 12476,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/paperweight/ti nyfix …"
+   ]
+  },
+  {
+   "id": "2123917490015363555",
+   "url": "https://x.com/leo114119/status/2123917490015363555",
+   "author": "leo114119",
+   "name": "Leo · Building w/ AI",
+   "time": "2026-11-20T23:12:44.000Z",
+   "text": "This open-source model: MiniMax H3, retrained immediately on 1,000 adult videos, and compressed to 0.62GB\n\nCompletely free, and extremely realistic....\n\nThe era when anyone can make porn videos is coming.....",
+   "likes": 4248,
+   "reposts": 327,
+   "replies": 97,
+   "views": 439107,
+   "context": "",
+   "quoted": "",
+   "card": "2834417/3446189/ · Sentinel7/h3 at main",
+   "links": []
+  },
+  {
+   "id": "2123873347393970488",
+   "url": "https://x.com/ClementDelangue/status/2123873347393970488",
+   "author": "ClementDelangue",
+   "name": "clem",
+   "time": "2026-11-20T20:17:20.000Z",
+   "text": "American open-source AI isn't dead yet \n\n\n@thinkymachines\n is releasing Inkling 2 Mini as apache 2.0 today and getting to the pareto frontier for open agent models. \n\nModel: \nhttps://\nhuggingface.co/thinkingmachin\nes/Inkling-2-Mini\n…",
+   "likes": 1727,
+   "reposts": 150,
+   "replies": 71,
+   "views": 48603,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/thinkingmachin es/Inkling-2-Mini …"
+   ]
+  },
+  {
+   "id": "2123878408493158720",
+   "url": "https://x.com/bnjmn_marie/status/2123878408493158720",
+   "author": "bnjmn_marie",
+   "name": "Benjamin Marie",
+   "time": "2026-11-20T20:37:26.000Z",
+   "text": "Thinking Machines filling the gap!\n26B-A3B!",
+   "likes": 400,
+   "reposts": 31,
+   "replies": 21,
+   "views": 13939,
+   "context": "",
+   "quoted": "",
+   "card": "thinkingmachines/Inkling-2-Mini · Hugging Face",
+   "links": []
+  },
+  {
+   "id": "2123703921134747902",
+   "url": "https://x.com/MiaAI_lab/status/2123703921134747902",
+   "author": "MiaAI_lab",
+   "name": "Mia",
+   "time": "2026-11-20T09:04:05.000Z",
+   "text": "Hy4 open-weights are now OUT! \n\n- Weights 786 GB for FP8!\n- 49B active params, it's a heavy one.\n\nFP8 HF link:\n\nhttps://\nhuggingface.co/tencent/Hy4-FP8",
+   "likes": 149,
+   "reposts": 9,
+   "replies": 16,
+   "views": 9044,
+   "context": "",
+   "quoted": "Today, we’re releasing the open weights for Hy4. Our natively multimodal flagship MoE (770B total / 49B active, 1M context). Alongside the Hy4 System Card with a comprehensive safety evaluation report. Join the Hy team for a live AMA this Friday, 8–10 AM PT on",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/tencent/Hy4-FP8"
+   ]
+  }
+ ]
+}

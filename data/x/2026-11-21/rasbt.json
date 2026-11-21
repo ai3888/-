@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/rasbt",
+ "collected_at": "2026-11-21T13:34:35.786Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2123897364503310431",
+   "url": "https://x.com/rasbt/status/2123897364503310431",
+   "author": "rasbt",
+   "name": "Sebastian Raschka",
+   "time": "2026-11-20T21:52:46.000Z",
+   "text": "基准测试团队非常喜欢它。",
+   "likes": 87,
+   "reposts": 6,
+   "replies": 23,
+   "views": 16011,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123853084216455549",
+   "url": "https://x.com/rasbt/status/2123853084216455549",
+   "author": "rasbt",
+   "name": "Sebastian Raschka",
+   "time": "2026-11-20T18:56:49.000Z",
+   "text": "Yeah. Also, LLMs are specifically fine-tuned to work in specific harnesses and with specific tools.\n\nI.e., the harness is part of the training setup, so the model can't really absorb it.\n\nIt’s a bit like the CPU/GPU absorbing the operating system.",
+   "likes": 279,
+   "reposts": 27,
+   "replies": 38,
+   "views": 18773,
+   "context": "",
+   "quoted": "> A common idea floating around is that LLMs will absorb harnesses and make them obsolete. There is no way enough people believe this for it to be \"common\". x.com/a1zhang/status…",
+   "card": "",
+   "links": []
+  }
+ ]
+}

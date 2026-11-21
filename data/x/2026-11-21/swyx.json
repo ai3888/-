@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/swyx",
+ "collected_at": "2026-11-21T13:39:12.092Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2123843282082132335",
+   "url": "https://x.com/swyx/status/2123843282082132335",
+   "author": "swyx",
+   "name": "swyx",
+   "time": "2026-11-20T18:17:52.000Z",
+   "text": "为什么 \n@j_schottenstein\n 离开 \n@getdbt\n 去 \n@LangChain\n 那里，试图将其打造成一家价值 30 亿美元的企业呢…\n\n……现在，他们不得不从零开始重新设计内容、上下文以及软件系统！",
+   "likes": 104,
+   "reposts": 13,
+   "replies": 50,
+   "views": 14578,
+   "context": "",
+   "quoted": "having inconsistent ways to define revenue is exactly why you'd need knowledge factory for your company! centralize tacit or implicit knowledge, make those readily available to everyone a big part of ours at langchain is a bunch of definitions of metrics/skills for fetching",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123690305736396925",
+   "url": "https://x.com/swyx/status/2123690305736396925",
+   "author": "swyx",
+   "name": "swyx",
+   "time": "2026-11-20T08:09:59.000Z",
+   "text": "whatever happened to \n@cursor_ai\n origin? anyone use this thing in anger yet? does it have actions/ci/cd yet?",
+   "likes": 136,
+   "reposts": 1,
+   "replies": 90,
+   "views": 25722,
+   "context": "",
+   "quoted": "Cursor/Graphite’s @TomasReimers just announced Origin @cursor_ai’s long awaited Git competitor, scalable for agent workloads, extensible with api and mcp, and built in merge conflicts and co failure agent resolution",
+   "card": "",
+   "links": []
+  }
+ ]
+}

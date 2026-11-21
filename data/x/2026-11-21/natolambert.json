@@ -1,0 +1,73 @@
+{
+ "page": "https://x.com/natolambert",
+ "collected_at": "2026-11-21T13:34:04.621Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 8,
+ "posts": [
+  {
+   "id": "2124118443368575026",
+   "url": "https://x.com/natolambert/status/2124118443368575026",
+   "author": "natolambert",
+   "name": "Nathan Lambert",
+   "time": "2026-11-21T12:31:15.000Z",
+   "text": "Thinking machines is shouldering so much pressure of the US open model ecosystem and I am so deeply appreciative of it.",
+   "likes": 127,
+   "reposts": 7,
+   "replies": 1,
+   "views": 3421,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123863964329148487",
+   "url": "https://x.com/natolambert/status/2123863964329148487",
+   "author": "natolambert",
+   "name": "Nathan Lambert",
+   "time": "2026-11-20T19:40:03.000Z",
+   "text": "They misspelled political risk",
+   "likes": 162,
+   "reposts": 12,
+   "replies": 1,
+   "views": 10612,
+   "context": "",
+   "quoted": "Cursor has told Homeland Security they are considering phasing out *all* China developed open-weight models because of the 'geopolitical risk.' The report will be published by multiple House committees later today. This is a huge indicator of future regulatory direction!",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123808375989244148",
+   "url": "https://x.com/natolambert/status/2123808375989244148",
+   "author": "natolambert",
+   "name": "Nathan Lambert",
+   "time": "2026-11-20T15:59:09.000Z",
+   "text": "disinformation",
+   "likes": 527,
+   "reposts": 40,
+   "replies": 6,
+   "views": 19018,
+   "context": "",
+   "quoted": "US TSY. SEC. BESSENT: ANY AI-BASED ATTACK YOU SEE COMES FROM CHINESE MODELS",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2123737477101826152",
+   "url": "https://x.com/natolambert/status/2123737477101826152",
+   "author": "natolambert",
+   "name": "Nathan Lambert",
+   "time": "2026-11-20T11:17:26.000Z",
+   "text": "Tried Gemini Neon in Antigravity. Felt in distribution of Claude Code & Codex, in a good way. Excited to get to know these new models more!",
+   "likes": 403,
+   "reposts": 6,
+   "replies": 5,
+   "views": 19229,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

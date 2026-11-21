@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/_akhaliq",
+ "collected_at": "2026-11-21T13:37:16.864Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2123683522166845709",
+   "url": "https://x.com/_akhaliq/status/2123683522166845709",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-20T07:43:02.000Z",
+   "text": "app:",
+   "likes": 18,
+   "reposts": 0,
+   "replies": 1,
+   "views": 6047,
+   "context": "",
+   "quoted": "",
+   "card": "DepthPro2 - a Hugging Face Space by akhaliq",
+   "links": []
+  }
+ ]
+}

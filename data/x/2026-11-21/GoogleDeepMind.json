@@ -1,0 +1,27 @@
+{
+ "page": "https://x.com/GoogleDeepMind",
+ "collected_at": "2026-11-21T13:31:11.043Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 7,
+ "posts": [
+  {
+   "id": "2123826572385833119",
+   "url": "https://x.com/GoogleDeepMind/status/2123826572385833119",
+   "author": "GoogleDeepMind",
+   "name": "Google DeepMind",
+   "time": "2026-11-20T17:11:28.000Z",
+   "text": "Gemini 4 Neon coded a ski simulator based on real Mont Blanc terrain.\n\nBuilt in \n@Antigravity\n with custom shaders and zero pre-made 3D models, it renders carved snow and avalanches live.\n\nTry it now → \nhttps://\ngoo.gle/496Vk4f",
+   "likes": 2820,
+   "reposts": 218,
+   "replies": 204,
+   "views": 145356,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// goo.gle/496Vk4f"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/AnthropicAI",
+ "collected_at": "2026-11-21T13:31:03.232Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2123822989154369958",
+   "url": "https://x.com/AnthropicAI/status/2123822989154369958",
+   "author": "AnthropicAI",
+   "name": "Anthropic",
+   "time": "2026-11-20T16:57:13.000Z",
+   "text": "到目前为止，Anthropic 的联合创始人包括：Dario Amodei、Daniela Amodei、Tom Brown、Jack Clark、Jared Kaplan、Sam McCandlish 和 Chris Olah。",
+   "likes": 4309,
+   "reposts": 477,
+   "replies": 356,
+   "views": 339372,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

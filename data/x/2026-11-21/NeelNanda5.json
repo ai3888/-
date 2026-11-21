@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/NeelNanda5",
+ "collected_at": "2026-11-21T13:34:44.691Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 2,
+ "posts": [
+  {
+   "id": "2123889182301139248",
+   "url": "https://x.com/NeelNanda5/status/2123889182301139248",
+   "author": "NeelNanda5",
+   "name": "Neel Nanda",
+   "time": "2026-11-20T21:20:15.000Z",
+   "text": "It's really exciting to see Tencent put so much effort into safety evaluations before releasing Hy4, and working with a third party evaluator to measure loss of control risks!",
+   "likes": 254,
+   "reposts": 13,
+   "replies": 8,
+   "views": 7361,
+   "context": "",
+   "quoted": "Tencent’s Hy4 system card is out and includes our independent pre-release safety evaluation. It’s the first system card from a Chinese frontier lab, and a meaningful step for third-party evaluation in China. We tested loss-of-control and harmful-manipulation risks with four",
+   "card": "",
+   "links": []
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/AIatMeta",
+ "collected_at": "2026-11-21T13:31:27.812Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2123882678332322134",
+   "url": "https://x.com/AIatMeta/status/2123882678332322134",
+   "author": "AIatMeta",
+   "name": "AI at Meta",
+   "time": "2026-11-20T20:54:25.000Z",
+   "text": "We recently brought together researchers from across academia, national labs, healthcare, and policy for the Open Source AI for Science Summit to explore how open models from Meta, such as Muse Glimmer, SAM, DINO v3, TRIBE v2 and UMA, are driving real-world advancements.\n\nA",
+   "likes": 163,
+   "reposts": 26,
+   "replies": 22,
+   "views": 24467,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

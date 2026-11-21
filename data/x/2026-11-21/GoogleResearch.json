@@ -1,0 +1,27 @@
+{
+ "page": "https://x.com/GoogleResearch",
+ "collected_at": "2026-11-21T13:31:19.997Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 6,
+ "posts": [
+  {
+   "id": "2123922418058273177",
+   "url": "https://x.com/GoogleResearch/status/2123922418058273177",
+   "author": "GoogleResearch",
+   "name": "Google Research",
+   "time": "2026-11-20T23:32:19.000Z",
+   "text": "今天，我们来看看 Google Duplex 在过去十年中的发展情况。如今，它已经能够支持自然的语音对话和本地商业电话通信，而这些功能现在可以直接在 Gemini 的“任务”功能中实现。了解更多： \nhttps://\ngoo.gle/4B6v7PB",
+   "likes": 359,
+   "reposts": 49,
+   "replies": 13,
+   "views": 15279,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// goo.gle/4B6v7PB"
+   ]
+  }
+ ]
+}
