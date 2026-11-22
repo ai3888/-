@@ -1,130 +1,130 @@
-# GitHub 项目雷达 · 2026-11-21
+# GitHub 项目雷达 · 2026-11-22
 
-> 搜到 607 个候选 → 过滤后 360 个 → 详细检查 40 个 → 入选 15 个
+> 搜到 603 个候选 → 过滤后 353 个 → 详细检查 40 个 → 入选 15 个
 
 ## 🚀 潜力股（新项目、涨得快）
 
-### [BaaRai/ARTEX](https://github.com/BaaRai/ARTEX) · 95 分
+### [storytold/wordcraft](https://github.com/storytold/wordcraft) · 95 分
 
-⭐ 13,874（+1636/天） · 🍴 5,426 · 👥 41 位贡献者 · 📝 30 天 644 次提交 · Go · AGPL-3.0 · 创建 43 天
+⭐ 18,396（+50/天） · 🍴 5,101 · 👥 277 位贡献者 · 📝 30 天 1890 次提交 · Rust · Apache-2.0 · 创建 45 天
 
-> ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)
+> WordCraft: an open-source, clean-room word processor in pure Rust
 
 <sub>来源：近 90 天新项目</sub>
 
+### [KKKKhazix/AIHOT](https://github.com/KKKKhazix/AIHOT) · 93 分
+
+⭐ 11,193（+41/天） · 🍴 2,593 · 👥 27 位贡献者 · 📝 30 天 198 次提交 · TypeScript · MIT · 创建 54 天
+
+> 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。
+
+<sub>来源：近 90 天新项目、自部署</sub>
+
+### [microsoft/TokenEconomizer](https://github.com/microsoft/TokenEconomizer) · 93 分
+
+⭐ 7,920（+73/天） · 🍴 549 · 👥 54 位贡献者 · 📝 30 天 374 次提交 · Python · MIT · 创建 39 天
+
+> Experience-Driven Black-Box Cost Control for Coding Agents
+
+<sub>来源：近 90 天新项目、开发者工具</sub>
+
 ## 👀 值得关注
 
-### [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute) · 100 分
+### [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) · 96 分
 
-⭐ 89,219（+250/天） · 🍴 13,775 · 👥 947 位贡献者 · 📝 30 天 2570 次提交 · TypeScript · MIT · 创建 280 天
+⭐ 34,071（+32/天） · 🍴 4,082 · 👥 191 位贡献者 · 📝 30 天 319 次提交 · Python · MIT · 创建 506 天
 
-> Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+ contributors
+> Open-source registry and CLI for Claude Code components: agents, commands, skills, hooks, MCPs, settings and mods
 
-<sub>来源：AI Agent、MCP</sub>
+<sub>来源：AI Agent、Agent Skill、MCP</sub>
 
-### [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) · 100 分
+### [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) · 95 分
 
-⭐ 30,204（+51/天） · 🍴 4,186 · 👥 68 位贡献者 · 📝 30 天 196 次提交 · Python · MIT · 创建 397 天
+⭐ 80,710（+71/天） · 🍴 26,368 · 👥 119 位贡献者 · 📝 30 天 115 次提交 · Jupyter Notebook · MIT · 创建 723 天
 
-> 410 Claude Code skills & agent skills & plugins (120+ Agents, custom commands, 410+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.
+> 18 Lessons to Get Started Building AI Agents
 
-<sub>来源：开发者工具、Agent Skill、Claude Skill</sub>
+<sub>来源：AI Agent</sub>
 
-### [Tencent/LoopForge](https://github.com/Tencent/LoopForge) · 99 分
+### [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) · 95 分
 
-⭐ 5,301（+46.1/天，平均） · 🍴 729 · 👥 18 位贡献者 · 📝 30 天 346 次提交 · Go · NOASSERTION · 创建 115 天
+⭐ 47,913（+72/天） · 🍴 4,974 · 👥 49 位贡献者 · 📝 30 天 227 次提交 · Python · Apache-2.0 · 创建 366 天
 
-> Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.
-
-<sub>来源：开发者工具</sub>
-
-### [p-e-w/heretic](https://github.com/p-e-w/heretic) · 97 分
-
-⭐ 42,374（+152/天） · 🍴 5,256 · 👥 43 位贡献者 · 📝 30 天 25 次提交 · Python · AGPL-3.0 · 创建 425 天
-
-> Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more
-
-<sub>来源：LLM</sub>
-
-### [immich-app/immich](https://github.com/immich-app/immich) · 97 分
-
-⭐ 119,743（+62/天） · 🍴 7,660 · 👥 1060 位贡献者 · 📝 30 天 358 次提交 · TypeScript · AGPL-3.0 · 创建 1751 天
-
-> High performance self-hosted photo and video management solution.
-
-<sub>来源：自部署</sub>
-
-### [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) · 97 分
-
-⭐ 121,807（+210/天） · 🍴 7,105 · 👥 116 位贡献者 · 📝 30 天 206 次提交 · Go · Apache-2.0 · 创建 230 天
-
-> why use many token when few token do trick. Skill + local proxy for coding agents: shorter answers, smaller tool output, every original recoverable.
-
-<sub>来源：LLM</sub>
-
-### [tt-a1i/archify](https://github.com/tt-a1i/archify) · 96 分
-
-⭐ 98,370（+279/天） · 🍴 6,715 · 👥 92 位贡献者 · 📝 30 天 37 次提交 · JavaScript · Apache-2.0 · 创建 219 天
-
-> Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.
-
-<sub>来源：LLM、AI Agent、开发者工具、Agent Skill、Claude Skill</sub>
-
-### [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) · 96 分
-
-⭐ 205,382（+1006/天） · 🍴 10,742 · 👥 181 位贡献者 · 📝 30 天 269 次提交 · TypeScript · AGPL-3.0 · 创建 949 天
-
-> Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.
-
-<sub>来源：LLM、AI Agent</sub>
-
-### [kaomei/stickman-video-director](https://github.com/kaomei/stickman-video-director) · 95 分
-
-⭐ 7,228（+155/天） · 🍴 1,270 · 👥 5 位贡献者 · 📝 30 天 167 次提交 · JavaScript · MIT · 创建 109 天
-
-> AI Agent Skill (Claude Code, Codex & more): Turn any script into animated stickman videos for faceless YouTube, Shorts & TikTok. 14+ styles with voiceover, captions & SFX. Free & open-source (MIT).
-
-<sub>来源：Agent Skill、Claude Skill</sub>
-
-### [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) · 95 分
-
-⭐ 25,789（+204/天） · 🍴 1,933 · 👥 10 位贡献者 · 📝 30 天 90 次提交 · Rust · Apache-2.0 · 创建 274 天
-
-> Computer use CLI for AI agents
-
-<sub>来源：AI Agent、MCP</sub>
-
-### [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) · 95 分
-
-⭐ 40,529（+37/天） · 🍴 3,474 · 👥 16 位贡献者 · 📝 30 天 57 次提交 · Python · MIT · 创建 598 天
-
-> 📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG
-
-<sub>来源：LLM、AI Agent</sub>
-
-### [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) · 94 分
-
-⭐ 119,383（+427/天） · 🍴 7,986 · 👥 27 位贡献者 · 📝 30 天 76 次提交 · JavaScript · MIT · 创建 274 天
-
-> Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages
-
-<sub>来源：AI Agent、Agent Skill</sub>
-
-### [a2ui-project/a2ui](https://github.com/a2ui-project/a2ui) · 94 分
-
-⭐ 17,696（+32/天） · 🍴 1,432 · 👥 116 位贡献者 · 📝 30 天 420 次提交 · TypeScript · Apache-2.0 · 创建 422 天
-
-> Open-source generative UI framework: agents stream layout data, and apps render it with native components in React, Angular, Lit, Flutter, SwiftUI and Jetpack Compose.
+> Official, Anthropic-managed directory of high quality Claude Code Plugins.
 
 <sub>来源：MCP</sub>
 
-### [omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent) · 94 分
+### [yikart/AiToEarn](https://github.com/yikart/AiToEarn) · 95 分
 
-⭐ 11,472（+26/天） · 🍴 1,934 · 👥 327 位贡献者 · 📝 30 天 1603 次提交 · Python · Apache-2.0 · 创建 162 天
+⭐ 28,548（+35/天） · 🍴 4,790 · 👥 30 位贡献者 · 📝 30 天 40 次提交 · TypeScript · MIT · 创建 635 天
 
-> Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.
+> Let's use AI to Earn!
+
+<sub>来源：Agent Skill、MCP</sub>
+
+### [HBAI-Ltd/Toonflow-app](https://github.com/HBAI-Ltd/Toonflow-app) · 94 分
+
+⭐ 22,467（+74/天） · 🍴 4,076 · 👥 6 位贡献者 · 📝 30 天 42 次提交 · TypeScript · MIT · 创建 296 天
+
+> 短剧、漫剧制作工具 Toonflow：开源 AI 视频创作平台，集成剧本创作、智能分镜、角色与场景资产管理、图像生成和视频生成。融合无限画布、AI Agent 与可视化工作流，支持本地部署、自选模型、跨平台客户端、MCP 与插件扩展。Open-source AI short drama and motion comic creation tool with an infinite canvas, AI agents, storyboarding, image and video generation. Self-hosted and extensible, with a canvas-based approach similar to LibTV and TapNow.
+
+<sub>来源：AI Agent</sub>
+
+### [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw) · 94 分
+
+⭐ 38,083（+30/天） · 🍴 3,305 · 👥 273 位贡献者 · 📝 30 天 197 次提交 · Python · Apache-2.0 · 创建 270 天
+
+> Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.
+
+<sub>来源：AI Agent、自部署、MCP</sub>
+
+### [trailhq/Trail-Code](https://github.com/trailhq/Trail-Code) · 93 分
+
+⭐ 11,414（+44/天） · 🍴 1,030 · 👥 72 位贡献者 · 📝 30 天 128 次提交 · TypeScript · MIT · 创建 141 天
+
+> One shared memory for every coding agent on your team. Claude Code, Cursor and Codex get a map of your code and your team's past decisions, so they pick up where you left off.
 
 <sub>来源：开发者工具</sub>
+
+### [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) · 93 分
+
+⭐ 59,004（+134.7/天，平均） · 🍴 6,927 · 👥 91 位贡献者 · 📝 30 天 30 次提交 · Python · Apache-2.0 · 创建 438 天
+
+> 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码
+
+<sub>来源：LLM、MCP</sub>
+
+### [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) · 93 分
+
+⭐ 94,744（+27/天） · 🍴 8,867 · 👥 1164 位贡献者 · 📝 30 天 132 次提交 · JavaScript · MIT · 创建 1968 天
+
+> A fancy self-hosted monitoring tool
+
+<sub>来源：自部署</sub>
+
+### [phone-harness/phone-harness](https://github.com/phone-harness/phone-harness) · 92 分
+
+⭐ 5,455（+69/天） · 🍴 567 · 👥 5 位贡献者 · 📝 30 天 22 次提交 · Python · MIT · 创建 106 天
+
+> let your agent control your phone
+
+<sub>来源：开发者工具</sub>
+
+### [AlexsJones/llmfit](https://github.com/AlexsJones/llmfit) · 92 分
+
+⭐ 39,210（+53/天） · 🍴 2,536 · 👥 187 位贡献者 · 📝 30 天 111 次提交 · Rust · MIT · 创建 279 天
+
+> Hundreds of models & providers. One command to find what runs on your hardware.
+
+<sub>来源：LLM</sub>
+
+### [usememos/memos](https://github.com/usememos/memos) · 92 分
+
+⭐ 64,625（+28/天） · 🍴 4,967 · 👥 429 位贡献者 · 📝 30 天 84 次提交 · Go · MIT · 创建 1809 天
+
+> Memos is an open-source, self-hosted note-taking app that brings your everyday thoughts together in a personal timeline. Your data stays yours, and you choose what to keep private or share.
+
+<sub>来源：自部署</sub>
 
 ---
 
