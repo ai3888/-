@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/rasbt",
+ "collected_at": "2026-11-23T02:18:17.361Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2124619758633173456",
+   "url": "https://x.com/rasbt/status/2124619758633173456",
+   "author": "rasbt",
+   "name": "Sebastian Raschka",
+   "time": "2026-11-22T21:43:18.000Z",
+   "text": "Yes, pre-training wasn’t plateauing. Great chart btw.",
+   "likes": 267,
+   "reposts": 6,
+   "replies": 23,
+   "views": 15837,
+   "context": "",
+   "quoted": "We decided to provide more transparency into pretraining progress at OpenAI for the sake of moving toward shared safety bars. In “Perplexity and Intelligence” I argue for common limits based on perplexity and other measurements, with progress beyond them gated on our ability to",
+   "card": "",
+   "links": []
+  }
+ ]
+}

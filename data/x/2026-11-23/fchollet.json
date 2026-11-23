@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/fchollet",
+ "collected_at": "2026-11-23T02:18:29.790Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2124596564526305466",
+   "url": "https://x.com/fchollet/status/2124596564526305466",
+   "author": "fchollet",
+   "name": "François Chollet",
+   "time": "2026-11-22T20:11:08.000Z",
+   "text": "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ…",
+   "likes": 5,
+   "reposts": 0,
+   "replies": 1,
+   "views": 0,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2124246742644461569",
+   "url": "https://x.com/fchollet/status/2124246742644461569",
+   "author": "fchollet",
+   "name": "François Chollet",
+   "time": "2026-11-21T21:01:04.000Z",
+   "text": "Either you believe the AI buildout is over, that AI was a flash in the pan, and that the need for compute has already peaked... or this a rare buying opportunity.\n\nReminder: GPU spot prices keep rising and it's hard to secure capacity. HBM and DRAM production is effectively sold",
+   "likes": 5081,
+   "reposts": 429,
+   "replies": 347,
+   "views": 1188779,
+   "context": "",
+   "quoted": "WTF $SNDK 2.2x $SKHY 2.6x $MU 2.8x Sandisk can buy back half its market cap in JUST 12 MONTHS. $COST is 44x for hot dogs and bulk toilet paper.",
+   "card": "",
+   "links": []
+  }
+ ]
+}

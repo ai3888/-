@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/swyx",
+ "collected_at": "2026-11-23T02:19:42.437Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2124583459356373052",
+   "url": "https://x.com/swyx/status/2124583459356373052",
+   "author": "swyx",
+   "name": "swyx",
+   "time": "2026-11-22T19:19:04.000Z",
+   "text": "OpenAI proposes perplexity as the universal metric for industry self regulation and pacing (as opposed to eg FLOPS)\n\n“Given that the main way new surprising capabilities emerge is by progress on compression, a measure rooted in perplexity could give us a shared benchmark for",
+   "likes": 99,
+   "reposts": 2,
+   "replies": 69,
+   "views": 12543,
+   "context": "",
+   "quoted": "We decided to provide more transparency into pretraining progress at OpenAI for the sake of moving toward shared safety bars. In “Perplexity and Intelligence” I argue for common limits based on perplexity and other measurements, with progress beyond them gated on our ability to",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2124590240539259381",
+   "url": "https://x.com/swyx/status/2124590240539259381",
+   "author": "swyx",
+   "name": "swyx",
+   "time": "2026-11-22T19:46:00.000Z",
+   "text": "by this metric we have seen more ai progress this year than in 2022-2025. is that true? doesn’t suuuper feel like it but who knows we could be cooked by algorithm and/or metric only translates at frontier math level",
+   "likes": 4,
+   "reposts": 1,
+   "replies": 5,
+   "views": 2013,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

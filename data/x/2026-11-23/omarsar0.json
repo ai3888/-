@@ -1,0 +1,73 @@
+{
+ "page": "https://x.com/omarsar0",
+ "collected_at": "2026-11-23T02:19:08.979Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 4,
+ "posts": [
+  {
+   "id": "2124506354324840953",
+   "url": "https://x.com/omarsar0/status/2124506354324840953",
+   "author": "omarsar0",
+   "name": "elvis",
+   "time": "2026-11-22T14:12:40.000Z",
+   "text": "Recommended read. \n\nIt's a great recap of the key primitives of strong agent platforms. \n\nOne important point to highlight is support for a variety of agent configurations, as well as separating agents from instances and sessions. \n\nIn an RSI world, things need to be malleable.",
+   "likes": 149,
+   "reposts": 16,
+   "replies": 41,
+   "views": 19220,
+   "context": "已固定",
+   "quoted": "Agent platform of 2027. This is the end game. This is the blueprint for the one and only application layer software that will exist. Every other software will effectively become databases for this layer, the everything agentic operating system for the million agent swarm to",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2124589425069859236",
+   "url": "https://x.com/omarsar0/status/2124589425069859236",
+   "author": "omarsar0",
+   "name": "elvis",
+   "time": "2026-11-22T19:42:46.000Z",
+   "text": "Recommended reading. I think it's a good initiative from OpenAI. How we measure frontier AI and a common, shared understanding of it are crucial. It makes it easier to assess progress, safety, etc. \n\nIt's not as great as full technical reports (sad how fast the industry moved",
+   "likes": 23,
+   "reposts": 0,
+   "replies": 9,
+   "views": 4688,
+   "context": "",
+   "quoted": "We decided to provide more transparency into pretraining progress at OpenAI for the sake of moving toward shared safety bars. In “Perplexity and Intelligence” I argue for common limits based on perplexity and other measurements, with progress beyond them gated on our ability to",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2124584960464220408",
+   "url": "https://x.com/omarsar0/status/2124584960464220408",
+   "author": "omarsar0",
+   "name": "elvis",
+   "time": "2026-11-22T19:25:02.000Z",
+   "text": "Banger paper from Google on ML engineering agents.\n\nPay attention to this one, builders. It's a clever way to scale ML engineering by injecting bugs.\n\n(bookmark it)\n\nRepository-level coding benchmarks are saturating. BuggyMLE makes tasks harder on purpose by having agents inject",
+   "likes": 63,
+   "reposts": 6,
+   "replies": 30,
+   "views": 5120,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2124549311174427069",
+   "url": "https://x.com/omarsar0/status/2124549311174427069",
+   "author": "omarsar0",
+   "name": "elvis",
+   "time": "2026-11-22T17:03:22.000Z",
+   "text": "New benchmark to test general physical agents.\n\nRoboQuest asks robots to search, inspect, and run physical tests before acting. The strongest model solved only 23.2% of tasks, even though the same models completed the underlying motor skills 72–81% of the time in isolation.\n\nThe",
+   "likes": 22,
+   "reposts": 4,
+   "replies": 31,
+   "views": 3996,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

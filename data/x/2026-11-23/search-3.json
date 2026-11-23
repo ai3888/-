@@ -1,0 +1,27 @@
+{
+ "page": "https://x.com/search?q=url%3Agithub.com%20(LLM%20OR%20agent%20OR%20model%20OR%20inference%20OR%20training)%20min_faves%3A200%20-filter%3Areplies%20since%3A2026-11-22&src=typed_query",
+ "collected_at": "2026-11-23T02:21:18.516Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 1,
+ "posts": [
+  {
+   "id": "2124482580896498142",
+   "url": "https://x.com/woodxbt/status/2124482580896498142",
+   "author": "woodxbt",
+   "name": "wood",
+   "time": "2026-11-22T12:38:12.000Z",
+   "text": "我现在自己制作动画了，这 16 个 GitHub 仓库负责处理那些复杂的部分工作。\n\n对于《Fable 5.2》和《Opus 5.5》的用户来说，这简直是个绝佳的选择啊。\n\n相机。外观。标题文字。3D 效果。完成制作。导出。\n\n一枪解决 → 从第一帧到最后一帧都是一枪解决的场景\n \nhttps://\ngithub.com/feitangyuan/on\netake\n… \n\nLemo-Opuscar → 选择",
+   "likes": 297,
+   "reposts": 37,
+   "replies": 7,
+   "views": 17107,
+   "context": "",
+   "quoted": "Fable 5.2 can make a film from one prompt Most of those films will be forgotten in a day A longer prompt won't save them, the problem is how you direct it I broke down 9 lessons from 40 finished films, with every prompt, setting and number ↓",
+   "card": "",
+   "links": [
+    "https:// github.com/feitangyuan/on etake …"
+   ]
+  }
+ ]
+}

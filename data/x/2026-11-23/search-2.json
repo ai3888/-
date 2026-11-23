@@ -1,0 +1,226 @@
+{
+ "page": "https://x.com/search?q=url%3Ahuggingface.co%20min_faves%3A100%20-filter%3Areplies%20since%3A2026-11-22&src=typed_query",
+ "collected_at": "2026-11-23T02:21:08.070Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 12,
+ "posts": [
+  {
+   "id": "2124429073523052704",
+   "url": "https://x.com/Gorden_Sun/status/2124429073523052704",
+   "author": "Gorden_Sun",
+   "name": "Gorden Sun",
+   "time": "2026-11-22T09:05:35.000Z",
+   "text": "这可能是目前最快的 MiniMax H3 型号了：pi-H3\n\n在 HuggingFace 的演示中，生成一个 15 秒的视频只需要 1 分钟时间，整体效果相当不错，只有少数几个帧出现了逻辑上的问题。\n\n模型： \nhttps://\nhuggingface.co/Lakonik/pi-H3 \n在线尝试一下吧： \nhttps://\nhuggingface.co/spaces/Lakonik\n/pi-H3\n…",
+   "likes": 248,
+   "reposts": 21,
+   "replies": 28,
+   "views": 26055,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/Lakonik/pi-H3",
+    "https:// huggingface.co/spaces/Lakonik /pi-H3 …"
+   ]
+  },
+  {
+   "id": "2124534508091527326",
+   "url": "https://x.com/Blackfrost_AI/status/2124534508091527326",
+   "author": "Blackfrost_AI",
+   "name": "Blackfrost_SI",
+   "time": "2026-11-22T16:04:33.000Z",
+   "text": "",
+   "likes": 135,
+   "reposts": 12,
+   "replies": 6,
+   "views": 5698,
+   "context": "",
+   "quoted": "",
+   "card": "Blackfrost-AI/Inkling-2-Mini-Derisked · Hugging Face",
+   "links": []
+  },
+  {
+   "id": "2124565128091766926",
+   "url": "https://x.com/secfathy/status/2124565128091766926",
+   "author": "secfathy",
+   "name": "Mohammed Fathy",
+   "time": "2026-11-22T18:06:13.000Z",
+   "text": "",
+   "likes": 137,
+   "reposts": 18,
+   "replies": 3,
+   "views": 4146,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https://huggingface.co/PentesterFlow/xss-decision…"
+   ]
+  },
+  {
+   "id": "2124632592872055283",
+   "url": "https://x.com/SonglinYang4/status/2124632592872055283",
+   "author": "SonglinYang4",
+   "name": "Songlin Yang",
+   "time": "2026-11-22T22:34:18.000Z",
+   "text": "",
+   "likes": 113,
+   "reposts": 8,
+   "replies": 1,
+   "views": 6201,
+   "context": "",
+   "quoted": "他们选择不在循环层之间共享 KV 缓存，这确实是个有趣的决策。这样一来，每个令牌对应的内存占用为 32KB，而如果完全共享的话，则只需要 16KB。由于采用了长上下文模式，因此这种方式的性能比 Qwen-27b 要好得多。 我见过的一种方法是共享全局的 KV 缓存，但同时让每个循环中的 x.com/thinkymachines 部分都能独立运行。",
+   "card": "",
+   "links": [
+    "https://huggingface.co/thinkingmachines/TML-d24-varloop-research…"
+   ]
+  },
+  {
+   "id": "2124449655899754923",
+   "url": "https://x.com/SlipperyGem/status/2124449655899754923",
+   "author": "SlipperyGem",
+   "name": "Brie Wensleydale",
+   "time": "2026-11-22T10:27:22.000Z",
+   "text": "",
+   "likes": 110,
+   "reposts": 8,
+   "replies": 2,
+   "views": 4596,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https://huggingface.co/apple/DepthPro2-H…",
+    "https://github.com/tpc2233/ComfyUI-TP-Mldepthpro2…"
+   ]
+  },
+  {
+   "id": "2124562360019058991",
+   "url": "https://x.com/alizeh_ai/status/2124562360019058991",
+   "author": "alizeh_ai",
+   "name": "Alizeh",
+   "time": "2026-11-22T17:55:13.000Z",
+   "text": "f**king goldmine of uncensored ai, the biggest models are all free \n\n1. minimax m2.7 uncensored\n\nhttps://\nhuggingface.co/llmfan46/MiniM\nax-M2.7-ultra-uncensored-heretic-GGUF\n…\n\n2. nvidia nemotron super 120b uncensored\n\nhttps://\nhuggingface.co/spiritfather/N\nVIDIA-Nemotron-3.5-Super-VL-120B-A12B-heretic-ara-i1-GGUF\n…\n\n3. qwen 235b uncensored\n\nhttps://\nhuggingface.co/mradermacher/Q\nwen3-235B-A22B-abliterated-i1-GGUF\n…\n\n4. kimi k3 uncensored",
+   "likes": 209,
+   "reposts": 13,
+   "replies": 6,
+   "views": 9116,
+   "context": "",
+   "quoted": "",
+   "card": "llmfan46/MiniMax-M2.7-ultra-uncensored-heretic-GGUF · Hugging Face",
+   "links": [
+    "https:// huggingface.co/llmfan46/MiniM ax-M2.7-ultra-uncensored-heretic-GGUF …",
+    "https:// huggingface.co/spiritfather/N VIDIA-Nemotron-3.5-Super-VL-120B-A12B-heretic-ara-i1-GGUF …",
+    "https:// huggingface.co/mradermacher/Q wen3-235B-A22B-abliterated-i1-GGUF …"
+   ]
+  },
+  {
+   "id": "2124519993903894629",
+   "url": "https://x.com/Gorden_Sun/status/2124519993903894629",
+   "author": "Gorden_Sun",
+   "name": "Gorden Sun",
+   "time": "2026-11-22T15:06:52.000Z",
+   "text": "Two Minimax H3 models with no content restrictions\n\n10Eros-Max, with improved multi-image reference capabilities: \nhttps://\nhuggingface.co/TenStrip/10Ero\ns-Max\n…\n\nSulphur-3, also offering a refiner to improve generation quality: \nhttps://\nhuggingface.co/SulphurAI/Sulp\nhur-3\n…",
+   "likes": 155,
+   "reposts": 16,
+   "replies": 2,
+   "views": 7983,
+   "context": "",
+   "quoted": "",
+   "card": "TenStrip/10Eros-Max · Hugging Face",
+   "links": [
+    "https:// huggingface.co/TenStrip/10Ero s-Max …",
+    "https:// huggingface.co/SulphurAI/Sulp hur-3 …"
+   ]
+  },
+  {
+   "id": "2124490824469680442",
+   "url": "https://x.com/_lewtun/status/2124490824469680442",
+   "author": "_lewtun",
+   "name": "Lewis Tunstall",
+   "time": "2026-11-22T13:10:58.000Z",
+   "text": "I gave a talk to physicists on the potted history from LLMs to agent swarms, covering:\n\n> scaling laws\n> reasoning models\n> coding agents & harnesses\n> autoresearch and idea basins\n> adding communication to steer / train swarms \n\nSlides on HF: \nhttps://\nhuggingface.co/spaces/lewtun/\nfrom-llms-to-swarms\n…",
+   "likes": 353,
+   "reposts": 33,
+   "replies": 12,
+   "views": 10237,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/spaces/lewtun/ from-llms-to-swarms …"
+   ]
+  },
+  {
+   "id": "2124434496586207639",
+   "url": "https://x.com/AiWithYou1/status/2124434496586207639",
+   "author": "AiWithYou1",
+   "name": "あいきみ",
+   "time": "2026-11-22T09:27:08.000Z",
+   "text": "Inkling 2 Mini 日本語調整版 GGUF \nUD-Q3_K_XLとUD-Q4_K_XL",
+   "likes": 112,
+   "reposts": 4,
+   "replies": 0,
+   "views": 6562,
+   "context": "",
+   "quoted": "",
+   "card": "Aikimi/Inkling-2-Mini-JP-GGUF · Hugging Face",
+   "links": []
+  },
+  {
+   "id": "2124568066688434669",
+   "url": "https://x.com/elliotarledge/status/2124568066688434669",
+   "author": "elliotarledge",
+   "name": "Elliot Arledge",
+   "time": "2026-11-22T18:17:54.000Z",
+   "text": "Inkling-2-Mini-heretic is up on Hugging Face: \nhttps://\nhuggingface.co/Infatoshi/Inkl\ning-2-Mini-heretic\n…\n\nit took a two-stage iterative Heretic abliteration built specifically for Inkling-2-Mini's 24-layer / 48-visit looped architecture. standard single-vector abliteration plateaued around 48-54% on HarmBench-13B",
+   "likes": 109,
+   "reposts": 7,
+   "replies": 3,
+   "views": 3757,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/Infatoshi/Inkl ing-2-Mini-heretic …"
+   ]
+  },
+  {
+   "id": "2124534984732225777",
+   "url": "https://x.com/bnjmn_marie/status/2124534984732225777",
+   "author": "bnjmn_marie",
+   "name": "Benjamin Marie",
+   "time": "2026-11-22T16:06:26.000Z",
+   "text": "Hy4-flash-dondon: the Engram n-gram table doesn't need 8-bit.\n\nQ8_0 → Q4_0 halves it (67.3 → 35.6 GB) and raises held-out top-10 KL by 2% at most. Under 1% for 6 of the 7 models.\n\nSo Q4_0 is my default.\n\n\nhttps://\nhuggingface.co/kaitchup/Hy4-f\nlash-dondon-GGUF\n…",
+   "likes": 100,
+   "reposts": 9,
+   "replies": 7,
+   "views": 5429,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/kaitchup/Hy4-f lash-dondon-GGUF …"
+   ]
+  },
+  {
+   "id": "2124457192862720445",
+   "url": "https://x.com/wildmindai/status/2124457192862720445",
+   "author": "wildmindai",
+   "name": "Wildminder",
+   "time": "2026-11-22T10:57:19.000Z",
+   "text": "MiniMax-H3 Image Character Swap\n\nbrings a character’s face, costume, style from a ref sheet into your image, while following the original pose/framing and lighting\n\n\nhttps://\nhuggingface.co/akatz-ai/MiniM\nax-H3-Image-Character-Swap-LoRA\n…",
+   "likes": 131,
+   "reposts": 14,
+   "replies": 3,
+   "views": 6370,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/akatz-ai/MiniM ax-H3-Image-Character-Swap-LoRA …"
+   ]
+  }
+ ]
+}

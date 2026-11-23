@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/reach_vb",
+ "collected_at": "2026-11-23T02:19:36.476Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2124562833723871611",
+   "url": "https://x.com/reach_vb/status/2124562833723871611",
+   "author": "reach_vb",
+   "name": "Vaibhav (VB) Srivastav",
+   "time": "2026-11-22T17:57:06.000Z",
+   "text": "recommended read",
+   "likes": 122,
+   "reposts": 2,
+   "replies": 5,
+   "views": 5861,
+   "context": "",
+   "quoted": "We decided to provide more transparency into pretraining progress at OpenAI for the sake of moving toward shared safety bars. In “Perplexity and Intelligence” I argue for common limits based on perplexity and other measurements, with progress beyond them gated on our ability to",
+   "card": "",
+   "links": []
+  }
+ ]
+}

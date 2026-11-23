@@ -1,0 +1,59 @@
+{
+ "page": "https://x.com/arankomatsuzaki",
+ "collected_at": "2026-11-23T02:19:03.249Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2124611340371476677",
+   "url": "https://x.com/arankomatsuzaki/status/2124611340371476677",
+   "author": "arankomatsuzaki",
+   "name": "Aran Komatsuzaki",
+   "time": "2026-11-22T21:09:51.000Z",
+   "text": "感谢您参加我们的晚宴！我们一直在旧金山举办这样的私人晚宴。如果您想继续参加，请关注 Calissa（ \n@calxoxo\n ）或我，或者查看我们的私信以获取更多信息。\n\n感谢 Calissa 和 \n@itsclivetime\n 让这件事成为现实！",
+   "likes": 7,
+   "reposts": 1,
+   "replies": 2,
+   "views": 2851,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2124599832249835994",
+   "url": "https://x.com/arankomatsuzaki/status/2124599832249835994",
+   "author": "arankomatsuzaki",
+   "name": "Aran Komatsuzaki",
+   "time": "2026-11-22T20:24:07.000Z",
+   "text": "Ant Ling presents LingSante-3.1-air-VL, an opensource natively multimodal LLM with 5.5B/124B params  \n\n- SotA on medical / healthcare benchmarks among flash-tier models \n- Competitive performance on various non-medical tasks (e.g. OmniDocBench, BrowseComp) among flash-tier models",
+   "likes": 6,
+   "reposts": 2,
+   "replies": 0,
+   "views": 2119,
+   "context": "",
+   "quoted": "Meet LingSante-3.1-air-VL, an open-source multimodal medical model with 124B total and 5.5B active parameters. It combines medical image understanding, report generation and medical reasoning with multimodal search and tool use. In our evaluation, it leads the compared models on",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2124597469522870272",
+   "url": "https://x.com/arankomatsuzaki/status/2124597469522870272",
+   "author": "arankomatsuzaki",
+   "name": "Aran Komatsuzaki",
+   "time": "2026-11-22T20:14:44.000Z",
+   "text": "Ant Ling presents LingSante-3.1-flash, an opensource LLM with 25B/560B params\n\n- Competitive with Astra on medical / healthcare benchmarks\n- Competitive performance on non-medical tasks (e.g. HLE, BrowseComp)\n- 1M context length, MIT license\n\n\nhttps://\nhuggingface.co/inclusionAI/Li\nngSante-3.1-flash\n…",
+   "likes": 11,
+   "reposts": 0,
+   "replies": 2,
+   "views": 2249,
+   "context": "",
+   "quoted": "Today, we release LingSante-3.1-flash, an open-weight MoE model with 560B total parameters and 25B activations per token. It unifies diverse medical capabilities while retaining general capabilities, including complex medical reasoning, long-horizon workflow execution, and",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/inclusionAI/Li ngSante-3.1-flash …"
+   ]
+  }
+ ]
+}

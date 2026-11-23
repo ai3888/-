@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/polynoamial",
+ "collected_at": "2026-11-23T02:17:38.058Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 7,
+ "posts": [
+  {
+   "id": "2124555186043818245",
+   "url": "https://x.com/polynoamial/status/2124555186043818245",
+   "author": "polynoamial",
+   "name": "Noam Brown",
+   "time": "2026-11-22T17:26:43.000Z",
+   "text": "AI is a transformative technology that will affect everyone, so everyone deserves to know the trajectory of progress, including for internal models.",
+   "likes": 966,
+   "reposts": 59,
+   "replies": 64,
+   "views": 38659,
+   "context": "",
+   "quoted": "We decided to provide more transparency into pretraining progress at OpenAI for the sake of moving toward shared safety bars. In “Perplexity and Intelligence” I argue for common limits based on perplexity and other measurements, with progress beyond them gated on our ability to",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2124603793430167558",
+   "url": "https://x.com/polynoamial/status/2124603793430167558",
+   "author": "polynoamial",
+   "name": "Noam Brown",
+   "time": "2026-11-22T20:39:52.000Z",
+   "text": "Very interesting that this benchmark might be tracking quite well with perplexity. I heard Opus 4.7 and 4.8 were smaller than 4.6.",
+   "likes": 24,
+   "reposts": 1,
+   "replies": 1,
+   "views": 3241,
+   "context": "",
+   "quoted": "We decided to provide more transparency into pretraining progress at OpenAI for the sake of moving toward shared safety bars. In “Perplexity and Intelligence” I argue for common limits based on perplexity and other measurements, with progress beyond them gated on our ability to",
+   "card": "",
+   "links": []
+  }
+ ]
+}

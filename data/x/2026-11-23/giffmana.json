@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/giffmana",
+ "collected_at": "2026-11-23T02:17:57.736Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2124590298932125814",
+   "url": "https://x.com/giffmana/status/2124590298932125814",
+   "author": "giffmana",
+   "name": "Lucas Beyer (bl16)",
+   "time": "2026-11-22T19:46:14.000Z",
+   "text": "Look how good my beloved 4.5 was!\n\nHonestly, in terms of linguistic creativity, none of the 5 or 6 series even comes close. My best guess, is that the scientific/coding RL post-training is frying their linguistic creative ability, and 4.5 had gotten a ton less of that and thus",
+   "likes": 424,
+   "reposts": 15,
+   "replies": 31,
+   "views": 25206,
+   "context": "",
+   "quoted": "We decided to provide more transparency into pretraining progress at OpenAI for the sake of moving toward shared safety bars. In “Perplexity and Intelligence” I argue for common limits based on perplexity and other measurements, with progress beyond them gated on our ability to",
+   "card": "",
+   "links": []
+  }
+ ]
+}

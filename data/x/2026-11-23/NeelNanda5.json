@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/NeelNanda5",
+ "collected_at": "2026-11-23T02:18:23.579Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 3,
+ "posts": [
+  {
+   "id": "2124685549034480125",
+   "url": "https://x.com/NeelNanda5/status/2124685549034480125",
+   "author": "NeelNanda5",
+   "name": "Neel Nanda",
+   "time": "2026-11-23T02:04:44.000Z",
+   "text": "Seconded, I've been pleasantly surprised by how well OpenAI is doing on transparency recently, especially all the great misalignment reports. It's raising standards for the rest of the industry!",
+   "likes": 48,
+   "reposts": 2,
+   "replies": 2,
+   "views": 1208,
+   "context": "",
+   "quoted": "I’m biased, but OpenAI has been doing an excellent job on the transparency front. To benefit the public (at cost to itself), OpenAI has shared: - the original o1 preview results - many high quality evals - misalignment reports - and now, a history of base model training results",
+   "card": "",
+   "links": []
+  }
+ ]
+}
