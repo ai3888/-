@@ -1,130 +1,130 @@
-# GitHub 项目雷达 · 2026-11-22
+# GitHub 项目雷达 · 2026-11-23
 
-> 搜到 603 个候选 → 过滤后 353 个 → 详细检查 40 个 → 入选 15 个
+> 搜到 605 个候选 → 过滤后 350 个 → 详细检查 40 个 → 入选 15 个
 
 ## 🚀 潜力股（新项目、涨得快）
 
-### [storytold/wordcraft](https://github.com/storytold/wordcraft) · 95 分
+### [mdiri-ai/SoduWork](https://github.com/mdiri-ai/SoduWork) · 98 分
 
-⭐ 18,396（+50/天） · 🍴 5,101 · 👥 277 位贡献者 · 📝 30 天 1890 次提交 · Rust · Apache-2.0 · 创建 45 天
+⭐ 6,824（+273/天，平均） · 🍴 546 · 👥 55 位贡献者 · 📝 30 天 1294 次提交 · JavaScript · MIT · 创建 25 天
 
-> WordCraft: an open-source, clean-room word processor in pure Rust
+> The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.
 
 <sub>来源：近 90 天新项目</sub>
 
-### [KKKKhazix/AIHOT](https://github.com/KKKKhazix/AIHOT) · 93 分
+### [DozenTwelve/Papermorph](https://github.com/DozenTwelve/Papermorph) · 96 分
 
-⭐ 11,193（+41/天） · 🍴 2,593 · 👥 27 位贡献者 · 📝 30 天 198 次提交 · TypeScript · MIT · 创建 54 天
+⭐ 1,949（+73/天） · 🍴 270 · 👥 7 位贡献者 · 📝 30 天 499 次提交 · JavaScript · MIT · 创建 51 天
 
-> 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。
+> An AI skill that turns books into animated, narrated, interactive web experiences
 
-<sub>来源：近 90 天新项目、自部署</sub>
+<sub>来源：Claude Skill</sub>
 
-### [microsoft/TokenEconomizer](https://github.com/microsoft/TokenEconomizer) · 93 分
+### [amosblomqvist/learnharness](https://github.com/amosblomqvist/learnharness) · 95 分
 
-⭐ 7,920（+73/天） · 🍴 549 · 👥 54 位贡献者 · 📝 30 天 374 次提交 · Python · MIT · 创建 39 天
+⭐ 11,179（+220/天） · 🍴 1,454 · 👥 45 位贡献者 · 📝 30 天 607 次提交 · TypeScript · AGPL-3.0 · 创建 37 天
 
-> Experience-Driven Black-Box Cost Control for Coding Agents
+> Agent harness for learning difficult things.
 
-<sub>来源：近 90 天新项目、开发者工具</sub>
+<sub>来源：近 90 天新项目</sub>
 
 ## 👀 值得关注
 
-### [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) · 96 分
+### [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) · 100 分
 
-⭐ 34,071（+32/天） · 🍴 4,082 · 👥 191 位贡献者 · 📝 30 天 319 次提交 · Python · MIT · 创建 506 天
+⭐ 30,867（+48/天） · 🍴 4,253 · 👥 331 位贡献者 · 📝 30 天 230 次提交 · Python · Apache-2.0 · 创建 1290 天
 
-> Open-source registry and CLI for Claude Code components: agents, commands, skills, hooks, MCPs, settings and mods
-
-<sub>来源：AI Agent、Agent Skill、MCP</sub>
-
-### [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) · 95 分
-
-⭐ 80,710（+71/天） · 🍴 26,368 · 👥 119 位贡献者 · 📝 30 天 115 次提交 · Jupyter Notebook · MIT · 创建 723 天
-
-> 18 Lessons to Get Started Building AI Agents
-
-<sub>来源：AI Agent</sub>
-
-### [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) · 95 分
-
-⭐ 47,913（+72/天） · 🍴 4,974 · 👥 49 位贡献者 · 📝 30 天 227 次提交 · Python · Apache-2.0 · 创建 366 天
-
-> Official, Anthropic-managed directory of high quality Claude Code Plugins.
+> An autonomous agent that conducts deep research on any data using any LLM providers
 
 <sub>来源：MCP</sub>
 
-### [yikart/AiToEarn](https://github.com/yikart/AiToEarn) · 95 分
+### [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) · 97 分
 
-⭐ 28,548（+35/天） · 🍴 4,790 · 👥 30 位贡献者 · 📝 30 天 40 次提交 · TypeScript · MIT · 创建 635 天
+⭐ 93,694（+130/天） · 🍴 7,969 · 👥 79 位贡献者 · 📝 30 天 40 次提交 · TypeScript · MIT · 创建 253 天
 
-> Let's use AI to Earn!
+> Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.
 
-<sub>来源：Agent Skill、MCP</sub>
+<sub>来源：Claude Skill</sub>
 
-### [HBAI-Ltd/Toonflow-app](https://github.com/HBAI-Ltd/Toonflow-app) · 94 分
+### [topoteretes/cognee](https://github.com/topoteretes/cognee) · 96 分
 
-⭐ 22,467（+74/天） · 🍴 4,076 · 👥 6 位贡献者 · 📝 30 天 42 次提交 · TypeScript · MIT · 创建 296 天
+⭐ 33,485（+35/天） · 🍴 3,547 · 👥 336 位贡献者 · 📝 30 天 846 次提交 · Python · Apache-2.0 · 创建 1194 天
 
-> 短剧、漫剧制作工具 Toonflow：开源 AI 视频创作平台，集成剧本创作、智能分镜、角色与场景资产管理、图像生成和视频生成。融合无限画布、AI Agent 与可视化工作流，支持本地部署、自选模型、跨平台客户端、MCP 与插件扩展。Open-source AI short drama and motion comic creation tool with an infinite canvas, AI agents, storyboarding, image and video generation. Self-hosted and extensible, with a canvas-based approach similar to LibTV and TapNow.
+> Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory with small models for free
+
+<sub>来源：AI Agent、Agent Skill</sub>
+
+### [krillinai/OpenCreator](https://github.com/krillinai/OpenCreator) · 96 分
+
+⭐ 14,494（+35/天） · 🍴 1,625 · 👥 37 位贡献者 · 📝 30 天 93 次提交 · TypeScript · Apache-2.0 · 创建 706 天
+
+> Formerly KrillinAI, VideoTranslation and Dubbing Tool for 120+ Languages. Open-source AI workspace for creators, powered by Codex. Video downloader, video translation, create videos, images, audios, and edits with Agents in one place. For your Social Media like YouTube, TikTok, Instagram, etc.
+
+<sub>来源：Agent Skill</sub>
+
+### [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) · 96 分
+
+⭐ 109,006（+33/天） · 🍴 14,978 · 👥 703 位贡献者 · 📝 30 天 106 次提交 · TypeScript · Apache-2.0 · 创建 584 天
+
+> An open-source AI agent that brings the power of Gemini directly into your terminal.
 
 <sub>来源：AI Agent</sub>
 
-### [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw) · 94 分
+### [Gaurav-Gosain/tuios](https://github.com/Gaurav-Gosain/tuios) · 96 分
 
-⭐ 38,083（+30/天） · 🍴 3,305 · 👥 273 位贡献者 · 📝 30 天 197 次提交 · Python · Apache-2.0 · 创建 270 天
+⭐ 6,755（+134/天） · 🍴 334 · 👥 86 位贡献者 · 📝 30 天 1946 次提交 · Go · MIT · 创建 442 天
 
-> Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.
-
-<sub>来源：AI Agent、自部署、MCP</sub>
-
-### [trailhq/Trail-Code](https://github.com/trailhq/Trail-Code) · 93 分
-
-⭐ 11,414（+44/天） · 🍴 1,030 · 👥 72 位贡献者 · 📝 30 天 128 次提交 · TypeScript · MIT · 创建 141 天
-
-> One shared memory for every coding agent on your team. Claude Code, Cursor and Codex get a map of your code and your team's past decisions, so they pick up where you left off.
+> A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent. Official only at tuios.dev and this repo. tuios has no X/Twitter account.
 
 <sub>来源：开发者工具</sub>
 
-### [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) · 93 分
+### [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) · 95 分
 
-⭐ 59,004（+134.7/天，平均） · 🍴 6,927 · 👥 91 位贡献者 · 📝 30 天 30 次提交 · Python · Apache-2.0 · 创建 438 天
+⭐ 145,106（+108/天） · 🍴 23,336 · 👥 181 位贡献者 · 📝 30 天 91 次提交 · Python · MIT · 创建 987 天
 
-> 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码
-
-<sub>来源：LLM、MCP</sub>
-
-### [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) · 93 分
-
-⭐ 94,744（+27/天） · 🍴 8,867 · 👥 1164 位贡献者 · 📝 30 天 132 次提交 · JavaScript · MIT · 创建 1968 天
-
-> A fancy self-hosted monitoring tool
-
-<sub>来源：自部署</sub>
-
-### [phone-harness/phone-harness](https://github.com/phone-harness/phone-harness) · 92 分
-
-⭐ 5,455（+69/天） · 🍴 567 · 👥 5 位贡献者 · 📝 30 天 22 次提交 · Python · MIT · 创建 106 天
-
-> let your agent control your phone
-
-<sub>来源：开发者工具</sub>
-
-### [AlexsJones/llmfit](https://github.com/AlexsJones/llmfit) · 92 分
-
-⭐ 39,210（+53/天） · 🍴 2,536 · 👥 187 位贡献者 · 📝 30 天 111 次提交 · Rust · MIT · 创建 279 天
-
-> Hundreds of models & providers. One command to find what runs on your hardware.
+> 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.
 
 <sub>来源：LLM</sub>
 
-### [usememos/memos](https://github.com/usememos/memos) · 92 分
+### [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) · 94 分
 
-⭐ 64,625（+28/天） · 🍴 4,967 · 👥 429 位贡献者 · 📝 30 天 84 次提交 · Go · MIT · 创建 1809 天
+⭐ 76,213（+38/天） · 🍴 9,388 · 👥 307 位贡献者 · 📝 30 天 26 次提交 · Python · Apache-2.0 · 创建 1274 天
 
-> Memos is an open-source, self-hosted note-taking app that brings your everyday thoughts together in a personal timeline. Your data stays yours, and you choose what to keep private or share.
+> Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)
 
-<sub>来源：自部署</sub>
+<sub>来源：LLM</sub>
+
+### [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) · 94 分
+
+⭐ 72,825（+240.3/天，平均） · 🍴 6,430 · 👥 182 位贡献者 · 📝 30 天 191 次提交 · Python · MIT · 创建 303 天
+
+> AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary
+
+<sub>来源：Agent Skill</sub>
+
+### [lyogavin/airllm](https://github.com/lyogavin/airllm) · 92 分
+
+⭐ 42,990（+115/天） · 🍴 4,459 · 👥 18 位贡献者 · 📝 30 天 30 次提交 · Jupyter Notebook · Apache-2.0 · 创建 1259 天
+
+> AirLLM 2.8T LLM inference with single 4GB GPU
+
+<sub>来源：LLM</sub>
+
+### [wanshuiyin/Auto-claude-code-research-in-sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) · 92 分
+
+⭐ 19,608（+53/天） · 🍴 1,568 · 👥 108 位贡献者 · 📝 30 天 42 次提交 · Python · MIT · 创建 257 天
+
+> ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in — works with Claude Code, Codex, OpenClaw, or any LLM agent.
+
+<sub>来源：MCP</sub>
+
+### [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills) · 91 分
+
+⭐ 53,472（+77/天） · 🍴 3,803 · 👥 28 位贡献者 · 📝 30 天 37 次提交 · Shell · MIT · 创建 324 天
+
+> Teach your agent to use Obsidian and open formats including Markdown, Bases, JSON Canvas.
+
+<sub>来源：Claude Skill</sub>
 
 ---
 

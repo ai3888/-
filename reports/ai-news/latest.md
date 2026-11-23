@@ -1,6 +1,6 @@
-# AI 日报素材 · 2026-11-22
+# AI 日报素材 · 2026-11-23
 
-> 生成于 2026-11-22 10:37（北京时间）。40/40 个来源抓取成功。本次候选：热议话题 0 个、高热度单条讨论 6 条、新东西 10 条、论文 0 篇。
+> 生成于 2026-11-23 11:03（北京时间）。40/40 个来源抓取成功。本次候选：热议话题 0 个、高热度单条讨论 8 条、新东西 12 条、论文 3 篇。
 
 # 写作说明（给 GPT）
 
@@ -98,88 +98,92 @@
 
 ### 只在一个地方出现、但很热的讨论（Hacker News，按分数排序）
 
-- [ClawDOS – An AI coding agent for DOS](http://ricapar.net/ClawDOS/) — 来源：Hacker News（HN 159 分，51 条评论，发布于 11-21 13:38）
-  - HN 讨论：https://news.ycombinator.com/item?id=50586292
-- [AI is giving everyone the same advice](https://a90.com/experiments/same-advice/) — 来源：Hacker News（HN 122 分，48 条评论，发布于 11-21 00:58）
-  - HN 讨论：https://news.ycombinator.com/item?id=50577872
-- [Epic Games Turns to AI Coding for the Unreal Engine](https://spectrum.ieee.org/epic-games-unreal-engine-ai) — 来源：Hacker News（HN 58 分，60 条评论，发布于 11-20 20:16）
-  - HN 讨论：https://news.ycombinator.com/item?id=50573681
-- [The Hungry Butler Effect: Concealed Commercial Incentives in LLMs](https://www.researchgate.net/publication/418143113_The_Hungry_Butler_Effect_Concealed_Commercial_Incentives_and_the_Erosion_of_Epistemic_Rigour_in_Large_Language_Models) — 来源：Hacker News（HN 53 分，20 条评论，发布于 11-21 06:18）
-  - HN 讨论：https://news.ycombinator.com/item?id=50583117
-- [Anthropic's IPO Bust Deepens $4T AI Wipeout on Wall Street](https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90) — 来源：Hacker News（HN 66 分，5 条评论，发布于 11-21 05:18）
-  - HN 讨论：https://news.ycombinator.com/item?id=50582280
-- [Leaky AI supply chain is exposing secret user data at an alarming rate](https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/) — 来源：Hacker News（HN 52 分，6 条评论，发布于 11-21 05:53）
-  - HN 讨论：https://news.ycombinator.com/item?id=50582794
+- [87% of the Anthropic power will come from gas and 11% from coal in 2028](https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/) — 来源：Hacker News（HN 905 分，904 条评论，发布于 11-22 16:57）
+  - HN 讨论：https://news.ycombinator.com/item?id=50597612
+- [The Mythology of Conscious AI](https://www.noemamag.com/the-mythology-of-conscious-ai/) — 来源：Hacker News（HN 170 分，486 条评论，发布于 11-22 10:10）
+  - HN 讨论：https://news.ycombinator.com/item?id=50595537
+- [A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth](https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth) — 来源：Hacker News（HN 275 分，120 条评论，发布于 11-23 05:01）
+  - HN 讨论：https://news.ycombinator.com/item?id=50603845
+- [Data Processing Incidents on Inference Providers](https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/) — 来源：Hacker News（HN 280 分，97 条评论，发布于 11-22 10:14）
+  - HN 讨论：https://news.ycombinator.com/item?id=50595554
+- [Agent swarm trying to solve P vs. NP](https://pequalnp.com/) — 来源：Hacker News（HN 121 分，107 条评论，发布于 11-23 05:53）
+  - HN 讨论：https://news.ycombinator.com/item?id=50604314
+- [Pandex – Official European Law for AI Agents, over MCP](https://www.pandex.io) — 来源：Hacker News（HN 139 分，33 条评论，发布于 11-22 04:47）
+  - HN 讨论：https://news.ycombinator.com/item?id=50593481
+- [Harsher on Male? Evaluating LLMs on Gender-Asymmetric Moral Framing in Conflicts](https://arxiv.org/abs/2606.14068) — 来源：Hacker News（HN 92 分，78 条评论，发布于 11-22 17:18）
+  - HN 讨论：https://news.ycombinator.com/item?id=50597743
+- [AI is becoming a disaster for the climate](https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the) — 来源：Hacker News（HN 108 分，47 条评论，发布于 11-22 20:19）
+  - HN 讨论：https://news.ycombinator.com/item?id=50598961
 
 ## 素材二：新东西
 
 ### 官方发布
 
-今天没有。
+- [Perplexity and Intelligence](https://openai.com/index/perplexity-and-intelligence) — 来源：OpenAI（发布于 11-22 08:00）
+  - 简介：How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.
 
 ### 新上线的模型（OpenRouter）
 
 今天没有。
 
-### 开源项目和 Skill（GitHub 项目雷达 2026-11-22，已按涨星速度等打过分）
+### 开源项目和 Skill（GitHub 项目雷达 2026-11-23，已按涨星速度等打过分）
 
-- [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) — ⭐ 34,071（每天 +32.0 星） · 创建 506 天 · Python · MIT · 191 位贡献者 · 雷达评分 96（值得关注）
-  - 简介：Open-source registry and CLI for Claude Code components: agents, commands, skills, hooks, MCPs, settings and mods
-- [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) — ⭐ 80,710（每天 +71.0 星） · 创建 723 天 · Jupyter Notebook · MIT · 119 位贡献者 · 雷达评分 95（值得关注）
-  - 简介：18 Lessons to Get Started Building AI Agents
-- [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) — ⭐ 47,913（每天 +72.0 星） · 创建 366 天 · Python · Apache-2.0 · 49 位贡献者 · 雷达评分 95（值得关注）
-  - 简介：Official, Anthropic-managed directory of high quality Claude Code Plugins.
-- [yikart/AiToEarn](https://github.com/yikart/AiToEarn) — ⭐ 28,548（每天 +35.0 星） · 创建 635 天 · TypeScript · MIT · 30 位贡献者 · 雷达评分 95（值得关注）
-  - 简介：Let's use AI to Earn!
-- [storytold/wordcraft](https://github.com/storytold/wordcraft) — ⭐ 18,396（每天 +50.0 星） · 创建 45 天 · Rust · Apache-2.0 · 277 位贡献者 · 雷达评分 95（潜力股）
-  - 简介：WordCraft: an open-source, clean-room word processor in pure Rust
-- [HBAI-Ltd/Toonflow-app](https://github.com/HBAI-Ltd/Toonflow-app) — ⭐ 22,467（每天 +74.0 星） · 创建 296 天 · TypeScript · MIT · 6 位贡献者 · 雷达评分 94（值得关注）
-  - 简介：短剧、漫剧制作工具 Toonflow：开源 AI 视频创作平台，集成剧本创作、智能分镜、角色与场景资产管理、图像生成和视频生成。融合无限画布、AI Agent 与可视化工作流，支持本地部署、自选模型、跨平台客户端、MCP 与插件扩展。Open-source AI short drama and motion comic creation tool with an infinite canvas, AI agents, storyboarding, image and video generation. Self-hosted and extensible, with a canvas-base
-- [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw) — ⭐ 38,083（每天 +30.0 星） · 创建 270 天 · Python · Apache-2.0 · 273 位贡献者 · 雷达评分 94（值得关注）
-  - 简介：Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.
-- [KKKKhazix/AIHOT](https://github.com/KKKKhazix/AIHOT) — ⭐ 11,193（每天 +41.0 星） · 创建 54 天 · TypeScript · MIT · 27 位贡献者 · 雷达评分 93（潜力股）
-  - 简介：一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。
-- [trailhq/Trail-Code](https://github.com/trailhq/Trail-Code) — ⭐ 11,414（每天 +44.0 星） · 创建 141 天 · TypeScript · MIT · 72 位贡献者 · 雷达评分 93（值得关注）
-  - 简介：One shared memory for every coding agent on your team. Claude Code, Cursor and Codex get a map of your code and your team's past decisions, so they pick up where you left off.
-- [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) — ⭐ 94,744（每天 +27.0 星） · 创建 1968 天 · JavaScript · MIT · 1164 位贡献者 · 雷达评分 93（值得关注）
-  - 简介：A fancy self-hosted monitoring tool
+- [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) — ⭐ 30,867（每天 +48.0 星） · 创建 1290 天 · Python · Apache-2.0 · 331 位贡献者 · 雷达评分 100（值得关注）
+  - 简介：An autonomous agent that conducts deep research on any data using any LLM providers
+- [mdiri-ai/SoduWork](https://github.com/mdiri-ai/SoduWork) — ⭐ 6,824（每天 +273.0 星，按总星数平均） · 创建 25 天 · JavaScript · MIT · 55 位贡献者 · 雷达评分 98（潜力股）
+  - 简介：The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.
+- [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) — ⭐ 93,694（每天 +130.0 星） · 创建 253 天 · TypeScript · MIT · 79 位贡献者 · 雷达评分 97（值得关注）
+  - 简介：Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.
+- [DozenTwelve/Papermorph](https://github.com/DozenTwelve/Papermorph) — ⭐ 1,949（每天 +73.0 星） · 创建 51 天 · JavaScript · MIT · 7 位贡献者 · 雷达评分 96（潜力股）
+  - 简介：An AI skill that turns books into animated, narrated, interactive web experiences
+- [topoteretes/cognee](https://github.com/topoteretes/cognee) — ⭐ 33,485（每天 +35.0 星） · 创建 1194 天 · Python · Apache-2.0 · 336 位贡献者 · 雷达评分 96（值得关注）
+  - 简介：Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory with small models for free
+- [krillinai/OpenCreator](https://github.com/krillinai/OpenCreator) — ⭐ 14,494（每天 +35.0 星） · 创建 706 天 · TypeScript · Apache-2.0 · 37 位贡献者 · 雷达评分 96（值得关注）
+  - 简介：Formerly KrillinAI, VideoTranslation and Dubbing Tool for 120+ Languages. Open-source AI workspace for creators, powered by Codex. Video downloader, video translation, create videos, images, audios, and edits with Agents in one place. For your Social Media like YouTube, TikTok, Instagram, etc.
+- [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) — ⭐ 109,006（每天 +33.0 星） · 创建 584 天 · TypeScript · Apache-2.0 · 703 位贡献者 · 雷达评分 96（值得关注）
+  - 简介：An open-source AI agent that brings the power of Gemini directly into your terminal.
+- [Gaurav-Gosain/tuios](https://github.com/Gaurav-Gosain/tuios) — ⭐ 6,755（每天 +134.0 星） · 创建 442 天 · Go · MIT · 86 位贡献者 · 雷达评分 96（值得关注）
+  - 简介：A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent. Official only at tuios.dev and this repo. tuios has no X/Twitter account.
+- [amosblomqvist/learnharness](https://github.com/amosblomqvist/learnharness) — ⭐ 11,179（每天 +220.0 星） · 创建 37 天 · TypeScript · AGPL-3.0 · 45 位贡献者 · 雷达评分 95（潜力股）
+  - 简介：Agent harness for learning difficult things.
+- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) — ⭐ 145,106（每天 +108.0 星） · 创建 987 天 · Python · MIT · 181 位贡献者 · 雷达评分 95（值得关注）
+  - 简介：利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.
 
 ### 新工具（Show HN：作者自己发出来的新项目）
 
-今天没有。
+- [Show HN: I built a game where you are an LLM's subagent](https://github.com/gulivan/worker755) — 来源：Hacker News（HN 279 分，65 条评论，发布于 11-22 21:56）
+  - HN 讨论：https://news.ycombinator.com/item?id=50599762
 
 ## 素材三：论文（HF 每日论文，社区投票精选，按点赞数排序）
 
-今天没有。
+- [Lost in the Hallway: Benchmarking Persistent Spatial Memory Across Revisits](https://huggingface.co/papers/2611.21485) — 来源：HF 每日论文（2 人点赞，1 条评论，发布于 11-23 08:00）
+  - 简介：Persistent spatial understanding is essential for embodied agents to operate reliably in environments they repeatedly encounter. It requires recognizing revisited places despite viewpoint changes, distinguishing them from similar-looking rooms, and updating memories as environments change. Yet existing evaluations often leave physical place identity across separated visits implicit. We introduce ReSpaceBench, a benchmark comprising 3,244 questions across 590 synthetic and real-home scenes, organ
+- [Duopra: From Full-Duplex Conversation to Full-Duplex Agency](https://huggingface.co/papers/2611.25773) — 来源：HF 每日论文（1 条评论，发布于 11-23 08:00）
+  - 代码：https://github.com/cyChen2003/duopra
+  - 简介：Full-duplex interaction models exhibit strong conversational agency, enabling natural, low-latency turn-taking, backchannels, and interruptions. However, completing tasks further requires task agency: timely tool invocation and argument revision following user corrections. Frontend-backend agents separate initiation from execution: the frontend decides whether and what to request, while the backend determines how. Execution can be offloaded, but unsent requests cannot be executed, and incomplete
+- [PURE: A Diagnostic Benchmark for Multi-Granularity Multimodal Identity Matching](https://huggingface.co/papers/2611.22343) — 来源：HF 每日论文（1 条评论，发布于 11-23 08:00）
+  - 代码：https://github.com/alibaba-multimodal-industrial-ai/PURE
+  - 简介：Identity matching asks whether two records denote the same identity, yet the answer depends on the target granularity. Two records may match at the base level but not at the variant level: they share an underlying design while differing in attributes such as color or size. Final matching accuracy does not separately characterize the capabilities involved. To study this problem, we use e-commerce as a challenging real-world domain. We introduce PURE, a diagnostic benchmark for multi-granularity m
 
 ## 附：博客和 Newsletter 的其他新文章
 
-- [Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance](https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/) — 来源：TechCrunch AI（发布于 11-22 05:37）
-  - 简介：Signal is limiting users' ability to take screenshots in both its Android and iOS apps.
-- [A tale of two Nvidias](https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/) — 来源：TechCrunch AI（发布于 11-22 05:07）
-  - 简介：We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.
-- [The UN fails to agree on rules regulating ‘killer robots’](https://www.theverge.com/tech/1039554/un-regulations-killer-robots) — 来源：The Verge AI（发布于 11-22 04:03）
-  - 简介：One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-c
-- [Here are the top AI agents that can live in your text messages](https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/) — 来源：TechCrunch AI（发布于 11-22 01:00）
-  - 简介：We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, 
-- [Is selling an AI version of your face to this microdrama startup the future of Hollywood?](https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/) — 来源：TechCrunch AI（发布于 11-22 00:00）
-  - 简介：An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if th
-- [Can Anthropic afford to put safety first?](https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure) — 来源：The Verge AI（发布于 11-21 23:00）
-  - 简介：Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI i
-- [Chess.com’s next move is a new hub for classic games, from mahjong to sudoku](https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai) — 来源：The Verge AI（发布于 11-21 22:00）
-  - 简介：Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 
-- [GPT-6.2 Astra再次暴击具身模型：16项任务成功率较GPT-6 Astra翻倍](https://www.qbitai.com/2026/11/511779.html) — 来源：量子位（发布于 11-21 14:35）
-  - 简介：还实现可变形物体操控全球首通
-- [刚刚，DeepSeek V1作者创业项目曝光：开源Agent](https://www.qbitai.com/2026/11/511570.html) — 来源：量子位（发布于 11-21 14:32）
-  - 简介：专为本地部署而生
-- [姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图](https://www.qbitai.com/2026/11/511757.html) — 来源：量子位（发布于 11-21 14:30）
-  - 简介：还透露了不少训练背后的秘诀
-- [［AINews］ Riemann Hypothesis proved...twice independently](https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/) — 来源：Latent Space（含每天的 AINews：汇总推特、Reddit、Discord 的讨论）（发布于 11-21 13:02）
-  - 简介：Within a few hours of each other ( timeline ), two mathematicians claimed independent proofs of the Riemann Hypothesis, the most famous open problem i
-- [米哈游发了个VLA论文](https://www.qbitai.com/2026/11/511740.html) — 来源：量子位（发布于 11-21 00:25）
-  - 简介：8B参数，50小时自主运行
-- [黎曼猜想被证明？！Claude加持，34岁数学家放出Lean证明](https://www.qbitai.com/2026/11/511727.html) — 来源：量子位（发布于 11-21 00:07）
-- [美国AI音乐巨头进军视频生成，底层模型来自中国MiniMax](https://www.qbitai.com/2026/11/511722.html) — 来源：量子位（发布于 11-20 20:18）
-  - 简介：美国AI音乐平台Suno宣布推出视觉创作工具Visuals
-- [给万卡国产芯装个“超级外挂”！清华团队要造最强国产Token工厂](https://www.qbitai.com/2026/11/511679.html) — 来源：量子位（发布于 11-20 16:59）
-  - 简介：联合华为昇腾，五年冲刺十万卡
+- [How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO](https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/) — 来源：TechCrunch AI（发布于 11-23 09:25）
+  - 简介：Three significant backers share what gave them conviction to bet billions on Anthropic.
+- [We haven’t seen the last of the major tech outages](https://www.theverge.com/tech/1039851/major-tech-outages) — 来源：The Verge AI（发布于 11-23 06:48）
+  - 简介：Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a b
+- [OpenAI’s chief scientist has thoughts on how to limit AI development](https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/) — 来源：TechCrunch AI（发布于 11-23 05:14）
+  - 简介：To establish a speed limit on AI development, you need to agree on how to measure speed.
+- [Why data centers are at the center of the Big Tech backlash](https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/) — 来源：TechCrunch AI（发布于 11-23 02:08）
+  - 简介：Journalist Paris Marx unpacks his new book "Hyperscale."
+- [Binding of Isaac developer removes AI music from Repentance Plus](https://www.theverge.com/games/1039770/binding-of-isaac-ai-music) — 来源：The Verge AI（发布于 11-23 01:25）
+  - 简介：The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of 
+- [The vibe-coding revolution is coming to all the gadgets](https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera) — 来源：The Verge AI（发布于 11-22 21:00）
+  - 简介：This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow Da
+- [Nature：糖尿病大鼠成功恢复正常血糖！用电刺激迷走神经控糖](https://www.qbitai.com/2026/11/511904.html) — 来源：量子位（发布于 11-22 14:21）
+  - 简介：用葡萄糖发电控制血糖。
+- [A社数学家用Claude又证明另一千禧难题，逼出一份写了12年的940页纯人类手稿](https://www.qbitai.com/2026/11/511870.html) — 来源：量子位（发布于 11-22 14:03）
+- [AI给乐队现场搓MV，这是黑客松还是音乐节啊](https://www.qbitai.com/2026/11/511855.html) — 来源：量子位（发布于 11-21 22:14）
+- [中国计算，走出新的登峰之路](https://www.qbitai.com/2026/11/511849.html) — 来源：量子位（发布于 11-21 22:09）
+- [8万条群聊消息做成考卷：腾讯元宝×KCL发布首个基于群聊构建的Agent记忆基准](https://www.qbitai.com/2026/11/511841.html) — 来源：量子位（发布于 11-21 19:40）
+- [全网疯传！Grok一姐教你如何月提交3000个PR](https://www.qbitai.com/2026/11/511830.html) — 来源：量子位（发布于 11-21 19:34）
+- [反超Gemini之后，Karpo新作再开源，浏览器Agent速效双赢](https://www.qbitai.com/2026/11/511791.html) — 来源：量子位（发布于 11-21 19:24）
