@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/danielhanchen",
+ "collected_at": "2026-11-24T23:43:02.692Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 3,
+ "posts": [
+  {
+   "id": "2125244976246521969",
+   "url": "https://x.com/danielhanchen/status/2125244976246521969",
+   "author": "danielhanchen",
+   "name": "Daniel Han",
+   "time": "2026-11-24T15:07:42.000Z",
+   "text": "We made Inkling 2 Mini finetuning in Unsloth up to 3x faster and use 50% less VRAM!\n\nSome optims:\n> FlexAttention for SWA & sink attn\n> Gradient checkpointing for looped layers - layers 6-17 run 3x forwards - their residuals are now recomputed\n> Fused CE with final logit softcap",
+   "likes": 229,
+   "reposts": 17,
+   "replies": 10,
+   "views": 9160,
+   "context": "",
+   "quoted": "You can now fine-tune Inkling 2 Mini with our free notebook! Local training works on 22GB VRAM. Unsloth trains Inkling 1.8-3.1x faster with 50% less VRAM vs. other setups. No accuracy loss Colab, Kaggle notebooks & Guide: https:// unsloth.ai/docs/models/in kling-2-mini/fine-tuning … GitHub: https:// github.com/unslothai/unsl oth …",
+   "card": "",
+   "links": []
+  }
+ ]
+}

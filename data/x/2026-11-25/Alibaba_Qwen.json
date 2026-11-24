@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/Alibaba_Qwen",
+ "collected_at": "2026-11-24T23:40:12.709Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 3,
+ "posts": [
+  {
+   "id": "2125121515465461969",
+   "url": "https://x.com/Alibaba_Qwen/status/2125121515465461969",
+   "author": "Alibaba_Qwen",
+   "name": "Qwen",
+   "time": "2026-11-24T06:57:06.000Z",
+   "text": "Qwen4 Max × \n@pendev\n — design systems meet creativity. Give it a try!",
+   "likes": 319,
+   "reposts": 31,
+   "replies": 47,
+   "views": 31681,
+   "context": "",
+   "quoted": "There are moments in AI design that quite surprise us. We've been testing the previous versions of Qwen heavily, but certain je ne sais quois was absent. That has changed with Qwen 4 Max! The ability of this model to follow a design system and think creatively has surpassed our",
+   "card": "",
+   "links": []
+  }
+ ]
+}

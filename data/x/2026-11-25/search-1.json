@@ -1,0 +1,145 @@
+{
+ "page": "https://x.com/search?q=url%3Aarxiv.org%20min_faves%3A100%20-filter%3Areplies%20since%3A2026-11-24&src=typed_query",
+ "collected_at": "2026-11-24T23:44:30.721Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 8,
+ "posts": [
+  {
+   "id": "2125295749613363374",
+   "url": "https://x.com/onloglogn/status/2125295749613363374",
+   "author": "onloglogn",
+   "name": "Ruixiang Zhang",
+   "time": "2026-11-24T18:29:27.000Z",
+   "text": "看来， @thinkymachines 那款令人印象深刻的 Inkling-2-Mini 其实还隐藏着更强大的潜力。通过 LoopCD 技术，我们可以在无需额外训练的情况下，提升它的推理能力、知识储备以及智能编码能力。\n\nLoopCD \nhttps://\narxiv.org/abs/2610.02185 是一种内置的解码方法。",
+   "likes": 612,
+   "reposts": 72,
+   "replies": 21,
+   "views": 20237,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2610.02185"
+   ]
+  },
+  {
+   "id": "2125162651093229587",
+   "url": "https://x.com/ObjRandom/status/2125162651093229587",
+   "author": "ObjRandom",
+   "name": "Objectively Random",
+   "time": "2026-11-24T09:40:34.000Z",
+   "text": "算法化的市商行为可能会导致订单簿中的波动加剧。",
+   "likes": 101,
+   "reposts": 12,
+   "replies": 0,
+   "views": 4888,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org 算法化的市商行为可能导致波动性的增加…… 现有的研究表明，市场可能会出现比布朗运动更为不规则的波动路径。从理论上讲，这种情况发生在订单流接近不稳定状态且具有记忆效应时……",
+   "links": []
+  },
+  {
+   "id": "2125140880273363324",
+   "url": "https://x.com/TMoldwin/status/2125140880273363324",
+   "author": "TMoldwin",
+   "name": "Toviah Moldwin",
+   "time": "2026-11-24T08:14:03.000Z",
+   "text": "AI is taking over the world. But what's going on inside its head? Raneem and I created a minimal transformer model where every component is restricted to two-dimensions, allowing complete visualization of every single step of its computation.",
+   "likes": 142,
+   "reposts": 17,
+   "replies": 3,
+   "views": 6679,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org Fully Interpretable Minimal Transformers: From Geometry to Algorithm We present a framework for building and interpreting minimal transformer models. By constraining a transformer's embeddin",
+   "links": []
+  },
+  {
+   "id": "2125169818597003342",
+   "url": "https://x.com/rosinality/status/2125169818597003342",
+   "author": "rosinality",
+   "name": "Rosinality",
+   "time": "2026-11-24T10:09:03.000Z",
+   "text": "https://\narxiv.org/abs/2611.31094\n\nAttention Residuals + Loop.",
+   "likes": 271,
+   "reposts": 33,
+   "replies": 3,
+   "views": 15498,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2611.31094"
+   ]
+  },
+  {
+   "id": "2125147565268381745",
+   "url": "https://x.com/IPPO_O_0127/status/2125147565268381745",
+   "author": "IPPO_O_0127",
+   "name": "IPPO",
+   "time": "2026-11-24T08:40:37.000Z",
+   "text": "I submitted my first paper with my advisor, Tachikawa. This addresses a question that grew out of my first paper, which I published in my first year of the master’s program, and I think it’s quite fundamental in mathematical physics, so I’m very happy to have solved it. I plan to",
+   "likes": 130,
+   "reposts": 17,
+   "replies": 3,
+   "views": 8866,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org Möbius Fusion Algebra Given a pseudo-unitary modular tensor category $\\mathcal{C}$ with an anti-monoidal involution $\\mathsf{P}$, we define a generally non-commutative algebra from this data",
+   "links": []
+  },
+  {
+   "id": "2125165189570167284",
+   "url": "https://x.com/rosinality/status/2125165189570167284",
+   "author": "rosinality",
+   "name": "Rosinality",
+   "time": "2026-11-24T09:50:39.000Z",
+   "text": "https://\narxiv.org/abs/2611.31154\n\nFeedback transformer with flexible connection (not only the last layer).",
+   "likes": 101,
+   "reposts": 13,
+   "replies": 2,
+   "views": 5336,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/abs/2611.31154"
+   ]
+  },
+  {
+   "id": "2125207562245005670",
+   "url": "https://x.com/leader_arm/status/2125207562245005670",
+   "author": "leader_arm",
+   "name": "Alba María Téllez Fernández",
+   "time": "2026-11-24T12:39:01.000Z",
+   "text": "My first paper (and as sole author!) has been accepted at the NeurIPS 2026 RoboPAD Workshop :)\n\n“Refinement vs. Replanning: Inference Compute Allocation in Robot Policies.”\n\n\nhttps://\narxiv.org/pdf/2611.19034\n\nPicture of the poster I presented in Zurich :",
+   "likes": 231,
+   "reposts": 9,
+   "replies": 20,
+   "views": 5647,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// arxiv.org/pdf/2611.19034"
+   ]
+  },
+  {
+   "id": "2125170685093822526",
+   "url": "https://x.com/koroviev82/status/2125170685093822526",
+   "author": "koroviev82",
+   "name": "regis portalez ☭",
+   "time": "2026-11-24T10:12:29.000Z",
+   "text": "Unfazed, Alain Connes keeps working on Riemann, and not in Lean",
+   "likes": 345,
+   "reposts": 43,
+   "replies": 11,
+   "views": 30939,
+   "context": "",
+   "quoted": "",
+   "card": "arxiv.org The uncertainty operator, the Weil ground state and the zeros of... Applying the Dirichlet principle to the Weil quadratic form $QW_λ$ on $L^2([λ^{-1},λ],d^*u)$--using only the primes $p\\leλ",
+   "links": []
+  }
+ ]
+}

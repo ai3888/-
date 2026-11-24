@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/rasbt",
+ "collected_at": "2026-11-24T23:41:30.399Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2125249956495953973",
+   "url": "https://x.com/rasbt/status/2125249956495953973",
+   "author": "rasbt",
+   "name": "Sebastian Raschka",
+   "time": "2026-11-24T15:27:29.000Z",
+   "text": "With yesterday’s GLM-5.4 release, there are 5 looped transformers in my LLM Architecture Gallery now.\n\nI see a trend :)",
+   "likes": 1732,
+   "reposts": 173,
+   "replies": 82,
+   "views": 58293,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2125245138641490324",
+   "url": "https://x.com/rasbt/status/2125245138641490324",
+   "author": "rasbt",
+   "name": "Sebastian Raschka",
+   "time": "2026-11-24T15:08:20.000Z",
+   "text": "Whoever gets their hands on the most battle-tested enterprise code...\n\nThis is how the ChatGPT vs Claude vs Gemini vs Muse vs Grok race is going to be decided in 2027 and beyond.\n\n(And smart enterprises will play multiple fronts.)",
+   "likes": 386,
+   "reposts": 23,
+   "replies": 54,
+   "views": 29516,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

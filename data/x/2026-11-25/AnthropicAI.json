@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/AnthropicAI",
+ "collected_at": "2026-11-24T23:39:28.655Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2125365268381929637",
+   "url": "https://x.com/AnthropicAI/status/2125365268381929637",
+   "author": "AnthropicAI",
+   "name": "Anthropic",
+   "time": "2026-11-24T23:05:42.000Z",
+   "text": "New Anthropic Fellows research: Returning to the neuron basis for interpretability\n\nUnderstanding what’s happening inside an AI model helps to make it safer. One obvious place to look is its neurons, or the simple units it’s built from. Early interpretability work did just that,",
+   "likes": 831,
+   "reposts": 101,
+   "replies": 91,
+   "views": 54467,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2125341904644763678",
+   "url": "https://x.com/AnthropicAI/status/2125341904644763678",
+   "author": "AnthropicAI",
+   "name": "Anthropic",
+   "time": "2026-11-24T21:32:51.000Z",
+   "text": "New Anthropic research: When an AI agent can escape its sandbox, will it choose to?\n\nOur new evaluation, Siren, gives Claude routine tasks in intentionally weakened sandboxes, with something useful to the task left outside of the sandbox. Across 1,700+ scenarios built to tempt",
+   "likes": 1445,
+   "reposts": 236,
+   "replies": 227,
+   "views": 106770,
+   "context": "",
+   "quoted": "",
+   "card": "Measuring and mitigating agent sandbox escape with Siren",
+   "links": []
+  }
+ ]
+}

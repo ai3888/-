@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/swyx",
+ "collected_at": "2026-11-24T23:43:28.020Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 2,
+ "posts": [
+  {
+   "id": "2125371136943022423",
+   "url": "https://x.com/swyx/status/2125371136943022423",
+   "author": "swyx",
+   "name": "swyx",
+   "time": "2026-11-24T23:29:01.000Z",
+   "text": "notable that a lot of the recent anthropic (and ant-alum) talks have been very specific about how much there is still left to do for human engineers, and if you are feeling depressed/anxious you need only look here / point your efforts towards AGI-aligned problems*:\n\n- assume",
+   "likes": 13,
+   "reposts": 1,
+   "replies": 9,
+   "views": 1258,
+   "context": "",
+   "quoted": "software engineers are going to have to tackle a new set of problems to unlock powerful multiagent systems to solve the world's hardest problems - right now is one of the most interesting moments in history to be an engineer.",
+   "card": "",
+   "links": []
+  }
+ ]
+}

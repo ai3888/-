@@ -1,0 +1,46 @@
+{
+ "page": "https://x.com/_akhaliq",
+ "collected_at": "2026-11-24T23:42:12.598Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2125320949117735044",
+   "url": "https://x.com/_akhaliq/status/2125320949117735044",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-24T20:09:35.000Z",
+   "text": "AVTR\n\nAdaptive Multimodal Reasoning with Visual Imagination\n\npaper: \nhttps://\nhuggingface.co/papers/2611.24\n161\n…\napp: \nhttps://\nhuggingface.co/spaces/shenxq/\nAVTR\n…",
+   "likes": 13,
+   "reposts": 2,
+   "replies": 5,
+   "views": 4743,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/papers/2611.24 161 …",
+    "https:// huggingface.co/spaces/shenxq/ AVTR …"
+   ]
+  },
+  {
+   "id": "2125295056211103898",
+   "url": "https://x.com/_akhaliq/status/2125295056211103898",
+   "author": "_akhaliq",
+   "name": "AK",
+   "time": "2026-11-24T18:26:42.000Z",
+   "text": "WorldLatent\n\nA Unified 4D Latent Space for World Perception and Generation\n\npaper: \nhttps://\nhuggingface.co/papers/2611.31\n209\n…",
+   "likes": 131,
+   "reposts": 11,
+   "replies": 5,
+   "views": 8805,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// huggingface.co/papers/2611.31 209 …"
+   ]
+  }
+ ]
+}

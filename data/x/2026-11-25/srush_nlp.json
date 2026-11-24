@@ -1,0 +1,41 @@
+{
+ "page": "https://x.com/srush_nlp",
+ "collected_at": "2026-11-24T23:40:53.584Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 8,
+ "posts": [
+  {
+   "id": "2125001143776633314",
+   "url": "https://x.com/srush_nlp/status/2125001143776633314",
+   "author": "srush_nlp",
+   "name": "Sasha Rush",
+   "time": "2026-11-23T22:58:47.000Z",
+   "text": "I really like levant. I can’t parse anything he tweets, but it seems joyful.",
+   "likes": 1491,
+   "reposts": 31,
+   "replies": 28,
+   "views": 58158,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2125015460752089177",
+   "url": "https://x.com/srush_nlp/status/2125015460752089177",
+   "author": "srush_nlp",
+   "name": "Sasha Rush",
+   "time": "2026-11-23T23:55:41.000Z",
+   "text": "levent, I’m dumb",
+   "likes": 76,
+   "reposts": 0,
+   "replies": 3,
+   "views": 5687,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

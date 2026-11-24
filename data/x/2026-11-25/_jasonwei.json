@@ -1,0 +1,25 @@
+{
+ "page": "https://x.com/_jasonwei",
+ "collected_at": "2026-11-24T23:40:40.664Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 5,
+ "posts": [
+  {
+   "id": "2125294984949809309",
+   "url": "https://x.com/_jasonwei/status/2125294984949809309",
+   "author": "_jasonwei",
+   "name": "Jason Wei",
+   "time": "2026-11-24T18:26:25.000Z",
+   "text": "在《困惑与智能》一书中，Jakub 认为困惑程度可以作为一种衡量智能的共同标准。他的研究指出，OpenAI 模型的困惑程度有所提升，不过该模型尚未提供可供社区使用的完整数据集。\n\n在这篇博文中，我们指出仅仅计算平均值是不够的。",
+   "likes": 290,
+   "reposts": 40,
+   "replies": 33,
+   "views": 20637,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}

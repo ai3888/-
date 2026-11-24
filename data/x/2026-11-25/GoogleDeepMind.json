@@ -1,0 +1,111 @@
+{
+ "page": "https://x.com/GoogleDeepMind",
+ "collected_at": "2026-11-24T23:39:39.504Z",
+ "logged_in": true,
+ "hours": 30,
+ "found_on_page": 7,
+ "posts": [
+  {
+   "id": "2125371062880022536",
+   "url": "https://x.com/GoogleDeepMind/status/2125371062880022536",
+   "author": "GoogleDeepMind",
+   "name": "Google DeepMind",
+   "time": "2026-11-24T23:28:43.000Z",
+   "text": "Gemini 4 Hydrogen built an interactive 3D globe that turns live lightning strikes into ambient music.\n\nTry it here → \nhttps://\ngoo.gle/4tts4OD",
+   "likes": 153,
+   "reposts": 22,
+   "replies": 14,
+   "views": 9850,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": [
+    "https:// goo.gle/4tts4OD"
+   ]
+  },
+  {
+   "id": "2125286866496671873",
+   "url": "https://x.com/GoogleDeepMind/status/2125286866496671873",
+   "author": "GoogleDeepMind",
+   "name": "Google DeepMind",
+   "time": "2026-11-24T17:54:09.000Z",
+   "text": "Neuroscience has long inspired artificial intelligence. Now, we're using AI to better understand our brains.\n\nIn our latest podcast episode, researchers \n@eckstein_maria\n and \n@neuro_kim\n explore how machine learning can help uncover how we make decisions.\n\nTimecodes:\n00:00",
+   "likes": 613,
+   "reposts": 76,
+   "replies": 64,
+   "views": 38549,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2125286872134111495",
+   "url": "https://x.com/GoogleDeepMind/status/2125286872134111495",
+   "author": "GoogleDeepMind",
+   "name": "Google DeepMind",
+   "time": "2026-11-24T17:54:10.000Z",
+   "text": "Watch → \nhttps://\ngoo.gle/49iyyGE\nSpotify → \nhttps://\ngoo.gle/4gUkw1w\nApple Podcasts → \nhttps://\ngoo.gle/4xNeneE\n\nOr listen wherever you get your podcasts!",
+   "likes": 28,
+   "reposts": 1,
+   "replies": 3,
+   "views": 17075,
+   "context": "",
+   "quoted": "",
+   "card": "The brain helped us build AI. Now AI is explaining the brain.",
+   "links": [
+    "https:// goo.gle/49iyyGE",
+    "https:// goo.gle/4gUkw1w",
+    "https:// goo.gle/4xNeneE"
+   ]
+  },
+  {
+   "id": "2125201709852934598",
+   "url": "https://x.com/GoogleDeepMind/status/2125201709852934598",
+   "author": "GoogleDeepMind",
+   "name": "Google DeepMind",
+   "time": "2026-11-24T12:15:46.000Z",
+   "text": "We worked with \n@mencap_charity\n and people with learning disabilities to build the Easy Read Co-Creator Tool with Gemini.\n\nIt turns complex health, finance and everyday documents into clear words and images in minutes rather than weeks – with human experts reviewing every version.",
+   "likes": 394,
+   "reposts": 72,
+   "replies": 146,
+   "views": 46719,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2125205629128077598",
+   "url": "https://x.com/GoogleDeepMind/status/2125205629128077598",
+   "author": "GoogleDeepMind",
+   "name": "Google DeepMind",
+   "time": "2026-11-24T12:31:21.000Z",
+   "text": "Find out more about the Easy Read Co-Creator Tool →",
+   "likes": 19,
+   "reposts": 5,
+   "replies": 4,
+   "views": 18118,
+   "context": "",
+   "quoted": "",
+   "card": "mencap.org.uk The Google DeepMind Easy Read Co-Creator Tool | Mencap",
+   "links": []
+  },
+  {
+   "id": "2124959312606818597",
+   "url": "https://x.com/GoogleDeepMind/status/2124959312606818597",
+   "author": "GoogleDeepMind",
+   "name": "Google DeepMind",
+   "time": "2026-11-23T20:12:34.000Z",
+   "text": "Gemini 4 Neon recreated Alan Turing’s 1936 study at \n@Cambridge_Uni\n in interactive 3D.\n\nUsing archival photos in \n@Antigravity\n, the model built Room X.8 at King’s College with a running Universal Turing Machine.",
+   "likes": 2091,
+   "reposts": 225,
+   "replies": 150,
+   "views": 102613,
+   "context": "",
+   "quoted": "",
+   "card": "",
+   "links": []
+  }
+ ]
+}
