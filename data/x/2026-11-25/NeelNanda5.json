@@ -1,8 +1,60 @@
 {
  "page": "https://x.com/NeelNanda5",
- "collected_at": "2026-11-24T23:41:36.033Z",
+ "collected_at": "2026-11-25T15:27:39.431Z",
  "logged_in": true,
  "hours": 30,
  "found_on_page": 5,
- "posts": []
+ "posts": [
+  {
+   "id": "2125459309215572405",
+   "url": "https://x.com/NeelNanda5/status/2125459309215572405",
+   "author": "NeelNanda5",
+   "name": "Neel Nanda",
+   "time": "2026-11-25T05:19:23.000Z",
+   "text": "使用大型语言模型来创作歌曲和音乐视频，真是一种有趣的新爱好啊！\n\n新视频：我已经了解关于我的所有信息了——这是一个人工智能系统，通过预训练学习如何感知世界以及自身的存在方式。",
+   "likes": 129,
+   "reposts": 8,
+   "replies": 12,
+   "views": 7939,
+   "context": "",
+   "quoted": "I'm loving the era of personalised AI art! Opus 5.5 wrote, composed and made a video for a song about the story of mech interp (and how things keep getting worse...), packed with obscure references, and tailored it to my tastes (no guarantees anyone else is into it lol)",
+   "card": "",
+   "links": []
+  },
+  {
+   "id": "2125459311593681132",
+   "url": "https://x.com/NeelNanda5/status/2125459311593681132",
+   "author": "NeelNanda5",
+   "name": "Neel Nanda",
+   "time": "2026-11-25T05:19:23.000Z",
+   "text": "Video: \nhttps://\nyoutube.com/watch?v=tKicua\nTWBvw\n…\nSpotify: \nhttps://\nopen.spotify.com/album/6jvnhgJq\nUpyTehv3gdG6P4?si=Oz0dEoPlR8-P7jMu55r-PA\n…",
+   "likes": 5,
+   "reposts": 0,
+   "replies": 0,
+   "views": 1400,
+   "context": "",
+   "quoted": "",
+   "card": "I've Read So Much About Me (by Opus 5.5)",
+   "links": [
+    "https:// youtube.com/watch?v=tKicua TWBvw …",
+    "https:// open.spotify.com/album/6jvnhgJq UpyTehv3gdG6P4?si=Oz0dEoPlR8-P7jMu55r-PA …"
+   ]
+  },
+  {
+   "id": "2125454582763475008",
+   "url": "https://x.com/NeelNanda5/status/2125454582763475008",
+   "author": "NeelNanda5",
+   "name": "Neel Nanda",
+   "time": "2026-11-25T05:00:36.000Z",
+   "text": "I love the idea - go and enter your best interpretability techniques to try to interpret Thinking Machine's new open source looping model, and see if you can win the competition!",
+   "likes": 336,
+   "reposts": 20,
+   "replies": 10,
+   "views": 13026,
+   "context": "",
+   "quoted": "The Looped Lens Challenge is underway, with 30 submissions in the opening hours! Burning the midnight oil, @DKryvosheieva's 3am submission is on top of the current leaderboard. https:// ndif-looped-lens-challenge.hf.space",
+   "card": "",
+   "links": []
+  }
+ ]
 }

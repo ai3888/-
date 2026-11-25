@@ -1,41 +1,8 @@
 {
  "page": "https://x.com/EpochAIResearch",
- "collected_at": "2026-11-24T23:43:35.853Z",
+ "collected_at": "2026-11-25T15:29:37.066Z",
  "logged_in": true,
  "hours": 30,
  "found_on_page": 7,
- "posts": [
-  {
-   "id": "2124945252725510614",
-   "url": "https://x.com/EpochAIResearch/status/2124945252725510614",
-   "author": "EpochAIResearch",
-   "name": "Epoch AI",
-   "time": "2026-11-23T19:16:42.000Z",
-   "text": "We are publishing 4 new benchmark reviews: 1 benchmark is Verified, 3 are Flawed. Another 4 benchmarks lacked sufficient information to assign a verdict.\n\n Verified: the benchmark can broadly be interpreted as described by the developer, and any errors don’t substantially",
-   "likes": 602,
-   "reposts": 78,
-   "replies": 44,
-   "views": 77084,
-   "context": "",
-   "quoted": "",
-   "card": "",
-   "links": []
-  },
-  {
-   "id": "2124945265169993749",
-   "url": "https://x.com/EpochAIResearch/status/2124945265169993749",
-   "author": "EpochAIResearch",
-   "name": "Epoch AI",
-   "time": "2026-11-23T19:16:45.000Z",
-   "text": "MazeBench v1.1 is a benchmark that measures spatial and long-horizon reasoning in a 3D maze environment. The benchmark is well designed, with many strengths and only minor weaknesses. We designate it as Verified.\n\nRead our full review:",
-   "likes": 110,
-   "reposts": 4,
-   "replies": 2,
-   "views": 5026,
-   "context": "",
-   "quoted": "",
-   "card": "MazeBench v1.1 – Benchmark review",
-   "links": []
-  }
- ]
+ "posts": []
 }

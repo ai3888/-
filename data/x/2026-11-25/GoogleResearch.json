@@ -1,25 +1,8 @@
 {
  "page": "https://x.com/GoogleResearch",
- "collected_at": "2026-11-24T23:39:45.331Z",
+ "collected_at": "2026-11-25T15:25:57.149Z",
  "logged_in": true,
  "hours": 30,
- "found_on_page": 5,
- "posts": [
-  {
-   "id": "2124933889131164116",
-   "url": "https://x.com/GoogleResearch/status/2124933889131164116",
-   "author": "GoogleResearch",
-   "name": "Google Research",
-   "time": "2026-11-23T18:31:33.000Z",
-   "text": "Residual connections prevent vanishing gradients, but signals can dilute as depth scales, forcing models to recompute them. DeepCrossAttention reframes skip connections as dynamic routing—matching quality up to 5× faster with <0.2% overhead. Read more:",
-   "likes": 1732,
-   "reposts": 138,
-   "replies": 20,
-   "views": 84636,
-   "context": "",
-   "quoted": "",
-   "card": "research.google Supercharging transformer residual connections",
-   "links": []
-  }
- ]
+ "found_on_page": 4,
+ "posts": []
 }

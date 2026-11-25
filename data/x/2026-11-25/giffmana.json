@@ -1,57 +1,8 @@
 {
  "page": "https://x.com/giffmana",
- "collected_at": "2026-11-24T23:41:10.340Z",
+ "collected_at": "2026-11-25T15:27:12.958Z",
  "logged_in": true,
  "hours": 30,
- "found_on_page": 7,
- "posts": [
-  {
-   "id": "2125133968961843215",
-   "url": "https://x.com/giffmana/status/2125133968961843215",
-   "author": "giffmana",
-   "name": "Lucas Beyer (bl16)",
-   "time": "2026-11-24T07:46:35.000Z",
-   "text": "I read a lot of discussion threads on this graph/blog which is surprisingly polarizing. I think i understand now why it's so polarizing.\n\nI think the disagreement comes from many people reading the post as proposal to implement *exactly what's shown* as cross industry standard,",
-   "likes": 198,
-   "reposts": 11,
-   "replies": 22,
-   "views": 14598,
-   "context": "",
-   "quoted": "We decided to provide more transparency into pretraining progress at OpenAI for the sake of moving toward shared safety bars. In “Perplexity and Intelligence” I argue for common limits based on perplexity and other measurements, with progress beyond them gated on our ability to",
-   "card": "",
-   "links": []
-  },
-  {
-   "id": "2124962825013522874",
-   "url": "https://x.com/giffmana/status/2124962825013522874",
-   "author": "giffmana",
-   "name": "Lucas Beyer (bl16)",
-   "time": "2026-11-23T20:26:32.000Z",
-   "text": "You know what i love?\n\nMost of these flawed or inconclusive benchmarks are made by what I'd call \"serious people doing serious business\"\n\nBut the one benchmark that is good? It was made by a fun shitpost account \n@patience_cave\n and his brother \n@mr_cavedweller\n. I love \"unserious\"!",
-   "likes": 268,
-   "reposts": 8,
-   "replies": 20,
-   "views": 15209,
-   "context": "",
-   "quoted": "We are publishing 4 new benchmark reviews: 1 benchmark is Verified, 3 are Flawed. Another 4 benchmarks lacked sufficient information to assign a verdict. Verified: the benchmark can broadly be interpreted as described by the developer, and any errors don’t substantially",
-   "card": "",
-   "links": []
-  },
-  {
-   "id": "2124962828654174694",
-   "url": "https://x.com/giffmana/status/2124962828654174694",
-   "author": "giffmana",
-   "name": "Lucas Beyer (bl16)",
-   "time": "2026-11-23T20:26:32.000Z",
-   "text": "PS: or her, idk the gender of a cave and their didnt fit lol",
-   "likes": 13,
-   "reposts": 0,
-   "replies": 1,
-   "views": 1905,
-   "context": "",
-   "quoted": "",
-   "card": "",
-   "links": []
-  }
- ]
+ "found_on_page": 3,
+ "posts": []
 }

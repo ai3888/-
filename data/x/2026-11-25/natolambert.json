@@ -1,25 +1,8 @@
 {
  "page": "https://x.com/natolambert",
- "collected_at": "2026-11-24T23:41:23.899Z",
+ "collected_at": "2026-11-25T15:27:25.119Z",
  "logged_in": true,
  "hours": 30,
- "found_on_page": 5,
- "posts": [
-  {
-   "id": "2124952313148186931",
-   "url": "https://x.com/natolambert/status/2124952313148186931",
-   "author": "natolambert",
-   "name": "Nathan Lambert",
-   "time": "2026-11-23T19:44:45.000Z",
-   "text": "Happy to be a part of this open intelligence mini-doc by Modal. Very happy to get work on this mission with great friends in the space.",
-   "likes": 88,
-   "reposts": 8,
-   "replies": 4,
-   "views": 9127,
-   "context": "",
-   "quoted": "",
-   "card": "youtube.com Open Intelligence: A mini documentary What does \"actually open AI\" look like?This short documentary tra...",
-   "links": []
-  }
- ]
+ "found_on_page": 4,
+ "posts": []
 }
