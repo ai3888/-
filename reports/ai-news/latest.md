@@ -1,6 +1,6 @@
-# AI 日报素材 · 2026-11-24
+# AI 日报素材 · 2026-11-25
 
-> 生成于 2026-11-24 14:21（北京时间）。40/40 个来源抓取成功。本次候选：热议话题 4 个、高热度单条讨论 8 条、新东西 20 条、论文 12 篇。
+> 生成于 2026-11-25 13:00（北京时间）。39/40 个来源抓取成功，失败：量子位。本次候选：热议话题 4 个、高热度单条讨论 8 条、新东西 22 条、论文 12 篇。
 
 # 写作说明（给 GPT）
 
@@ -94,105 +94,121 @@
 
 按「出现在几个不同来源」排序，来源越多说明讨论越广。关键词是程序自动找的，可能把不相关的内容归到一起，请自己判断。
 
-#### 1. 关键词：claude / ship / review — 3 个来源：Claude 博客、TechCrunch AI、The Verge AI
+#### 1. 关键词：ai-generated / tidal / music — 3 个来源：Hacker News、TechCrunch AI、The Verge AI
 
-- [Introducing Claude Ship](https://claude.com/resources/articles/introducing-claude-ship) — 来源：Claude 博客（发布于 11-23 08:00）
-  - 简介：Open a pull request and get back to building. Claude can now review pull requests, fix them, and approve the ones that a team's policy allows.
-- [Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes](https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/) — 来源：TechCrunch AI（发布于 11-24 06:05）
-  - 简介：As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.
-- [Claude AI can review pull requests and ship fixes on its own now](https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests) — 来源：The Verge AI（发布于 11-24 04:00）
-  - 简介：Anthropic is launching some new Claude AI features to help software engineers ship code. As part of a new Claude Ship product being announced today, Claude now can review, fix, and approve pull reques
+- [Tidal bans AI-generated music](https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/) — 来源：Hacker News（HN 320 分，308 条评论，发布于 11-25 00:12）
+  - HN 讨论：https://news.ycombinator.com/item?id=50630309
+- [Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming](https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/) — 来源：TechCrunch AI（发布于 11-25 00:46）
+  - 简介：The company said it will still accept songs that were made with AI assistance, but not fully generated.
+- [Tidal will start banning AI-generated music next month](https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban) — 来源：The Verge AI（发布于 11-25 01:17）
+  - 简介：Tidal is officially banning AI-generated music on December 9th. As a result of this change, Tidal will delete around 29 million AI-generated songs and reject an estimated 80,000 to 85,000 tracks per d
 
-#### 2. 关键词：OpenAI and Cisco introduce Shirudo — 2 个来源：Hacker News、OpenAI
+#### 2. 关键词：gpt-6 / vulnerabilities / investigating — 3 个来源：Hacker News、OpenAI、油管 OpenAI
 
-- [OpenAI and Cisco introduce Shirudo](https://openai.com/index/introducing-shirudo) — 来源：Hacker News、OpenAI（HN 60 分，16 条评论，发布于 11-24 05:20）
-  - HN 讨论：https://news.ycombinator.com/item?id=50619630
-  - 简介：OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.
+- [GPT-6 models demonstrate intrinsic protein-design capabilities](https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities) — 来源：Hacker News、OpenAI（HN 217 分，65 条评论，发布于 11-24 21:00）
+  - HN 讨论：https://news.ycombinator.com/item?id=50634658
+  - 简介：GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.
+- [Investigating Linux Vulnerabilities with GPT-6 Cyber](https://www.youtube.com/watch?v=w-ltt0Np2cY) — 来源：油管 OpenAI（播放 6,884，发布于 11-24 04:03）
+  - 简介：AI can help security teams move faster from finding vulnerabilities to getting fixes into the software people rely on. In one run, GPT-6 Cyber helped validate 948 Linux kernel vulnerabilities and gene
+- [Investigating Linux Vulnerabilities with GPT-6 Cyber](https://www.youtube.com/watch?v=MpsO8Ds8uyo) — 来源：油管 OpenAI（播放 32,399，发布于 11-24 04:02）
+  - 简介：AI can help security teams move faster from finding vulnerabilities to getting fixes into the software people rely on. In one run, GPT-6 Cyber helped validate 948 Linux kernel vulnerabilities and gene
 
-#### 3. 关键词：search / google — 2 个来源：Google AI 博客、TechCrunch AI
+#### 3. 关键词：anthropic / price / below — 2 个来源：Hacker News、TechCrunch AI
 
-- [A more tailored Google Search that’s uniquely yours](https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/) — 来源：Google AI 博客（发布于 11-24 01:00）
-  - 简介：Google Search bar with the text "Personal Intelligence" surrounded by the Google Wallet, Google Drive, GMail, Google Photos, Google Calendar, and Google G logo icons
-- [Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses](https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/) — 来源：TechCrunch AI（发布于 11-24 03:14）
-  - 简介：By bringing Personal Intelligence in AI Mode to Drive, Wallet, and the Gemini app, Google is leveraging the wealth of user data that's already within its ecosystem
+- [Anthropic breaks below $83 IPO price](https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading) — 来源：Hacker News（HN 369 分，724 条评论，发布于 11-24 21:23）
+  - HN 讨论：https://news.ycombinator.com/item?id=50627836
+- [Anthropic is below its IPO price](https://www.msn.com/en-us/money/top-stocks/anthropic-stock-sinks-below-ipo-price-why-that-s-happened-so-fast/ar-AA2i7rqa) — 来源：Hacker News（HN 128 分，3 条评论，发布于 11-24 22:41）
+  - HN 讨论：https://news.ycombinator.com/item?id=50628932
+- [Anthropic shares fall below IPO price, a worrying sign for AI startups](https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/) — 来源：TechCrunch AI（发布于 11-25 02:30）
+  - 简介：Anthropic’s post-IPO slump could put pressure on AI startup valuations.
 
-#### 4. 关键词：back / ceo — 2 个来源：TechCrunch AI、The Verge AI
+#### 4. 关键词：jensen / huang / nvidia — 2 个来源：TechCrunch AI、The Verge AI
 
-- [Nvidia reverses course and brings Jensen Huang back as CEO](https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/) — 来源：TechCrunch AI（发布于 11-23 22:21）
-  - 简介：The stunning reversal was supported by senior officials in the U.S. government.
+- [Jensen Huang still thinks a succession plan creates unnecessary hierarchy](https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/) — 来源：TechCrunch AI（发布于 11-25 06:27）
+  - 简介：It's a remarkable stance for a company that spent the last two weeks finding out what happens without its founder.
+- [In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy](https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/) — 来源：TechCrunch AI（发布于 11-25 05:48）
+  - 简介：The Nvidia founder apologized to his staff on Tuesday and said he was grateful for a second chance to lead the company.
+- [Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO](https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/) — 来源：TechCrunch AI（发布于 11-24 02:12）
+  - 简介：The public hearing follows bipartisan calls for Huang to testify about the affair with the suspected Chinese spy.
+- [Jensen Huang reportedly tells Nvidia staff it’s ‘not true’ Trump got him rehired](https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology) — 来源：The Verge AI（发布于 11-25 04:02）
+  - 简介：Nvidia CEO Jensen Huang apologized to staff during his first all-hands since returning to the company, while attempting to distance himself from the narrative that the White House and tech leaders hel
+- [Jensen Huang deepfakes are the hot new AI slop](https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes) — 来源：The Verge AI（发布于 11-25 00:30）
+  - 简介：Jensen Huang is partying it up in Ibiza. In a video with nearly 6 million views on Instagram, the former CEO of Nvidia is dancing in a crowded club, champagne glass in hand, still wearing his signatur
 - [Nvidia CEO Jensen Huang is back. What happens next?](https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang) — 来源：The Verge AI（发布于 11-24 06:10）
   - 简介：After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, af
 
 ### 只在一个地方出现、但很热的讨论（Hacker News，按分数排序）
 
-- [Nvidia Reinstates Jensen Huang as CEO](https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html) — 来源：Hacker News（HN 2404 分，3355 条评论，发布于 11-23 22:00）
-  - HN 讨论：https://news.ycombinator.com/item?id=50611576
-  - 简介：https://nvidianews.nvidia.com/news/nvidia-board-reinstates-j... https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-congress...
-- [Jensen Huang Reinstated as Nvidia CEO](https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director) — 来源：Hacker News（HN 1707 分，4 条评论，发布于 11-23 22:01）
-  - HN 讨论：https://news.ycombinator.com/item?id=50611588
-- [GLM-5.4: Toward generalized coding with our first loop transformer](https://z.ai/blog/glm-5.4) — 来源：Hacker News（HN 1097 分，358 条评论，发布于 11-23 18:06）
-  - HN 讨论：https://news.ycombinator.com/item?id=50609685
-- [Amodei reportedly suggested games could pacify masses after AI took their jobs (2015)](https://www.theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness) — 来源：Hacker News（HN 74 分，82 条评论，发布于 11-23 20:41）
-  - HN 讨论：https://news.ycombinator.com/item?id=50610830
-- [Congress shreds Nvidia's 'outrageous' return of Huang: 'Failure of character'](https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-congress-trump.html) — 来源：Hacker News（HN 66 分，57 条评论，发布于 11-24 04:13）
-  - HN 讨论：https://news.ycombinator.com/item?id=50618490
-- [Localcode, open source agentic coding on your Mac with one command](https://github.com/mjwsolo/localcode) — 来源：Hacker News（HN 72 分，21 条评论，发布于 11-23 06:18）
-  - HN 讨论：https://news.ycombinator.com/item?id=50604540
-- [Muru – AI-assisted Rust server for Python apps by mod_WSGI's creator](https://simonwillison.net/2026/Nov/21/muru/) — 来源：Hacker News（HN 78 分，12 条评论，发布于 11-22 17:57）
-  - HN 讨论：https://news.ycombinator.com/item?id=50597959
-- [Harvard CS 2881R AI Safety](https://boazbk.github.io/mltheoryseminar/) — 来源：Hacker News（HN 79 分，8 条评论，发布于 11-23 02:01）
-  - HN 讨论：https://news.ycombinator.com/item?id=50602153
+- [LLM agents work for their parent companies, not for you](https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/) — 来源：Hacker News（HN 947 分，393 条评论，发布于 11-24 20:40）
+  - HN 讨论：https://news.ycombinator.com/item?id=50627340
+- [Who in Washington owns and trades Nvidia stock](https://www.kadoa.com/congress/insights/trump-nvidia) — 来源：Hacker News（HN 281 分，164 条评论，发布于 11-24 19:51）
+  - HN 讨论：https://news.ycombinator.com/item?id=50626861
+- [Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?](https://news.ycombinator.com/item?id=50630809) — 来源：Hacker News（HN 237 分，177 条评论，发布于 11-25 00:45）
+  - 简介：Basically the title. Anthropic is accusing me and my company of using their API for distillation. We are not. We do not train our own models. Our only usage which I think could get us flagged is autom
+- [Anthropic Staff Openly Talk About ‘Taking Over the World’, Claims Max Tegmark](https://novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist/) — 来源：Hacker News（HN 205 分，109 条评论，发布于 11-25 01:10）
+  - HN 讨论：https://news.ycombinator.com/item?id=50631210
+- [Declare is a UI language for you and your AI](https://davidtemkin.github.io/declarelang/) — 来源：Hacker News（HN 110 分，92 条评论，发布于 11-24 10:36）
+  - HN 讨论：https://news.ycombinator.com/item?id=50622854
+- [Ex-Nvidia partner Megaspeed hit with U.S. Commerce Department export ban](https://www.upi.com/Top_News/US/2026/11/24/NVIDIA-partner-Megaspeed/1701795520063/) — 来源：Hacker News（HN 121 分，69 条评论，发布于 11-25 00:08）
+  - HN 讨论：https://news.ycombinator.com/item?id=50630245
+- [OpenAI reveals they solved VP ≠ VNP before Anthropic](https://github.com/openai/math/tree/main/preprints/VP-and-VNP-are-different-November-23-2026) — 来源：Hacker News（HN 86 分，91 条评论，发布于 11-25 02:55）
+  - HN 讨论：https://news.ycombinator.com/item?id=50632756
+- [PenGPT: A Generative Transformer for Handwriting and Sketches](https://greydanus.github.io/2026/11/12/pengpt/) — 来源：Hacker News（HN 139 分，24 条评论，发布于 11-25 08:54）
+  - HN 讨论：https://news.ycombinator.com/item?id=50637056
 
 ## 素材二：新东西
 
 ### 官方发布
 
-- [OpenAI and Cisco introduce Shirudo](https://openai.com/index/introducing-shirudo) — 来源：Hacker News、OpenAI（HN 60 分，16 条评论，发布于 11-24 05:20）
-  - HN 讨论：https://news.ycombinator.com/item?id=50619630
-  - 简介：OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.
-- [Supercharging transformer residual connections](https://research.google/blog/supercharging-transformer-residual-connections/) — 来源：Google Research（发布于 11-24 01:21）
-  - 简介：Algorithms & Theory
-- [RoboTrack: Point tracking for real-world robotic manipulation](https://huggingface.co/blog/allenai/robotrack) — 来源：Hugging Face 博客（发布于 11-24 01:20）
-- [A more tailored Google Search that’s uniquely yours](https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/) — 来源：Google AI 博客（发布于 11-24 01:00）
-  - 简介：Google Search bar with the text "Personal Intelligence" surrounded by the Google Wallet, Google Drive, GMail, Google Photos, Google Calendar, and Google G logo icons
-- [Finding faster quantum algorithms with agents and formal verification](https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/) — 来源：Google DeepMind（发布于 11-24 00:59）
-  - 简介：Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.
-- [Connected intelligence for in-house legal](https://openai.com/business/learn/connected-intelligence-for-in-house-legal) — 来源：OpenAI（发布于 11-23 16:00）
-  - 简介：Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.
-- [Richpanel helps companies automate 50% of support in 30 days](https://openai.com/business/customer-stories/richpanel-ai-customer-support) — 来源：OpenAI（发布于 11-23 16:00）
-  - 简介：Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.
-- [How to build and maintain an agentic evaluation](https://huggingface.co/blog/agentic-evals) — 来源：Hugging Face 博客（发布于 11-23 08:00）
-- [Working with AI](https://www.anthropic.com/research/working-with-ai) — 来源：Anthropic 研究（发布于 11-23 08:00）
-  - 简介：We interviewed people at 58 companies that use Claude about how AI is changing their work. They described few layoffs but reduced hiring, and said the most valuable uses of AI often involved reorganizing roles and workplaces around it.
-- [Zero data retention with Enterprise Frontier Safeguards is now in beta](https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards) — 来源：Claude 博客（发布于 11-23 08:00）
-  - 简介：Zero data retention with Enterprise Frontier Safeguards is now in beta
+- [Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton](https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance) — 来源：Hugging Face 博客（发布于 11-25 00:34）
+- [How Gemini is changing the game for Golden State's organization and fans.](https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/) — 来源：Google AI 博客（发布于 11-25 00:00）
+  - 简介：Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.
+- [GPT-6 models demonstrate intrinsic protein-design capabilities](https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities) — 来源：Hacker News、OpenAI（HN 217 分，65 条评论，发布于 11-24 21:00）
+  - HN 讨论：https://news.ycombinator.com/item?id=50634658
+  - 简介：GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.
+- [Searching for distant planets with Astra](https://openai.com/index/searching-for-distant-planets-with-astra) — 来源：OpenAI（发布于 11-24 19:00）
+  - 简介：See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.
+- [How Intentful uses dots to make more time for growth](https://openai.com/business/customer-stories/intentful-dots) — 来源：OpenAI（发布于 11-24 08:00）
+  - 简介：Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.
+- [How iFood scales coding agents across 15,000 repositories](https://openai.com/business/customer-stories/ifood) — 来源：OpenAI（发布于 11-24 08:00）
+- [Clay helps sales teams win with Codex and ChatGPT](https://openai.com/business/customer-stories/clay-plugins-openai) — 来源：OpenAI（发布于 11-24 08:00）
+  - 简介：ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.
+- [MCP servers can now ship skills, run tasks, and more with Claude](https://claude.com/resources/articles/skills-over-mcp-tasks-and-more) — 来源：Claude 博客（发布于 11-24 08:00）
+  - 简介：MCP servers can now ship skills, run tasks, and more with Claude
+- [Turn artifacts into Mac and Windows apps](https://claude.com/resources/articles/install-as-app) — 来源：Claude 博客（发布于 11-24 08:00）
+  - 简介：Open the artifacts you use every day like any other app, and let them do more on your computer
 
 ### 新上线的模型（OpenRouter）
 
-今天没有。
+- [Upstage: Solar Mini 4.5 (Preview)](https://openrouter.ai/upstage/solar-mini-4-5) — 上线于 11-25，上下文 524,288 token，每百万 token 输入 $0.01、输出 $0.04
+  - 简介：Solar Mini 4.5 is Upstage's compact language model, built on a proprietary mixture-of-experts architecture with 35B total and 3B active parameters and a 524K context window. It is a step...
+- [Upstage: Solar Pro 4 Contributor](https://openrouter.ai/upstage/solar-pro-4-contributor) — 上线于 11-25，上下文 524,288 token，每百万 token 输入 $0.09、输出 $0.36
+  - 简介：Solar Pro 4 Contributor is the same Solar Pro 4 model from Upstage, offered at a lower rate in exchange for allowing Upstage to use interaction data to improve its...
+- [Xiaomi: MiMo-V2.6-Flash-MOPD](https://openrouter.ai/xiaomi/mimo-v2.6-flash-mopd) — 上线于 11-24，上下文 1,048,576 token，每百万 token 输入 $0.15、输出 $0.42
+  - 简介：MiMo-V2.6-Flash-MOPD is an updated checkpoint of Xiaomi's MiMo-V2.6-Flash, a Mixture-of-Experts model with 309B total and 15B active parameters, a 1M-token context window, and native multimodal input. It adds a multi-teacher...
 
-### 开源项目和 Skill（GitHub 项目雷达 2026-11-24，已按涨星速度等打过分）
+### 开源项目和 Skill（GitHub 项目雷达 2026-11-25，已按涨星速度等打过分）
 
-- [l0ng-ai/openidea](https://github.com/l0ng-ai/openidea) — ⭐ 10,018（每天 +144.0 星） · 创建 33 天 · TypeScript · Apache-2.0 · 200 位贡献者 · 雷达评分 100（潜力股）
-  - 简介：The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.
-- [lnkiai/m3e-canvas](https://github.com/lnkiai/m3e-canvas) — ⭐ 10,844（每天 +95.0 星） · 创建 83 天 · TypeScript · MIT · 16 位贡献者 · 雷达评分 99（潜力股）
-  - 简介：Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.
-- [0xJacky/nginx-ui](https://github.com/0xJacky/nginx-ui) — ⭐ 11,870（每天 +53.0 星） · 创建 2103 天 · Go · AGPL-3.0 · 68 位贡献者 · 雷达评分 98（值得关注）
-  - 简介：Yet another WebUI for Nginx
-- [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) — ⭐ 20,396（每天 +442.0 星） · 创建 58 天 · JavaScript · NOASSERTION · 10 位贡献者 · 雷达评分 97（潜力股）
-  - 简介：A toolbox of film styles made in code for Claude Code: 99 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：99 种现成风格，也能做出你自己的
-- [xerj-org/xerj](https://github.com/xerj-org/xerj) — ⭐ 20,276（每天 +836.0 星） · 创建 147 天 · Rust · Apache-2.0 · 153 位贡献者 · 雷达评分 97（值得关注）
-  - 简介：AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.
-- [Gentleman-Programming/gentle-ai](https://github.com/Gentleman-Programming/gentle-ai) — ⭐ 9,517（每天 +39.0 星） · 创建 269 天 · Go · MIT · 103 位贡献者 · 雷达评分 97（值得关注）
-  - 简介：Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.
-- [repowise-dev/repowise](https://github.com/repowise-dev/repowise) — ⭐ 8,238（每天 +35.0 星） · 创建 245 天 · Python · AGPL-3.0 · 287 位贡献者 · 雷达评分 96（值得关注）
-  - 简介：Codebase intelligence for AI and humans: code health scores, auto-generated docs, git analytics, dead code detection, and architectural decisions via MCP.
-- [OpenByteInc/QuantDinger](https://github.com/OpenByteInc/QuantDinger) — ⭐ 13,952（每天 +34.0 星） · 创建 330 天 · Python · Apache-2.0 · 37 位贡献者 · 雷达评分 96（值得关注）
-  - 简介：The most complete open-source, self-hosted Agentic Trading OS—AI research, Python strategies, factor discovery, backtesting, optimization, paper/live multi-asset execution, risk controls, monitoring, MCP, and multi-tenant SaaS in one auditable stack.
-- [upstash/context7](https://github.com/upstash/context7) — ⭐ 65,354（每天 +58.0 星） · 创建 607 天 · TypeScript · MIT · 148 位贡献者 · 雷达评分 96（值得关注）
-  - 简介：Context7 Platform -- Up-to-date docs for AI agents
-- [rorkai/App-Store-Connect-CLI](https://github.com/rorkai/App-Store-Connect-CLI) — ⭐ 8,500（每天 +36.0 星） · 创建 307 天 · Go · MIT · 416 位贡献者 · 雷达评分 96（值得关注）
-  - 简介：Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more
+- [JuneYaooo/rea-video](https://github.com/JuneYaooo/rea-video) — ⭐ 13,071（每天 +309.0 星） · 创建 26 天 · Python · Apache-2.0 · 25 位贡献者 · 雷达评分 100（潜力股）
+  - 简介：Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。
+- [ruvnet/RuView](https://github.com/ruvnet/RuView) — ⭐ 105,084（每天 +85.0 星） · 创建 536 天 · Rust · MIT · 51 位贡献者 · 雷达评分 100（值得关注）
+  - 简介：π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.
+- [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) — ⭐ 53,848（每天 +47.0 星） · 创建 915 天 · TypeScript · AGPL-3.0 · 546 位贡献者 · 雷达评分 99（值得关注）
+  - 简介：Your AI workspace for models, agents, and productivity.
+- [qybaihe/bla](https://github.com/qybaihe/bla) — ⭐ 6,766（每天 +225.5 星，按总星数平均） · 创建 30 天 · TypeScript · MIT · 11 位贡献者 · 雷达评分 98（潜力股）
+  - 简介：🛡️ BLA (bla-agents / Blind LLM Agents) — Open-source Blue Defense MCP server & CLI protecting JS/TS, Electron ASAR, WASM, Python, Native Binaries, SQLite, GGUF/Safetensors & Android DEX against AI reverse-engineering agents (REA).
+- [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) — ⭐ 22,466（每天 +147.0 星） · 创建 128 天 · TypeScript · Apache-2.0 · 17 位贡献者 · 雷达评分 97（值得关注）
+  - 简介：AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export.
+- [blader/humanizer](https://github.com/blader/humanizer) — ⭐ 73,276（每天 +444.0 星） · 创建 310 天 · Python · MIT · 30 位贡献者 · 雷达评分 96（值得关注）
+  - 简介：Agent skill that removes signs of AI-generated writing from text
+- [xcl-dev/xcl](https://github.com/xcl-dev/xcl) — ⭐ 7,945（每天 +1986.2 星，按总星数平均） · 创建 4 天 · Rust · GPL-2.0 · 110 位贡献者 · 雷达评分 95（潜力股）
+  - 简介：Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL
+- [miqdadbadjuber/anti-slop](https://github.com/miqdadbadjuber/anti-slop) — ⭐ 10,078（每天 +106.0 星） · 创建 109 天 · JavaScript · MIT · 14 位贡献者 · 雷达评分 95（值得关注）
+  - 简介：Rules for an AI coding agent to filter out generic AI-generated UI designs, text, and code.
+- [vitali87/code-graph-rag](https://github.com/vitali87/code-graph-rag) — ⭐ 5,436（每天 +29.0 星） · 创建 526 天 · Python · MIT · 80 位贡献者 · 雷达评分 95（值得关注）
+  - 简介：The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs
+- [zenstory-ai/oh-story-claudecode](https://github.com/zenstory-ai/oh-story-claudecode) — ⭐ 8,899（每天 +37.0 星） · 创建 216 天 · JavaScript · MIT · 10 位贡献者 · 雷达评分 94（值得关注）
+  - 简介：网文写作 Agent 技能包：扫榜、拆文、大纲细纲、长短篇连载、伏笔追踪、去AI味与封面生成，适配 Claude Code / Codex 等 ｜ Agent skills for writing web novels
 
 ### 新工具（Show HN：作者自己发出来的新项目）
 
@@ -200,69 +216,69 @@
 
 ## 素材三：论文（HF 每日论文，社区投票精选，按点赞数排序）
 
-- [cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction](https://huggingface.co/papers/2611.27193) — 来源：HF 每日论文（94 人点赞，3 条评论，发布于 11-23 08:00）
-  - 代码：https://github.com/Newiz430/cmHC
-  - 简介：Manifold-constrained Hyper-Connections (mHC) extends residual connections to multiple streams and stabilizes residual propagation by constraining stream-mixing residual matrices to the Birkhoff polytope, the set of doubly stochastic matrices. In this work, we investigate how to effectively mix residual streams within the Birkhoff polytope. We reveal a mixing trade-off: when under-mixed residual matrices stay close to the vertices of the Birkhoff polytope, hyper-connections will degenerate into a
-- [Non-penetrating World Models](https://huggingface.co/papers/2611.27963) — 来源：HF 每日论文（55 人点赞，3 条评论，发布于 11-23 08:00）
-  - 代码：https://github.com/yuhangdai427/NoPeWorld
-  - 简介：We study a new problem of preventing object penetration in interactive video world models. To understand how existing models handle this, we introduce NoPeBench, a benchmark that evaluates how world models respond to physical obstacles. Our evaluation reveals that none of the open-source models can reliably prevent such failures. Surprisingly, however, these models already encode the information needed to predict such violations. We find that the hidden states of diffusion transformers (DiTs) ca
-- [Learning Video Foresight Reasoning from Unlabeled Videos via On-Policy Self-Distillation](https://huggingface.co/papers/2611.26954) — 来源：HF 每日论文（42 人点赞，2 条评论，发布于 11-23 08:00）
-  - 代码：https://github.com/Jingchensun/future-opsd
-  - 简介：Video foresight reasoning requires vision-language models to anticipate future events or next actions from currently observed videos. Existing methods fit future captions, rationales, or full visual states, but face two limitations. First, they rely on annotations or external large models for supervision, limiting scalability. We address this with an on-policy self-distillation framework that turns past-future video pairs into a natural self-supervised signal without extra annotations or LLM sup
-- [Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control](https://huggingface.co/papers/2611.29897) — 来源：HF 每日论文（38 人点赞，1 条评论，发布于 11-24 08:00）
-  - 代码：https://github.com/AIGeeksGroup/MotionMamba2.0
-  - 简介：Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing autoregressive diffusion methods generate motion incrementally, but bounded attention caches limit access to distant history, while repeated denoising introduces substantial inference overhead. We present Motion Mamba 2.0, a Mamba-based root-body diffusion architecture that integrates loc
-- [Clover-35B-A3B-Preview Technical Report](https://huggingface.co/papers/2611.24636) — 来源：HF 每日论文（37 人点赞，4 条评论，发布于 11-23 08:00）
-  - 代码：https://github.com/DiffuSpace/Clover-35B-A3B-Preview
-  - 简介：We introduce Clover-35B-A3B-Preview (Clover), a mixture-of-experts diffusion language model with 35 billion total parameters and 3 billion activated parameters, supporting thinking-mode generation. Clover adapts Gated Delta Networks to block diffusion by combining recurrent memory of previously generated context with bidirectional softmax attention inside the current block. Historical memory readout competes with current-block tokens in a shared softmax, with learnable block-size calibration and
-- [Plan4D: Generative Plannable 4D Worlds](https://huggingface.co/papers/2611.26516) — 来源：HF 每日论文（26 人点赞，1 条评论，发布于 11-24 08:00）
-  - 代码：https://github.com/AMAP-ML/plan4d
-  - 简介：Most world models for future prediction prioritize aestetic quality of generated videos, but offer only weak physical grounding and limited geometric consistency over time, due to the lack of explicit 4D modeling. In this paper, we introduce plan4d, a possible next milestone towards building a generative plannable 4D world model that predicts future RGB videos together with dense 4D geometry, including depth, cameras, point clouds, and scene flow from an observed scene context and text-specified
-- [AutoPILOT: A Visual Agent Harness for Real-Time Gameplay](https://huggingface.co/papers/2611.28202) — 来源：HF 每日论文（25 人点赞，1 条评论，发布于 11-24 08:00）
-  - 简介：Multimodal foundation models can play video games well when the game waits for them, but often fail when it keeps running. We find that much of this gap lies in the harness, which decides what the model sees, what it remembers, and how its outputs become actions over time. Existing harnesses such as VISTA improve the first two, yet turn each model call into at most one action, so the agent acts only as often as its model thinks. We introduce AutoPILOT, which changes the third: in each model call
-- [MemOnce: A Scalable Memory Architecture for Large Language Models](https://huggingface.co/papers/2611.27973) — 来源：HF 每日论文（22 人点赞，2 条评论，发布于 11-23 08:00）
-  - 代码：https://github.com/Clare-Nie/MemOnce
-  - 简介：Deploying large language models (LLMs) in long-horizon and continual interactions requires maintaining reusable memory states for future inference, posing challenges for existing architectures. Standard Transformers accumulate layer-wise, token-level KV caches, incurring linear GPU memory growth and quadratic computational complexity as the context expands. In contrast, linear-time architectures compress history into fixed-size states, but struggle to retain fine-grained details. We introduce Me
-- [Reading the Unreadable: Text-Aware Image Super-Resolution Needs Reasoning](https://huggingface.co/papers/2611.15449) — 来源：HF 每日论文（22 人点赞，2 条评论，发布于 11-23 08:00）
-  - 代码：https://github.com/jasonleex1995/TAISR_needs_Reasoning
-  - 简介：Text-aware image super-resolution (TAISR) aims to recover high-resolution images from low-resolution inputs while preserving textual content. Existing methods treat this as a visual restoration problem, yet severely degraded text often cannot be read from local visual evidence alone. Humans instead read it by reasoning over image context, logical patterns, and prior knowledge. This raises a fundamental question: Does TAISR need reasoning? To answer this, we introduce two diagnostic tools. The fi
-- [3AGameFactory-Motion: Agentic Rigging and Reliable Complex Motion Generation for Diverse 3D Assets](https://huggingface.co/papers/2611.30013) — 来源：HF 每日论文（16 人点赞，1 条评论，发布于 11-24 08:00）
-  - 代码：https://github.com/OpenDCAI/GameFactory-3A
-  - 简介：Animating arbitrary 3D assets from instructions requires both structural inference and motion control, yet existing motion benchmarks mostly cover conventional human or animal skeletons with simple instructions. We introduce DivDynBench, which evaluates rigging and motion generation across six morphology categories, with instructions requiring multi-phase part coordination and explicit timing, angle, repetition, and trajectory constraints. With large language models, we systematically compare th
-- [A Glimpse of Training VLMs as Foundation Models for Robotic Manipulation](https://huggingface.co/papers/2611.29338) — 来源：HF 每日论文（11 人点赞，1 条评论，发布于 11-24 08:00）
-  - 简介：Recently, GPT-6 Astra demonstrates strong generalization in robot control, yet limited disclosure of its training leaves open how such capabilities can be reproduced. We introduce nanoAstra, an approach to training vision-language models (VLMs) for generalizable manipulation that combines semantic action modeling with capability-preserving supervised fine-tuning (CP-SFT). nanoAstra represents robot behavior as semantic steps composed of reusable, parameterized action primitives, guided by explic
-- [Self-WSP: Can Language Models Improve Themselves Through Weight-Space Programming?](https://huggingface.co/papers/2611.28833) — 来源：HF 每日论文（9 人点赞，1 条评论，发布于 11-24 08:00）
-  - 简介：Frontier language models can now read and edit the weights of a neural network much like code and thereby improve a small model, an approach known as Weight-Space Programming (WSP). We further explore applying WSP to a language model itself, which we call Self-WSP. Specifically, Qwen3.5-0.8B reads its own weights, proposes an edit, and then continues with the edited weights as both problem solver and editor. We find many cases of genuine self-improvement. Self-edits can raise GSM8K accuracy from
+- [WorldLeague: Benchmarking Physical Agency](https://huggingface.co/papers/2611.30989) — 来源：HF 每日论文（122 人点赞，2 条评论，发布于 11-24 08:00）
+  - 代码：https://github.com/xyangzhou/WorldLeague
+  - 简介：AI systems can now operate Blender, follow instructions in complex video games, and manipulate objects with robot arms. What range of physical goals can today's AI systems achieve autonomously? Answering this question requires testing systems on tasks that demand different combinations of perception, memory, planning, and action. We introduce WorldLeague, a benchmark that compares AI systems on a common set of 60 simulated robot tasks by measuring progress toward each task's physical goal from t
+- [Embo-Harness: Towards Understanding Frontier-Model-as-Policy Harness](https://huggingface.co/papers/2611.31201) — 来源：HF 每日论文（90 人点赞，2 条评论，发布于 11-24 08:00）
+  - 代码：https://github.com/DravenALG/Embo-Harness
+  - 简介：Frontier multimodal models exhibit extraordinary generalization in generating robot actions from observations and instructions, enabling a new paradigm in which they serve directly as policies within closed-loop robotic harnesses. However, the design principles of such harnesses, and the capabilities underlying their strong performance, remain unclear. We present Embo-Harness, a framework for systematically studying frontier-model-as-policy harnesses. We investigate four components of the roboti
+- [WeMM-Ecom: Advancing Multimodal Content Understanding for WeChat E-Commerce](https://huggingface.co/papers/2611.30662) — 来源：HF 每日论文（53 人点赞，1 条评论，发布于 11-24 08:00）
+  - 代码：https://github.com/Tencent/WeMM-Ecom
+  - 简介：We present WeMM-Ecom, a family of multimodal large language models that deliver frontier e-commerce capabilities while achieving state-of-the-art general-purpose performance at their respective scales. The family spans five sizes, from a 0.8B dense model to a 35B mixture-of-experts model with 3B active parameters. Our training pipeline begins with two-stage continued pre-training that progressively raises the proportion of e-commerce data within a diverse multimodal data mixture, followed by hyb
+- [Let the Fixer Decide: Training a Code Localizer from the Fixer's Likelihood](https://huggingface.co/papers/2611.12164) — 来源：HF 每日论文（51 人点赞，4 条评论，发布于 11-24 08:00）
+  - 代码：https://github.com/misraj-ai/locfix
+  - 简介：Code localizers are usually trained to predict the files a reference patch edits, but the code a fixer needs to read is not the same as the code it changes. We propose Fixer-Guided Localization (FGL): the localizer proposes several localizations, a frozen fixer scores each by how likely it makes a verified patch, and the localizer is trained on these scores with weighted supervised fine-tuning, without running tests and without reinforcement learning. We build the full pipeline on Gemma 4 E4B fo
+- [ViDecide: Teaching Video Diffusion Models to Reason and Plan Step by Step](https://huggingface.co/papers/2611.26389) — 来源：HF 每日论文（37 人点赞，3 条评论，发布于 11-24 08:00）
+  - 代码：https://github.com/Kevin-thu/ViDecide
+  - 简介：Current leading video generation models can synthesize highly realistic videos, while still frequently violating physical and logical constraints in multi-step reasoning and planning, even after training with large-scale reasoning data or existing diffusion RL methods. We attribute these failures to the conventional video training paradigm, which treats a solution as a fixed-length clip rather than a chain of decisions. We present ViDecide, a decision-centric framework that trains video diffusio
+- [Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation](https://huggingface.co/papers/2611.31358) — 来源：HF 每日论文（37 人点赞，1 条评论，发布于 11-24 08:00）
+  - 简介：Visual creation demands expressive imagery together with precise control over text, layout, and structure. We introduce Nemotron-Labs-VisualCreation, an agentic framework that connects these capabilities through Pixel as Code. Raster images are represented by learned discrete visual tokens, while structured artifacts use explicit programs. A shared generation-and-rendering interface connects these representations to visual feedback across images, vector graphics, webpages, and documents. A Nemot
+- [Composable Soft-Prompt Distillation of RL Experts: Toward Continual Post-Training](https://huggingface.co/papers/2611.27376) — 来源：HF 每日论文（30 人点赞，2 条评论，发布于 11-24 08:00）
+  - 代码：https://github.com/UCSB-AI/CSPD
+  - 简介：RL post-training typically produces domain experts that must then be consolidated into one model, and as new experts keep arriving, this consolidation becomes a continual process. Weight merging and multi-teacher on-policy distillation (MOPD) must re-consolidate the whole model whenever an expert is added, and can erode capabilities outside the target domains. We propose Composable Soft-Prompt Distillation (CSPD), which keeps the pre-RL model frozen, distills each RL expert independently into a 
+- [World Models as Native Latent Action Models](https://huggingface.co/papers/2611.30898) — 来源：HF 每日论文（25 人点赞，2 条评论，发布于 11-24 08:00）
+  - 简介：Large and diverse video sources, such as egocentric human video and heterogeneous robot recordings, carry rich dynamics but come either without actions or without a shared action space. Latent action models (LAMs) can recover these dynamics, but they train their inverse- and forward-dynamics models (IDM, FDM) from scratch, trading off pixel reconstruction against latent capacity and accuracy. Pretrained video world models natively generate high-fidelity dynamics, yet represent them densely, enta
+- [RUIBench: What Makes a Good Robot-Use Interface?](https://huggingface.co/papers/2611.31115) — 来源：HF 每日论文（22 人点赞，3 条评论，发布于 11-24 08:00）
+  - 代码：https://github.com/showlab/RUIBench
+  - 简介：Foundation models can reason about complex physical tasks, yet translating this intelligence into reliable robot execution remains challenging. We argue that a critical, often overlooked factor is the robot-use interface (RUI), which determines how agents express and execute physical actions. To systematically study its impact, we introduce RUIBench, comprising 30 manipulation tasks across five suites spanning world knowledge, in-context learning, discovery, dynamic interaction, and contact-rich
+- [S-Mind: Internalizing Multi-View Geometry for Spatial Intelligence](https://huggingface.co/papers/2611.28649) — 来源：HF 每日论文（21 人点赞，1 条评论，发布于 11-25 08:00）
+  - 代码：https://github.com/KANABOON1/S-Mind
+  - 简介：Spatial intelligence, the ability to reason about 3D space from visual observations, becomes essential as multimodal large language models (MLLMs) move into the physical world. Beyond perceiving each view, it rests on two cornerstones of human cognition: fusing multiple views into one coherent 3D scene and mentally transforming that scene to new viewpoints as reasoning unfolds. Yet our spatial probes reveal that MLLMs largely lack both capabilities, even after spatial fine-tuning. We therefore p
+- [ViDiHand2: Unifying Video Diffusion Priors and Hand Geometry for 3D Hand Motion Reconstruction in the Wild](https://huggingface.co/papers/2611.30597) — 来源：HF 每日论文（20 人点赞，2 条评论，发布于 11-24 08:00）
+  - 简介：Learning robot manipulation from egocentric human videos requires accurate metric 3D hand motion. Recent methods leverage pretrained video diffusion model (VDM) priors to recover occluded hands directly from full-frame videos, but their appearance-based depth regression generalizes poorly to unseen cameras. In this work, we propose ViDiHand2, a geometry-driven framework that reformulates VDM-based hand depth estimation from direct regression into fine-grained geometric constraint solving. Specif
+- [Distilling Visual Agents from Limited Interaction Experience](https://huggingface.co/papers/2611.28618) — 来源：HF 每日论文（19 人点赞，2 条评论，发布于 11-24 08:00）
+  - 代码：https://github.com/elated-sawyer/visual-agent-distillation
+  - 简介：How much interaction experience is needed to distill a capable visual agent? We study learning from few tasks and recorded interaction histories. Our framework selects representative trajectories using skill-context coverage and ordered visual-decision similarity. On-policy distillation (OPD) learns through fresh interaction on selected tasks or fresh student responses at fixed histories. Across Navigation, Sokoban, and spatial mapping, even one online training task supports transfer to other ta
 
 ## 附：博客和 Newsletter 的其他新文章
 
-- [［AINews］ Jensen Is Back! and OpenAI Shows Its Pretraining Curve, joined by Microsoft](https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/) — 来源：Latent Space（含每天的 AINews：汇总推特、Reddit、Discord 的讨论）（发布于 11-24 12:14）
-  - 简介：Congrats to Sierra on tripling last year’s $10B valuation , and to Z.ai for releasing GLM 5.4 , their first looped transformer following Thinking Mach
-- [报名从速｜来MEET2027！听AI前沿实践者交出“判断”](https://www.qbitai.com/2026/11/512329.html) — 来源：量子位（发布于 11-24 11:33）
-  - 简介：12.9 北京，来MEET2027现场
-- [蚂蚁OceanBase发布湖库一体AI数据平台OceanLake，核心引擎向全球开源](https://www.qbitai.com/2026/11/512330.html) — 来源：量子位（发布于 11-24 11:30）
-  - 简介：中国AI数据平台加速崛起
-- [释放AI与出海强预期，近1500人参与亿邦产业互联网年会暨首届产业智能体大会](https://www.qbitai.com/2026/11/512305.html) — 来源：量子位（发布于 11-24 11:21）
-  - 简介：2026年11月20日，第八届亿邦产业互联网年会与首届产业智能体大会在北京国贸大酒店首次合体举行。
-- [“得Agent开发者，得天下”，70+技术大咖共探AI技术演进与生态变革，2026奇点智能技术大会圆满收官！](https://www.qbitai.com/2026/11/512297.html) — 来源：量子位（发布于 11-24 10:36）
-  - 简介：「2026 奇点智能技术大会」与「2026 C++ 及系统软件技术大会」在北京万达文华酒店成功举办。
-- [具身行业，终于等来了自己的通用智能时刻](https://www.qbitai.com/2026/11/512264.html) — 来源：量子位（发布于 11-24 09:51）
-  - 简介：行业苦等多年的预训练通用智能，终于有了答案
-- [老黄回归现场盛况空前！员工人山人海夹道欢迎，“哪里领入职电脑”](https://www.qbitai.com/2026/11/512252.html) — 来源：量子位（发布于 11-24 09:32）
-  - 简介：离职员工：我可能走早了
-- [Trump engineered a risky comeback for Jensen Huang](https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated) — 来源：The Verge AI（发布于 11-24 06:25）
-  - 简介：After Nvidia's board accepted Jensen Huang's resignation as CEO, following reports that Huang had an affair with an alleged Chinese spy, President Don
-- [Welcome to elite impunity, Jensen Huang](https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang) — 来源：The Verge AI（发布于 11-24 06:09）
-  - 简介：I suppose I must issue a hearty congratulations to Jensen Huang. Huang is CEO of Nvidia again, to the surprise of basically everyone except President 
-- [Supertake raises $20M to let AI agents turn your market predictions into stock portfolios](https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/) — 来源：TechCrunch AI（发布于 11-24 06:02）
-  - 简介：Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks yourself.
-- [Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal](https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/) — 来源：TechCrunch AI（发布于 11-24 05:47）
-  - 简介："The mistake has been corrected," Elon Musk chimed in.
-- [Ladybird's first alpha release](https://simonwillison.net/2026/Nov/23/ladybird/) — 来源：Simon Willison（发布于 11-24 05:46）
-  - 简介：Ladybird is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components - HTML parsing, CSS 
-- [Megaspeed, the company at the center of the Jensen Huang scandal, appears headed for a US blacklist](https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/) — 来源：TechCrunch AI（发布于 11-24 05:25）
-  - 简介：Megaspeed, which was previously led by Alice Huang, would be barred from doing business with U.S. companies unless those companies attained a special 
-- [AI data centers throw another wrench into chaotic UN climate talks](https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit) — 来源：The Verge AI（发布于 11-24 05:09）
-  - 简介：The clean energy revolution hinges on electrifying the entire global economy just as power-hungry data centers are surging. It's a challenge delegates
-- [Nvidia employees greet Jensen Huang like a hero as he returns to company’s HQ](https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq/) — 来源：TechCrunch AI（发布于 11-24 04:38）
-  - 简介："I'm going to be a better CEO the second time around," Huang told employees.
+- [［AINews］ Gemini 4 Neon marks GDM's full return as a Frontier Lab](https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/) — 来源：Latent Space（含每天的 AINews：汇总推特、Reddit、Discord 的讨论）（发布于 11-25 12:29）
+  - 简介：Three months ago, shortly after the Demis/Dean/etc departures , and with disappointing progress on Gemini 3 models, people had publicly given up on Go
+- [Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion](https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/) — 来源：TechCrunch AI（发布于 11-25 08:12）
+  - 简介：Yale's Jeffrey Sonnenfeld warns that what the market cheered Monday, Jensen Huang's White House–backed return as Nvidia's CEO and board member, could 
+- [Three LLM inflection points in twelve months](https://simonwillison.net/2026/Nov/24/llm-inflection-points/) — 来源：Simon Willison（发布于 11-25 07:02）
+  - 简介：I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection p
+- [Even the best AI agents struggle with everyday life](https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/) — 来源：TechCrunch AI（发布于 11-25 05:33）
+  - 简介：As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably
+- [Walmart teams up with Meta to bring Black Friday deals to AI agent Muse](https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/) — 来源：TechCrunch AI（发布于 11-25 05:32）
+  - 简介：Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.
+- [Maple raises $5.3M to build AI products that protect your data, even from itself](https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/) — 来源：TechCrunch AI（发布于 11-25 05:19）
+  - 简介：The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.
+- [David Fincher is being dragged for suspected use of AI in his latest film](https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive) — 来源：The Verge AI（发布于 11-25 02:15）
+  - 简介：Though David Fincher's fans had been eagerly anticipating The Further Mis-Adventures of Cliff Booth, early screenings of the Once Upon a Time in Holly
+- [UK warns AI-driven cyberattacks are exposing years of weak security](https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/) — 来源：TechCrunch AI（发布于 11-25 02:02）
+  - 简介：The British cyber agency says that "building strong foundations has never mattered more" as AI hacking tools rely on exploiting simple security flaws.
+- [Meta brings its Muse AI assistant directly into Instagram DMs](https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/) — 来源：TechCrunch AI（发布于 11-25 01:00）
+  - 简介：The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.
+- [Why a Crusoe investor is betting on solar and batteries to power future AI data centers](https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/) — 来源：TechCrunch AI（发布于 11-25 00:10）
+  - 简介：Next-generation data centers will need tens of gigawatts of power every year. One of Crusoe's investors thinks solar and energy storage are the obviou
+- [The New York Times warns photographers not to update Photoshop over AI features](https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features) — 来源：The Verge AI（发布于 11-25 00:09）
+  - 简介：The New York Times is asking freelance photographers not to use the newest version of Adobe Photoshop because features in the 2027 update use AI "in w
+- [Pinterest will now let parents limit the AI-generated content their teens see](https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/) — 来源：TechCrunch AI（发布于 11-25 00:02）
+  - 简介：While other social platforms have focused on restricting teens' access to AI chatbots, Pinterest is addressing the AI content filling their feeds.
+- [Amazon’s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia](https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/) — 来源：TechCrunch AI（发布于 11-24 23:51）
+  - 简介：Amazon’s decision to acquire Decart for a reported $7.5 billion is part of its efforts to improve the efficiency of its Trainium chips.
+- [Raising the stakes for enterprise networks with AI modernization](https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/) — 来源：MIT 科技评论 AI（发布于 11-24 23:15）
+  - 简介：Enterprise networks are under severe strain. As companies rush to deploy artificial intelligence, the technology is quickly becoming the biggest sourc
+- [A legendary philosopher isn’t buying Anthropic’s consciousness argument](https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/) — 来源：MIT 科技评论 AI（发布于 11-24 01:36）
+  - 简介：This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Before going
