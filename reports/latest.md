@@ -1,130 +1,130 @@
-# GitHub 项目雷达 · 2026-11-26
+# GitHub 项目雷达 · 2026-11-27
 
-> 搜到 602 个候选 → 过滤后 352 个 → 详细检查 40 个 → 入选 15 个
+> 搜到 604 个候选 → 过滤后 352 个 → 详细检查 40 个 → 入选 15 个
 
 ## 🚀 潜力股（新项目、涨得快）
 
-### [kingcharleslzy-ai/dsh-purge](https://github.com/kingcharleslzy-ai/dsh-purge) · 100 分
+### [LNPANDY/NX2Apple](https://github.com/LNPANDY/NX2Apple) · 100 分
 
-⭐ 12,688（+285/天） · 🍴 4,795 · 👥 38 位贡献者 · 📝 30 天 245 次提交 · JavaScript · MIT · 创建 40 天
+⭐ 8,618（+89/天） · 🍴 1,064 · 👥 50 位贡献者 · 📝 30 天 2180 次提交 · Swift · MIT · 创建 37 天
 
-> dsh-purge Community · DeepSeek Harness 社区维护版：宿主兼容、状态诊断、提示词管理、更新与本机备份回滚。基于小杨 / YuJunZhiXue 的 dsh-purge。
-
-<sub>来源：近 90 天新项目</sub>
-
-### [shinyobjectz/raea](https://github.com/shinyobjectz/raea) · 96 分
-
-⭐ 5,219（+137.3/天，平均） · 🍴 418 · 👥 11 位贡献者 · 📝 30 天 1532 次提交 · TypeScript · NOASSERTION · 创建 38 天
-
-> Render Anything Engine: tell your AI what to make. Videos, motion graphics, 3D and games as React and TypeScript, rendered on your own GPU. Rust + Bevy, macOS, Linux and Windows.
-
-<sub>来源：Agent Skill</sub>
-
-### [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) · 94 分
-
-⭐ 77,602（+129/天） · 🍴 6,865 · 👥 29 位贡献者 · 📝 30 天 63 次提交 · HTML · CC-BY-4.0 · 创建 80 天
-
-> 高性价比人生指南: 长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。
+> Play your own Switch games on iPhone/iPad — one-click macOS app, no terminal. | 把 Switch 游戏装进 iPhone：图形界面一键构建，不用命令行。Bring your own game.
 
 <sub>来源：近 90 天新项目</sub>
 
-### [anhao/ai-pose-gallery-zh](https://github.com/anhao/ai-pose-gallery-zh) · 92 分
+### [ersinkoc/phonebox](https://github.com/ersinkoc/phonebox) · 100 分
 
-⭐ 9,248（+424/天） · 🍴 2,370 · 👥 8 位贡献者 · 📝 30 天 94 次提交 · TypeScript · NOASSERTION · 创建 29 天
+⭐ 7,350（+386.8/天，平均） · 🍴 838 · 👥 73 位贡献者 · 📝 30 天 724 次提交 · JavaScript · MIT · 创建 19 天
 
-> 中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊
+> Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system stats, AI coding, media and automation, in 13 languages. USB or paired Wi-Fi. No cloud required.
+
+<sub>来源：近 90 天新项目</sub>
+
+### [anefzaoui/misterdownloadmanager](https://github.com/anefzaoui/misterdownloadmanager) · 99 分
+
+⭐ 18,596（+365/天） · 🍴 1,587 · 👥 61 位贡献者 · 📝 30 天 787 次提交 · Rust · GPL-3.0 · 创建 29 天
+
+> misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux
+
+<sub>来源：近 90 天新项目</sub>
+
+### [google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) · 98 分
+
+⭐ 23,243（+192/天） · 🍴 1,716 · 👥 39 位贡献者 · 📝 30 天 125 次提交 · Python · Apache-2.0 · 创建 74 天
+
+> Open-source plugin for designing and reviewing software with agents
+
+<sub>来源：近 90 天新项目、AI Agent、开发者工具、Agent Skill、Claude Skill</sub>
+
+### [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy) · 96 分
+
+⭐ 9,303（+73/天） · 🍴 2,512 · 👥 7 位贡献者 · 📝 30 天 162 次提交 · Python · NOASSERTION · 创建 39 天
+
+> 中小学 10 学科知识图谱查漏补缺：4,068 个知识点、6,429 条先修关系、16,419 道题。按国家课程标准逐条核对，诊断定位真正没学会的前置知识点，给出补学路径。
+
+<sub>来源：近 90 天新项目</sub>
+
+### [pengchujin/aerial-tv](https://github.com/pengchujin/aerial-tv) · 94 分
+
+⭐ 13,410（+90/天） · 🍴 1,163 · 👥 72 位贡献者 · 📝 30 天 672 次提交 · Kotlin · MIT · 创建 37 天
+
+> 给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.
+
+<sub>来源：近 90 天新项目</sub>
+
+### [thtbee/nectarlink](https://github.com/thtbee/nectarlink) · 93 分
+
+⭐ 7,113（+134.2/天，平均） · 🍴 569 · 👥 44 位贡献者 · 📝 30 天 680 次提交 · Rust · NOASSERTION · 创建 53 天
+
+> Your Android phone and your PC, working as one. Windows and Linux. Local-first, end-to-end encrypted, no account.
 
 <sub>来源：近 90 天新项目</sub>
 
 ## 👀 值得关注
 
-### [superdesigndev/treg](https://github.com/superdesigndev/treg) · 100 分
+### [MODSetter/SurfSense](https://github.com/MODSetter/SurfSense) · 100 分
 
-⭐ 9,126（+254/天） · 🍴 910 · 👥 35 位贡献者 · 📝 30 天 2199 次提交 · Python · NOASSERTION · 创建 133 天
+⭐ 17,053（+96/天） · 🍴 1,651 · 👥 134 位贡献者 · 📝 30 天 563 次提交 · Python · Apache-2.0 · 创建 849 天
 
-> OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn
-
-<sub>来源：开发者工具</sub>
-
-### [peach-mitao/peach](https://github.com/peach-mitao/peach) · 100 分
-
-⭐ 15,341（+60/天） · 🍴 1,802 · 👥 39 位贡献者 · 📝 30 天 2359 次提交 · Python · AGPL-3.0 · 创建 98 天
-
-> Peach: Local-first video metadata scraper and media manager.
+> Air-gapped, private AI for confidential documents. Open-source NotebookLM alternative that runs on your computer. Join our Discord: https://discord.gg/ejRNvftDp9
 
 <sub>来源：自部署</sub>
 
-### [ParadevAI/Paradev](https://github.com/ParadevAI/Paradev) · 99 分
+### [nexu-io/openmotion](https://github.com/nexu-io/openmotion) · 100 分
 
-⭐ 16,693（+90/天） · 🍴 1,507 · 👥 169 位贡献者 · 📝 30 天 809 次提交 · TypeScript · MIT · 创建 400 天
+⭐ 16,773（+359/天） · 🍴 1,666 · 👥 52 位贡献者 · 📝 30 天 843 次提交 · TypeScript · Apache-2.0 · 创建 199 天
 
-> Paradev is an open-source Codex App and Conductor alternative. Orchestrate an army coding agents in parallel with your own subscriptions.
-
-<sub>来源：开发者工具</sub>
-
-### [vercel/ai](https://github.com/vercel/ai) · 97 分
-
-⭐ 28,217（+37/天） · 🍴 5,720 · 👥 788 位贡献者 · 📝 30 天 556 次提交 · TypeScript · NOASSERTION · 创建 1282 天
-
-> The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents
-
-<sub>来源：LLM</sub>
-
-### [HKUDS/nanobot](https://github.com/HKUDS/nanobot) · 96 分
-
-⭐ 50,341（+35/天） · 🍴 8,771 · 👥 503 位贡献者 · 📝 30 天 320 次提交 · Python · MIT · 创建 297 天
-
-> Your lightweight open-source personal agent.
-
-<sub>来源：AI Agent、自部署、MCP</sub>
-
-### [citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) · 95 分
-
-⭐ 24,555（+132/天） · 🍴 1,391 · 👥 13 位贡献者 · 📝 30 天 131 次提交 · JavaScript · MIT · 创建 223 天
-
-> The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.
+> The open-source Claude Motion & CapCut alternative. Turn a reference video into editable motion graphics with your brand kit. Export MP4s for YouTube, YouTube Shorts, Instagram Reels, and TikTok. A full-stack agentic video studio with 300+ Motion.md guides and support for 22 agents, including Claude Code, Codex, DSH, and WorkBuddy.
 
 <sub>来源：Agent Skill</sub>
 
-### [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) · 95 分
+### [Infisical/infisical](https://github.com/Infisical/infisical) · 97 分
 
-⭐ 40,155（+40/天） · 🍴 3,498 · 👥 73 位贡献者 · 📝 30 天 37 次提交 · TypeScript · Apache-2.0 · 创建 614 天
+⭐ 30,819（+42/天） · 🍴 2,458 · 👥 297 位贡献者 · 📝 30 天 2216 次提交 · TypeScript · NOASSERTION · 创建 1574 天
 
-> Playwright MCP server
+> Infisical is the open-source platform for securing secrets, certificates, access, and AI Agents.
+
+<sub>来源：AI Agent</sub>
+
+### [FalkorDB/FalkorDB](https://github.com/FalkorDB/FalkorDB) · 97 分
+
+⭐ 10,578（+74/天） · 🍴 608 · 👥 82 位贡献者 · 📝 30 天 181 次提交 · Rust · NOASSERTION · 创建 1225 天
+
+> A super fast Graph Database uses GraphBLAS under the hood for its sparse adjacency matrix graph representation. Our goal is to provide the best Knowledge Graph for LLM (GraphRAG).
+
+<sub>来源：开发者工具</sub>
+
+### [PDFMathTranslate/PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate) · 97 分
+
+⭐ 38,697（+40/天） · 🍴 3,466 · 👥 59 位贡献者 · 📝 30 天 803 次提交 · Python · AGPL-3.0 · 创建 811 天
+
+> [EMNLP 2025 Demo] PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/MCP/Docker/Zotero
 
 <sub>来源：MCP</sub>
 
-### [slopus/happy](https://github.com/slopus/happy) · 95 分
+### [go-gitea/gitea](https://github.com/go-gitea/gitea) · 95 分
 
-⭐ 24,842（+34/天） · 🍴 2,140 · 👥 86 位贡献者 · 📝 30 天 1503 次提交 · Swift · MIT · 创建 495 天
+⭐ 59,295（+30/天） · 🍴 7,437 · 👥 1936 位贡献者 · 📝 30 天 255 次提交 · Go · MIT · 创建 3678 天
 
-> Orchestrate Claude, Codex and Grok in one app. Open-source (MIT), reuses the subscriptions you already pay for.
+> Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD
 
-<sub>来源：AI Agent</sub>
+<sub>来源：自部署</sub>
 
-### [mem0ai/mem0](https://github.com/mem0ai/mem0) · 93 分
+### [mutonby/openshorts](https://github.com/mutonby/openshorts) · 94 分
 
-⭐ 69,484（+48/天） · 🍴 8,269 · 👥 412 位贡献者 · 📝 30 天 9 次提交 · Python · Apache-2.0 · 创建 1254 天
+⭐ 9,956（+56/天） · 🍴 2,116 · 👥 17 位贡献者 · 📝 30 天 233 次提交 · Python · MIT · 创建 342 天
 
-> The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.
+> Open source AI clip generator: turns long videos into viral 9:16 shorts with AI moment detection, face tracking, subtitles and dubbing. Self-host free with Docker (MIT), or use the cloud with GPU speed from $12/mo. MCP server and API for AI agents.
 
-<sub>来源：LLM、AI Agent</sub>
+<sub>来源：Agent Skill</sub>
 
-### [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) · 93 分
+### [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) · 94 分
 
-⭐ 39,796（+53.3/天） · 🍴 5,917 · 👥 15 位贡献者 · 📝 30 天 9 次提交 · TypeScript · MIT · 创建 257 天
+⭐ 115,111（+337/天） · 🍴 10,354 · 👥 57 位贡献者 · 📝 30 天 83 次提交 · Python · MIT · 创建 276 天
 
-> Clone any website with one command using AI coding agents
+> Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.
 
-<sub>来源：AI Agent、开发者工具</sub>
-
-### [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) · 93 分
-
-⭐ 34,221（+33/天） · 🍴 4,906 · 👥 50 位贡献者 · 📝 30 天 23 次提交 · C++ · AGPL-3.0 · 创建 818 天
-
-> FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.
-
-<sub>来源：AI Agent</sub>
+<sub>来源：MCP</sub>
 
 ---
 
